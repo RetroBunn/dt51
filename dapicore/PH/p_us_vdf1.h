@@ -138,15 +138,15 @@ const short paul[SPDEF] =
 	1000,	/* B5 (was 180, bandwidth in Hz of cascaded 5th formant) */
 	3500,	// F7 (frequency in Hz of parallel 4th formant = F7), used in unvoiced frication
 	4500,	// F8 (frequency in Hz of parallel 5th formant = F8), used in unvoiced frication
-    55,     /* GF (gain of frication source in dB) */
-    60,     /* GH (gain of aspiration source in dB) */
-	60,		/* GV (gain of voicing source in dB ) */
-	71,		/* GN (gain of input to cascade nasal pole pair in dB) */
-	71,		/* G1 (gain of input to cascade 5th formant in dB) */
-	65,		/* G2 (gain of input to cascade 4th formant in dB) */
-	65,		/* G3 (gain of input to cascade 3rd formant in dB) */
-	66, 	/* G4 (gain of input to cascade 2nd formant in dB) */
-	70, 	/* LO (Loudness, gain input to cascade 1st formant in dB), G5 or Gain of F1 */
+    54,     /* GF (gain of frication source in dB) */
+    59,     /* GH (gain of aspiration source in dB) */
+	59,		/* GV (gain of voicing source in dB ) */
+	70,		/* GN (gain of input to cascade nasal pole pair in dB) */
+	70,		/* G1 (gain of input to cascade 5th formant in dB) */
+	64,		/* G2 (gain of input to cascade 4th formant in dB) */
+	64,		/* G3 (gain of input to cascade 3rd formant in dB) */
+	65, 	/* G4 (gain of input to cascade 2nd formant in dB) */
+	69, 	/* LO (Loudness, gain input to cascade 1st formant in dB), G5 or Gain of F1 */
 	73,		/* FT (f0-dependent spectral tilt in % of max) */
 	18,		// BF (baseline f0 fall in Hz), end-of-phrase fall
 	0,		// LX (lax folds adjacent to voiceless sound -> breathiness),  not used
