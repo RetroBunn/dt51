@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4413"
+   name=""
+   committed-date="2006-04-03T18:09:01.982423Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Chinese/Duration%20of%20Mandarin%20Syllables"
+   last-author="rpierce"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4413"
+   name="Duration of Mandarin Syllables Within Various Classifications.xls"
+   text-time="2006-04-06T18:04:11.265625Z"
+   committed-date="2006-04-03T18:09:01.982423Z"
+   checksum="6bf85cbf41004dbf711a8cbd992f0a11"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-04-06T18:04:11.234375Z"/>
+</wc-entries>

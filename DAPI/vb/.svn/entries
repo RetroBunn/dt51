@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4209"
+   name=""
+   committed-date="2006-03-18T01:49:07.828887Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/DAPI/vb"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4209"
+   name="dectalkvb.c"
+   text-time="2006-03-22T15:32:10.288066Z"
+   committed-date="2006-03-18T01:49:07.828887Z"
+   checksum="be34221db9e542e4af02f021a57b205b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:32:10.241192Z"/>
+<entry
+   committed-rev="4209"
+   name="dectalkvb.h"
+   text-time="2006-03-22T15:32:10.303691Z"
+   committed-date="2006-03-18T01:49:07.828887Z"
+   checksum="174b45ffd547ffa20145ebdcc97ad23b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:32:10.272442Z"/>
+<entry
+   committed-rev="4209"
+   name="dectalkvb.def"
+   text-time="2006-03-22T15:32:10.334940Z"
+   committed-date="2006-03-18T01:49:07.828887Z"
+   checksum="dae0da594a70c432f238616ef86904e5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:32:10.272442Z"/>
+</wc-entries>

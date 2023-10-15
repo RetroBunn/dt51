@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4916"
+   name=""
+   committed-date="2006-05-17T22:15:35.621823Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/linux"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="windict"
+   kind="dir"/>
+<entry
+   name="speak"
+   kind="dir"/>
+<entry
+   name="dtsamples"
+   kind="dir"/>
+<entry
+   committed-rev="4214"
+   name="Makefile"
+   text-time="2006-03-22T15:28:08.417710Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="fa8b83a9396ff934862f5a16e00bea5e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.402086Z"/>
+</wc-entries>

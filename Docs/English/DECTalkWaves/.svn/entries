@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/English/DECTalkWaves"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="FinalStops"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="attachment_fromCasio464.wav"
+   text-time="2006-03-22T15:02:32.791572Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d393f28d92071892b535f21179a73486"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:31.588486Z"/>
+<entry
+   committed-rev="4218"
+   name="attachment_5.1.WAV"
+   text-time="2006-03-22T15:02:32.994691Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8a79ec973f952dafc5ae6dcacfc8128d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:31.635359Z"/>
+<entry
+   name="wouldn&apos;t have"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="want.sent._5.1.WAV"
+   text-time="2006-03-22T15:02:33.119687Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="6fa0cb521ab611e3e4c4a4cb23b892c6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:32.619703Z"/>
+</wc-entries>

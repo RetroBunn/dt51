@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/win32/SAY"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="say.dsp"
+   text-time="2006-03-22T15:28:16.995671Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f5bcf54d11f7656c8f33a5c788fa1379"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:16.839424Z"/>
+<entry
+   committed-rev="4218"
+   name="say.dep"
+   text-time="2006-03-22T15:28:17.026920Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="148fff08c8fbbb267ef5e650eab4214e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:16.839424Z"/>
+<entry
+   committed-rev="4214"
+   name="say.mak"
+   text-time="2006-03-22T15:28:17.120668Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="0612a326915696302ee90db14476cc3d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:16.870673Z"/>
+<entry
+   committed-rev="4218"
+   name="say.dsw"
+   text-time="2006-03-22T15:28:17.136293Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="12f0ef8bca9c92adb63c4a4104696f3d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:16.886298Z"/>
+<entry
+   committed-rev="4214"
+   name="usay.mak"
+   text-time="2006-03-22T15:28:17.151918Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="b3922cef7aa668630eba105dc4e47f64"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:16.901922Z"/>
+<entry
+   committed-rev="4214"
+   name="makefile"
+   text-time="2006-03-22T15:28:17.167542Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="083463234c58cbd85e953ef93cbea93c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:16.917547Z"/>
+<entry
+   committed-rev="4214"
+   name="say.c"
+   text-time="2006-03-22T15:28:17.183167Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="e0de8e1e232223360271067db9249dd2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:16.933172Z"/>
+</wc-entries>

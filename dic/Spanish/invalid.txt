@@ -1,0 +1,18 @@
+Error			Entry               HG   Phoneme                       Part of speech                Priority
+---------------   ------------------  ---  ----------------------------  ----------------------------- ---
+NO BIT SET		IB                  N    '~i ~b'e                      00000000000000000000000000000 450  
+NO BIT SET		amateur             N    a-ma-t'er                     00000000000000000000000000000 450  
+NO BIT SET		aún                 N    a-'~un                        00000000000000000000000000000 450  
+NO BIT SET		charrúa             N    Ca-R'~u-a                     00000000000000000000000000000 450  
+NO BIT SET		día                 N    d'~i-a                        00000000000000000000000000000 450  
+NO BIT SET		europeísta          N    eu-ro-pe-'~is-ta              00000000000000000000000000000 450  
+NO BIT SET		jovenes             N    j'o-Be-nes                    00000000000000000000000000000 450  
+NO BIT SET		kosher              N    k'o-ser                       00000000000000000000000000000 450  
+NO BIT SET		loísmo              N    lo-'~is-mo                    00000000000000000000000000000 450  
+NO BIT SET		monoteísmo          N    mo-no-te-'~is-mo              00000000000000000000000000000 450  
+NO BIT SET		oh                  N    o-'o-o                        00000000000000000000000000000 450  
+NO BIT SET		paúl                N    pa-'~ul                       00000000000000000000000000000 450  
+NO BIT SET		souvenirs           N    su-ve-n'irs                   00000000000000000000000000000 450  
+NO BIT SET		taoísmo             N    ta-o-'~is-mo                  00000000000000000000000000000 450  
+NO BIT SET		ud.                 N    us-t'eD                       00000000000000000000000000000 450  
+NO BIT SET		uds.                N    us-t'e-Des                    00000000000000000000000000000 450  

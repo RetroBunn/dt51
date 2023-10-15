@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4581"
+   name=""
+   committed-date="2006-04-18T16:32:25.758198Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Test/Casio/GBcode"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4581"
+   name="GBK2K_map03.pdf"
+   text-time="2006-04-24T19:09:53.939771Z"
+   committed-date="2006-04-18T16:32:25.758198Z"
+   checksum="16536afafc699b67f7bd05b4fc2cfe67"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:53.205420Z"/>
+<entry
+   committed-rev="4531"
+   name="gb18130tbl.htm"
+   text-time="2006-04-24T19:09:53.971020Z"
+   committed-date="2006-04-12T15:19:59.172508Z"
+   checksum="4ea4923bfd7bd05985efdc5b95ac728f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:53.908522Z"/>
+</wc-entries>

@@ -1,0 +1,431 @@
+# This grammar attempts to assing some stresses. It is however rather restrictive
+# It is based on some new ideas of assigning the stress after a simple sllabification method.lson
+# That still needs a lot of improvement.
+
+word =>  *grammar(0)* + ruleword
+       | *grammar(1)* + initsyll
+       | *grammar(2)* + midsyll
+       | *grammar(1)* + junkpart 
+       | *grammar(2)* + junkpart 
+       | *grammar(3)* + triv
+       | *grammar(4)* + angli
+
+
+ruleword=>  stopword
+        | solo
+        | article
+        | diction
+	| article + betont + flexornot
+	| name
+	| name+"s/s/"
+	| angli
+	| freepref
+	| konjbar + flexornot
+	| Mroot + flexornot 
+	| boundpref + Mroot + flexornot
+	| <:> + rootblock
+	| freepref + <:> + rootblock
+        | verblock
+	| freepref + verblock
+	| freepref + "zu/T5/" + root + "en/@n/"
+	| *startvowel()* + *shorter(6)* + shortnamevow
+	| *startcons()* + *shorter(6)* + shortnamecons
+	| irgend + irgenddings
+        | trysimple
+	| lesloany
+	| <:> + rootblock + rootblock
+	| *longer(13)* + blocktrip
+	| *longer(11)* + blocktwo
+	| block + fugeornot + block + fugeornot + block
+	| syll
+        | sonderfall
+#	| bitloany
+#	| loany
+#	| blocktwo
+#	| blockthree
+#        | <:> + syll + suff
+#        | <:> + syll + <:> + syll + suff
+
+
+rootblock=>  rootel + flexornot
+	| rooten + flexornot
+	| rooter + flexornot
+	| roote + flexornot
+	| root + flexornot
+	| irrverb + flexornot
+
+
+verblock=> verba
+	| verbb
+	| verbc
+	| verb1
+	| verb2
+	| verb3
+	| verb4
+	| verb5
+	| verb6
+	| verb7
+
+verba =>  "ge/.g@/" + <:> + rootel + flexornot
+verbb =>  "ge/.g@/" + <:> + rooter + flexornot
+verbc =>  "ge/.g@/" + <:> + rooten + flexornot
+verb1 =>  "ge/.g@/" + <:> + root + flexornot
+verb2 =>  "ge/.g@/" + <:> + geverb + flexornot
+verb3 =>  "be/.b@/" + <:> + beverb + flexornot
+verb4 =>  "er/.@R/" + <:> + erverb + flexornot
+verb5 =>  "em/.Em/" + <:> + emverb + flexornot
+verb6 =>  "ge/.g@/" + <:> + irrverb + flexornot
+verb7 =>  "be/.b@/" + <:> + irrverb + flexornot
+
+rootpos =>  rootel
+          | rooten
+          | rooter
+          | root
+
+
+trysimple=>    Mroot + suff + flexornot  
+	    |  Mroot + Mroot + flexornot 
+	    |  Mroot + <:> + root + flexornot
+            |  Mroot + suff + Mroot + flexornot
+	    |  Mroot + fugeornot + Mroot + flexornot
+	    |  Mroot + fugeornot + pref + root + flexornot
+	    |  Mroot + suff + <:> + root + flexornot
+            |  Mroot + fugeornot + <:> + root + flexornot
+            |  Mroot + suff + flexornot
+            |  pref + <:> + rooter + suff
+	    |  pref + <:> + rootel + suff
+	    |  pref + <:> + rooten + suff
+	    |  pref + Mroot + suff
+	    |  pref + <:> + root + suff
+	    |  <:> + root + <:> + root + flexornot
+	    |  <:> + root + <:> + root + suff
+	    |  <:> + root + fugeornot + <:> + root + flexornot
+            |  <:> + root + fugeornot + Mroot + flexornot
+	    |  Mroot + Mroot + suff + flexornot 
+            |  Mroot  + <:> + root + root + flexornot 
+            |  Mroot  + <:> + Mroot + root + flexornot
+            |  Mroot  + <:> + root + Mroot + flexornot
+            |  Mroot  + <:> + Mroot + Mroot + flexornot
+            |  Mroot  + <:> + root + root + suff + flexornot 
+            |  Mroot  + <:> + Mroot + root + suff + flexornot
+            |  Mroot  + <:> + root + Mroot + suff + flexornot
+            |  Mroot  + <:> + Mroot + Mroot + suff + flexornot
+            |  Mroot + fugeornot + <:> + root + fugeornot + root + flexornot
+            |  Mroot + fugeornot + <:> + Mroot + fugeornot + root + flexornot
+            |  Mroot + fugeornot + <:> + root + fugeornot + Mroot + flexornot
+            |  Mroot + fugeornot + <:> + Mroot + fugeornot + Mroot + flexornot
+	
+fugeornot=> EMPTY | fuge
+
+blocktrip =>   <:> + root + root + Mroot + suff
+           | pref + <:> + root + root + Mroot + suff
+           | <:> + rootpos + fugeornot +  <:> + rootpos + fugeornot + <:>+  rootpos + flexornot
+
+blocktwo =>  block  + block
+
+blockthree=>  block +  block +  block  
+
+
+block =>   pref + <:> + rooter + suff
+	 | pref + <:> + rootel + suff
+	 | pref + <:> + rooten + suff
+	 | pref + Mroot + suff
+	 | pref + <:> + root + suff
+#	 | pref + <:> + syll + suff
+
+
+shortnamevow  => <:> + <|> + stavow + mconso + stpvow
+shortnamecons => sconso + <:> + stavow + mconso + stpvow
+
+mconso => "t/t/" | "f/f/" | "d/d/" | "h/h/" | "l/l/" | "m/m/" | "n/n/" | "k/k/" | "b/b/" | "p/p/" | "v/v/" | "w/v/"
+sconso => "f/f/" | "g/g/" | "l/l/" | "r/r/" | "n/m/" | "m/m/" | "b/b/" | "s/z/"
+stavow =>  "a/1/" | "ah/1/" | "aa/1/" | "e/2/" | "i/3/" | "o/4/" | "u/5/"
+stpvow =>  "en/N/" | "on/cn/" | "e/@/" | "o/o/" | "a/a/"
+
+lesloany => pref + <:> + Mroot + interfix + suff
+
+bitloany => pref + <:> + goodhead + latvow + suff
+	| pref + <:> + goodhead + latvow + goodcoda + suff
+        | pref + <:> + goodhead + latvow + goodcoda + interfix + suff
+        | pref + <:> + goodhead + latvow + goodcoda + "y/y/" + suff
+        | pref + <:> + latvow+  goodhead + suff
+        | pref + <:> + latvow+  goodhead + latvow + suff
+        | pref + <:> + latvow+  goodhead + latvow + interfix + suff
+        | pref + <:> + latvow+  goodhead + latvow + goodcoda + interfix + suff
+
+loany =>  lpref + dad + suff
+	| lpref + dada + suff
+	| lpref + dadad + suff
+	| lpref + dadadi + suff
+	| lpref + dadaa + suff
+
+dad =>  lathead + latvow + lathead 
+dada =>   lathead + latvow + lathead + interfix 
+dadad => lathead + latvow + lathead + latvow + lathead 
+dadadi => lathead + latvow + lathead + latvow + lathead + interfix 
+dadaa =>  lathead + latvow + lathead + latvow + interfix 
+
+interfix=>  EMPTY | "i/i/" | "o/o/" | "a/a/" | "u/u/" 
+
+
+#rootel=>Grootel+"el/.@L/2/"
+#rooter=>Grooter+"er/.@R/2/"
+#rooten=>Grooten+"en/.@n/"
+
+
+pref => freepref
+      | boundpref
+      | freepref + boundpref
+      | boundpref + boundpref
+      | freepref + freepref 
+      | boundpref + freepref
+      | freepref + freepref + boundpref
+      | EMPTY      
+
+lpref => latbound 
+#      | EMPTY      
+
+#suff => EMPTY  (changed to below, more restrictive)
+#      | trailer
+#      | trailer+trailer
+#      | trailer+trailer+trailer
+
+suff => EMPTY 
+     | suffix
+     | flex 
+     | suffix + flexornot
+     | interfix + suffix + flexornot
+
+trailer=> suffix
+        | flex
+
+suffix =>  longsuff
+         | shortsuff
+
+flexornot=> EMPTY 
+	| flex
+
+syll => <:> + onset + rhyme
+        |<:>+ <|>+rhyme
+      
+
+ rhyme => elongvowel + scoda 
+      | diph + scoda
+      | svowel + geminy
+      | svowel + lcoda
+      | elongvowel+"h//"+scoda
+      | "ie/3/" + scoda
+      | diph 
+      | elongvowel
+      | elongvowel+"h//"
+
+
+initsyll =>  freepref
+	   | boundpref
+	   | freepref + "."
+	   | boundpref+ "."
+	   | <:> + root
+	   | <:> + root + "."
+	   | trunkfix
+	   | trunkfix + anycoda	
+	   | <:> + goodhead + irhyme
+           | <:|> + irhyme
+	   | goodhead
+
+
+midsyll  =>  erhyme
+	   | suffix
+           | freepref
+	   | boundpref
+	   | freepref + "."
+	   | boundpref+ "."
+	   | trunkfix
+	   | <:> + root
+	   | <:> + root + "."
+	   | goodhead + erhyme
+	   | goodhead + suffix
+	   | mrhymeA
+	   | goodhead + mrhymeA
+	   | mrhymeB
+	   | <:> + goodhead + mrhymeB 
+	   | mrhymeC
+	   | <:> + goodhead + mrhymeC
+	   | mrhymeD
+	   | <:> +  goodhead + mrhymeD
+	   | goodhead
+
+irhyme => shortV + geminy
+      | shortV + geminy + sfix
+      |	longV + scoda 
+      | lightV + "ch/x/"
+      | darkV + "ch/X/"
+      | goodnuk + anycoda
+      | diph  +  anycoda
+      | shortV + anycoda
+      |	shortV + scoda + "."
+      | elongs
+      | longV
+      | midvow
+      | diph
+      | umlaut
+      | goodnuk
+      | goodnuk + "."
+      | elongs + shortV
+      | longV + shortV
+      | shortV + "."
+      | lightV + ".x/x/"
+      | darkV + ".x/X/"
+	
+mrhymeA => specrhyme
+      | specrhyme + sfix
+      | suffix 
+
+mrhymeB=> lightV + "ch/x/"
+      |  darkV + "ch/X/"  
+      |	 shortV + geminy
+      |  shortV + geminy + sfix
+
+mrhymeC=> longV + scoda 
+      |	shortV + scoda + "."
+      | goodnuk + anycoda
+      | diph  +  anycoda
+      | shortV + anycoda
+
+mrhymeD=> midvow
+      | elongs
+      | longV
+      | diph
+      | umlaut
+      | goodnuk + "."
+      | goodnuk
+      | shortV + "."
+      | lightV + ".x/x/"
+      | darkV + ".x/X/"
+
+
+junkpart => *startvowel()* + <|> + vowstrtjunk
+          | *startcons()* + consstrtjunk
+
+consstrtjunk => midsyll + midsyll
+
+vowstrtjunk => anyvowel 
+	    | anyvowel +  midsyll 
+	    | anyvowel +  midsyll  + midsyll
+
+sfix =>  "s/z/1/"  | "t/t/" | "st/st/" | "ts/ts/"
+
+lightV => "e/e/" | "i/I/" | "ü/Y/" | "ue/Y/" | "ö/Q/" | "oe/Q/" | "ä/V/" | "ae/V/" | "ei/A/" | "eu/H/" | "aeu/H/" | "äu/H/" | "y/y/"
+darkV  => "a/a/" | "o/c/" | "u/u/" | "au/W/"
+
+# lightV => "e" | "i" | "ü" | "ue" | "ö" | "oe" | "ä" | "ae" | "*"
+# darkV  => "a" | "o" | "u"
+
+
+elongs  =>   elongvowel + "h//"
+	   | "ie/3/"
+	   | "ieh/3/"
+	   | elongvowel+"h//"+ anycoda
+           | "ie/3/" + anycoda
+
+longV => elongvowel
+	| "ie/3/"
+
+anycoda => goodcoda
+	| geminy 
+	| scoda 
+	| scoda + sfix
+	| goodcoda + sfix
+	| geminy + sfix
+		
+anyvowel => goodnuk 
+	| shortV
+        | longV
+	| umlaut
+	| diph
+
+shortV => shvow | shuml
+
+shvow => "i/I/" | "o/c/" | "u/U/" | "a/a/" | "e/E/" | "y/Y/"
+shuml => "ae/V/" | "ä/V/" | "oe/Q/" | "ö/Q/" | "ue/Y/" | "ü/Y/"
+
+midvow => "i/i/" | "o/o/" | "u/u/" | "a/a/" | "e/e/" | "y/y/" | "ü/y/" | "ö/Q/" | "oe/Q/" | "ue/y/"
+
+#sonderfall => *special(1)* + capital
+#	| *special(2)* + abrev 
+#	| *special(4)* + signed
+#	| *special(8)* + apost
+
+sonderfall =>  abrev 
+	| signed
+	| apost
+
+
+
+# numbers here: root type are 1: have no stress in them
+#               prefix type are 2
+#               postfix type are 3
+#               trivial 4: onsets, offsets, single letters and such
+#               additional roots with stress markers. e.g., Mroots.pho
+#      
+
+trie   name = "Names.pho"  
+ltrie .1. root="syllroots.pho"
+ltrie .5. Mroot="Mroots.pho"
+
+ltrie .2. freepref="freeprefixes.pho"
+ltrie .2. boundpref="boundprefixes.pho"
+ltrie .2. latbound="latboundpref.pho"
+ltrie .2. stressp="stresspref.pho"
+
+ltrie .3. longsuff="longsuffixes.pho"
+ltrie .3. shortsuff="shortsuffix.pho"
+ltrie .3. flex = "Flex.pho"
+
+trie svowel = "gshortnucleus.pho"
+trie latvow = "latvowels.pho"
+ltrie .4. diph = "diphthongs.pho"
+
+ltrie .4. lcoda = "longcoda.pho"
+ltrie .4. geminy = "geminycoda.pho"
+ltrie .4. onset = "onsets.pho"
+ltrie .4. elongvowel = "elongatednuclei.pho"
+
+ltrie .1. rootel="rootels.pho"     // roots ending in el
+ltrie .1. rooten="rootens.pho"     // roots with en
+ltrie .1. rooter="rooters.pho"     // roots ending in er
+ltrie .1. roote="rootes.pho"       // roots ending in e
+ltrie .1. irrverb="irregVerbStemms.pho"
+ltrie .1. beverb="beverbs.pho"
+ltrie .1. geverb="geverbs.pho"
+ltrie .1. erverb="erverbs.pho"
+ltrie .1. emverb="emverbs.pho"
+
+trie diction="diction.pho"
+trie solo="solo.pho"
+ltrie .0. stopword="particular.pho"
+
+ltrie .5. article="articles.pho"
+ltrie .5. diction="diction.pho"
+
+trie  fuge="Fugen.pho"
+# ltrie  .6. specfix="interfix.pho"
+trie  specfix="interfix.pho"
+ltrie  .4. goodhead = "onsets.pho"
+ltrie  .4. lathead = "loanonset.pho"
+ltrie  .4. goodcoda = "rulecodas.pho"
+ltrie  .4. scoda ="shortcodas.pho"
+ltrie  .3. specrhyme="trailers.pho"
+ltrie  .4. umlaut = "shortumlaut.pho"
+ltrie  .4. goodnuk="goodnuclei.pho"
+ltrie  .3. erhyme="erhyme.pho"
+trie  trunkfix="truncatedfixes.pho"
+trie  apost = "apostroph.pho"
+trie  abrev = "abkuerzung.pho"
+trie  signed = "signature.pho"
+ltrie .4. triv= "trivial.pho"
+ltrie .5. angli = "anglizis.pho"
+ltrie .5. konjbar = "konjugierbar.pho"
+ltrie .5. irgend = "irgend.pho"
+ltrie .5. irgenddings = "irgenddings.pho"
+trie  betont = "betont.pho"
+$eof

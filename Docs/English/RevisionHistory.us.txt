@@ -1,0 +1,54 @@
+=============================
+Changes - 
+=============================
+17 Oct 2006
+Increased pausing before:  what, which, where, when, that 
+More words to dictionary.
+Deleted CA abbreviation.
+Increased intonation variation.  To check, type in [:mode casio1 on] before text.  (Still a work in progress.)
+Improved final /z/ sounds.
+Fixed unexplained pitch drop.
+
+9 Oct 2006
+More words added to dictionary.
+Fixed some consonant blends, though still a work in progress.
+Added pausing and intonation variation, though still a work in progress.
+Improved affricates.
+
+22 Sep 2006
+Increased dictionary size.  Also included thousands of most common U.S. names.
+Some improvements on nasals and syllabic nasals.
+Some improvements to intonation when two or more stressed words are adjacent.
+
+8 Sep 2006
+Improved consonant blends.
+Improved adjacent stop co-articulations.
+Documented correct protocol for phone number texts to sound correct.
+Standarized text normalization for pronunciation of dates.
+Improved consonant-glide co-articulation.
+Reduced echoey quality of /n/.
+Improved ch sound in all positions.
+Removed clicks in fricative-stop and fricative-fricative transitions.
+Fixed comma pause intonation.
+Fixed /sh/ sound in all positions.
+Improved voiced and voiceless th sounds.
+Removed inserted glottal pulse before initial /z/.
+
+4 Aug 2006
+
+Changing from 4.64 architecture to 5.1.
+Improved voiced obstruents following nasals.
+Fixed exclamatory and emphatic stress.
+Improved question intonation.
+Fixed some broken sounds.
+Removed echo-like sounds.
+
+
+=============================
+Known bugs 
+=============================
+1.  Noise generation for fricatives needs more modulation.
+2.  Some inappropriate intonational fluxuations.
+3.  /n/ sounds still require more fine tuning.
+ 
+

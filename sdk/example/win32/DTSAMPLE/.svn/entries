@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/win32/DTSAMPLE"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="Dtsample.dep"
+   text-time="2006-03-22T15:28:11.620774Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="05b2617f4201bbffd97cc92d6de42d1e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:09.698936Z"/>
+<entry
+   committed-rev="4214"
+   name="Dtsample.mak"
+   text-time="2006-03-22T15:28:11.589524Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="f5c3b08b7c0c02760242292699ae15c8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:09.698936Z"/>
+<entry
+   committed-rev="4218"
+   name="dtsample.ico"
+   text-time="2006-03-22T15:28:11.652023Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="68dd49a1aefe1a1c8a6b7d86682a5ac2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:09.714560Z"/>
+<entry
+   committed-rev="4218"
+   name="dtsample.rbj"
+   text-time="2006-03-22T15:28:11.683273Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1344e0ce17415c7be41a6355e0de7d24"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:09.714560Z"/>
+<entry
+   committed-rev="4214"
+   name="dtsample.txt"
+   text-time="2006-03-22T15:28:11.698897Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="d0305dd3d9be2632579c9bb3908c0dd0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:09.730185Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtsample.plg"
+   text-time="2006-03-22T15:28:11.745771Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e0473bdb8c5a9b3c3d90eac4a12f1cf1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.323904Z"/>
+<entry
+   committed-rev="4214"
+   name="dtsample.c"
+   text-time="2006-03-22T15:28:11.714522Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="f51dc8b2432a702628235ef2687d7d20"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.308280Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtsample.dsp"
+   text-time="2006-03-22T15:28:11.761396Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="908ab6269c7b2720c019d9ecfc8685e3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.339529Z"/>
+<entry
+   committed-rev="4214"
+   name="dtsample.h"
+   text-time="2006-03-22T15:28:11.777021Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="707f6ac2959c826b8166144e2db5107a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.417653Z"/>
+<entry
+   committed-rev="4214"
+   name="udtsampl.mak"
+   text-time="2006-03-22T15:28:11.792645Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="2df9e826359212e4b4a350c95e060374"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.448902Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtsample.dsw"
+   text-time="2006-03-22T15:28:11.808270Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9cc5739eaacd1f5cf23b86208c5a5426"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.448902Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtsample.ncb"
+   text-time="2006-03-22T15:28:11.870769Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="55d991f16952b7bf056777f1170bb54d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.542650Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtsample.opt"
+   text-time="2006-03-22T15:28:11.839520Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="2e0b943c920f89d626d40061bf1d3e03"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.542650Z"/>
+<entry
+   committed-rev="4218"
+   name="dtsample.rc"
+   text-time="2006-03-22T15:28:11.886394Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ada1623be6f9339851a5dbf972e02e0d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.558275Z"/>
+<entry
+   committed-rev="4214"
+   name="makefile"
+   text-time="2006-03-22T15:28:11.886394Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="e2c7d63a9b4c16d33941be9c036f8f30"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.573900Z"/>
+<entry
+   committed-rev="4214"
+   name="RESOURCE.H"
+   text-time="2006-03-22T15:28:11.902018Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="20b755503740f3ecc959ae01625bafeb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:11.573900Z"/>
+</wc-entries>

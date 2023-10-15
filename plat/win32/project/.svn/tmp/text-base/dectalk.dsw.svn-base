@@ -1,0 +1,194 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "dectalk"=".\dectalk.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name dtalk_ch
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_sp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_uk
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_us
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_fr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_gr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_hb
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_it
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_jp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_kr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dtalk_la
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dtalk_ch"=".\dtalk_ch.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_fr"=".\dtalk_fr.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_gr"=".\dtalk_gr.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_hb"=".\dtalk_hb.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_it"=".\dtalk_it.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_jp"=".\dtalk_jp.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_kr"=".\dtalk_kr.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_la"=".\dtalk_la.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_sp"=".\dtalk_sp.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_uk"=".\dtalk_uk.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dtalk_us"=".\dtalk_us.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

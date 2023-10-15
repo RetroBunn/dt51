@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5909"
+   name=""
+   committed-date="2006-10-03T22:48:47.570508Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/tools/FnxLtsRules2Code"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5674"
+   name="FnxLtsRules2Code.c"
+   text-time="2006-09-06T12:30:27.627325Z"
+   committed-date="2006-08-31T16:01:33.483838Z"
+   checksum="de4a513ac09984c4bf9f22215b8ccb94"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-09-06T12:30:27.596075Z"/>
+<entry
+   committed-rev="5909"
+   name="FnxLtsRules2Code.vcproj"
+   text-time="2006-10-04T12:37:51.074072Z"
+   committed-date="2006-10-03T22:48:47.570508Z"
+   checksum="fd6709a5d3b2a1b6d77834b368d886a1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:51.058447Z"/>
+</wc-entries>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5251"
+   name=""
+   committed-date="2006-06-26T21:03:54.370271Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/LTS/chinese/U2P"
+   last-author="mkauntz"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5251"
+   name="CJK2Pinyin.c"
+   text-time="2006-06-27T15:28:01.640625Z"
+   committed-date="2006-06-26T21:03:54.370271Z"
+   checksum="b8f22866b2e8ab93b999bf3f42311a06"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-06-27T15:28:01.609375Z"/>
+</wc-entries>

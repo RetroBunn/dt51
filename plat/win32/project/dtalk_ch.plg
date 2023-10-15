@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dtalk_ch - Win32 Debug Integer--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /I ".\..\..\..\dapicore\lts\chinese" /I ".\..\..\..\shared\include\\" /I "..\include" /I ".\..\..\..\shared\include" /I ".\..\..\..\shared\include\NT" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_CH_EXPORTS" /D "CHINESE" /D "BUILD_LTS" /D "_DEBUG" /D "INTEGER" /D "NO_INCLUDED_C_FILES" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /Fp".\..\build\dectalk\commonint\ch\debug\link/dtalk_ch.pch" /YX /Fo".\..\build\dectalk\commonint\ch\debug\link/" /Fd".\..\build\dectalk\commonint\ch\debug\link/" /FD /GZ /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\chinese\CHWalkerLinear.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\chinese\U2P\CJK2Pinyin.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\chinese\pinyinparse.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1B.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\commonint\debug/dtalk_ch.pdb" /debug /machine:I386 /def:".\dtalk_ch.def" /out:".\..\build\dectalk\commonint\debug/dtalk_ch.dll" /implib:".\..\build\dectalk\commonint\debug/dtalk_ch.lib" /pdbtype:sept 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\CHWalkerLinear.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\CJK2Pinyin.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\l_ch_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\l_ch_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\l_ch_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\l_ch_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\l_ch_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\l_ch_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\opthread.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\ch\debug\link\pinyinparse.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1C.tmp"
+<h3>Output Window</h3>
+Compiling...
+CHWalkerLinear.c
+CJK2Pinyin.c
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\CHWalkerLinear.c(856) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\CHWalkerLinear.c(975) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\CHWalkerLinear.c(1040) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\CHWalkerLinear.c(1084) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\CHWalkerLinear.c(1123) : warning C4761: integral size mismatch in argument; conversion supplied
+l_ch_ad1.c
+l_ch_con.c
+l_ch_ma1.c
+l_ch_pr1.c
+C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_pr1.c(502) : warning C4101: 'tlp1' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_pr1.c(503) : warning C4101: 'tlp2' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_pr1.c(505) : warning C4101: 'n' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_pr1.c(896) : warning C4101: 'cp' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_pr1.c(894) : warning C4101: 'i' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_pr1.c(893) : warning C4101: 'lp1' : unreferenced local variable
+l_ch_ru1.c
+C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_ru1.c(503) : warning C4101: 'g1' : unreferenced local variable
+l_ch_sp1.c
+C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_ru1.c(603) : warning C4700: local variable 'value' used without having been initialized
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c(513) : warning C4013: 'chinese_pinyin2arpa' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c(515) : warning C4013: 'mandarin_tone_process' undefined; assuming extern returning int
+ls_util.c
+lsw_main.c
+pinyinparse.c
+Linking...
+   Creating library .\..\build\dectalk\commonint\debug/dtalk_ch.lib and object .\..\build\dectalk\commonint\debug/dtalk_ch.exp
+
+
+
+<h3>Results</h3>
+dtalk_ch.dll - 0 error(s), 15 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/docs"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="DTK_IG_4_6_2.pdf"
+   text-time="2006-03-22T15:27:58.730396Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e0cf399c65064b2e71f8acff50991f92"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:18.981384Z"/>
+<entry
+   committed-rev="4218"
+   name="DTK_IG_4_6_3.pdf"
+   text-time="2006-03-22T15:27:58.933517Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="b0d28b2efe9aa98a59c508e6b4968063"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:19.247002Z"/>
+<entry
+   committed-rev="4218"
+   name="DTK_PG_5_0.pdf"
+   text-time="2006-03-22T15:27:59.183513Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d81ebf38120c26406cab94b633767319"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:19.293876Z"/>
+<entry
+   name="Txt16bit"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="DTK_RG_5_0.pdf"
+   text-time="2006-03-22T15:27:59.761626Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3752535c91c15d0dd607489557cbb523"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:19.340750Z"/>
+<entry
+   committed-rev="4218"
+   name="DTK_PG_4_6_2.pdf"
+   text-time="2006-03-22T15:28:00.027246Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ca94d9148ad1118b3cd8d6efe755d5b8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:58.105408Z"/>
+<entry
+   committed-rev="4218"
+   name="DTK_PG_4_6_3.pdf"
+   text-time="2006-03-22T15:28:00.402239Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="faf8363e84397d188901f9ddcc69398e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:58.121033Z"/>
+<entry
+   committed-rev="4218"
+   name="dtalk_lic.doc"
+   text-time="2006-03-22T15:28:00.730358Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="bc0bb6889334db7d6f9caf4848730a40"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:58.121033Z"/>
+<entry
+   committed-rev="4218"
+   name="prodbld.doc"
+   text-time="2006-03-22T15:28:00.777232Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ff9a29eecbd0be8b61558d4ea1caeacd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:58.136658Z"/>
+<entry
+   committed-rev="4218"
+   name="DTK_RG_4_6_2.pdf"
+   text-time="2006-03-22T15:28:01.074101Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d3b30f5a494486a7f220fb6d472c78c0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:58.136658Z"/>
+<entry
+   committed-rev="4218"
+   name="DTK_IG_5_0.pdf"
+   text-time="2006-03-22T15:28:01.464719Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e22db1727da18c85cd07d15ae6eb14ab"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:58.136658Z"/>
+<entry
+   committed-rev="4218"
+   name="DTK_RG_4_6_3.pdf"
+   text-time="2006-03-22T15:28:01.917835Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d38622f0d135747e80024d7e57c2237a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:58.152282Z"/>
+<entry
+   committed-rev="4218"
+   name="dtalk_lic2.doc"
+   text-time="2006-03-22T15:28:01.980334Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="5528230b2dc871281ac29680947338ac"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:58.167907Z"/>
+</wc-entries>

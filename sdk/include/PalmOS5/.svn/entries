@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4214"
+   name=""
+   committed-date="2006-03-18T04:38:33.307716Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/include/PalmOS5"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4214"
+   name="utils68k.h"
+   text-time="2006-03-22T15:27:13.122159Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="739c764ff4a131e2e9c0831cbe2fcf31"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:12.669045Z"/>
+<entry
+   committed-rev="4214"
+   name="PceNativeCall.h"
+   text-time="2006-03-22T15:27:13.169033Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="eb2b51f70d314995d945062dbda5c2a2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:12.700295Z"/>
+<entry
+   committed-rev="4214"
+   name="palmconfig_dectalkus_11k.h"
+   text-time="2006-03-22T15:27:13.184657Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="f3c10e58d2b0bdd059fe87951946b1cc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:13.044036Z"/>
+<entry
+   committed-rev="4214"
+   name="palmconfig_dectalkus.h"
+   text-time="2006-03-22T15:27:13.200282Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="db4a9795d8f4dd52fc33513f57263d4d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:13.122159Z"/>
+</wc-entries>

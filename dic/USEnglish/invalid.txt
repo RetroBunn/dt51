@@ -1,0 +1,3 @@
+Error			Entry               HG   Phoneme                       Part of speech                Priority
+---------------   ------------------  ---  ----------------------------  ----------------------------- ---
+NO BIT SET		broadcasting        N    br'cd#k`@st|G                 00000000000000000000000000000 500  

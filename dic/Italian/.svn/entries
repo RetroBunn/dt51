@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4982"
+   name=""
+   committed-date="2006-05-23T17:15:15.830594Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/Italian"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4626"
+   name="verbsere.tab"
+   text-time="2006-04-24T19:11:07.609449Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="42f86e341511f7eca502e482ec2477d6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:05.703248Z"/>
+<entry
+   committed-rev="4626"
+   name="verb.grammar"
+   text-time="2006-04-24T19:11:07.625074Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="0819888caff585fe29734b1d2055154b"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:05.718872Z"/>
+<entry
+   committed-rev="4626"
+   name="verbsire.tab"
+   text-time="2006-04-24T19:11:07.625074Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="10653c460f911fc8690358960390b4fd"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:05.843869Z"/>
+<entry
+   committed-rev="4626"
+   name="spezialpiane.tab"
+   text-time="2006-04-24T19:11:07.656323Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="358224eeac0284fe3909cefd6cd4f1bc"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:05.859494Z"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_it.dic"
+   text-time="2006-05-25T15:29:18.898454Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="7dea362b3fac8e00956a4952a3d4f474"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:29:18.867205Z"/>
+<entry
+   committed-rev="4626"
+   name="rulefixes.pho"
+   text-time="2006-04-24T19:11:07.656323Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="776f3ed3d5bd9d3f53d65a35efbde504"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:05.921992Z"/>
+<entry
+   committed-rev="4626"
+   name="syllable.grammar"
+   text-time="2006-04-24T19:11:07.671947Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="57fc9b59c507259efc959d0ca125abf9"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:05.937617Z"/>
+<entry
+   committed-rev="4626"
+   name="pianeere.tab"
+   text-time="2006-04-24T19:11:07.687572Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="b983dd05223c74e331e712e53f4ff2e4"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:05.953241Z"/>
+<entry
+   committed-rev="4626"
+   name="README"
+   text-time="2006-04-24T19:11:07.687572Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="aa73f7f163edfbb73348884530b4ee29"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:05.968866Z"/>
+<entry
+   committed-rev="4626"
+   name="sdrucciole.tab"
+   text-time="2006-04-24T19:11:07.703197Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="93e0c6e8ec8005420b60fcff27227a43"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.296983Z"/>
+<entry
+   committed-rev="4626"
+   name="monosyll.pho"
+   text-time="2006-04-24T19:11:07.718821Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="795157bc553edb5be24905874dd1de25"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.312607Z"/>
+<entry
+   committed-rev="4626"
+   name="prepositions.tab"
+   text-time="2006-04-24T19:11:07.718821Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="13137ea018824f1f6d1c0ee9ea31d1e4"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.328232Z"/>
+<entry
+   committed-rev="4626"
+   name="obviousdiphthongs.pho"
+   text-time="2006-04-24T19:11:07.734446Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="08169c906f0bb421c97d4481b0e14a12"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.343856Z"/>
+<entry
+   committed-rev="4626"
+   name="specialdemi.pho"
+   text-time="2006-04-24T19:11:07.750070Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="8ef28953b1d158fe02eefae0ccfe62d3"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.343856Z"/>
+<entry
+   committed-rev="4626"
+   name="unstressed.tab"
+   text-time="2006-04-24T19:11:07.750070Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="0459033fdd0311beef1a89087a65fe88"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.359481Z"/>
+<entry
+   committed-rev="4626"
+   name="exceptions.grammar"
+   text-time="2006-04-24T19:11:07.765695Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="3f7be6bace263de6ea402baef7f4ad38"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.375106Z"/>
+<entry
+   committed-rev="4626"
+   name="rafforzamente.tab"
+   text-time="2006-04-24T19:11:07.796944Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="73a4bf8c1eda11c6c34f39ac6782d78c"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.375106Z"/>
+<entry
+   committed-rev="4626"
+   name="enclitici.tab"
+   text-time="2006-04-24T19:11:07.812569Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="d6cd3c5dafd82d9d287cbf88b9b04e76"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.421979Z"/>
+<entry
+   committed-rev="4626"
+   name="hyphened.tab"
+   text-time="2006-04-24T19:11:07.828193Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="8096c15aafe95f4742a047c885d7acac"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.437604Z"/>
+<entry
+   committed-rev="4626"
+   name="bistruccverbsare.tab"
+   text-time="2006-04-24T19:11:07.828193Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="02b396dae5e67431c2fd4ab54f7ae73d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.484478Z"/>
+<entry
+   committed-rev="4626"
+   name="foreign.pho"
+   text-time="2006-04-24T19:11:07.843818Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="4d336f5ef2a5a2161bf03a0e0ed1de4b"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:06.500102Z"/>
+<entry
+   committed-rev="4626"
+   name="verbsare.tab"
+   text-time="2006-04-24T19:11:07.859443Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="e25c4345401952fd84cd369af9bfb742"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:07.562575Z"/>
+</wc-entries>

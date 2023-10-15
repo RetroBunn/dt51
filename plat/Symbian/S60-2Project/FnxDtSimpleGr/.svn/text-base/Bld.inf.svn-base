@@ -1,0 +1,16 @@
+/*
+-----------------------------------------------------------------------------
+
+    Bld.inf - build info file for FnxDtSimple
+    
+-----------------------------------------------------------------------------
+*/
+
+PRJ_PLATFORMS
+//WINS THUMB
+
+PRJ_MMPFILES
+FnxDtLTS_Gr.mmp
+FnxDtSimpleGr.mmp
+
+// End of file

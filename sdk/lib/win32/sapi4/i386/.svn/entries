@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/lib/win32/sapi4/i386"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="speech.dll"
+   text-time="2006-03-22T15:27:15.231480Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="898fc91bf6424f629e933273b6e46ffd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:14.981486Z"/>
+<entry
+   committed-rev="4218"
+   name="spchapi.EXE"
+   text-time="2006-03-22T15:27:16.590820Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="46878602caa5debb728c0f740aeb45d6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:14.981486Z"/>
+<entry
+   committed-rev="4218"
+   name="MSVCRT.DLL"
+   text-time="2006-03-22T15:27:18.122031Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="2ed73c4f9be8e3866693ec6aff06f26a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:14.997111Z"/>
+<entry
+   committed-rev="4218"
+   name="msvcrt.msm"
+   text-time="2006-03-22T15:27:18.700141Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="60284498a00b7e75a4ad6182907dabbe"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:14.997111Z"/>
+</wc-entries>

@@ -1,0 +1,1927 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dtalk_ch - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\dapicore\lts\chinese" /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_CH_EXPORTS" /D "CHINESE" /D "BUILD_LTS" /D "HLSYN" /D "NDEBUG" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\ch/" /Fd".\..\build\dectalk\common\HighCompute\release\ch/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\chinese\U2P\CJK2Pinyin.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ch_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\chinese\mandarindurations.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\chinese\Pinyin2Ascii.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\chinese\pinyinparse.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP9.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_ch.pdb" /machine:I386 /def:".\dtalk_ch.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_ch.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_ch.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\CJK2Pinyin.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\CJK2PinyinTables.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\l_ch_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\l_ch_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\l_ch_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\l_ch_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\l_ch_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\l_ch_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\mandarindurations.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\MandarinF0machine.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\mandQTAmodel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\opthread.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\Pinyin2Ascii.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\ch\pinyinparse.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPA.tmp"
+<h3>Output Window</h3>
+Compiling...
+CJK2Pinyin.c
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\U2P\CJK2Pinyin.c(1055) : warning C4133: 'function' : incompatible types - from 'unsigned short [15]' to 'const char *'
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\U2P\CJK2Pinyin.c(1055) : warning C4133: '=' : incompatible types - from 'char *' to 'unsigned short *'
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\U2P\CJK2Pinyin.c(1068) : warning C4133: 'function' : incompatible types - from 'unsigned short *' to 'const char *'
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\U2P\CJK2Pinyin.c(1068) : warning C4133: 'function' : incompatible types - from 'unsigned short [15]' to 'const char *'
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\U2P\CJK2Pinyin.c(1068) : warning C4133: '=' : incompatible types - from 'char *' to 'unsigned short *'
+l_ch_ad1.c
+l_ch_con.c
+l_ch_ma1.c
+l_ch_pr1.c
+l_ch_ru1.c
+l_ch_sp1.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(1476) : warning C4013: 'Mand_F0_machine' undefined; assuming extern returning int
+lsw_main.c
+Generating Code...
+INFO: HLSYN - High Compute compile
+Compiling...
+mandarindurations.c
+MandarinF0machine.c
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(272) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(297) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(298) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(299) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(300) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(315) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(269) : warning C4101: 'tone' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(447) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(494) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(505) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(537) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(555) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(648) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(679) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(720) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(737) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(744) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(751) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(759) : warning C4244: 'function' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(806) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(815) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(825) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(919) : warning C4101: 'testletter' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(1038) : warning C4033: 'Mand_F0_machine' must return a value
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(987) : warning C4101: 'phone_number' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(990) : warning C4101: 'CurrSyll' : unreferenced local variable
+mmalloc.c
+opthread.c
+Pinyin2Ascii.c
+pinyinparse.c
+Generating Code...
+C:\work\ad-new\DECtalk\dapicore\LTS\chinese\MandarinF0machine.c(1162) : warning C4715: 'Mand_F0_machine' : not all control paths return a value
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_ch.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_ch.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPE.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\chinese\dtalk_ch.cjk "..\build\dectalk\common\HighCompute\release" /Y /D
+xcopy ..\..\..\dic\chinese\dtalk_ch.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPE.bat"
+
+0 File(s) copied
+0 File(s) copied
+<h3>
+--------------------Configuration: dtalk_fr - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPF.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_FR_EXPORTS" /D "FRENCH" /D "BUILD_LTS" /D "HLSYN" /D "NDEBUG" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\fr/" /Fd".\..\build\dectalk\common\HighCompute\release\fr/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_rta.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_suf.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPF.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_fr.pdb" /machine:I386 /def:".\dtalk_fr.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_fr.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_fr.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\l_fr_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\l_fr_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\l_fr_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\l_fr_rta.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\l_fr_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\l_fr_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\l_fr_suf.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\fr\opthread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP10.tmp"
+<h3>Output Window</h3>
+Compiling...
+l_fr_con.c
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(672) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(700) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(743) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(772) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(816) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(817) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(818) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(819) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(820) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(821) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(822) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+C:\work\ad-new\DECtalk\dapicore\LTS\l_fr_con.c(823) : warning C4305: 'initializing' : truncation from 'const int ' to 'const char '
+l_fr_ma1.c
+l_fr_pr1.c
+l_fr_rta.c
+l_fr_ru1.c
+l_fr_sp1.c
+l_fr_suf.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+lsw_main.c
+Generating Code...
+INFO: HLSYN - High Compute compile
+Compiling...
+mmalloc.c
+opthread.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_fr.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_fr.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP14.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\French\dtalk_fr.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP14.bat"
+
+0 File(s) copied
+<h3>
+--------------------Configuration: dtalk_gr - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP15.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_GR_EXPORTS" /D "GERMAN" /D "BUILD_LTS" /D "HLSYN" /D "NDEBUG" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\gr/" /Fd".\..\build\dectalk\common\HighCompute\release\gr/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\allorules.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\GtWalker.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_gr_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_gr_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_gr_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_gr_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_gr_rta.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_gr_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_gr_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_gr_suf.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\walker.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP15.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_gr.pdb" /machine:I386 /def:".\dtalk_gr.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_gr.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_gr.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\allorules.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\GtWalker.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_gr_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_gr_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_gr_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_gr_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_gr_rta.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_gr_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_gr_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_gr_suf.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\opthread.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\gr\walker.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP16.tmp"
+<h3>Output Window</h3>
+Compiling...
+allorules.c
+GtWalker.c
+C:\work\ad-new\DECtalk\dapicore\LTS\GtWalker.c(267) : warning C4013: 'split_inline_morph_phonemes' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\LTS\GtWalker.c(447) : warning C4013: 'is_a_vowelgrapheme' undefined; assuming extern returning int
+l_gr_ad1.c
+l_gr_con.c
+l_gr_ma1.c
+l_gr_pr1.c
+l_gr_rta.c
+l_gr_ru1.c
+l_gr_sp1.c
+l_gr_suf.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+Generating Code...
+Compiling...
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+lsw_main.c
+mmalloc.c
+INFO: HLSYN - High Compute compile
+opthread.c
+walker.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_gr.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_gr.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1A.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\German\dtalk_gr.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1A.bat"
+
+0 File(s) copied
+<h3>
+--------------------Configuration: dtalk_hb - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_HB_EXPORTS" /D "HEBREW" /D "BUILD_LTS" /D "NDEBUG" /D "HLSYN" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\hb/" /Fd".\..\build\dectalk\common\HighCompute\release\hb/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1B.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_hb.pdb" /machine:I386 /def:".\dtalk_hb.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_hb.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_hb.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\l_hb_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\l_hb_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\l_hb_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\l_hb_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\l_hb_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\l_hb_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\hb\opthread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1C.tmp"
+<h3>Output Window</h3>
+Compiling...
+l_hb_ad1.c
+l_hb_con.c
+l_hb_ma1.c
+l_hb_pr1.c
+l_hb_ru1.c
+l_hb_sp1.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+lsw_main.c
+mmalloc.c
+INFO: HLSYN - High Compute compile
+Generating Code...
+C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_ru1.c(603) : warning C4716: 'ls_rule_add_graph' : must return a value
+C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_ru1.c(744) : warning C4716: 'ls_rule_rule_match' : must return a value
+C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_ru1.c(907) : warning C4716: 'ls_rule_env_match' : must return a value
+C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_pr1.c(770) : warning C4716: 'ls_proc_do_number' : must return a value
+Compiling...
+opthread.c
+C:\work\ad-new\DECtalk\dapicore\LTS\l_hb_ad1.c(131) : warning C4716: 'ls_adju_cluster' : must return a value
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_hb.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_hb.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP20.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\Hebrew\dtalk_hb.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP20.bat"
+
+0 File(s) copied
+<h3>
+--------------------Configuration: dtalk_it - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_IT_EXPORTS" /D "ITALIAN" /D "BUILD_LTS" /D "NDEBUG" /D "HLSYN" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\it/" /Fd".\..\build\dectalk\common\HighCompute\release\it/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\execrules.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\GtWalkerlinear.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\userules.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\walkerit.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP21.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_it.pdb" /machine:I386 /def:".\dtalk_it.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_it.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_it.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\execrules.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\GtWalkerlinear.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\l_it_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\l_it_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\l_it_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\l_it_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\l_it_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\l_it_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\opthread.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\userules.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\it\walkerit.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP22.tmp"
+<h3>Output Window</h3>
+Compiling...
+execrules.c
+GtWalkerlinear.c
+C:\work\ad-new\DECtalk\dapicore\LTS\GtWalkerlinear.c(454) : warning C4013: 'split_inline_morph_phonemes' undefined; assuming extern returning int
+l_it_ad1.c
+l_it_con.c
+l_it_ma1.c
+l_it_pr1.c
+l_it_ru1.c
+l_it_sp1.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c(162) : warning C4101: 'wordout' : unreferenced local variable
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+Generating Code...
+Compiling...
+lsw_main.c
+mmalloc.c
+INFO: HLSYN - High Compute compile
+opthread.c
+userules.c
+.\..\..\..\dapicore\include\bachregverb.h(40879) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40880) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40881) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40882) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40883) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40884) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40885) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40886) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40887) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40888) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+.\..\..\..\dapicore\include\bachregverb.h(40889) : warning C4133: 'initializing' : incompatible types - from 'const struct IT_short_trie_node *' to 'const struct IT_trie_node *'
+walkerit.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_it.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_it.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP26.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\Italian\dtalk_it.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP26.bat"
+
+0 File(s) copied
+<h3>
+--------------------Configuration: dtalk_jp - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP27.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\..\..\dapicore\LTS\japan\CodePageConv" /I ".\..\..\..\dapicore\lts\korean" /I ".\..\..\..\shared\include\\" /I ".\..\..\..\dapicore\lts\japan" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I "..\..\..\dapicore\LTS\CodePageConv" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_JP_EXPORTS" /D "JAPANESE" /D "BUILD_LTS" /D "DUSTY" /D "NDEBUG" /D "HLSYN" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\jp/" /Fd".\..\build\dectalk\common\HighCompute\release\jp/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\acc_000x.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\acc_1000.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\acc_2000.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\acc_22xx.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\acc_24xx.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\acc_3000.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\acc_5000.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\dsp_roma.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_accd.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_accp.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_bufc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_bunc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_data.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_edic.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_envc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_errc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_hnkc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_idic.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_jknc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_kana.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_kkhc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_numc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_nydc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_othc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_rnsc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_rtgc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_rtkc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_sskc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_stcc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_stzc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_suhc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_tdic.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\ile_v5cc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_jp_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_jp_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_jp_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_jp_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_jp_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_jp_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\lib_genc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\lib_shdc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\mkhatu.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\japan\stdonsei.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP27.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_jp.pdb" /machine:I386 /def:".\dtalk_jp.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_jp.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_jp.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\acc_000x.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\acc_1000.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\acc_2000.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\acc_22xx.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\acc_24xx.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\acc_3000.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\acc_5000.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\dsp_roma.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_accd.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_accp.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_bufc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_bunc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_data.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_dbgc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_edic.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_envc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_errc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_hnkc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_idic.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_jknc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_kana.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_kkhc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_mruc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_numc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_nydc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_othc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_rnsc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_rtgc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_rtkc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_sskc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_stcc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_stzc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_suhc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_tdic.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ile_v5cc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\l_jp_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\l_jp_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\l_jp_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\l_jp_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\l_jp_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\l_jp_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\lib_genc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\lib_shdc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\mkhatu.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\opthread.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\jp\stdonsei.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP28.tmp"
+<h3>Output Window</h3>
+Compiling...
+acc_000x.c
+acc_1000.c
+acc_2000.c
+acc_22xx.c
+acc_24xx.c
+acc_3000.c
+acc_5000.c
+dsp_roma.c
+ile_accd.c
+ile_accp.c
+ile_bufc.c
+ile_bunc.c
+ile_data.c
+ile_edic.c
+ile_envc.c
+ile_errc.c
+ile_hnkc.c
+ile_idic.c
+ile_jknc.c
+ile_kana.c
+Generating Code...
+Compiling...
+ile_kkhc.c
+ile_numc.c
+ile_nydc.c
+ile_othc.c
+ile_rnsc.c
+ile_rtgc.c
+ile_rtkc.c
+ile_sskc.c
+ile_stcc.c
+ile_stzc.c
+ile_suhc.c
+ile_tdic.c
+ile_v5cc.c
+l_jp_ad1.c
+l_jp_con.c
+l_jp_ma1.c
+l_jp_pr1.c
+l_jp_ru1.c
+C:\work\ad-new\DECtalk\dapicore\LTS\l_jp_ru1.c(124) : warning C4101: 'l' : unreferenced local variable
+l_jp_sp1.c
+l_us_cha.c
+Generating Code...
+Compiling...
+lib_genc.c
+lib_shdc.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+lsw_main.c
+mkhatu.c
+INFO: HLSYN - High Compute compile
+mmalloc.c
+opthread.c
+stdonsei.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_jp.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_jp.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2C.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\Japanese\onsei.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+xcopy ..\..\..\dic\Japanese\dtalk_jp.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2C.bat"
+
+0 File(s) copied
+0 File(s) copied
+<h3>
+--------------------Configuration: dtalk_kr - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\dapicore\lts\korean" /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "FNX_LEAN_AND_MEAN" /D "DTALK_KR_EXPORTS" /D "KOREAN" /D "BUILD_LTS" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "HLSYN" /FR".\..\build\dectalk\common\HighCompute\release\kr/" /Fo".\..\build\dectalk\common\HighCompute\release\kr/" /Fd".\..\build\dectalk\common\HighCompute\release\kr/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\FnxLtsRulesEngine.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\plat\win32\src\DTFnxExStdlib.c"
+"C:\work\ad-new\DECtalk\shared\src\DTfnxstdlib.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+"C:\work\ad-new\DECtalk\shared\src\SelectSinglePron.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\KoreanIntonation.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\KrHangulToRoman.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\KrTextNormal.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\onealign.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2D.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_kr.pdb" /machine:I386 /def:".\dtalk_kr.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_kr.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_kr.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\FnxKrLtsRules.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\FnxLtsRulesEngine.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\l_kr_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\l_kr_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\l_kr_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\l_kr_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\l_kr_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\l_kr_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\DTFnxExStdlib.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\DTfnxstdlib.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\opthread.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\SelectSinglePron.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\KoreanIntonation.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\KrHangulToRoman.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\KrTextNormal.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\kr\onealign.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2E.tmp"
+<h3>Output Window</h3>
+Compiling...
+FnxKrLtsRules.c
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(801) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(802) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(803) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(804) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(805) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(806) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(807) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(808) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(809) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(811) : warning C4090: '=' : different 'const' qualifiers
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\FnxKrLtsRules.c(812) : warning C4090: '=' : different 'const' qualifiers
+FnxLtsRulesEngine.c
+l_kr_ad1.c
+l_kr_con.c
+l_kr_ma1.c
+l_kr_pr1.c
+l_kr_ru1.c
+l_kr_sp1.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+Generating Code...
+Compiling...
+lsw_main.c
+DTFnxExStdlib.c
+INFO: HLSYN - High Compute compile
+DTfnxstdlib.c
+mmalloc.c
+Warning: Not using Fonix 'tolower' function.  European languages not supported
+opthread.c
+SelectSinglePron.c
+KoreanIntonation.c
+C:\work\ad-new\DECtalk\dapicore\LTS\korean\KoreanIntonation.c(1606) : warning C4101: 'sTone' : unreferenced local variable
+KrHangulToRoman.c
+KrTextNormal.c
+onealign.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_kr.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_kr.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP32.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\Korean\dtalk_kr.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+xcopy ..\..\..\dic\Korean\korean.pdc "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP32.bat"
+
+0 File(s) copied
+0 File(s) copied
+<h3>
+--------------------Configuration: dtalk_la - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP33.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_UK_EXPORTS" /D "SPANISH" /D "SPANISH_LA" /D "BUILD_LTS" /D "NDEBUG" /D "HLSYN" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\la/" /Fd".\..\build\dectalk\common\HighCompute\release\la/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_la_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_la_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_la_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_la_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_la_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_la_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP33.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP34.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_la.pdb" /machine:I386 /def:".\dtalk_la.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_la.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_la.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\l_la_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\l_la_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\l_la_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\l_la_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\l_la_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\l_la_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\la\opthread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP34.tmp"
+<h3>Output Window</h3>
+Compiling...
+l_la_ad1.c
+l_la_con.c
+l_la_ma1.c
+l_la_pr1.c
+l_la_ru1.c
+l_la_sp1.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+lsw_main.c
+mmalloc.c
+INFO: HLSYN - High Compute compile
+Generating Code...
+Compiling...
+opthread.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_la.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_la.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP38.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\Spanish\dtalk_la.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP38.bat"
+
+..\..\..\dic\Spanish\dtalk_la.dic
+1 File(s) copied
+<h3>
+--------------------Configuration: dtalk_sp - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP39.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_UK_EXPORTS" /D "SPANISH" /D "SPANISH_SP" /D "BUILD_LTS" /D "NDEBUG" /D "HLSYN" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\sp/" /Fd".\..\build\dectalk\common\HighCompute\release\sp/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_sp_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_sp_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_sp_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_sp_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_sp_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_sp_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP39.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP3A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_sp.pdb" /machine:I386 /def:".\dtalk_sp.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_sp.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_sp.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\l_sp_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\l_sp_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\l_sp_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\l_sp_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\l_sp_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\l_sp_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\sp\opthread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP3A.tmp"
+<h3>Output Window</h3>
+Compiling...
+l_sp_ad1.c
+l_sp_con.c
+l_sp_ma1.c
+l_sp_pr1.c
+l_sp_ru1.c
+l_sp_sp1.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+lsw_main.c
+Generating Code...
+INFO: HLSYN - High Compute compile
+Compiling...
+mmalloc.c
+opthread.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_sp.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_sp.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP3E.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\Spanish\dtalk_sp.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP3E.bat"
+
+..\..\..\dic\Spanish\dtalk_sp.dic
+1 File(s) copied
+<h3>
+--------------------Configuration: dtalk_uk - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP3F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_UK_EXPORTS" /D "ENGLISH_UK" /D "ENGLISH" /D "HLSYN" /D "BUILD_LTS" /D "NDEBUG" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\uk/" /Fd".\..\build\dectalk\common\HighCompute\release\uk/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_rta.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_spe.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_uk_suf.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP3F.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP40.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_uk.pdb" /machine:I386 /def:".\dtalk_uk.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_uk.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_uk.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_rta.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_spe.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_uk_suf.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\uk\opthread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP40.tmp"
+<h3>Output Window</h3>
+Compiling...
+l_uk_ad1.c
+l_uk_con.c
+l_uk_ma1.c
+l_uk_pr1.c
+l_uk_rta.c
+l_uk_ru1.c
+l_uk_sp1.c
+l_uk_spe.c
+l_uk_suf.c
+l_us_cha.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+Generating Code...
+Compiling...
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+lsw_main.c
+mmalloc.c
+INFO: HLSYN - High Compute compile
+opthread.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_uk.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_uk.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP44.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\UKEnglish\dtalk_uk.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP44.bat"
+
+0 File(s) copied
+<h3>
+--------------------Configuration: dtalk_us - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_US_EXPORTS" /D "ENGLISH_US" /D "ENGLISH" /D "ACNA" /D "HLSYN" /D "BUILD_LTS" /D "NDEBUG" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /Fo".\..\build\dectalk\common\HighCompute\release\us/" /Fd".\..\build\dectalk\common\HighCompute\release\us/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_ac_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_rta.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_spe.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_suf.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsa_rta.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsa_us.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsa_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP45.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dtalk_us.pdb" /machine:I386 /def:".\dtalk_us.def" /out:".\..\build\dectalk\common\HighCompute\release/dtalk_us.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dtalk_us.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_ac_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_rta.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_spe.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\l_us_suf.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\lsa_rta.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\lsa_us.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\lsa_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\us\opthread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP46.tmp"
+<h3>Output Window</h3>
+Compiling...
+l_ac_con.c
+l_us_ad1.c
+l_us_cha.c
+l_us_con.c
+l_us_ma1.c
+l_us_pr1.c
+l_us_rta.c
+l_us_ru1.c
+l_us_sp1.c
+l_us_spe.c
+l_us_suf.c
+loaddict.c
+ls_adju.c
+ls_dict.c
+Generating Code...
+Compiling...
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+ls_util.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c(665) : warning C4101: 'pause' : unreferenced local variable
+lsa_rta.c
+lsa_us.c
+lsa_util.c
+lsw_main.c
+mmalloc.c
+INFO: HLSYN - High Compute compile
+opthread.c
+Generating Code...
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dtalk_us.lib and object .\..\build\dectalk\common\HighCompute\release/dtalk_us.exp
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP4A.bat" with contents
+[
+@echo off
+xcopy ..\..\..\dic\USEnglish\dtalk_us.dic "..\build\dectalk\common\HighCompute\release" /Y /D
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP4A.bat"
+
+..\..\..\dic\USEnglish\dtalk_us.dic
+1 File(s) copied
+<h3>
+--------------------Configuration: dectalk - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /I ".\..\..\..\dapicore\lts\codepageconv" /D "DECTALK_EXPORTS" /D "ENGLISH_US" /D "ENGLISH" /D "ACNA" /D "HLSYN" /D "NDEBUG" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32" /D "_WINDOWS" /D "O_TALKONLY" /FR".\..\build\dectalk\common\HighCompute\release\dectalk/" /Fp".\..\build\dectalk\common\HighCompute\release\dectalk/dectalk.pch" /YX /Fo".\..\build\dectalk\common\HighCompute\release\dectalk/" /Fd".\..\build\dectalk\common\HighCompute\release\dectalk/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\acxf1c.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\brent.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\circuit.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cm_char.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cm_cmd.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cm_copt.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cm_main.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cm_pars.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cm_phon.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cm_text.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cm_util.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cmd_init.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\cmd_wav.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\CodePageConv\CodePageConv.c"
+"C:\work\ad-new\DECtalk\DAPI\CRYPT2.C"
+"C:\work\ad-new\DECtalk\plat\win32\src\dbgwins.c"
+"C:\work\ad-new\DECtalk\DAPI\DECSTD97.C"
+"C:\work\ad-new\DECtalk\plat\win32\src\DTFnxExStdlib.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\hlframe.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\inithl.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\log10table.c"
+"C:\work\ad-new\DECtalk\shared\src\mmalloc.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\nasalf1x.c"
+"C:\work\ad-new\DECtalk\shared\src\opthread.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_ch_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_ch_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_ch_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_ch_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_fr_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_fr_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_fr_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_fr_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_gr_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_gr_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_he_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_he_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_it_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_it_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_it_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_jp_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_jp_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_jp_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_jp_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_kr_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_kr_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_kr_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_kr_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_krnew_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_la_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_la_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_la_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_la_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_sp_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_sp_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_sp_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_sp_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\P_UK_SR1.C"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_uk_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\P_UK_SY1.C"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_uk_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_us_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_us_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_us_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_us_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\par_ambi.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\par_char.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\par_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\par_pars1.c"
+"C:\work\ad-new\DECtalk\dapicore\CMD\par_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_aloph.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_claus.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_draw.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\Ph_drwt02.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\Ph_fr_inton2.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_main.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_romi.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_sort.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_sort2.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_sttr2.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_syl.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_task.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_timng.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_vdefi.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_vset.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\phinit.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\phlog.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\phprint.c"
+"C:\work\ad-new\DECtalk\shared\src\pipe.c"
+"C:\work\ad-new\DECtalk\shared\src\playaud.c"
+"C:\work\ad-new\DECtalk\dapicore\VTM\playtone.c"
+"C:\work\ad-new\DECtalk\dapicore\KERNEL\services.c"
+"C:\work\ad-new\DECtalk\shared\src\spc.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\sqrttable.c"
+"C:\work\ad-new\DECtalk\dapicore\VTM\sync.c"
+"C:\work\ad-new\DECtalk\DAPI\ttsapi.c"
+"C:\work\ad-new\DECtalk\dapicore\KERNEL\Usa_init.c"
+"C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c"
+"C:\work\ad-new\DECtalk\dapicore\VTM\vtmiont.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP4B.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP4C.tmp" with contents
+[
+winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:".\..\build\dectalk\common\HighCompute\release/dectalk.pdb" /machine:I386 /def:".\dectalk.def" /out:".\..\build\dectalk\common\HighCompute\release/dectalk.dll" /implib:".\..\build\dectalk\common\HighCompute\release/dectalk.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\acxf1c.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\brent.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\circuit.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cm_char.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cm_cmd.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cm_copt.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cm_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cm_pars.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cm_phon.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cm_text.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cm_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cmd_init.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\cmd_wav.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\CodePageConv.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\CRYPT2.OBJ"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\dbgwins.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\DECSTD97.OBJ"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\DTFnxExStdlib.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\hlframe.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\inithl.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\log10table.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\nasalf1x.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\opthread.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_ch_sr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_ch_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_ch_sy1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_ch_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_fr_sr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_fr_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_fr_sy1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_fr_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\P_gr_inton2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_gr_sr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_gr_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_gr_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_he_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_he_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_it_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_it_sy1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_it_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_jp_sr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_jp_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_jp_sy1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_jp_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_kr_sr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_kr_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_kr_sy1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_kr_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_krnew_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_la_sr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_la_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_la_sy1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_la_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_sp_inton.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_sp_sr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_sp_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_sp_sy1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_sp_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\P_UK_SR1.OBJ"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_uk_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\P_UK_SY1.OBJ"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_uk_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_us_sr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_us_st1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_us_sy1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\p_us_tim.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\par_ambi.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\par_char.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\par_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\par_pars1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\par_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_aloph.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_claus.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_draw.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\Ph_drwt02.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\Ph_fr_inton2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\Ph_inton2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\Ph_intonnew.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_romi.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_setar.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_sort.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_sort2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_sttr2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_syl.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_timng.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_vdefi.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ph_vset.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\phinit.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\phlog.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\phprint.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\pipe.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\playaud.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\playtone.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\services.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\spc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\sqrttable.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\sync.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\ttsapi.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\Usa_init.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\vtm3.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk\vtmiont.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_ch.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_fr.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_gr.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_hb.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_it.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_jp.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_kr.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_la.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_sp.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_uk.lib"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dtalk_us.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP4C.tmp"
+<h3>Output Window</h3>
+Compiling...
+acxf1c.c
+brent.c
+C:\work\ad-new\DECtalk\dapicore\hlsyn\acxf1c.c(188) : warning C4715: 'Compute_acl' : not all control paths return a value
+circuit.c
+cm_char.c
+cm_cmd.c
+cm_copt.c
+cm_main.c
+C:\work\ad-new\DECtalk\dapicore\CMD\cm_main.c(221) : warning C4013: 'setspdef' undefined; assuming extern returning int
+cm_pars.c
+cm_phon.c
+cm_text.c
+cm_util.c
+cmd_init.c
+cmd_wav.c
+CodePageConv.c
+CRYPT2.C
+dbgwins.c
+DECSTD97.C
+DTFnxExStdlib.c
+hlframe.c
+inithl.c
+log10table.c
+mmalloc.c
+nasalf1x.c
+opthread.c
+p_ch_sr1.c
+p_ch_st1.c
+p_ch_sy1.c
+p_ch_tim.c
+p_fr_sr1.c
+p_fr_st1.c
+p_fr_sy1.c
+p_fr_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_fr_tim.c(303) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_fr_tim.c(321) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'char ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_fr_tim.c(325) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'char ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_fr_tim.c(326) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'char ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_fr_tim.c(685) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+P_gr_inton2.c
+C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c(368) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c(402) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c(428) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c(440) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c(457) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c(477) : warning C4013: 'make_f0_command' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c(672) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c(752) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+p_gr_st1.c
+p_gr_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_gr_tim.c(183) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_gr_tim.c(190) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_gr_tim.c(216) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_he_st1.c
+p_he_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_he_tim.c(176) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_he_tim.c(182) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_he_tim.c(200) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_it_st1.c
+p_it_sy1.c
+p_it_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_it_tim.c(170) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_it_tim.c(189) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_it_tim.c(1212) : warning C4102: 'skiprules' : unreferenced label
+p_jp_sr1.c
+p_jp_st1.c
+p_jp_sy1.c
+p_jp_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_jp_tim.c(173) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_jp_tim.c(192) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_kr_sr1.c
+p_kr_st1.c
+p_kr_sy1.c
+p_kr_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_kr_tim.c(162) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_kr_tim.c(169) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_kr_tim.c(174) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_kr_tim.c(187) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_krnew_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_krnew_tim.c(80) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_krnew_tim.c(87) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_krnew_tim.c(91) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_krnew_tim.c(97) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_la_sr1.c
+p_la_st1.c
+p_la_sy1.c
+p_la_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_la_tim.c(142) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_la_tim.c(149) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_la_tim.c(163) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_sp_inton.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(248) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(283) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(306) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(314) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(330) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(611) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(727) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(898) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+p_sp_sr1.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c(697) : warning C4761: integral size mismatch in argument; conversion supplied
+p_sp_st1.c
+p_sp_sy1.c
+p_sp_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_tim.c(288) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_tim.c(295) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_sp_tim.c(309) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+P_UK_SR1.C
+p_uk_st1.c
+P_UK_SY1.C
+p_uk_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_uk_tim.c(171) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_uk_tim.c(177) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_uk_tim.c(186) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_uk_tim.c(262) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_us_sr1.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_us_sr1.c(114) : warning C4013: 'add_feature' undefined; assuming extern returning int
+p_us_st1.c
+p_us_sy1.c
+p_us_tim.c
+C:\work\ad-new\DECtalk\dapicore\PH\p_us_tim.c(179) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_us_tim.c(185) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\p_us_tim.c(194) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+par_ambi.c
+par_char.c
+par_dict.c
+par_pars1.c
+par_rule.c
+ph_aloph.c
+ph_claus.c
+C:\work\ad-new\DECtalk\dapicore\PH\ph_claus.c(312) : warning C4013: 'he_phtiming' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_claus.c(330) : warning C4013: 'newsh_inton' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_claus.c(334) : warning C4013: 'sp_phinton' undefined; assuming extern returning int
+ph_draw.c
+C:\work\ad-new\DECtalk\dapicore\PH\ph_draw.c(622) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\ph_draw.c(623) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\ph_draw.c(624) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+Ph_drwt02.c
+C:\work\ad-new\DECtalk\dapicore\PH\ph_draw.c(3920) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\ph_draw.c(3920) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_drwt02.c(1122) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_drwt02.c(1140) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_drwt02.c(1789) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_drwt02.c(1793) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_drwt02.c(1811) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_drwt02.c(504) : warning C4101: 'temp' : unreferenced local variable
+Ph_fr_inton2.c
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_fr_inton2.c(271) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+Ph_inton2.c
+Ph_intonnew.c
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(1116) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(1354) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(1927) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(1928) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(2010) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(2011) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(2011) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(2011) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(2156) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(2162) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c(2379) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2013) : warning C4101: 'offset' : unreferenced local variable
+ph_main.c
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(997) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(1010) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(1011) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(1011) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(1042) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(1051) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(1057) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(1661) : warning C4700: local variable 'F0_GLOTTALIZE' used without having been initialized
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2218) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2225) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2225) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2231) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2231) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2241) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2279) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2279) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2279) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2291) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2298) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2318) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\work\ad-new\DECtalk\dapicore\PH\Ph_intonnew.c(2322) : warning C4761: integral size mismatch in argument; conversion supplied
+ph_romi.c
+ph_setar.c
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(901) : warning C4013: 'it_forw_smooth_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(911) : warning C4013: 'ch_forw_smooth_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1033) : warning C4013: 'it_back_smooth_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1038) : warning C4013: 'jp_back_smooth_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1043) : warning C4013: 'kr_back_smooth_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1048) : warning C4013: 'ch_back_smooth_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1152) : warning C4013: 'it_special_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1157) : warning C4013: 'jp_special_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1162) : warning C4013: 'kr_special_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1167) : warning C4013: 'ch_special_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1172) : warning C4013: 'he_special_rules' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1219) : warning C4013: 'us_special_coartic' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1223) : warning C4013: 'gr_special_coartic' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1228) : warning C4013: 'la_special_coartic' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1233) : warning C4013: 'sp_special_coartic' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1237) : warning C4013: 'it_special_coartic' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1582) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1584) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1590) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1594) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1637) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\ph_setar.c(1919) : warning C4013: 'it_gettar' undefined; assuming extern returning int
+ph_sort.c
+ph_sort2.c
+C:\work\ad-new\DECtalk\dapicore\PH\ph_sort2.c(91) : warning C4013: 'add_feature' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_sort2.c(194) : warning C4013: 'insertphone' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_sort2.c(289) : warning C4013: 'delete_symbol' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_sort2.c(297) : warning C4013: 'is_wboundary' undefined; assuming extern returning int
+ph_sttr2.c
+C:\work\ad-new\DECtalk\dapicore\PH\ph_sttr2.c(144) : warning C4013: 'getbegtar' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_sttr2.c(149) : warning C4013: 'getendtar' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\dapicore\PH\ph_sttr2.c(423) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+ph_syl.c
+ph_task.c
+ph_timng.c
+ph_vdefi.c
+ph_vset.c
+C:\work\ad-new\DECtalk\dapicore\PH\ph_vset.c(1012) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\PH\ph_vset.c(1028) : warning C4018: '>' : signed/unsigned mismatch
+phinit.c
+phlog.c
+phprint.c
+pipe.c
+playaud.c
+playtone.c
+services.c
+spc.c
+sqrttable.c
+sync.c
+ttsapi.c
+This is NOT a USERDIC_COMPILE
+Usa_init.c
+vtm3.c
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(167) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(206) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(207) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(213) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(214) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(224) : warning C4244: '=' : conversion from 'unsigned __int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(225) : warning C4244: '=' : conversion from 'unsigned __int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(238) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(244) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(293) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(294) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(300) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(301) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(321) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(327) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(340) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(366) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(372) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmfunc.h(378) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(613) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(616) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(770) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(771) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(773) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(774) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(781) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(782) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(784) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(785) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(792) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(818) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(823) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(874) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1081) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1083) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1118) : warning C4244: '+=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1194) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1277) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1281) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1310) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1451) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1514) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1547) : warning C4244: '+=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1548) : warning C4244: '+=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1712) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1729) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1730) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1731) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1732) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1796) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1886) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1891) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(1671) : warning C4102: 'skip_cascade' : unreferenced label
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(422) : warning C4101: 'voice1' : unreferenced local variable
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(2198) : warning C4018: '>' : signed/unsigned mismatch
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(2211) : warning C4018: '>' : signed/unsigned mismatch
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(2234) : warning C4018: '>=' : signed/unsigned mismatch
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(2275) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(2278) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(2690) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+C:\work\ad-new\DECtalk\dapicore\VTM\vtm3.c(2696) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+vtmiont.c
+C:\work\ad-new\DECtalk\dapicore\VTM\vtmiont.c(1718) : warning C4133: 'function' : incompatible types - from 'unsigned short *' to 'struct SPD_CHIP *'
+Linking...
+   Creating library .\..\build\dectalk\common\HighCompute\release/dectalk.lib and object .\..\build\dectalk\common\HighCompute\release/dectalk.exp
+<h3>
+--------------------Configuration: speak - Win32 Release High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"HighCompute\Release/speak.res" /d "NDEBUG" /d "ML" /d "FRENCH" "C:\work\ad-new\DECtalk\plat\win32\demo\speak\speak.rc"" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP50.tmp" with contents
+[
+/nologo /MD /W3 /GX /Ox /I "..\..\..\..\sdk\include" /I "..\..\..\..\DAPI" /I "..\..\..\..\shared\include" /I "..\..\..\..\DAPICORE\LTS\CodePageConv" /I "..\..\include" /D "UNICODE" /D "_UNICODE" /D "ENGLISH_US" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "HLSYN" /FR"HighCompute\Release/" /Fo"HighCompute\Release/" /Fd"HighCompute\Release/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\CodePageConv\CodePageConv.c"
+"C:\work\ad-new\DECtalk\plat\win32\demo\speak\DevFunctions.cpp"
+"C:\work\ad-new\DECtalk\plat\win32\demo\speak\ParamsDlg.cpp"
+"C:\work\ad-new\DECtalk\plat\win32\demo\speak\Speak.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP50.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP51.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib version.lib /nologo /subsystem:windows /incremental:no /pdb:"..\..\build\dectalk\common\HighCompute\release/speak.pdb" /machine:I386 /out:"..\..\build\dectalk\common\HighCompute\release/speak.exe" 
+".\HighCompute\Release\CodePageConv.obj"
+".\HighCompute\Release\DevFunctions.obj"
+".\HighCompute\Release\ParamsDlg.obj"
+".\HighCompute\Release\Speak.obj"
+".\HighCompute\Release\speak.res"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\release\dectalk.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP51.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CodePageConv.c
+Generating Code...
+Compiling...
+DevFunctions.cpp
+ParamsDlg.cpp
+Speak.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+speak.exe - 0 error(s), 288 warning(s)
+</pre>
+</body>
+</html>

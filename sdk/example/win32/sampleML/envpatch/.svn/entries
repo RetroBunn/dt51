@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/win32/sampleML/envpatch"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4214"
+   name="envpatch.mak"
+   text-time="2006-03-22T15:28:13.058246Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="6584ff7d5fc1ead4f080bc3273653a75"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.089515Z"/>
+<entry
+   committed-rev="4218"
+   name="envpatch.dep"
+   text-time="2006-03-22T15:28:12.886374Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="b7b7361ad67e2f8c1a8fcabcb9421124"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.089515Z"/>
+<entry
+   committed-rev="4214"
+   name="StdAfx.h"
+   text-time="2006-03-22T15:28:12.823876Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="5fc60824e92f85408a162116f033aa22"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.073890Z"/>
+<entry
+   committed-rev="4214"
+   name="envpatchDlg.cpp"
+   text-time="2006-03-22T15:28:13.058246Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="2fb3d32ba0f2d39fae4951cba61d665b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.105139Z"/>
+<entry
+   committed-rev="4214"
+   name="envpatchDlg.h"
+   text-time="2006-03-22T15:28:13.105120Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="e933261d9ec17be9b9e9b676858c999d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.558256Z"/>
+<entry
+   committed-rev="4214"
+   name="envpatch.cpp"
+   text-time="2006-03-22T15:28:13.105120Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="c5d8b28f4ab57a788ba3a5aa1534fa24"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.573880Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="envpatch.aps"
+   text-time="2006-03-22T15:28:13.151994Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="597fe98a6cfec6083cc274e0d419b110"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.730127Z"/>
+<entry
+   committed-rev="4218"
+   name="envpatch.clw"
+   text-time="2006-03-22T15:28:13.276992Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e930954916dfbc49ec3497e468f22059"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.745752Z"/>
+<entry
+   committed-rev="4218"
+   name="envpatch.dsp"
+   text-time="2006-03-22T15:28:13.323866Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f573546d6bf42efef6b1820d9a6283e2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.761377Z"/>
+<entry
+   committed-rev="4214"
+   name="envpatch.h"
+   text-time="2006-03-22T15:28:13.339491Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="b45c9362af716fd219877f22bad1869c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.823876Z"/>
+<entry
+   committed-rev="4218"
+   name="envpatch.dsw"
+   text-time="2006-03-22T15:28:13.089496Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3ce92f8bf176c9e6c9a00f203ff112ae"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.152014Z"/>
+<entry
+   committed-rev="4214"
+   name="StdAfx.cpp"
+   text-time="2006-03-22T15:28:13.120745Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="950d2b8eab80ae61f417097440c1ab83"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.714503Z"/>
+<entry
+   committed-rev="4218"
+   name="envpatch.rc"
+   text-time="2006-03-22T15:28:13.261367Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="bba41b46c6a922ff70c87569efc78bac"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.730127Z"/>
+<entry
+   committed-rev="4214"
+   name="resource.h"
+   text-time="2006-03-22T15:28:13.323866Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="7566fd626e69ec052d3d8bcb0f6be0d7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:12.792626Z"/>
+</wc-entries>

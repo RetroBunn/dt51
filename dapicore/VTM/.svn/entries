@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6184"
+   name=""
+   committed-date="2006-10-31T19:55:10.356326Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/VTM"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4203"
+   name="vfmd2pol.h"
+   text-time="2006-03-22T15:30:44.305342Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="167f50e3ea016d711b90c8a43ddf8a2d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.274189Z"/>
+<entry
+   committed-rev="4203"
+   name="vfmfiltr.h"
+   text-time="2006-03-22T15:30:44.336592Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="6a3ad24dd49e6b5ca68e98ead21f1e6a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.352312Z"/>
+<entry
+   committed-rev="6177"
+   name="vtmiont.c"
+   text-time="2006-10-27T15:28:08.710764Z"
+   committed-date="2006-10-31T16:16:22.756595Z"
+   checksum="fbd75fe95e71a50ab18d42b131f0bb33"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-10-27T13:41:14.945449Z"/>
+<entry
+   committed-rev="4203"
+   name="Makefile.in"
+   text-time="2006-03-22T15:30:44.383466Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="240e35f463e6558735b6907b8e973f94"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.477310Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm_idef.h"
+   text-time="2006-03-22T15:30:44.445964Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="db2038b8b505608c41c0bbccb2cf3b1e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.586683Z"/>
+<entry
+   committed-rev="4203"
+   name="vtmtabf.h"
+   text-time="2006-03-22T15:30:44.461589Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="fe2fcc8aa63e8e41f6d7e1f418834f50"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.649182Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm_iman.c"
+   text-time="2006-03-22T15:30:44.477214Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="6925888fdff059bea308e6da8824580f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.711680Z"/>
+<entry
+   committed-rev="4203"
+   name="vismprat.h"
+   text-time="2006-03-22T15:30:44.492839Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="7a34fa8b38030d47add109e2c7b7e043"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.899177Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm_f.c"
+   text-time="2006-03-22T15:30:44.508463Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="44157a0dc4dd64367c675e3b3af169b6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.946051Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm_i.c"
+   text-time="2006-03-22T15:30:44.524088Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="cd10734680a380072c8c75f4b57fa7fd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.961676Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm_f.h"
+   text-time="2006-03-22T15:30:44.539713Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="219a7117e6b6bd520288668e18c0ad53"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.977300Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm_i.h"
+   text-time="2006-03-22T15:30:44.555337Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="1adba0be521a2a0b9fbf47a5fa1cc7af"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:39.992925Z"/>
+<entry
+   committed-rev="4203"
+   name="syncmain.h"
+   text-time="2006-03-22T15:30:44.570962Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="603af31bae9df782592c9e250afd5e69"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.071048Z"/>
+<entry
+   committed-rev="4203"
+   name="vtmfunc.h"
+   text-time="2006-03-22T15:30:44.586587Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="7d9441ca5b6927a1c2a64814fc84af3d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.133547Z"/>
+<entry
+   committed-rev="4203"
+   name="sinetab.h"
+   text-time="2006-03-22T15:30:44.602211Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="e0d21af56dcdbf7902da1d7819d4cc12"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.180421Z"/>
+<entry
+   committed-rev="4938"
+   name="playtone.c"
+   text-time="2006-05-19T14:39:49.999795Z"
+   committed-date="2006-05-18T20:50:10.977231Z"
+   checksum="9d8a93d86547bc328b6454c140b6756c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-19T14:39:49.796670Z"/>
+<entry
+   committed-rev="4203"
+   name="Makefile"
+   text-time="2006-03-22T15:30:44.633461Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="ea306c424af29dd827953409a4e50f6d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.227295Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm_fdef.h"
+   text-time="2006-03-22T15:30:44.649086Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="2d5743fbdfcae4699b288e5afc58f9d2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.274170Z"/>
+<entry
+   committed-rev="4203"
+   name="vtmfunci.h"
+   text-time="2006-03-22T15:30:44.649086Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="8ceead80696bc3a0219078f877af0ef7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.305419Z"/>
+<entry
+   committed-rev="5975"
+   name="vtm.c"
+   text-time="2006-10-09T17:48:33.273009Z"
+   committed-date="2006-10-09T19:05:03.790645Z"
+   checksum="956f9d57203cd051b3e8572ec4acc775"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.321044Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm_fman.c"
+   text-time="2006-03-22T15:30:44.680335Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="94dfe6980e88e6378b03c0c9a149443c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.336668Z"/>
+<entry
+   committed-rev="4203"
+   name="decvoc_f.c"
+   text-time="2006-03-22T15:30:44.695960Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="dca96cfcc8e3f5a5170d45ee6e3cd233"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.383542Z"/>
+<entry
+   committed-rev="6157"
+   name="vtminst.h"
+   text-time="2006-10-27T13:41:15.257937Z"
+   committed-date="2006-10-27T12:22:24.592652Z"
+   checksum="4d3d1a9dfe026730f56b9ee8ce1b8707"
+   last-author="ebruckert"
+   kind="file"
+   prop-time="2006-10-27T13:41:15.132942Z"/>
+<entry
+   committed-rev="4203"
+   name="vfphdefs.h"
+   text-time="2006-03-22T15:30:44.727209Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="0c41309a3e15983097c9251c9154151a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.586664Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm.h"
+   text-time="2006-03-22T15:30:44.742834Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="73cc5fba5402fe67e18d6f3760988b01"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.696036Z"/>
+<entry
+   committed-rev="4203"
+   name="decvoc_i.c"
+   text-time="2006-03-22T15:30:44.758458Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="7f2b4e69bf4d233e836999a8e76151db"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:40.742911Z"/>
+<entry
+   committed-rev="4895"
+   name="vtm_fa.c"
+   text-time="2006-05-18T14:31:24.191929Z"
+   committed-date="2006-05-16T18:35:47.650466Z"
+   checksum="42d2b52ef55d16013ff6a888c36ae0a6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:23.629443Z"/>
+<entry
+   committed-rev="4938"
+   name="sync.c"
+   text-time="2006-05-19T14:39:50.109170Z"
+   committed-date="2006-05-18T20:50:10.977231Z"
+   checksum="f60ec6e564d93994805463060250d07f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-19T14:39:49.906045Z"/>
+<entry
+   committed-rev="4203"
+   name="viphdefs.h"
+   text-time="2006-03-22T15:30:44.805333Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="75ab537b65fa94cafedbf2db0d8bc150"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:42.071010Z"/>
+<entry
+   committed-rev="5276"
+   name="tunecheck.h"
+   text-time="2006-07-20T19:05:35.187500Z"
+   committed-date="2006-07-05T19:34:07.459406Z"
+   checksum="418df6f76e015bddc7158dc0614cffd8"
+   last-author="ebruckert"
+   kind="file"
+   prop-time="2006-07-20T19:05:35.015625Z"/>
+<entry
+   committed-rev="4203"
+   name="vtmtable.c"
+   text-time="2006-03-22T15:30:44.836582Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="1f92fc6278b5bcb0128a9ff8e45964f9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:42.117884Z"/>
+<entry
+   committed-rev="4203"
+   name="vtmtable.h"
+   text-time="2006-03-22T15:30:44.852207Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="7aecd5384032af558a7380f93d248c50"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:42.399129Z"/>
+<entry
+   committed-rev="4203"
+   name="fvtmtabl.h"
+   text-time="2006-03-22T15:30:44.883456Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="153a0f89cfef6954bc596184ae668857"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:42.852245Z"/>
+<entry
+   committed-rev="4203"
+   name="vfport.h"
+   text-time="2006-03-22T15:30:44.883456Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="c99483c2ae9cd7968ec653cd3a085f5f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:42.914744Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm1.c"
+   text-time="2006-03-22T15:30:44.914705Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="27bfec98166e53237ec03f6ffc599b4d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:43.305361Z"/>
+<entry
+   committed-rev="4203"
+   name="vtmtabli.h"
+   text-time="2006-03-22T15:30:44.930330Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="fd3d37816163b38fc894222e0a315f4d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:43.430359Z"/>
+<entry
+   committed-rev="4203"
+   name="vtm2.c"
+   text-time="2006-03-22T15:30:44.945955Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="802a7c7d9d7f67e085c88b0354aec744"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:43.852226Z"/>
+<entry
+   committed-rev="4203"
+   name="viport.h"
+   text-time="2006-03-22T15:30:44.992829Z"
+   committed-date="2006-03-18T01:20:00.021227Z"
+   checksum="b9322597cabc4a44e799969ccf71de9a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:30:43.883475Z"/>
+<entry
+   committed-rev="6184"
+   name="vtm3.c"
+   text-time="2006-11-02T16:19:54.948995Z"
+   committed-date="2006-10-31T19:55:10.356326Z"
+   checksum="9ffe67cb07d59a076123cc2adec4d665"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-11-02T16:19:54.870873Z"/>
+</wc-entries>

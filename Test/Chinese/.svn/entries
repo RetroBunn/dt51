@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4768"
+   name=""
+   committed-date="2006-05-04T18:13:58.558988Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Test/Chinese"
+   last-author="rpierce"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="Baseline"
+   kind="dir"/>
+<entry
+   committed-rev="4708"
+   name="er-hua testing text.txt"
+   text-time="2006-05-03T16:59:17.578125Z"
+   committed-date="2006-04-28T15:31:32.024475Z"
+   checksum="299b6fc77cdc1bf34ba5a19de05744d8"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-05-03T16:59:17.515625Z"/>
+<entry
+   committed-rev="4218"
+   name="character_pinyin_tone.txt"
+   text-time="2006-03-22T15:26:51.575835Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="68ef845f5029526d9b7343e213faba56"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:51.091473Z"/>
+<entry
+   committed-rev="4548"
+   name="Chinese.test.txt"
+   text-time="2006-04-24T19:09:56.517814Z"
+   committed-date="2006-04-13T19:44:44.612373Z"
+   checksum="c3e99af501aec4837a37571aad2c2cfa"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:56.517814Z"/>
+<entry
+   committed-rev="4216"
+   name="BasicSounds.txt"
+   text-time="2006-03-22T15:26:51.685208Z"
+   committed-date="2006-03-18T04:57:47.401252Z"
+   checksum="b0965af1606a0e29b04ba6fba1ecd349"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:51.341466Z"/>
+<entry
+   committed-rev="4216"
+   name="LongTest.txt"
+   text-time="2006-03-22T15:26:51.700832Z"
+   committed-date="2006-03-18T04:57:47.401252Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:51.388340Z"/>
+<entry
+   committed-rev="4216"
+   name="ShortTest.txt"
+   text-time="2006-03-22T15:26:51.700832Z"
+   committed-date="2006-03-18T04:57:47.401252Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:51.388340Z"/>
+<entry
+   committed-rev="4768"
+   name="Tone Sequence in Sentence.doc"
+   text-time="2006-05-09T18:17:58.515625Z"
+   committed-date="2006-05-04T18:13:58.558988Z"
+   checksum="9fa6d0056f93eeae7f6153778320cbe9"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-05-09T18:17:58.437500Z"/>
+</wc-entries>

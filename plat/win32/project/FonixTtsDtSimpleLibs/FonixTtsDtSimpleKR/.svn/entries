@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5568"
+   name=""
+   committed-date="2006-08-16T21:54:35.826968Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/project/FonixTtsDtSimpleLibs/FonixTtsDtSimpleKR"
+   last-author="mkauntz"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5568"
+   name="FonixTtsDtSimpleKR.dsp"
+   text-time="2006-08-18T13:31:44.908467Z"
+   committed-date="2006-08-16T21:54:35.826968Z"
+   checksum="0e1307a1d5c950d1d1cc437f6c538998"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T13:31:44.845970Z"/>
+</wc-entries>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/demo/ttssrv"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="ttssrv.exe"
+   text-time="2006-03-22T15:24:49.233671Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="014f91b09f85a0840540b505d9783f19"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:47.546193Z"/>
+<entry
+   committed-rev="4218"
+   name="SSTOP.BMP"
+   text-time="2006-03-22T15:24:49.077423Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="406d0be818fb232e79f6cbbaf1adb4b5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:47.468069Z"/>
+<entry
+   committed-rev="4213"
+   name="TTSSRV.C"
+   text-time="2006-03-22T15:24:49.889913Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="ec2d6351d1d4d1f5770723db474f791d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:47.811815Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSSRV.APS"
+   text-time="2006-03-22T15:24:49.952412Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="5c6fa4a0ebc0fb486e229cba3a06ce5e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:47.905563Z"/>
+<entry
+   committed-rev="4218"
+   name="PAUSE.BMP"
+   text-time="2006-03-22T15:24:50.061786Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4c4232926030e5cd09f5e3a226b24c1a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.093061Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSSRV.DSP"
+   text-time="2006-03-22T15:24:50.046161Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="fe1b678d2337403aa57eb157ef363181"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.014937Z"/>
+<entry
+   committed-rev="4213"
+   name="TTSSRV.H"
+   text-time="2006-03-22T15:24:50.061786Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="d9edf04263beb5cfa22de75bfdf87963"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.421182Z"/>
+<entry
+   committed-rev="4218"
+   name="DPAUSE.BMP"
+   text-time="2006-03-22T15:24:50.077411Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1a440e4a492db38ebb5ecf617b38a427"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.436807Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSSRV.DSW"
+   text-time="2006-03-22T15:24:50.093035Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="c8534ef39117de49becf8df482546f5c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.483681Z"/>
+<entry
+   committed-rev="4218"
+   name="STOP.BMP"
+   text-time="2006-03-22T15:24:50.108660Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3c179392349439e84ed4d25f8521ba60"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.483681Z"/>
+<entry
+   committed-rev="4218"
+   name="DSTOP.BMP"
+   text-time="2006-03-22T15:24:50.124285Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="91ac14b1b16cd45238fdb19ca73e534c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.499306Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSSRV.RC"
+   text-time="2006-03-22T15:24:50.186784Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d6505a7208d461c63a8afa2e8b34ae10"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.514931Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSSRV.DLG"
+   text-time="2006-03-22T15:24:50.202409Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="44295f68de3fe1b26ce0a1de91cecfa4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.577430Z"/>
+<entry
+   committed-rev="4218"
+   name="ttssrv.dep"
+   text-time="2006-03-22T15:24:50.264908Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="2c538a3c68bcacb9e79ce3377fc4879b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.811802Z"/>
+<entry
+   committed-rev="4213"
+   name="TTSSRV.MAK"
+   text-time="2006-03-22T15:24:50.218034Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="a91ab3ba36fc8bf5b35a2e109cf49732"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.718053Z"/>
+<entry
+   committed-rev="4218"
+   name="SPAUSE.BMP"
+   text-time="2006-03-22T15:24:50.686778Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ae2a1bdad4dfc4352286d52b46ad7056"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.827427Z"/>
+<entry
+   committed-rev="4213"
+   name="MAKEFILE"
+   text-time="2006-03-22T15:24:50.811776Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2d322c785c79f4c7a7c8dd411c5ad146"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.905551Z"/>
+<entry
+   committed-rev="4213"
+   name="resource.h"
+   text-time="2006-03-22T15:24:50.843026Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="8cb2e2b6b8a8ff7541dd5ed6c85178a7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.936800Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSSRV.ICO"
+   text-time="2006-03-22T15:24:51.108647Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7e19c92b02dc9b2c2e64c6de4baccd63"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:48.999299Z"/>
+<entry
+   committed-rev="4213"
+   name="AFXRES.H"
+   text-time="2006-03-22T15:24:51.202396Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="805a9c0ea56215eab7e36a4efe9e1976"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:49.061799Z"/>
+</wc-entries>

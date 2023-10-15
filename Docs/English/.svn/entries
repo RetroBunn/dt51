@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6185"
+   name=""
+   committed-date="2006-10-31T21:27:19.983703Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/English"
+   last-author="barthols"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="6052"
+   name="RevisionHistory.us.txt"
+   text-time="2006-10-18T13:27:38.471894Z"
+   committed-date="2006-10-17T21:38:32.678954Z"
+   checksum="fc8bfd312d93278c561253cbb5aed7ce"
+   last-author="barthols"
+   kind="file"
+   prop-time="2006-10-18T13:27:38.362522Z"/>
+<entry
+   committed-rev="4218"
+   name="End of Phrase Sub-glottal Pressure.doc"
+   text-time="2006-03-22T15:02:33.244683Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="c4afbfcccb8c1036671ef5ce64856d12"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:30.807261Z"/>
+<entry
+   name="DECTalkWaves"
+   kind="dir"/>
+<entry
+   committed-rev="6185"
+   name="DECTalk 5.1 USEnglish Focus List.doc"
+   text-time="2006-11-02T16:19:57.902006Z"
+   committed-date="2006-10-31T21:27:19.983703Z"
+   checksum="f188e2b84b7e658d7327feb6e5df8ee8"
+   last-author="barthols"
+   kind="file"
+   prop-time="2006-11-02T16:19:57.886382Z"/>
+</wc-entries>

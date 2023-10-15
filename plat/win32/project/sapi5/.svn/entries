@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5591"
+   name=""
+   committed-date="2006-08-18T21:30:21.766218Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/project/sapi5"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="SP5.MSM"
+   text-time="2006-03-22T15:25:05.420964Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="dae8f070c1a1cc5a35e63ca8b566a99d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:04.639724Z"/>
+<entry
+   committed-rev="4218"
+   name="TtsEng.tlb"
+   text-time="2006-03-22T15:25:05.499088Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="bb9bc09da5725939967deb832868b17c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:04.702223Z"/>
+<entry
+   committed-rev="5577"
+   name="sapi5.dsp"
+   text-time="2006-08-17T17:34:47.625961Z"
+   committed-date="2006-08-17T17:41:17.792736Z"
+   checksum="d713af434c3d6e28e5651de9d7a28238"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:25:04.764723Z"/>
+<entry
+   committed-rev="4218"
+   name="sapi5.dep"
+   text-time="2006-03-22T15:25:06.608449Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="235a105edd624e50c02e5e5e087f9880"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:04.842847Z"/>
+<entry
+   committed-rev="4213"
+   name="sapi5.mak"
+   text-time="2006-03-22T15:25:06.905320Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="bb77eefc9866e53078b63f39220ee9d9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:05.014719Z"/>
+<entry
+   committed-rev="5591"
+   name="ttseng.h"
+   text-time="2006-08-17T17:45:29.122737Z"
+   committed-date="2006-08-18T21:30:21.766218Z"
+   checksum="527e4027ce481f5bf9156a0ac8149928"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:25:05.108468Z"/>
+<entry
+   committed-rev="4218"
+   name="sapi5.dsw"
+   text-time="2006-03-22T15:25:06.952195Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4dc99155e5e923689d16878b14435504"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:05.124093Z"/>
+<entry
+   committed-rev="4218"
+   name="sapi5.reg"
+   text-time="2006-03-22T15:25:06.967819Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="52418947efe2c3d22d1f108c246e755c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:05.170967Z"/>
+<entry
+   committed-rev="5591"
+   name="ttseng_i.c"
+   text-time="2006-08-17T17:45:29.122737Z"
+   committed-date="2006-08-18T21:30:21.766218Z"
+   checksum="588c734ca128dcab938a2e5395062927"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:25:05.217842Z"/>
+</wc-entries>

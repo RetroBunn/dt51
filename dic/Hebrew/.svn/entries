@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4982"
+   name=""
+   committed-date="2006-05-23T17:15:15.830594Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/Hebrew"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_hb.dic"
+   text-time="2006-05-25T15:30:43.162461Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="7dea362b3fac8e00956a4952a3d4f474"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:43.146837Z"/>
+</wc-entries>

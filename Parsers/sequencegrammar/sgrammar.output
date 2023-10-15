@@ -1,0 +1,1583 @@
+Conflict in state 100 between rule 28 and token SEQOR resolved as reduce.
+Conflict in state 100 between rule 28 and token SEQAND resolved as reduce.
+Conflict in state 110 between rule 45 and token '+' resolved as reduce.
+Conflict in state 110 between rule 45 and token '-' resolved as shift.
+Conflict in state 116 between rule 24 and token SEQOR resolved as reduce.
+Conflict in state 116 between rule 24 and token SEQAND resolved as reduce.
+Conflict in state 117 between rule 26 and token SEQOR resolved as reduce.
+Conflict in state 117 between rule 26 and token SEQAND resolved as reduce.
+Conflict in state 122 between rule 47 and token '+' resolved as reduce.
+Conflict in state 122 between rule 47 and token '-' resolved as reduce.
+
+Grammar
+rule 1    STATEMENT -> RULE
+rule 2    STATEMENT -> STATEMENT RULE
+rule 3    @1 ->		/* empty */
+rule 4    RULE -> SEQUENCEDECL @1 ';'
+rule 5    @2 ->		/* empty */
+rule 6    RULE -> RULEDECLARATION @2 ';'
+rule 7    @3 ->		/* empty */
+rule 8    RULE -> DECLARATION @3 ';'
+rule 9    RULE -> COMMENTLINE
+rule 10   SEQUENCEDECL -> DEF ':' NAME '=' FILENAME
+rule 11   @4 ->		/* empty */
+rule 12   SEQUENCEDECL -> DEF ':' NAME ':' @4 SEQUENCE
+rule 13   @5 ->		/* empty */
+rule 14   SEQUENCEDECL -> SEQ ':' NAME ':' @5 SEQUENCE
+rule 15   @6 ->		/* empty */
+rule 16   SEQUENCEDECL -> SEQ @6 SEQUENCE
+rule 17   @7 ->		/* empty */
+rule 18   SEQUENCE -> @7 SEQEXPRESSION
+rule 19   SEQUENCE -> SEQOTHER
+rule 20   @8 ->		/* empty */
+rule 21   SEQUENCE -> SEQUENCE '.' @8 SEQEXPRESSION
+rule 22   SEQUENCE -> SEQUENCE '.' SEQOTHER
+rule 23   @9 ->		/* empty */
+rule 24   SEQEXPRESSION -> SEQEXPRESSION SEQOR @9 SEQEXPRESSION
+rule 25   @10 ->		/* empty */
+rule 26   SEQEXPRESSION -> SEQEXPRESSION SEQAND @10 SEQEXPRESSION
+rule 27   @11 ->		/* empty */
+rule 28   SEQEXPRESSION -> SEQNOT @11 SEQEXPRESSION
+rule 29   @12 ->		/* empty */
+rule 30   SEQEXPRESSION -> '{' @12 SEQEXPRESSION '}'
+rule 31   SEQEXPRESSION -> WORDGRAMMARNAME
+rule 32   SEQOTHER -> '%' BOUND '%'
+rule 33   SEQOTHER -> '&' NAME '[' INTEGER ',' INTEGER ']'
+rule 34   SEQOTHER -> '&' NAME
+rule 35   SEQOTHER -> '!' '&' NAME
+rule 36   WORDGRAMMARNAME -> NAME
+rule 37   @13 ->		/* empty */
+rule 38   RULEDECLARATION -> NAME '=' '>' @13 RIGHTSIDE
+rule 39   RIGHTSIDE -> EXPRESSION
+rule 40   @14 ->		/* empty */
+rule 41   @15 ->		/* empty */
+rule 42   RIGHTSIDE -> EXPRESSION @14 '|' @15 RIGHTSIDE
+rule 43   @16 ->		/* empty */
+rule 44   RIGHTSIDE -> '|' @16 RIGHTSIDE
+rule 45   EXPRESSION -> EXPRESSION '+' EXPRESSION
+rule 46   @17 ->		/* empty */
+rule 47   EXPRESSION -> EXPRESSION '-' @17 EXPRESSION
+rule 48   EXPRESSION -> ENDSINFORM
+rule 49   EXPRESSION -> REPEATED
+rule 50   EXPRESSION -> NAME
+rule 51   EXPRESSION -> MORPH
+rule 52   EXPRESSION -> BOUND
+rule 53   EXPRESSION -> OPERATOR
+rule 54   EXPRESSION -> EMPTYNODE
+rule 55   EXPRESSION -> SKIPWORD
+rule 56   EXPRESSION -> SKIPLETTER
+rule 57   ENDSINFORM -> ENDSIN '{' NAME '}'
+rule 58   @18 ->		/* empty */
+rule 59   REPEATED -> LBRAK @18 EXPRESSION RBRAK '[' INTEGER ',' INTEGER ']'
+rule 60   @19 ->		/* empty */
+rule 61   REPEATED -> NAME @19 '[' INTEGER ',' INTEGER ']'
+rule 62   @20 ->		/* empty */
+rule 63   REPEATED -> SKIPLETTER @20 '[' INTEGER ',' INTEGER ']'
+rule 64   DECLARATION -> TRIE NAME '=' FILENAME
+rule 65   DECLARATION -> RTRIE NAME '=' FILENAME
+rule 66   DECLARATION -> LTRIE '.' INTEGER '.' NAME '=' FILENAME
+rule 67   DECLARATION -> PROCESS NAME
+rule 68   DECLARATION -> TRIEFILE '=' FILENAME
+rule 69   DECLARATION -> ENDTRIE
+
+Terminals, with rules where they appear
+
+$ (-1)
+'!' (33) 35
+'%' (37) 32
+'&' (38) 33 34 35
+'+' (43) 45
+',' (44) 33 59 61 63
+'-' (45) 47
+'.' (46) 21 22 66
+':' (58) 10 12 14
+';' (59) 4 6 8
+'=' (61) 10 38 64 65 66 68
+'>' (62) 38
+'[' (91) 33 59 61 63
+']' (93) 33 59 61 63
+'{' (123) 30 57
+'|' (124) 42 44
+'}' (125) 30 57
+error (256)
+NAME (258) 10 12 14 33 34 35 36 38 50 57 61 64 65 66 67
+COMMENTLINE (259) 9
+LTRIE (260) 66
+TRIE (261) 64
+RTRIE (262) 65
+PROCESS (263) 67
+TRIEFILE (264) 68
+ENDTRIE (265) 69
+MORPH (266) 51
+SKIPWORD (267) 55
+SKIPLETTER (268) 56 63
+ENDSIN (269) 57
+EMPTYNODE (270) 54
+SEQOR (271) 24
+SEQAND (272) 26
+SEQNOT (273) 28
+SEQ (274) 14 16
+DEF (275) 10 12
+FILENAME (276) 10 64 65 66 68
+BOUND (277) 32 52
+OPERATOR (278) 53
+INTEGER (279) 33 59 61 63 66
+LBRAK (280) 59
+RBRAK (281) 59
+
+Nonterminals, with rules where they appear
+
+STATEMENT (43)
+    on left: 1 2, on right: 2
+RULE (44)
+    on left: 4 6 8 9, on right: 1 2
+@1 (45)
+    on left: 3, on right: 4
+@2 (46)
+    on left: 5, on right: 6
+@3 (47)
+    on left: 7, on right: 8
+SEQUENCEDECL (48)
+    on left: 10 12 14 16, on right: 4
+@4 (49)
+    on left: 11, on right: 12
+@5 (50)
+    on left: 13, on right: 14
+@6 (51)
+    on left: 15, on right: 16
+SEQUENCE (52)
+    on left: 18 19 21 22, on right: 12 14 16 21 22
+@7 (53)
+    on left: 17, on right: 18
+@8 (54)
+    on left: 20, on right: 21
+SEQEXPRESSION (55)
+    on left: 24 26 28 30 31, on right: 18 21 24 26 28 30
+@9 (56)
+    on left: 23, on right: 24
+@10 (57)
+    on left: 25, on right: 26
+@11 (58)
+    on left: 27, on right: 28
+@12 (59)
+    on left: 29, on right: 30
+SEQOTHER (60)
+    on left: 32 33 34 35, on right: 19 22
+WORDGRAMMARNAME (61)
+    on left: 36, on right: 31
+RULEDECLARATION (62)
+    on left: 38, on right: 6
+@13 (63)
+    on left: 37, on right: 38
+RIGHTSIDE (64)
+    on left: 39 42 44, on right: 38 42 44
+@14 (65)
+    on left: 40, on right: 42
+@15 (66)
+    on left: 41, on right: 42
+@16 (67)
+    on left: 43, on right: 44
+EXPRESSION (68)
+    on left: 45 47 48 49 50 51 52 53 54 55 56, on right: 39 42 45 47
+    59
+@17 (69)
+    on left: 46, on right: 47
+ENDSINFORM (70)
+    on left: 57, on right: 48
+REPEATED (71)
+    on left: 59 61 63, on right: 49
+@18 (72)
+    on left: 58, on right: 59
+@19 (73)
+    on left: 60, on right: 61
+@20 (74)
+    on left: 62, on right: 63
+DECLARATION (75)
+    on left: 64 65 66 67 68 69, on right: 8
+
+
+state 0
+
+    NAME	shift, and go to state 1
+    COMMENTLINE	shift, and go to state 2
+    LTRIE	shift, and go to state 3
+    TRIE	shift, and go to state 4
+    RTRIE	shift, and go to state 5
+    PROCESS	shift, and go to state 6
+    TRIEFILE	shift, and go to state 7
+    ENDTRIE	shift, and go to state 8
+    SEQ 	shift, and go to state 9
+    DEF 	shift, and go to state 10
+
+    STATEMENT	go to state 11
+    RULE	go to state 12
+    SEQUENCEDECL	go to state 13
+    RULEDECLARATION	go to state 14
+    DECLARATION	go to state 15
+
+
+
+state 1
+
+    RULEDECLARATION  ->  NAME . '=' '>' @13 RIGHTSIDE   (rule 38)
+
+    '=' 	shift, and go to state 16
+
+
+
+state 2
+
+    RULE  ->  COMMENTLINE .   (rule 9)
+
+    $default	reduce using rule 9 (RULE)
+
+
+
+state 3
+
+    DECLARATION  ->  LTRIE . '.' INTEGER '.' NAME '=' FILENAME   (rule 66)
+
+    '.' 	shift, and go to state 17
+
+
+
+state 4
+
+    DECLARATION  ->  TRIE . NAME '=' FILENAME   (rule 64)
+
+    NAME	shift, and go to state 18
+
+
+
+state 5
+
+    DECLARATION  ->  RTRIE . NAME '=' FILENAME   (rule 65)
+
+    NAME	shift, and go to state 19
+
+
+
+state 6
+
+    DECLARATION  ->  PROCESS . NAME   (rule 67)
+
+    NAME	shift, and go to state 20
+
+
+
+state 7
+
+    DECLARATION  ->  TRIEFILE . '=' FILENAME   (rule 68)
+
+    '=' 	shift, and go to state 21
+
+
+
+state 8
+
+    DECLARATION  ->  ENDTRIE .   (rule 69)
+
+    $default	reduce using rule 69 (DECLARATION)
+
+
+
+state 9
+
+    SEQUENCEDECL  ->  SEQ . ':' NAME ':' @5 SEQUENCE   (rule 14)
+    SEQUENCEDECL  ->  SEQ . @6 SEQUENCE   (rule 16)
+
+    ':' 	shift, and go to state 22
+
+    $default	reduce using rule 15 (@6)
+
+    @6  	go to state 23
+
+
+
+state 10
+
+    SEQUENCEDECL  ->  DEF . ':' NAME '=' FILENAME   (rule 10)
+    SEQUENCEDECL  ->  DEF . ':' NAME ':' @4 SEQUENCE   (rule 12)
+
+    ':' 	shift, and go to state 24
+
+
+
+state 11
+
+    STATEMENT  ->  STATEMENT . RULE   (rule 2)
+
+    $   	go to state 138
+    NAME	shift, and go to state 1
+    COMMENTLINE	shift, and go to state 2
+    LTRIE	shift, and go to state 3
+    TRIE	shift, and go to state 4
+    RTRIE	shift, and go to state 5
+    PROCESS	shift, and go to state 6
+    TRIEFILE	shift, and go to state 7
+    ENDTRIE	shift, and go to state 8
+    SEQ 	shift, and go to state 9
+    DEF 	shift, and go to state 10
+
+    RULE	go to state 25
+    SEQUENCEDECL	go to state 13
+    RULEDECLARATION	go to state 14
+    DECLARATION	go to state 15
+
+
+
+state 12
+
+    STATEMENT  ->  RULE .   (rule 1)
+
+    $default	reduce using rule 1 (STATEMENT)
+
+
+
+state 13
+
+    RULE  ->  SEQUENCEDECL . @1 ';'   (rule 4)
+
+    $default	reduce using rule 3 (@1)
+
+    @1  	go to state 26
+
+
+
+state 14
+
+    RULE  ->  RULEDECLARATION . @2 ';'   (rule 6)
+
+    $default	reduce using rule 5 (@2)
+
+    @2  	go to state 27
+
+
+
+state 15
+
+    RULE  ->  DECLARATION . @3 ';'   (rule 8)
+
+    $default	reduce using rule 7 (@3)
+
+    @3  	go to state 28
+
+
+
+state 16
+
+    RULEDECLARATION  ->  NAME '=' . '>' @13 RIGHTSIDE   (rule 38)
+
+    '>' 	shift, and go to state 29
+
+
+
+state 17
+
+    DECLARATION  ->  LTRIE '.' . INTEGER '.' NAME '=' FILENAME   (rule 66)
+
+    INTEGER	shift, and go to state 30
+
+
+
+state 18
+
+    DECLARATION  ->  TRIE NAME . '=' FILENAME   (rule 64)
+
+    '=' 	shift, and go to state 31
+
+
+
+state 19
+
+    DECLARATION  ->  RTRIE NAME . '=' FILENAME   (rule 65)
+
+    '=' 	shift, and go to state 32
+
+
+
+state 20
+
+    DECLARATION  ->  PROCESS NAME .   (rule 67)
+
+    $default	reduce using rule 67 (DECLARATION)
+
+
+
+state 21
+
+    DECLARATION  ->  TRIEFILE '=' . FILENAME   (rule 68)
+
+    FILENAME	shift, and go to state 33
+
+
+
+state 22
+
+    SEQUENCEDECL  ->  SEQ ':' . NAME ':' @5 SEQUENCE   (rule 14)
+
+    NAME	shift, and go to state 34
+
+
+
+state 23
+
+    SEQUENCEDECL  ->  SEQ @6 . SEQUENCE   (rule 16)
+
+    '%' 	shift, and go to state 35
+    '&' 	shift, and go to state 36
+    '!' 	shift, and go to state 37
+
+    $default	reduce using rule 17 (@7)
+
+    SEQUENCE	go to state 38
+    @7  	go to state 39
+    SEQOTHER	go to state 40
+
+
+
+state 24
+
+    SEQUENCEDECL  ->  DEF ':' . NAME '=' FILENAME   (rule 10)
+    SEQUENCEDECL  ->  DEF ':' . NAME ':' @4 SEQUENCE   (rule 12)
+
+    NAME	shift, and go to state 41
+
+
+
+state 25
+
+    STATEMENT  ->  STATEMENT RULE .   (rule 2)
+
+    $default	reduce using rule 2 (STATEMENT)
+
+
+
+state 26
+
+    RULE  ->  SEQUENCEDECL @1 . ';'   (rule 4)
+
+    ';' 	shift, and go to state 42
+
+
+
+state 27
+
+    RULE  ->  RULEDECLARATION @2 . ';'   (rule 6)
+
+    ';' 	shift, and go to state 43
+
+
+
+state 28
+
+    RULE  ->  DECLARATION @3 . ';'   (rule 8)
+
+    ';' 	shift, and go to state 44
+
+
+
+state 29
+
+    RULEDECLARATION  ->  NAME '=' '>' . @13 RIGHTSIDE   (rule 38)
+
+    $default	reduce using rule 37 (@13)
+
+    @13 	go to state 45
+
+
+
+state 30
+
+    DECLARATION  ->  LTRIE '.' INTEGER . '.' NAME '=' FILENAME   (rule 66)
+
+    '.' 	shift, and go to state 46
+
+
+
+state 31
+
+    DECLARATION  ->  TRIE NAME '=' . FILENAME   (rule 64)
+
+    FILENAME	shift, and go to state 47
+
+
+
+state 32
+
+    DECLARATION  ->  RTRIE NAME '=' . FILENAME   (rule 65)
+
+    FILENAME	shift, and go to state 48
+
+
+
+state 33
+
+    DECLARATION  ->  TRIEFILE '=' FILENAME .   (rule 68)
+
+    $default	reduce using rule 68 (DECLARATION)
+
+
+
+state 34
+
+    SEQUENCEDECL  ->  SEQ ':' NAME . ':' @5 SEQUENCE   (rule 14)
+
+    ':' 	shift, and go to state 49
+
+
+
+state 35
+
+    SEQOTHER  ->  '%' . BOUND '%'   (rule 32)
+
+    BOUND	shift, and go to state 50
+
+
+
+state 36
+
+    SEQOTHER  ->  '&' . NAME '[' INTEGER ',' INTEGER ']'   (rule 33)
+    SEQOTHER  ->  '&' . NAME   (rule 34)
+
+    NAME	shift, and go to state 51
+
+
+
+state 37
+
+    SEQOTHER  ->  '!' . '&' NAME   (rule 35)
+
+    '&' 	shift, and go to state 52
+
+
+
+state 38
+
+    SEQUENCEDECL  ->  SEQ @6 SEQUENCE .   (rule 16)
+    SEQUENCE  ->  SEQUENCE . '.' @8 SEQEXPRESSION   (rule 21)
+    SEQUENCE  ->  SEQUENCE . '.' SEQOTHER   (rule 22)
+
+    '.' 	shift, and go to state 53
+
+    $default	reduce using rule 16 (SEQUENCEDECL)
+
+
+
+state 39
+
+    SEQUENCE  ->  @7 . SEQEXPRESSION   (rule 18)
+
+    NAME	shift, and go to state 54
+    SEQNOT	shift, and go to state 55
+    '{' 	shift, and go to state 56
+
+    SEQEXPRESSION	go to state 57
+    WORDGRAMMARNAME	go to state 58
+
+
+
+state 40
+
+    SEQUENCE  ->  SEQOTHER .   (rule 19)
+
+    $default	reduce using rule 19 (SEQUENCE)
+
+
+
+state 41
+
+    SEQUENCEDECL  ->  DEF ':' NAME . '=' FILENAME   (rule 10)
+    SEQUENCEDECL  ->  DEF ':' NAME . ':' @4 SEQUENCE   (rule 12)
+
+    ':' 	shift, and go to state 59
+    '=' 	shift, and go to state 60
+
+
+
+state 42
+
+    RULE  ->  SEQUENCEDECL @1 ';' .   (rule 4)
+
+    $default	reduce using rule 4 (RULE)
+
+
+
+state 43
+
+    RULE  ->  RULEDECLARATION @2 ';' .   (rule 6)
+
+    $default	reduce using rule 6 (RULE)
+
+
+
+state 44
+
+    RULE  ->  DECLARATION @3 ';' .   (rule 8)
+
+    $default	reduce using rule 8 (RULE)
+
+
+
+state 45
+
+    RULEDECLARATION  ->  NAME '=' '>' @13 . RIGHTSIDE   (rule 38)
+
+    NAME	shift, and go to state 61
+    MORPH	shift, and go to state 62
+    SKIPWORD	shift, and go to state 63
+    SKIPLETTER	shift, and go to state 64
+    ENDSIN	shift, and go to state 65
+    EMPTYNODE	shift, and go to state 66
+    BOUND	shift, and go to state 67
+    OPERATOR	shift, and go to state 68
+    LBRAK	shift, and go to state 69
+    '|' 	shift, and go to state 70
+
+    RIGHTSIDE	go to state 71
+    EXPRESSION	go to state 72
+    ENDSINFORM	go to state 73
+    REPEATED	go to state 74
+
+
+
+state 46
+
+    DECLARATION  ->  LTRIE '.' INTEGER '.' . NAME '=' FILENAME   (rule 66)
+
+    NAME	shift, and go to state 75
+
+
+
+state 47
+
+    DECLARATION  ->  TRIE NAME '=' FILENAME .   (rule 64)
+
+    $default	reduce using rule 64 (DECLARATION)
+
+
+
+state 48
+
+    DECLARATION  ->  RTRIE NAME '=' FILENAME .   (rule 65)
+
+    $default	reduce using rule 65 (DECLARATION)
+
+
+
+state 49
+
+    SEQUENCEDECL  ->  SEQ ':' NAME ':' . @5 SEQUENCE   (rule 14)
+
+    $default	reduce using rule 13 (@5)
+
+    @5  	go to state 76
+
+
+
+state 50
+
+    SEQOTHER  ->  '%' BOUND . '%'   (rule 32)
+
+    '%' 	shift, and go to state 77
+
+
+
+state 51
+
+    SEQOTHER  ->  '&' NAME . '[' INTEGER ',' INTEGER ']'   (rule 33)
+    SEQOTHER  ->  '&' NAME .   (rule 34)
+
+    '[' 	shift, and go to state 78
+
+    $default	reduce using rule 34 (SEQOTHER)
+
+
+
+state 52
+
+    SEQOTHER  ->  '!' '&' . NAME   (rule 35)
+
+    NAME	shift, and go to state 79
+
+
+
+state 53
+
+    SEQUENCE  ->  SEQUENCE '.' . @8 SEQEXPRESSION   (rule 21)
+    SEQUENCE  ->  SEQUENCE '.' . SEQOTHER   (rule 22)
+
+    '%' 	shift, and go to state 35
+    '&' 	shift, and go to state 36
+    '!' 	shift, and go to state 37
+
+    $default	reduce using rule 20 (@8)
+
+    @8  	go to state 80
+    SEQOTHER	go to state 81
+
+
+
+state 54
+
+    WORDGRAMMARNAME  ->  NAME .   (rule 36)
+
+    $default	reduce using rule 36 (WORDGRAMMARNAME)
+
+
+
+state 55
+
+    SEQEXPRESSION  ->  SEQNOT . @11 SEQEXPRESSION   (rule 28)
+
+    $default	reduce using rule 27 (@11)
+
+    @11 	go to state 82
+
+
+
+state 56
+
+    SEQEXPRESSION  ->  '{' . @12 SEQEXPRESSION '}'   (rule 30)
+
+    $default	reduce using rule 29 (@12)
+
+    @12 	go to state 83
+
+
+
+state 57
+
+    SEQUENCE  ->  @7 SEQEXPRESSION .   (rule 18)
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQOR @9 SEQEXPRESSION   (rule 24)
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQAND @10 SEQEXPRESSION   (rule 26)
+
+    SEQOR	shift, and go to state 84
+    SEQAND	shift, and go to state 85
+
+    $default	reduce using rule 18 (SEQUENCE)
+
+
+
+state 58
+
+    SEQEXPRESSION  ->  WORDGRAMMARNAME .   (rule 31)
+
+    $default	reduce using rule 31 (SEQEXPRESSION)
+
+
+
+state 59
+
+    SEQUENCEDECL  ->  DEF ':' NAME ':' . @4 SEQUENCE   (rule 12)
+
+    $default	reduce using rule 11 (@4)
+
+    @4  	go to state 86
+
+
+
+state 60
+
+    SEQUENCEDECL  ->  DEF ':' NAME '=' . FILENAME   (rule 10)
+
+    FILENAME	shift, and go to state 87
+
+
+
+state 61
+
+    EXPRESSION  ->  NAME .   (rule 50)
+    REPEATED  ->  NAME . @19 '[' INTEGER ',' INTEGER ']'   (rule 61)
+
+    '[' 	reduce using rule 60 (@19)
+    $default	reduce using rule 50 (EXPRESSION)
+
+    @19 	go to state 88
+
+
+
+state 62
+
+    EXPRESSION  ->  MORPH .   (rule 51)
+
+    $default	reduce using rule 51 (EXPRESSION)
+
+
+
+state 63
+
+    EXPRESSION  ->  SKIPWORD .   (rule 55)
+
+    $default	reduce using rule 55 (EXPRESSION)
+
+
+
+state 64
+
+    EXPRESSION  ->  SKIPLETTER .   (rule 56)
+    REPEATED  ->  SKIPLETTER . @20 '[' INTEGER ',' INTEGER ']'   (rule 63)
+
+    '[' 	reduce using rule 62 (@20)
+    $default	reduce using rule 56 (EXPRESSION)
+
+    @20 	go to state 89
+
+
+
+state 65
+
+    ENDSINFORM  ->  ENDSIN . '{' NAME '}'   (rule 57)
+
+    '{' 	shift, and go to state 90
+
+
+
+state 66
+
+    EXPRESSION  ->  EMPTYNODE .   (rule 54)
+
+    $default	reduce using rule 54 (EXPRESSION)
+
+
+
+state 67
+
+    EXPRESSION  ->  BOUND .   (rule 52)
+
+    $default	reduce using rule 52 (EXPRESSION)
+
+
+
+state 68
+
+    EXPRESSION  ->  OPERATOR .   (rule 53)
+
+    $default	reduce using rule 53 (EXPRESSION)
+
+
+
+state 69
+
+    REPEATED  ->  LBRAK . @18 EXPRESSION RBRAK '[' INTEGER ',' INTEGER ']'   (rule 59)
+
+    $default	reduce using rule 58 (@18)
+
+    @18 	go to state 91
+
+
+
+state 70
+
+    RIGHTSIDE  ->  '|' . @16 RIGHTSIDE   (rule 44)
+
+    $default	reduce using rule 43 (@16)
+
+    @16 	go to state 92
+
+
+
+state 71
+
+    RULEDECLARATION  ->  NAME '=' '>' @13 RIGHTSIDE .   (rule 38)
+
+    $default	reduce using rule 38 (RULEDECLARATION)
+
+
+
+state 72
+
+    RIGHTSIDE  ->  EXPRESSION .   (rule 39)
+    RIGHTSIDE  ->  EXPRESSION . @14 '|' @15 RIGHTSIDE   (rule 42)
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 45)
+    EXPRESSION  ->  EXPRESSION . '-' @17 EXPRESSION   (rule 47)
+
+    '+' 	shift, and go to state 93
+    '-' 	shift, and go to state 94
+
+    '|' 	reduce using rule 40 (@14)
+    $default	reduce using rule 39 (RIGHTSIDE)
+
+    @14 	go to state 95
+
+
+
+state 73
+
+    EXPRESSION  ->  ENDSINFORM .   (rule 48)
+
+    $default	reduce using rule 48 (EXPRESSION)
+
+
+
+state 74
+
+    EXPRESSION  ->  REPEATED .   (rule 49)
+
+    $default	reduce using rule 49 (EXPRESSION)
+
+
+
+state 75
+
+    DECLARATION  ->  LTRIE '.' INTEGER '.' NAME . '=' FILENAME   (rule 66)
+
+    '=' 	shift, and go to state 96
+
+
+
+state 76
+
+    SEQUENCEDECL  ->  SEQ ':' NAME ':' @5 . SEQUENCE   (rule 14)
+
+    '%' 	shift, and go to state 35
+    '&' 	shift, and go to state 36
+    '!' 	shift, and go to state 37
+
+    $default	reduce using rule 17 (@7)
+
+    SEQUENCE	go to state 97
+    @7  	go to state 39
+    SEQOTHER	go to state 40
+
+
+
+state 77
+
+    SEQOTHER  ->  '%' BOUND '%' .   (rule 32)
+
+    $default	reduce using rule 32 (SEQOTHER)
+
+
+
+state 78
+
+    SEQOTHER  ->  '&' NAME '[' . INTEGER ',' INTEGER ']'   (rule 33)
+
+    INTEGER	shift, and go to state 98
+
+
+
+state 79
+
+    SEQOTHER  ->  '!' '&' NAME .   (rule 35)
+
+    $default	reduce using rule 35 (SEQOTHER)
+
+
+
+state 80
+
+    SEQUENCE  ->  SEQUENCE '.' @8 . SEQEXPRESSION   (rule 21)
+
+    NAME	shift, and go to state 54
+    SEQNOT	shift, and go to state 55
+    '{' 	shift, and go to state 56
+
+    SEQEXPRESSION	go to state 99
+    WORDGRAMMARNAME	go to state 58
+
+
+
+state 81
+
+    SEQUENCE  ->  SEQUENCE '.' SEQOTHER .   (rule 22)
+
+    $default	reduce using rule 22 (SEQUENCE)
+
+
+
+state 82
+
+    SEQEXPRESSION  ->  SEQNOT @11 . SEQEXPRESSION   (rule 28)
+
+    NAME	shift, and go to state 54
+    SEQNOT	shift, and go to state 55
+    '{' 	shift, and go to state 56
+
+    SEQEXPRESSION	go to state 100
+    WORDGRAMMARNAME	go to state 58
+
+
+
+state 83
+
+    SEQEXPRESSION  ->  '{' @12 . SEQEXPRESSION '}'   (rule 30)
+
+    NAME	shift, and go to state 54
+    SEQNOT	shift, and go to state 55
+    '{' 	shift, and go to state 56
+
+    SEQEXPRESSION	go to state 101
+    WORDGRAMMARNAME	go to state 58
+
+
+
+state 84
+
+    SEQEXPRESSION  ->  SEQEXPRESSION SEQOR . @9 SEQEXPRESSION   (rule 24)
+
+    $default	reduce using rule 23 (@9)
+
+    @9  	go to state 102
+
+
+
+state 85
+
+    SEQEXPRESSION  ->  SEQEXPRESSION SEQAND . @10 SEQEXPRESSION   (rule 26)
+
+    $default	reduce using rule 25 (@10)
+
+    @10 	go to state 103
+
+
+
+state 86
+
+    SEQUENCEDECL  ->  DEF ':' NAME ':' @4 . SEQUENCE   (rule 12)
+
+    '%' 	shift, and go to state 35
+    '&' 	shift, and go to state 36
+    '!' 	shift, and go to state 37
+
+    $default	reduce using rule 17 (@7)
+
+    SEQUENCE	go to state 104
+    @7  	go to state 39
+    SEQOTHER	go to state 40
+
+
+
+state 87
+
+    SEQUENCEDECL  ->  DEF ':' NAME '=' FILENAME .   (rule 10)
+
+    $default	reduce using rule 10 (SEQUENCEDECL)
+
+
+
+state 88
+
+    REPEATED  ->  NAME @19 . '[' INTEGER ',' INTEGER ']'   (rule 61)
+
+    '[' 	shift, and go to state 105
+
+
+
+state 89
+
+    REPEATED  ->  SKIPLETTER @20 . '[' INTEGER ',' INTEGER ']'   (rule 63)
+
+    '[' 	shift, and go to state 106
+
+
+
+state 90
+
+    ENDSINFORM  ->  ENDSIN '{' . NAME '}'   (rule 57)
+
+    NAME	shift, and go to state 107
+
+
+
+state 91
+
+    REPEATED  ->  LBRAK @18 . EXPRESSION RBRAK '[' INTEGER ',' INTEGER ']'   (rule 59)
+
+    NAME	shift, and go to state 61
+    MORPH	shift, and go to state 62
+    SKIPWORD	shift, and go to state 63
+    SKIPLETTER	shift, and go to state 64
+    ENDSIN	shift, and go to state 65
+    EMPTYNODE	shift, and go to state 66
+    BOUND	shift, and go to state 67
+    OPERATOR	shift, and go to state 68
+    LBRAK	shift, and go to state 69
+
+    EXPRESSION	go to state 108
+    ENDSINFORM	go to state 73
+    REPEATED	go to state 74
+
+
+
+state 92
+
+    RIGHTSIDE  ->  '|' @16 . RIGHTSIDE   (rule 44)
+
+    NAME	shift, and go to state 61
+    MORPH	shift, and go to state 62
+    SKIPWORD	shift, and go to state 63
+    SKIPLETTER	shift, and go to state 64
+    ENDSIN	shift, and go to state 65
+    EMPTYNODE	shift, and go to state 66
+    BOUND	shift, and go to state 67
+    OPERATOR	shift, and go to state 68
+    LBRAK	shift, and go to state 69
+    '|' 	shift, and go to state 70
+
+    RIGHTSIDE	go to state 109
+    EXPRESSION	go to state 72
+    ENDSINFORM	go to state 73
+    REPEATED	go to state 74
+
+
+
+state 93
+
+    EXPRESSION  ->  EXPRESSION '+' . EXPRESSION   (rule 45)
+
+    NAME	shift, and go to state 61
+    MORPH	shift, and go to state 62
+    SKIPWORD	shift, and go to state 63
+    SKIPLETTER	shift, and go to state 64
+    ENDSIN	shift, and go to state 65
+    EMPTYNODE	shift, and go to state 66
+    BOUND	shift, and go to state 67
+    OPERATOR	shift, and go to state 68
+    LBRAK	shift, and go to state 69
+
+    EXPRESSION	go to state 110
+    ENDSINFORM	go to state 73
+    REPEATED	go to state 74
+
+
+
+state 94
+
+    EXPRESSION  ->  EXPRESSION '-' . @17 EXPRESSION   (rule 47)
+
+    $default	reduce using rule 46 (@17)
+
+    @17 	go to state 111
+
+
+
+state 95
+
+    RIGHTSIDE  ->  EXPRESSION @14 . '|' @15 RIGHTSIDE   (rule 42)
+
+    '|' 	shift, and go to state 112
+
+
+
+state 96
+
+    DECLARATION  ->  LTRIE '.' INTEGER '.' NAME '=' . FILENAME   (rule 66)
+
+    FILENAME	shift, and go to state 113
+
+
+
+state 97
+
+    SEQUENCEDECL  ->  SEQ ':' NAME ':' @5 SEQUENCE .   (rule 14)
+    SEQUENCE  ->  SEQUENCE . '.' @8 SEQEXPRESSION   (rule 21)
+    SEQUENCE  ->  SEQUENCE . '.' SEQOTHER   (rule 22)
+
+    '.' 	shift, and go to state 53
+
+    $default	reduce using rule 14 (SEQUENCEDECL)
+
+
+
+state 98
+
+    SEQOTHER  ->  '&' NAME '[' INTEGER . ',' INTEGER ']'   (rule 33)
+
+    ',' 	shift, and go to state 114
+
+
+
+state 99
+
+    SEQUENCE  ->  SEQUENCE '.' @8 SEQEXPRESSION .   (rule 21)
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQOR @9 SEQEXPRESSION   (rule 24)
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQAND @10 SEQEXPRESSION   (rule 26)
+
+    SEQOR	shift, and go to state 84
+    SEQAND	shift, and go to state 85
+
+    $default	reduce using rule 21 (SEQUENCE)
+
+
+
+state 100
+
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQOR @9 SEQEXPRESSION   (rule 24)
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQAND @10 SEQEXPRESSION   (rule 26)
+    SEQEXPRESSION  ->  SEQNOT @11 SEQEXPRESSION .   (rule 28)
+
+
+    $default	reduce using rule 28 (SEQEXPRESSION)
+
+
+
+state 101
+
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQOR @9 SEQEXPRESSION   (rule 24)
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQAND @10 SEQEXPRESSION   (rule 26)
+    SEQEXPRESSION  ->  '{' @12 SEQEXPRESSION . '}'   (rule 30)
+
+    SEQOR	shift, and go to state 84
+    SEQAND	shift, and go to state 85
+    '}' 	shift, and go to state 115
+
+
+
+state 102
+
+    SEQEXPRESSION  ->  SEQEXPRESSION SEQOR @9 . SEQEXPRESSION   (rule 24)
+
+    NAME	shift, and go to state 54
+    SEQNOT	shift, and go to state 55
+    '{' 	shift, and go to state 56
+
+    SEQEXPRESSION	go to state 116
+    WORDGRAMMARNAME	go to state 58
+
+
+
+state 103
+
+    SEQEXPRESSION  ->  SEQEXPRESSION SEQAND @10 . SEQEXPRESSION   (rule 26)
+
+    NAME	shift, and go to state 54
+    SEQNOT	shift, and go to state 55
+    '{' 	shift, and go to state 56
+
+    SEQEXPRESSION	go to state 117
+    WORDGRAMMARNAME	go to state 58
+
+
+
+state 104
+
+    SEQUENCEDECL  ->  DEF ':' NAME ':' @4 SEQUENCE .   (rule 12)
+    SEQUENCE  ->  SEQUENCE . '.' @8 SEQEXPRESSION   (rule 21)
+    SEQUENCE  ->  SEQUENCE . '.' SEQOTHER   (rule 22)
+
+    '.' 	shift, and go to state 53
+
+    $default	reduce using rule 12 (SEQUENCEDECL)
+
+
+
+state 105
+
+    REPEATED  ->  NAME @19 '[' . INTEGER ',' INTEGER ']'   (rule 61)
+
+    INTEGER	shift, and go to state 118
+
+
+
+state 106
+
+    REPEATED  ->  SKIPLETTER @20 '[' . INTEGER ',' INTEGER ']'   (rule 63)
+
+    INTEGER	shift, and go to state 119
+
+
+
+state 107
+
+    ENDSINFORM  ->  ENDSIN '{' NAME . '}'   (rule 57)
+
+    '}' 	shift, and go to state 120
+
+
+
+state 108
+
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 45)
+    EXPRESSION  ->  EXPRESSION . '-' @17 EXPRESSION   (rule 47)
+    REPEATED  ->  LBRAK @18 EXPRESSION . RBRAK '[' INTEGER ',' INTEGER ']'   (rule 59)
+
+    RBRAK	shift, and go to state 121
+    '+' 	shift, and go to state 93
+    '-' 	shift, and go to state 94
+
+
+
+state 109
+
+    RIGHTSIDE  ->  '|' @16 RIGHTSIDE .   (rule 44)
+
+    $default	reduce using rule 44 (RIGHTSIDE)
+
+
+
+state 110
+
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 45)
+    EXPRESSION  ->  EXPRESSION '+' EXPRESSION .   (rule 45)
+    EXPRESSION  ->  EXPRESSION . '-' @17 EXPRESSION   (rule 47)
+
+    '-' 	shift, and go to state 94
+
+    $default	reduce using rule 45 (EXPRESSION)
+
+
+
+state 111
+
+    EXPRESSION  ->  EXPRESSION '-' @17 . EXPRESSION   (rule 47)
+
+    NAME	shift, and go to state 61
+    MORPH	shift, and go to state 62
+    SKIPWORD	shift, and go to state 63
+    SKIPLETTER	shift, and go to state 64
+    ENDSIN	shift, and go to state 65
+    EMPTYNODE	shift, and go to state 66
+    BOUND	shift, and go to state 67
+    OPERATOR	shift, and go to state 68
+    LBRAK	shift, and go to state 69
+
+    EXPRESSION	go to state 122
+    ENDSINFORM	go to state 73
+    REPEATED	go to state 74
+
+
+
+state 112
+
+    RIGHTSIDE  ->  EXPRESSION @14 '|' . @15 RIGHTSIDE   (rule 42)
+
+    $default	reduce using rule 41 (@15)
+
+    @15 	go to state 123
+
+
+
+state 113
+
+    DECLARATION  ->  LTRIE '.' INTEGER '.' NAME '=' FILENAME .   (rule 66)
+
+    $default	reduce using rule 66 (DECLARATION)
+
+
+
+state 114
+
+    SEQOTHER  ->  '&' NAME '[' INTEGER ',' . INTEGER ']'   (rule 33)
+
+    INTEGER	shift, and go to state 124
+
+
+
+state 115
+
+    SEQEXPRESSION  ->  '{' @12 SEQEXPRESSION '}' .   (rule 30)
+
+    $default	reduce using rule 30 (SEQEXPRESSION)
+
+
+
+state 116
+
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQOR @9 SEQEXPRESSION   (rule 24)
+    SEQEXPRESSION  ->  SEQEXPRESSION SEQOR @9 SEQEXPRESSION .   (rule 24)
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQAND @10 SEQEXPRESSION   (rule 26)
+
+
+    $default	reduce using rule 24 (SEQEXPRESSION)
+
+
+
+state 117
+
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQOR @9 SEQEXPRESSION   (rule 24)
+    SEQEXPRESSION  ->  SEQEXPRESSION . SEQAND @10 SEQEXPRESSION   (rule 26)
+    SEQEXPRESSION  ->  SEQEXPRESSION SEQAND @10 SEQEXPRESSION .   (rule 26)
+
+
+    $default	reduce using rule 26 (SEQEXPRESSION)
+
+
+
+state 118
+
+    REPEATED  ->  NAME @19 '[' INTEGER . ',' INTEGER ']'   (rule 61)
+
+    ',' 	shift, and go to state 125
+
+
+
+state 119
+
+    REPEATED  ->  SKIPLETTER @20 '[' INTEGER . ',' INTEGER ']'   (rule 63)
+
+    ',' 	shift, and go to state 126
+
+
+
+state 120
+
+    ENDSINFORM  ->  ENDSIN '{' NAME '}' .   (rule 57)
+
+    $default	reduce using rule 57 (ENDSINFORM)
+
+
+
+state 121
+
+    REPEATED  ->  LBRAK @18 EXPRESSION RBRAK . '[' INTEGER ',' INTEGER ']'   (rule 59)
+
+    '[' 	shift, and go to state 127
+
+
+
+state 122
+
+    EXPRESSION  ->  EXPRESSION . '+' EXPRESSION   (rule 45)
+    EXPRESSION  ->  EXPRESSION . '-' @17 EXPRESSION   (rule 47)
+    EXPRESSION  ->  EXPRESSION '-' @17 EXPRESSION .   (rule 47)
+
+
+    $default	reduce using rule 47 (EXPRESSION)
+
+
+
+state 123
+
+    RIGHTSIDE  ->  EXPRESSION @14 '|' @15 . RIGHTSIDE   (rule 42)
+
+    NAME	shift, and go to state 61
+    MORPH	shift, and go to state 62
+    SKIPWORD	shift, and go to state 63
+    SKIPLETTER	shift, and go to state 64
+    ENDSIN	shift, and go to state 65
+    EMPTYNODE	shift, and go to state 66
+    BOUND	shift, and go to state 67
+    OPERATOR	shift, and go to state 68
+    LBRAK	shift, and go to state 69
+    '|' 	shift, and go to state 70
+
+    RIGHTSIDE	go to state 128
+    EXPRESSION	go to state 72
+    ENDSINFORM	go to state 73
+    REPEATED	go to state 74
+
+
+
+state 124
+
+    SEQOTHER  ->  '&' NAME '[' INTEGER ',' INTEGER . ']'   (rule 33)
+
+    ']' 	shift, and go to state 129
+
+
+
+state 125
+
+    REPEATED  ->  NAME @19 '[' INTEGER ',' . INTEGER ']'   (rule 61)
+
+    INTEGER	shift, and go to state 130
+
+
+
+state 126
+
+    REPEATED  ->  SKIPLETTER @20 '[' INTEGER ',' . INTEGER ']'   (rule 63)
+
+    INTEGER	shift, and go to state 131
+
+
+
+state 127
+
+    REPEATED  ->  LBRAK @18 EXPRESSION RBRAK '[' . INTEGER ',' INTEGER ']'   (rule 59)
+
+    INTEGER	shift, and go to state 132
+
+
+
+state 128
+
+    RIGHTSIDE  ->  EXPRESSION @14 '|' @15 RIGHTSIDE .   (rule 42)
+
+    $default	reduce using rule 42 (RIGHTSIDE)
+
+
+
+state 129
+
+    SEQOTHER  ->  '&' NAME '[' INTEGER ',' INTEGER ']' .   (rule 33)
+
+    $default	reduce using rule 33 (SEQOTHER)
+
+
+
+state 130
+
+    REPEATED  ->  NAME @19 '[' INTEGER ',' INTEGER . ']'   (rule 61)
+
+    ']' 	shift, and go to state 133
+
+
+
+state 131
+
+    REPEATED  ->  SKIPLETTER @20 '[' INTEGER ',' INTEGER . ']'   (rule 63)
+
+    ']' 	shift, and go to state 134
+
+
+
+state 132
+
+    REPEATED  ->  LBRAK @18 EXPRESSION RBRAK '[' INTEGER . ',' INTEGER ']'   (rule 59)
+
+    ',' 	shift, and go to state 135
+
+
+
+state 133
+
+    REPEATED  ->  NAME @19 '[' INTEGER ',' INTEGER ']' .   (rule 61)
+
+    $default	reduce using rule 61 (REPEATED)
+
+
+
+state 134
+
+    REPEATED  ->  SKIPLETTER @20 '[' INTEGER ',' INTEGER ']' .   (rule 63)
+
+    $default	reduce using rule 63 (REPEATED)
+
+
+
+state 135
+
+    REPEATED  ->  LBRAK @18 EXPRESSION RBRAK '[' INTEGER ',' . INTEGER ']'   (rule 59)
+
+    INTEGER	shift, and go to state 136
+
+
+
+state 136
+
+    REPEATED  ->  LBRAK @18 EXPRESSION RBRAK '[' INTEGER ',' INTEGER . ']'   (rule 59)
+
+    ']' 	shift, and go to state 137
+
+
+
+state 137
+
+    REPEATED  ->  LBRAK @18 EXPRESSION RBRAK '[' INTEGER ',' INTEGER ']' .   (rule 59)
+
+    $default	reduce using rule 59 (REPEATED)
+
+
+
+state 138
+
+    $   	go to state 139
+
+
+
+state 139
+
+    $default	accept

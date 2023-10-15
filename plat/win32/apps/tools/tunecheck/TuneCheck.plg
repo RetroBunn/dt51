@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TuneCheck - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP9CE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\..\..\..\..\sdk\include" /I "..\..\..\..\..\dapi" /I ".\..\..\..\..\..\dapicore\cmd" /I ".\..\..\..\..\..\dapicore\lts" /I ".\..\..\..\..\..\dapicore\ph" /I ".\..\..\..\..\..\dapicore\vtm" /I ".\..\..\..\..\..\dapicore\kernel" /I ".\..\..\..\..\..\plat\win32\include" /I ".\..\..\..\..\..\dapicore\include" /I ".\..\..\..\..\..\dapicore\hlsyn" /I ".\..\..\..\..\..\shared\include\\" /D "_DEBUG" /D "ENGLISH_US" /D "ENGLISH" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "BLD_DECTALK_DLL" /D "NEW_MULTI_LANG_ARCH" /D "HLSYN" /Fp".\us\debug\link/TuneCheck.pch" /YX /Fo".\us\debug\link/" /Fd".\us\debug\link/" /FD /c 
+"C:\work\ad-new\DECtalk\plat\win32\apps\tools\tunecheck\Tunecheck.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP9CE.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP9CF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /subsystem:console /incremental:yes /pdb:".\..\..\..\build\dectalk\common\HighCompute\debug\TuneCheck.pdb" /debug /machine:I386 /out:".\..\..\..\build\dectalk\common\HighCompute\debug\TuneCheck.exe" /pdbtype:sept 
+".\us\debug\link\opthread.obj"
+".\us\debug\link\Tunecheck.obj"
+"..\..\..\build\dectalk\common\debug\dectalk.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP9CF.tmp"
+<h3>Output Window</h3>
+Compiling...
+Tunecheck.c
+C:\work\ad-new\DECtalk\plat\win32\apps\tools\tunecheck\Tunecheck.c(121) : warning C4142: benign redefinition of type
+Linking...
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP9D0.bat" with contents
+[
+@echo off
+copy .\..\..\..\build\dectalk\common\debug\TuneCheck.exe .\..\..\..\build\dectalk\commonint\debug\TuneCheck.exe
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP9D0.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+TuneCheck.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

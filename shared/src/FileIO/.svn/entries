@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5676"
+   name=""
+   committed-date="2006-08-31T17:19:12.904501Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src/FileIO"
+   last-author="sdutta"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5676"
+   name="FnxFiles.c"
+   text-time="2006-09-06T12:30:28.861692Z"
+   committed-date="2006-08-31T17:19:12.904501Z"
+   checksum="8278a584440786cdf8344009e627c548"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-09-06T12:30:28.830442Z"/>
+<entry
+   committed-rev="4327"
+   name="MemFiles.c"
+   text-time="2006-04-06T18:04:40.937500Z"
+   committed-date="2006-03-27T20:15:51.714593Z"
+   checksum="d6228a04f4ae03efde1d4ff6d803b5a7"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-04-06T18:04:40.906250Z"/>
+</wc-entries>

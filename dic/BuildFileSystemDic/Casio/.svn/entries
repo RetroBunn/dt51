@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6042"
+   name=""
+   committed-date="2006-10-16T23:26:06.083371Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/BuildFileSystemDic/Casio"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="6042"
+   name="ItalianFileSystemDict.h"
+   text-time="2006-10-17T17:21:25.901392Z"
+   committed-date="2006-10-16T23:26:06.083371Z"
+   checksum="9eb6f6ac25680d8b9c5e81618707f129"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-17T17:21:20.167127Z"/>
+<entry
+   committed-rev="4626"
+   name="dctalkuk.dic"
+   text-time="2006-04-24T19:10:54.297290Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="5a445ac95429fbdcd9df277e46c81404"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:31.876057Z"/>
+<entry
+   committed-rev="6042"
+   name="GermanFileSystemDict.c"
+   text-time="2006-10-17T17:21:25.932642Z"
+   committed-date="2006-10-16T23:26:06.083371Z"
+   checksum="64615fbabb99470bc3de8e6160f5ea74"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-17T17:21:20.198377Z"/>
+<entry
+   committed-rev="5908"
+   name="dctalksp.dic"
+   text-time="2006-10-04T12:37:23.809668Z"
+   committed-date="2006-10-03T22:47:11.318204Z"
+   checksum="b074d25b7215bef4c3c6051c5fb538d2"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:06.419267Z"/>
+<entry
+   committed-rev="6042"
+   name="GermanFileSystemDict.h"
+   text-time="2006-10-17T17:21:25.948266Z"
+   committed-date="2006-10-16T23:26:06.083371Z"
+   checksum="7d46257526047fd0bee550bee2c223bb"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-17T17:21:20.260876Z"/>
+<entry
+   committed-rev="4626"
+   name="dctalkfr.dic"
+   text-time="2006-04-24T19:10:54.359788Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="b63d1ad6ab15f190f6d0f5cee0882064"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:33.001021Z"/>
+<entry
+   committed-rev="6042"
+   name="dctalkus.dic"
+   text-time="2006-10-17T17:21:25.979516Z"
+   committed-date="2006-10-16T23:26:06.083371Z"
+   checksum="82a3f9332c3ad10515d514a2fcdd9a25"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-17T17:21:25.463901Z"/>
+<entry
+   committed-rev="4626"
+   name="dctalkgr.dic"
+   text-time="2006-04-24T19:10:54.406662Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="aae78a64844ac94d64c8d4fc575b61a4"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:48.609935Z"/>
+<entry
+   committed-rev="6042"
+   name="ItalianFileSystemDict.c"
+   text-time="2006-10-17T17:21:25.995140Z"
+   committed-date="2006-10-16T23:26:06.083371Z"
+   checksum="3e76bffe69bf28e766b620c07716b6a3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-17T17:21:25.573274Z"/>
+<entry
+   committed-rev="6042"
+   name="dctalkit.dic"
+   text-time="2006-10-17T17:21:26.010765Z"
+   committed-date="2006-10-16T23:26:06.083371Z"
+   checksum="b83decd518b0d95fbc2605d6b4634732"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-17T17:21:25.854518Z"/>
+<entry
+   committed-rev="5908"
+   name="dctalkla.dic"
+   text-time="2006-10-04T12:37:23.903414Z"
+   committed-date="2006-10-03T22:47:11.318204Z"
+   checksum="ff7072ef60605651a26027b2ca7e2f9d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:23.747171Z"/>
+</wc-entries>

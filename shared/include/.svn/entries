@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6126"
+   name=""
+   committed-date="2006-10-25T00:37:04.490719Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/include"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5466"
+   name="playaud.h"
+   text-time="2006-08-07T15:12:37.296875Z"
+   committed-date="2006-07-31T18:15:10.609790Z"
+   checksum="0ca6b04ca14df02f6ad5a3c4075004b5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-08-07T15:12:37.281250Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxHuffman.h"
+   text-time="2006-03-22T15:31:28.460744Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="05572da86e5908cec8c681b5dbb61182"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:26.398284Z"/>
+<entry
+   committed-rev="4902"
+   name="shmalloc.h"
+   text-time="2006-05-18T14:31:35.926004Z"
+   committed-date="2006-05-16T21:13:09.014293Z"
+   checksum="269278b55b276d1d8ecf4171f2fc0af9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:35.129149Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxMisc.h"
+   text-time="2006-03-22T15:31:28.616991Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="7d9fe7d827a975427825eea0648c0600"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:26.538906Z"/>
+<entry
+   committed-rev="4299"
+   name="GlobalCommon.h"
+   text-time="2006-04-06T18:04:40.812500Z"
+   committed-date="2006-03-24T00:00:54.749926Z"
+   checksum="7edd3636db2568a74977d21605f3e912"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-06T18:04:40.734375Z"/>
+<entry
+   committed-rev="4890"
+   name="opatype.h"
+   text-time="2006-05-16T14:46:31.929893Z"
+   committed-date="2006-05-16T00:48:14.187678Z"
+   checksum="98d678b34a0e91092674ddf15705359f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-16T14:46:31.164288Z"/>
+<entry
+   committed-rev="5677"
+   name="dccread.h"
+   text-time="2006-09-06T12:30:28.471069Z"
+   committed-date="2006-08-31T17:24:47.601758Z"
+   checksum="3603aed1a4bc5c39fab60c5151534113"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-09-06T12:30:28.205446Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxDesc.h"
+   text-time="2006-03-22T15:31:28.648241Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="2076d3ef40d12518243c1d4b08a16cf1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:26.773277Z"/>
+<entry
+   committed-rev="4229"
+   name="FnxStdlib.h"
+   text-time="2006-03-22T15:31:28.679490Z"
+   committed-date="2006-03-21T00:12:35.650931Z"
+   checksum="375d9c95581cdb77b31c507a9bd386d0"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-03-22T15:31:26.804526Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxHash.h"
+   text-time="2006-03-22T15:31:28.695115Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="f0edd5a41269f27facc843d525377603"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:26.882650Z"/>
+<entry
+   committed-rev="5677"
+   name="FnxPlatform.h"
+   text-time="2006-09-06T12:30:28.533569Z"
+   committed-date="2006-08-31T17:24:47.601758Z"
+   checksum="768b263fee51cd373c5a945a81fc8f70"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-09-06T12:30:28.439819Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxAllocate.h"
+   text-time="2006-03-22T15:31:28.710740Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="5b301ba4d0ea46b4b67f370358ded327"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:27.179519Z"/>
+<entry
+   committed-rev="4298"
+   name="MemFiles.h"
+   text-time="2006-04-06T18:04:40.812500Z"
+   committed-date="2006-03-23T23:51:59.161064Z"
+   checksum="a6a5018ab37df5c8aca523038fcc70f7"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-06T18:04:40.765625Z"/>
+<entry
+   committed-rev="4900"
+   name="playaudd.h"
+   text-time="2006-05-18T14:31:35.957253Z"
+   committed-date="2006-05-16T20:50:52.125009Z"
+   checksum="68b0db16694870b2d900e954bd588e5c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:35.191647Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxLlist.h"
+   text-time="2006-03-22T15:31:28.898236Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="de0d59fa56e76ba54a2f4a2a390bcb6a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:27.382640Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxByteOrderIO.h"
+   text-time="2006-03-22T15:31:28.851362Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="defe281eb82056eb82a5df11bd8a6202"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:27.335766Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxNetwork.h"
+   text-time="2006-03-22T15:31:28.945110Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="88232c8f1a43deb329619371be18e454"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:27.445139Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxError.h"
+   text-time="2006-03-22T15:31:28.929485Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="97ee626e9b46e881d86611a0e85d5fa2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:27.398265Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxVocab.h"
+   text-time="2006-03-22T15:31:28.976359Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="4439504c05d2ac3d5b774affaaeba841"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:27.695134Z"/>
+<entry
+   committed-rev="4910"
+   name="opthread.h"
+   text-time="2006-05-18T14:31:35.988502Z"
+   committed-date="2006-05-17T18:16:57.627017Z"
+   checksum="ee6c97346afaf0f31c78172314ca1951"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:35.457266Z"/>
+<entry
+   committed-rev="4895"
+   name="opmmsys.h"
+   text-time="2006-05-18T14:31:36.004127Z"
+   committed-date="2006-05-16T18:35:47.650466Z"
+   checksum="cfe5ab5577a8c951de43db32203f0953"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:35.519764Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxByteOrder.h"
+   text-time="2006-03-22T15:31:29.007609Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="fff8fb9c7854dec8cef139690d37721b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:27.882630Z"/>
+<entry
+   committed-rev="5601"
+   name="dectalkf.h"
+   text-time="2006-08-23T18:06:22.468156Z"
+   committed-date="2006-08-18T22:32:38.407302Z"
+   checksum="1f72364a6aa6d7ad788fee8cc5af70d5"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:22.249412Z"/>
+<entry
+   committed-rev="4298"
+   name="FnxFiles.h"
+   text-time="2006-04-06T18:04:40.828125Z"
+   committed-date="2006-03-23T23:51:59.161064Z"
+   checksum="116e540999f33cabeb84aa0e53377cd5"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-06T18:04:40.781250Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxNames.h"
+   text-time="2006-03-22T15:31:29.054483Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="dd9ef6a34d26f527f64c16d5042f68af"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:28.038877Z"/>
+<entry
+   committed-rev="5551"
+   name="SelectSinglePron.h"
+   text-time="2006-08-15T18:59:22.512556Z"
+   committed-date="2006-08-11T21:05:29.606600Z"
+   checksum="0cea63d8f0bfc1ed50342416c28cda5f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-08-15T18:59:22.481307Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxFileIO.h"
+   text-time="2006-03-22T15:31:29.085732Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="54312d923f717ece64869916cf26166d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:28.132626Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxGenPron.h"
+   text-time="2006-03-22T15:31:29.116982Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="a0b7b567eece243609de5a12624b1a5b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:28.241999Z"/>
+<entry
+   committed-rev="4900"
+   name="mmalloc.h"
+   text-time="2006-05-18T14:31:36.051000Z"
+   committed-date="2006-05-16T20:50:52.125009Z"
+   checksum="84c983a20ed82a42adac692ca40b247d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:35.801007Z"/>
+<entry
+   committed-rev="6126"
+   name="DTFnxStdlib.h"
+   text-time="2006-10-25T14:22:45.102783Z"
+   committed-date="2006-10-25T00:37:04.490719Z"
+   checksum="d377f8f0c09c2e709fa289137772b78b"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-25T14:22:45.087159Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxPool.h"
+   text-time="2006-03-22T15:31:29.132606Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="3461cd23e97a620a6c4495789f8d9bf1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:28.288873Z"/>
+<entry
+   committed-rev="4215"
+   name="FnxWord.h"
+   text-time="2006-03-22T15:31:29.163856Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="da185e605f6b79af5868dc742973a3b7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:28.382621Z"/>
+</wc-entries>

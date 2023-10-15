@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4531"
+   name=""
+   committed-date="2006-04-12T15:19:59.172508Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Test/Casio/AsianCode"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4531"
+   name="gb.txt"
+   text-time="2006-04-24T19:09:56.236573Z"
+   committed-date="2006-04-12T15:19:59.172508Z"
+   checksum="4d5173d5faecd0f23b516ceba7d45af1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:54.424131Z"/>
+<entry
+   committed-rev="4531"
+   name="sjis.txt"
+   text-time="2006-04-24T19:09:56.252197Z"
+   committed-date="2006-04-12T15:19:59.172508Z"
+   checksum="fc5049d85945dacf197647f27811f406"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:54.877241Z"/>
+<entry
+   committed-rev="4531"
+   name="ksc_UHC.txt"
+   text-time="2006-04-24T19:09:56.267822Z"
+   committed-date="2006-04-12T15:19:59.172508Z"
+   checksum="7782f35c5e7a727f9aa80466d9814110"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:55.127233Z"/>
+<entry
+   committed-rev="4531"
+   name="ksc.txt"
+   text-time="2006-04-24T19:09:56.283446Z"
+   committed-date="2006-04-12T15:19:59.172508Z"
+   checksum="0989a0ba18f9a659f4099c62f3838064"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:56.220948Z"/>
+</wc-entries>

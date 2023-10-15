@@ -1,0 +1,78 @@
+In experiment.ger is the word grammar that's currently used At the end of that
+file is a bunch of declarations, the files corresponding to these symbols,
+which are used in the grammar, are in this directory.  The file all.pho
+contains all of the files concatenated and gives may give a rough idea how big
+the casio files would have to be. This file contains 7841 lines of snippets
+used in the grammar.
+
+Reiner
+
+
+
+# numbers here: root type are 1: have no stress in them
+#               prefix type are 2
+#               postfix type are 3
+#               trivial 4: onsets, offsets, single letters and such
+#               additional roots with stress markers. e.g., Mroots.pho
+#      
+
+ROOT WORDS (1)
+"Names.pho"  
+"syllroots.pho"			// 4442 syllable roots
+"rootels.pho"			// 179 roots ending in el
+"rootens.pho"			// 40 roots with en
+"rooters.pho"			// 129 roots ending in er
+"rootes.pho"			// 14 roots ending in e
+"irregVerbStemms.pho"	// 516 irregular verb stems
+"beverbs.pho"			// 11 verbs
+"geverbs.pho"			// 30 verbs
+"erverbs.pho"			// 9 
+"emverbs.pho"			// 6
+"Mroots.pho" (5)		// 790 roots
+
+PREFIX WORDS (2)
+"freeprefixes.pho"		// 100 prefixes
+"boundprefixes.pho"
+"latboundpref.pho"
+"stresspref.pho"
+"onsets.pho" (4)
+"loanonset.pho" (4)
+
+POSTFIX WORDS (3)
+"longsuffixes.pho"		// 294 long suffixes
+"shortsuffix.pho"
+"Flex.pho"				// 62 
+"trailers.pho"
+"erhyme.pho"
+"irgend.pho" (5)
+"irgenddings.pho" (5)
+"Fugen.pho"				// Joints - seem like word endings like e, en, er, es, n, s, t
+
+OTHER WORDS (4)
+"trivial.pho"			// 80 
+"anglizis.pho" (5)		// 47 Foreign-English words
+"diction.pho" (5)		// 244 dictionary words
+"articles.pho" (5)		// POS = articles
+"konjugierbar.pho" (5)
+"solo.pho"
+"betont.pho"			// Words that mean "same", "which"
+"apostroph.pho"			// Words with apostrophes
+"abkuerzung.pho"		// Abbreviations
+"particular.pho"		// 250 short words
+
+WORD PARTS (4)
+"diphthongs.pho"
+"longcoda.pho"
+"geminycoda.pho"
+"elongatednuclei.pho"
+"rulecodas.pho"
+"shortcodas.pho"
+"shortumlaut.pho"
+"goodnuclei.pho"
+"gshortnucleus.pho"
+"latvowels.pho"
+"interfix.pho"			// ? - a, i, o, u
+
+Not quite sure what to do with these
+"truncatedfixes.pho"
+"signature.pho"

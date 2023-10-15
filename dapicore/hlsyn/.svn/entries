@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5975"
+   name=""
+   committed-date="2006-10-09T19:05:03.790645Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/hlsyn"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4205"
+   name="flavor.h"
+   text-time="2006-03-22T15:31:25.179557Z"
+   committed-date="2006-03-18T01:30:51.566438Z"
+   checksum="4b01d9ef0fb217490ad85420f83d808c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:24.398322Z"/>
+<entry
+   committed-rev="5023"
+   name="hlframe.c"
+   text-time="2006-05-30T17:14:40.112365Z"
+   committed-date="2006-05-30T16:35:06.005071Z"
+   checksum="e5df10ed52f9f5918b7db0357839cd3d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-30T17:14:40.081115Z"/>
+<entry
+   committed-rev="4205"
+   name="Makefile.in"
+   text-time="2006-03-22T15:31:25.257681Z"
+   committed-date="2006-03-18T01:30:51.566438Z"
+   checksum="73be44a8f86316e6aa49a0479744a103"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:24.476446Z"/>
+<entry
+   committed-rev="5975"
+   name="sqrttable.c"
+   text-time="2006-10-09T17:48:33.257384Z"
+   committed-date="2006-10-09T19:05:03.790645Z"
+   checksum="b7c7f030febdae7d553e2d7890e6c195"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-06-27T15:28:16.515625Z"/>
+<entry
+   committed-rev="5975"
+   name="circuit.c"
+   text-time="2006-10-09T17:48:33.241759Z"
+   committed-date="2006-10-09T19:05:03.790645Z"
+   checksum="efbc9d500dbb41ad4fff8d8a5c9e3437"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:31:24.773315Z"/>
+<entry
+   committed-rev="4205"
+   name="hlsyn.h"
+   text-time="2006-03-22T15:31:25.335804Z"
+   committed-date="2006-03-18T01:30:51.566438Z"
+   checksum="5e9bcaf53b4bc13397f37607d84956cc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:24.804565Z"/>
+<entry
+   committed-rev="5708"
+   name="acxf1c.c"
+   text-time="2006-09-12T12:29:36.622770Z"
+   committed-date="2006-09-08T19:29:39.354825Z"
+   checksum="503bdde5e8ca4e0d24b317bd0f17b652"
+   last-author="ebruckert"
+   kind="file"
+   prop-time="2006-09-12T12:29:36.591520Z"/>
+<entry
+   committed-rev="4205"
+   name="diffuse.c"
+   text-time="2006-03-22T15:31:25.351429Z"
+   committed-date="2006-03-18T01:30:51.566438Z"
+   checksum="7ae62430ddd2929c7d1244eb15ba2b61"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:24.851439Z"/>
+<entry
+   committed-rev="4623"
+   name="inithl.c"
+   text-time="2006-04-24T19:11:30.983851Z"
+   committed-date="2006-04-21T19:46:46.605379Z"
+   checksum="f0efd70f4baa13c6788bcc53b2e5bd4d"
+   last-author="ebruckert"
+   kind="file"
+   prop-time="2006-04-24T19:11:30.921352Z"/>
+<entry
+   committed-rev="5975"
+   name="brent.c"
+   text-time="2006-10-09T17:48:33.226134Z"
+   committed-date="2006-10-09T19:05:03.790645Z"
+   checksum="8febcda4dd1c546914d35daa1eaf4a13"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:31:24.898313Z"/>
+<entry
+   committed-rev="5975"
+   name="log10table.c"
+   text-time="2006-10-09T17:48:33.257384Z"
+   committed-date="2006-10-09T19:05:03.790645Z"
+   checksum="d762f73a4c3beb507b7e4d903ce640fc"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:31:24.913937Z"/>
+<entry
+   committed-rev="4205"
+   name="fixfft32.c"
+   text-time="2006-03-22T15:31:25.413928Z"
+   committed-date="2006-03-18T01:30:51.566438Z"
+   checksum="82189208f8561ee61cbd1bcb6d239587"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:25.007686Z"/>
+<entry
+   committed-rev="5447"
+   name="nasalf1x.c"
+   text-time="2006-07-28T21:05:18.109375Z"
+   committed-date="2006-07-25T18:03:38.036951Z"
+   checksum="37682d9078924298c5a3dd7d8e4d65c1"
+   last-author="ebruckert"
+   kind="file"
+   prop-time="2006-07-28T21:05:18.093750Z"/>
+</wc-entries>

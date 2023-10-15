@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6138"
+   name=""
+   committed-date="2006-10-25T21:33:40.701757Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/SH7337/src"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5594"
+   name="maindict_us_casio_big.c"
+   text-time="2006-08-23T18:06:09.484114Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="8c08c12c60be23af677327b6dabe2cb6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:02.906157Z"/>
+<entry
+   committed-rev="6138"
+   name="FonixTTSDTSimpleCasio.c"
+   text-time="2006-10-26T17:24:50.343913Z"
+   committed-date="2006-10-25T21:33:40.701757Z"
+   checksum="18667bf1a361320eaf8c87e47ec16517"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:50.312663Z"/>
+<entry
+   committed-rev="5594"
+   name="build_fr_dicts.bat"
+   text-time="2006-08-23T18:06:09.515363Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="28c343c29c6b6f49c06879a42156ff2c"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:02.999905Z"/>
+<entry
+   committed-rev="5594"
+   name="build_us_dicts.bat"
+   text-time="2006-08-23T18:06:09.530988Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="2b9240261e29fab86143ba3a9116b32c"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:03.062403Z"/>
+<entry
+   committed-rev="5594"
+   name="build_gr_dicts.bat"
+   text-time="2006-08-23T18:06:09.546612Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="5a0989185ade50b6d39ba6965af40ec7"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:03.156151Z"/>
+<entry
+   committed-rev="5594"
+   name="dtfnxexstdlib.c"
+   text-time="2006-08-23T18:06:09.562237Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="02bad3bca8327e753b854bb933be9ea6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:03.234274Z"/>
+<entry
+   committed-rev="5594"
+   name="maindict_us_casio_big.h"
+   text-time="2006-08-23T18:06:09.765357Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="8c08c12c60be23af677327b6dabe2cb6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:08.906004Z"/>
+<entry
+   committed-rev="5594"
+   name="fnxexstdlib.c"
+   text-time="2006-08-23T18:06:09.796606Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="55a350027989ce793e6ef94bad2d4ce1"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:08.999751Z"/>
+<entry
+   committed-rev="5594"
+   name="build_sp_dicts.bat"
+   text-time="2006-08-23T18:06:09.812230Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="6c0cffbb8cd69aaf70b631257c6e4b4a"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:09.093499Z"/>
+</wc-entries>

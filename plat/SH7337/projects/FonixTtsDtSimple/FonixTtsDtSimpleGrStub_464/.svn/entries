@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5594"
+   name=""
+   committed-date="2006-08-18T21:49:42.204377Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/SH7337/projects/FonixTtsDtSimple/FonixTtsDtSimpleGrStub_464"
+   last-author="mkauntz"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5594"
+   name="fonixttsdtsimplegrstub_464.hwp"
+   text-time="2006-08-23T18:06:16.077695Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="87554aab0f2922f906a0e2491015efe2"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:16.046446Z"/>
+<entry
+   committed-rev="5594"
+   name="syntax.txt"
+   text-time="2006-08-23T18:06:16.093320Z"
+   committed-date="2006-08-18T21:49:42.204377Z"
+   checksum="40c54295b21a4af76efa256e0fd248ad"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:16.062070Z"/>
+</wc-entries>

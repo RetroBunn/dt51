@@ -1,0 +1,457 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sapi5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPB04.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /I ".\..\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\..\shared\include" /I "..\..\..\..\dapi" /I ".\..\..\..\..\dapicore\cmd" /I ".\..\..\..\..\dapicore\lts" /I ".\..\..\..\..\dapicore\ph" /I ".\..\..\..\..\dapicore\vtm" /I ".\..\..\..\..\dapicore\kernel" /I ".\..\..\..\..\dapicore\include" /I ".\..\..\..\..\dapicore\hlsyn" /I "..\..\..\..\sdk\include" /I "..\..\..\..\sdk\include\win32" /I ".\..\..\..\..\dapicore\lts\codepageconv" /I "..\..\..\..\shared\include" /I "..\..\..\..\dapicore\include" /I "..\..\include" /I "..\..\include\sapi5" /I "..\..\src\sapi5" /D "_DEBUG" /D "PRINTFDEBUG" /D "ENGLISH_US" /D "ENGLISH" /D "ACNA" /D "SAPI5DECTALK" /D "WIN32" /D "_WINDOWS" /D "i386" /D "BLD_DECTALK_DLL" /D "SLOWTALK" /D "HLSYN" /D "NEW_MULTI_LANG_ARCH" /Fo".\build\us\debug\link/" /Fd".\build\us\debug\link/" /FD /c 
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\acxf1c.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\brent.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\circuit.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cm_char.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cm_cmd.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cm_copt.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cm_main.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cm_pars.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cm_phon.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cm_text.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cm_util.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\Cmd_init.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\cmd_wav.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\CodePageConv\CodePageConv.c"
+"C:\work\ad-new\DECtalk\plat\win32\src\dbgwins.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\hlframe.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\inithl.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\log10table.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_chari.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_proc.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_speli.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\ls_suffi.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\lsa_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\lsa_coni.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\lsa_rtbi.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\lsa_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\lsa_task.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\lsa_util.c"
+"C:\work\ad-new\DECtalk\dapicore\Lts\lsw_main.c"
+"C:\work\ad-new\DECtalk\dapicore\hlsyn\nasalf1x.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_ch_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_ch_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_ch_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_ch_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\P_gr_inton2.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_he_st1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_he_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_krnew_tim.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_sp_inton.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\Par_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\Cmd\Par_pars.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_aloph.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_claus.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_draw.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\Ph_drwt02.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_inton.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\Ph_inton2.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_main.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_romi.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_setar.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_sort.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_syl.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_task.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_timng.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_vdefi.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\ph_vset.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\phinit.c"
+"C:\work\ad-new\DECtalk\dapicore\Ph\phlog.c"
+"C:\work\ad-new\DECtalk\shared\src\playaud.c"
+"C:\work\ad-new\DECtalk\dapicore\vtm\PLAYTONE.C"
+"C:\work\ad-new\DECtalk\plat\win32\src\sapi5\sapiiont.cpp"
+"C:\work\ad-new\DECtalk\dapicore\kernel\SERVICES.C"
+"C:\work\ad-new\DECtalk\shared\src\SPC.C"
+"C:\work\ad-new\DECtalk\dapicore\vtm\SYNC.C"
+"C:\work\ad-new\DECtalk\dapi\ttsapi.c"
+"C:\work\ad-new\DECtalk\plat\win32\src\sapi5\ttseng.cpp"
+"C:\work\ad-new\DECtalk\plat\win32\src\sapi5\ttsengobj.cpp"
+"C:\work\ad-new\DECtalk\dapicore\Vtm\vtm.c"
+"C:\work\ad-new\DECtalk\dapicore\vtm\VTMIONT.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPB04.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPB05.tmp" with contents
+[
+winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib /nologo /version:5.0 /subsystem:windows /dll /incremental:yes /pdb:".\build\us\debug/sapi5.pdb" /debug /debugtype:both /machine:IX86 /def:"..\..\src\sapi5\ttseng.def" /out:".\build\us\debug/sapi5.dll" /implib:".\build\us\debug/sapi5.lib" /pdbtype:sept /libpath:"..\..\lib\sapi5\i386" 
+".\build\us\debug\link\acxf1c.obj"
+".\build\us\debug\link\brent.obj"
+".\build\us\debug\link\circuit.obj"
+".\build\us\debug\link\cm_char.obj"
+".\build\us\debug\link\cm_cmd.obj"
+".\build\us\debug\link\cm_copt.obj"
+".\build\us\debug\link\cm_main.obj"
+".\build\us\debug\link\cm_pars.obj"
+".\build\us\debug\link\cm_phon.obj"
+".\build\us\debug\link\cm_text.obj"
+".\build\us\debug\link\cm_util.obj"
+".\build\us\debug\link\Cmd_init.obj"
+".\build\us\debug\link\cmd_wav.obj"
+".\build\us\debug\link\CodePageConv.obj"
+".\build\us\debug\link\CRYPT2.OBJ"
+".\build\us\debug\link\dbgwins.obj"
+".\build\us\debug\link\DECSTD97.OBJ"
+".\build\us\debug\link\DTFnxExStdlib.obj"
+".\build\us\debug\link\hlframe.obj"
+".\build\us\debug\link\inithl.obj"
+".\build\us\debug\link\loaddict.obj"
+".\build\us\debug\link\log10table.obj"
+".\build\us\debug\link\ls_chari.obj"
+".\build\us\debug\link\ls_dict.obj"
+".\build\us\debug\link\ls_homo.obj"
+".\build\us\debug\link\ls_math.obj"
+".\build\us\debug\link\ls_proc.obj"
+".\build\us\debug\link\ls_spel.obj"
+".\build\us\debug\link\ls_speli.obj"
+".\build\us\debug\link\ls_suff.obj"
+".\build\us\debug\link\ls_suffi.obj"
+".\build\us\debug\link\lsa_adju.obj"
+".\build\us\debug\link\lsa_coni.obj"
+".\build\us\debug\link\lsa_fr.obj"
+".\build\us\debug\link\lsa_gr.obj"
+".\build\us\debug\link\lsa_ir.obj"
+".\build\us\debug\link\lsa_it.obj"
+".\build\us\debug\link\lsa_ja.obj"
+".\build\us\debug\link\lsa_rtbi.obj"
+".\build\us\debug\link\lsa_rule.obj"
+".\build\us\debug\link\lsa_sl.obj"
+".\build\us\debug\link\lsa_sp.obj"
+".\build\us\debug\link\lsa_task.obj"
+".\build\us\debug\link\lsa_us.obj"
+".\build\us\debug\link\lsa_util.obj"
+".\build\us\debug\link\lsw_main.obj"
+".\build\us\debug\link\mmalloc.obj"
+".\build\us\debug\link\nasalf1x.obj"
+".\build\us\debug\link\opthread.obj"
+".\build\us\debug\link\p_ch_sr1.obj"
+".\build\us\debug\link\p_ch_st1.obj"
+".\build\us\debug\link\p_ch_sy1.obj"
+".\build\us\debug\link\p_ch_tim.obj"
+".\build\us\debug\link\P_gr_inton2.obj"
+".\build\us\debug\link\p_he_st1.obj"
+".\build\us\debug\link\p_he_tim.obj"
+".\build\us\debug\link\p_krnew_tim.obj"
+".\build\us\debug\link\p_sp_inton.obj"
+".\build\us\debug\link\par_ambi.obj"
+".\build\us\debug\link\Par_char.obj"
+".\build\us\debug\link\Par_dict.obj"
+".\build\us\debug\link\Par_pars.obj"
+".\build\us\debug\link\par_rule.obj"
+".\build\us\debug\link\ph_aloph.obj"
+".\build\us\debug\link\ph_claus.obj"
+".\build\us\debug\link\ph_draw.obj"
+".\build\us\debug\link\Ph_drwt02.obj"
+".\build\us\debug\link\ph_inton.obj"
+".\build\us\debug\link\Ph_inton2.obj"
+".\build\us\debug\link\ph_main.obj"
+".\build\us\debug\link\ph_romi.obj"
+".\build\us\debug\link\ph_setar.obj"
+".\build\us\debug\link\ph_sort.obj"
+".\build\us\debug\link\ph_syl.obj"
+".\build\us\debug\link\ph_syntx.obj"
+".\build\us\debug\link\ph_task.obj"
+".\build\us\debug\link\ph_timng.obj"
+".\build\us\debug\link\ph_vdefi.obj"
+".\build\us\debug\link\ph_vset.obj"
+".\build\us\debug\link\phinit.obj"
+".\build\us\debug\link\phlog.obj"
+".\build\us\debug\link\phprint.obj"
+".\build\us\debug\link\PIPE.OBJ"
+".\build\us\debug\link\playaud.obj"
+".\build\us\debug\link\PLAYTONE.OBJ"
+".\build\us\debug\link\sapiiont.obj"
+".\build\us\debug\link\SERVICES.OBJ"
+".\build\us\debug\link\SPC.OBJ"
+".\build\us\debug\link\sqrttable.obj"
+".\build\us\debug\link\stdafx.obj"
+".\build\us\debug\link\SYNC.OBJ"
+".\build\us\debug\link\ttsapi.obj"
+".\build\us\debug\link\ttseng.obj"
+".\build\us\debug\link\ttsengobj.obj"
+".\build\us\debug\link\USA_INIT.OBJ"
+".\build\us\debug\link\vtm.obj"
+".\build\us\debug\link\VTMIONT.OBJ"
+".\build\us\debug\ttseng.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPB05.tmp"
+<h3>Output Window</h3>
+Compiling...
+acxf1c.c
+brent.c
+circuit.c
+cm_char.c
+cm_cmd.c
+cm_copt.c
+cm_main.c
+cm_pars.c
+cm_phon.c
+cm_text.c
+cm_util.c
+Cmd_init.c
+cmd_wav.c
+CodePageConv.c
+dbgwins.c
+c:\work\ad-new\dectalk\plat\win32\src\dbgwins.c(188) : warning C4101: 'hFontFixed' : unreferenced local variable
+c:\work\ad-new\dectalk\plat\win32\src\dbgwins.c(187) : warning C4101: 'lf' : unreferenced local variable
+c:\work\ad-new\dectalk\plat\win32\src\dbgwins.c(267) : warning C4101: 'rc' : unreferenced local variable
+hlframe.c
+inithl.c
+loaddict.c
+log10table.c
+ls_chari.c
+Generating Code...
+Compiling...
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_proc.c
+ls_spel.c
+ls_speli.c
+ls_suff.c
+ls_suffi.c
+lsa_adju.c
+lsa_coni.c
+lsa_rtbi.c
+lsa_rule.c
+lsa_task.c
+lsa_util.c
+lsw_main.c
+nasalf1x.c
+INFO: HLSYN - High Compute compile
+p_ch_sr1.c
+p_ch_st1.c
+p_ch_sy1.c
+p_ch_tim.c
+Generating Code...
+Compiling...
+P_gr_inton2.c
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(643) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(678) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(701) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(709) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(724) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(744) : warning C4013: 'make_f0_command' undefined; assuming extern returning int
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(1048) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(1185) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_inton2.c(1553) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+p_he_st1.c
+p_he_tim.c
+c:\work\ad-new\dectalk\dapicore\ph\p_he_tim.c(176) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_he_tim.c(182) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_he_tim.c(200) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_krnew_tim.c
+c:\work\ad-new\dectalk\dapicore\ph\p_krnew_tim.c(80) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_krnew_tim.c(87) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_krnew_tim.c(91) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_krnew_tim.c(97) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+p_sp_inton.c
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(248) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(283) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(306) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(314) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(330) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(611) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(726) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(897) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+Par_dict.c
+Par_pars.c
+ph_aloph.c
+ph_claus.c
+c:\work\ad-new\dectalk\dapicore\ph\ph_claus.c(313) : warning C4013: 'he_phtiming' undefined; assuming extern returning int
+c:\work\ad-new\dectalk\dapicore\ph\ph_claus.c(332) : warning C4013: 'sp_phinton' undefined; assuming extern returning int
+ph_draw.c
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(543) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(544) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(545) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(95) : warning C4101: 'tmp1' : unreferenced local variable
+Ph_drwt02.c
+c:\work\ad-new\dectalk\dapicore\ph\ph_drwt02.c(1160) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_drwt02.c(1178) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_drwt02.c(1889) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_drwt02.c(1894) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_drwt02.c(1909) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+ph_inton.c
+c:\work\ad-new\dectalk\dapicore\ph\ph_fr_inton2.c(261) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+Ph_inton2.c
+ph_main.c
+ph_romi.c
+ph_setar.c
+c:\work\ad-new\dectalk\dapicore\ph\ph_sttr2.c(423) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(911) : warning C4013: 'ch_forw_smooth_rules' undefined; assuming extern returning int
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(1048) : warning C4013: 'ch_back_smooth_rules' undefined; assuming extern returning int
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(1167) : warning C4013: 'ch_special_rules' undefined; assuming extern returning int
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(1172) : warning C4013: 'he_special_rules' undefined; assuming extern returning int
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(1582) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(1584) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(1590) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(1594) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_setar.c(1637) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+ph_sort.c
+ph_syl.c
+ph_task.c
+ph_timng.c
+c:\work\ad-new\dectalk\dapicore\ph\p_us_tim.c(176) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_us_tim.c(182) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_us_tim.c(191) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_uk_tim.c(171) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_uk_tim.c(177) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_uk_tim.c(186) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_uk_tim.c(262) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_tim.c(255) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_tim.c(265) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_tim.c(279) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_la_tim.c(156) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_la_tim.c(166) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_la_tim.c(180) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_tim.c(183) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_tim.c(190) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_gr_tim.c(216) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_fr_tim.c(303) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_fr_tim.c(321) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'char ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_fr_tim.c(325) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'char ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_fr_tim.c(326) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'char ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_fr_tim.c(685) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_it_tim.c(170) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_it_tim.c(189) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_it_tim.c(1212) : warning C4102: 'skiprules' : unreferenced label
+c:\work\ad-new\dectalk\dapicore\ph\p_jp_tim.c(173) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_jp_tim.c(192) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_kr_tim.c(162) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_kr_tim.c(169) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_kr_tim.c(174) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\p_kr_tim.c(187) : warning C4244: '=' : conversion from 'unsigned __int32 ' to 'short ', possible loss of data
+Generating Code...
+c:\work\ad-new\dectalk\dapicore\ph\ph_inton2.c(1954) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_inton2.c(1955) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_inton2.c(1955) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_inton2.c(1955) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_inton2.c(2063) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_inton2.c(2066) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_inton2.c(2283) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(3220) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(3220) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(682) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\p_sp_inton.c(696) : warning C4761: integral size mismatch in argument; conversion supplied
+Compiling...
+ph_vdefi.c
+ph_vset.c
+c:\work\ad-new\dectalk\dapicore\ph\ph_vset.c(776) : warning C4090: '=' : different 'const' qualifiers
+c:\work\ad-new\dectalk\dapicore\ph\ph_vset.c(974) : warning C4244: '=' : conversion from '__int32 ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_vset.c(990) : warning C4018: '>' : signed/unsigned mismatch
+phinit.c
+phlog.c
+playaud.c
+c:\work\ad-new\dectalk\shared\src\playaud.c(1529) : warning C4133: 'function' : incompatible types - from 'struct PLAY_AUDIO_TAG *' to 'struct AUDIO_PARAMS_TAG *'
+PLAYTONE.C
+Generating Code...
+Compiling...
+sapiiont.cpp
+Generating Code...
+Compiling...
+SERVICES.C
+SPC.C
+SYNC.C
+ttsapi.c
+c:\work\ad-new\dectalk\dapi\ttsapi.c(1791) : warning C4013: 'ls_main_get_lts_funcs' undefined; assuming extern returning int
+c:\work\ad-new\dectalk\dapi\ttsapi.c(1791) : warning C4047: '=' : 'struct lts_func *' differs in levels of indirection from 'int '
+Generating Code...
+This is NOT a USERDIC_COMPILE
+Compiling...
+ttseng.cpp
+ttsengobj.cpp
+Generating Code...
+Compiling...
+vtm.c
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(167) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(206) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(207) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(213) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(214) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(224) : warning C4244: '=' : conversion from 'unsigned __int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(225) : warning C4244: '=' : conversion from 'unsigned __int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(238) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(244) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(293) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(294) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(300) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(301) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(321) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(327) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(340) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(366) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(372) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtmfunc.h(378) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(612) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(615) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(772) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(773) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(775) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(776) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(783) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(784) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(786) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(787) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(794) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(820) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(821) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(825) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(876) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1081) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1083) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1118) : warning C4244: '+=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1194) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1277) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1281) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1292) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1310) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1451) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1514) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1547) : warning C4244: '+=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1548) : warning C4244: '+=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1718) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1719) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1720) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1784) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1874) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1879) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(1671) : warning C4102: 'skip_cascade' : unreferenced label
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(422) : warning C4101: 'voice1' : unreferenced local variable
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(2186) : warning C4018: '>' : signed/unsigned mismatch
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(2199) : warning C4018: '>' : signed/unsigned mismatch
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(2222) : warning C4018: '>=' : signed/unsigned mismatch
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(2263) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(2266) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(2678) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\vtm\vtm3.c(2684) : warning C4244: '=' : conversion from '__int32 ' to '__int16 ', possible loss of data
+VTMIONT.C
+c:\work\ad-new\dectalk\dapicore\vtm\vtmiont.c(1623) : warning C4133: 'function' : incompatible types - from 'unsigned short *' to 'struct SPD_CHIP *'
+c:\work\ad-new\dectalk\dapicore\vtm\vtmiont.c(2026) : warning C4022: 'SendEventToSapi' : pointer mismatch for actual parameter 3
+c:\work\ad-new\dectalk\dapicore\vtm\vtmiont.c(2038) : warning C4022: 'SendEventToSapi' : pointer mismatch for actual parameter 3
+c:\work\ad-new\dectalk\dapicore\vtm\vtmiont.c(2043) : warning C4022: 'SendEventToSapi' : pointer mismatch for actual parameter 3
+Generating Code...
+Linking...
+LINK : warning LNK4075: ignoring /INCREMENTAL due to /DEBUGTYPE specification
+   Creating library .\build\us\debug/sapi5.lib and object .\build\us\debug/sapi5.exp
+
+
+
+<h3>Results</h3>
+sapi5.dll - 0 error(s), 162 warning(s)
+</pre>
+</body>
+</html>

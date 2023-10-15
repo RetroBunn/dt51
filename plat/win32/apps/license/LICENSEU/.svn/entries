@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/license/LICENSEU"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="stdafx.h"
+   text-time="2006-03-22T15:24:20.030780Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b528dfe44ac975d954e8070d110f72f7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.171417Z"/>
+<entry
+   committed-rev="4218"
+   name="licenseu.ico"
+   text-time="2006-03-22T15:24:20.108904Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e3e1ed66c0a0a58bbd5da9f6343b8bf2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.233916Z"/>
+<entry
+   committed-rev="4213"
+   name="licchpwd.h"
+   text-time="2006-03-22T15:24:20.249528Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="3d281e35e7e938a3599380d9624aafa0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.358915Z"/>
+<entry
+   committed-rev="4213"
+   name="licenseu.cpp"
+   text-time="2006-03-22T15:24:20.265153Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="84183cc79071b4d07f5ab2c081959941"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.405790Z"/>
+<entry
+   committed-rev="4213"
+   name="updaterg.c"
+   text-time="2006-03-22T15:24:20.530776Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b06235e2991f0256a7a57aad42c6defe"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.437040Z"/>
+<entry
+   committed-rev="4218"
+   name="licenseu.dsp"
+   text-time="2006-03-22T15:24:20.515152Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9393fe3d47df470d8d0c4a980cd1babc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.437040Z"/>
+<entry
+   committed-rev="4218"
+   name="licenseu.rc2"
+   text-time="2006-03-22T15:24:20.280778Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e230e62135ff1a427e606a95f46cd1e7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.421415Z"/>
+<entry
+   committed-rev="4213"
+   name="licenseu.h"
+   text-time="2006-03-22T15:24:20.546401Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="865547b8eda45b628a7120e8aa1ae74e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.452665Z"/>
+<entry
+   committed-rev="4218"
+   name="licenseu.dsw"
+   text-time="2006-03-22T15:24:20.562026Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="b4a4e18e627d26469818e2adddaabae1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.483915Z"/>
+<entry
+   committed-rev="4213"
+   name="licreqd.cpp"
+   text-time="2006-03-22T15:24:20.577651Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="1689deb928f7e3eaa319482ae56f3480"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.812037Z"/>
+<entry
+   committed-rev="4213"
+   name="license.h"
+   text-time="2006-03-22T15:24:20.593276Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="afb32dc2d23865c63dc7ab6128a08da8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:18.921412Z"/>
+<entry
+   committed-rev="4213"
+   name="liceudlg.cpp"
+   text-time="2006-03-22T15:24:20.624526Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="442aba5807b29e0a1c25f7c85fdd61eb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.046411Z"/>
+<entry
+   committed-rev="4213"
+   name="licreqd.h"
+   text-time="2006-03-22T15:24:20.608901Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="e8a6131d7ac9fdf8a088a99c05599f9c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.015161Z"/>
+<entry
+   committed-rev="4213"
+   name="stdafx.cpp"
+   text-time="2006-03-22T15:24:20.687025Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c9bff65ffbfd14ed516a028ec425e817"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.155785Z"/>
+<entry
+   committed-rev="4218"
+   name="licenseu.rc"
+   text-time="2006-03-22T15:24:20.687025Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="dcaab5175aed20c533414ac3c8246ef6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.046411Z"/>
+<entry
+   committed-rev="4213"
+   name="resource.h"
+   text-time="2006-03-22T15:24:20.702650Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="cc64320583ed7e37a125bd50ee3bab83"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.296409Z"/>
+<entry
+   committed-rev="4213"
+   name="liceudlg.h"
+   text-time="2006-03-22T15:24:20.718275Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="236688593f19bdd567878ae56fe1e406"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.437033Z"/>
+<entry
+   committed-rev="4213"
+   name="licenseu.mak"
+   text-time="2006-03-22T15:24:20.733900Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c21b2dbc436e4a112211fba680425651"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.687032Z"/>
+<entry
+   committed-rev="4218"
+   name="licenseu.dep"
+   text-time="2006-03-22T15:24:20.796400Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="124a62c9817201f67f95b739bce76468"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.749531Z"/>
+<entry
+   committed-rev="4213"
+   name="licchpwd.cpp"
+   text-time="2006-03-22T15:24:21.296397Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="4efa41da51cafd1880939e711e96656b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:19.937030Z"/>
+</wc-entries>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Parsers/sequencegrammar"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4212"
+   name="binsearch.c"
+   text-time="2006-03-22T15:26:41.544734Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="084495facb5e6a65d134ef1ee0643612"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:25.451190Z"/>
+<entry
+   committed-rev="4218"
+   name="sequencegrammar.opt"
+   text-time="2006-03-22T15:26:41.700982Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="2b0c14da351898d24652e0fb488477f4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:25.482439Z"/>
+<entry
+   committed-rev="4218"
+   name="sequencegrammar.ncb"
+   text-time="2006-03-22T15:26:41.935354Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="bf339426dea659a4a35b4b3f717710fc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:25.498064Z"/>
+<entry
+   committed-rev="4212"
+   name="sgrammar.y"
+   text-time="2006-03-22T15:26:42.075977Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="6e565d6ab2dc5b40e6265d5234168cbd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:25.544939Z"/>
+<entry
+   committed-rev="4212"
+   name="sgrammar_tab.c"
+   text-time="2006-03-22T15:26:42.138476Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="96db2fe702c76b4750abf6339b9c1a92"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:25.716811Z"/>
+<entry
+   committed-rev="4212"
+   name="sgrammar_tab.h"
+   text-time="2006-03-22T15:26:42.154101Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="f4310af30334d2ead39a9749e0efaf54"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:28.794897Z"/>
+<entry
+   name="Debug"
+   kind="dir"/>
+<entry
+   committed-rev="4212"
+   name="sorttrieparse.c"
+   text-time="2006-03-22T15:26:42.169726Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="34b0644c7bec52510a62dd2241459b52"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:36.966667Z"/>
+<entry
+   name="Docs"
+   kind="dir"/>
+<entry
+   committed-rev="4212"
+   name="seqanalyse.h"
+   text-time="2006-03-22T15:26:42.169726Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="219bf32384c17260887dfb452444ec0b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:39.201014Z"/>
+<entry
+   committed-rev="4212"
+   name="sorttrie.c"
+   text-time="2006-03-22T15:26:42.200975Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="fa75c382e65d1babe3f32349f0f60d87"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:39.529135Z"/>
+<entry
+   committed-rev="4212"
+   name="Readme"
+   text-time="2006-03-22T15:26:42.200975Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="2cacb785d44c68269a684c1bccf05c7d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:39.607259Z"/>
+<entry
+   committed-rev="4212"
+   name="sgrammaroperators.h"
+   text-time="2006-03-22T15:26:42.216600Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="4a501ca109257ade5d88d3ce41806fef"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:39.810381Z"/>
+<entry
+   committed-rev="4212"
+   name="sgrammar.h"
+   text-time="2006-03-22T15:26:42.232225Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="82136f071bbb0726af9a279c5ef26cba"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:40.107252Z"/>
+<entry
+   committed-rev="4218"
+   name="sequencegrammar.plg"
+   text-time="2006-03-22T15:26:42.372848Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8528be7fe9d079c56f371670f80aee9a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:40.216626Z"/>
+<entry
+   committed-rev="4212"
+   name="sorttrie.h"
+   text-time="2006-03-22T15:26:42.388473Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="dad7a59bfed8583a5b479cf009bb4057"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:40.419748Z"/>
+<entry
+   committed-rev="4212"
+   name="sgrammar.l"
+   text-time="2006-03-22T15:26:42.466597Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="a3d49c7ae0573e11e55b82fe9425908d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:40.513497Z"/>
+<entry
+   committed-rev="4218"
+   name="sequencegrammar.dsp"
+   text-time="2006-03-22T15:26:42.607220Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="06f6dcdbf331c85542e203898d147ebf"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:40.575996Z"/>
+<entry
+   committed-rev="4212"
+   name="bachusseq.h"
+   text-time="2006-03-22T15:26:42.622845Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="dfc4b3c7c5d5a49b28f2f4676da5b012"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:40.700995Z"/>
+<entry
+   committed-rev="4212"
+   name="wherelex.c"
+   text-time="2006-03-22T15:26:42.638470Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="52b2f87ae403729b6f36739253343de9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:40.841618Z"/>
+<entry
+   committed-rev="4212"
+   name="builder.c"
+   text-time="2006-03-22T15:26:42.654095Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="b364b87151dd989d90b7a4284480ce92"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:41.060365Z"/>
+<entry
+   committed-rev="4218"
+   name="auxverbs.eng"
+   text-time="2006-03-22T15:26:42.669719Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="58d2745656689607f4071a1c07c8d357"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:41.091615Z"/>
+<entry
+   committed-rev="4212"
+   name="sgrammar.output"
+   text-time="2006-03-22T15:26:42.685344Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="edff51334741e83f486b5e16ff9e244f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:41.169739Z"/>
+<entry
+   committed-rev="4212"
+   name="lex.yy.c"
+   text-time="2006-03-22T15:26:42.716594Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="b85816f433204b182241ae1d049179a6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:41.310362Z"/>
+<entry
+   committed-rev="4212"
+   name="example.txt"
+   text-time="2006-03-22T15:26:42.716594Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="a791a094329e4687ebfe61cc227374ff"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:41.404111Z"/>
+<entry
+   committed-rev="4218"
+   name="sequencegrammar.dsw"
+   text-time="2006-03-22T15:26:42.732219Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="652260036de2a9bd793ec741cd57bb68"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:41.435360Z"/>
+<entry
+   committed-rev="4218"
+   name="articles.eng"
+   text-time="2006-03-22T15:26:42.763468Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="89ec88b902c9b77eb13486c04378556b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:41.529109Z"/>
+</wc-entries>

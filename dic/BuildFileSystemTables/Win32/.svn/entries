@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6043"
+   name=""
+   committed-date="2006-10-17T17:28:23.451780Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/BuildFileSystemTables/Win32"
+   last-author="sdutta"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="6043"
+   name="UsEnglishFileSystemTable.c"
+   text-time="2006-10-18T13:27:16.956820Z"
+   committed-date="2006-10-17T17:28:23.451780Z"
+   checksum="dc40e6fb138b939523cabff763e2bb4e"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-10-18T13:27:16.675577Z"/>
+<entry
+   committed-rev="6043"
+   name="FrenchFileSystemTable.c"
+   text-time="2006-10-18T13:27:17.003694Z"
+   committed-date="2006-10-17T17:28:23.451780Z"
+   checksum="2246e03dbcea0a2b42000f752b7289a6"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-10-18T13:27:16.722451Z"/>
+<entry
+   committed-rev="6043"
+   name="UsEnglishFileSystemTable.h"
+   text-time="2006-10-18T13:27:17.019319Z"
+   committed-date="2006-10-17T17:28:23.451780Z"
+   checksum="23db72ffdeec820ce4d1c5575a832602"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-10-18T13:27:16.816199Z"/>
+<entry
+   committed-rev="4626"
+   name="UsEnglish.nand.tab"
+   text-time="2006-04-24T19:11:10.031262Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="558e5a91b85cb23550137380d1dc76bf"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:08.765669Z"/>
+<entry
+   committed-rev="6043"
+   name="FrenchFileSystemTable.h"
+   text-time="2006-10-18T13:27:17.034943Z"
+   committed-date="2006-10-17T17:28:23.451780Z"
+   checksum="7703bb122161c6f22e96d0fdc2e53292"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-10-18T13:27:16.941196Z"/>
+<entry
+   committed-rev="4626"
+   name="French.nand.tab"
+   text-time="2006-04-24T19:11:10.062511Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="6e8631dfc08152b78511d357025c3f37"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:09.984388Z"/>
+</wc-entries>

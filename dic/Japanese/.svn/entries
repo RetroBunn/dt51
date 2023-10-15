@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4982"
+   name=""
+   committed-date="2006-05-23T17:15:15.830594Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/Japanese"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_jp.dic"
+   text-time="2006-05-25T15:30:20.319150Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="7dea362b3fac8e00956a4952a3d4f474"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:29:18.945328Z"/>
+<entry
+   committed-rev="4982"
+   name="old_onsei.dic"
+   text-time="2006-05-25T15:30:20.366024Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="9ad818608b26680e1e549452a425ef89"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:29:32.898186Z"/>
+<entry
+   committed-rev="4966"
+   name="Japanese Pronunciation Dictionary CD ROM.url"
+   text-time="2006-05-25T15:30:20.381649Z"
+   committed-date="2006-05-23T16:54:37.296111Z"
+   checksum="71ea8bd85267e5342b7ff7a33dea614c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:29:32.945060Z"/>
+<entry
+   committed-rev="4982"
+   name="onsei.dic"
+   text-time="2006-05-25T15:30:20.428523Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="f5476230f536439be39f43d431eac108"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:29:49.991607Z"/>
+<entry
+   committed-rev="4982"
+   name="onsei.txt"
+   text-time="2006-05-25T15:30:20.912889Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="af0b29d151ea6844aea1cf504332cde7"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:20.131654Z"/>
+</wc-entries>

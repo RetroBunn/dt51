@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5600"
+   name=""
+   committed-date="2006-08-18T22:31:17.623869Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/include"
+   last-author="mkauntz"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="PalmOS5"
+   kind="dir"/>
+<entry
+   committed-rev="4323"
+   name="ttsfeat.h"
+   text-time="2006-04-06T18:04:40.656250Z"
+   committed-date="2006-03-27T19:21:53.651984Z"
+   checksum="4a3b2c5f9303b0ab31ad65667c4c7534"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-04-06T18:04:40.484375Z"/>
+<entry
+   name="win32"
+   kind="dir"/>
+<entry
+   name="unix"
+   kind="dir"/>
+<entry
+   committed-rev="5216"
+   name="FonixTtsDtSimple.h"
+   text-time="2006-06-27T15:27:56.437500Z"
+   committed-date="2006-06-16T21:34:53.581580Z"
+   checksum="a31a4b81e74ed45a0c59d41fc3664c42"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-06-27T15:27:56.406250Z"/>
+<entry
+   committed-rev="5600"
+   name="ttsapi.h"
+   text-time="2006-08-23T18:06:21.311936Z"
+   committed-date="2006-08-18T22:31:17.623869Z"
+   checksum="72b21c84e30e8d20a45d455fa85998fa"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:21.296311Z"/>
+</wc-entries>

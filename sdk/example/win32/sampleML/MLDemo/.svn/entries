@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4249"
+   name=""
+   committed-date="2006-03-22T01:28:36.256363Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/win32/sampleML/MLDemo"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4214"
+   name="StdAfx.h"
+   text-time="2006-03-22T15:28:14.167600Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="01b426c711c2b5c0f8c02d26b4aea9bc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.480113Z"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.rc"
+   text-time="2006-03-22T15:28:14.261348Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="12fb433b8ba751472701050159bd8b27"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.495738Z"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.dep"
+   text-time="2006-03-22T15:28:14.292597Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="45484291d2ecf51642d4ec2a50fc531e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.526987Z"/>
+<entry
+   committed-rev="4214"
+   name="MLDemo.mak"
+   text-time="2006-03-22T15:28:14.276973Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="d7bd3aca6a64bd7699d144d37238e41e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.526987Z"/>
+<entry
+   committed-rev="4249"
+   name="MLDemoDlg.cpp"
+   text-time="2006-03-22T15:28:14.605091Z"
+   committed-date="2006-03-22T01:28:36.256363Z"
+   checksum="3144d51aff06dc223084cfe44b01ad37"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.558237Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   committed-rev="4214"
+   name="MLDemoDlg.h"
+   text-time="2006-03-22T15:28:14.620716Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="56555ca59c64d9617e576178291d18b8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.042602Z"/>
+<entry
+   committed-rev="4214"
+   name="MLDemo.cpp"
+   text-time="2006-03-22T15:28:14.667590Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="5432a1c458f602a1f584eb5837d30a21"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.073852Z"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.plg"
+   text-time="2006-03-22T15:28:14.651966Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="637705283239f61942e778c496d43832"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.058227Z"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.dsp"
+   text-time="2006-03-22T15:28:14.683215Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d2c67151b96651349b690337f0a4ccea"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.073852Z"/>
+<entry
+   committed-rev="4214"
+   name="MLDemo.h"
+   text-time="2006-03-22T15:28:14.698840Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="4aa1f815302d0999f80b3a3408a442d2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.105101Z"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.dsw"
+   text-time="2006-03-22T15:28:14.714464Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d9b282965290d5fe1cd0a24dbff5b12e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.105101Z"/>
+<entry
+   committed-rev="4214"
+   name="StdAfx.cpp"
+   text-time="2006-03-22T15:28:14.730089Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="003b48663789e0606dd78c5204cc1886"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.120726Z"/>
+<entry
+   committed-rev="4214"
+   name="Resource.h"
+   text-time="2006-03-22T15:28:14.745714Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="85575326905a7520eee5c369ea512cbc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.136350Z"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.opt"
+   text-time="2006-03-22T15:28:14.761338Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="11984b1faf16cf93f6d019f02b63e8f1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.136350Z"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.ncb"
+   text-time="2006-03-22T15:28:14.808213Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="49f5c3cbae871a464f520474bb069033"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.151975Z"/>
+</wc-entries>

@@ -1,0 +1,261 @@
+/*
+ ***********************************************************************
+ *
+ *                           Copyright ©
+ *	  Copyright © 2000-2001 Force Computers Inc., a Solectron company. All rights reserved.
+ *    © Digital Equipment Corporation 1995. All rights reserved.
+ *
+ *    Restricted Rights: Use, duplication, or disclosure by the U.S.
+ *    Government is subject to restrictions as set forth in subparagraph
+ *    (c) (1) (ii) of DFARS 252.227-7013, or in FAR 52.227-19, or in FAR
+ *    52.227-14 Alt. III, as applicable.
+ *
+ *    This software is proprietary to and embodies the confidential
+ *    technology of Force Computers Incorporated and other parties.
+ *    Possession, use, or copying of this software and media is authorized
+ *    only pursuant to a valid written license from Force or an
+ *    authorized sublicensor.
+ *
+ ***********************************************************************
+ *    File Name:	ch_phon.tab
+ *    Author:
+ *    Creation Date:
+ *
+ *    Functionality:
+ *
+ ***********************************************************************
+ *    Revision History:
+ *  	001	RTP		03/02/2005	Created Mandarin Chinese phon.tab.
+ *
+ */
+
+#ifndef CH_PHONTAB
+#define CH_PHONTAB 1
+
+#include "ch_def.h"
+
+const unsigned char ch_ascky[] = {
+
+/* allophones */
+
+	'_',    'i',    'U',    'e',    'E',    'A',    'I',    '2',
+	'X',    'u',    '5',    '3',    'o',    'O',    '4',    'a',
+	'6',    '7',    '8',    'm',    'n',    'N',    'p',    'b',
+	't',    'd',    'k',    'g',    'f',    's',    'S',    'r',
+	'x',    'h',    'R',    'y',    'w',    'l',    'c',    'z', 
+	'q',    'j',    'C',    'Z',	'K',	'J',	'W',    '^',
+	'9',	'T',	'@',	'B',	'$',	'%',	'D',	'F',
+	'G',	'Y',	'V',	'H',	'L',	'M',	'P',	'Q',
+
+/* place holders for null range */
+
+	
+	
+														    0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,   
+	0,      0,      0,      0,
+
+/* control phones */
+
+	'~',    '=',    '`',    '\'',   '"',	'/',	'\\',	'<',	
+	'-',    '*',    '#',    ' ',    '(',    ')',    ';',    ',',
+	'.',    '?',    '!',    '+',	'^' ,	'&',	'>'
+};
+
+const unsigned int ch_ascky_rev[] = {
+/* 0x00 */
+
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     PCH(WBOUND),   NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+
+/* 0x10 */
+
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+
+/* 0x20 */
+
+	PCH(WBOUND),   PCH(EXCLAIM),  PCH(SEMPH),    PCH(HYPHEN),
+	PCH(CH_WR),    PCH(CH_2R),     NULL_ASCKY,     PCH(S1),
+	PCH(PPSTART),  PCH(VPSTART),  PCH(MBOUND),   PCH(NEW_PARAGRAPH),
+	PCH(COMMA),    PCH(SBOUND),   PCH(PERIOD),   PCH(HAT_RISE),
+
+/* 0x30 */
+
+	NULL_ASCKY,	NULL_ASCKY,	PCH(CH_IR),	PCH(CH_UC),
+	PCH(CH_AO),	PCH(CH_UH),	PCH(CH_AY),	PCH(CH_AW),
+	PCH(CH_ER),	PCH(CH_XR),	PITCH_CHANGE,   PCH(RELSTART),
+	PCH(HAT_RF),   PCH(S3),       NULL_ASCKY,     PCH(QUEST),
+
+/* 0x40 */
+
+	PCH(CH_OR),	PCH(CH_A ),	PCH(CH_1R),	PCH(CH_T1),
+	PCH(CH_UR),	PCH(CH_EH),	PCH(CH_3R),	PCH(CH_4R),
+	PCH(CH_X1),	PCH(CH_IF),	PCH(CH_YI),	PCH(CH_KH),
+	PCH(CH_X2),	PCH(CH_X3),	PCH(CH_NX),	PCH(CH_WO),
+
+/* 0x50 */
+
+	PCH(CH_X4),	PCH(CH_X5),	PCH(CH_RF),	PCH(CH_SR),
+	PCH(CH_AR),	PCH(CH_UE),	PCH(CH_YR),	PCH(CH_WU),
+	PCH(CH_AX),	PCH(CH_5R),	PCH(CH_D1),	NULL_ASCKY,
+	PCH(HAT_FALL),	NULL_ASCKY,PCH(CH_AH),	PCH(SIL),
+
+/* 0x60 */
+
+	NULL_ASCKY,	PCH(CH_AA),	PCH(CH_PV),	PCH(CH_TS),
+	PCH(CH_TV),	PCH(CH_EY),	PCH(CH_F ),	PCH(CH_KV),
+	PCH(CH_CH),	PCH(CH_IY),	PCH(CH_JV),	PCH(CH_K ),
+	PCH(CH_L ),	PCH(CH_M ),	PCH(CH_N ),	PCH(CH_OW),
+
+/* 0x70 */
+
+	PCH(CH_P ),	PCH(CH_JJ),	PCH(CH_ZR),	PCH(CH_S ),
+	PCH(CH_T ),	PCH(CH_UW),	NULL_ASCKY,	PCH(CH_W ),
+	PCH(CH_TJ),	PCH(CH_Y ),	PCH(CH_DS),	NULL_ASCKY,
+	NULL_ASCKY,	NULL_ASCKY,	PCH(BLOCK_RULES),	NULL_ASCKY
+};
+
+
+const unsigned char   ch_arpa[] = {
+
+	'_',    ' ',           /* 0  =  _ */
+	'i',    'y',           /* 1  =  i */	// pascii 1 //
+	'u',    'e',           /* 2  = U */	// pascii 2 Vowel. Umlaut u. When followed by pinyin palatal consonants y, x, j, or q //
+	'e',    'y',          /* 3  =  e */	// pascii 5 in pinyin dipthong ei //
+	'e',    'h',          /* 4  =  E */	// pascii 7//
+	'a',    ' ',           /* 5  =  A */	// pascii 10 //            
+	'i',    'f',	      /* 6  =  I */	// pascii 12, 380. The i vowel in pinyin zi, ci, and si //
+	'i',    'r',	      /* 7  = 2 */	// pascii 12, 366, 380. Capital i. The i vowel in pinyin zhi, chi, shi, and ri //
+	'a',    'x',          /* 8  =  X */	// pascii 14 //
+	'u',    'w',           /* 9  = u */	//pascii 17 Vowel //
+	'u',    'h',           /* 10  = 5 */	// pascii 19 Vowel "o" like in pinyin final "ong"  //
+	'u',    'c',          /* 11  =  3 */	// pascii 20 //
+	'o',    'w',         /* 12  = o */	//pascii 21 vowel in pinyin dipthong ou//
+	'w',    'o',           /* 13  = O */	// pascii 21, 151, 85, 372 when preceded by pinyin sounds like b, p, m, f //
+	'a',    'o',           /* 14  = 4 */	// pascii 23 Vowel "o" in final "ong" possible dialectal variance //
+	'a',    'a',          /* 15  =  a */	// pascii 24 //
+	'a',    'y',             /* 16  = 6 */	// pascii 26. Dipthong. Pinyin ai //
+	'a',    'w',           /* 17  = 7 */	// pascii 27. Dipthong. Pinyin ao //
+	'e',    'r',           /* 18  = 8 */	// pascii 29 Approximant Vowel er. If occurring as a result of the suffix -r. If occuring not as a result of the suffix-r, then like /ar/ (pascii 24+64) //
+	'm',    ' ',           /* 19  = m */	// pascii 31. Nasal bilabial. Pinyin m //
+	'n',    ' ',           /* 20  = n */	// pascii 33. Nasal alveolar. Pinyin n //
+	'n',    'x',           /* 21  = N */	// pascii 36. Nasal velar. Pinyin ng //
+	'p',    ' ',           /* 22  = p */	// pascii 39.  Obstruent stop voiceless bilabial. Pinyin p //
+	'p',    'v',           /* 23  = b */	// pascii 39 487 Obstruent stop weakly voiced bilabial unaspirated. Pinyin b //
+	't',    ' ',           /* 24  = t */	// pascii 41 Obstruent stop voiceless alveolar. Pinyin t //
+	't',    'v',           /* 25  = d */	// pascii 41, 487 Obstruent stop unaspir. weakly voiced alveolar. Pinyin d // 
+	'k',    ' ',           /* 26  = k */	// pascii 47. Obstruent voiceless velar. Pinyin k //
+	'k',    'v',           /* 27  = g */	// pascii 47, 487. Obstruent weakly voiced velar. Pinyin g //
+	'f',    ' ',           /* 28  = f */	// pascii 57. Fricative labiodental. Pinyin f //
+	's',    ' ',           /* 29  = s */	// pascii 61. Fricative alveolar. Pinyin s // 
+	's',    'r',           /* 30  = S */	// pascii 63. Fricative retroflex. Pinyin sh //
+	'z',    'r',           /* 31  = r */	// pascii 64. Fricative retroflex. Pinyin r //
+	't',    'j',           /* 32  = x */	// pascii 67, 364. Fricative alveolo-palatal. Pinyin x //
+	'c',    'h',           /* 33  = h */	// pascii 69. Fricative velar. Pinyin h //
+	'r',    'f',             /* 34  = R */	// pascii 81. Approximate retroflex. Pinyin r at end of syllable. Not the same sound as pascii 29 #16 above //
+	'y',    ' ',           /* 35  = y */	// pascii 82. Approximant Transitional sound. Used only in intial position of a syllable in place of pinyin i or umlaut u //
+	'w',    ' ',           /* 36  = w */	// pascii 85. Approximant Transitional sound. Used only in intial position of a syllable in place of pinyin u //
+	'l',      ' ',             /* 37  = l */	// pascii 90. Lateral approximant alveolar. Pinyin l //
+	't',    's',           /* 38  = c */	// pascii 41, 796, 61. Multiple Manners; Affricate alveolar. Pinyin c //
+	'd',    's',	      /* 39  = z */	// pascii 41, 796, 61, 487. Multiple Manners; Affricate alveolar unaspirated. Pinyin z //
+	'j',    'j',           /* 40  = q */	//pascii 41, 796, 67. Multiple Manners; Affricate alveolo-palatal. Pinyin q //
+	'j',    'v',           /* 41  = j */	// pascii 41, 796, 67, 487. Multiple Manners; Affricate alveolo-palatal unasp. Pinyin j //
+	't',    '1',           /* 42  = C */	// pascii 43, 796, 63. Multiple Manners; Affricate retroflex. Pinyin ch //
+	'd',    '1',	       /* 43  = Z */	// pascii 43, 796, 63, 487. Multiple Manners; Affricate retroflex unasp. Pinyin zh //
+	'k',    'h',             /* 44  = K */
+	'y',     'i',             /* 45  = J*/
+	'w',     'u',             /* 46  = W*/
+	'a',     'h',             /* 47  = */
+	'x',      'r',             /* 48  = */
+	'a',	 'r',            /* 49  = */
+	'o',	'r',            /* 50  = */
+	'1',	'r',            /* 51  = */
+	'w',	'r',            /* 52  = */
+	'2',	'r',            /* 53  = */
+	'u',	'r',            /* 54  = */
+	'3',	'r',            /* 55  = */
+	'4',	'r',            /* 56  = */
+	'5',	'r',            /* 57  = */
+	'y',	'r',            /* 58  = */
+	'x',	'1',            /* 59  = */
+
+	'x',	'2',            /* 60  = */
+	'x',	'3',            /* 61  = */
+	'x',	'4',            /* 62  = */
+	'x',	'5',            /* 63  = */
+	0,      0,             /* 64  = */
+	0,      0,             /* 65  = */
+	0,      0,             /* 66  = */
+	0,      0,             /* 67  = */
+	0,      0,             /* 68  = */
+	0,      0,             /* 69  = */
+
+	0,      0,             /* 70  = */
+	0,      0,             /* 71  = */
+	0,      0,             /* 72  = */
+	0,      0,             /* 73  = */
+	0,      0,             /* 74  = */
+	0,      0,             /* 75  = */
+	0,      0,             /* 76  = */
+	0,      0,             /* 77  = */
+	0,      0,             /* 78  = */
+	0,      0,             /* 79  = */
+
+	0,      0,             /* 80  = */
+	0,      0,             /* 81  = */
+	0,      0,             /* 82  = */
+	0,      0,             /* 83  = */
+	0,      0,             /* 84  = */
+	0,      0,             /* 85  = */
+	0,      0,             /* 86  = */
+	0,      0,             /* 87  = */
+	0,      0,             /* 88  = */
+	0,      0,             /* 89  = */
+
+	0,      0,             /* 90  = */
+	0,      0,             /* 91  = */
+	0,      0,             /* 92  = */
+	0,      0,             /* 93  = */
+	0,      0,             /* 94  = */
+	0,      0,             /* 95  = */
+	0,      0,             /* 96  = */
+	0,      0,             /* 97  = */
+	0,      0,             /* 98  = */
+	0,      0,             /* 99  = */
+
+
+	'~',	' ',	/* BLOCK_RULES =	~	*/
+	'=',	' ',	/* S3 =  			=	*/
+	'`',	' ',	/* S2 = 			` 	*/
+	'\'',	' ',	/* S1 =				' 	*/
+	'\"',	' ',	/* SEMPH =			"   */
+	'/',	' ',	/* HAT_RISE  = 		/	*/
+	'\\',	' ',	/* HAT_FALL  = 		\	*/
+	'/',	'\\',	/* HAT_RF  = 		<	*/
+	'-',	' ',	/* SBOUND  =		-	*/
+	'*',	' ',	/* MBOUND  = 		*	*/
+	'#',	' ',	/* HYPHEN  = 		#	*/
+	' ',	' ',	/* WBOUND  = 	 		*/
+	'(',	' ',	/* PPSTART =		(	*/
+	')',	' ',	/* VPSTART = 		)	*/
+	';',	' ',	/* RELSTART  = 		;	*/
+	',',	' ',	/* COMMA  =			,	*/
+	'.',	' ',	/* PERIOD =			.	*/
+	'?',	' ',	/* QUEST  =			?	*/
+	'!',	' ',	/* EXCLAIM  = 		!	*/
+	'+',	' ',	/* NEW_PARAGRAPH =	+	*/
+	'^',	' ',	/* SPECIALWORD =	^	*/
+	'&',	' ',	/* LINKRWORD =		&	*/
+	'>',	' '		/* DOUBLCONS =		>	*/
+};			       
+
+#endif
+

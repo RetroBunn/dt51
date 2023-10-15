@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4982"
+   name=""
+   committed-date="2006-05-23T17:15:15.830594Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/UKEnglish"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4982"
+   name="Build_uk_dic.bat"
+   text-time="2006-05-25T15:30:26.287785Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="94aae991a6c81e2f410b8a99ad252719"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:20.959763Z"/>
+<entry
+   committed-rev="4982"
+   name="DIC_UK.TXT"
+   text-time="2006-05-25T15:30:26.334660Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="b2ad345f9fea15765220ec1b2a622a03"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:22.881601Z"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_uk.dic"
+   text-time="2006-05-25T15:30:26.350284Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="12c07a47dd2778f3d1acbd75e7293b04"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:26.272161Z"/>
+</wc-entries>

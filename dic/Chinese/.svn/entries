@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4982"
+   name=""
+   committed-date="2006-05-23T17:15:15.830594Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/Chinese"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4844"
+   name="dtalk_ch.cjk"
+   text-time="2006-05-15T14:58:15.586854Z"
+   committed-date="2006-05-11T21:36:02.988149Z"
+   checksum="d460bc57a39b0b3db2ca83887f769cc4"
+   last-author="xzeng"
+   kind="file"
+   prop-time="2006-05-15T14:58:15.508731Z"/>
+<entry
+   committed-rev="4218"
+   name="Mandarin.WordFrequencyList.txt"
+   text-time="2006-03-22T15:26:59.435009Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3acbfb62e11344dcf3241c012d3b1861"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:55.435112Z"/>
+<entry
+   committed-rev="4210"
+   name="BuildCJK2PinyinTables.bat"
+   text-time="2006-03-22T15:26:59.622504Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="25293b8694a8598b349d68dcc54794c8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:55.825727Z"/>
+<entry
+   committed-rev="4503"
+   name="CJK_old_4_7_06.txt"
+   text-time="2006-04-24T19:11:05.609500Z"
+   committed-date="2006-04-07T16:51:22.628782Z"
+   checksum="fa589284acf7c6a8c278bcaab62d8d34"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-04-24T19:11:02.172088Z"/>
+<entry
+   committed-rev="4218"
+   name="char2pinyin.txt"
+   text-time="2006-03-22T15:27:00.778725Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="21da613f6b4412880c55484a3bd1dcd4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:55.888225Z"/>
+<entry
+   committed-rev="4772"
+   name="CJK.txt"
+   text-time="2006-05-09T18:17:59.140625Z"
+   committed-date="2006-05-04T20:43:24.526445Z"
+   checksum="0b2ab01e6a8de3aabf00baad6c87367d"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-05-09T18:17:59.109375Z"/>
+<entry
+   name="BuildPolyPhoneTable"
+   kind="dir"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_ch.dic"
+   text-time="2006-05-25T15:30:43.271834Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="7dea362b3fac8e00956a4952a3d4f474"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:43.240585Z"/>
+<entry
+   name="BuildCJK2PinyinTables"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="BuildCJK2PinyinTables.exe"
+   text-time="2006-03-22T15:27:00.919346Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="128fbca1bc5a6a1822ea895850699380"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:58.169417Z"/>
+<entry
+   committed-rev="4210"
+   name="readme.txt"
+   text-time="2006-03-22T15:27:01.044343Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="2117c711482306050d14d987b4048145"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:58.216290Z"/>
+<entry
+   committed-rev="4218"
+   name="Information on Chinese at UPenn.url"
+   text-time="2006-03-22T15:27:01.075592Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="bd1efd53698ffcf358fa5fce38810246"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:58.216290Z"/>
+</wc-entries>

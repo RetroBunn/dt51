@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5283"
+   name=""
+   committed-date="2006-07-06T15:21:37.402029Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/KERNEL"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4207"
+   name="startup.asm"
+   text-time="2006-03-22T15:28:23.308049Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="62ef7d4cc7dd5332ad5a62ca3ad71093"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.386192Z"/>
+<entry
+   committed-rev="4207"
+   name="Makefile.in"
+   text-time="2006-03-22T15:28:23.339299Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="643bc27a2f4878be77d73bd548011673"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.433066Z"/>
+<entry
+   committed-rev="4207"
+   name="create.asm"
+   text-time="2006-03-22T15:28:23.354923Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="8054f31b8144223cae292ee016edb061"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.479940Z"/>
+<entry
+   committed-rev="4207"
+   name="malloc.asm"
+   text-time="2006-03-22T15:28:23.370548Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="b427ef5dcd4a87bdb3cb89b7a30ac277"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.589313Z"/>
+<entry
+   committed-rev="4207"
+   name="loader.c"
+   text-time="2006-03-22T15:28:23.386173Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="d22b27204058c3af9e64d8d357592a42"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.636187Z"/>
+<entry
+   committed-rev="4207"
+   name="spc_driv.c"
+   text-time="2006-03-22T15:28:23.401798Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="76df468019d222b37b6611540dc1c652"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.667437Z"/>
+<entry
+   committed-rev="4207"
+   name="support.asm"
+   text-time="2006-03-22T15:28:23.417422Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="8dcf567cf158a0876f51b2ee546c74de"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.683061Z"/>
+<entry
+   committed-rev="5283"
+   name="Usa_init.c"
+   text-time="2006-07-20T19:05:27.015625Z"
+   committed-date="2006-07-06T15:21:37.402029Z"
+   checksum="a7efca0234533e0307c24d0310c2863a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-07-20T19:05:26.984375Z"/>
+<entry
+   committed-rev="4207"
+   name="gate.asm"
+   text-time="2006-03-22T15:28:23.448672Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="fb37cca90c9e6f09b2a4e78e0f588359"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.745560Z"/>
+<entry
+   committed-rev="4207"
+   name="kernel.asm"
+   text-time="2006-03-22T15:28:23.464296Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="b0a3f113ef87318f98a4efc48ffcaf63"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.776810Z"/>
+<entry
+   committed-rev="4207"
+   name="serial.c"
+   text-time="2006-03-22T15:28:23.479921Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="d4b35008fb4f989556df0bdc20557625"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.808059Z"/>
+<entry
+   committed-rev="4207"
+   name="os.asm"
+   text-time="2006-03-22T15:28:23.495546Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="ab7ec5dc66679f0b1457764bd1eae825"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.823684Z"/>
+<entry
+   committed-rev="4207"
+   name="186_macs.asm"
+   text-time="2006-03-22T15:28:23.511170Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="aa5f2044928785732d1b45c416004872"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.823684Z"/>
+<entry
+   committed-rev="4207"
+   name="os_macs.asm"
+   text-time="2006-03-22T15:28:23.526795Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="252c0171ed2a153afdeeed9492fa8758"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.839308Z"/>
+<entry
+   committed-rev="4449"
+   name="services.c"
+   text-time="2006-04-06T18:04:01.031250Z"
+   committed-date="2006-04-04T21:31:37.254010Z"
+   checksum="edc758ed6556ae4c46617150039fd1be"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:01.000000Z"/>
+<entry
+   committed-rev="4207"
+   name="c_macs.asm"
+   text-time="2006-03-22T15:28:23.558045Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="81904d095d7e86ab0156b8bdbd08ddca"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.886182Z"/>
+<entry
+   committed-rev="4207"
+   name="LOADHELP.ASM"
+   text-time="2006-03-22T15:28:23.558045Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="1a498351a7bd67f881bf7451b0322cf0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.901807Z"/>
+<entry
+   committed-rev="4207"
+   name="iso_char.c"
+   text-time="2006-03-22T15:28:23.573669Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="a5c91341d1e63052e1dd9d81f7b13b78"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.917432Z"/>
+<entry
+   committed-rev="4207"
+   name="Makefile"
+   text-time="2006-03-22T15:28:23.589294Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="ffb45b872d839c1a3c449662535cec64"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.933057Z"/>
+<entry
+   committed-rev="4207"
+   name="disp.asm"
+   text-time="2006-03-22T15:28:23.604919Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="c21a0faee8f73ac8502d5d9622d3c9b0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.948681Z"/>
+<entry
+   committed-rev="4207"
+   name="servs.asm"
+   text-time="2006-03-22T15:28:23.620543Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="04a6bae8d01303c6b018a1216b99539b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.948681Z"/>
+<entry
+   committed-rev="4207"
+   name="data.asm"
+   text-time="2006-03-22T15:28:23.636168Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="a79b0e75a38406c8be8dd65c0b88186b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.964306Z"/>
+<entry
+   committed-rev="4207"
+   name="isa.c"
+   text-time="2006-03-22T15:28:23.651793Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="3c33ef0cdb964e9581724cf72401c1b1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:22.995555Z"/>
+<entry
+   committed-rev="4207"
+   name="timer.asm"
+   text-time="2006-03-22T15:28:23.651793Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="efd9c15d9b41d77c81342965e6abcb9f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.011180Z"/>
+<entry
+   committed-rev="4207"
+   name="queue.asm"
+   text-time="2006-03-22T15:28:23.667417Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="5cdb41f6aca0db09f4673710a959df8d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.026805Z"/>
+<entry
+   committed-rev="4207"
+   name="sema.asm"
+   text-time="2006-03-22T15:28:23.683042Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="a72a94bc3b2745d893ef2ea96e22b78e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.042429Z"/>
+<entry
+   committed-rev="4207"
+   name="main.c"
+   text-time="2006-03-22T15:28:23.698667Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="8c1aba21f650fbfdbabe52858c863b78"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.073679Z"/>
+<entry
+   committed-rev="4207"
+   name="usa.c"
+   text-time="2006-03-22T15:28:23.714292Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="63ab11def0541895249cb68c0b87eade"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.136178Z"/>
+<entry
+   committed-rev="4854"
+   name="express.c"
+   text-time="2006-05-15T14:58:11.086969Z"
+   committed-date="2006-05-12T19:54:15.669912Z"
+   checksum="e98ac46e244051b49207b2e940afd54a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-15T14:58:11.071345Z"/>
+<entry
+   committed-rev="4207"
+   name="pipe.asm"
+   text-time="2006-03-22T15:28:23.745541Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="f97834790cb24a6f0871aa8685fc0769"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.183052Z"/>
+<entry
+   committed-rev="4207"
+   name="isr.asm"
+   text-time="2006-03-22T15:28:23.761166Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="6996024198a679cd62a4823b3ac81ea8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.198676Z"/>
+<entry
+   committed-rev="4207"
+   name="ring.asm"
+   text-time="2006-03-22T15:28:23.761166Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="7450a83f8dd566b1600a78b15fc6c565"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.229926Z"/>
+<entry
+   committed-rev="4207"
+   name="isa_dma.c"
+   text-time="2006-03-22T15:28:23.776790Z"
+   committed-date="2006-03-18T01:37:04.851149Z"
+   checksum="5be2e129a0b4b827fcac83d29d148bb8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:23.292425Z"/>
+</wc-entries>

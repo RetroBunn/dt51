@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6170"
+   name=""
+   committed-date="2006-10-30T16:54:13.392953Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Spanish"
+   last-author="rpierce"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="6170"
+   name="RevisionHistory.sp.txt"
+   text-time="2006-10-31T16:09:09.905706Z"
+   committed-date="2006-10-30T16:54:13.392953Z"
+   checksum="e0d11127ecc2ecc0e441971daa53817b"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-31T16:09:09.733831Z"/>
+<entry
+   committed-rev="4218"
+   name="DECTalk 5.1 Spanish Focus List.doc"
+   text-time="2006-03-22T15:02:30.682265Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="524c1b447d6092b27474d74079a9be1f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:30.291652Z"/>
+<entry
+   committed-rev="6170"
+   name="SpRules.doc"
+   text-time="2006-10-31T16:09:10.046331Z"
+   committed-date="2006-10-30T16:54:13.392953Z"
+   checksum="f8f69e05d6833cb516275022a682d8ef"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-31T16:09:09.890081Z"/>
+<entry
+   name="Spanish LTS"
+   kind="dir"/>
+<entry
+   committed-rev="5011"
+   name="Trilled rr rules.txt"
+   text-time="2006-05-30T17:14:41.127964Z"
+   committed-date="2006-05-25T19:53:56.382496Z"
+   checksum="6ba3a9fd0e881297d9d2069608e9ee25"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-05-30T17:14:40.737349Z"/>
+</wc-entries>

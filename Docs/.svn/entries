@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6185"
+   name=""
+   committed-date="2006-10-31T21:27:19.983703Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs"
+   last-author="barthols"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="Korean"
+   kind="dir"/>
+<entry
+   name="Italian"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="PHEdit notes_Low vs. High Comp.doc"
+   text-time="2006-03-22T15:24:14.593314Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="45a74f29b34a121c82bc89d5fa1b92c2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:30.151032Z"/>
+<entry
+   committed-rev="5666"
+   name="DecTalk 5.x Functional Spec.doc"
+   text-time="2006-08-31T14:16:29.078125Z"
+   committed-date="2006-08-30T22:31:02.286759Z"
+   checksum="bd227fde22f1d19c04f7c18fc2a8c0d8"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-08-31T14:16:28.796875Z"/>
+<entry
+   name="French"
+   kind="dir"/>
+<entry
+   name="Spanish"
+   kind="dir"/>
+<entry
+   committed-rev="5339"
+   name="FormantFrequencies.xls"
+   text-time="2006-07-20T19:05:45.656250Z"
+   committed-date="2006-07-11T22:15:42.247713Z"
+   checksum="6ff2f7e303edc3e881dffe8fc4881cb7"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-20T19:05:44.781250Z"/>
+<entry
+   name="Japanese"
+   kind="dir"/>
+<entry
+   name="English"
+   kind="dir"/>
+<entry
+   name="German"
+   kind="dir"/>
+<entry
+   committed-rev="4211"
+   name="Dectalk debug codes.txt"
+   text-time="2006-03-22T15:24:14.874563Z"
+   committed-date="2006-03-18T02:26:18.048833Z"
+   checksum="0dd996aa4d9b2d30e50a3a38a474d0e5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:33.869663Z"/>
+<entry
+   name="Chinese"
+   kind="dir"/>
+</wc-entries>

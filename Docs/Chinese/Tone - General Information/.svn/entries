@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Chinese/Tone%20-%20General%20Information"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="Tone and word boundary.pdf"
+   text-time="2006-03-22T15:03:39.680057Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="171e6104b0a9307ed7645c97b6f70a5d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:03:39.461314Z"/>
+<entry
+   committed-rev="4218"
+   name="Tone FO in declaratives vs. yes_no_ interrogatives.doc"
+   text-time="2006-03-22T15:03:39.867551Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7b6ebe96af96f698ff9f2c6c82576cbb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:03:39.508187Z"/>
+<entry
+   committed-rev="4218"
+   name="Tone in connected discourse_YiXu.pdf"
+   text-time="2006-03-22T15:03:40.133167Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9eb41847014043ec4c347180220a9e81"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:03:39.508187Z"/>
+<entry
+   committed-rev="4218"
+   name="pitch target of mandarin neutral tone.pdf"
+   text-time="2006-03-22T15:03:40.195665Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8190e4c8040a688e55956e62d4875005"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:03:39.523812Z"/>
+<entry
+   committed-rev="4218"
+   name="Relation of pitch glide perception and Mandarin tone identification.doc"
+   text-time="2006-03-22T15:03:40.273788Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3b666fc637518cbc1688688546555026"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:03:39.555061Z"/>
+</wc-entries>

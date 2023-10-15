@@ -1,0 +1,49 @@
+=============================
+Changes - 
+=============================
+4 May 2006
+1.  Adjusted palatal diphthongs.
+
+2.  Adjusted regular nasal duration (not syllabic nasal).
+
+28 April 2006
+
+1.  Periods are now recognized and have a longer pause.
+
+2.  First attempt to improve the fu sound, making it softer and less Americanized.
+
+3.  Refinements to /r/ and syllabic n, so they are correct in more environments.
+
+6 April 2006
+
+1.  Fixed /k/ in medial positions of words
+
+2.  Changed /r/ sound to more of a flap.
+
+3.  Backwards comma problem fixed.
+
+3 April 2006
+
+1. Speak application can now open Shift-Jis text files when the Japanese language is selected.
+
+2. Casio doc, line 3.  After the / mark, it doesn't say anything. (needs to set up the software.) Fixed
+
+3. Less aspiration on /t/ and /k/ sounds.  Improved.
+
+4. Adjusting frication on /s/ and /sh/.  Improved, but still in progress.
+
+5. Increased length of syllabic n, so it's more natural.
+
+6. Raised the starting point for F2 for /n/ before front vowels.
+
+
+** - Dictionary corrections and verification is currently under way.
+
+
+=============================
+Known bugs 
+=============================
+1.  Text normalization for numbers.  This will be fixed in future revisions.
+2.  Kanji and Hiragana pronunciations don't always match.  This has to do with the Onsei dictionary, and is in progress.
+3.  Some over generalization on the i and u deletion rule.  This has to do with the lts rules and will be fixed in future revisions.
+

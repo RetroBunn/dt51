@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/src/sapi/API"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="dtlkttse.cpp"
+   text-time="2006-03-22T15:25:31.701878Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="54d7ea758f404bc19cbd295af0a95b41"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.858151Z"/>
+<entry
+   committed-rev="4213"
+   name="dtlktts.h"
+   text-time="2006-03-22T15:25:31.733127Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="477e50b05fabdcb0da130bd893147fc8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.889401Z"/>
+<entry
+   committed-rev="4213"
+   name="StdAfx.h"
+   text-time="2006-03-22T15:25:31.748752Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="d214e4132def207ae9313fd246df1ec1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.889401Z"/>
+<entry
+   committed-rev="4213"
+   name="AboutDialog.h"
+   text-time="2006-03-22T15:25:31.764377Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="ca32d3683e60967863b83b6064bca3fd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.920651Z"/>
+<entry
+   committed-rev="4213"
+   name="dectalk_mfc.h"
+   text-time="2006-03-22T15:25:31.780002Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="1a0946230612f31335394aec0ce863c9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.936275Z"/>
+<entry
+   committed-rev="4213"
+   name="GeneralDialog.h"
+   text-time="2006-03-22T15:25:31.795627Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b409383a009cf76610fca0359a2dee13"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.951900Z"/>
+<entry
+   committed-rev="4213"
+   name="ctools.cpp"
+   text-time="2006-03-22T15:25:31.811251Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="d1935e2126213f0ec79b9fb329ad7008"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.967525Z"/>
+<entry
+   committed-rev="4213"
+   name="ttsdtlk.def"
+   text-time="2006-03-22T15:25:31.826876Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="5f73f557f954ad93af1d616f6686463a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.967525Z"/>
+<entry
+   committed-rev="4213"
+   name="BufNotify.h"
+   text-time="2006-03-22T15:25:31.842501Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b3b8a578254f9752b8e4f7b8e65b5a89"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.983150Z"/>
+<entry
+   committed-rev="4213"
+   name="DECtalkDialogs.cpp"
+   text-time="2006-03-22T15:25:31.858126Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2766afdc60fadefe7a5f93cca6f33e7c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.030024Z"/>
+<entry
+   committed-rev="4213"
+   name="TranslateDialog.h"
+   text-time="2006-03-22T15:25:31.873751Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c29a38367ad8ec394c0d6c2ebf0ee5f8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.045649Z"/>
+<entry
+   committed-rev="4213"
+   name="DialogSpeak.cpp"
+   text-time="2006-03-22T15:25:31.889375Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="58f9d07faacc335dbc6437855e4e1acb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.061274Z"/>
+<entry
+   committed-rev="4213"
+   name="VoiceDef.cpp"
+   text-time="2006-03-22T15:25:31.905000Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="f80963acefdcb73968552455536b163c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.076899Z"/>
+<entry
+   committed-rev="4213"
+   name="LexiconDialog.h"
+   text-time="2006-03-22T15:25:31.920625Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="e42ea8aceb9da3438a321d04820ad4fb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.092523Z"/>
+<entry
+   committed-rev="4213"
+   name="guidseg.cpp"
+   text-time="2006-03-22T15:25:31.920625Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="eeb6bab9a314d517e2da3a41300a57e1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.108148Z"/>
+<entry
+   committed-rev="4213"
+   name="auddest.cpp"
+   text-time="2006-03-22T15:25:31.983124Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="35a9a5207b31435f4304c8dd8ef1ba30"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.576892Z"/>
+<entry
+   committed-rev="4213"
+   name="audioact.cpp"
+   text-time="2006-03-22T15:25:31.967499Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="7fe9506b695b7d643f6fa18c7259f042"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.405019Z"/>
+<entry
+   committed-rev="4213"
+   name="dtlktts.cpp"
+   text-time="2006-03-22T15:25:31.951875Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="bf3fef0ec54cf4661fcede79f5370b42"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.295646Z"/>
+<entry
+   committed-rev="4213"
+   name="AboutDialog.cpp"
+   text-time="2006-03-22T15:25:32.014374Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="fc836b50c96df5f968b1745c2dee8a3a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.608142Z"/>
+<entry
+   committed-rev="4218"
+   name="dtlktts.aps"
+   text-time="2006-03-22T15:25:31.998749Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f72a2ca7be07eaa4220b06404ddd78cc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.592517Z"/>
+<entry
+   committed-rev="4213"
+   name="resource.h"
+   text-time="2006-03-22T15:25:32.029999Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="17f13bce7c8e7db9cb82c4cf6b5f3634"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.623767Z"/>
+<entry
+   committed-rev="4213"
+   name="GeneralDialog.cpp"
+   text-time="2006-03-22T15:25:32.045623Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c3fc7960af1682d22b5d2a35b091a40c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.764390Z"/>
+<entry
+   committed-rev="4213"
+   name="WTLKTTSE.DEF"
+   text-time="2006-03-22T15:25:32.045623Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="48d9120f8f503e7b21179ccc16c88d82"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:30.639391Z"/>
+<entry
+   committed-rev="4213"
+   name="dtlkttse.h"
+   text-time="2006-03-22T15:25:32.061248Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="31bdf4372e605cc14426266316e7571b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.108135Z"/>
+<entry
+   committed-rev="4213"
+   name="BufNotify.cpp"
+   text-time="2006-03-22T15:25:32.076873Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="507831b2666144bf8489582f747c5fb5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.248759Z"/>
+<entry
+   committed-rev="4213"
+   name="ctools.h"
+   text-time="2006-03-22T15:25:32.092498Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="3fa94dcd1566e70c84e2d33db8985fd9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.264383Z"/>
+<entry
+   committed-rev="4218"
+   name="dtlktts.rc"
+   text-time="2006-03-22T15:25:32.108123Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="5e9bf72e6b49408375496682dd54f4db"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.280008Z"/>
+<entry
+   committed-rev="4213"
+   name="TranslateDialog.cpp"
+   text-time="2006-03-22T15:25:32.123747Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="4f7486c126dc59ca5695207ecb2409c2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.280008Z"/>
+<entry
+   committed-rev="4213"
+   name="DECtalkDialogs.h"
+   text-time="2006-03-22T15:25:32.139372Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="f6f7857cc146dbecf546c568ef53bcbb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.295633Z"/>
+<entry
+   committed-rev="4213"
+   name="LexiconDialog.cpp"
+   text-time="2006-03-22T15:25:32.154997Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="227c0a42bf9aed81d305e41003d639f8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.467506Z"/>
+<entry
+   committed-rev="4213"
+   name="DialogSpeak.h"
+   text-time="2006-03-22T15:25:32.170622Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b8246f0e57bbb344e31be85dfd4470bb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.545630Z"/>
+<entry
+   committed-rev="4213"
+   name="VoiceDef.h"
+   text-time="2006-03-22T15:25:32.186247Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b7836f285dddb13b3775c674123a4341"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.561255Z"/>
+<entry
+   committed-rev="4213"
+   name="dtlkttsc.cpp"
+   text-time="2006-03-22T15:25:32.201871Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="d5d9a407d74041256e71a4512759c412"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:31.686253Z"/>
+</wc-entries>

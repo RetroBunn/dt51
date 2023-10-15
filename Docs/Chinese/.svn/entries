@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6073"
+   name=""
+   committed-date="2006-10-19T16:25:38.837269Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Chinese"
+   last-author="rpierce"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="er-hua"
+   kind="dir"/>
+<entry
+   name="Mandarin Punctuation"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="TTS Language Development Process.doc"
+   text-time="2006-03-22T15:24:14.296441Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="929d8b95ebf61b4dab7c39e180f34fd7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:37.400800Z"/>
+<entry
+   name="Tone - Info from Yi"
+   kind="dir"/>
+<entry
+   committed-rev="4514"
+   name="CP936.GBK.TXT"
+   text-time="2006-04-24T19:12:10.310969Z"
+   committed-date="2006-04-10T20:01:46.238486Z"
+   checksum="51d914bc2d2f37be4d5d8f5179f6e461"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:11:45.358483Z"/>
+<entry
+   name="Tone - General Information"
+   kind="dir"/>
+<entry
+   committed-rev="6073"
+   name="RevisionHistory.ch.txt"
+   text-time="2006-10-20T13:51:35.635829Z"
+   committed-date="2006-10-19T16:25:38.837269Z"
+   checksum="c2bf599a2398456114966ebcdfa7be00"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:35.573331Z"/>
+<entry
+   committed-rev="4940"
+   name="DECTalk 5.1 Chinese Focus List.doc"
+   text-time="2006-05-19T14:40:00.046670Z"
+   committed-date="2006-05-18T22:19:59.856291Z"
+   checksum="b79d7fd3286239611885fe9a8f0303a6"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-05-19T14:39:59.890420Z"/>
+<entry
+   name="Tone Sandhi"
+   kind="dir"/>
+<entry
+   name="Mandarin Intonation"
+   kind="dir"/>
+<entry
+   name="Assimilation"
+   kind="dir"/>
+<entry
+   name="Mandarin Stress"
+   kind="dir"/>
+<entry
+   name="Tone - Papers by Reiner"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="Chinese Text Normalization.doc"
+   text-time="2006-03-22T15:24:14.437065Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7f344cdde60088f040b4edfb6c7fbfea"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:14.187067Z"/>
+<entry
+   name="Duration of Mandarin Syllables"
+   kind="dir"/>
+<entry
+   name="Polyphones"
+   kind="dir"/>
+<entry
+   name="Number Rules"
+   kind="dir"/>
+<entry
+   name="Tone FO Measurements March 2006"
+   kind="dir"/>
+<entry
+   name="Pinyin to ARPA list"
+   kind="dir"/>
+<entry
+   name="Casio Eval exel doc"
+   kind="dir"/>
+</wc-entries>

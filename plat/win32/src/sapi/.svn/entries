@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/src/sapi"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="WTTSDTLK.OPT"
+   text-time="2006-03-22T15:25:32.279995Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="0931620ce10daf55cacfbca9e379ff4a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.217535Z"/>
+<entry
+   committed-rev="4218"
+   name="WTTSDTLK.ncb"
+   text-time="2006-03-22T15:25:32.311245Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="81a84315cdb7ae7ae00bb3c4ead2f560"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.233159Z"/>
+<entry
+   committed-rev="4218"
+   name="Wttsdtlk.plg"
+   text-time="2006-03-22T15:25:32.326870Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9288d33b6da0dd2d62e15b8a5d544c36"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.264409Z"/>
+<entry
+   committed-rev="4218"
+   name="ttsdtlkc.dsp"
+   text-time="2006-03-22T15:25:32.358119Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7c59449346fb644cd79cecb3b313468c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.280034Z"/>
+<entry
+   committed-rev="4218"
+   name="ttsdtlkc.dep"
+   text-time="2006-03-22T15:25:32.373744Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7ca33bb6e6a82f3f453b67b3c4cb4ded"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.326908Z"/>
+<entry
+   committed-rev="4213"
+   name="ttsdtlkc.mak"
+   text-time="2006-03-22T15:25:32.436243Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c59e1d3af5864ba27cdb608cb12350ba"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.451907Z"/>
+<entry
+   committed-rev="4218"
+   name="WTTSDTLK.DSP"
+   text-time="2006-03-22T15:25:32.483118Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="c0069fb3daec7a8c1ce8ff8982ee8fe6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.467531Z"/>
+<entry
+   committed-rev="4218"
+   name="Wttsdtlk.dep"
+   text-time="2006-03-22T15:25:32.498743Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="fc381c1015d53f0ee1dda56e373a5275"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.498781Z"/>
+<entry
+   committed-rev="4213"
+   name="Wttsdtlk.mak"
+   text-time="2006-03-22T15:25:32.529992Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="874900f41805725e7b9ce34d66e4248d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.576905Z"/>
+<entry
+   committed-rev="4218"
+   name="ttsdtlkc.dsw"
+   text-time="2006-03-22T15:25:32.545617Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d24b47c8a9c9e4b932a77bd9f631c557"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:29.592530Z"/>
+<entry
+   name="API"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="WTTSDTLK.DSW"
+   text-time="2006-03-22T15:25:32.561242Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="70a8ac9c9c74eb27164fd6f1d7c6b04b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:32.248746Z"/>
+</wc-entries>

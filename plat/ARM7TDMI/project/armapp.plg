@@ -1,0 +1,162 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: armtest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPFF6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I ".\api" /I ".\cmd" /I ".\lts" /I ".\ph" /I ".\vtm" /I ".\kernel" /I ".\nt" /I ".\include" /I ".\hlsyn" /I ".\arm7" /I "..\.." /I ".\..\..\..\dapicore\lts\chinese" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /I ".\..\..\..\dapicore\lts\codepageconv" /I ".\..\..\..\dapicore\lts\japan" /D "_WINDOWS" /D "_USRDLL" /D "BLD_DECTALK_DLL" /D "ARM7" /D "ENGLISH_US" /D "ACNA" /D "ARM7_NOSWI" /D "ENGLISH" /D "i386" /D "EPSON_ARM7" /D "CHEESY_DICT_COMPRESSION" /D "WIN32_TEST" /D "_MBCS" /D "NO_INCLUDED_C_FILES" /D "NEW_MULTI_LANG_ARCH" /Fo"..\build\armtest\us\debug\link/" /Fd"..\build\armtest\us\debug\link/" /FD /GZ /c 
+"C:\work\ad-new\DECtalk\dapicore\PH\p_uk_sr1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\p_uk_sy1.c"
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_draw.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPFF6.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPFF7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /profile /map:"..\build\armtest\us\debug\armtest.map" /debug /machine:I386 /def:"..\..\win32\project\dtarm7epson.def" /out:"..\build\armtest\us\debug/armtest.dll" /implib:"..\build\armtest\us\debug/armtest.lib" 
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\acxf1c.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\brent.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\circuit.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\cm_char.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\cm_cmd.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\cm_copt.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\cm_main.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\cm_pars.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\cm_phon.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\cm_text.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\cm_util.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\Cmd_init.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\DTFnxExStdlib.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\epsonapi.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\hlframe.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\inithl.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\log10table.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\maindict.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\nasalf1x.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_ch_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_ch_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_ch_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_ch_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_fr_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_fr_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_fr_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_fr_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\P_gr_inton2.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_gr_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_gr_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_gr_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_he_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_he_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_it_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_it_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_it_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_it_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_jp_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_jp_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_jp_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_jp_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_kr_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_kr_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_kr_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_kr_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_krnew_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_la_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_la_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_la_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_la_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_sp_inton.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_sp_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_sp_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_sp_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_sp_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_uk_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_uk_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_uk_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_uk_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_us_sr1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_us_st1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_us_sy1.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_us_tim.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\par_char.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\par_dict.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\par_pars.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\par_rule.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_aloph.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_claus.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_draw.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\Ph_drwt02.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_inton.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\Ph_inton2.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_main.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_romi.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_setar.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_sort.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_sort2.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_sttr2.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_syl.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_syntx.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_task.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_timng.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_vdefi.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\ph_vset.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\phinit.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\phlog.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\phprint.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\playtone.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\services.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\spc.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\sqrttable.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\Usa_init.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\vtm.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\vtmiont.obj"
+"..\build\armltsus\us\debug\armltsus.lib"
+"..\build\armltssp\sp\debug\armltssp.lib"
+"..\build\armltsgr\gr\debug\armltsgr.lib"
+"..\build\armltsuk\uk\debug\armltsuk.lib"
+"..\build\armltsla\la\debug\armltsla.lib"
+"..\build\armltsfr\fr\debug\armltsfr.lib"
+"..\build\armltsit\it\debug\armltsit.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPFF7.tmp"
+<h3>Output Window</h3>
+Compiling...
+p_uk_sr1.c
+p_uk_sy1.c
+ph_draw.c
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(546) : warning C4244: '=' : conversion from 'long ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(547) : warning C4244: '=' : conversion from 'long ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(548) : warning C4244: '=' : conversion from 'long ' to 'short ', possible loss of data
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(97) : warning C4101: 'tmp1' : unreferenced local variable
+Generating Code...
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(3387) : warning C4761: integral size mismatch in argument; conversion supplied
+c:\work\ad-new\dectalk\dapicore\ph\ph_draw.c(3387) : warning C4761: integral size mismatch in argument; conversion supplied
+Linking...
+   Creating library ..\build\armtest\us\debug/armtest.lib and object ..\build\armtest\us\debug/armtest.exp
+LINK : warning LNK4098: defaultlib "LIBCD" conflicts with use of other libs; use /NODEFAULTLIB:library
+p_he_tim.obj : warning LNK4099: PDB "vc60.pdb" was not found with "\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_he_tim.obj" or at "C:\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\vc60.pdb"; linking object as if no debug info
+p_he_st1.obj : warning LNK4099: PDB "vc60.pdb" was not found with "\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\link\p_he_st1.obj" or at "C:\work\ad-new\DECtalk\plat\ARM7TDMI\build\armtest\us\debug\vc60.pdb"; linking object as if no debug info
+<h3>
+--------------------Configuration: armapp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPFFB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /profile /map:"..\build\armapp\us\debug\armapp.map" /debug /machine:I386 /out:"..\build\armapp\us\debug/armapp.exe" 
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armapp\us\debug\link\epsontest.obj"
+"\work\ad-new\DECtalk\plat\ARM7TDMI\build\armapp\us\debug\link\userdic.obj"
+"..\build\armtest\us\debug\armtest.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSPFFB.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+armapp.exe - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>

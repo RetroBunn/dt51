@@ -1,0 +1,796 @@
+**
+**
+** Korean Graph2Phon rules.
+** (C) Copyright 1999,2000,2001 All rights reserved.
+** This is an unpublished work, and is confidential and proprietary
+** technology and information of fonix corporation. No part of this
+** file may be reproduced, used or disclosed withot written consent of
+** fonix corporation in each and every instance.
+**	Special Context Symbols:
+**
+**		=	One or more numbers
+**		#	One or more vowels
+**		:	Zero or more consonants
+**		^	One consonant
+**		$	Two or more consonants
+**		.	Voiced Consonant (l m n r) 
+**		%	Ends in a suffix (er e es ed ing ely er' e' es' ed' ing' ely' ers er's ers' e's es's ed's ing's ings ely's ingly edly ) NEED SOMETHING DIFFERENT HERE
+**				(Found in right context only)
+**		<	User defined suffix
+**		+	Front Vowel (i e) 
+**		@	? vowel
+
+
+; letters: a b c d e f g h i j k l m n o p r s t u w y ;
+; numbers: 1 2 3 4 5 6 7 8 9 0 ;
+; vowels: a e i o u w y ;
+; consonants: b c d f g h j k l m n p r s t b d g ;
+; consonants_voiced: l m n r ;
+; endings: none ;
+; suffixes: none ;
+; vowels_front: i e ;
+; nasals: m n ng ;
+; output: i i: E u U Ui oU ao A @ m m-m n n-n N pc p_q ph ph_h bc b_q bh tc t_q th th_h dc d_q dh kc k_q kh kh_h gc g_q gh s ss S h j w l l-l tf dZ tS v;
+
+Rule: punctuation
+	Anything	"0"	Anything	"(j ao N | gc gh oU N | (gh | gc | kc kh) oU N)"	//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"1"	Anything	"(i l | h A n A | i tf)"				//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"2"	Anything	"(i | tc th u l | tc th u tf | [dc] dh u (l | tf))"	//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"3"	Anything	"(s A m | s E tc [th])"					//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"4"	Anything	"(s A | n E tc [th])"					//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"5"	Anything	"(oU | tc th A s ao tc [th] | [dc] dh A s ao tc [th])"	//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"6"	Anything	"(j u kc [kh] | (j | [dc] (dZ | dh)) u (kc [kh] | N | gc [gh] | j ao s ao tc [th]))"	//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"7"	Anything	"(tc tS i l | tc tS i tf | i l gc gh oU pc [ph])"	//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"8"	Anything	"(pc ph A l | pc ph A tf | j ao dc dh ao l | j ao dc dh ao tf)"	//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"9"	Anything	"(kc kh u | [gc] gh u | gc [gh] u | A [h] oU pc [ph])"	//moved SinoKorean numbers to the first spot - most frequent in Korean pr. Mihwa
+	Anything	"\."	Anything	"\."
+	Anything	"\?"	Anything	"\?"
+	Anything	"!"	Anything	"!"
+	Anything	","	Anything	","
+	Anything	";"	Anything	";"
+	Anything	"\:"	Anything	"\:"
+	Anything	" "	Anything	" "
+	Anything	"--"	Anything	"-"
+	Anything	"-"	Anything	"-"
+	Anything	"_"	Anything	"_"
+	Anything	"'"	Anything	"'"
+	Anything	"\*"	Anything	"\*"
+	Anything	"\.\.\."	Anything	"\.\.\."
+	Anything	"["	Anything	"["
+	Anything	"]"	Anything	"]"
+	Anything	"\\"	Anything	"\\"
+//	Anything	"/"	Anything	"/"
+	Anything	"\="	Anything	"\="
+	Anything	"\%"	Anything	"pc ph ao"
+Rule: a
+	Nothing		"a"	Nothing		"A"
+	Nothing		"ae"	Nothing		"E"
+	Anything	"a--a"	"-^"		"A - A"			// ie na--a-ga; hem
+	Anything	"a--a"	"^"		"A -"			// ie da--ag-so; hem
+	Anything	"a--a"	Anything	"A"			// ie bo-ja--a and na--a-gass-da; hem
+	Anything	"ae--e"	Nothing		"E"			// ie hae--e; hem
+	Anything	"ae--e"	"-"		"E"			// ie nae--e-seo; hem
+	Anything	"ae--e"	"^"		"E -"			// ie ttae--en; hem
+	Anything	"ae"	Anything	"(@ | E)"		// changed from @ (R.W.) // added @ back.  Both Sun-Ah and Mihwa has commented about the absence of @ 5/31/06 MLH
+	Anything	"a"	Anything	"A"
+Rule: b
+	Nothing		"b"	Nothing		"pc ph i U pc ph"	// added alphabet symbol sound mlh
+	Nothing		"bb"	Nothing		"ss A N pc ph i u pc [ph]"
+	Anything	"bb"	"#"		"p_q ph"		// includes b,ch,d,g,j,k,p,s,t, and vowels hem
+	Anything	"bb--"	"i"		"(- p_q ph | m n)"	// a final b in a syllable before an i in a derived word is changed to m; hem
+	Anything	"bb--"	"y"		"(- p_q ph | m n)"	// a final b in a syllable before a y in a derived word is changed to m; hem
+	Anything	"bb--"	"#"		"- p_q ph"		// stop at end of syllable before a vowel, is not changed to the lenis form; hem
+	Anything	"bb-m"	"#"		"m-m"
+	Anything	"bb"	"-n"		"m"
+	Anything	"bs"	"-m"		"m"			// SPRules 18 
+	Anything	"bs"	"-n"		"m"			// SPRules 18 
+	Anything	"b"	"-m"		"m"			// SPRules 18 
+	Anything	"b"	"-n"		"m"			// SPRules 18 
+	" ba"		"b"	" m"		"m"			// SPRules 18 
+	Anything	"b"	" n"		"m"			// SPRules 18 
+	Anything	"bb"	Anything	"pc [ph]"		// consonant at end of syllable becomes a lenis stop hem
+	"ch "		"b"	"un"		"p_q ph"		// 
+	"t "		"b"	"un"		"p_q ph"		//
+	"a-chim-"	"b"	"ab "		"p_q ph"		// SPRules, item 28  8/15/06
+	"bal-"		"b"	"a-dag "	"p_q ph"		// SPRules, item 28  8/15/06
+	"deung-"	"b"	"ul "		"p_q ph"		// SPRules, item 28  8/15/06
+	"o-neul-"	"b"	"am "		"p_q ph"		// SPRules, item 28  8/15/06
+	"o-neul "	"b"	"am "		"p_q ph"		// SPRules, item 28  8/15/06
+	"sin-"		"b"	"a-lam "	"p_q ph"		// SPRules, item 28  8/15/06
+	"sin-"		"b"	"a-ram "	"p_q ph"		// SPRules, item 28  8/15/06
+	"#m "		"b"	"#"		"(bc bh | pc ph)"	// voicing will occur between a nasal and a vowel (keol jom bo seyo)- mlh
+	"#-"		"b"	"#"		"(bc bh | pc ph)"	// voicing will occur between two vowels (du beon)- mlh
+	Nothing		"b"	"#"		"([pc] ph | bc bh)"	// voicing may occur if previous word ends in vowel; hem
+	Anything	"b"	"u"		"p_q ph"	
+	"ng-"		"b"	"#"		"(bc bh | pc ph)"	// lax consonant isn't tense after ng, and is usally voiced; hem
+	".-"		"b"	"#"		"(bc bh | pc ph)"	// lax consonant isn't tense after l,m,n,r; and is usally voiced; hem
+	"#h-"		"b"	"#"		"tc th_h"		// Sun-Ah nh" -- when an obstruent follows this coda, it should be aspirated.
+	"^-"		"b"	"#"		"p_q ph"		// lax consonant is tense after other consonants, hem
+	"b "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"p "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"lb "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"lp "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"bs "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"d "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"s "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"ss "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"jh "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"ch "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"t "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"gs "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"g "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"kk "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"k "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	"lg "		"b"	Anything	"p_q ph"		// SPRule 23 tensification
+	Anything	"b"	"#"		"(bc [bh] | pc ph)"	// #-b# and is voiced; hem
+	Anything	"b--"	"i"		"(- bc bh | m n)"	// a final b in a syllable before an i in a derived word is changed to m; hem
+	Anything	"b--"	"y"		"(- bc bh | m n)"	// a final b in a syllable before a y in a derived word is changed to m; hem
+	Anything	"b--"	"#"		"(- bc [bh] | pc ph | [bc] p_q)"	// #b--#, lb--# and is usally voiced & goes with vowel, but may break between syllables; hem
+	Anything	"b-h"	"#"		"- pc ph_h"		// lax consonant followed by h# is aspirated; hem)
+	"#"		"b-m"	"#"		"m-m"			// an obstruent before a nasal becomes a nasal; hem
+	"#"		"b-n"	"#"		"(m - n | mm | nn)"	// an obstruent before a nasal becomes a nasal; hem
+	"#"		"b"	"-r"		"m"			// same as above as also r; hem
+	"#"		"bs-m"	"#"		"m-m"			// SPRules, item 18
+	"#"		"bs"	" m"		"m"			// SPRules, item 18
+	"#"		"b"	" m"		"m"			// SPRules, item 18
+	"#"		"bs"	"j"		"bc bh"			// SPRules, item 23
+	"#"		"bs"	"-n"		"m"			// SPRules, item 18
+	"#"		"bs-"	"^"		"bc bh -"		// SPRules, item 18 addition
+	"#"		"bs--"	"#"		"pc ph - s"		// SPRules, item 18 addition
+	"#"		"b"	Nothing		"(pc [ph] | bc [bh])"	// hem includes #b Nothing; bc [bh] if next word starts with vowel
+	"#"		"b"	Anything	"(pc [ph] | bc)"	// hem includes (#b^ or #b-^) (^ = ch,d,g,j,k,p,s,t);
+	Anything	"b"	Anything	Silent			// includes Nothing b^, ^b^, ^b Nothing; lb Nothing is in l rule; hem
+Rule: c
+	Nothing		"ch"	Nothing		"tc tS i U tc tS"	// added alphabet symbol sound mlh
+	Anything	"ch"	"-m"		"n"			// SPRules, item 18 (obstruent before a nasal becomes a nasal)
+	Anything	"ch-n"	"#"		"n-n"			// SPRules, item 18
+	"lh-"		"ch"	Anything	"tc tS"			// Sun-Ah lh" -- when an obstruent follows this coda, it should be aspirated. ex. "anhda" ('to sit') should be [antha], not [antta].
+	"nh-"		"ch"	Anything	"tc tS"			// Sun-Ah nh" -- Same here. The following obstruent should be aspirated.
+	"ng-"		"ch"	"#"		"tc tS"			// a lax consonant after ng is not tense, hem
+	"chi--eu"	"ch--"	"i "		"- S"			// SPRules 16 10/6/06 mlh		
+	"chi--eu"	"ch--"	"eul "		"- s"			// SPRules 16 10/6/06 mlh		
+	"chi--eu"	"ch--"	"e "		"- s"			// SPRules 16 10/6/06 mlh		
+	Anything	"ch--"	"a"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"ch--"	"eo"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"ch--"	"o"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"ch--"	"u"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"ch--"	"wi"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	".-"		"ch"	"#"		"tc tS"			// a lax consonant after l,m,n,r is not tense, hem
+	"^-"		"ch"	"#"		"t_q tS"		// a lax consonant after other consonants is tense, hem
+	Anything	"ch--"	"i"		"(- tc tS | nn)"	// a derived word with 1st part ending with consonant followed by i in next part becomes a nasal & n; see set10rec4453; hem
+	Anything	"ch--"	"y"		"(- tc tS | nn)"	// a derived word with 1st part ending with consonant followed by y in next part becomes a nasal & n; see set10rec4453; hem
+	Anything	"ch--"	"#"		"- tc tS"		// a final consonant followed by a vowel in the next syllable remains same & moves to vowel; hem
+	Anything	"ch"	Nothing		"tc [th]"		// Beginners Lesson two  3/2/06 mlh; hem
+	Anything	"ch"	"-^"		"(tc [th] | dc)"	// Beginners Lesson two  3/2/06 mlh; ch ^; hem
+	Anything	"ch"	Anything	"tc tS"			// includes #--ch# and #ch--#; hem
+Rule: d	
+	Nothing		"d"	Nothing		"tc th i gc gh U tc [th]"	// added 8/16/05 mlh
+	Nothing		"dd"	Nothing		"ss A N tc th i gc gh U tc [th]"	//added 8/16/05 mlh
+	Anything	"dd--"	"i"		"(- t_q th | nn)"	// a final d in a syllable before an i in a derived word is changed to n; hem
+	Anything	"dd--"	"y"		"(- t_q th | nn)"	// a final d in a syllable before a y in a derived word is changed to n; hem
+	Anything	"dd--"	"#"		"- t_q th"		// stop at end of syllable before a vowel, is not changed to the lenis form; hem
+	Anything	"dd"	"-m"		"n"			// obstruent before a nasal becomes a nasal; hem
+	Anything	"dd-n"	"#"		"n-n"			// obstruent before a nasal becomes a nasal; hem
+	Anything	"dd"	"#"		"t_q th"
+	Anything	"dd"	Anything	"tc [th]"		// stop at end of syllable, except before a vowel, is changed to the lenis form; hem
+	"do "		"d"	"oe"		"([tc] th | dc dh)"	// the below rule is incorrect when the /d/ preceeds oe (we); mlh  (an nae-syeo-do doeb-ni-da)
+	"^ "		"d"	"#"		"([tc] th | dc dh)"	// voicing may occur if previous word ends in vowel; hem  rule modified from the one below 10/6/06 mlh
+ 	"# "		"d"	"#"		"([dc] dh | tc th)"	// voicing may occur if previous word ends in vowel; hem  rule modified from the one below 10/6/06 mlh
+ 	Nothing		"d"	"#"		"([tc] th | dc dh)"	// voicing may occur if previous word ends in vowel; hem
+	Anything	"d-h"	Anything	"- tc tS"		// added 6/01/2006 mlh per Mihwa
+	"di--geu"	"d--"	"i "		"- S"			// SPRules 16 10/6/06 mlh		
+	"di--geu"	"d--"	"eul "		"- s"			// SPRules 16 10/6/06 mlh		
+	"di--geu"	"d--"	"e "		"- s"			// SPRules 16 10/6/06 mlh		
+	"neun"		"d"	"# "		"tc th"			
+	"lm-"		"d"	"# "		"t_q th"		// SPRules, item 24  8/15/06
+	"l-"		"d"	"#"		"t_q th"		// SPRules, item 24  8/15/06
+	"m-"		"d"	"# "		"t_q th"		// SPRules, item 24  8/15/06
+	"n-"		"d"	"# "		"t_q th"		// SPRules, item 24  8/15/06
+	"nj-"		"d"	"# "		"t_q th"		// SPRules, item 24  8/15/06
+	"lb-"		"d"	Anything	"t_q th"		// SPRules, item 25  8/15/06
+	"lt-"		"d"	Anything	"t_q th"		// SPRules, item 25  8/15/06
+	"cho-seung-"	"d"	"al"		"t_q th"		// SPRules, item 28  8/15/06
+	"geu-meum-"	"d"	"al"		"t_q th"		// SPRules, item 28  8/15/06
+	"mul-"		"d"	"ong--i"	"t_q th"		// SPRules, item 28, 8/15/06
+	"mur-"		"d"	"ong--i"	"t_q th"		// SPRules, item 28, 8/15/06
+	"nun-"		"d"	"ong-ja"	"t_q th"		// SPRules, item 28, 8/15/06	
+	"ng-"		"d"	"#"		"dc dh"			// lax consonant isn't tense after ng, and is voiced; hem
+	".-"		"d"	"#"		"dc dh"			// lax consonant isn't tense after m,n,l, and is voiced; hem
+	"#h-"		"d"	"#"		"tc th_h"		// Sun-Ah nh" -- when an obstruent follows this coda, it should be aspirated. ex. "anhda" ('to sit') should be [antha], not [antta].
+	"^-"		"d"	"#"		"t_q th"		// rule added based on information from Sun-Ah "in Korean, lenis stops become tense after other stops"
+	"b "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"p "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"lb "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"lp "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"bs "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"d "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"s "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"ss "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"jh "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"ch "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"t "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"gs "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"g "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"kk "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"k "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	"lg "		"d"	Anything	"t_q th"		// SPRule 23 tensification
+	Anything	"d"	"#"		"dc [dh]"		// lax consonant between vowels is voiced; hem
+	Anything	"d--"	"i"	 	"(- dc dh | nn)"	// a final d in a syllable before an i in a derived word is changed to n; hem
+	Anything	"d--"	"y"		"(- dc dh | nn)"	// a final d in a syllable before a y in a derived word is changed to n; hem
+	Anything	"d--"	"#"		"- dc [dh]"		// hem; #d--#
+	Anything	"d-h"	"#"		"- tc th_h"		// SPRules, item 12
+	Anything	"d"	"-m"		"n"			// SPRules, item 18; includes l,m,n,r
+	Anything	"d-n"	"#"		"n-n"			// SPRules, item 18; includes l,m,n,r
+	"#"		"d"	Anything	"(tc [th] | dc [dh])"	// hem includes #d-^ & #d Nothing; dc [dh] if next word starts with vowel
+	Anything	"d"	Anything	Silent			// includes Nothing d^, ^d^, ^d Nothing
+Rule: e
+	Nothing		"e"	Nothing		"E"
+	Nothing		"eo"	Nothing		"ao"
+	Nothing		"eu"	Nothing		"U"
+	Anything	"ee"	Nothing		"i"			// foreign names; hem
+	Anything	"e--e"	"-"		"E"			// ie dong-ne--e-seo-neun; hem
+	Anything	"e--e"	Nothing		"E"			// ie dul-re--e;hem
+	Anything	"e--e"	"^"		"E -"			// hem
+	Anything	"eo--eo"	Nothing	"(ao | A)"		// ie eo--eo; hem
+	Anything	"eo--eo"	"-"	"(ao | A)"
+	Anything	"eo--eo"	"^"	"(ao - | A -)"		// ie jeo--eoss-da; Set105rec2883 holds the double vowel longer
+	Anything	"eo"	Anything	"(ao | A)"		// Set5rec16 uses both MLH
+	"s"		"eu"	"."		"U"			// includes l,m,n,r
+	"s"		"eu"	"-."		"U"			// includes l,m,n,r
+	"s"		"eu"	"^"		"[U]"			// includes b,s,t
+	"s"		"eu"	"-^"		"[U]"			// includes b,r,s,t,l,m,n
+	Anything	"eu"	"--i"		"(U | w)"		// Set10rec4253
+	Anything	"eu"	Anything	"U"
+	Anything	"e"	Anything	"E"
+Rule: f
+	Anything	"f"	Anything	"(pc ph | bc bh)"	// foreign words
+Rule: g									// ng rule is in n rules
+	Nothing		"g"	Nothing 	"gc gh i [j] ao kc kh"	// added 8/16/05 mlh
+	Nothing		"gg"	Nothing 	"ss A N gc gh i [j] ao kc kh"
+	Anything	"gg"	"#"		"k_q kh"		// includes Nothing gg, #-gg, & ^-gg hem
+	Anything	"gg--"	"i"		"(- k_q kh | N n)"	// a final g in a syllable before an i in a derived word is changed to N; hem
+	Anything	"gg--"	"y"		"(- k_q kh | N n)"	// a final g in a syllable before a y in a derived word is changed to N; hem
+	Anything	"gg--"	"#"		"- k_q kh"		// stop at end of syllable before a vowel is not changed to the lenis form; hem
+	Anything	"gg"	"-n"		"N"			// SPRules, item 18
+	Anything	"gg"	"-m"		"N"			// SPRules, item 18
+	Anything	"gg"	Anything	"kc [kh]"		// stop at end of syllable, except before a vowel, is changed to the lenis form; hem
+	Nothing		"g"	"#"		"([kc] kh | gc gh)"	// voicing may occur if previous word ends in vowel; hem
+	Anything	"gg"	"-m"		"N"			// SPRule 18 
+	Anything	"gg"	"-n"		"N"			// SPRule 18 
+	Anything	"gs"	"-m"		"N"			// SPRule 18 
+	Anything	"gs"	"-n"		"N"			// SPRule 18 
+	Anything	"g"	"-m"		"N"			// SPRule 18 
+	Anything	"g"	" m"		"N"			// SPRule 18 
+	Anything	"g"	" n"		"N"			// SPRule 18 
+	"#"		"gs-"	"^"		"gc gh -"		// SPRules, item 15 addition
+	"hang-gong-"	"g"	"won"		"- k_q_kh"		// SPRule 28 says that in the case of compund words which might have the capacity for prenominalization the second word's initial "g, d, b, s, ch" is pronounced as a tense sound
+	"an-"		"g"	"i-da "		"gc gh"			// SPRules, item 24 EXCEPTION 8/15/06
+	"gam-"		"g"	"i-da "		"gc gh"			// SPRules, item 24 EXCEPTION 8/15/06
+	"gulm-"		"g"	"i-da "		"gc gh"			// SPRules, item 24 EXCEPTION 8/15/06
+	"olm-"		"g"	"i-da "		"gc gh"			// SPRules, item 24 EXCEPTION 8/15/06
+	"lm-"		"g"	"# "		"k_q kh"		// SPRules, item 24  8/15/06
+	"m-"		"g"	"# "		"k_q kh"		// SPRules, item 24  8/15/06
+	"n-"		"g"	"# "		"k_q kh"		// SPRules, item 24  8/15/06
+	"nj-"		"g"	"# "		"k_q kh"		// SPRules, item 24  8/15/06
+	"lb-"		"g"	Anything	"k_q kh"		// SPRules, item 25  8/15/06
+	"lt-"		"g"	Anything	"k_q kh"		// SPRules, item 25  8/15/06
+	"ba-lam-"	"g"	"yeol"		"k_q kh"		// SPRules, item 28  8/15/06
+	"ba-ram-"	"g"	"yeol"		"k_q kh"		// SPRules, item 28  8/15/06
+	"mun-"		"g"	"o-li"		"k_q kh"		// SPRules, item 28  8/15/06
+	"mun-"		"g"	"o-ri"		"k_q kh"		// SPRules, item 28  8/15/06
+	"chang-"	"g"	"a"		"k_q kh"		// SPRules, item 28  8/15/06
+	"gang-"		"g"	"a "		"k_q kh"		// SPRules, item 28  8/15/06
+	"gil-"		"g"	"a "		"k_q kh"		// SPRules, item 28  8/15/06
+	"yeo"		"g"	"won"		"k_q kh"		// per Mihwa and Sun-Ah 8/14/06	
+	"hang-"		"g"	"won"		"k_q kh"		// exception to the below
+	"ng-"		"g"	"#"		"gc gh"			// lax consonants aren't tense after ng,hem
+	".-"		"g"	"#"		"gc gh"			// lax consonants aren't tense after l,m,n,r
+	"#h-"		"g"	"#"		"kc kh_h"		// SPRules, item 12
+	"^-"		"g"	"#"		"k_q (kh | gh)"		// Sun-Ah - lenis stops become tense after other consonants; includes b,ch,d,j,k,p,s,t; hem
+	"ba-lam-"	"g"	"yeol"		"k_q kh"		// SPRules, item 28  8/15/06
+	"ba-ram-"	"g"	"yeol"		"k_q kh"		// SPRules, item 28  8/15/06
+	"mun-"		"g"	"o-li"		"k_q kh"		// SPRules, item 28  8/15/06
+	"mun-"		"g"	"o-ri"		"k_q kh"		// SPRules, item 28  8/15/06
+	"gang-"		"g"	"a "		"k_q kh"		// SPRules, item 28  8/15/06
+	"gil-"		"g"	"a "		"k_q kh"		// SPRules, item 28  8/15/06
+	"b "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"p "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"lb "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"lp "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"bs "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"d "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"s "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"ss "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"jh "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"ch "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"t "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"gs "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"g "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"kk "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"k "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	"lg "		"g"	Anything	"k_q kh"		// SPRule 23 tensification
+	Anything	"g"	"#"		"gc [gh]"		// lax consonant between vowels is voiced; hem
+	Anything	"g--"	"i"	 	"(- gc gh | N n)"	// a final g in a syllable before an i in a derived word is changed to N; hem
+	Anything	"g--"	"y"	 	"(- gc gh | N n)"	// a final g in a syllable before a y in a derived word is changed to N; hem
+	Anything	"g--"	"#"		"- gc [gh]"		// hem; #g--#
+	Anything	"g-h"	"#"		"- kc kh_h"		// SPRules, item 12
+	"#"		"g"	"-."		"N"			// SPRules, item 18; includes l,m,n,r hem
+	"#"		"g"	Anything	"(kc [kh] | gc [gh])"	// hem includes #g-^ & #g Nothing; gc [gh] if next word starts with vowel
+	Anything	"g"	Anything	Silent			// includes Nothing g^, ^g^, ^g Nothing; hem
+Rule: h
+	Nothing		"h"	Nothing		"h i U h"
+	Nothing		"hyu"	Anything	"(h [j] u | S u)"	// hem
+	Anything	"h"	"wa"		"h"
+	Anything	"h"	"-m"		"n"			// SPRule 18 
+	Anything	"h"	"-n"		"n"			// SPRule 18 
+	"hi--eu"	"h--"	"i "		"- "			// SPRules 16 10/6/06 mlh		
+	"hi--eu"	"h--"	"eul "		"-s"			// SPRules 16 10/6/06 mlh		
+	"hi--eu"	"h--"	"e "		"-s"			// SPRules 16 10/6/06 mlh		
+	"#"		"h"	"--"		Silent
+	"#"		"h"	"--#"		"-h"			// /h/ between sonorants become Silent - Sun-Ah 6/1/06
+	"."		"h"	"--#"		Silent			// /h/ between sonorants become Silent - Sun-Ah 6/1/06
+	"#"		"h"	"-."		Silent			// /h/ between sonorants become Silent - Sun-Ah 6/1/06
+	"."		"h"	"-."		Silent			// /h/ between sonorants become Silent - Sun-Ah 6/1/06
+	"#-"		"h"	"#"		"-h"			// /h/ between sonorants become Silent - Sun-Ah 6/1/06
+	".-"		"h"	"#"		"-h"			// /h/ between sonorants become Silent - Sun-Ah 6/1/06
+	"#-"		"h"	"."		Silent			// /h/ between sonorants become Silent - Sun-Ah 6/1/06
+	".-"		"h"	"."		Silent			// /h/ between sonorants become Silent - Sun-Ah 6/1/06
+	Anything	"h"	"ata"		Silent			// /h/ of the "do" verb /hata/ should not be emphasized - Sun-Ah 6/1/06
+	Anything	"h"	"#"		"[h]"			// hem
+	Anything	"h-ss"	"#"		"s - ss"		// added 6/1/06 mlh
+	Anything	"h-s"	"#"		" - ss"			// added 6/1/06 mlh
+	Anything	"h"	Anything	Silent			// h nothing, h^, and ^h; hem
+Rule: i
+	Nothing		"i"	Nothing		"i"
+	"#--"		"i"	"l "		"(i | k_q [kh] i)"
+//	Anything	"i--o"	Anything	"j oU"			// Reduction of i to the glide y p. 65  (an-i--o); mlh
+	Anything	"i"	"--u"		"[i]"			// Set5Rec7 mlh
+	Anything	"i--i"	"^"		"(i - i | i -)"		// ie kki--ig; hem; this is a reduction so moved to second option mlh
+	Anything	"i--i"	Anything	"(i - i | i)"		// ie gos--i--i-ge; hem : most likely speaker error when only one i is pronounced so I added i i pr Mihwa
+	"s"		"i"	"-s"		"i"			// hem; exception to si$ & si^ rules
+	"s"		"i"	"^-^"		"[i]"			// hem
+	"s"		"i"	"^--y"		"[i]"			// hem
+	"s"		"i"	"-^y"		"[i]"			// hem
+	"s"		"i"	"-."		"i"			// hem; exception to si^ rule
+	"s"		"i"	"-^"		"[i]"			// hem; si followed by unvoiced consonants
+	"s"		"i"	"."		"i"			// hem; exception to si^ rule
+	"s"		"i"	"^"		"[i]"			// hem; si followed by unvoiced consonants
+	Anything	"i"	Anything	"i"
+Rule: j
+	Nothing		"jj"	Nothing		"ss A N tc tS i U tc tS"
+	Nothing		"j"	Nothing		"tc tS i U tc tS"
+	Nothing		"jjy"	"eo"		"t_q tS"		// SPRules 5 9/15/05 mlh Exception 1
+	Anything	"jj"	Anything	"t_q tS"		// hem; this is tense or fortis sound of tS
+	Nothing		"j"	"#"		"(dc dZ | [tc] tS)"	// dc dZ occurs when previous word ends with a vowel; hem  Changed the order.  j in initial position should always be dc dZ unless there is a final "h" in the previous word.  Mlh
+	Anything	"j"	"-m"		"n"			// SPRule 18 
+	Anything	"j"	"-n"		"n"			// SPRule 18 
+	Anything	"j--"	"a"		"-dc dh"		// SPRules 15 10/19/06 mlh 
+	Anything	"j--"	"eo"		"-dc dh"		// SPRules 15 10/19/06 mlh 
+	Anything	"j--"	"o"		"-dc dh"		// SPRules 15 10/19/06 mlh 
+	Anything	"j--"	"u"		"-dc dh"		// SPRules 15 10/19/06 mlh 
+	Anything	"j--"	"wi"		"-dc dh"		// SPRules 15 10/19/06 mlh 
+	"ji--eu"	"j--"	"i "		"- S"			// SPRules 16 10/6/06 mlh		
+	"ji--eu"	"j--"	"eul "		"-s"			// SPRules 16 10/6/06 mlh		
+	"ji--eu"	"j--"	"e "		"-s"			// SPRules 16 10/6/06 mlh		
+	"ga-"		"jy"	"eo"		"dc dZ"			// SPRules 5 9/15/05 mlh Exception 1
+	"sod-"		"j"	"#"		"t_q tS"		// SPRules 23 9/13/06 mlh	
+	"sot-"		"j"	"#"		"t_q tS"		// SPRules 23 9/13/06 mlh	
+	"yeob-"		"j"	"#"		"t_q tS"		// SPRules 23 9/13/06 mlh	
+	"yeop-"		"j"	"#"		"t_q tS"		// SPRules 23 9/13/06 mlh	
+	"lp-"		"j"	"#"		"t_q tS"		// SPRules 23 9/13/06 mlh	
+	"bs-"		"j"	"#"		"t_q tS"		// SPRules 23 9/13/06 mlh	
+	"lm-"		"j"	"# "		"t_q tS"		// SPRules, item 24  8/15/06
+	"m-"		"j"	"# "		"t_q tS"		// SPRules, item 24  8/15/06
+	"n-"		"j"	"# "		"t_q tS"		// SPRules, item 24  8/15/06
+	"nj-"		"j"	"# "		"t_q tS"		// SPRules, item 24  8/15/06
+	"lt-"		"j"	Anything	"t_q tS"		// SPRules, item 24  8/15/06
+	"lb-"		"j"	Anything	"t_q tS"		// SPRules, item 25  8/15/06
+	"lt-"		"j"	Anything	"t_q tS"		// SPRules, item 25  8/15/06
+	"gang-"		"j"	"ul-gi"		"t_q tS"		// SPRules, item 28  8/15/06
+	"gang-"		"j"	"ul-ki "	"t_q tS"		// SPRules, item 28  8/15/06
+	"jam-"		"j"	"a-li"		"t_q tS"		// SPRules, item 28  8/15/06	
+	"jam-"		"j"	"a-ri"		"t_q tS"		// SPRules, item 28  8/15/06	
+	"sul-"		"j"	"an"		"t_q tS"		// SPRules, item 28  8/15/06
+	"son-"		"j"	"ae-ju"		"t_q tS"		// SPRules, item 28  8/15/06
+	"ng-"		"j"	"#"		"dc dZ"			// lax consonants aren't tense and are voiced after ng
+	".-"		"j"	"#"		"dc dZ"			// lax consonants aren't tense and are voiced after l,m,n,r
+	"#h-"		"j"	Anything	"tc tS"			// SPRules, item 12
+	"^-"		"j"	"#"		"t_q tS"		// lax consonants are tense after other consonants; hem
+	"b "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"p "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"lb "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"lp "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"bs "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"d "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"s "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"ss "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"jh "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"ch "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"t "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"gs "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"g "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"kk "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"k "		"j"	Anything	"t_q tS"		// SPRule 23 tensification
+	"lg "		"j"	Anything	"t_q tS"		// SPRule 23 tensification	
+	Anything	"j"	"#"		"dc dZ"			// j is voiced between two vowels hem
+	"#"		"j--"	"i"	 	"(- dc dZ | nn)"	// a final j in a syllable before an i in a derived word is changed to n; hem
+	"#"		"j--"	"y"	 	"(- dc dZ | nn)"	// a final j in a syllable before a y in a derived word is changed to n; hem
+	"#"		"j--"	"#"		"(- dc dZ | tc tS)"	// a final j in a syllable is not reduced before a vowel; hem
+	"#"		"j-h"	Anything	"- tc tS"		
+	"#"		"j"	"-m"		"n"			// SPRules, item 18
+	"#"		"j-n"	"#"		"n-n"			// SPRules, item 18
+	"#"		"j"	Anything	"(tc [th] | dc dZ)"	// j becomes the lenis stop t at end of syllables, except when a vowel follows; hem
+	Anything	"j"	Anything	Silent			// includes ^j^ & ^j nothing hem
+Rule: k
+	Nothing		"k"	Nothing 	"gc gh i [j] ao kc kh"
+	Nothing		"kk"	Nothing 	"ss A N gc gh i [j] ao kc kh"
+	Anything	"kk"	"#"		"k_q kh"		// includes Nothing kk, #kk, & ^kk hem
+	Anything	"kk--"	"i"		"(- k_q kh | N n)"	// a final k in a syllable before an i in a derived word is changed to N; hem
+	Anything	"kk--"	"y"		"(- k_q kh | N n)"	// a final k in a syllable before a y in a derived word is changed to N; hem
+	Anything	"kk--"	"#"		"- k_q kh"		// stop at end of syllable before a vowel is not changed to the lenis form; hem
+	Anything	"kk"	"-n"		"N"			// SPRules, item 18
+	Anything	"kk"	"-m"		"N"			// SPRules, item 18
+	Anything	"ks"	"-m"		"N"			// SPRule 18 
+	Anything	"ks"	"-n"		"N"			// SPRule 18 
+	Anything	"k"	"-m"		"N"			// SPRule 18 
+	Anything	"k"	"-n"		"N"			// SPRule 18 
+	Anything	"kk"	Anything	"kc [kh]"		// stop at end of syllable, except before a vowel, is changed to the lenis form; hem
+	Nothing		"k"	"#"		"[kc] kh_h"		// hem
+	Nothing		"k"	"^"		"kc kh_h E"		// see Set10Rec4593
+	"ki--eu"	"k--"	"i "		"- gc gh"		// SPRules 16 10/6/06 mlh		
+	"ki--eu"	"k--"	"eul "		"- gc gh"		// SPRules 16 10/6/06 mlh		
+	"ki--eu"	"k--"	"e "		"- gc gh"		// SPRules 16 10/6/06 mlh		
+	"lb-"		"k"	Anything	"k_q kh"		// SPRules, item 25  8/15/06
+	"lt-"		"k"	Anything	"k_q kh"		// SPRules, item 25  8/15/06
+	"yeo"		"k"	"won"		"kc kh_h"		// per Mihwa and Sun-Ah 8/14/06	
+	"hang-"		"k"	"won"		"kc kh_h"		// per Mihwa 8/14/06
+	"ba-lam-"	"k"	"yeol"		"k_q kh"		// SPRules, item 28  8/15/06
+	"ba-ram-"	"k"	"yeol"		"k_q kh"		// SPRules, item 28  8/15/06
+	"mun-"		"k"	"o-li"		"k_q kh"		// SPRules, item 28  8/15/06
+	"mun-"		"k"	"o-ri"		"k_q kh"		// SPRules, item 28  8/15/06
+	"chang-"	"k"	"a "		"k_q kh"		// SPRules, item 28  8/15/06
+	"gang-"		"k"	"a "		"k_q kh"		// SPRules, item 28  8/15/06
+	"gil-"		"k"	"a "		"k_q kh"		// SPRules, item 28  8/15/06
+	"#"		"k--"	"i"		"(- kc kh_h | N n)"	// a final t in a syllable before a y in a derived word is changed to n; hem
+	"#"		"k--"	"y"		"(- kc kh_h | N n)"	// a final t in a syllable before a y in a derived word is changed to n; hem
+	"#"		"k--"	"#"		"- kc kh_h"		// stop at end of syllable before a vowel is not changed to the lenis form; hem
+	"#"		"k-h"	"#"		"- kc kh_h"		// SPRules, item 9
+	"#"		"k"	"-."		"N"			// SPRules, item 18; includes l,m,n,r; hem
+	"#"		"ks"	"-n"		"N"			// SPRules, item 18
+	"#"		"ks"	"-m"		"N"			// SPRules, item 18
+	"#"		"k"	Anything	"(kc [kh] | kc kh_h)"	// stop at end of syllable, except before a vowel, becomes a lenis stop; hem
+	"#-"		"k"	"#"		"kc kh_h"		// k in inital syllable is spoken 6/15/06
+	"-"		"k"	Anything	"kc kh_h"		// added 6/1/06
+	Anything	"k"	Anything	Silent			// includes ^k^ and ^k Nothing hem
+Rule: l
+	Nothing		"l"	Nothing		"tf i u l"
+	Nothing		"l"	"#"		Silent			// foreign names hem
+	" da"		"lg"	Nothing		"(kc [kh] | gc)"	// set10rec274 hem
+	Anything	"lg"	"-g"		"(kc [kh] | gc)"	// added 6/1/06 mlh
+	Anything	"lg-"	"#"		"l - gc gh"		// added 6/1/06 mlh
+	Anything	"l"	"#"		"-tf"			// /l/ before a vowel should become a flap pr Sun Ah 8/1/06
+	Anything	"l--"	"#"		"-tf"			// /l/ before a vowel should become a flap pr Sun Ah 8/1/06
+	Anything	"lb-"	"j"		"bc bh -"		// SPRules 23
+	Anything	"lb"	"-m"		"m"			// SPRules 18
+	Anything	"lb"	"-n"		"m"			// SPRules 18
+	Anything	"lp"	"-m"		"m"			// SPRules 18
+	Anything	"lp"	"-n"		"m"			// SPRules 18
+	Anything	"lp"	"-n"		"m"			// SPRules 18
+	Anything	"lg"	" m"		"ng"			// SPRules 18
+	"ba"		"lb-"	"^"		"bc bh -"		// SPRules 10
+	"neo"		"lb-"	"j"		"bc bh -"		// SPRules 10
+	"neo"		"lb-"	"d"		"bc bh -"		// SPRules 10
+	"#"		"l s"	Anything	"l ss"			// should become a tense fricative after /l/ (/l/+/s/= /ss/) pr Sun Ah 8/1/06
+	"gu"		"lg"	"-da "		"(kc [kh] | gc)"	// hem
+	"gu"		"lg"	"-ta "		"(kc [kh] | gc)"	// hem
+	"heu"		"lg"	Anything	"(kc [kh] | gc)"	// hem
+	"i"		"l--eu"	"l"		"(-tf ao | l [k_q] ao)"	// hem
+	"i"		"l"	"--eo "		"(-tf | l [k_q])"	// hem
+	"sangiseu"	"lg"	Nothing		"(kc [kh] | gc)"	// hem
+	"yeo"		"l--"	"#"		"(- tf | l [t_q])"	// hem
+	"b-"		"l"	Anything	"n"			// SPrules 19
+	"g-"		"l"	Anything	"n"			// SPrules 19
+	"m-"		"l"	Anything	"n"			// SPrules 19
+	"ng-"		"l"	Anything	"n"			// SPrules 19
+	"#"		"l--"	"#"		"(-tf | l)"
+	"#"		"l-h"	"#"		"([l]-h | - tf)"	// moved order to get right sounds for "Seoul hotelro"
+	"#"		"l h"	"#"		"tf h"			// added 6/7/06  mlh
+	"#"		"l-n"	Anything	"(l-l | l n)"		// SPRules, item 20
+	"#"		"l-r"	Anything	"l-l"
+	"#"		"l-l"	Anything	"l-l"			// added 5/31/06
+	"#"		"l"	"-^"		"l"
+	"#"		"lb"	Nothing		"(l | l bc bh)"		// b is pronounced if next word begins with vowel; hem
+	"#"		"lh--"	"#"		"(-tf | [l])"
+	Anything	"l"	Nothing		"([l] | tf)"		// Set5Rec34	 
+	Anything	"l"	Anything	"[l]"			// Set5Rec49; includes l Nothing & l^ hem
+Rule: m
+	Nothing		"m"	Nothing		"m i U m"
+	"bi "		"m"	"u--eos"	"bc bh"			// for now this is an exception (jig--eob--i mu--eos--ib-ni-kka?); mlh
+	"hal "		"m"	"ul"		"(m | bc bh)"		// for now this is an exception (sin-go-hal mul-geon--i); added the /m/ option first because somehow this rule is catching many "mul" words. 9/12/06 MLH
+	Nothing		"m"	"#"		"(m | bc bh)"		// hem
+	"da"		"m--"	"yo"		"m-n"			// this is an exception (dam--yo)
+	"#"		"m"	"--i"		"(m |m n)"		// in a derived word an n is inserted after a final consonant and an initial i; hem
+	"#"		"m"	"--y"		"(m |m n)"		// in a derived word an n is inserted after a final consonant and an initial y; hem
+	Anything	"m-m"	Anything	"m-m"
+	Anything	"m"	Anything	"m"
+Rule: n
+	Nothing		"n"	Nothing		"n i U n"
+	"lh-"		"n"	Anything	"[n]"			// SPRules, item 20
+	"lt-"		"n"	Anything	"l"			// SPRules, item 20
+	Nothing		"n"	"#"		"(n | dc dh)"		// hem
+	Anything	"nh"	"-"		"n"			// SPRules 12 exception 3			
+	"ng-"		"n"	"#"		"[n]"
+	Anything	"n--"	"#"		"- n"			// added per Sun-Ah 5/31/06 mlh
+	"#"		"n"	"--i"		"(n |nn)"		// in a derived word an n is inserted after a final consonant and an initial i; hem
+	"#"		"n"	"--y"		"(n |nn)"		// in a derived word an n is inserted after a final consonant and an initial y; hem
+	Anything	"n--"	"#"		"- n"			// added per Sun-Ah 5/31/06 mlh
+	Anything	"nh-n"	Anything	"n-n"			// 
+	Anything	"n-n"	Anything	"n-n"			// hem
+	Anything	"n-r"	"#"		"(l-l | tf)"		// hem
+	Anything	"ng"	"-h"		"(N | [n] gc [gh])"
+	Anything	"ng"	Anything	"N"
+	Anything	"n-m"	Anything	"(n - m | nn | mm)"
+	Anything	"n"	Anything	"n"
+Rule: o
+	Nothing		"o"	Nothing		"oU"
+	Nothing		"oe"	Nothing		"w E"
+	"gy"		"o"	"--e"		"[oU]"
+	Nothing		"oe"	Anything	"[w] E"			// in colloquial speech, the glide portion of a diphthong (w or y) can be weakened or even dropped.  Most frequently affected are those beginning with /w/ which is reduced or even droppedin faster speech, except for when it occurs at the beginning of a word. mlh 
+	"^"		"oe"	Anything	"[w] E"			// read above; mlh p.62 in The Sounds of Korean  9/12/06 removed the single option first and added brackets around the w.  Sun-Ah wants to hear the diphthong
+	"-"		"oe"	Anything	"[w] E"			// read above; mlh p.62 in The Sounds of Korean  9/12/06 removed the single option first and added brackets around the w.
+	Anything	"oe--e"	Nothing		"[w] E"			// ie sa-hoe--e; hem
+	Anything	"oe--e"	"-"		"[w] E"			// ie ju-ju-chong-hoe--e-seo--ui; hem
+	Anything	"oe"	Anything	"[w] E"			// changed from "e-w" to "w E" per Mihwa  9/15/05 mlh
+	" j"		"oo"	"n "		"[u]"			// foreign names; hem
+	" :"		"oo"	": "		"u"			// foreign names; hem
+	Anything	"o--o"	"^"		"oU -"			// ie mol-go--ol; hem
+	Anything	"ou"	Anything	"(ao | A)"		// foreign words hem
+	Anything	"o"	Anything	"oU"
+Rule: p									// same as b rules
+	Nothing		"p"	Nothing		"pc ph i u pc [ph]"
+	Nothing		"pp"	Nothing		"ss A N pc ph i u pc [ph]"
+	Anything	"pp"	"#"		"p_q ph"		// includes b,ch,d,g,j,k,p,s,t, and vowels hem
+	Anything	"pp--"	"i"		"(- p_q ph | m n)"	// a final p in a syllable before an i in a derived word is changed to m; hem
+	Anything	"pp--"	"y"		"(- p_q ph | m n)"	// a final p in a syllable before a y in a derived word is changed to m; hem
+	Anything	"pp--"	"#"		"- p_q ph"		// includes b,ch,d,g,j,k,p,s,t, and vowels, hem
+	Anything	"pp-m"	"#"		"m-m"			// ending consonant before a nasal becomes a nasal, hem
+	Anything	"pp"	"-n"		"m"			// ending consonant before a nasal becomes a nasal, hem
+	Anything	"pp"	Anything	"pc [ph]"		// consonant at end of syllable becomes a lenis stop hem
+	Nothing		"p"	"#"		"[pc] ph_h"		// hem
+	Anything	"p"	"-m"		"m"			// SPRules 18 
+	Anything	"p"	"-n"		"m"			// SPRules 18 
+	"neu"		"p"	"ap"		"-bc bh"
+	"pi--eu"	"p--"	"i "		"-bc bh"		// SPRules 16 10/6/06 mlh		
+	"pi--eu"	"p--"	"eul "		"-bc bh"		// SPRules 16 10/6/06 mlh		
+	"pi--eu"	"p--"	"e "		"-bc bh"		// SPRules 16 10/6/06 mlh		
+	"hyudae"	"p"	"on "		"(pc ph_h | p_q ph)"	// hem Set5Rec36
+	"seu"		"p"	"ein"		"(pc ph_h | p_q ph)"	// hem Set6Rec29
+	"eu"		"p"	"-n"		"(m | pc [ph])"		// Mihwa 3/17/06
+	"a-chim-"	"p"	"ab "		"p_q ph"		// SPRules, item 28  8/15/06
+	"bal-"		"p"	"a-tag "	"p_q ph"		// SPRules, item 28  8/15/06
+	"deung-"	"p"	"ul "		"p_q ph"		// SPRules, item 28  8/15/06
+	"sin-"		"p"	"a-lam "	"p_q ph"		// SPRules, item 28  8/15/06
+	"sin-"		"p"	"a-ram "	"p_q ph"		// SPRules, item 28  8/15/06
+	Anything	"p"	"#"		"pc ph_h"
+	"#"		"p--"	"i"		"(- pc ph_h | m n)"	// a final p in a syllable before an i in a derived word is changed to m; hem
+	"#"		"p--"	"y"		"(- pc ph_h | m n)"	// a final p in a syllable before a y in a derived word is changed to m; hem
+	"#"		"p-h"	"#"		"- pc ph_h"		// Sun-Ah "p" -- when followed by a vowel, it should be a good [ph] sound."
+	"#"		"p--"	"#"		"- pc ph_h"		// stop at end of syllable before a vowel does not become lenis; hem
+	"#"		"p-m"	"#"		"m-m"			// Mihwa 3/17/06; includes l,m,n,r
+	"#"		"p"	"-n"		"m"			// Mihwa 3/17/06; includes l,m,n,r
+	"#"		"p"	Anything	"(pc [ph] | pc ph_h)"	// stop at end of syllable becomes lenis unles next syllable begins with a vowel; hem
+Rule: r
+	Nothing		"r"	Nothing		"tf i U l"
+	Nothing		"r"	Anything	"(tf | [l])"		// Set7rec42
+	Anything	"rl"	"-m'		"N"			// SPRule 18
+	Anything	"rl"	"-n"		"N"			// SPRule 18
+	"l-"		"r"	Anything	"l"			// the below rule negates l-r so need a special rule here mlh
+	"^-"		"r"	Anything	"[n]"			// lr is in l rules, nr is in n rules hem
+	Anything	"r"	"#"		"tf"
+	Anything	"r"	Nothing		"l"
+	Anything	"r"	Anything	Silent			// foreign words, ie park; hem
+Rule: s
+	Nothing		"s"	Nothing		"s i oU s"
+	Nothing		"ss"	Nothing		"ss A N s i oU s"
+	Nothing		"s"	"u "		"ss"
+	Anything	"s"	"i"		"S"
+	Anything	"s"	"y"		"S"			// added 6/7/06 mlh
+	Anything	"s"	"wo"		"S"			// added 6/7/06 mlh
+	Nothing		"s"	"i"		"S"
+	Anything	"s"	"eo-bi-seu"	"ss"			// Foreign word i.e. rum seo-bi-seu (room service)
+	Nothing		"s"	"#"		"s"
+	"seo-bi-"	"s"	Anything	"ss"			// Foreign word i.e. rum seo-bi-seu (room service)
+	Anything	"ss"	"-m"		"n"			// SPRule 18 
+	Anything	"ss"	"-n"		"n"			// SPRule 18 
+	Anything	"s"	"-m"		"n"			// SPRule 18 
+	Anything	"s"	"-n"		"n"			// SPRule 18 
+	Anything	"s"	" n"		"n"			// SPRule 18 
+	Anything	"ss-s"	"#"		"s - ss"		// Added 5/30/06 MLh
+	Anything	"s-ss"	"#"		"s - ss"		// Added 5/30/06 MLh
+	Anything	"s"	"um-ni-da"	"ss"			
+//	Anything	"s--"	"a"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	"#"		"s--"	"eo"		"- dc dh"		// SPRules 15 addition 10/6/06 mlh
+//	Anything	"s--"	"o"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"s--"	"u"		"- dc dh"		// SPRules 15 10/6/06 mlh
+//	Anything	"s--"	"wi"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	"b "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"p "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"lb "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"lp "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"bs "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"d "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"s "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"ss "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"jh "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"ch "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"t "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"gs "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"g "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"kk "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"k "		"s"	Anything	"ss"			// SPRule 23 tensification
+	"lg "		"s"	Anything	"ss"			// SPRule 23 tensification
+//	"lm-"		"s"	"# "		"ss"			// SPRules, item 24  8/15/06
+	"m-"		"s"	"# "		"ss"			// SPRules, item 24  8/15/06
+	"n-"		"s"	"# "		"ss"			// SPRules, item 24  8/15/06
+	"nj-"		"s"	"# "		"ss"			// SPRules, item 24  8/15/06
+	"lb-"		"s"	Anything	"ss"			// SPRules, item 25  8/15/06
+	"lt-"		"s"	Anything	"ss"			// SPRules, item 25  8/15/06
+	"chang-"	"s"	"dal"		"ss"			// SPRules, item 28  8/15/06
+	"gul-"		"s"	"og "		"ss"			// SPRules, item 28  8/15/06
+	"san-"		"s"	"ae "		"ss"			// SPRules, item 28  8/15/06
+	"mog"		"s--"	"i"		"-ss"	
+	"#"		"ss--"	"i"		"(- ss | nn)"		// a derived word with 1st syl. ending with consonant followed by i in next part becomes a nasal & n; hem
+	"#"		"ss--"	"y"		"(- ss | nn)"		// a derived word with 1st syl. ending with consonant followed by i in next part becomes a nasal & n; hem
+	"#"		"ss--"	"#"		"s - ss"		// added 6/1/06 mlh
+	"#"		"s-s"	"#"		"- s"			// added 7/10/06 mlh for aop_suhm_ni_da
+	Anything	"ss"	"#"		"ss"
+	Anything	"ss"	"-m"		"n"			// SPRules, item 18
+	Anything	"ss"	"-n"		"n"			// SPRules, item 18
+	Anything	"ss-d"	Anything	dc dh - t_q [th]"	// SPRules, item 6 -23
+	Anything	"ss-t"	Anything	dc dh - t_q [th]"	// SPRules, item 6 -23
+	Anything	"ss"	Anything	"dc [dh]"		// based on info from Beginners Lesson two  3/2/06 mlh; ss Nothing & ss^ hem
+	Anything	"s"	"i"		"S"			
+	Anything	"s--"	"i"		"-S"			
+	Anything	"s--"	"#"		"-s"			// added 6/16/06 mlh this does not go with the example of mu--eos--eul  - which should be mu--eo-seul
+//	Anything	"s--"	"#"		"s-s"			// added 6/16/06 mlh
+	Anything	"s"	"y"		"S"			// added 6/7/06 mlh
+	Anything	"s"	"wo"		"S"			// added 6/7/06 mlh
+	"mo"		"s"	Nothing		"dc dh"			// comment from Sun-Ah 9/12/06  reduce aspiration and make the closure voiced	
+	"ng-"		"s"	"#"		"s"			// lax consonant after ng is exception to ^s# rule hem
+	".-"		"s"	"#"		"s"			// lax consonant after l,m,n,r is exception to ^s# rule hem
+	" sib-"		"s"	"am "		"(ss | t_q ss)"		// Set8Rec3, hem
+//	"^-"		"s"	"#"		"ss"			// lax consonant after a consonant is tense hem
+	Anything	"s"	"wi"		"S"
+	Anything	"s"	"#"		"s"			// includes Nothing s# & #--s# hem
+	"#"		"s--"	"i"		"(- s | nn)"		// a derived word with 1st syl. ending with consonant followed by i in next part becomes a nasal & n; hem
+	"#"		"s--"	"y"		"(- s | nn)"		// a derived word with 1st syl. ending with consonant followed by i in next part becomes a nasal & n; hem
+	"#"		"s--"	"#"		"- dc dh"		// hem
+	"^"		"s--"	"#"		"- [s]"			// hem
+	Anything	"sh"	"#"		"S"			// foreign words hem
+	Anything	"s"	"^"		"s"			// foreign words hem
+	"^"		"s"	Anything	Silent			// includes ^s nothing & ^s-^ hem
+	Anything	"s"	"-b"		"(tc [th] | pc [ph])"	// should be tc [th], but I heard both hem
+	Anything	"s-h"	"#"		"- tc th_h"		// hem
+	Anything	"s"	"-m"		"n"			// hem
+	Anything	"s-n"	"#"		"n-n"			// hem
+	Anything	"s"	Anything	"tc [th]"		// changed based on info from Beginners Lesson two  3/2/06 mlh; includes #s^ & #s Nothing
+Rule: t
+	Nothing		"t"	Nothing		"tc th i gc gh U tc [th]" 		//added 8/16/05 mlh
+	Nothing		"tt"	Nothing		"ss A N tc th i gc gh U tc [th]"	//added 8/16/05 mlh
+	Anything	"t-h"	Anything	"- tc tS"		// added 6/01/2006 mlh per Mihwa
+	Anything	"t-g"	Anything	"dc dh - k_q kc"	// a final t in a syllable before an i in a derived word is changed to n; hem
+	Anything	"tt--"	"i"		"(- t_q th | nn)"	// a final t in a syllable before an i in a derived word is changed to n; hem
+	Anything	"tt--"	"y"		"(- t_q th | nn)"	// a final t in a syllable before a y in a derived word is changed to n; hem
+	Anything	"tt--"	"#"		"- t_q [th]"		// a stop at end of syllable followed by a vowel is not changed to the lenis form; hem
+	Anything	"tt"	"-m"		"n"			// obstruent before a nasal becomes a nasal; hem
+	Anything	"tt-n"	"#"		"n-n"			// obstruent before a nasal becomes a nasal; hem
+	Anything	"tt--"	"#"		"-t_q [th]"		// changed based on info from Beginners Lesson two  3/2/06 mlh; includes #t^ & #t Nothing hem
+	Anything	"tt"	"#"		"t_q [th]"		// changed based on info from Beginners Lesson two  3/2/06 mlh; includes #t^ & #t Nothing hem
+	Anything	"tt"	Anything	"tc [th]"		// stop at end of syllable, except before a vowel, is changed to the lenis form; hem
+	xAnything	"t"	"-m"		"n"			// SPRule 18 
+	Anything	"t"	"-n"		"n"			// SPRule 18 
+	Nothing		"t"	"#"		"[tc] th_h"		// hem
+	"ti--eu"	"t--"	"i "		"- S"			// SPRules 16 10/6/06 mlh		
+	"ti--eu"	"t--"	"eul "		"- s"			// SPRules 16 10/6/06 mlh		
+	"ti--eu"	"t--"	"e "		"- s"			// SPRules 16 10/6/06 mlh		
+	Anything	"t--"	"a"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"t--"	"eo"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"t--"	"o"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"t--"	"u"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	Anything	"t--"	"wi"		"- dc dh"		// SPRules 15 10/6/06 mlh
+	"#"		"t--"	"i"		"(- tc tS | n)"		// SPRules, item 17; or a derived word with first part ending in a consonant and 2nd part starting with i changes to n, hem
+	"#"		"t--"	"y"		"(- tc th_h | n)"	// a derived word with first part ending in a consonant and 2nd part starting with i changes to n, hem
+	"#"		"t--"	"#"		"- tc th_h"		// a stop at end of syllable followed by a vowel is not changed to the lenis form; hem
+	"lb-"		"t"	Anything	"t_q th"		// SPRules, item 25  8/15/06
+	"lt-"		"t"	Anything	"t_q th"		// SPRules, item 25  8/15/06
+	"cho-seung-"	"t"	"al"		"t_q th"		// SPRules, item 28  8/15/06
+	"geu-meum-"	"t"	"al"		"t_q th"		// SPRules, item 28  8/15/06
+	"mul-"		"t"	"ong--i"	"t_q th"		// SPRules, item 28, 8/15/06
+	"mur-"		"t"	"ong--i"	"t_q th"		// SPRules, item 28, 8/15/06
+	"nun-"		"t"	"ong-ja"	"t_q th"		// SPRules, item 28, 8/15/06
+	"seon-"		"t"	"aeg"		"(tc th_h | t_q th)"	// hem, set5Rec12
+	"yeol-"		"t"	"ul"		"(tc th_h | t_q th)"	// hem, set9Rec2
+	" i-"		"t"	"al"		"(tc th_h | t_q th)"	// hem, set6Rec30
+	"seu-"		"t"	"a "		"(tc th_h | t_q th)"	// hem, set5Rec30
+	Anything	"t"	"#"		"tc th_h"		// hem, includes #t#
+	Anything	"tv"	Anything	"tc th i v [w] i"	// added 8/16/2005 for Set10Rec31 mlh
+	"#"		"t--"	"i"		"(- tc tS | n)"		// SPRules, item 17; or a derived word with first part ending in a consonant and 2nd part starting with i changes to n, hem
+	"#"		"t--"	"y"		"(- tc th_h | n)"	// a derived word with first part ending in a consonant and 2nd part starting with i changes to n, hem
+	"#"		"t--"	"#"		"- tc th_h"		// a stop at end of syllable followed by a vowel is not changed to the lenis form; hem
+	"#"		"t"	"-m"		"[n]"			// a final t in a syllable preceding a nasal is changed to n; hem
+	"#"		"t-n"	"#"		"n-n"			// Mihwa 3/17/06
+	"#"		"t-h"	"#"		"- tc th_h"
+	"#"		"t"	"#"		"dc [dh]"		// stop between voiced sounds should be voice 6/1/06 mlh
+	"#"		"t"	Anything	"tc [th]"		// stop at end of syllable, except before a vowel, is changed to the lenis form; hem
+	Anything	"t"	Anything	Silent			// includes Nothing t^, ^t^, ^t Nothing; hem
+Rule: u
+	Nothing		"ui"	Nothing		"Ui"			//SPrules, item 5 
+	Nothing		"ui"	Anything	"(Ui | w i)"		//SPrules, item 5 changed mlh  
+	Anything	"ui--ui"	Anything	"(Ui i)"	// ie sil--ui--ui; hem
+	Anything	"ui"	Nothing		"(E | i)"		//SPrules, item 5, exeption 4 added mlh	
+	Anything	"ui"	Nothing		"(E | i)"		//SPrules, item 5, exeption 4 added mlh	
+	"^"		"ui"	Anything	"( i | [u] i)"		//SPrules, item 5, exeption 3 added mlh
+	"^--"		"ui"	Anything	"( i | [u] i)"		//SPrules, item 5, exeption 3 added mlh
+	Anything	"ui"	Nothing		"(E | i)"		//SPrules, item 5, exeption 4 added mlh	
+	Anything	"ui"	Anything	"(Ui | w i | u i)"	//SPrules, item 5 changed mlh  
+	"a"		"u"	Anything	"(u | oU)"
+	"ho-ch"		"u"	"l"		"U"			// added 8/15/05 mlh
+	Anything	"u--u"	"^"		"u -"			// ie chu--un-de; hem
+	Anything	"u--u"	"-"		"u"			// ie su--u-ton; hem
+	"s"		"u"	"--w"		"[u]"
+	"s"		"u--yo"	Anything	"(u - [j] oU | [i] j oU)"
+	Anything	"u"	Anything	"u"
+Rule: v
+	Anything	"v"	Anything	"v"
+Rule: w
+	Nothing		"wae"	Anything	"w E"
+	Nothing		"wa"	Anything	"w A"
+	Nothing		"weo"	Anything	"w (ao | A)"
+	Nothing		"we"	Anything	"w E"
+	Nothing		"wi"	Anything	"w i"
+	Nothing		"wo"	Anything	"w oU"		
+	Anything	"wae"	Anything	"[w] E"		// added after listenining to data MLH
+	Anything	"wa"	Anything	"[w] A"
+	Anything	"weo"	Anything	"[w] (ao | A)"
+	Anything	"we"	Anything	"[w] E"		// changed back to previous rules for TTS rules  7/12/05 MLH
+	Anything	"wi"	Anything	"[w] i"		// changed back to previous rules for TTS rules  7/12/05 MLH
+	Anything	"wo"	Anything	"[w] oU"	// changed back to previous rules for TTS rules  7/12/05 MLH
+	Anything	"w"	Anything	"w"
+Rule: y
+	Nothing		"yae"	Nothing		"j (E | A) "
+	Anything	"yae"	Anything	"([j] @ | [j] E)"	// changed back to previous rules for TTS rules  7/12/05 MLH also changed order or E vs @ technically the correct Korean sound should be @, however, it is not spoken a lot 6/13/06 mlh
+	Nothing		"ya"	Anything	"j A"
+	" da-ch"	"yeo"	Nothing		"ao"		// SPRules 5, Exception 1, 9/15/06 mlh
+	Nothing		"yeo"	Anything	"j ao"
+	Nothing		"ye"	Nothing		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	"l"		"ye"	Nothing		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	" g"		"ye"	"-si-"		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	" g"		"ye"	"-jib"		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	"ji-h"		"ye"	"-jib"		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	"yeon-g"	"ye"	Nothing		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	" h"		"ye"	"-taeg"		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	"ji-h"		"ye"	Nothing		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	" m"		"ye"	"-byeo"		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	"si-g"		"ye"	Nothing		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	"gae-p"		"ye"	Nothing		"E"		// SPRules, item 5 Exception 2, 9/13/06 mlh
+	Nothing		"ye"	Anything	"j E"		
+	Nothing		"yi"	Anything	"(Ui | w i)"	// SPrules, item 5 changed mlh
+	Nothing		"yo"	Anything	"j oU"
+	Nothing		"yu"	"--#"		"j u"		//hem
+	Nothing		"yu"	Anything	"j (u | U)"	//hem
+	Anything	"ya"	Anything	"(j | [l]) A"	// changed back to previous rules for TTS rules  7/12/05 MLH
+	Anything	"yeo--eo"	"^"	"[j] ao -"	// ie byeo--eong-sin; hem
+	Anything	"yeo--eo"	Anything	"[j] ao"
+	Anything	"yeo"	Anything	"[j] ao"	// changed back to previous rules for TTS rules  7/12/05 MLH
+	Anything	"ye"	Anything	"[j] E"		// changed back to previous rules for TTS rules  7/12/05 MLH
+	"ch"		"yi"	Anything	"(E | i)"
+	"j"		"y"	"i"		"oU"
+	"^"		"yi"	Anything	"i"		// SPrules, item 5, exeption 3 added mlh
+	Anything	"yi"	Nothing		"(i | E)"	// SPrules, item 5, exeption 4 added mlh	
+	Anything	"yi"	Anything	"(Ui | w i)"
+	Anything	"yo"	Nothing		"[j] (oU | E)"		// changed from "[j] E" to "[j] (oU | E)" 5/31/06 mlh
+	Anything	"yo"	Anything	"[j] (oU |ao)"	// changed from "[j] (ao |oU)" to "[j] (oU |ao)" 5/31/06 mlh
+	"o--"		"yu"	"--e"		"j [u]"
+	Anything	"yu"	"--#"		"[j] u"
+	Anything	"yu"	Anything	"[j] (u | U)"
+	Anything	"y"	Anything	"j"

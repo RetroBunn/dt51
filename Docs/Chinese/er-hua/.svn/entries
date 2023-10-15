@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6073"
+   name=""
+   committed-date="2006-10-19T16:25:38.837269Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Chinese/er-hua"
+   last-author="rpierce"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="6073"
+   name="er-hua exclusions chart.xls"
+   text-time="2006-10-20T13:51:34.917102Z"
+   committed-date="2006-10-19T16:25:38.837269Z"
+   checksum="757d218634238adabcae8d9d59c3fe9c"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:34.463992Z"/>
+<entry
+   committed-rev="6073"
+   name="er-hua exclusions chart1.xls"
+   text-time="2006-10-20T13:51:35.073347Z"
+   committed-date="2006-10-19T16:25:38.837269Z"
+   checksum="31a42db6fd040f43c6781cabe07821db"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:34.667110Z"/>
+<entry
+   committed-rev="6073"
+   name="er-hua chart.xls"
+   text-time="2006-10-20T13:51:35.198343Z"
+   committed-date="2006-10-19T16:25:38.837269Z"
+   checksum="1513f86b854fa8d285ea24a8c74873df"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:34.838980Z"/>
+<entry
+   committed-rev="4609"
+   name="er-hua rules table.xls"
+   text-time="2006-04-24T19:11:39.686753Z"
+   committed-date="2006-04-20T20:35:07.200720Z"
+   checksum="898f7c1015ba87c379e618b16e2fbd49"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-04-24T19:11:39.624254Z"/>
+</wc-entries>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Parsers/sequencegrammar/Debug"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="builder.obj"
+   text-time="2006-03-22T15:26:34.326076Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="6628bb14e41aabd10db104131158178b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:29.560512Z"/>
+<entry
+   committed-rev="4218"
+   name="sorttrieparse.obj"
+   text-time="2006-03-22T15:26:34.794820Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="beb856e1f532abf1f090109aada64453"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:29.716760Z"/>
+<entry
+   committed-rev="4218"
+   name="lex.yy.obj"
+   text-time="2006-03-22T15:26:35.013567Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7c39df797eac039841d306381f5575d8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:29.919883Z"/>
+<entry
+   committed-rev="4218"
+   name="vc60.pdb"
+   text-time="2006-03-22T15:26:35.122941Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7b26bd69360ef2f7b041e3a24d703eee"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:30.810496Z"/>
+<entry
+   committed-rev="4218"
+   name="sequencegrammar.pdb"
+   text-time="2006-03-22T15:26:35.263564Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7afb5b45bed3664db3ad4f554882102f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:30.888620Z"/>
+<entry
+   committed-rev="4218"
+   name="sorttrie.obj"
+   text-time="2006-03-22T15:26:35.419812Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7b208ed8e946999b53781ae0c76bc762"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:31.154242Z"/>
+<entry
+   committed-rev="4218"
+   name="sequencegrammar.pch"
+   text-time="2006-03-22T15:26:35.857307Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="470e64cb99c837af6774303fed1fa1bd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:31.982356Z"/>
+<entry
+   committed-rev="4218"
+   name="sgrammar_tab.obj"
+   text-time="2006-03-22T15:26:36.091679Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="258c0ab0b476b660b25980f83638b26d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:32.169854Z"/>
+<entry
+   committed-rev="4218"
+   name="vc60.idb"
+   text-time="2006-03-22T15:26:36.279176Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="79a5c0fbc9ae99362c8ec9846fe6c528"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:32.888595Z"/>
+<entry
+   committed-rev="4218"
+   name="wherelex.obj"
+   text-time="2006-03-22T15:26:36.513548Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="6299de0e8d6d17e6742ee5ce282ffa66"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:34.060455Z"/>
+</wc-entries>

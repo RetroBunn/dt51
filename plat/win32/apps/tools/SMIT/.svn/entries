@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/tools/SMIT"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="Shared Memory Initialization Technique.doc"
+   text-time="2006-03-20T22:25:33.334230Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="17814dc71d7402ee170e071f398b5c43"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.177987Z"/>
+<entry
+   committed-rev="4213"
+   name="docopy.bat"
+   text-time="2006-03-20T22:25:33.349855Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="8dd2ea63751ef8d1e41a70a3877b5194"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.193612Z"/>
+<entry
+   committed-rev="4213"
+   name="smitcode.txt"
+   text-time="2006-03-20T22:25:33.490479Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="ef9572a2ed7dabc20c08a4c8161533ac"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.224862Z"/>
+<entry
+   name="SMITGEN"
+   kind="dir"/>
+<entry
+   name="SMITREAD"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="SMIT.DSW"
+   text-time="2006-03-20T22:25:33.506104Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d8ccb73ccc23d250de1878fecdf1927b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.615485Z"/>
+<entry
+   name="SMITTK"
+   kind="dir"/>
+<entry
+   committed-rev="4213"
+   name="readme.txt"
+   text-time="2006-03-20T22:25:33.521729Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="9e429d3762155b6f6a7dd22deb4da2e4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:33.302980Z"/>
+</wc-entries>

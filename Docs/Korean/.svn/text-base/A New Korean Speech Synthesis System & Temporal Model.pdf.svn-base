@@ -1,0 +1,3274 @@
+%PDF-1.2
+%‚„œ”
+2 0 obj
+<<
+/Length 12093
+>>
+stream
+1 1 1 rg
+/GS1 gs
+14 -12.92 594.96 841.92 re
+f
+BT
+/F3 1 Tf
+15.96 0 0 15.96 86.72 754.605 Tm
+0 0 0 rg
+0.001 Tc
+-0.003 Tw
+[(A New)-14( Korean Speech Synthesis System)14( and Tem)14(p)1(oral Model)]TJ
+/F5 1 Tf
+12 0 0 12 165.8 721 Tm
+0 Tc
+0 Tw
+(Hyunsong Chung)Tj
+/F7 1 Tf
+6.97 0 TD
+(*, )Tj
+/F5 1 Tf
+1 0 TD
+-0.002 Tc
+0.002 Tw
+[(Mark Huckval)-4(e)]TJ
+/F7 1 Tf
+6.17 0 TD
+0 Tc
+(*, )Tj
+/F5 1 Tf
+1 0 TD
+0 Tw
+(Kyongsok Kim)Tj
+/F7 1 Tf
+5.86 0 TD
+(**)Tj
+-24.21 -1.18 TD
+[(* Department of Phonetics and L)21(i)-2(ng)10(uistics, University)30( Colleg)10(e)4( L)21(ondon)]TJ
+3.65 -1.18 TD
+-0.001 Tc
+0.001 Tw
+[(Gower Street, L)20(ondon W)-7(C)-4(1E 6B)6(T, United King)9(dom)]TJ
+-2.32 -1.18 TD
+[(** Department of Computer Science, B)6(u)-1(san National University)]TJ
+7.08 -1.18 TD
+0 Tc
+0 Tw
+[(B)7(u)0(san 609-735, South Korea)]TJ
+-9.45 -1.18 TD
+-0.001 Tc
+0.001 Tw
+[(e-mail: * {hchung)9(, mark}@phon.ucl.ac.uk, ** g)9(img)9(s@asadal.cs.pusan.ac.kr)]TJ
+1.77 -1.18 TD
+0 Tc
+0 Tw
+(Phone: *+44 207 504 5026, +44 207 504 5002, **+82 51 510 2292)Tj
+/F3 1 Tf
+11.04 0 0 11.04 138.8 551.996 Tm
+-0.005 Tc
+[(AB)-12(STRACT)]TJ
+/F7 1 Tf
+9.96 0 0 9.96 53.96 528.436 Tm
+0 Tc
+0.184 Tw
+[(T)-15(h)6(is p)-6(a)-2(p)-6(e)-2(r intro)-6(d)-6(u)6(ces a new)23( )-12(p)-6(u)6(b)-6(licly)18(-)8(a)-2(vailab)-6(l)1(e )-12(Ko)-6(rean)]TJ
+T*
+0.002 Tc
+0.037 Tw
+[(diph)8(on)8(e )12(database )12(f)10(o)-4(r )12(speech)8( sy)20(n)8(t)3(h)8(e)0(sis an)8(d reports on)8( ou)8(r)]TJ
+T*
+0.004 Tc
+0.192 Tw
+[(l)5(a)2(t)5(e)2(s)7(t)5( )12(w)27(o)-2(rk)10( )12(t)5(o)-2(w)27(a)2(rds)7( a m)23(odel)5( of)12( Korean)10( pros)7(ody)22(.  T)-11(h)10(e)]TJ
+T*
+0 Tc
+0.425 Tw
+[(d)-6(i)1(p)-6(h)6(o)-6(n)6(e )12(d)-6(a)-2(tab)-6(a)-2(se is co)-6(m)19(p)-6(atib)-6(le w)23(ith the MB)-8(ROL)9(A)]TJ
+T*
+-0.002 Tc
+0.077 Tw
+[(p)-8(r)-6(o)-8(g)4(r)-6(a)-4(m)17(m)17(e)-4( )12(o)-8(f)6( )12(high-)6(q)-8(u)4(ality)16( m)17(u)4(ltilingual sp)-8(eech sy)16(nthesis)]TJ
+T*
+0.004 Tc
+0.385 Tw
+[(s)7(y)22(s)7(t)5(em)23(s)7(.)1( )13( )13(T)-11(h)10(e )13(f)12(i)5(rs)7(t)5( part)5( of)12( t)5(h)10(e paper des)7(c)2(ri)5(bes)7( t)5(h)10(e)]TJ
+T*
+0.107 Tw
+[(ph)10(on)10(et)5(i)5(c)2( )12(an)10(d )12(ph)10(on)10(ol)5(og)10(i)5(cal)5( )12(s)7(t)5(ru)10(ct)5(u)10(r)0(e of)12( t)5(h)10(e dat)5(a)2(bas)7(e)2( an)10(d)]TJ
+T*
+0.348 Tw
+[(des)7(c)2(ri)5(bes)7( )12(h)10(o)-2(w)27( )12(i)5(t)5( )12(w)27(a)2(s)7( recorded an)10(d proces)7(s)7(e)2(d.  T)-11(h)10(e)]TJ
+T*
+0.144 Tw
+[(s)7(econ)10(d)-2( part)5( of)12( t)5(h)10(e paper report)5(s)7( )-12(on)10( )-12(prog)10(res)7(s)7( )-12(t)5(o)-2(w)27(a)2(rds)7( )-12(a)]TJ
+T*
+-0.002 Tc
+0.366 Tw
+[(m)17(o)-8(d)-8(e)-4(l o)-8(f)6( segm)17(ental tim)17(ing co)-8(m)17(p)-8(atib)-8(le )-12(w)21(ith )-12(d)-8(i)-1(p)-8(h)4(o)-8(n)4(e)]TJ
+T*
+-0.001 Tc
+0.173 Tw
+[(sy)17(nthesis )12(o)-7(f)7( )12(Ko)-7(rean. )12( So)-7( f)7(a)-3(r w)22(e)-3( have b)-7(u)5(ilt a m)18(o)-7(d)-7(e)-3(l o)-7(f)]TJ
+T*
+0.004 Tc
+0.36 Tw
+[(v)10(o)-2(w)27(e)2(l)5( du)10(rat)5(i)5(o)-2(n)10( bas)7(e)2(d on)10( t)5(h)10(e )-12(an)10(al)5(y)22(s)7(i)5(s)7( )-12(of)12( )-12(ov)10(er )-12(1000)]TJ
+T*
+-0.001 Tc
+0.534 Tw
+[(sy)17(llab)-7(l)0(es anno)-7(tated)-7( f)7(o)-7(r their segm)18(ental )-12(and)-7( )-12(sup)-7(r)-5(a-)]TJ
+T*
+-0.003 Tc
+0.199 Tw
+[(se)-5(gm)16(e)-5(n)3(ta)-5(l )12(c)-5(o)-9(nte)-5(x)3(ts.)-6( )12( T)-18(h)3(r)-7(o)-9(ugh the)-5( use)-5( o)-9(f)5( a)-5(n)3( a)-5(u)3(to)-9(m)16(a)-5(te)-5(d)]TJ
+T*
+0.003 Tc
+0.554 Tw
+[(search)9( )12(an)9(d )12(error m)22(i)4(n)9(i)4(m)22(i)4(sation)9( procedu)9(r)-1(e w)26(e)1( h)9(a)1(v)9(e)]TJ
+T*
+0.194 Tw
+[(estim)21(ated )12(th)8(e )12(param)21(e)0(ters )12(of)10( a n)8(i)3(n)8(e)0(-)10(f)10(actor m)21(odel w)25(h)8(ich)]TJ
+T*
+0.121 Tw
+[(ex)8(plain)8(s)5( ov)8(er 80% of)10( th)8(e v)8(a)0(rian)8(ce in)8( v)8(o)-4(w)25(e)0(l du)8(ration)8( )-13(in)]TJ
+T*
+-0.002 Tc
+0.005 Tw
+[(the training d)-8(a)-4(ta.)]TJ
+/F3 1 Tf
+11.04 0 0 11.04 119.24 289.676 Tm
+0.003 Tw
+[(1. I)-5(N)2(TRO)-8(DUCTI)-5(O)-8(N)]TJ
+/F7 1 Tf
+9.96 0 0 9.96 53.96 266.116 Tm
+0.002 Tc
+0.302 Tw
+[(C)6(o)-4(n)8(t)3(em)21(porary)20( )12(speech)8( )12(sy)20(n)8(t)3(h)8(e)0(sis sy)20(stem)21(s prov)8(ide g)8(ood)]TJ
+T*
+-0.004 Tc
+0.031 Tw
+[(se)-6(gm)15(e)-6(n)2(ta)-6(l q)-10(u)2(a)-6(lity)14( thr)-8(o)-10(ugh the)-6( use)-6( o)-10(f)4( c)-6(o)-10(nc)-6(a)-6(t)-3(e)-6(n)2(a)-6(tive)-6( signa)-6(l)]TJ
+T*
+-0.002 Tc
+0.089 Tw
+[(generatio)-8(n m)17(e)-4(tho)-8(d)-8(s)1(.  Such m)17(e)-4(tho)-8(d)-8(s)1( )-12(shif)6(t )-12(the )-12(m)17(a)-4(in )-12(f)6(o)-8(cus)]TJ
+T*
+-0.001 Tc
+0.112 Tw
+[(o)-7(f)7( research o)-7(n)5(to)-7( the p)-7(r)-5(ed)-7(ictio)-7(n o)-7(f)7( into)-7(natio)-7(n )-12(and)-7( )-12(tim)18(ing)]TJ
+T*
+-0.004 Tc
+0.224 Tw
+[(fr)-8(o)-10(m)15( te)-6(xt.)-7(  H)-5(o)-10(w)19(e)-6(ve)-6(r)-8(,)-7( w)19(h)2(ile)-6( E)-7(nglish,)-7( J)-13(a)-6(p)-10(a)-6(ne)-6(se)-6( a)-6(n)2(d)-10( )-12(the)]TJ
+T*
+-0.003 Tc
+0.066 Tw
+[(m)16(a)-5(in E)-6(u)3(r)-7(o)-9(p)-9(e)-5(a)-5(n)3( la)-5(ngua)-5(ge)-5(s c)-5(a)-5(n)3( c)-5(a)-5(ll )-12(o)-9(n)3( )-12(e)-5(x)3(te)-5(nsive)-5( )-12(p)-9(r)-7(e)-5(v)3(io)-9(us)]TJ
+T*
+0.002 Tc
+0.23 Tw
+[(research)8( )12(in)8(to prosody)20(, th)8(ere h)8(a)0(v)8(e)0( been)8( f)10(e)0(w)25( stu)8(d)-4(ies of)]TJ
+T*
+-0.004 Tc
+0.019 Tw
+[(K)-5(o)-10(r)-8(e)-6(a)-6(n)2( p)-10(r)-8(o)-10(s)-1(o)-10(d)-10(y)14( r)-8(e)-6(le)-6(va)-6(nt fo)-10(r)-8( sy)14(nthe)-6(sis.)-7(  Re)-6(se)-6(a)-6(r)-8(c)-6(h)2( )-12(w)19(o)-10(r)-8(k)2( )-12(in)]TJ
+T*
+0 Tc
+0.051 Tw
+[(th)6(is area w)23(o)-6(u)6(l)1(d)-6( b)-6(e)-2( stim)19(u)6(l)1(ated)-6( b)-6(y)18( )-12(access )-12(to)-6( )-12(a )-12(h)6(i)1(g)6(h)6(-)8(q)-6(u)6(ality)]TJ
+T*
+0.001 Tc
+0.074 Tw
+[(speech)7( )12(sig)7(n)7(a)-1(l )12(g)7(e)-1(n)7(e)-1(ration)7( sy)19(stem)20( f)9(o)-5(r Korean)7( w)24(h)7(ich)7( cou)7(l)2(d)]TJ
+T*
+0.004 Tc
+0.228 Tw
+[(be )12(dri)5(v)10(en)10( )12(f)12(r)0(om)23( ph)10(on)10(ol)5(og)10(i)5(cal)5( an)10(d ph)10(on)10(et)5(i)5(c)2( param)23(e)2(t)5(e)2(rs)7(.)]TJ
+T*
+0.001 Tc
+0.508 Tw
+[(Usin)7(g)7( )12(su)7(ch)7( a sy)19(stem)20(, perceptu)7(al stu)7(d)-5(ies cou)7(l)2(d be)]TJ
+T*
+0.689 Tw
+[(u)7(n)7(d)-5(ertak)7(e)-1(n)7( o)-5(f)9( th)7(e accep)-5(tab)-5(ility)19( o)-5(f)9( tem)20(p)-5(o)-5(r)-3(al an)7(d)]TJ
+T*
+-0.002 Tc
+0.005 Tw
+[(into)-8(natio)-8(nal m)17(o)-8(d)-8(e)-4(ls.)]TJ
+0 -2.3614 TD
+0.003 Tc
+0.434 Tw
+[(T)-12(h)9(ere )12(are a n)9(u)9(m)22(ber of)11( com)22(m)22(e)1(rcial Korean)9( speech)]TJ
+0 -1.1807 TD
+-0.002 Tc
+0.342 Tw
+[(sy)16(nthesis sy)16(stem)17(s,)-5( am)17(o)-8(ng them)17(,)-5( )-12(Hanso)-8(r)-6(i )-12(fr)-6(o)-8(m)17( )-12(Ko)-8(r)-6(e)-4(a)]TJ
+25.9036 47.7108 TD
+0.002 Tc
+0.254 Tw
+[(T)-13(e)0(lecom)21( )12(\(KT)-13(\))-2(, )12(Keu)8(l)3(sori )12(f)10(r)-2(om)21( Korean)8( Electron)8(i)3(cs an)8(d)]TJ
+0 -1.1807 TD
+0 Tc
+1.28 Tw
+[(T)-15(e)-2(leco)-6(m)19(m)19(unicatio)-6(ns Research Institute )-12(\(ET)-15(R)4(I\),)]TJ
+T*
+-0.005 Tc
+0.743 Tw
+[(M)-7(a)-7(g)1(ic)-7(V)-6(o)-11(ic)-7(e)-7( )12(fr)-9(o)-11(m)14( )11(Sa)-7(m)14(s)-2(ung,)-8( a)-7(n)1(d)-11( o)-11(n)1(e)-7( fr)-9(o)-11(m)14( LG)-6(.)]TJ
+T*
+0.001 Tc
+0.255 Tw
+[(How)24(e)-1(v)7(e)-1(r, becau)7(se th)7(e speech)7( databases u)7(s)4(ed in)7( )-12(th)7(ese)]TJ
+T*
+0.291 Tw
+[(sy)19(stem)20(s )12(are )12(n)7(o)-5(t av)7(ailable to th)7(e pu)7(blic, th)7(ey)19( are n)7(o)-5(t)]TJ
+T*
+-0.001 Tc
+0.209 Tw
+[(suitab)-7(l)0(e as a b)-7(a)-3(sis f)7(o)-7(r exp)-7(e)-3(rim)18(e)-3(ntal investigatio)-7(ns )-12(into)]TJ
+T*
+0.414 Tw
+[(Ko)-7(rean )12(p)-7(r)-5(o)-7(s)2(o)-7(d)-7(y)17(. T)-16(o)-7( rem)18(e)-3(d)-7(y)17( this situatio)-7(n w)22(e)-3( have)]TJ
+T*
+0.004 Tc
+0.083 Tw
+[(dev)10(e)2(l)5(oped a n)10(e)2(w)27( Korean)10( di)5(ph)10(on)10(e dat)5(a)2(bas)7(e)2( bas)7(e)2(d on)10( t)5(h)10(e)]TJ
+T*
+-0.001 Tc
+0.329 Tw
+[(MB)-9(ROL)8(A)10( sy)17(stem)18( [1)-7(].  W)-9(e)-3( w)22(ill )-12(m)18(a)-3(ke )-12(this )-12(d)-7(a)-3(tab)-7(a)-3(se)]TJ
+T*
+0.002 Tc
+0.121 Tw
+[(pu)8(blicly)20( )12(av)8(ailable )12(f)10(r)-2(ee )12(of)10( )12(restriction)8(s)5( on)8( u)8(s)5(e in)8( th)8(e n)8(ear)]TJ
+T*
+0.025 Tw
+[(f)10(u)8(tu)8(re.  T)-13(h)8(e database, recorded f)10(r)-2(om)21( a sin)8(g)8(l)3(e )-12(m)21(a)0(le )-12(n)8(a)0(tiv)8(e)]TJ
+T*
+0.004 Tc
+0.758 Tw
+[(s)7(p)-2(eak)10(er of)12( Korean)10( con)10(s)7(i)5(s)7(t)5(s)7( of)12( 1,692 )-12(di)5(ph)10(on)10(es)7(.)]TJ
+T*
+0.002 Tc
+0.194 Tw
+[(P)-8(r)-2(elim)21(in)8(ary)20( )12(ev)8(alu)8(a)0(tion)8(s)5( )12(h)8(a)0(v)8(e)0( )12(been)8( m)21(a)0(de by)20( com)21(p)-4(arin)8(g)]TJ
+T*
+-0.001 Tc
+0.185 Tw
+[(its o)-7(u)5(tp)-7(ut \(w)22(ith natural )-12(p)-7(r)-5(o)-7(s)2(o)-7(d)-7(y)17( )-12(im)18(p)-7(o)-7(s)2(ed)-7(\) )-12(against )-12(f)7(u)5(lly)]TJ
+T*
+0.002 Tc
+0.073 Tw
+[(sy)20(n)8(t)3(h)8(e)0(tic speech)8( f)10(r)-2(om)21( KT)-13( an)8(d ET)-13(R)6(I)-2(.  Most listen)8(e)0(rs are)]TJ
+T*
+-0.001 Tc
+0.04 Tw
+[(satisf)7(i)0(ed)-7( w)22(ith the segm)18(ental q)-7(u)5(ality)17( o)-7(f)7( o)-7(u)5(r sy)17(stem)18(: )-12(nearly)]TJ
+T*
+-0.004 Tc
+0.007 Tw
+[(ha)-6(lf tho)-10(ught it sup)-10(e)-6(r)-8(i)-3(o)-10(r)-8(.)]TJ
+0 -2.3614 TD
+0.004 Tc
+0.095 Tw
+[(In)10( s)7(ect)5(i)5(o)-2(n)10( 2 of)12( t)5(h)10(i)5(s)7( paper w)27(e)2( des)7(c)2(ri)5(be h)10(o)-2(w)27( )-12(t)5(h)10(e )-12(dat)5(a)2(bas)7(e)]TJ
+0 -1.1807 TD
+-0.001 Tc
+0.076 Tw
+[(w)22(a)-3(s co)-7(nstructed)-7(,)-4( w)22(h)5(ile in sectio)-7(n 3)-7( w)22(e)-3( d)-7(e)-3(scrib)-7(e)-3( o)-7(u)5(r f)7(i)0(rst)]TJ
+T*
+0 Tc
+0.401 Tw
+[(attem)19(p)-6(ts at the co)-6(nstructio)-6(n o)-6(f)8( )-12(a )-12(m)19(o)-6(d)-6(e)-2(l )-12(o)-6(f)8( )-12(Ko)-6(rean)]TJ
+T*
+0.004 Tc
+0.999 Tw
+[(pros)7(ody)22( w)27(h)10(i)5(c)2(h)10( operat)5(e)2(s)7( au)10(t)5(o)-2(m)23(a)2(t)5(i)5(cal)5(l)5(y)22( )-12(f)12(r)0(om)23( )-12(a)]TJ
+T*
+-0.001 Tw
+[(ph)10(on)10(ol)5(og)10(i)5(cal)5( repres)7(en)10(t)5(a)2(t)5(i)5(o)-2(n)10( of)12( a ph)10(ras)7(e)2(.)]TJ
+/F3 1 Tf
+11.04 0 0 11.04 338.6 269.756 Tm
+-0.004 Tc
+0.004 Tw
+[(2. K)-9(O)-9(R)1(EAN DI)-6(P)-13(H)-9(O)-9(N)1(E DATAB)-11(ASE)]TJ
+9.96 0 0 9.96 311.96 246.027 Tm
+-0.001 Tc
+[(2)-7(.)-4(1)-7(  Dipho)-7(ne Da)-7(t)-5(a)-7(ba)-7(se)]TJ
+/F7 1 Tf
+0 -1.1517 TD
+[(Duto)-7(it )]TJ
+/F5 1 Tf
+2.8434 0 TD
+0.003 Tc
+0.036 Tw
+[(et al)]TJ
+/F7 1 Tf
+1.7952 0 TD
+0 Tc
+0.039 Tw
+[( [2)-6(] p)-6(o)-6(i)1(nt o)-6(u)6(t that the ab)-6(ility)18( o)-6(f)8( )-12(co)-6(ncatenative)]TJ
+-4.6386 -1.1807 TD
+0.063 Tw
+[(sy)18(n)6(t)1(h)6(e)-2(sizers )12(to)-6( )12(p)-6(r)-4(o)-6(d)-6(u)6(ce )12(h)6(i)1(g)6(h)6( q)-6(u)6(ality)18( sp)-6(eech)6( is d)-6(e)-2(p)-6(e)-2(n)6(d)-6(en)6(t)]TJ
+T*
+0.002 Tc
+0.061 Tw
+[(on)8( th)8(e ty)20(pe of)10( seg)8(m)21(en)8(ts ch)8(osen)8( an)8(d th)8(e m)21(odel of)10( speech)]TJ
+T*
+-0.002 Tc
+0.294 Tw
+[(signal )12(to)-8( )12(w)21(h)4(ich )12(the analy)16(s)1(is and)-8( sy)16(nthesis algo)-8(rithm)17(s)]TJ
+T*
+0.002 Tc
+0.061 Tw
+[(ref)10(e)0(r. )12( )12(T)-13(h)8(e )12(desig)8(n)8( )12(sh)8(ou)8(ld )12(be able to accou)8(n)8(t)3( f)10(o)-4(r as m)21(a)0(n)8(y)]TJ
+T*
+0.001 Tc
+0.147 Tw
+[(co-)9(a)-1(rticu)7(l)2(atory)19( )12(ef)9(f)9(ects as possible.  Giv)7(e)-1(n)7( th)7(e restricted)]TJ
+T*
+-0.001 Tc
+0.269 Tw
+[(sm)18(o)-7(o)-7(t)0(hing )12(cap)-7(ab)-7(ilities )12(o)-7(f)7( the co)-7(ncatenatio)-7(n techniq)-7(u)5(e,)]TJ
+T*
+0.002 Tc
+0.218 Tw
+[(th)8(ey)20( )12(sh)8(ou)8(ld )12(be easily)20( con)8(n)8(ectable.  T)-13(h)8(eir n)8(u)8(m)21(ber an)8(d)]TJ
+T*
+0.004 Tc
+-0.001 Tw
+[(l)5(e)2(n)10(g)10(t)5(h)10( s)7(h)10(ou)10(l)5(d)-2( al)5(s)7(o)-2( be k)10(e)2(pt)5( as)7( s)7(m)23(al)5(l)5( as)7( pos)7(s)7(i)5(bl)5(e.)]TJ
+0 -2.3614 TD
+0.002 Tc
+0.326 Tw
+[(T)-13(o)-4( )12(prepare )12(a diph)8(on)8(e database capable of)10( satisf)10(y)20(in)8(g)]TJ
+0 -1.1807 TD
+0.242 Tw
+[(th)8(ese requ)8(irem)21(en)8(ts, w)25(e)0( desig)8(n)8(e)0(d a catalog)8(u)8(e)0( of)10( )-12(1,692)]TJ
+T*
+0.06 Tw
+[(diph)9(on)9(es.  In)9( Korean)9(,  th)9(ere are 19 con)9(s)6(on)9(an)9(t )-12(ph)9(on)9(em)22(es)]TJ
+T*
+0.194 Tw
+[(an)8(d )12(21 )12(v)8(o)-4(w)25(e)0(l )12(ph)8(on)8(em)21(es )12(w)25(h)8(ich)8( are clearly)20( ref)10(l)3(ected in)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 4 0 R
+/F5 5 0 R
+/F7 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Length 17101
+>>
+stream
+1 1 1 rg
+/GS1 gs
+14 -12.92 594.96 841.92 re
+f
+BT
+/F7 1 Tf
+9.96 0 0 9.96 53.96 760.596 Tm
+0 0 0 rg
+0.002 Tc
+0.435 Tw
+[(Korean)8( alph)8(abets.  In)8( order to m)21(a)0(k)8(e)0( th)8(e )-12(database)]TJ
+0 -1.1807 TD
+0.061 Tw
+[(acceptable )12(to )12(th)8(e g)8(e)0(n)8(e)0(ral pu)8(blic, w)25(e)0( f)10(o)-4(llow)25(e)0(d th)8(e sy)20(stem)]TJ
+T*
+0 Tc
+0.123 Tw
+[(f)8(o)-6(r transliteratio)-6(n o)-6(f)8( Ko)-6(rean scrip)-6(t)1( into)-6( L)9(a)-2(tin characters)]TJ
+T*
+0.004 Tc
+0.493 Tw
+[(ag)10(reed )12(i)5(n)10( 1997 bet)5(w)27(een)10( S)6(o)-2(u)10(t)5(h)10( an)10(d Nort)5(h)10( Korean)]TJ
+T*
+0.156 Tw
+[(del)5(e)2(g)10(a)2(t)5(e)2(s)7( )12(\(IS)6(O )12(T)-11(R)8( )12(11941\).  In)10( order t)5(o)-2( di)5(s)7(t)5(i)]TJ
+18.7936 0 TD
+-0.004 Tc
+0.164 Tw
+[(nguish the)]TJ
+-18.7936 -1.1807 TD
+-0.001 Tc
+0.112 Tw
+[(no)-7(n-)7(am)18(b)-7(i)0(sy)17(llab)-7(i)0(c )12(sy)17(llab)-7(l)0(e )12(f)7(i)0(nal co)-7(nso)-7(n)5(ants f)7(r)-5(o)-7(m)18( sy)17(llab)-7(l)0(e)]TJ
+T*
+[(initial co)-7(nso)-7(n)5(ants w)22(e)-3( ap)-7(p)-7(e)-3(nd)-7(ed)-7( the d)-7(i)0(acritic )-12(sy)17(m)18(b)-7(o)-7(l)0( )-12(\223)9(c)-3(\224)]TJ
+T*
+0.003 Tc
+0.06 Tw
+[(to coda con)9(s)6(on)9(an)9(ts \223)13(g)9(\224, \223)13(n)9(\224, \223)13(d)-3(\224, )-12(\223)13(m)22(\224, )-12(\223)13(l)4(\224 )-12(an)9(d )-12(\223)13(b)-3(\224. )-12( )-12(W)-5(e)]TJ
+T*
+-0.001 Tc
+0.233 Tw
+[(also)-7( used)-7( the d)-7(i)0(acritic sy)17(m)18(b)-7(o)-7(l)0( \223)9(v)5(\224 to)-7( )-12(ind)-7(i)0(cate )-12(vo)-7(icing)]TJ
+T*
+0.003 Tc
+0.205 Tw
+[(af)11(ter th)9(e con)9(s)6(on)9(an)9(ts \223)13(g)9(\224, \223)13(d)-3(\224, \223)13(b)-3(\224 an)9(d )-12(\223)13(j)-8(\224. )-12( )-12(How)26(e)1(v)9(e)1(r,)]TJ
+T*
+-0.001 Tc
+0.124 Tw
+[(end)-7(-)7(users )12(d)-7(o)-7( )12(no)-7(t )12(have to)-7( inp)-7(u)5(t these d)-7(i)0(acritics since w)22(e)]TJ
+T*
+0.004 Tc
+0.288 Tw
+[(h)10(a)2(v)10(e)2( al)5(s)7(o)-2( prov)10(i)5(d)-2(ed s)7(o)-2(f)12(t)5(w)27(a)2(re t)5(o)-2( )-12(m)23(a)2(k)10(e)2( )-12(t)5(h)10(e )-12(appropri)5(a)2(t)5(e)]TJ
+T*
+-0.001 Tc
+0.004 Tw
+[(sub)-7(s)2(titutio)-7(ns auto)-7(m)18(a)-3(tically)17(.)]TJ
+0 -2.3615 TD
+0.245 Tw
+[(W)-9(e)-3( gro)-7(u)5(p)-7(e)-3(d)-7( the co)-7(nso)-7(n)5(ants into)-7( 1)-7(9)-7( in sy)17(llab)-7(l)0(e )-12(initial)]TJ
+0 -1.1807 TD
+0.052 Tw
+[(\(o)-7(nset\) )12(p)-7(o)-7(s)2(itio)-7(n and)-7( 7)-7( co)-7(nso)-7(n)5(ants in sy)17(llab)-7(l)0(e f)7(i)0(nal \(co)-7(d)-7(a)-3(\))]TJ
+T*
+0.185 Tw
+[(p)-7(o)-7(s)2(itio)-7(n.  In o)-7(u)5(r d)-7(a)-3(tab)-7(a)-3(se, a co)-7(d)-7(a)-3( co)-7(nso)-7(n)5(ant )-12(is )-12(a )-12(no)-7(n-)]TJ
+T*
+0.002 Tc
+0.627 Tw
+[(am)21(bisy)20(llabic con)8(s)5(on)8(an)8(t occu)8(py)20(in)8(g)8( a )-13(sy)20(llable )-13(f)10(i)3(n)8(a)0(l)]TJ
+T*
+-0.001 Tc
+0.233 Tw
+[(p)-7(o)-7(s)2(itio)-7(n in a clo)-7(s)2(ed)-7( sy)17(llab)-7(l)0(e.  )-12(W)-9(h)5(en )-12(the )-12(co)-7(nso)-7(n)5(ant )-12(is)]TJ
+T*
+0.112 Tw
+[(am)18(b)-7(i)0(sy)17(llab)-7(i)0(c w)22(ith the f)7(o)-7(llo)-7(w)22(i)0(ng sy)17(llab)-7(l)0(e and)-7( )-12(it )-12(o)-7(ccup)-7(i)0(es)]TJ
+T*
+0.04 Tw
+[(the o)-7(n)5(set p)-7(o)-7(s)2(itio)-7(n o)-7(f)7( the f)7(o)-7(llo)-7(w)22(i)0(ng sy)17(llab)-7(l)0(e, )-12(w)22(e)-3( )-12(treat )-12(it )-12(as)]TJ
+T*
+0.004 Tc
+0.144 Tw
+[(an)10( on)10(s)7(e)2(t)5( con)10(s)7(on)10(an)10(t)5(.)1(  A)15(l)5(l)5(oph)10(on)10(i)5(c)2( v)10(a)2(ri)5(an)10(t)5(s)7( of)12( )-12(con)10(s)7(on)10(an)10(t)5(s)]TJ
+T*
+-0.001 Tc
+0.209 Tw
+[(w)22(e)-3(re then estab)-7(lished)-7( as a f)7(unctio)-7(n )-12(o)-7(f)7( )-12(their )-12(segm)18(ental)]TJ
+T*
+0.002 Tc
+0.338 Tw
+[(an)8(d su)8(pra-)10(seg)8(m)21(en)8(tal con)8(t)3(ex)8(t. For in)8(stan)8(ce, )-12(ev)8(ery)20( )-12(lax)]TJ
+T*
+0.218 Tw
+[(u)8(n)8(a)0(spirated obstru)8(e)0(n)8(t)3( stop an)8(d )-12(af)10(f)10(r)-2(icate )-12(h)8(a)0(s )-12(its )-12(v)8(o)-4(iced)]TJ
+T*
+0.001 Tc
+0.171 Tw
+[(equ)7(i)2(v)7(a)-1(len)7(t)2(s. )12( )12(W)-7(h)7(ere )12(th)7(ere )12(is a con)7(t)2(rast betw)24(een)7( v)7(o)-5(iced)]TJ
+T*
+-0.004 Tc
+0.091 Tw
+[(a)-6(n)2(d)-10( vo)-10(ic)-6(e)-6(l)-3(e)-6(ss o)-10(b)-10(s)-1(tr)-8(ue)-6(nts,)-7( the)-6( b)-10(a)-6(sic)-6( \()-8(und)-10(e)-6(r)-8(ly)14(ing\))-8( )-12(se)-6(gm)15(e)-6(n)2(t)]TJ
+T*
+0.001 Tc
+0.171 Tw
+[(is )12(a )12(v)7(o)-5(iceless on)7(e.  T)-14(h)7(e lax)7( u)7(n)7(a)-1(spirated v)7(e)-1(lar stop h)7(a)-1(s)]TJ
+T*
+-0.001 Tc
+0.149 Tw
+[(tw)22(o)-7( )12(allo)-7(p)-7(h)5(o)-7(n)5(es )12(in the o)-7(n)5(set p)-7(o)-7(s)2(itio)-7(n: vo)-7(iceless \223)9(g)5(\224 and)]TJ
+T*
+0.001 Tc
+0.038 Tw
+[(v)7(o)-5(iced )12(\223)11(g)7(v)7(\224)-1(.  If)9( th)7(e seg)7(m)20(en)7(t f)9(o)-5(llow)24(s)4( a v)7(o)-5(iced seg)7(m)20(en)7(t, it)]TJ
+T*
+0 Tc
+0.087 Tw
+[(b)-6(eco)-6(m)19(e)-2(s vo)-6(iced)-6(.  In the co)-6(d)-6(a)-2( )-12(p)-6(o)-6(s)3(itio)-6(n, )-12(it )-12(b)-6(eco)-6(m)19(e)-2(s )-12(\223)8(g)6(c\224.)]TJ
+T*
+-0.001 Tc
+0.052 Tw
+[(T)-16(h)5(e )12(alveo)-7(l)0(ar )12(sto)-7(p)-7( )12(has \223)9(d)-7(\224 and)-7( \223)8(d)-7(v\224 in the o)-7(n)5(set p)-7(o)-7(s)2(itio)-7(n,)]TJ
+T*
+0.185 Tw
+[(\223)9(d)-7(c\224 in the co)-7(d)-7(a)-3( p)-7(o)-7(s)2(itio)-7(n.  B)-9(ilab)-7(i)0(al )-12(has )-12(\223)9(b)-7(\224, )-12(\223)8(b)-7(v\224 )-12(and)]TJ
+T*
+0.001 Tc
+0.05 Tw
+[(\223)11(b)-5(c\224.  T)-14(h)7(e lax)7( )-12(u)7(n)7(a)-1(spirated )-13(alv)7(e)-1(opalatal )-12(af)9(f)9(r)-3(icate )-12(also )-12(h)7(a)-1(s)]TJ
+T*
+-0.001 Tc
+0.028 Tw
+[(tw)22(o)-7( allo)-7(p)-7(h)5(o)-7(n)5(es: \223)9(j)-12(\224 and)-7( \223)8(j)-12(v\224 in the o)-7(n)5(set p)-7(o)-7(s)2(itio)-7(n.  In )-12(the)]TJ
+T*
+0 Tc
+0.389 Tw
+[(co)-6(d)-6(a)-2( p)-6(o)-6(s)3(itio)-6(n, \223)10(j)-11(\224 is neutralized)-6( to)-6( \223)10(d)-6(c\224.  T)-15(h)6(e lax)]TJ
+T*
+-0.001 Tc
+[(f)7(r)-5(icative )13(has )13(tw)22(o)-7( allo)-7(p)-7(h)5(o)-7(n)5(es in o)-7(n)5(set p)-7(o)-7(s)2(itio)-7(n: \223)8(s)2(h\224)]TJ
+T*
+-0.006 Tc
+0.515 Tw
+[(b)-12(e)-8(fo)-12(r)-10(e)-8( a)-8( high vo)-12(w)17(e)-8(l a)-8(n)0(d)-12( \223s\224)-8( o)-12(t)-5(he)-8(r)-10(w)17(ise)-8(.)-9(  Am)13(o)-12(n)0(g)]TJ
+T*
+0.002 Tc
+0.182 Tw
+[(obstru)8(e)0(n)8(t)3(s, ten)8(s)5(e u)8(n)8(a)0(spirated an)8(d ten)8(s)5(e aspirated stops,)]TJ
+T*
+-0.001 Tc
+0.233 Tw
+[(and)-7( f)7(r)-5(icatives are all neutralized)-7( in the co)-7(d)-7(a)-3( p)-7(o)-7(s)2(itio)-7(n.)]TJ
+T*
+0.002 Tc
+0.001 Tw
+[(A)13(l)3(v)8(e)0(olar/palatal obstru)8(e)0(n)8(t)3(s \223)11(c)0(h)8(\224)0(, \223)12(j)-9(j)-9(\224)0(, )-12(\223)12(t)3(\224, )-12(\223)12(dd\224, )-12(\223)12(ss\224, )-12(an)8(d)]TJ
+T*
+0.013 Tw
+[(\223)12(s)5(\224 are n)8(e)0(u)8(t)3(ralized to \223)12(d)-4(c\224; v)8(e)0(lar )-12(obstru)8(e)0(n)8(t)3(s )-12(\223)12(k)8(\224 )-12(an)8(d )-12(\223)10(g)8(g)8(\224)]TJ
+T*
+0.037 Tw
+[(are n)8(e)0(u)8(t)3(ralized to \223)12(g)8(c\224;  )-12(bilabial )-12(obstru)8(e)0(n)8(t)3(s )-12(\223)12(p)-4(\224 )-12(an)8(d )-12(\223)12(bb\224)]TJ
+T*
+0.338 Tw
+[(are )12(n)8(e)0(u)8(t)3(ralized to \223)12(b)-4(c\224;  ph)8(ary)20(n)8(g)8(eal f)10(r)-2(icativ)8(e \223)12(h)8(\224 is)]TJ
+T*
+-0.004 Tc
+0.344 Tw
+[(ne)-6(utr)-8(a)-6(liz)-6(e)-6(d)-10( )12(to)-10( \223d)-10(c)-6(\224)-6(.)-7(  N)-5(o)-10(ne)-6( o)-10(f)4( the)-6(s)-1(e)-6( o)-10(b)-10(s)-1(tr)-8(ue)-6(nts ha)-6(ve)]TJ
+T*
+-0.005 Tc
+0.104 Tw
+[(vo)-11(ic)-7(e)-7(d)-11( )12(e)-7(q)-11(uiva)-7(le)-7(nts.)-8(  Am)14(o)-11(ng the)-7( so)-11(no)-11(r)-9(a)-7(nts,)-8( \223n\224)-7(,)-8( \223r)-9(\224)-7(,)-8( a)-7(n)1(d)]TJ
+T*
+0 Tc
+0.364 Tw
+[(\223)10(m)19(\224 ap)-6(p)-6(ear in sy)18(llab)-6(l)1(e initial p)-6(o)-6(s)3(itio)-6(n. )-12( )-12(\223)10(r)-4(\224 )-12(has )-12(an)]TJ
+T*
+-0.004 Tc
+0.031 Tw
+[(a)-6(llo)-10(p)-10(h)2(o)-10(n)2(e)-6( \223l\224)-6( w)19(h)2(e)-6(n)2( it fo)-10(llo)-10(w)19(s)-1( the)-6( \223l\224)-6( c)-6(o)-10(d)-10(a)-6(.)-7(  T)-19(h)2(o)-10(ugh )-12(\223ng\224)]TJ
+T*
+-0.001 Tc
+0.052 Tw
+[(can p)-7(h)5(o)-7(n)5(o)-7(l)0(o)-7(g)5(ically)17( ap)-7(p)-7(ear in the sy)17(llab)-7(l)0(e initial p)-7(o)-7(s)2(itio)-7(n,)]TJ
+T*
+0.137 Tw
+[(it )13(is )13(rarely)17( )13(likely)17( )13(to)-7( )13(ap)-7(p)-7(ear in that p)-7(o)-7(s)2(itio)-7(n.  So)-7( w)22(e)-3( p)-7(u)5(t)]TJ
+T*
+0.004 Tw
+[(\223)9(ng\224 in the co)-7(d)-7(a)-3( p)-7(o)-7(s)2(itio)-7(n.  In the co)-7(d)-7(a)-3( )-12(p)-7(o)-7(s)2(itio)-7(n, )-12(so)-7(no)-7(rants)]TJ
+T*
+0.003 Tc
+0 Tw
+[(h)9(a)1(v)9(e)1( \223)13(n)9(c\224, \223)13(l)4(c\224, \223)13(m)22(c\224 an)9(d \223)13(n)9(g)9(\224)1(.)]TJ
+0 -2.3614 TD
+0.005 Tc
+0.432 Tw
+[(Korean)11( v)11(o)-1(w)28(e)3(l)6(s)8( con)11(s)8(i)6(s)8(t)6( of)13( 9 m)24(o)-1(n)11(oph)11(t)6(h)11(on)11(g)11(s)8( an)11(d )-12(12)]TJ
+0 -1.1807 TD
+0.002 Tc
+0.35 Tw
+[(diph)8(th)8(on)8(g)8(s)5(.  Each)8( diph)8(th)8(on)8(g)8( is treated as )-12(a )-12(u)8(n)8(itary)]TJ
+T*
+-0.002 Tc
+0.053 Tw
+[(segm)17(ent in the d)-8(i)-1(p)-8(h)4(o)-8(n)4(e d)-8(a)-4(tab)-8(a)-4(se, w)21(itho)-8(u)4(t sp)-8(litting )-12(it )-12(into)]TJ
+T*
+0.001 Tc
+0.098 Tw
+[(tw)24(o v)7(o)-5(w)24(e)-1(ls.  B)-7(ecau)7(se th)7(ere are n)7(o)-5( )-12(sig)7(n)7(i)2(f)9(i)2(can)7(t )-12(v)7(a)-1(riation)7(s)]TJ
+T*
+-0.001 Tc
+0.064 Tw
+[(o)-7(f)7( vo)-7(w)22(e)-3(l realisatio)-7(n in co)-7(ntext,  w)22(e)-3( d)-7(i)0(d)-7( no)-7(t co)-7(nsid)-7(er )-12(any)]TJ
+25.9036 67.3012 TD
+0 Tc
+0.099 Tw
+[(f)8(u)6(rther )12(allo)-6(p)-6(h)6(o)-6(n)6(ic )12(variants )12(f)8(o)-6(r vo)-6(w)23(e)-2(ls.  T)-15(a)-2(b)-6(l)1(e 1)-6( lists the)]TJ
+0 -1.1807 TD
+0.004 Tc
+-0.001 Tw
+[(con)10(s)7(on)10(an)10(t)5(s)7( an)10(d v)10(o)-2(w)27(e)2(l)5(s)7( u)10(s)7(ed i)5(n)10( t)5(h)10(e di)5(ph)10(on)10(e dat)5(a)2(bas)7(e)2(.)]TJ
+0 -2.3614 TD
+0.005 Tc
+0.058 Tw
+[(F)7(r)1(om)24( t)6(h)11(i)6(s)8( l)6(i)6(s)8(t)6( of)13( s)8(e)3(g)11(m)24(en)11(t)6(s)8(, 12 g)11(r)1(ou)11(ps)8( of)13( n)11(o)-1(n)11(s)8(en)11(s)8(e)3( )-12(w)28(o)-1(rds)]TJ
+0 -1.1807 TD
+0 Tc
+0.34 Tw
+[(w)23(e)-2(re co)-6(nstructed)-6( to)-6( d)-6(e)-2(f)8(i)1(ne )-12(all )-12(the )-12(availab)-6(l)1(e )-12(d)-6(i)1(p)-6(h)6(o)-6(n)6(e)]TJ
+T*
+-0.001 Tc
+0.245 Tw
+[(co)-7(ntexts. )12( Gro)-7(u)5(p)-7( 1)-7( co)-7(nsists o)-7(f)7( all the vo)-7(iced)-7( sy)17(llab)-7(l)0(e)]TJ
+T*
+-0.002 Tc
+0.101 Tw
+[(o)-8(n)4(set co)-8(nso)-8(n)4(ants in co)-8(m)17(b)-8(inatio)-8(n w)21(ith f)6(o)-8(llo)-8(w)21(i)-1(ng vo)-8(w)21(e)-4(ls.)]TJ
+T*
+0.222 Tw
+[(Gro)-8(u)4(p)-8( )12(2)-8( co)-8(nsists o)-8(f)6( all vo)-8(w)21(e)-4(l to)-8( vo)-8(w)21(e)-4(l co)-8(m)17(b)-8(inatio)-8(ns,)]TJ
+T*
+0.004 Tc
+0.252 Tw
+[(Grou)10(p 3 al)5(l)5( v)10(o)-2(w)27(e)2(l)5( an)10(d coda con)10(s)7(on)10(an)10(t)5( com)23(b)-2(i)5(n)10(at)5(i)5(o)-2(n)10(s)7(,)]TJ
+T*
+0.36 Tw
+[(Grou)10(p 4 al)5(l)5( v)10(o)-2(w)27(e)2(l)5( an)10(d pau)10(s)7(e com)23(b)-2(i)5(n)10(at)5(i)5(o)-2(n)10(s)7(. )-12( )-12(Ot)5(h)10(e)2(r)]TJ
+T*
+0.005 Tc
+0.058 Tw
+[(g)11(r)1(ou)11(ps)8( con)11(s)8(i)6(s)8(t)6(e)3(d of)13( coda con)11(s)8(on)11(an)11(t)6( )-12(an)11(d )-12(on)11(s)8(e)3(t)6( )-12(con)11(s)8(on)11(an)11(t)]TJ
+T*
+-0.001 Tc
+0.112 Tw
+[(co)-7(m)18(b)-7(inatio)-7(ns, )12(vo)-7(w)22(e)-3(l )12(and)-7( o)-7(n)5(set co)-7(nso)-7(n)5(ant co)-7(m)18(b)-7(inatio)-7(ns,)]TJ
+T*
+0.002 Tc
+0.146 Tw
+[(sy)20(llable coda con)8(s)5(on)8(an)8(t an)8(d pau)8(s)5(e com)21(b)-4(in)8(ation)8(s)5(, pau)8(s)5(e)]TJ
+T*
+0.361 Tw
+[(an)9(d on)9(set con)9(s)6(on)9(an)9(t com)22(b)-3(in)9(ation)9(s)6(, pau)9(s)6(e an)9(d v)9(o)-3(w)26(e)1(l)]TJ
+T*
+0.495 Tw
+[(com)21(b)-4(in)8(ation)8(s)5(, v)8(o)-4(iceless on)8(set con)8(s)5(on)8(an)8(t an)8(d )-12(v)8(o)-4(w)25(e)0(l)]TJ
+T*
+-0.001 Tc
+0.137 Tw
+[(co)-7(m)18(b)-7(inatio)-7(ns, co)-7(d)-7(a)-3( and)-7( vo)-7(w)22(e)-3(l co)-7(m)18(b)-7(inatio)-7(ns, and)-7( p)-7(a)-3(use)]TJ
+T*
+0.004 Tc
+-0.001 Tw
+[(al)5(on)10(e.  A)15( l)5(i)5(s)7(t)5( of)12( g)10(r)0(ou)10(ps)7( an)10(d cou)10(n)10(t)5(s)7( are s)7(h)10(ow)27(n)10( i)5(n)10( T)-11(a)2(bl)5(e 2.)]TJ
+/F3 1 Tf
+0 -2.3734 TD
+0.002 Tc
+0.001 Tw
+(2.2  Recording)Tj
+/F7 1 Tf
+0 -1.1567 TD
+0.242 Tw
+[(T)-13(h)8(e )12(speak)8(er )12(w)25(a)0(s )12(a )12(stan)8(dard Korean)8( speak)8(er w)25(h)8(o h)8(a)0(d)]TJ
+0 -1.1807 TD
+0 Tc
+0.111 Tw
+[(lived)-6( )12(in Seo)-6(u)6(l f)8(o)-6(r 3)-6(2)-6( y)18(ears b)-6(e)-2(f)8(o)-6(re co)-6(m)19(i)1(ng to)-6( the UK to)]TJ
+T*
+0.004 Tc
+0.083 Tw
+[(s)7(t)5(u)10(d)-2(y)22( i)5(n)10( 1997.  T)-11(h)10(e recordi)5(n)10(g)10(s)7( w)27(e)2(re m)23(a)2(de )-12(f)12(o)-2(u)10(r)0( )-12(t)5(i)5(m)23(es)7( )-12(i)5(n)]TJ
+T*
+0.002 Tc
+0.085 Tw
+[(an)8( an)8(ech)8(oic ch)8(am)21(ber on)8( dig)8(ital tape u)8(s)5(in)8(g)8( 2 ch)8(an)8(n)8(e)0(ls )-12(at)]TJ
+T*
+0.182 Tw
+[(44,100 s)5(a)0(m)21(p)-4(les)5(/)3(s)5(ec/ch)8(an)8(n)8(e)0(l. C)6(h)8(an)8(n)8(e)0(l 1 w)25(a)0(s)5( th)8(e s)5(p)-4(eech)]TJ
+T*
+-0.005 Tc
+0.116 Tw
+[(signa)-7(l )12(fr)-9(o)-11(m)14( m)14(i)-4(c)-7(r)-9(o)-11(p)-11(h)1(o)-11(n)1(e)-7(,)-8( c)-7(h)1(a)-7(nne)-7(l 2)-11( w)18(a)-7(s a)-7( La)-7(r)-9(y)13(ngo)-11(gr)-9(a)-7(p)-11(h)]TJ
+T*
+0.002 Tc
+0.097 Tw
+[(sig)8(n)8(a)0(l. )12( )12(T)-13(h)8(ey)20( )12(w)25(e)0(re resam)21(p)-4(led to 16 k)8(H)1(z an)8(d tran)8(sf)10(erred)]TJ
+T*
+-0.001 Tc
+0.124 Tw
+[(to)-7( d)-7(i)0(sk.  In o)-7(r)-5(d)-7(e)-3(r to)-7( retain )-13(the )-13(segm)18(ental )-13(naturalness )-13(o)-7(f)]TJ
+T*
+0.002 Tc
+0.085 Tw
+[(th)8(e diph)8(on)8(e database, th)8(e speak)8(er w)25(a)0(s )-12(requ)8(ested )-12(to )-12(read)]TJ
+T*
+0.121 Tw
+[(each)8( n)8(o)-4(n)8(s)5(en)8(se ph)8(rase rapidly)20( an)8(d f)10(l)3(u)8(e)0(n)8(tly)20( )-13(to )-13(sim)21(u)8(late )-13(a)]TJ
+T*
+[(real )12(u)8(tteran)8(ce.  T)-13(h)8(e speak)8(er w)25(a)0(s also requ)8(ested to k)8(eep)]TJ
+T*
+-0.002 Tc
+0.174 Tw
+[(the )12(p)-8(itch and)-8( rhy)16(t)-1(hm)17( co)-8(nsistent.  T)-17(h)4(is co)-8(nsistency)16( is a)]TJ
+T*
+0.004 Tc
+0.445 Tw
+[(prerequ)10(i)5(s)7(i)5(t)5(e)2( i)5(n)10( t)5(h)10(e produ)10(ct)5(i)5(o)-2(n)10( of)12( s)7(m)23(oot)5(h)10( )-12(s)7(e)2(g)10(m)23(en)10(t)5(a)2(l)]TJ
+T*
+0.002 Tc
+0.206 Tw
+[(con)8(caten)8(ation)8(.)-1( )12( )12(In)8( order to av)8(oid an)8(y)20( v)8(o)-4(cal f)10(r)-2(y)20( in)8( th)8(e)]TJ
+T*
+0.004 Tc
+0.156 Tw
+[(di)5(ph)10(on)10(e )12(dat)5(a)2(bas)7(e)2(, )12( w)27(e)2( pu)10(t)5( a n)10(e)2(u)10(t)5(ral)5( v)10(o)-2(w)27(e)2(l)5( \223)13(e)2(o\224 bef)12(o)-2(re)]TJ
+T*
+0.001 Tc
+0.038 Tw
+[(th)7(e targ)7(et w)24(o)-5(rds ex)7(cept f)9(o)-5(r th)7(ose startin)7(g)7( )-12(w)24(ith)7( )-12(a )-12(pau)7(s)4(e )-12(or)]TJ
+T*
+0.002 Tw
+[(a v)7(o)-5(iceless con)7(s)4(on)7(an)7(t.)]TJ
+/F3 1 Tf
+0 -2.3734 TD
+0.005 Tc
+-0.002 Tw
+[(2.3  An)7(n)7(o)-1(tati)6(on)]TJ
+/F7 1 Tf
+0 -1.1567 TD
+0.001 Tc
+0.002 Tw
+[(W)-7(e)-1( u)7(s)4(ed)-5(  th)7(e Sp)-5(eech)7( Filin)7(g)7( Sy)19(stem)20( )-12(\(SFS\) )-12([3)-5(] )-12( )-12(to)-5( )-12( )-12(an)7(aly)19(z)-1(e)]TJ
+0 -1.1807 TD
+0.002 Tc
+0.242 Tw
+[(an)8(d an)8(n)8(o)-4(tate th)8(e speech)8( data.  T)-13(h)8(e seg)8(m)21(en)8(tation)8( )-12(w)25(a)0(s)]TJ
+T*
+0 Tc
+0.473 Tw
+[(d)-6(ecid)-6(e)-2(d)-6( w)23(ith ref)8(e)-2(rence to)-6( )-12(three )-12(signals: )-12(w)23(a)-2(vef)8(o)-6(rm)19(,)]TJ
+T*
+-0.005 Tc
+0.586 Tw
+[(sp)-11(e)-7(c)-7(t)-4(r)-9(o)-11(gr)-9(a)-7(m)14(,)-8( a)-7(n)1(d)-11( La)-7(r)-9(y)13(ngo)-11(gr)-9(a)-7(p)-11(h signa)-7(l \()-9(L)4(x\))-9(.)-8(  W)-13(e)]TJ
+T*
+0.002 Tc
+0.17 Tw
+[(iden)8(tif)10(ied )12(th)8(ree )12(bou)8(n)8(d)-4(ary)20( poin)8(t)3(s: th)8(e m)21(i)3(d-)10(poin)8(t)3( of)10( each)]TJ
+T*
+0.097 Tw
+[(targ)8(et )12(seg)8(m)21(en)8(t )12(an)8(d )12(th)8(e bou)8(n)8(d)-4(ary)20( betw)25(een)8( th)8(e tw)25(o targ)8(et)]TJ
+T*
+-0.001 Tc
+0.004 Tw
+[(segm)18(ents.  A)10(nno)-7(tatio)-7(ns w)22(e)-3(re sto)-7(r)-5(ed)-7( as sam)18(p)-7(le num)18(b)-7(e)-3(rs in)]TJ
+T*
+0.004 Tc
+0.156 Tw
+[(a )12(dat)5(a)2(bas)7(e)2( )12(an)10(d )12(t)5(h)10(en)10( )12(ex)10(port)5(e)2(d i)5(n)10( a t)5(e)2(x)10(t)5( f)12(i)5(l)5(e)2( f)12(o)-2(r di)5(ph)10(on)10(e)]TJ
+T*
+-0.001 Tc
+0.004 Tw
+[(p)-7(r)-5(o)-7(cessing.  T)-16(h)5(ey)17( lo)-7(o)-7(k)5( like the f)7(o)-7(llo)-7(w)22(i)0(ng.)]TJ
+/F8 1 Tf
+9 0 0 9 311.96 198.637 Tm
+0 Tc
+0 Tw
+(a-a.d16    a   a    4526   7374   5844)Tj
+0 -1.0667 TD
+(a-ae.d16   a   ae   5148   7757   6306)Tj
+T*
+(a-b.d16    a   b    3741   5334   4868)Tj
+T*
+(a-bb.d16   a   bb   2874   4971   3619)Tj
+T*
+(a-bc.d16   a   bc   4274   6918   5346)Tj
+T*
+(a-ch.d16   a   ch   2342   4443   3062)Tj
+/F7 1 Tf
+9.96 0 0 9.96 311.96 126.996 Tm
+0.002 Tc
+0.615 Tw
+[(*)20(.)-1(d16 )12(ref)10(e)0(rs)5( )12(to )12(th)8(e s)5(p)-4(eech)8( s)5(i)3(g)8(n)8(a)0(l data f)10(ilen)8(a)0(m)21(e)0(.)]TJ
+0 -1.1807 TD
+0.001 Tc
+0.086 Tw
+[(Seg)7(m)20(en)7(ts )12(in)7( )12(th)7(e secon)7(d)-5( an)7(d th)7(ird colu)7(m)20(n)7(s are th)7(e targ)7(et)]TJ
+T*
+-0.001 Tc
+0.076 Tw
+[(d)-7(i)0(p)-7(h)5(o)-7(n)5(es. )12( T)-16(h)5(e f)7(o)-7(urth co)-7(lum)18(n)5( is the starting p)-7(o)-7(i)0(nt o)-7(f)7( the)]TJ
+T*
+0.004 Tc
+0.252 Tw
+[(di)5(ph)10(on)10(e )12(an)10(d t)5(h)10(e n)10(e)2(x)10(t)5( col)5(u)10(m)23(n)10( i)5(s)7( t)5(h)10(e en)10(d poi)5(n)10(t)5( of)12( t)5(h)10(e)]TJ
+T*
+0.071 Tw
+[(di)5(ph)10(on)10(e. )12( )12(T)-11(h)10(e l)5(a)2(s)7(t)5( col)5(u)10(m)23(n)10( i)5(n)10(di)5(cat)5(es)7( t)5(h)10(e m)23(i)5(d poi)5(n)10(t)5( of)12( t)5(h)10(e)]TJ
+ET
+endstream
+endobj
+11 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 4 0 R
+/F7 6 0 R
+/F8 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+14 0 obj
+<<
+/Length 16713
+>>
+stream
+1 1 1 rg
+/GS1 gs
+14 -12.92 594.96 841.92 re
+f
+BT
+/F7 1 Tf
+9.96 0 0 9.96 53.96 760.596 Tm
+0 0 0 rg
+0.002 Tc
+0.471 Tw
+[(diph)8(on)8(e, th)8(at is, th)8(e )-12(bou)8(n)8(d)-4(ary)20( )-12(betw)25(een)8( )-12(tw)25(o )-12(targ)8(et)]TJ
+0 -1.1807 TD
+-0.003 Tc
+[(segm)16(ents.)]TJ
+/F3 1 Tf
+0 -2.3734 TD
+0.004 Tc
+-0.001 Tw
+[(2.4  M)-16(B)-4(ROL)8(A)3( Ap)6(p)6(l)5(i)5(c)2(ati)5(o)-2(n)]TJ
+/F7 1 Tf
+0 -1.1567 TD
+0.734 Tw
+[(T)-11(h)10(e di)5(ph)10(on)10(e recordi)5(n)10(g)10(s)7( w)27(e)2(re proces)7(s)7(e)2(d by)22( )-12(t)5(h)10(e)]TJ
+0 -1.1807 TD
+-0.001 Tc
+0.052 Tw
+[(MB)-9(ROL)8(A)10( )12(team)18( )12(in B)-9(e)-3(lgium)18( to)-7( p)-7(r)-5(o)-7(d)-7(u)5(ce the kr1)-7( d)-7(a)-3(tab)-7(a)-3(se.)]TJ
+T*
+0.005 Tc
+0.131 Tw
+[(A)16(ppl)6(i)6(cat)6(i)6(o)-1(n)11(s)8( bas)8(e)3(d on)11( t)6(h)11(i)6(s)8( dat)6(a)3(bas)8(e)3( )-12(are )-12(s)8(u)11(pport)6(e)3(d )-12(on)11( )-12(a)]TJ
+T*
+-0.005 Tc
+0.092 Tw
+[(w)18(i)-4(d)-11(e)-7( r)-9(a)-7(nge)-7( o)-11(f)3( c)-7(o)-11(m)14(p)-11(uting p)-11(l)-4(a)-7(t)-4(fo)-11(r)-9(m)14(s using )-12(the)-7( )-12(M)-7(B)-13(RO)-6(LA)]TJ
+T*
+-0.004 Tc
+0.272 Tw
+[(signa)-6(l ge)-6(ne)-6(r)-8(a)-6(tio)-10(n e)-6(ngine)-6(.)-7(  D)-5(i)-3(p)-10(h)2(o)-10(n)2(e)-6( c)-6(o)-10(nc)-6(a)-6(t)-3(e)-6(n)2(a)-6(tio)-10(n )-12(a)-6(n)2(d)]TJ
+T*
+0.005 Tc
+0.384 Tw
+[(pros)8(ody)23( m)24(a)3(n)11(i)6(pu)11(l)6(a)3(t)6(i)6(o)-1(n)11( i)6(s)8( perf)13(orm)24(e)3(d u)11(s)8(i)6(n)11(g)11( t)6(h)11(e MBR)9(-)]TJ
+T*
+-0.001 Tc
+0.257 Tw
+[(P)-11(S)1(OL)8(A)10( )12(algo)-7(rithm)18( )12([2)-7(].  T)-16(h)5(is m)18(e)-3(tho)-7(d)-7( is an interesting)]TJ
+T*
+0.052 Tw
+[(alternative to)-7( p)-7(u)5(rely)17( tim)18(e-)7(d)-7(o)-7(m)18(ain P)-11(S)1(OL)8(A)10(,)-4( in the co)-7(ntext)]TJ
+T*
+-0.003 Tc
+0.163 Tw
+[(o)-9(f)5( a)-5( m)16(u)3(lti-lingua)-5(l T)-18(T)-18(S)-1( sy)15(ste)-5(m)16(,)-6( fo)-9(r)-7( w)20(h)3(ic)-5(h the)-5( a)-5(b)-9(ility)15( )-12(to)]TJ
+T*
+-0.001 Tc
+0.076 Tw
+[(d)-7(e)-3(rive )12(segm)18(ent d)-7(a)-3(tab)-7(a)-3(ses auto)-7(m)18(a)-3(tically)17(, to)-7( sto)-7(r)-5(e them)18( in)]TJ
+T*
+0 Tc
+0.22 Tw
+[(a )12(co)-6(m)19(p)-6(act w)23(a)-2(y)18(,)-3( an)6(d)-6( to)-6( sy)18(n)6(t)1(h)6(e)-2(size h)6(i)1(g)6(h)6( q)-6(u)6(ality)18( sp)-6(eech)]TJ
+T*
+0.004 Tc
+0.119 Tw
+[(w)27(i)5(t)5(h)10( a m)23(i)5(n)10(i)5(m)23(u)10(m)23( n)10(u)10(m)23(ber of)12( operat)5(i)5(o)-2(n)10(s)7( per )-13(s)7(a)2(m)23(p)-2(l)5(e)2( )-13(i)5(s)7( )-13(of)]TJ
+T*
+0.002 Tc
+0.254 Tw
+[(con)8(s)5(iderable )12(in)8(terest. )12( )12(T)-13(h)8(e f)10(o)-4(rm)21(at of)10( th)8(e con)8(t)3(rol data)]TJ
+T*
+-0.001 Tc
+0.197 Tw
+[(inp)-7(u)5(t )12(to)-7( the MB)-9(ROL)8(A)10( ap)-7(p)-7(licatio)-7(n is as f)7(o)-7(llo)-7(w)22(s)2(.  T)-16(h)5(e)]TJ
+T*
+0.003 Tc
+0 Tw
+[(targ)9(et w)26(o)-3(rd is)6( \223)13(g)9(an)9(da \(to g)9(o)-3(\)\224.)]TJ
+/F8 1 Tf
+9 0 0 9 53.96 527.797 Tm
+0 Tc
+(_  100)Tj
+0 -1.0667 TD
+(g   35)Tj
+T*
+(a   79 0 140 50 135 100 135)Tj
+T*
+(nc 120)Tj
+T*
+(d   70)Tj
+T*
+(a  150 0 135 50 140 100 135)Tj
+T*
+(_  100)Tj
+/F7 1 Tf
+9.96 0 0 9.96 53.96 446.556 Tm
+0.002 Tc
+0.049 Tw
+[(In)8( )12(th)8(e )12(abov)8(e )12(table, )12(\223)12(_)-4(\224 stan)8(ds f)10(o)-4(r th)8(e pau)8(s)5(e.  T)-13(h)8(e secon)8(d)]TJ
+0 -1.1807 TD
+0.073 Tw
+[(colu)8(m)21(n)8( of)10( each)8( row)25( represen)8(ts th)8(e du)8(ration)8( of)10( th)8(e )-12(targ)8(et)]TJ
+T*
+-0.001 Tc
+0.016 Tw
+[(segm)18(ent in m)18(illiseco)-7(nd)-7(s.  T)-16(h)5(e o)-7(t)0(her co)-7(lum)18(n)5(s )-12(d)-7(e)-3(scrib)-7(e)-3( )-12(the)]TJ
+T*
+0.185 Tw
+[(p)-7(itch )12(co)-7(nto)-7(u)5(r )12(f)7(o)-7(r )12(the )12(segm)18(ent )12(in p)-7(a)-3(irs o)-7(f)7( num)18(b)-7(e)-3(rs: the)]TJ
+T*
+0.112 Tw
+[(f)7(i)0(rst )12(value )12(in )12(the )12(p)-7(a)-3(ir is the p)-7(e)-3(rcentage p)-7(o)-7(s)2(itio)-7(n thro)-7(ugh)]TJ
+T*
+0.001 Tc
+0.508 Tw
+[(th)7(e )12(seg)7(m)20(en)7(t, )12(th)7(e secon)7(d)-5( v)7(a)-1(lu)7(e is th)7(e f)9(u)7(n)7(d)-5(am)20(en)7(tal)]TJ
+T*
+0.05 Tw
+[(f)9(r)-3(equ)7(e)-1(n)7(c)-1(y)19( )12(in)7( h)7(e)-1(rtz.  P)-9(itch)7( v)7(a)-1(lu)7(es are lin)7(early)19( in)7(terpolated)]TJ
+T*
+0.279 Tw
+[(in)7(side an)7(d across seg)7(m)20(en)7(ts.  A)12(t)2( th)7(is stag)7(e, )-12(th)7(e )-12(in)7(pu)7(t)]TJ
+T*
+0 Tc
+0.196 Tw
+[(transcrip)-6(tio)-6(n need)-6(s to)-6( b)-6(e)-2( f)8(u)6(lly)18( sp)-6(ecif)8(i)1(ed)-6( f)8(o)-6(r allo)-6(p)-6(h)6(o)-6(n)6(ic)]TJ
+T*
+0.002 Tc
+0.435 Tw
+[(v)8(a)0(rian)8(ts.  For ex)8(am)21(ple, w)25(h)8(en)8( )-12(y)20(o)-4(u)8( )-12(in)8(pu)8(t )-12(\223)11(h)8(alabeoj)-9(i)]TJ
+T*
+-0.001 Tc
+0.076 Tw
+[(\(grand)-7(f)7(a)-3(ther\)\224 into)-7( the f)7(ile, y)17(o)-7(u sho)-7(u)5(ld)-7( ty)17(p)-7(e)-3( \223)9(_)-7( )-12(h )-12(a )-12(r )-12(a )-12(b)]TJ
+T*
+0.002 Tc
+0.134 Tw
+[(eo j)-9( i _\224 n)8(o)-4(t \223)12(_)-4( h)8( a l a b eo j)-9( i _\224.  )-12(T)-13(o)-4( )-12(ov)8(ercom)21(e)0( )-12(th)8(is)]TJ
+T*
+-0.004 Tc
+0.368 Tw
+[(p)-10(r)-8(o)-10(b)-10(l)-3(e)-6(m)15(,)-7( w)19(e)-6( ha)-6(ve)-6( b)-10(e)-6(e)-6(n)2( d)-10(e)-6(ve)-6(lo)-10(p)-10(i)-3(ng a)-6( le)-6(xic)-6(o)-10(n )-12(w)19(h)2(ic)-6(h)]TJ
+T*
+-0.003 Tc
+0.114 Tw
+[(c)-5(o)-9(nta)-5(i)-2(ns )12(the)-5( p)-9(r)-7(o)-9(nunc)-5(ia)-5(tio)-9(n o)-9(f)5( w)20(o)-9(r)-7(d)-9(s,)-6( w)20(h)3(ic)-5(h is d)-9(e)-5(sc)-5(r)-7(i)-2(b)-9(e)-5(d)]TJ
+T*
+-0.001 Tc
+0.004 Tw
+[(in the next sectio)-7(n.)]TJ
+/F3 1 Tf
+0 -2.3734 TD
+0.005 Tc
+-0.002 Tw
+[(2.5  T)9(ool)6(s)]TJ
+/F7 1 Tf
+0 -1.1567 TD
+-0.004 Tc
+0.489 Tw
+[(As )12(m)15(e)-6(ntio)-10(ne)-6(d)-10( a)-6(b)-10(o)-10(v)2(e)-6(,)-7( a)-6( p)-10(r)-8(o)-10(nunc)-6(ia)-6(tio)-10(n d)-10(i)-3(c)-6(tio)-10(na)-6(r)-8(y)14( is)]TJ
+0 -1.1807 TD
+0.002 Tc
+0.326 Tw
+[(n)8(ecessary)20( )12(to con)8(v)8(e)0(rt orth)8(og)8(raph)8(ic ch)8(aracters in)8(to th)8(e)]TJ
+T*
+0.004 Tc
+0.144 Tw
+[(s)7(y)22(m)23(bol)5(s)7( u)10(s)7(ed i)5(n)10( t)5(h)10(i)5(s)7( di)5(ph)10(on)10(e dat)5(a)2(bas)7(e)2(.  )-12(Us)7(i)5(n)10(g)10( )-12(a )-12(s)7(e)2(t)5( )-12(of)]TJ
+T*
+-0.003 Tc
+0.066 Tw
+[(p)-9(h)3(o)-9(n)3(o)-9(l)-2(o)-9(g)3(ic)-5(a)-5(l)-2( r)-7(u)3(le)-5(s,)-6( w)20(e)-5( ha)-5(ve)-5( c)-5(o)-9(nstr)-7(uc)-5(te)-5(d)-9( a)-5( le)-5(xic)-5(o)-9(n )-12(w)20(h)3(ic)-5(h)]TJ
+T*
+-0.004 Tc
+0.73 Tw
+[(c)-6(o)-10(nta)-6(i)-3(ns a)-6(c)-6(t)-3(ua)-6(l p)-10(r)-8(o)-10(nunc)-6(ia)-6(tio)-10(ns o)-10(f)4( )-12(w)19(o)-10(r)-8(d)-10(s.)-7( )-12( )-12(E)-7(a)-6(c)-6(h)]TJ
+T*
+-0.003 Tc
+0.259 Tw
+[(p)-9(r)-7(o)-9(nunc)-5(ia)-5(tio)-9(n )12(is )12(e)-5(n)3(c)-5(o)-9(d)-9(e)-5(d)-9( in the)-5( le)-5(xic)-5(o)-9(n a)-5(s)0( a)-5( m)16(e)-5(tr)-7(ic)-5(a)-5(l)]TJ
+T*
+0.001 Tc
+0.098 Tw
+[(stru)7(ctu)7(r)-3(e com)20(p)-5(risin)7(g)7( sy)19(llable, on)7(set, rh)7(y)19(m)20(e, )-12(n)7(u)7(c)-1(leu)7(s)4( )-12(an)7(d)]TJ
+T*
+0.062 Tw
+[(coda )12(n)7(odes as w)24(e)-1(ll as th)7(e seg)7(m)20(en)7(ts, w)24(h)7(ich)7( are described)]TJ
+T*
+0.002 Tc
+0.17 Tw
+[(u)8(s)5(in)8(g)8( )12(f)10(eatu)8(r)-2(es. )12( A)13(n)8( ex)8(am)21(ple en)8(try)20( is g)8(i)3(v)8(e)0(n)8( in)8( T)-13(a)0(ble 3.)]TJ
+T*
+0.362 Tw
+[(P)-8(h)8(rases can)8( be con)8(s)5(tru)8(c)0(ted f)10(r)-2(om)21( su)8(ch)8( a lex)8(i)3(con)8( )-12(by)]TJ
+T*
+0.17 Tw
+[(con)8(caten)8(ation)8( )12(of)10( )12(th)8(e prosodic stru)8(ctu)8(r)-2(es an)8(d th)8(ese m)21(a)0(y)]TJ
+T*
+-0.001 Tc
+0.257 Tw
+[(then b)-7(e)-3( p)-7(r)-5(o)-7(cessed)-7( b)-7(y)17( rules )-12(o)-7(f)7( )-12(p)-7(h)5(o)-7(n)5(etic )-12(interp)-7(retatio)-7(n.)]TJ
+T*
+0.004 Tc
+0.445 Tw
+[(T)-11(h)10(i)5(s)7( f)12(r)0(am)23(ew)27(ork)10( f)12(o)-2(r pros)7(odi)5(c s)7(y)22(n)10(t)5(h)10(e)2(s)7(i)5(s)7( f)12(o)-2(l)5(l)5(o)-2(w)27(s)7( t)5(h)10(at)]TJ
+T*
+0.005 Tc
+0.384 Tw
+[(es)8(t)6(a)3(bl)6(i)6(s)8(h)11(e)3(d )13(by)23( )13(t)6(h)11(e ProS)7(y)23(n)11(t)6(h)11( project)6( [4].  F)7(r)1(om)24( t)6(h)11(e)]TJ
+T*
+0.004 Tc
+0.168 Tw
+[(i)5(n)10(t)5(e)2(rpret)5(e)2(d s)7(t)5(ru)10(ct)5(u)10(r)0(e, a m)23(a)2(ppi)5(n)10(g)10( can)10( be m)23(a)2(de )-12(f)12(r)0(om)23( )-12(t)5(h)10(e)]TJ
+25.9036 68.1205 TD
+-0.001 Tc
+0.305 Tw
+[(p)-7(r)-5(ed)-7(icted)-7( p)-7(h)5(o)-7(n)5(etic p)-7(r)-5(o)-7(p)-7(e)-3(rties, tim)18(ing )-12(and)-7( )-12(into)-7(natio)-7(nal)]TJ
+0 -1.1807 TD
+0.594 Tw
+[(f)7(eatures )12(to)-7( )12(actual values inp)-7(u)5(t to)-7( the MB)-9(ROL)8(A)]TJ
+T*
+[(ap)-7(p)-7(licatio)-7(n.)]TJ
+/F3 1 Tf
+0 -2.3734 TD
+0.005 Tc
+-0.002 Tw
+[(2.6  E)9(val)6(u)7(a)-1(ti)6(on)]TJ
+/F7 1 Tf
+0 -1.1567 TD
+0.002 Tc
+0.483 Tw
+[(Sin)8(ce a com)21(p)-4(reh)8(e)0(n)8(s)5(iv)8(e tem)21(poral m)21(odel is )-12(n)8(o)-4(t )-12(y)20(e)0(t)]TJ
+0 -1.1807 TD
+0.29 Tw
+[(av)8(ailable, ev)8(alu)8(a)0(tion)8( of)10( th)8(e diph)8(on)8(e sy)20(stem)21( h)8(a)0(s )-12(been)]TJ
+T*
+-0.004 Tc
+0.248 Tw
+[(lim)15(ite)-6(d)-10(.)-7( B)-12(y)14( using the)-6( m)15(b)-10(r)-8(o)-10(lign p)-10(r)-8(o)-10(g)2(r)-8(a)-6(m)15( [)-8(5)-10(])-8(,)-7( )-12(w)19(e)-6( )-12(ha)-6(ve)]TJ
+T*
+0.003 Tc
+0.217 Tw
+[(been)9( )12(able to copy)21( th)9(e prosody)21( of)11( n)9(a)1(tu)9(ral speech)9( on)9(to)]TJ
+T*
+0.374 Tw
+[(con)8(caten)8(ated )12(diph)8(on)8(e strin)8(g)8(s)5(.  C)6(o)-4(m)21(p)-4(arison)8(s betw)25(een)]TJ
+T*
+-0.001 Tc
+0.522 Tw
+[(such sy)17(nthetic utterances and)-7( eq)-7(uivalent, b)-7(u)5(t f)7(u)5(lly)]TJ
+T*
+0.002 Tc
+0.772 Tw
+[(sy)20(n)8(t)3(h)8(e)0(tic, u)8(tteran)8(ces f)10(r)-2(om)21( KT)-13( )-12(an)8(d )-12(ET)-13(R)6(I)-2( )-12(seem)]TJ
+T*
+0.314 Tw
+[(satisf)10(actory)20(.)-1( )12( )12(For th)8(e com)21(p)-4(arison)8( an)8(d ev)8(alu)8(a)0(tion)8(,)-1( w)25(e)]TJ
+T*
+0.001 Tc
+0.05 Tw
+[(ch)7(ose )12(tw)24(o )12(sen)7(t)2(en)7(ces. )12( T)-14(h)7(e f)9(i)2(rst sen)7(t)2(en)7(ce w)24(a)-1(s ")-14(B)-7(aram)20(g)7(w)24(a)]TJ
+T*
+-0.004 Tc
+0.164 Tw
+[(ha)-6(e)-6(s)-1(nim)15(')7(i se)-6(o)-10(r)-8(o)-10( him)15(')7(i d)-10(e)-6(o)-10( se)-6(d)-10(a)-6(go)-10( d)-10(a)-6(tugo)-10( )-12(iss'se)-6(ub)-10(nid)-10(a)-6(.)-7(")-18(;)]TJ
+T*
+-0.005 Tc
+0.092 Tw
+[(the)-7( )12(o)-11(t)-4(he)-7(r)-9( w)18(a)-7(s ")-19(U)-6(r)-9(i)-4(ne)-7(un m)14(i)-4(nj)-16(o)-11(g)1(j)-16(unghe)-7(ung'e)-7(u)1(i y)13(e)-7(o)-11(g)1(sa)-7(j)-16(e)-7(o)-11(g)]TJ
+T*
+0.002 Tc
+0.085 Tw
+[(sa')13(m)21(y)20(e)0(on)8(g)8(')13(eu)8(l )11(ddig)8(o)-4( i')13(ddan)8(g)8(')13(e tae')13(eon)8(a)0(ssda.")-12(  W)-6(e)0( play)20(ed)]TJ
+T*
+0.061 Tw
+[(th)8(e n)8(a)0(tu)8(ral speech)8( f)10(i)3(rst, an)8(d ran)8(dom)21(ly)20( play)20(ed th)8(ree )-12(oth)8(e)0(r)]TJ
+T*
+0.001 Tw
+[(sy)20(n)8(t)3(h)8(e)0(tic speech)8( f)10(r)-2(om)21( KT)-13(, ET)-13(R)6(I)-2(, an)8(d ou)8(rs to 10 )-12(su)8(bj)-9(ects.)]TJ
+T*
+0.158 Tw
+[(T)-13(h)8(ey)20( )12(w)25(e)0(re f)10(l)3(u)8(e)0(n)8(t)3( Korean)8( speak)8(ers w)25(h)8(o are stu)8(d)-4(y)20(i)3(n)8(g)8( in)]TJ
+T*
+0.004 Tc
+0.252 Tw
+[(L)13(o)-2(n)10(don)10(. )12( )12(T)-11(h)10(e )12(res)7(u)10(l)5(t)5( )12(s)7(h)10(ow)27(ed t)5(h)10(at)5( n)10(earl)5(y)22( 50 %)6( of)12( t)5(h)10(e)]TJ
+T*
+0.002 Tc
+0.459 Tw
+[(su)8(bj)-9(ects con)8(s)5(idered ou)8(r sy)20(n)8(t)3(h)8(e)0(tic speech)8( w)25(a)0(s m)21(o)-4(re)]TJ
+T*
+0 Tc
+0.16 Tw
+[(in)6(tellig)6(ib)-6(le )12(th)6(an)6( )12(th)6(e o)-6(t)1(h)6(e)-2(r tw)23(o)-6( sy)18(n)6(t)1(h)6(e)-2(sized)-6( sp)-6(eech)6(.  W)-8(e)]TJ
+T*
+-0.001 Tc
+0.329 Tw
+[(co)-7(nclud)-7(e)-3(d)-7( that the segm)18(ental q)-7(u)5(ality)17( o)-7(f)7( o)-7(u)5(r d)-7(i)0(p)-7(h)5(o)-7(n)5(e)]TJ
+T*
+0.002 Tc
+0.194 Tw
+[(database )12(is )12(satisf)10(actory)20(.)-1( )12( How)25(e)0(v)8(e)0(r, w)25(e)0( also con)8(s)5(idered)]TJ
+T*
+0 Tc
+0.22 Tw
+[(th)6(at th)6(e in)6(tellig)6(ib)-6(ility)18( o)-6(f)8( o)-6(u)6(r sy)18(n)6(t)1(h)6(e)-2(sized)-6( sp)-6(eech)6( )-12(p)-6(a)-2(rtly)]TJ
+T*
+0.004 Tc
+0.493 Tw
+[(ow)27(es)7( )12(t)5(o)-2( )12(t)5(h)10(e )12(copy)22( of)12( t)5(h)10(e n)10(a)2(t)5(u)10(ral)5( pros)7(ody)22(.  A)15(f)12(t)5(e)2(r)]TJ
+T*
+-0.001 Tc
+0.317 Tw
+[(co)-7(m)18(p)-7(leting the tem)18(p)-7(o)-7(r)-5(al m)18(o)-7(d)-7(e)-3(l w)22(e)-3( w)22(ill evaluate )-12(o)-7(u)5(r)]TJ
+T*
+0.004 Tc
+-0.001 Tw
+[(dat)5(a)2(bas)7(e)2( w)27(i)5(t)5(h)10(ou)10(t)5( t)5(h)10(e u)10(s)7(e of)12( n)10(a)2(t)5(u)10(ral)5( pros)7(ody)22(.)]TJ
+/F3 1 Tf
+11.04 0 0 11.04 367.16 406.82 Tm
+-0.003 Tc
+0.003 Tw
+[(3. TEM)-5(P)-12(O)-8(RAL M)-5(O)-8(DEL)]TJ
+9.96 0 0 9.96 311.96 383.076 Tm
+0 Tc
+[(3)-6(.)-3(1)-6(  Tra)-6(i)1(ning)-6( Co)-6(rpus)]TJ
+/F7 1 Tf
+0 -1.1567 TD
+0.485 Tw
+[(In o)-6(r)-4(d)-6(e)-2(r to)-6( investigate w)23(h)6(at f)8(acto)-6(r)-4(s d)-6(e)-2(term)19(ine )-12(the)]TJ
+0 -1.1807 TD
+0.003 Tc
+0.084 Tw
+[(v)9(a)1(riation)9( )12(in)9( )12(v)9(o)-3(w)26(e)1(l du)9(ration)9(,)0( w)26(e)1( recorded an)9(d an)9(aly)21(s)6(ed a)]TJ
+T*
+0.265 Tw
+[(corpu)9(s)6( of)11( read s)6(p)-3(eech)9(.  F)5(o)-3(r )-12(th)9(is)6( )-12(s)6(t)4(u)9(d)-3(y)21(,)0( )-12(600 )-12(artif)11(icial)]TJ
+T*
+0.422 Tw
+[(u)9(tteran)9(ces w)26(e)1(re desig)9(n)9(e)1(d an)9(d recorded by)21( )-12(a )-12(sin)9(g)9(l)4(e)]TJ
+T*
+0.001 Tc
+0.388 Tw
+[(speak)7(er. )13(T)-14(h)7(e )13(u)7(tteran)7(ces sy)19(stem)20(atically)19( ex)7(plored both)]TJ
+T*
+-0.001 Tc
+0.462 Tw
+[(sy)17(llab)-7(l)0(e p)-7(o)-7(s)2(itio)-7(n and)-7( sy)17(llab)-7(l)0(e co)-7(m)18(p)-7(o)-7(s)2(itio)-7(n )-12(w)22(ithin )-12(a)]TJ
+T*
+0.001 Tc
+0.122 Tw
+[(sen)7(t)2(en)7(ce f)9(r)-3(am)20(e con)7(t)2(ain)7(i)2(n)7(g)7( n)7(o)-5(n)7(s)4(en)7(se )-13(m)20(o)-5(n)7(o)-5(sy)19(llable )-13(pairs.)]TJ
+T*
+0.002 Tc
+0.447 Tw
+[(For ex)8(am)21(ple: /ik)]TJ
+/T2 1 Tf
+7.494 0 TD
+0 Tc
+0 Tw
+(8)Tj
+/F7 1 Tf
+0.5542 0 TD
+(s)Tj
+/T2 1 Tf
+0.3855 0 TD
+(/)Tj
+/F7 1 Tf
+0.8434 0 TD
+0.449 Tw
+[(n)6( V |)19( V )-12(so)]TJ
+/T2 1 Tf
+5.8193 0 TD
+0 Tw
+(\026)Tj
+/F7 1 Tf
+0.4096 0 TD
+-0.001 Tc
+0.462 Tw
+[(ita/ w)22(a)-3(s used)-7( to)]TJ
+-15.506 -1.2771 TD
+-0.003 Tc
+0.464 Tw
+[(inve)-5(stiga)-5(t)-2(e)-5( inhe)-5(r)-7(e)-5(nt vo)-9(w)20(e)-5(l d)-9(u)3(r)-7(a)-5(tio)-9(n; /)-3(i)-2(k)]TJ
+/T2 1 Tf
+17.506 0 TD
+0 Tc
+0 Tw
+(8)Tj
+/F7 1 Tf
+0.5542 0 TD
+0.004 Tc
+0.457 Tw
+[(s)7(i)5( C)8(V)3(\(C)8(\) )-12(|)]TJ
+-18.0602 -1.2771 TD
+[(C)8(V)3(\(C)8(\) s)7(o)]TJ
+/T2 1 Tf
+4.3253 0 TD
+0 Tc
+0 Tw
+(\026)Tj
+/F7 1 Tf
+0.4096 0 TD
+-0.001 Tc
+0.474 Tw
+[(ita/ )12(f)7(o)-7(r co)-7(nso)-7(n)5(antal inf)7(l)0(uences o)-7(n)5( vo)-7(w)22(e)-3(l)]TJ
+-4.7349 -1.2771 TD
+0.606 Tw
+[(d)-7(u)5(ratio)-7(n; /ik)]TJ
+/T2 1 Tf
+5.5181 0 TD
+0 Tc
+0 Tw
+(8)Tj
+/F7 1 Tf
+0.5542 0 TD
+-0.002 Tc
+0.607 Tw
+[(si CV |)17( CVCVCVCV/ )-12(fo)-8(r)-6( )-12(p)-8(r)-6(o)-8(s)1(o)-8(d)-8(i)-1(c)]TJ
+-6.0723 -1.2771 TD
+-0.004 Tc
+0.055 Tw
+[(influe)-6(nc)-6(e)-6(s)-1( )12(o)-10(n)2( )12(vo)-10(w)19(e)-6(l d)-10(u)2(r)-8(a)-6(tio)-10(n.)-7( T)-19(h)2(e)-6( r)-8(e)-6(c)-6(o)-10(r)-8(d)-10(ings w)19(e)-6(r)-8(e)-6( m)15(a)-6(d)-10(e)]TJ
+0 -1.1807 TD
+0.002 Tc
+0.061 Tw
+[(th)8(ree tim)21(es in)8( an)8( an)8(ech)8(oic ch)8(am)21(ber on)8( dig)8(ital )-12(tape )-12(u)8(s)5(in)8(g)]TJ
+T*
+0.004 Tc
+0.011 Tw
+[(2 )12(ch)10(an)10(n)10(e)2(l)5(s)7( )12(at)5( 44,100 s)7(a)2(m)23(p)-2(l)5(e)2(s)7(/)5(s)7(ec/)5(ch)10(an)10(n)10(e)2(l)5(.)1( C)8(h)10(an)10(n)10(e)2(l)5( 1 w)27(a)2(s)]TJ
+T*
+0.002 Tc
+0.278 Tw
+[(th)8(e )12(speech)8( )12(sig)8(n)8(a)0(l f)10(r)-2(om)21( m)21(i)3(croph)8(on)8(e, ch)8(an)8(n)8(e)0(l 2 w)25(a)0(s a)]TJ
+T*
+-0.004 Tc
+0.164 Tw
+[(La)-6(r)-8(y)14(ngo)-10(gr)-8(a)-6(p)-10(h )12(signa)-6(l.)-7( )12( T)-19(h)2(e)-6(y)14( w)19(e)-6(r)-8(e)-6( r)-8(e)-6(sa)-6(m)15(p)-10(le)-6(d)-10( to)-10( 1)-10(6)-10( kH)-5(z)]TJ
+T*
+0.002 Tc
+0.194 Tw
+[(an)8(d )12(tran)8(sf)10(erred )12(to )12(disk)8(. )12( In)8( order to m)21(a)0(k)8(e)0( th)8(e speak)8(er)]TJ
+T*
+0.17 Tw
+[(k)8(eep a con)8(s)5(isten)8(t)3( rate of)10( speech)8(, )-12(w)25(e)0( )-12(u)8(s)5(ed )-12(a )-12(prom)21(ptin)8(g)]TJ
+T*
+0.253 Tw
+[(tool w)26(h)9(en)9( recordin)9(g)9(.)0(  Sen)9(t)4(en)9(ces w)26(e)1(re display)21(e)1(d )-12(on)9( )-12(a)]TJ
+T*
+0.001 Tc
+0.412 Tw
+[(m)20(o)-5(n)7(itor )12(screen)7( )12(at )12(f)9(i)2(v)7(e)-1( secon)7(d)-5( in)7(terv)7(als so th)7(at th)7(e)]TJ
+T*
+0.002 Tc
+0.073 Tw
+[(speak)8(er cou)8(l)3(d read each)8( sen)8(t)3(en)8(ce )-12(w)25(ith)8( )-12(a )-12(reg)8(u)8(l)3(ar )-12(rh)8(y)20(t)3(h)8(m)21(.)]TJ
+T*
+0.004 Tc
+0.107 Tw
+[(A)15( t)5(o)-2(t)5(a)2(l)5( of)12( 1,054 s)7(y)22(l)5(l)5(a)2(bl)5(es)7( w)27(e)2(re an)10(n)10(o)-2(t)5(a)2(t)5(e)2(d. F)6(r)0(om)23( t)5(h)10(es)7(e a)]TJ
+T*
+-0.001 Tc
+0.088 Tw
+[(tab)-7(l)0(e o)-7(f)7( vo)-7(w)22(e)-3(l tim)18(ing d)-7(a)-3(ta w)22(a)-3(s extracted)-7( co)-7(m)18(p)-7(rising the)]TJ
+T*
+0.004 Tc
+0.168 Tw
+[(du)10(rat)5(i)5(o)-2(n)10( )12(an)10(d a des)7(c)2(ri)5(pt)5(i)5(o)-2(n)10( of)12( t)5(h)10(e s)7(e)2(g)10(m)23(en)10(t)5(a)2(l)5( an)10(d s)7(u)10(pra-)]TJ
+T*
+0.001 Tc
+0.086 Tw
+[(seg)7(m)20(en)7(tal )12(con)7(t)2(ex)7(t )12(in)7( )12(w)24(h)7(ich)7( )12(each)7( v)7(o)-5(w)24(e)-1(l w)24(a)-1(s f)9(o)-5(u)7(n)7(d)-5(.  T)-14(h)7(e)]TJ
+ET
+endstream
+endobj
+15 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 4 0 R
+/F7 6 0 R
+/F8 12 0 R
+/T2 16 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 15117
+>>
+stream
+1 1 1 rg
+/GS1 gs
+14 -12.92 594.96 841.92 re
+f
+BT
+/F7 1 Tf
+9.96 0 0 9.96 53.96 760.596 Tm
+0 0 0 rg
+0.002 Tc
+0.013 Tw
+[(con)8(t)3(ex)8(t w)25(a)0(s en)8(coded as a set of)10( 27 )-12(f)10(actors, )-12(each)8( )-12(of)10( )-12(w)25(h)8(ich)]TJ
+0 -1.1807 TD
+-0.001 Tc
+0.341 Tw
+[(co)-7(uld)-7( )12(b)-7(e)-3( )12(said)-7( )12(to)-7( )12(b)-7(e)-3( active o)-7(r)-5( no)-7(t f)7(o)-7(r the vo)-7(w)22(e)-3(l in)]TJ
+T*
+0.004 Tw
+[(q)-7(u)5(estio)-7(n.  T)-16(h)5(e list o)-7(f)7( f)7(acto)-7(r)-5(s is given in T)-16(a)-3(b)-7(l)0(e 5)-7(.)]TJ
+/F3 1 Tf
+0 -2.3734 TD
+0.004 Tc
+-0.001 Tw
+[(3.2  Param)30(e)2(ter E)8(s)7(ti)5(m)30(a)-2(ti)5(on)6( of th)6(e T)8(i)5(m)30(i)5(n)6(g)-2( M)-16(o)-2(d)6(e)2(l)]TJ
+/F7 1 Tf
+0 -1.1567 TD
+-0.001 Tc
+0.004 Tw
+[(T)-16(h)5(e vo)-7(w)22(e)-3(l d)-7(u)5(ratio)-7(ns and)-7( vo)-7(w)22(e)-3(l co)-7(ntexts estab)-7(lished)-7( )-12(f)7(r)-5(o)-7(m)]TJ
+0 -1.1807 TD
+0.002 Tc
+0.073 Tw
+[(th)8(e train)8(i)3(n)8(g)8( corpu)8(s)5( w)25(e)0(re u)8(s)5(ed to estim)21(ate th)8(e )-12(param)21(e)0(ters)]TJ
+T*
+-0.001 Tc
+0.281 Tw
+[(o)-7(f)7( )12(a )12(sim)18(p)-7(le m)18(u)5(ltip)-7(licative tim)18(ing m)18(o)-7(d)-7(e)-3(l.  T)-16(h)5(e m)18(o)-7(d)-7(e)-3(l)]TJ
+T*
+0.197 Tw
+[(estim)18(ates the d)-7(u)5(ratio)-7(n o)-7(f)7( a vo)-7(w)22(e)-3(l as a f)7(unctio)-7(n o)-7(f)7( )-12(the)]TJ
+T*
+0.028 Tw
+[(id)-7(entity)17( )12(o)-7(f)7( )12(the )12(vo)-7(w)22(e)-3(l )12(\(v\) )12(and)-7( the co)-7(ntext \(c\) in w)22(h)5(ich it is)]TJ
+T*
+-0.007 Tc
+[(fo)-13(und)-13(:)]TJ
+3.6145 -2.3614 TD
+0.003 Tc
+0 Tw
+[(d\(v)9(,)0(c\) = d)]TJ
+6.48 0 0 6.48 129.32 618.02 Tm
+-0.019 Tc
+[(mi)-19(n)]TJ
+9.96 0 0 9.96 139.28 619.596 Tm
+0.004 Tc
+-0.001 Tw
+[(\(v)10(\) + [d)]TJ
+6.48 0 0 6.48 170 618.02 Tm
+0 Tc
+(inh)Tj
+9.96 0 0 9.96 178.28 619.596 Tm
+0.004 Tc
+[(\(v)10(\) -)12( d)]TJ
+6.48 0 0 6.48 203.24 618.02 Tm
+-0.019 Tc
+[(mi)-19(n)]TJ
+9.96 0 0 9.96 213.2 619.596 Tm
+0.003 Tc
+[(\(v)9(\)]*)21(F)5(\()-1(c\))]TJ
+-15.988 -2.3615 TD
+0.157 Tw
+[(w)26(h)9(ere d)]TJ
+6.48 0 0 6.48 87.2 594.5 Tm
+-0.019 Tc
+[(mi)-19(n)]TJ
+9.96 0 0 9.96 97.16 596.076 Tm
+-0.002 Tc
+0.162 Tw
+[(\(v\) is the m)17(i)-1(nim)17(u)4(m)17( d)-8(u)4(ratio)-8(n o)-8(f)6( the vo)-8(w)21(e)-4(l v;)]TJ
+-4.3373 -1.1807 TD
+0 Tc
+0 Tw
+(d)Tj
+6.48 0 0 6.48 59 582.74 Tm
+(inh)Tj
+9.96 0 0 9.96 67.28 584.316 Tm
+-0.001 Tc
+0.305 Tw
+[(\(v\) is the inherent d)-7(u)5(ratio)-7(n o)-7(f)7( vo)-7(w)22(e)-3(l v -)7( i.e. )-12(the)]TJ
+-1.3373 -1.1807 TD
+0.002 Tc
+0.374 Tw
+[(du)8(ration)8( )12(f)10(o)-4(u)8(n)8(d)-4( in)8( a ')13(n)8(eu)8(tral')13( con)8(t)3(ex)8(t; an)8(d F\(c\) is a)]TJ
+T*
+0.004 Tc
+0.107 Tw
+[(com)23(p)-2(res)7(s)7(i)5(on)10( )12(f)12(act)5(or )12(bas)7(e)2(d on)10( t)5(h)10(e con)10(t)5(ex)10(t)5( i)5(n)10(depen)10(d)-2(en)10(t)5( of)]TJ
+T*
+-0.002 Tc
+0.005 Tw
+[(the vo)-8(w)21(e)-4(l:)]TJ
+3.6145 -2.4217 TD
+0.002 Tc
+0.001 Tw
+(F\(c\) = )Tj
+/F9 1 Tf
+2.747 0 TD
+0 Tc
+0 Tw
+(P)Tj
+/F7 1 Tf
+0.7831 0 TD
+0.003 Tc
+( f)Tj
+6.48 0 0 6.48 130.88 523.34 Tm
+0 Tc
+(i)Tj
+9.96 0 0 9.96 53.96 501.396 Tm
+0.002 Tc
+0.435 Tw
+[(w)25(h)8(ere each)8( com)21(p)-4(ression)8( f)10(actor f)]TJ
+6.48 0 0 6.48 200.48 499.82 Tm
+0 Tc
+0 Tw
+(i)Tj
+9.96 0 0 9.96 202.28 501.396 Tm
+0.437 Tw
+[( h)6(a)-2(s a v)6(a)-2(lu)6(e th)6(at)]TJ
+-14.8916 -1.1807 TD
+0.003 Tc
+0.024 Tw
+[(depen)9(d)-3(s )12(on)9( )12(on)9(e )12(com)22(pon)9(en)9(t of)11( th)9(e con)9(t)4(ex)9(t, f)11(o)-3(r ex)9(am)22(ple f)]TJ
+6.48 0 0 6.48 280.4 488.06 Tm
+0 Tc
+0 Tw
+(0)Tj
+9.96 0 0 9.96 53.96 477.876 Tm
+0.001 Tc
+0.074 Tw
+[(represen)7(ts )12(th)7(e ')12(p)-5(h)7(r)-3(ase-)9(f)9(i)2(n)7(a)-1(l sy)19(llable')12( con)7(t)2(ex)7(t, w)24(h)7(ich)7( tak)7(e)-1(s)]TJ
+T*
+0.002 Tc
+0.194 Tw
+[(a v)8(a)0(lu)8(e dif)10(f)10(e)0(ren)8(t)3( to on)8(e in)8( ph)8(rase-)10(f)10(i)3(n)8(a)0(l )-12(con)8(t)3(ex)8(ts )-12(an)8(d )-12(a)]TJ
+T*
+0.001 Tw
+[(v)8(a)0(lu)8(e equ)8(a)0(l to on)8(e elsew)25(h)8(ere.)]TJ
+0 -2.3614 TD
+-0.003 Tc
+0.259 Tw
+[(Altho)-9(ugh it is p)-9(o)-9(ssib)-9(l)-2(e)-5( )-12(to)-9( )-13(hy)15(p)-9(o)-9(t)-2(he)-5(sise)-5( )-12(w)20(h)3(ic)-5(h )-12(c)-5(o)-9(nte)-5(x)3(ts)]TJ
+0 -1.1807 TD
+-0.001 Tc
+0.064 Tw
+[(m)18(i)0(ght )12(inf)7(l)0(uence )12(vo)-7(w)22(e)-3(l )12(d)-7(u)5(ratio)-7(ns it is necessary)17( to)-7( use an)]TJ
+T*
+0 Tc
+0.063 Tw
+[(auto)-6(m)19(a)-2(ted)-6( p)-6(r)-4(o)-6(ced)-6(ure to)-6( estab)-6(lish the relative )-12(im)19(p)-6(o)-6(r)-4(tance)]TJ
+T*
+0.002 Tc
+0.17 Tw
+[(of)10( th)8(e com)21(p)-4(ression)8( f)10(actors an)8(d th)8(e best v)8(a)0(lu)8(e f)10(o)-4(r )-12(each)]TJ
+T*
+-0.001 Tc
+0.426 Tw
+[(f)7(acto)-7(r)-5(.  T)-16(o)-7( estab)-7(lish the b)-7(e)-3(st m)18(o)-7(d)-7(e)-3(l )-12(an )-12(auto)-7(m)18(a)-3(ted)]TJ
+T*
+0.004 Tc
+0.312 Tw
+[(procedu)10(r)0(e )12(w)27(a)2(s)7( con)10(s)7(t)5(r)0(u)10(c)2(t)5(e)2(d as)7( des)7(c)2(ri)5(bed bel)5(o)-2(w)27(.)1(  T)-11(h)10(e)]TJ
+T*
+0.002 Tc
+0.218 Tw
+[(procedu)8(r)-2(e )12(determ)21(in)8(ed th)8(e best f)10(actors an)8(d th)8(e optim)21(al)]TJ
+T*
+-0.005 Tc
+0.55 Tw
+[(fa)-7(c)-7(t)-4(o)-11(r)-9( va)-7(lue)-7(s)-2( b)-11(y)13( m)14(i)-4(nim)14(i)-4(sing the)-7( sq)-11(ua)-7(r)-9(e)-7(d)-11( e)-7(r)-9(r)-9(o)-11(r)-9( o)-11(f)]TJ
+T*
+-0.001 Tc
+0.004 Tw
+[(p)-7(r)-5(ed)-7(ictio)-7(n o)-7(n)5( the training d)-7(a)-3(ta.)]TJ
+0 -2.3614 TD
+0.004 Tc
+0.975 Tw
+[(T)-11(h)10(e proces)7(s)7( u)10(s)7(ed t)5(h)10(e 1,054 )-12(v)10(o)-2(w)27(e)2(l)5( )-12(du)10(rat)5(i)5(o)-2(n)]TJ
+0 -1.1807 TD
+0.002 Tc
+0.387 Tw
+[(m)21(easu)8(r)-2(em)21(en)8(ts )12(labelled )13(accordin)8(g)8( to th)8(e 27 dif)10(f)10(e)0(ren)8(t)]TJ
+T*
+-0.004 Tc
+0.055 Tw
+[(b)-10(i)-3(na)-6(r)-8(y)14( c)-6(o)-10(nte)-6(x)2(ts hy)14(p)-10(o)-10(t)-3(he)-6(sise)-6(d)-10( a)-6(s)-1( b)-10(e)-6(ing r)-8(e)-6(le)-6(va)-6(nt )-12(fo)-10(r)-8( )-12(vo)-10(w)19(e)-6(l)]TJ
+T*
+-0.003 Tc
+0.608 Tw
+[(d)-9(u)3(r)-7(a)-5(tio)-9(n.)-6(  M)-5(i)-2(nim)16(u)3(m)16( a)-5(n)3(d)-9( inhe)-5(r)-7(e)-5(nt )-12(d)-9(u)3(r)-7(a)-5(tio)-9(ns )-12(w)20(e)-5(r)-7(e)]TJ
+T*
+0.002 Tc
+0.314 Tw
+[(estim)21(ated )12(f)10(r)-2(om)21( )12(th)8(e )12(distribu)8(tion)8( of)10( du)8(ration)8(s)5( f)10(o)-4(r each)]TJ
+T*
+0.362 Tw
+[(v)8(o)-4(w)25(e)0(l ty)20(pe, th)8(ese are listed in)8( T)-13(a)0(ble 4.  )-12(For )-12(each)]TJ
+T*
+0.004 Tc
+0.035 Tw
+[(h)10(y)22(pot)5(h)10(e)2(s)7(i)5(s)7(e)2(d )12(con)10(t)5(ex)10(t)5( )12(i)5(n)10( t)5(u)10(rn)10( t)5(h)10(e bes)7(t)5( m)23(odel)5( com)23(p)-2(ri)5(s)7(i)5(n)10(g)10( a)]TJ
+T*
+-0.004 Tc
+0.236 Tw
+[(single)-6( )12(fa)-6(c)-6(t)-3(o)-10(r)-8( w)19(a)-6(s fo)-10(und)-10( using a)-6( func)-6(tio)-10(n m)15(i)-3(nim)15(i)-3(sa)-6(tio)-10(n)]TJ
+T*
+0 Tc
+0.581 Tw
+[(p)-6(r)-4(o)-6(ced)-6(ure [6)-6(].  T)-15(h)6(is p)-6(r)-4(o)-6(cess id)-6(entif)8(ied)-6( the )-12(m)19(o)-6(st)]TJ
+T*
+0.002 Tc
+0.266 Tw
+[(sig)8(n)8(i)3(f)10(i)3(can)8(t )12(con)8(t)3(ex)8(t )12(an)8(d )12(th)8(e optim)21(al f)10(actor v)8(a)0(lu)8(e f)10(o)-4(r a)]TJ
+T*
+0.362 Tw
+[(m)21(odel of)10( a sin)8(g)8(l)3(e f)10(actor.  T)-13(h)8(e )-12(con)8(t)3(ex)8(t )-12(cau)8(sin)8(g)8( )-12(th)8(e)]TJ
+T*
+0.013 Tw
+[(g)8(r)-2(eatest )12(redu)8(ction)8( in)8( squ)8(a)0(red error w)25(a)0(s th)8(en)8( accepted an)8(d)]TJ
+T*
+0.254 Tw
+[(th)8(e search)8( repeated f)10(o)-4(r th)8(e best tw)25(o f)10(actor )-12(m)21(odel )-12(by)]TJ
+T*
+0.146 Tw
+[(testin)8(g)8( each)8( of)10( th)8(e rem)21(a)0(in)8(in)8(g)8( 26 con)8(t)3(ex)8(ts in)8( tu)8(rn)8(.  T)-13(h)8(e)]TJ
+T*
+0.435 Tw
+[(best secon)8(d)-4( f)10(actor is th)8(en)8( ch)8(osen)8( an)8(d th)8(e )-12(process)]TJ
+T*
+0 Tc
+0.184 Tw
+[(rep)-6(eated)-6( )12(f)8(o)-6(r )12(a third)-6( f)8(acto)-6(r)-4( and)-6( so)-6( o)-6(n)6( until the sq)-6(uared)]TJ
+T*
+0.087 Tw
+[(erro)-6(r f)8(a)-2(ils to)-6( f)8(a)-2(ll b)-6(y)18( a signif)8(i)1(cant )-12(am)19(o)-6(unt, )-12(in )-12(this )-12(case )-12(at)]TJ
+T*
+0.004 Tc
+0.023 Tw
+[(abou)10(t)5( n)10(i)5(n)10(e)2( f)12(act)5(ors)7(.)1(  T)-11(h)10(e res)7(u)10(l)5(t)5( )-12(of)12( )-12(t)5(h)10(i)5(s)7( )-12(procedu)10(r)0(e )-12(i)5(s)7( )-12(s)7(h)10(ow)27(n)]TJ
+T*
+0.119 Tw
+[(i)5(n)10( T)-11(a)2(bl)5(e 6.  T)-11(h)10(e f)12(i)5(n)10(a)2(l)5( )-13(m)23(odel)5( )-13(of)12( )-13(9 )-13(f)12(act)5(ors)7( )-13(ex)10(pl)5(ai)5(n)10(s)7( )-13(ov)10(er)]TJ
+T*
+0.002 Tc
+0.001 Tw
+[(80% of)10( th)8(e v)8(a)0(rian)8(ce in)8( th)8(e train)8(i)3(n)8(g)8( data.)]TJ
+25.9036 67.3494 TD
+0 Tc
+0.148 Tw
+[(Fro)-6(m)19( )12(this result, w)23(e)-2( can p)-6(r)-4(o)-6(d)-6(u)6(ce a sim)19(p)-6(ler eq)-6(uatio)-6(n to)]TJ
+0 -1.1807 TD
+-0.001 Tc
+0.064 Tw
+[(p)-7(r)-5(ed)-7(ict )12(the )12(vo)-7(w)22(e)-3(l d)-7(u)5(ratio)-7(ns in the training d)-7(a)-3(ta.  W)-9(e)-3( can)]TJ
+T*
+0.002 Tc
+0.314 Tw
+[(sim)21(p)-4(lif)10(y)20( )12(th)8(e )12(ch)8(osen)8( 9 con)8(t)3(ex)8(ts u)8(n)8(d)-4(er 5 ph)8(on)8(olog)8(ical)]TJ
+T*
+0.001 Tc
+0.002 Tw
+[(categ)7(ories as f)9(o)-5(llow)24(s)4(:)]TJ
+3.6145 -2.3615 TD
+-0.018 Tc
+0.021 Tw
+[(F)-16(\()-22(c)-20(\))-22( =)-20( P)-28(P)-28( * C)-14(M)-20( * A)-7(S)-16( * V)-19(O)-19(C)-14( * A)-7(M)-20(B)-26(,)]TJ
+-3.6145 -2.3614 TD
+0.003 Tc
+[(w)26(h)9(ere:)]TJ
+T*
+0 Tc
+0.003 Tw
+[(P)-10(P)-10( \(P)-10(hrasal P)-10(o)-6(sitio)-6(n Facto)-6(r\) =)]TJ
+1.4217 -1.1807 TD
+-0.001 Tc
+0.004 Tw
+[(1)-7(.)-4(7)-7(2)-7(,)-4( if)7( the vo)-7(w)22(e)-3(l is in the p)-7(h)5(rase-)7(f)7(i)0(nal p)-7(o)-7(s)2(itio)-7(n \(f)]TJ
+6.48 0 0 6.48 523.76 641.42 Tm
+0 Tc
+0 Tw
+(0)Tj
+9.96 0 0 9.96 527 642.996 Tm
+0.004 Tc
+(\),)Tj
+-20.1687 -1.1807 TD
+-0.001 Tc
+0.004 Tw
+[(0)-7(.)-4(9)-7(3)-7(,)-4( if)7( the vo)-7(w)22(e)-3(l is in the p)-7(h)5(rase-)7(i)0(nitial p)-7(o)-7(s)2(itio)-7(n \(f)]TJ
+6.48 0 0 6.48 528.8 629.66 Tm
+0 Tc
+0 Tw
+(1)Tj
+9.96 0 0 9.96 532.04 631.236 Tm
+0.004 Tc
+(\),)Tj
+-20.6747 -1.1807 TD
+0.002 Tc
+0.001 Tw
+[(1, elsew)25(h)8(ere.)]TJ
+-1.4217 -2.3615 TD
+-0.004 Tc
+0.007 Tw
+[(CM)-6( \()-8(C)0(o)-10(n)2(so)-10(na)-6(nt M)-6(a)-6(nne)-6(r)-8( Fa)-6(c)-6(t)-3(o)-10(r)-8(\))-8( =)]TJ
+1.4217 -1.1807 TD
+0.004 Tc
+-0.001 Tw
+[(0.31, i)5(f)12( t)5(h)10(e v)10(o)-2(w)27(e)2(l)5( i)5(s)7( bef)12(o)-2(re a s)7(t)5(op con)10(s)7(on)10(an)10(t)5( \(f)]TJ
+6.48 0 0 6.48 511.4 582.62 Tm
+0 Tc
+(12)Tj
+9.96 0 0 9.96 517.88 584.196 Tm
+0.004 Tc
+(\),)Tj
+-19.253 -1.1807 TD
+0 Tc
+0.003 Tw
+[(0)-6(.)-3(2)-6(6)-6(,)-3( if)8( the vo)-6(w)23(e)-2(l is b)-6(e)-2(f)8(o)-6(re a nasal co)-6(nso)-6(n)6(ant \(f)]TJ
+6.48 0 0 6.48 515.12 570.86 Tm
+(14)Tj
+9.96 0 0 9.96 521.6 572.436 Tm
+0.004 Tc
+(\),)Tj
+-19.6265 -1.1807 TD
+0 Tc
+[(0)-6(.)-3(3)-6(3)-6(,)-3( if)8( the vo)-6(w)23(e)-2(l is b)-6(e)-2(f)8(o)-6(re a f)8(r)-4(icative co)-6(nso)-6(n)6(ant \(f)]TJ
+6.48 0 0 6.48 527.84 559.1 Tm
+(13)Tj
+9.96 0 0 9.96 534.32 560.676 Tm
+0.004 Tc
+(\),)Tj
+-20.9036 -1.1807 TD
+0 Tc
+[(0)-6(.)-3(7)-6(3)-6(,)-3( if)8( the vo)-6(w)23(e)-2(l is b)-6(e)-2(f)8(o)-6(re a liq)-6(uid)-6( co)-6(nso)-6(n)6(ant \(f)]TJ
+6.48 0 0 6.48 518 547.34 Tm
+(15)Tj
+9.96 0 0 9.96 524.48 548.916 Tm
+0.004 Tc
+(\),)Tj
+-19.9157 -1.1807 TD
+0.002 Tc
+0.001 Tw
+[(1, elsew)25(h)8(ere.)]TJ
+-1.4217 -2.3614 TD
+0 Tc
+0.003 Tw
+[(A)11(S)2(P)-10( \(A)11(sp)-6(iratio)-6(n Facto)-6(r\) =)]TJ
+1.3614 -1.1807 TD
+-0.001 Tc
+0.51 Tw
+[(0)-7(.)-4(8)-7(2)-7(,)-4( )12(if)7( )12(the vo)-7(w)22(e)-3(l is af)7(ter a stro)-7(ng asp)-7(i)0(ratio)-7(n)]TJ
+T*
+0.003 Tc
+0 Tw
+[(con)9(s)6(on)9(an)9(t \(f)]TJ
+6.48 0 0 6.48 374.96 488.54 Tm
+0 Tc
+(4)Tj
+9.96 0 0 9.96 378.2 490.116 Tm
+0.004 Tc
+(\),)Tj
+-5.2289 -1.1807 TD
+0.002 Tc
+0.001 Tw
+[(1, elsew)25(h)8(ere.)]TJ
+-1.4217 -2.3614 TD
+[(VOC)6( \(Voicin)8(g)8( Factor\) =)]TJ
+1.4217 -1.1807 TD
+[(0.33, if)10( th)8(e v)8(o)-4(w)25(e)0(l is af)10(ter a v)8(o)-4(iced con)8(s)5(on)8(an)8(t \(f)]TJ
+6.48 0 0 6.48 514.04 441.5 Tm
+0 Tc
+(25)Tj
+9.96 0 0 9.96 520.52 443.076 Tm
+0.004 Tc
+(\),)Tj
+-19.5181 -1.1807 TD
+0.002 Tc
+[(1, elsew)25(h)8(ere.)]TJ
+-1.4217 -2.3614 TD
+0.001 Tc
+0.002 Tw
+[(A)12(M)-1(B)-7( \()-4(A)12(m)20(b)-5(isy)19(llab)-5(i)2(city)19( Facto)-5(r\) =)]TJ
+1.3614 -1.1807 TD
+0.004 Tc
+0.011 Tw
+[(1.59, i)5(f)12( t)5(h)10(e v)10(o)-2(w)27(e)2(l)5( i)5(s)7( bef)12(o)-2(re an)10( am)23(bi)5(s)7(y)22(l)5(l)5(a)2(bi)5(c )-12(con)10(s)7(on)10(an)10(t)]TJ
+T*
+(\(f)Tj
+6.48 0 0 6.48 332.12 382.7 Tm
+0 Tc
+(17)Tj
+9.96 0 0 9.96 338.6 384.276 Tm
+0.004 Tc
+(\),)Tj
+-1.253 -1.1807 TD
+0.002 Tc
+0.001 Tw
+[(1, elsew)25(h)8(ere.)]TJ
+/F3 1 Tf
+-1.4217 -2.3734 TD
+0.005 Tc
+-0.002 Tw
+[(3.3  Com)31(p)7(ari)6(s)8(on)]TJ
+/F7 1 Tf
+0 -1.1567 TD
+-0.001 Tc
+0.197 Tw
+[(So)-7(m)18(e)-3( co)-7(m)18(p)-7(ariso)-7(n)5(s b)-7(e)-3(tw)22(een the actual vo)-7(w)22(e)-3(l )-12(d)-7(u)5(ratio)-7(ns)]TJ
+0 -1.1807 TD
+0.003 Tc
+0.048 Tw
+[(an)9(d )12(th)9(e )12(predicted du)9(ration)9(s)6( accordin)9(g)9( to th)9(is f)11(o)-3(rm)22(u)9(l)4(a are)]TJ
+T*
+-0.001 Tc
+0.149 Tw
+[(sho)-7(w)22(n )12(in )12(T)-16(a)-3(b)-7(l)0(e )12(7)-7(.)-4( )12( T)-16(h)5(e f)7(it w)22(ith the training d)-7(a)-3(ta is, as)]TJ
+T*
+0.004 Tc
+-0.001 Tw
+[(m)23(i)5(g)10(h)10(t)5( be ex)10(pect)5(ed, qu)10(i)5(t)5(e)2( g)10(ood.)]TJ
+/F3 1 Tf
+11.04 0 0 11.04 383.96 277.46 Tm
+-0.003 Tc
+0.003 Tw
+[(4. CO)-8(NCLUSI)-5(O)-8(N)]TJ
+/F7 1 Tf
+9.96 0 0 9.96 311.96 253.836 Tm
+0.004 Tc
+0.481 Tw
+[(T)-11(h)10(i)5(s)7( paper h)10(a)2(s)7( i)5(n)10(t)5(r)0(odu)10(ced a n)10(e)2(w)27( Korean)10( )-12(di)5(ph)10(on)10(e)]TJ
+T*
+0.288 Tw
+[(dat)5(a)2(bas)7(e)2( )12(an)10(d )12(a )12(t)5(e)2(m)23(poral)5( m)23(odel)5( of)12( v)10(o)-2(w)27(e)2(l)5( du)10(rat)5(i)5(o)-2(n)10( i)5(n)]TJ
+T*
+0.119 Tw
+[(Korean)10(.  T)-11(h)10(i)5(s)7( di)5(ph)10(on)10(e dat)5(a)2(bas)7(e)2( k)10(r)0(1 )-13(i)5(s)7( )-13(u)10(n)10(d)-2(erg)10(o)-2(i)5(n)10(g)10( )-13(f)12(i)5(n)10(a)2(l)]TJ
+T*
+0 Tc
+0.003 Tw
+[(ad)-6(j)-11(u)6(stm)19(e)-2(nts and)-6( w)23(ill b)-6(e)-2( m)19(a)-2(d)-6(e)-2( availab)-6(l)1(e to)-6( )-12(the )-12(p)-6(u)6(b)-6(lic )-12(later)]TJ
+T*
+0.004 Tc
+0.264 Tw
+[(t)5(h)10(i)5(s)7( y)22(ear.  T)-11(h)10(e t)5(e)2(m)23(poral)5( m)23(odel)5( i)5(s)7( bas)7(e)2(d on)10( a s)7(e)2(t)5( )-12(of)]TJ
+T*
+-0.004 Tc
+0.2 Tw
+[(m)15(i)-3(nim)15(u)2(m)15( )12(a)-6(n)2(d)-10( inhe)-6(r)-8(e)-6(nt d)-10(u)2(r)-8(a)-6(tio)-10(ns fo)-10(r)-8( K)-5(o)-10(r)-8(e)-6(a)-6(n)2( vo)-10(w)19(e)-6(ls in)]TJ
+T*
+-0.001 Tc
+0.606 Tw
+[(co)-7(m)18(b)-7(inatio)-7(n w)22(ith a set o)-7(f)7( p)-7(h)5(o)-7(n)5(o)-7(l)0(o)-7(g)5(ical co)-7(ntexts.)]TJ
+T*
+0.002 Tc
+0.338 Tw
+[(T)-13(o)-4(g)8(e)0(th)8(er )12(th)8(ese com)21(pon)8(en)8(ts  prov)8(ide an)8( en)8(v)8(i)3(ron)8(m)21(en)8(t)]TJ
+T*
+0.001 Tw
+[(w)25(h)8(ich)8( can)8( f)10(o)-4(ster f)10(u)8(rth)8(e)0(r research)8( in)8(to spok)8(en)8( Korean)8(.)]TJ
+0 -2.3614 TD
+-0.001 Tc
+0.173 Tw
+[(Future w)22(o)-7(rk w)22(ill ad)-7(d)-7(r)-5(ess the )-12(p)-7(r)-5(ed)-7(ictio)-7(n )-12(o)-7(f)7( )-12(co)-7(nso)-7(n)5(antal)]TJ
+0 -1.1807 TD
+0.064 Tw
+[(d)-7(u)5(ratio)-7(ns, the p)-7(r)-5(ed)-7(ictio)-7(n o)-7(f)7( segm)18(ental q)-7(u)5(ality)17( changes )-12(in)]TJ
+T*
+0.137 Tw
+[(co)-7(ntext, and)-7( the generatio)-7(n o)-7(f)7( )-12(into)-7(natio)-7(n )-12(co)-7(nto)-7(u)5(rs )-12(f)7(r)-5(o)-7(m)]TJ
+T*
+-0.019 Tc
+0.022 Tw
+[(ma)-21(r)-23(k)-13(e)-21(d)-25( t)-18(e)-21(x)-13(t)-18(.)]TJ
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 4 0 R
+/F7 6 0 R
+/F9 20 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+22 0 obj
+<<
+/Length 11481
+>>
+stream
+1 1 1 rg
+/GS1 gs
+14 -12.92 594.96 841.92 re
+f
+0 0 0 RG
+1 J 1 j 0.12 w 10 M []0 d
+1 i 
+54.68 769.96 m
+283.76 769.96 l
+S
+0 0 0 rg
+54.68 769.96 229.08 -0.72 re
+f*
+54.68 759.28 m
+283.76 759.28 l
+S
+54.68 759.28 229.08 -0.72 re
+f*
+54.68 748.72 228.36 -0.6 re
+f*
+54.68 747.4 228.36 -0.72 re
+f*
+54.68 523.12 m
+283.76 523.12 l
+S
+54.68 523.12 229.08 -0.72 re
+f*
+BT
+/F7 1 Tf
+8.52 0 0 8.52 63.92 761.443 Tm
+-0.007 Tc
+0.011 Tw
+[(on)-14(set)-11( con)-14(so)-14(nant)-11(s)-4379(v)0(o)-14(w)-3(el)-4476(cod)-14(a cons)-12(on)-14(ant)-11(s)]TJ
+0.1127 -1.2394 TD
+[(L)12(a)0(t)-11(i)3(n)-1296(a)0(l)-11(l)-11(oph)-14(on)-14(es)-1280(L)12(a)0(t)-11(i)3(n)-1296(a)0(l)-11(l)-11(oph)-14(on)-14(es)-1280(L)12(a)0(t)-11(i)3(n)-1296(a)0(l)-11(l)-11(oph)-14(on)-14(es)]TJ
+0.7887 -1.3944 TD
+3.246 Tc
+-3.242 Tw
+[(gg)3253(,)3257( g)3253(v)-29(a)-789(a)-761(g)-522(g)3253(c)]TJ
+ET
+92.12 759.28 m
+92.12 748.72 l
+S
+92.12 759.28 0.72 -10.56 re
+f*
+130.28 769.96 m
+130.28 748.72 l
+S
+130.28 769.96 0.72 -21.24 re
+f*
+168.56 759.28 m
+168.56 748.72 l
+S
+168.56 759.28 0.6 -10.56 re
+f*
+206.72 769.96 m
+206.72 748.72 l
+S
+206.72 769.96 0.72 -21.24 re
+f*
+244.88 759.28 m
+244.88 748.72 l
+S
+244.88 759.28 0.72 -10.56 re
+f*
+BT
+8.52 0 0 8.52 69.56 728.323 Tm
+-0.007 Tc
+[(gg)-3493(gg)-3549(ae)-3605(ae)-3802(n)-3775(n)0(c)]TJ
+0.2394 -1.2535 TD
+-0.035 Tc
+[(n)-4014(n)-3817(ya)-3605(ya)-3816(d)-3803(d)-28(c)]TJ
+T*
+-0.007 Tc
+0.011 Tw
+[(d)-3239(d)0(,)-11( dv)-2817(y)28(a)0(e)-3140(y)28(ae)-3690(l)-3983(l)-11(c)]TJ
+-0.2535 -1.2535 TD
+[(dd)-3507(dd)-3521(eo)-3549(eo)-3634(m)-3497(m)-4(c)]TJ
+0.338 -1.2535 TD
+3.752 Tc
+-3.748 Tw
+[(rr)3761(,)3748( l)30(e)-283(e)-255(b)-16(b)3759(c)]TJ
+-0.2254 -1.2535 TD
+-0.007 Tc
+[(m)-3708(m)-3398(y)28(e)0(o)-3084(y)28(eo)-3296(ng)-3507(ng)]TJ
+0.1408 -1.2535 TD
+-0.035 Tc
+0.039 Tw
+[(b)-3267(b)-28(,)-39( b)-28(v)-3070(ye)-3605(ye)]TJ
+0.0563 -1.2535 TD
+3.4 Tc
+-3.396 Tw
+[(ss)3395(,)3411( s)3395(h)55(o)-579(o)]TJ
+-0.1972 -1.2535 TD
+0.005 Tc
+[(ss)-3691(ss)-3507(w)9(a)-3312(w)9(a)]TJ
+-0.3521 -1.2676 TD
+-0.007 Tc
+[(ngo)-2972(nu)-14(l)-11(l)-2912(wae)-2887(w)-3(ae)]TJ
+0.6056 -1.2535 TD
+-0.008 Tc
+0.012 Tw
+[(j)-3575(j)-12(, j)-12(v)-3240(oe)-3550(oe)]TJ
+-0.1408 -1.2535 TD
+0.004 Tc
+[(jj)-3915(jj)-3718(y)39(o)-3510(y)39(o)]TJ
+-0.1831 -1.2535 TD
+-0.007 Tc
+[(ch)-3549(ch)-3775(u)-3986(u)]TJ
+0.2113 -1.2535 TD
+3.979 Tc
+[(kk)564(w)3983(e)3986(o)1155(w)3983(e)3986(o)]TJ
+0.1127 -1.2535 TD
+-0.004 Tc
+[(t)-4205(t)-3768(we)-3321(we)]TJ
+-0.1127 -1.2535 TD
+[(p)-3983(p)-3743(wi)-3487(wi)]TJ
+T*
+-0.035 Tc
+[(h)-4014(h)-3789(yu)-3549(yu)]TJ
+8.7465 -1.2535 TD
+-0.007 Tc
+[(eu)-3549(eu)]TJ
+-0.1408 -1.2535 TD
+[(eui)-3278(eui)]TJ
+0.4648 -1.2535 TD
+4.215 Tc
+(ii)Tj
+ET
+53.96 769.96 m
+53.96 522.4 l
+S
+53.96 769.96 0.72 -247.56 re
+f*
+130.28 746.68 m
+130.28 522.4 l
+S
+130.28 746.68 0.72 -224.28 re
+f*
+206.72 746.68 m
+206.72 522.4 l
+S
+206.72 746.68 0.72 -224.28 re
+f*
+283.04 769.96 m
+283.04 522.4 l
+S
+283.04 769.96 0.72 -247.56 re
+f*
+92.12 746.68 m
+92.12 522.4 l
+S
+92.12 746.68 0.72 -224.28 re
+f*
+168.56 746.68 m
+168.56 522.4 l
+S
+168.56 746.68 0.6 -224.28 re
+f*
+244.88 746.68 m
+244.88 522.4 l
+S
+244.88 746.68 0.72 -224.28 re
+f*
+BT
+9.96 0 0 9.96 53.96 501.186 Tm
+0.004 Tc
+-0.001 Tw
+[(T)-11(a)2(bl)5(e 1.  S)6(e)2(g)10(m)23(en)10(t)5( i)5(n)10(dex)10( u)10(s)7(ed i)5(n)10( t)5(h)10(e di)5(ph)10(on)10(e dat)5(a)2(bas)7(e)2(.)]TJ
+ET
+54.92 475.36 m
+254.48 475.36 l
+S
+54.92 475.36 199.56 -0.96 re
+f*
+54.92 460.48 198.6 -0.96 re
+f*
+54.92 458.56 198.6 -0.96 re
+f*
+54.92 277.6 198.6 -0.96 re
+f*
+54.92 275.68 198.6 -0.96 re
+f*
+54.92 260.8 m
+254.48 260.8 l
+S
+54.92 260.8 199.56 -0.96 re
+f*
+BT
+12 0 0 12 66.56 463.588 Tm
+0 Tc
+[(Group)-2180(Combination)-1810(N)2(umber)]TJ
+-0.84 -1.4 TD
+-0.001 Tc
+0.001 Tw
+[(Group 1)-1201(onset * nucleus)-2842(378)]TJ
+ET
+107.96 475.36 m
+107.96 460.48 l
+S
+107.96 475.36 0.96 -14.88 re
+f*
+199.52 475.36 m
+199.52 460.48 l
+S
+199.52 475.36 0.96 -14.88 re
+f*
+BT
+12 0 0 12 56.48 431.668 Tm
+[(Group 2)-1201(nucleus * nucleus)-1902(441)]TJ
+0 -1.26 TD
+[(Group 3)-1201(nucleus * coda)-3067(147)]TJ
+T*
+[(Group 4)-1201(nucleus * pause)-2927(2)-1(1)]TJ
+T*
+[(Group 5)-1201(c)3(oda * onset)-4013(133)]TJ
+T*
+[(Group 6)-1201(nucleus * onset)-2843(399)]TJ
+T*
+[(Group 7)-1201(c)3(oda * pause)-4347(7)]TJ
+T*
+[(Group 8)-1201(p)-1(ause * onset)-3873(18)]TJ
+T*
+[(Group 9)-1201(p)-1(ause * nucleus)-2932(21)]TJ
+T*
+0 Tc
+0 Tw
+[(Group 10)-700(onset * nucleus)-2841(105)]TJ
+T*
+-0.001 Tc
+0.001 Tw
+[(Group 11)-701(coda * nucleus)-3322(21)]TJ
+0 -1.24 TD
+[(Group 12)-701(pause * pause)-3957(1)]TJ
+1.3 -1.4 TD
+0 Tc
+0 Tw
+[(Total diphone numbers)-2680(1692)]TJ
+ET
+199.52 459.04 m
+199.52 277.6 l
+S
+199.52 459.04 0.96 -181.44 re
+f*
+53.96 475.36 m
+53.96 259.84 l
+S
+53.96 475.36 0.96 -215.52 re
+f*
+107.96 459.04 m
+107.96 277.6 l
+S
+107.96 459.04 0.96 -181.44 re
+f*
+199.52 274.72 m
+199.52 259.84 l
+S
+199.52 274.72 0.96 -14.88 re
+f*
+253.52 475.36 m
+253.52 259.84 l
+S
+253.52 475.36 0.96 -215.52 re
+f*
+BT
+9.96 0 0 9.96 53.96 238.626 Tm
+0.004 Tc
+-0.001 Tw
+[(T)-11(a)2(bl)5(e 2. )-711(Di)5(ph)10(on)10(e g)10(r)0(ou)10(ps)7( i)5(n)10( con)10(t)5(ex)10(t)5(s)7(.)]TJ
+4.2771 -1.1807 TD
+-0.001 Tc
+0.004 Tw
+[(Onset in Gro)-7(u)5(p)-7( 1)-7( is \223)9(t)0(he vo)-7(iced)-7( o)-7(n)5(set *)17( )]TJ
+T*
+-0.002 Tc
+0.005 Tw
+[(nucleus\224 co)-8(m)17(b)-8(inatio)-8(n.)]TJ
+T*
+0.004 Tc
+-0.001 Tw
+[(On)10(s)7(e)2(t)5( i)5(n)10( Grou)10(p 10 i)5(s)7( \223)14(t)5(h)10(e)2( v)10(o)-2(i)5(cel)5(es)7(s)7( on)10(s)7(e)2(t)5( *)22( )]TJ
+T*
+-0.002 Tc
+0.005 Tw
+[(nucleus\224 co)-8(m)17(b)-8(inatio)-8(n.)]TJ
+/F8 1 Tf
+8.04 0 0 8.04 311.96 755.08 Tm
+(<LEXICON>)Tj
+0 -1.0597 TD
+0 Tw
+(<ENTRY ID="PARAM"><HW>param</HW>)Tj
+T*
+(<PRONSEQ>)Tj
+T*
+(<PRON ID="1"><IPA ID="1">'paramc</IPA><SYLSEQ>)Tj
+T*
+(<SYL STRENGTH="STRONG" WEIGHT="LIGHT">)Tj
+T*
+(<ONSET STRENGTH="WEAK">)Tj
+T*
+(<CNS AMBI="N" CNSANT="N" CNSCOR="N" CNSDOR="N")Tj
+T*
+(CNSLAB="Y" CONSTR="N" CONT="N" NAS="N" SON="N")Tj
+T*
+(SPR="N" VOCCOR="N" VOCDOR="N")Tj
+T*
+(VOCLAB="N">p</CNS>)Tj
+T*
+(</ONSET>)Tj
+T*
+(<RHYME CHECKED="N" STRENGTH="WEAK" VOI="Y")Tj
+T*
+(WEIGHT="LIGHT">)Tj
+T*
+(<NUC CHECKED="N" LONG="N" STRENGTH="WEAK")Tj
+T*
+(VOI="Y" WEIGHT="LIGHT">)Tj
+T*
+(<VOC COR="N" DOR="N" LAB="N" OPN="Y">a</VOC>)Tj
+T*
+(<VOC COR="N" DOR="N" LAB="N" OPN="Y">a</VOC>)Tj
+T*
+(</NUC>)Tj
+T*
+(<CODA VOI="N">)Tj
+T*
+(<CNS AMBI="Y" CNSANT="Y" CNSCOR="Y" CNSDOR="N")Tj
+T*
+(CNSLAB="N" CONSTR="N" CONT="Y" NAS="N" SON="Y")Tj
+T*
+(SPR="N" VOCCOR="N" VOCDOR="N" VOCLAB="N")Tj
+T*
+(VOI="Y">r</CNS>)Tj
+T*
+(</CODA>)Tj
+T*
+(</RHYME>)Tj
+T*
+(</SYL>)Tj
+T*
+(<SYL STRENGTH="WEAK" WEIGHT="LIGHT">)Tj
+T*
+(<ONSET STRENGTH="WEAK">)Tj
+T*
+(<CNS AMBI="Y" CNSANT="Y" CNSCOR="Y" CNSDOR="N")Tj
+T*
+(CNSLAB="N" CONSTR="N" CONT="Y" NAS="N" SON="Y")Tj
+T*
+(SPR="N" VOCCOR="N" VOCDOR="N" VOCLAB="N")Tj
+T*
+(VOI="Y">r</CNS>)Tj
+T*
+(</ONSET>)Tj
+T*
+(<RHYME CHECKED="N" STRENGTH="WEAK" VOI="Y")Tj
+T*
+(WEIGHT="LIGHT">)Tj
+T*
+(<NUC CHECKED="N" LONG="N" STRENGTH="WEAK")Tj
+T*
+(VOI="Y" WEIGHT="LIGHT">)Tj
+T*
+(<VOC COR="N" DOR="N" LAB="N" OPN="Y">a</VOC>)Tj
+T*
+(<VOC COR="N" DOR="N" LAB="N" OPN="Y">a</VOC>)Tj
+T*
+(</NUC>)Tj
+T*
+(<CODA VOI="N">)Tj
+T*
+(<CNS AMBI="N" CNSANT="N" CNSCOR="N" CNSDOR="N")Tj
+T*
+(CNSLAB="Y" CONSTR="N" CONT="N" NAS="Y" SON="Y")Tj
+T*
+(SPR="N" VOCCOR="N" VOCDOR="N" VOCLAB="N")Tj
+T*
+(VOI="Y">mc</CNS>)Tj
+T*
+(</CODA>)Tj
+T*
+(</RHYME>)Tj
+T*
+(</SYL>)Tj
+T*
+(</SYLSEQ></PRON>)Tj
+T*
+( </PRONSEQ>)Tj
+T*
+(</ENTRY>)Tj
+T*
+(</LEXICON>)Tj
+/F7 1 Tf
+9.96 0 0 9.96 311.96 287.826 Tm
+0.002 Tc
+0.001 Tw
+[(T)-13(a)0(ble 3.  T)-13(h)8(e stru)8(ctu)8(r)-2(e of)10( th)8(e lex)8(i)3(con)8(.)]TJ
+ET
+312.68 263.2 m
+541.76 263.2 l
+S
+312.68 263.2 229.08 -0.72 re
+f*
+312.68 250.6 228.36 -0.6 re
+f*
+312.68 249.28 228.36 -0.72 re
+f*
+312.68 131.92 m
+541.76 131.92 l
+S
+312.68 131.92 229.08 -0.72 re
+f*
+BT
+8.52 0 0 8.52 316.88 253.843 Tm
+-0.007 Tc
+[(S)-14(e)0(g)14(m)-18(ent)-1419(d)]TJ
+5.64 0 0 5.64 362.72 252.238 Tm
+0.009 Tc
+[(mi)10(n)]TJ
+8.52 0 0 8.52 371.6 253.843 Tm
+-0.009 Tc
+1.632 Tw
+[(\(v)-16(\) d)]TJ
+5.64 0 0 5.64 401.6 252.238 Tm
+-0.001 Tc
+[(in)-12(h)]TJ
+8.52 0 0 8.52 409.04 253.843 Tm
+-0.008 Tc
+1.237 Tw
+[(\(v)-15(\) S)-15(e)-1(g)13(m)-19(ent)-1406(d)]TJ
+5.64 0 0 5.64 477.32 252.238 Tm
+0.009 Tc
+[(mi)10(n)]TJ
+8.52 0 0 8.52 486.2 253.843 Tm
+-0.009 Tc
+1.632 Tw
+[(\(v)-16(\) d)]TJ
+5.64 0 0 5.64 516.2 252.238 Tm
+-0.001 Tc
+[(in)-12(h)]TJ
+8.52 0 0 8.52 523.64 253.843 Tm
+-0.009 Tc
+[(\(v)-16(\) )]TJ
+-22.7465 -1.5211 TD
+-0.007 Tc
+[(a)-3774(8)0(2)-3239(1)0(5)-14(4)-3268(oe)-3281(11)-14(8)-2986(2)0(1)-14(6)]TJ
+ET
+350.12 263.2 m
+350.12 250.6 l
+S
+350.12 263.2 0.72 -12.6 re
+f*
+388.28 263.2 m
+388.28 250.6 l
+S
+388.28 263.2 0.72 -12.6 re
+f*
+426.56 263.2 m
+426.56 250.6 l
+S
+426.56 263.2 0.6 -12.6 re
+f*
+464.72 263.2 m
+464.72 250.6 l
+S
+464.72 263.2 0.72 -12.6 re
+f*
+502.88 263.2 m
+502.88 250.6 l
+S
+502.88 263.2 0.72 -12.6 re
+f*
+BT
+8.52 0 0 8.52 328.04 230.203 Tm
+[(ae)-3549(67)-3239(17)-14(0)-3253(y)28(o)-3268(1)0(2)-14(2)-2986(22)-14(4)]TJ
+-0.0282 -1.2535 TD
+[(y)28(a)-3549(89)-3239(19)-14(0)-3493(u)-3732(37)-3253(16)-14(6)]TJ
+-0.2113 -1.2535 TD
+[(y)28(a)0(e)-3070(1)0(3)-14(5)-2986(24)-14(6)-2915(w)-3(eo)-2915(13)-14(9)-2986(2)0(3)-14(8)]TJ
+0.2113 -1.2535 TD
+[(eo)-3521(79)-3239(16)-14(8)-3155(w)-3(e)-3169(1)0(1)-14(8)-2986(23)-14(0)]TJ
+0.2394 -1.2535 TD
+-0.006 Tc
+[(e)-3773(7)1(1)-3238(1)1(7)-13(9)-3238(wi)-3489(90)-3252(19)-13(0)]TJ
+-0.4789 -1.2535 TD
+3.246 Tc
+[(y)3281(e)3253(o)211(1)3253(4)3239(4)267(2)3253(4)3239(0y)3281(u)-254(6)3253(91)3253(8)3239(0)]TJ
+0.2394 -1.2535 TD
+-0.007 Tc
+[(y)28(e)-3295(14)-14(4)-2986(2)0(5)-14(0)-3268(eu)-3521(68)-3253(16)-14(1)]TJ
+0.2113 -1.2535 TD
+[(o)-3746(5)0(1)-3239(1)0(7)-14(5)-3127(eui)-3391(83)-3253(17)-14(5)]TJ
+-0.3239 -1.2535 TD
+0.007 Tc
+[(w)11(a)-3141(1)14(3)0(8)-2972(2)14(32)-3592(i)-3828(4)14(8)-3239(1)14(64)]TJ
+-0.2254 -1.2535 TD
+-0.006 Tc
+[(wae)-2942(1)1(3)-13(3)-2985(23)-13(6)]TJ
+ET
+311.96 263.2 m
+311.96 131.2 l
+S
+311.96 263.2 0.72 -132 re
+f*
+350.12 249.64 m
+350.12 131.2 l
+S
+350.12 249.64 0.72 -118.44 re
+f*
+388.28 249.64 m
+388.28 131.2 l
+S
+388.28 249.64 0.72 -118.44 re
+f*
+426.56 249.64 m
+426.56 131.2 l
+S
+426.56 249.64 0.6 -118.44 re
+f*
+464.72 249.64 m
+464.72 131.2 l
+S
+464.72 249.64 0.72 -118.44 re
+f*
+502.88 249.64 m
+502.88 131.2 l
+S
+502.88 249.64 0.72 -118.44 re
+f*
+541.04 263.2 m
+541.04 131.2 l
+S
+541.04 263.2 0.72 -132 re
+f*
+BT
+9.96 0 0 9.96 311.96 109.986 Tm
+-0.004 Tc
+0.007 Tw
+[(T)-19(a)-6(b)-10(l)-3(e)-6( 4)-10(.)-7( )-711(M)-6(i)-3(nim)15(u)2(m)15( a)-6(n)2(d)-10( inhe)-6(r)-8(e)-6(nt d)-10(u)2(r)-8(a)-6(tio)-10(n o)-10(f)4( vo)-10(w)19(e)-6(ls.)]TJ
+4.2771 -1.1807 TD
+0 Tc
+0 Tw
+(d)Tj
+6.48 0 0 6.48 359.6 96.682 Tm
+-0.019 Tc
+[(mi)-19(n)]TJ
+9.96 0 0 9.96 369.56 98.226 Tm
+-0.02 Tc
+0.023 Tw
+[(\()-24(v)-14(\))-24( =)-22( mi)-19(n)-14(i)-19(mu)-14(m d)-26(u)-14(r)-24(a)-22(t)-19(i)-19(o)-26(n)-14( o)-26(f)-12( t)-19(h)-14(e)-22( v)-14(o)-26(we)-22(l)]TJ
+-1.506 -1.1807 TD
+0 Tc
+0 Tw
+(d)Tj
+6.48 0 0 6.48 359.6 84.922 Tm
+(inh)Tj
+9.96 0 0 9.96 367.88 86.466 Tm
+-0.004 Tc
+0.007 Tw
+[(\()-8(v)2(\))-8( =)-6( inhe)-6(r)-8(e)-6(nt d)-10(u)2(r)-8(a)-6(tio)-10(n o)-10(f)4( the)-6( vo)-10(w)19(e)-6(l)]TJ
+ET
+0 J 0 j 0.96 w 
+309.68 769.96 230.52 -460.92 re
+S
+endstream
+endobj
+23 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F7 6 0 R
+/F8 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+25 0 obj
+<<
+/Length 11825
+>>
+stream
+1 1 1 rg
+/GS1 gs
+14 -12.92 594.96 841.92 re
+f
+0 0 0 RG
+1 J 1 j 0.12 w 10 M []0 d
+1 i 
+54.92 769.96 m
+281.48 769.96 l
+S
+0 0 0 rg
+54.92 769.96 226.56 -0.96 re
+f*
+54.92 755.8 225.6 -0.96 re
+f*
+54.92 753.88 225.6 -0.96 re
+f*
+54.92 365.32 m
+281.48 365.32 l
+S
+54.92 365.32 226.56 -0.96 re
+f*
+BT
+/F7 1 Tf
+11.04 0 0 11.04 60.68 758.923 Tm
+0.002 Tc
+-0.002 Tw
+[(factor)-5556(factor description)]TJ
+0.7609 -1.4565 TD
+[(f0)-1411(phrase-)20(final)]TJ
+ET
+91.52 769.96 m
+91.52 755.8 l
+S
+91.52 769.96 0.96 -14.16 re
+f*
+BT
+11.04 0 0 11.04 69.08 728.443 Tm
+[(f1)-1410(phrase-)21(initial)]TJ
+0 -1.3043 TD
+[(f2)-1411(phrase-)20(second)]TJ
+T*
+[(f3)-1410(phrase-)21(third)]TJ
+T*
+[(f4)-1411(v)13(o)2(wel after strong)13( aspiration consonant)]TJ
+T*
+[(f5)-1411(v)13(o)2(wel after slig)13(ht aspiration consonant)]TJ
+T*
+[(f6)-1411(v)13(o)2(wel after no aspiration consonant)]TJ
+T*
+[(f7)-1410(v)14(o)3(wel after fricativ)14(e consonant)]TJ
+T*
+[(f8)-1411(v)13(o)2(wel after stop consonant)]TJ
+T*
+[(f9)-1411(v)13(o)2(w)7(e)0(l after nasal consonant)]TJ
+-0.25 -1.3043 TD
+[(f10)-1161(v)13(ow)7(el after affricate consonant)]TJ
+T*
+[(f11)-1161(v)13(owel after liquid consonant)]TJ
+T*
+0.001 Tc
+-0.001 Tw
+[(f12)-1162(v)12(owel before stop consonant)]TJ
+T*
+0.002 Tc
+-0.002 Tw
+[(f13)-1161(v)13(owel before fricativ)13(e consonant)]TJ
+T*
+0.001 Tc
+-0.001 Tw
+[(f14)-1162(v)12(ow)6(el before nasal consonant)]TJ
+T*
+[(f15)-1162(v)12(owel before liquid consonant)]TJ
+T*
+0.002 Tc
+-0.002 Tw
+[(f16)-1161(v)13(owel after am)19(bisy)13(llabic consonant)]TJ
+T*
+[(f17)-1161(v)13(owel before am)19(bisy)13(llabic consonant)]TJ
+T*
+[(f18)-1161(v)13(owel after bilabial consonant)]TJ
+T*
+[(f19)-1161(v)13(owel after alv)13(e)0(olar conosonant)]TJ
+T*
+[(f20)-1161(v)13(owel after v)13(e)0(lar consonant)]TJ
+T*
+[(f21)-1161(v)13(owel after alv)13(e)0(opalatal consonant)]TJ
+T*
+[(f22)-1161(v)13(owel before bilabial consonant)]TJ
+T*
+0.001 Tc
+-0.001 Tw
+[(f23)-1162(v)12(owel before alv)12(e)-1(olar consonant)]TJ
+T*
+[(f24)-1162(v)12(owel before v)12(e)-1(lar consonant)]TJ
+T*
+0.002 Tc
+-0.002 Tw
+[(f25)-1161(v)13(ow)7(el after v)13(o)2(iced seg)13(m)19(e)0(nt)]TJ
+T*
+0.001 Tc
+-0.001 Tw
+[(f26)-1162(v)12(owel before v)12(o)1(iced seg)12(m)18(e)-1(nt)]TJ
+ET
+53.96 769.96 m
+53.96 364.36 l
+S
+53.96 769.96 0.96 -405.6 re
+f*
+91.52 754.36 m
+91.52 364.36 l
+S
+91.52 754.36 0.96 -390 re
+f*
+280.52 769.96 m
+280.52 364.36 l
+S
+280.52 769.96 0.96 -405.6 re
+f*
+BT
+9.96 0 0 9.96 53.96 343.246 Tm
+0.002 Tc
+0.001 Tw
+[(T)-13(a)0(ble 5.  Factors u)8(s)5(ed in)8( th)8(e train)8(i)3(n)8(g)8( corpu)8(s)5(.)]TJ
+ET
+54.92 317.32 m
+282.92 317.32 l
+S
+54.92 317.32 228 -0.96 re
+f*
+54.92 287.32 227.04 -0.96 re
+f*
+54.92 285.4 227.04 -0.96 re
+f*
+54.92 134.44 m
+282.92 134.44 l
+S
+54.92 134.44 228 -0.96 re
+f*
+BT
+12 0 0 12 63.8 305.428 Tm
+-0.002 Tc
+[(Number)-2249(Add)-2262(S)-6(quared)-1322(V)0(ariance)]TJ
+-0.37 -1.24 TD
+-0.001 Tc
+[(of F)5(actors)-1472(F)5(actor)-2428(Error)-3288(%)]TJ
+1.75 -1.4 TD
+0 Tc
+[(0)-7250(5,902,000)-2000(100)]TJ
+ET
+110.96 317.32 m
+110.96 287.32 l
+S
+110.96 317.32 0.96 -30 re
+f*
+167.96 317.32 m
+167.96 287.32 l
+S
+167.96 317.32 0.96 -30 re
+f*
+224.96 317.32 m
+224.96 287.32 l
+S
+224.96 317.32 0.96 -30 re
+f*
+BT
+12 0 0 12 80.36 258.628 Tm
+[(1)-4090(f)3(0)-2330(4,382,000)-1880(74.4)]TJ
+0 -1.26 TD
+[(2)-3840(f)3(12)-2080(2,716,000)-1880(46.1)]TJ
+T*
+[(3)-4090(f)3(1)-2330(1,869,000)-1880(31.7)]TJ
+T*
+[(4)-3840(f)3(14)-2080(1,386,000)-1880(23.5)]TJ
+T*
+[(5)-4090(f)3(4)-2330(1,271,000)-1880(21.6)]TJ
+T*
+[(6)-3840(f)3(25)-2080(1,234,000)-1880(20.9)]TJ
+T*
+[(7)-3840(f)3(13)-2080(1,202,000)-1880(20.4)]TJ
+T*
+[(8)-3840(f)3(17)-2080(1,156,000)-1880(19.6)]TJ
+T*
+[(9)-3840(f)3(15)-2080(1,129,000)-1880(19.2)]TJ
+ET
+53.96 317.32 m
+53.96 133.48 l
+S
+53.96 317.32 0.96 -183.84 re
+f*
+110.96 284.44 m
+110.96 133.48 l
+S
+110.96 284.44 0.96 -150.96 re
+f*
+167.96 284.44 m
+167.96 133.48 l
+S
+167.96 284.44 0.96 -150.96 re
+f*
+224.96 284.44 m
+224.96 133.48 l
+S
+224.96 284.44 0.96 -150.96 re
+f*
+281.96 317.32 m
+281.96 133.48 l
+S
+281.96 317.32 0.96 -183.84 re
+f*
+BT
+9.96 0 0 9.96 53.96 112.366 Tm
+0.004 Tc
+-0.001 Tw
+[(T)-11(a)2(bl)5(e 6.  F)6(act)5(or di)5(s)7(t)5(ri)5(bu)10(t)5(i)5(o)-2(n)10(.)]TJ
+ET
+312.32 769.96 m
+543.56 769.96 l
+S
+312.32 769.96 231.24 -0.36 re
+f*
+312.32 755.08 230.88 -0.36 re
+f*
+312.32 754.24 230.88 -0.36 re
+f*
+312.32 678.28 m
+543.56 678.28 l
+S
+312.32 678.28 231.24 -0.36 re
+f*
+BT
+7.68 0 0 7.68 343.4 757.717 Tm
+0 Tc
+0 Tw
+(d)Tj
+5.04 0 0 5.04 347.24 756.229 Tm
+0.008 Tc
+(min)Tj
+7.68 0 0 7.68 355.16 757.717 Tm
+-0.004 Tc
+0.145 Tw
+(\(v\) d)Tj
+5.04 0 0 5.04 370.76 756.229 Tm
+0.008 Tc
+[(in)8(h)]TJ
+7.68 0 0 7.68 377.36 757.717 Tm
+-0.003 Tc
+0.722 Tw
+[(\(v\) P)6(P)-1306(C)8(M)-1208(AS)6(P)-1056(VOC)-805(AM)11(B)-539(d)-3(\(v,c\) )-156(d\(v\))]TJ
+-7.7344 -2.1406 TD
+0 Tc
+0 Tw
+[(kk a)7( _)-1719(8)0(2)-1734(154)-1766(0)-1922(n)0(a)-1931(n)0(a)-2072(n)0(a)-2040(n)0(a)-1759(206)-1484(218)]TJ
+ET
+341.84 769.96 m
+341.84 755.08 l
+S
+341.84 769.96 0.48 -14.88 re
+f*
+364.76 769.96 m
+364.76 755.08 l
+S
+364.76 769.96 0.36 -14.88 re
+f*
+387.68 769.96 m
+387.68 755.08 l
+S
+387.68 769.96 0.36 -14.88 re
+f*
+407.36 769.96 m
+407.36 755.08 l
+S
+407.36 769.96 0.48 -14.88 re
+f*
+428 769.96 m
+428 755.08 l
+S
+428 769.96 0.48 -14.88 re
+f*
+451.64 769.96 m
+451.64 755.08 l
+S
+451.64 769.96 0.36 -14.88 re
+f*
+474.44 769.96 m
+474.44 755.08 l
+S
+474.44 769.96 0.48 -14.88 re
+f*
+497.36 769.96 m
+497.36 755.08 l
+S
+497.36 769.96 0.36 -14.88 re
+f*
+520.28 769.96 m
+520.28 755.08 l
+S
+520.28 769.96 0.36 -14.88 re
+f*
+BT
+6.72 0 0 6.72 316.64 726.172 Tm
+0.001 Tc
+-0.001 Tw
+[(_ d)-17( e bc)]TJ
+7.68 0 0 7.68 349.88 726.037 Tm
+0 Tc
+[(71)-1734(179)-1766(2)-1891(1)0(2)-1906(n)0(a)-2072(n)0(a)-2040(n)0(a)-1759(102)-1484(100)]TJ
+-4.1406 -1.9844 TD
+0 Tw
+[(_ b i s)-1721(4)0(8)-1734(164)-1766(2)-1891(1)0(3)-1906(n)0(a)-2072(n)0(a)-2009(1)0(7)-1734(105)-1734(96)]TJ
+0.2031 -1.9844 TD
+[(b o _)-1938(5)0(1)-1734(175)-1766(0)-1922(n)0(a)-1931(n)0(a)-2072(n)0(a)-2040(n)0(a)-1759(264)-1484(269)]TJ
+0 -2 TD
+[(p u _)-1938(3)0(7)-1734(166)-1766(0)-1922(n)0(a)-2150(4)-2297(na)-2040(na)-1759(219)-1484(219)]TJ
+ET
+311.96 769.96 m
+311.96 677.92 l
+S
+311.96 769.96 0.36 -92.04 re
+f*
+341.84 754.48 m
+341.84 677.92 l
+S
+341.84 754.48 0.48 -76.56 re
+f*
+364.76 754.48 m
+364.76 677.92 l
+S
+364.76 754.48 0.36 -76.56 re
+f*
+387.68 754.48 m
+387.68 677.92 l
+S
+387.68 754.48 0.36 -76.56 re
+f*
+407.36 754.48 m
+407.36 677.92 l
+S
+407.36 754.48 0.48 -76.56 re
+f*
+428 754.48 m
+428 677.92 l
+S
+428 754.48 0.48 -76.56 re
+f*
+451.64 754.48 m
+451.64 677.92 l
+S
+451.64 754.48 0.36 -76.56 re
+f*
+474.44 754.48 m
+474.44 677.92 l
+S
+474.44 754.48 0.48 -76.56 re
+f*
+497.36 754.48 m
+497.36 677.92 l
+S
+497.36 754.48 0.36 -76.56 re
+f*
+520.28 754.48 m
+520.28 677.92 l
+S
+520.28 754.48 0.36 -76.56 re
+f*
+543.2 769.96 m
+543.2 677.92 l
+S
+543.2 769.96 0.36 -92.04 re
+f*
+BT
+9.96 0 0 9.96 311.96 656.806 Tm
+0.002 Tc
+0.013 Tw
+[(T)-13(a)0(ble )12(7. )12( )-446(C)6(a)0(m)21(p)-4(arison)8( betw)25(een)8( estim)21(ated v)8(o)-4(w)25(e)0(l )-12(du)8(ration)]TJ
+4.2771 -1.1807 TD
+-0.002 Tc
+0.005 Tw
+[(and)-8( actual vo)-8(w)21(e)-4(l d)-8(u)4(ratio)-8(n.)]TJ
+T*
+0 Tc
+0 Tw
+(d)Tj
+6.48 0 0 6.48 359.6 631.706 Tm
+-0.019 Tc
+[(mi)-19(n)]TJ
+9.96 0 0 9.96 369.56 633.286 Tm
+0.022 Tw
+[(\()-23(v)-13(\))-23( =)-21( mi)-18(n)-13(i)-18(mu)-13(m d)-25(u)-13(r)-23(a)-21(t)-18(i)-18(o)-25(n)]TJ
+-1.506 -1.1807 TD
+0 Tc
+0 Tw
+(d)Tj
+6.48 0 0 6.48 359.6 619.946 Tm
+(inh)Tj
+9.96 0 0 9.96 367.88 621.526 Tm
+0.003 Tc
+[(\(v)9(\) = in)9(h)9(e)1(ren)9(t)4( du)9(ration)]TJ
+-1.3373 -1.1807 TD
+0.001 Tw
+[(d\(v)8(,)-1(c\) = estim)21(ated du)8(ration)]TJ
+T*
+[(d\(v)8(\))-2( = actu)8(a)0(l du)8(ration)]TJ
+T*
+[(n)8(a)0( = n)8(o)-4(t applicable)]TJ
+T*
+0.001 Tc
+0.002 Tw
+[(Nu)7(m)20(b)-5(ers in)7( colu)7(m)20(n)7(s f)9(r)-3(om)20( P)-9(P)-9( to A)12(M)-1(B)-7( are th)7(e )]TJ
+T*
+[(con)7(t)2(ex)7(t v)7(a)-1(lu)7(es \(f)]TJ
+6.48 0 0 6.48 420.8 561.146 Tm
+0 Tc
+0 Tw
+(0)Tj
+9.96 0 0 9.96 424.04 562.726 Tm
+0.003 Tc
+(, f)Tj
+6.48 0 0 6.48 432.32 561.146 Tm
+0 Tc
+(1)Tj
+9.96 0 0 9.96 435.56 562.726 Tm
+0.003 Tc
+(, \205\).)Tj
+/F3 1 Tf
+11.04 0 0 11.04 389.84 526.24 Tm
+-0.005 Tc
+[(REF)-14(E)-1(RENCES)]TJ
+/F7 1 Tf
+9.96 0 0 9.96 311.96 502.726 Tm
+0.001 Tc
+0.147 Tw
+[([1)-5(] )12(Duto)-5(it, T)-14(., V. P)-9(a)-1(gel, N. P)-9(i)2(erret, F. B)-7(a)-1(taille, and)-5( O.)]TJ
+T*
+0.004 Tc
+0.553 Tw
+[(v)10(a)2(n)10( der Vrek)10(en)10(, \(1996\), \223)14(T)-11(h)10(e)2( MBR)8(O)3(L)13(A)15( project)5(:)]TJ
+T*
+0 Tc
+0.087 Tw
+[(to)-6(w)23(a)-2(rd)-6(s a set o)-6(f)8( h)6(i)1(g)6(h)6(-)8(q)-6(u)6(ality)18( sp)-6(eech)6( sy)18(n)6(t)1(h)6(e)-2(sizers f)8(r)-4(ee )-12(o)-6(f)]TJ
+T*
+0.002 Tc
+0.049 Tw
+[(u)8(s)5(e f)10(o)-4(r n)8(o)-4(n)8(-)10(com)21(m)21(e)0(rcial pu)8(rposes, \224 )]TJ
+/F5 1 Tf
+14.7831 0 TD
+0.048 Tw
+[(Pr)6(oc. 4)]TJ
+6.48 0 0 6.48 489.2 471.98 Tm
+0 Tc
+(th)Tj
+9.96 0 0 9.96 494.24 467.436 Tm
+0.003 Tc
+[( IC)7(SLP '96)]TJ
+/F7 1 Tf
+4.506 0 TD
+0 Tc
+0 Tw
+(,)Tj
+-22.8072 -1.1807 TD
+0.005 Tc
+-0.002 Tw
+[(Ph)11(i)6(l)6(a)3(del)6(p)-1(h)11(i)6(a, v)11(o)-1(l)6(.)2(3, 1393-)13(1396.)]TJ
+T*
+0.004 Tc
+0.132 Tw
+[([2] Du)10(t)5(o)-2(i)5(t)5(,)1( T)-11(h)10(i)5(e)2(rry)22(, Hen)10(r)0(i)5( L)13(e)2(i)5(c)2(h)10(,)1( \(1994\), A)15( com)23(p)-2(ari)5(s)7(on)]TJ
+T*
+0.002 Tc
+0.362 Tw
+[(of)10( f)10(o)-4(u)8(r)-2( can)8(didate alg)8(o)-4(rith)8(m)21(s)5( in)8( th)8(e )-12(con)8(t)3(ex)8(t )-12(of)10( )-12(h)8(i)3(g)8(h)]TJ
+T*
+0 Tc
+0.087 Tw
+[(q)-6(u)6(ality)18( tex)6(t)1(-)8(t)1(o)-6(-)8(sp)-6(eech)6( sy)18(n)6(t)1(h)6(e)-2(sis. )]TJ
+/F5 1 Tf
+13.3133 0 TD
+0.003 Tc
+0.096 Tw
+[(Proceedings of IC)7(ASSP)]TJ
+-13.3133 -1.1807 TD
+0.005 Tc
+(\22294)Tj
+/F7 1 Tf
+1.3494 0.001 TD
+0 Tc
+0 Tw
+(.)Tj
+9 0 0 9 311.96 397.861 Tm
+-0.015 Tc
+0.018 Tw
+[([)-29(3)-22(])-29( h)-22(t)-17(t)-17(p)-22(:)-17(/)-17(/)-17(www.)]TJ
+6.2397 0 TD
+0.005 Tc
+[(phon.uc)9(l.a)9(c)9(.)2(uk)12(/r)5(e)9(s)7(our)5(c)9(e)9(/)3(s)7(f)18(s)7(.)2(htm)23(l)]TJ
+9.96 0 0 9.96 311.96 386.326 Tm
+0.002 Tc
+0.121 Tw
+[([4] Haw)25(k)8(in)8(s, S., J)-7(.)-1( Hou)8(s)5(e, M. Hu)8(ck)8(v)8(a)0(le, J)-7(.)-1( L)11(o)-4(cal )-13(&)9( )-13(R)6(.)]TJ
+0 -1.1807 TD
+0.004 Tc
+0.613 Tw
+[(Og)10(den)10(,)1( \(1998\), \223)14(P)-6(roS)6(y)22(n)10(t)5(h)10(:)5( an)10( )-12(i)5(n)10(t)5(e)2(g)10(r)0(at)5(ed )-12(pros)7(odi)5(c)]TJ
+T*
+0.002 Tc
+0.001 Tw
+[(approach)8( to dev)8(i)3(ce-)10(in)8(depen)8(d)-4(en)8(t, )-12(n)8(a)0(tu)8(ral-)10(sou)8(n)8(d)-4(in)8(g)8( )-12(speech)]TJ
+T*
+-0.002 Tc
+[(sy)16(nthesis,)-5(\224 )]TJ
+/F5 1 Tf
+4.5783 0 TD
+0.003 Tc
+0 Tw
+[(Pr)6(oc. 5)]TJ
+6.48 0 0 6.48 387.08 355.58 Tm
+0 Tc
+(th)Tj
+9.96 0 0 9.96 392.12 351.036 Tm
+0.004 Tc
+-0.001 Tw
+[( IC)8(SL)6(P \22298)]TJ
+/F7 1 Tf
+4.5301 0 TD
+0.005 Tc
+-0.002 Tw
+[(, S)7(y)23(dn)11(ey)23(, 1707-)13(1710.)]TJ
+-12.5783 -1.1807 TD
+-0.001 Tc
+0.004 Tw
+[([5)-7(] http)-7(://tcts.f)7(p)-7(m)18(s.ac.b)-7(e)-3(/sy)17(n)5(thesis/m)18(b)-7(r)-5(o)-7(lign/)]TJ
+T*
+0.004 Tc
+0.119 Tw
+[([6] )11(Nelder, )11(J.A)15(.)1( )12(&)11( R)8(.)1( Mead \(1965\) \223)14(A)15( s)7(i)5(m)23(p)-2(lex)10( m)23(e)2(th)10(od)]TJ
+T*
+-0.004 Tc
+0.489 Tw
+[(fo)-10(r)-8( func)-6(tio)-10(n m)15(i)-3(nim)15(i)-3(z)-6(a)-6(tio)-10(n,)-7(\224)-6( )]TJ
+/F5 1 Tf
+12.6747 -0.001 TD
+-0.002 Tc
+[(Th)-8(e)]TJ
+/F7 1 Tf
+1.506 0.001 TD
+0 Tc
+0 Tw
+( )Tj
+/F5 1 Tf
+0.7349 -0.001 TD
+0.005 Tc
+0.492 Tw
+[(C)9(o)-1(mput)6(er)8( Jour)8(nal)]TJ
+/F7 1 Tf
+7.8916 0.001 TD
+0 Tc
+0 Tw
+(,)Tj
+-22.8072 -1.1807 TD
+0.003 Tc
+[(v)9(o)-3(l.7, T)-12(h)9(e B)-5(r)-1(itis)6(h)9( C)7(o)-3(m)22(p)-3(u)9(t)4(er Society)21(,)0( 308-)11(313.)]TJ
+ET
+endstream
+endobj
+26 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F3 4 0 R
+/F5 5 0 R
+/F7 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/HalftoneName (Default)
+/Frequency 60
+/Angle 45
+/SpotFunction /Round
+>>
+endobj
+7 0 obj
+<<
+/Type /ExtGState
+/SA false
+/OP false
+/HT /Default
+>>
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /ImageB ]
+>>
+endobj
+16 0 obj
+<<
+/Name /T2
+/Type /Font
+/Subtype /Type3
+/Resources 28 0 R
+/FontBBox [2 -1 68 40]
+/FontMatrix [0.01205 0 0 0.01205 0 0]
+/FirstChar 22
+/LastChar 56
+/Encoding 29 0 R
+/CharProcs 30 0 R
+/Widths [34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 70 0 0 0 0 0 0 
+0 0 46 ]
+>>
+endobj
+29 0 obj
+<<
+/Type /Encoding
+/Differences [22/G16 47/G2F 56/G38 ]
+>>
+endobj
+30 0 obj
+<<
+/G16 31 0 R
+/G2F 32 0 R
+/G38 33 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 160
+>>
+stream
+34 0 2 -1 31 39 d1
+q
+29 0 0 40 2 -1 cm
+BI
+/W 29
+/H 40
+/BPC 1
+/IM true
+/F /CCF
+/DP <</K -1 /Columns 29>>
+ID :ãùáIÙ⁄ø•Ìv∏◊ˇˇˇˇˇˇˇˇß·8"œ¿ @
+EI
+Q
+endstream
+endobj
+32 0 obj
+<<
+/Length 204
+>>
+stream
+70 0 2 -1 68 39 d1
+q
+66 0 0 40 2 -1 cm
+BI
+/W 66
+/H 40
+/BPC 1
+/IM true
+/F /CCF
+/DP <</K -1 /Columns 66>>
+ID &°úÿg8ˇCêBÜBÿi¶¥”Wˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ˝¶∑UË√¥q˚	a+√	0¬V
+≈EF”PZj0òPP¬(P 
+EI
+Q
+endstream
+endobj
+33 0 obj
+<<
+/Length 172
+>>
+stream
+46 0 2 -1 44 40 d1
+q
+42 0 0 41 2 -1 cm
+BI
+/W 42
+/H 41
+/BPC 1
+/IM true
+/F /CCF
+/DP <</K -1 /Columns 42>>
+ID #=◊~ªÆÛè•}È~˚“æÙØ˝È_zWﬂ›/Ω+ÔJ˚˛ï˛∑˙ﬂ∫h8"Ä¸ @
+EI
+Q
+endstream
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F3
+/Encoding 34 0 R
+/BaseFont /Times-Bold
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F5
+/Encoding 34 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F7
+/Encoding 34 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F8
+/Encoding 34 0 R
+/BaseFont /Courier
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F9
+/BaseFont /Symbol
+>>
+endobj
+34 0 obj
+<<
+/Type /Encoding
+/Differences [ 0/grave/acute/circumflex/tilde/macron/breve/dotaccent/dieresis
+/ring/cedilla/hungarumlaut/ogonek/caron/dotlessi/bullet/bullet
+/bullet/bullet/bullet/bullet/bullet/bullet/bullet/bullet
+/bullet/bullet/bullet/bullet/bullet/bullet/bullet/bullet
+ 39/quotesingle 96/grave 127/bullet/bullet/bullet/quotesinglbase/florin/quotedblbase
+/ellipsis/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE
+/bullet/bullet/bullet/bullet/quoteleft/quoteright/quotedblleft/quotedblright
+/bullet/endash/emdash/tilde/trademark/scaron/guilsinglright/oe
+/bullet/bullet/Ydieresis/space 164/currency 166/brokenbar 168/dieresis/copyright
+/ordfeminine 172/logicalnot/hyphen/registered/macron/degree/plusminus/twosuperior
+/threesuperior/acute/mu 183/periodcentered/cedilla/onesuperior/ordmasculine 188/onequarter
+/onehalf/threequarters 192/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring
+/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde
+/Odieresis/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute
+/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis/aring
+/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave/iacute
+/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex/otilde
+/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis/yacute
+/thorn/ydieresis
+]
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 11 0 R
+/Contents 10 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 15 0 R
+/Contents 14 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+21 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 23 0 R
+/Contents 22 0 R
+>>
+endobj
+24 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 26 0 R
+/Contents 25 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 9 0 R 13 0 R 17 0 R 21 0 R 24 0 R]
+/Count 6
+/MediaBox [0 0 595 842]
+>>
+endobj
+35 0 obj
+<<
+/Type /Catalog
+/Pages 8 0 R
+>>
+endobj
+36 0 obj
+<<
+/CreationDate (D:191000809151545)
+/Producer (\376\377\000A\000c\000r\000o\000b\000a\000t\000 \000D\000i\000s\000t\000i\000l\000l\000e\000r\000 \0003\000.\0000\0001\000 \000f\000o\000r\000 \000W\000i\000n\000d\000o\000w\000s)
+/Creator (PSCRIPT.DRV Version 4.0)
+/Title (Microsoft Word - icsp05.doc)
+>>
+endobj
+xref
+0 37
+0000000000 65535 f
+0000088849 00000 n
+0000000017 00000 n
+0000012169 00000 n
+0000086902 00000 n
+0000087009 00000 n
+0000087118 00000 n
+0000085611 00000 n
+0000089391 00000 n
+0000088937 00000 n
+0000012296 00000 n
+0000029457 00000 n
+0000087226 00000 n
+0000089027 00000 n
+0000029586 00000 n
+0000046359 00000 n
+0000085742 00000 n
+0000089118 00000 n
+0000046500 00000 n
+0000061677 00000 n
+0000087331 00000 n
+0000089209 00000 n
+0000061806 00000 n
+0000073347 00000 n
+0000089300 00000 n
+0000073465 00000 n
+0000085350 00000 n
+0000085478 00000 n
+0000085690 00000 n
+0000086046 00000 n
+0000086127 00000 n
+0000086192 00000 n
+0000086410 00000 n
+0000086672 00000 n
+0000087417 00000 n
+0000089514 00000 n
+0000089570 00000 n
+trailer
+<<
+/Size 37
+/Root 35 0 R
+/Info 36 0 R
+/ID [<f32d4ea2ce1a29664158d0dee5400662><f32d4ea2ce1a29664158d0dee5400662>]
+>>
+startxref
+89897
+%%EOF

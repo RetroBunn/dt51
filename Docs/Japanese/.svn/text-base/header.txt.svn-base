@@ -1,0 +1,76 @@
+-	Fdd_Header	{...}
++	Fdd_DVer	0x01105720 ""
++	Fdd_UserID	0x01105724 "r``@´/s@@@@@@@@@@@@p910815"
++	Fdd_DDate	0x0110573a "910815"
+	Fdd_Fil33	0x0000
+	Fdd_ChrAttrOfs	0x0100
+	Fdd_Fil37	0x0000
+	Fdd_GrcdTblOfs	0x0180
+	Fdd_Fil41	0x0000
+	Fdd_IdicIndOfs	0x0380
+	Fdd_Fil45	0x0000
+	Fdd_IdicPronOfs	0x03c0
+	Fdd_Fil49	0x0000
+	Fdd_VecpOfs	0x07bf
+	Fdd_Fil53	0x0000
+	Fdd_EdicIndOfs	0x4000
+	Fdd_Fil57	0x0000
+	Fdd_TdicIndOfs	0x20ce
+	Fdd_Fil61	0x0000
+	Fdd_IdicOfs	0x2400
+	Fdd_HdrSector	0x0010
+	Fdd_HdrNg	0x3d53
+	Fdd_MaxNjsLen	0x0005
+	Fdd_MaxGjsInd	0x0017
+	Fdd_Fil73	0x0000
+	Fdd_Fil75	0x0000
+	Fdd_Fil77	0x0000
+	Fdd_V5youOfs	0x175f
+	Fdd_Fil81	0x0000
+	Fdd_BnoTblOfs	0x176e
+	Fdd_Fil85	0x0000
+	Fdd_MatrixOfs	0x19ee
+	Fdd_Fil89	0x0000
+	Fdd_EdicKeyOfs	0x53ad
+	Fdd_Fil93	0x0000
+	Fdd_EdicIndSector	0x0010
++	Fdd_Fil97	0x01105780 ""
+	Fdd_IdicPageOfs	0x0009
+	Fdd_IdicPageSize	0x0001
+	Fdd_IdicNoPage	0x0007
+	Fdd_Fil111	0x0000
+	Fdd_TdicPageOfs	0x0020
+	Fdd_TdicPageSize	0x0001
+	Fdd_TdicNoPage	0x004f
+	Fdd_Fil119	0x0000
+	Fdd_EdicPageOfs	0x006f
+	Fdd_EdicPageSize	0x0001
+	Fdd_EdicNoPage	0x068f
+	Fdd_Fil127	0x0000
+	Fdd_BnoPrefo	0x40 '@'
+	Fdd_Bno5danLL	0x23 '#'
+	Fdd_Bno5danUL	0x2e '.'
+	Fdd_Bno5danYou	0x8c 'Œ'
+	Fdd_Bno1danMei	0x2f '/'
+	Fdd_Bno1danYou	0x30 '0'
+	Fdd_BnoSahen	0x31 '1'
+	Fdd_BnoSahenYou	0x98 '˜'
+	Fdd_BnoHifu	0x43 'C'
+	Fdd_BnoAdv	0x1a ''
+	Fdd_GrcdToku1	0x01 ''
+	Fdd_GrcdToku2	0x02 ''
+	Fdd_GrcdDigit	0x03 ''
+	Fdd_GrcdAdjv	0x0b ''
+	Fdd_GrcdGai	0x07 ''
+	Fdd_GrcdUsr	0x08 ''
+	Fdd_GrcdDai	0x42 'B'
+	Fdd_GrcdPropLL	0x52 'R'
+	Fdd_GrcdPropUL	0x5b '['
+	Fdd_PropMeaning	0xc8 'È'
+	Fdd_GrcdSufLL	0x6e 'n'
+	Fdd_GrcdSufUL	0x77 'w'
++	Fdd_Fil149	0x011057b6 "–<=>"
+	Fdd_GrcdNum1	0x36 '6'
+	Fdd_GrcdNum2	0x37 '7'
++	Fdd_Fil194	0x011057e1 ""
++	Fdd_Body	0x01105b20 ""

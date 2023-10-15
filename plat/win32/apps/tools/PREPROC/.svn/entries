@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/tools/PREPROC"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="LISTS.C"
+   text-time="2006-03-20T22:25:31.974864Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="1cafd6696dd8065deef18dcf5e29787a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:31.818615Z"/>
+<entry
+   committed-rev="4218"
+   name="Preproc.dsp"
+   text-time="2006-03-20T22:25:32.006114Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f0e08ff37bd295ad3f8cba9b62b1579a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:31.849865Z"/>
+<entry
+   committed-rev="4218"
+   name="Preproc.dep"
+   text-time="2006-03-20T22:25:32.021738Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="a512b46ffbd52110b604b20aa6944141"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:31.865489Z"/>
+<entry
+   committed-rev="4213"
+   name="Preproc.mak"
+   text-time="2006-03-20T22:25:32.084238Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="8cfa13c0ec3b070d874d18b2c8c35169"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:31.912364Z"/>
+<entry
+   committed-rev="4213"
+   name="LISTS.H"
+   text-time="2006-03-20T22:25:32.099863Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b76ba7615f233d5dd1e41a53ec8340f0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:31.927989Z"/>
+<entry
+   committed-rev="4218"
+   name="Preproc.dsw"
+   text-time="2006-03-20T22:25:32.115488Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="a895b07b02e0fd75f26aea1b530af70c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:31.943614Z"/>
+<entry
+   committed-rev="4213"
+   name="Preproc.c"
+   text-time="2006-03-20T22:25:32.131113Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="17e60a8a3f7ff8dbd73b1162637bcb74"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:31.959239Z"/>
+</wc-entries>

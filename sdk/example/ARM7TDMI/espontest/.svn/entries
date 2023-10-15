@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5697"
+   name=""
+   committed-date="2006-09-07T17:14:05.090520Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/ARM7TDMI/espontest"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="sms_abbreviations.xls"
+   text-time="2006-03-22T15:28:18.730012Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ec5bdbf1cd48a7f919e913ae2a1eb70d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:17.745656Z"/>
+<entry
+   committed-rev="4214"
+   name="userdic.c"
+   text-time="2006-03-22T15:28:18.808136Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="c8f278dc732adee3be57a1271a157e71"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:17.792530Z"/>
+<entry
+   committed-rev="5581"
+   name="espontest.mcp"
+   text-time="2006-08-01T17:50:09.093750Z"
+   committed-date="2006-08-18T17:22:31.638667Z"
+   checksum="7978669b29e918a3dfbe9482fee4c7d5"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:28:17.808155Z"/>
+<entry
+   committed-rev="5697"
+   name="epsonapi.h"
+   text-time="2006-08-30T19:33:42.000000Z"
+   committed-date="2006-09-07T17:14:05.090520Z"
+   checksum="b8fa5ce9f3bbc57eaedd52e3e0282d68"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:28:17.823780Z"/>
+<entry
+   committed-rev="4214"
+   name="init.s"
+   text-time="2006-03-22T15:28:19.495623Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="7e0774dcde844f3f88fa7a3e77ec14d3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:17.901903Z"/>
+<entry
+   committed-rev="5697"
+   name="epsontest.c"
+   text-time="2006-09-07T14:16:16.792720Z"
+   committed-date="2006-09-07T17:14:05.090520Z"
+   checksum="a58d225784d610e84b2414765204e8f0"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:28:18.011276Z"/>
+<entry
+   committed-rev="4214"
+   name="scat_b.scf"
+   text-time="2006-03-22T15:28:19.526872Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="72b090756d3180ceb1005e02467c4943"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:18.136274Z"/>
+<entry
+   committed-rev="4214"
+   name="scat_c.scf"
+   text-time="2006-03-22T15:28:19.526872Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="dfff073f6a82694057a443dc062c36c5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:18.167523Z"/>
+<entry
+   committed-rev="4214"
+   name="stack.s"
+   text-time="2006-03-22T15:28:19.542497Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="2dbe5f1b5c6de947167881e68f21acae"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:18.308145Z"/>
+<entry
+   committed-rev="4214"
+   name="vectors.s"
+   text-time="2006-03-22T15:28:19.558121Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="8f8b92482bcd592d72e9d0c7b0d40ec2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:18.401894Z"/>
+<entry
+   committed-rev="4214"
+   name="heap.s"
+   text-time="2006-03-22T15:28:19.573746Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="27f9b64e2f01fca8d1e44158d4767907"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:18.542516Z"/>
+<entry
+   committed-rev="4214"
+   name="retarget.c"
+   text-time="2006-03-22T15:28:19.589371Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="96d1cc130b7dac769e791c2c03ab1dad"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:18.605015Z"/>
+</wc-entries>

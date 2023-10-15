@@ -1,0 +1,505 @@
+**LASpanish/Castillian Grapheme to Phoneme rules.
+**(C) Copyright 1999,2000,2001 All rights reserved.
+**This is an unpublished work, and is confidential and proprietary
+**technology and information of fonix corporation.  No part of this
+**file may be reproduced, used or disclosed without written consent of
+**fonix corporation in each and every instance.
+**
+**	The Phoneme codes:  grapheme (fonixbetNN) usage
+**		a(a) AndAr	    g(gc gh) Gato
+**		b(bc bh)  Boca    g(G) laGo
+**		b(v) saBer	    ll(Z) peliLLo
+**		i(i:) Igual	    p(pc ph)  Poco
+**		v(bc bh) Vengo    r(r) caRo
+**		v(v) uVa	    rr(rr) tieRRa
+**		k(kc kh) Katar    t(tc th) Tiempo
+**		c(kc kh) Como	    x(h8) MéXico
+**	   	d(D) abaDejo	    ñ(n j) aÑo
+**		d(dc dh) abanDerar   ng(n gc gh) aNGola 	
+**		s(s) Sangria
+**	
+**LEFT MATCH:
+**
+**# (pound sign) one or more vowels
+**: (colon) zero or more consonants
+**$ (dollar sign) two or more consonants
+**^ (carrot) one consonant
+**. (period) voiced consonant
+**+ (plus sign) front vowel
+**= (equal sign) one or more numbers
+**% (percent sign) produces an error message
+**
+**RIGHT MATCH:
+**
+**# (pound sign) one or more vowels
+**: (colon) zero or more consonants
+**$ (dollar sign) two or more consonants
+**^ (carrot) one consonant
+**. (period) voiced consonant
+**+ (plus sign) front vowel
+**= (equal sign) one or more numbers
+**% (percent sign) special ending (endings category)
+**%> (percent sign followed by right arrow) compound suffix (ending followed by suffix)
+**> (right arrow) suffix (suffixes category)
+**
+; letters: a á b c d e é f g h i í j k l m n ñ o ó p q r s t u ü ú v w x y z ;
+; numbers: 1 2 3 4 5 6 7 8 9 0 ;
+; vowels: a á e é i í o ó u ú ü y ;
+; vowels_front: i í e é y;
+; consonants: b c d f g h j k l m n ñ p q r s t v w x z ;
+; consonants_voiced: b d g j l m n ñ r v w z ;
+; nasals: m n ñ ;
+; endings: eño se ado ido ído ito íto arse ar ir o er ida ante e dad ia ;
+; suffixes: mante mente miento able ismo ista ción dante dancia lado isto ;
+; output: a bc bh E e v h8 s kc kh tS dc dh D f gc gh j Z G i: tc th o l Z m n pc ph w r rr ;
+**
+**
+Rule: punctuation
+	Nothing		"0"	Nothing		"s E r o"
+	Nothing		"1"	Nothing		"u n o"
+	Nothing		"2"	Nothing		"(dc dh | D) o (s | h8)"
+	Nothing		"3"	Nothing		"tc th r e (s | h8)"
+	Nothing		"4"	Nothing		"kc kh w a tc th r o"
+	Nothing		"5"	Nothing		"s i: n kc kh o"
+	Nothing		"6"	Nothing		"s e [i:] (s | h8)"
+	Nothing		"7"	Nothing		"s i: E tc th e"
+	Nothing		"8"	Nothing		"o tc tS o"
+	Nothing		"9"	Nothing		"n u e v e"
+	Anything	"_"	Anything	Silent
+	Anything	"+"	Anything	Silent
+	Anything	"-"	Anything	Silent
+	Anything	"."	Anything	Silent
+	Anything	"/"	Anything	Silent
+	Anything	"\."	Anything	Silent
+	Anything	"\?"	Anything	Silent
+	Anything	"!"	Anything	Silent
+	Anything	"¡"	Anything	Silent
+	Anything	"¿"	Anything	Silent
+	Anything	" "     Anything	Silent
+
+Rule:  a
+	Anything	"a"	"ha"		"[A]"	
+	Anything	"a"	"há"		"[A]"
+	Anything	"a"	"a"		"[A]"
+	Anything   	"a"	Anything	"A"
+Rule:  á
+	Anything	"á"	"ha"		"[A]"
+	Anything	"á"	Anything	"A"
+Rule:  Á
+	Anything	"Á"	Anything	"A"
+Rule:  b
+	Nothing		"b"	Nothing		"bc bh e"
+	Anything	"b"	"b"		Silent
+	Nothing		"b"	"#"		"bc bh"
+	"r"		"b"	"#"		"bc bh"
+	"l"		"b"	"#"		"bc bh"
+	"#"		"b"	"#"		"v"
+	"#"		"b"	"l"		"v"
+	"#"		"b"	"r"		"v"
+	Anything	"b"	"^"		"bc"
+	Anything	"b"	Nothing		"(bc | v)"
+	Anything	"b"	Anything	"bc bh"
+Rule:  c
+	Nothing		"c"	Nothing		"s e"
+	"s"		"c"	"+"		Silent
+	"ex"		"c"	"+"		Silent
+	Anything	"c"	Nothing		"kc [kh]"
+	Anything	"c"	"c"		Silent
+	Anything	"c"	"k"		Silent
+	Anything	"c"	"h"		"tc tS"
+	Anything	"c"	"r"		"kc kh"
+	Anything	"c"	"l"		"kc kh"
+	Anything	"c"	"+"		"s"
+      	Anything    	"c"  	"^"		"kc"
+	Anything	"c"	Anything	"kc kh"
+Rule:  d
+	Nothing		"d"	Nothing		"dc dh e"
+	Anything	"d"	"d"		Silent
+	"#"		"d"	"#"		"D"
+	"r"		"d"	"#"		"D"
+	"#"		"d"	"r"		"D"
+	Anything	"d"	Nothing		"(D | dc)"
+	Nothing		"d"	"#"		"(dc dh | D)"
+	"#"		"d"	"^"		"dc"
+	Anything	"d"	Anything	"dc dh"
+Rule:  e
+	"ab"		"e"	"cé"		"e"
+	"g"		"e"	"orgia"		Silent
+	"a cap"		"e"	"lla"		"e"
+	"cc"		"e"	"s"		"E"
+	"ac"		"e"	"ch"		"e"
+	"cu"		"e"	"llo"		"e"
+	"am"		"e"	"naza"		"e"
+	"am"		"e"	"no"		"e"
+	" "		"e"	Anything	"E"
+	"p"		"e"	"rú"		"e"
+	"i"		"e"	"g"		"e"
+	"ant"		"e"	"brazo"		"e"
+	"f"		"e"	"minista"	"E"
+	"aqui"		"e"	"tar"		"e"
+	"i"		"e"	"dad"		"e"
+	"ar"		"e"	"nque"		"E"
+	"attr"		"e"	"zz"		"e"
+	"bell"		"e"	"za"		"E"
+	"b"		"e"	"njamín"	"E"
+	"bicicl"	"e"	"ta"		"E"
+	"brazal"	"e"	"te"		"E"
+	"burl"		"e"	"sque"		"E"
+	"h"		"e"	"cho"		"E"
+	"despi"		"e"	"zar"		"e"
+	"m"		"e"	"tro"		"E"
+	" d"		"e"	"l "		"E"
+	"def"		"e"	"nestra"	"E"
+	"deg"		"e"	"nera"		"E"
+	"d"		"e"	"nue"		"E"
+	"desint"	"e"	"ligencia"	"E"
+	"micro"		"e"	Anything	"E"
+	"migu"		"e"	"l"		"E"
+	"r"		"e"	"fl"		"e"
+	"t"		"e"	"n con ten"	"E"
+	Anything	"e"	"sq"		"E"
+	Nothing		"e"	"bl"		"E"
+	Nothing		"e"	"cl"		"E"
+	Nothing		"e"	"dl"		"E"
+	Nothing		"e"	"fl"		"E"
+	Nothing		"e"	"gl"		"E"
+	Nothing		"e"	"kl"		"E"
+	Nothing		"e"	"ml"		"E"
+	Nothing		"e"	"nl"		"E"
+	Nothing		"e"	"pl"		"E"
+	Nothing		"e"	"sl"		"E"
+	Nothing		"e"	"tl"		"E"
+	Nothing		"e"	"vl"		"E"
+	Nothing		"e"	"xl"		"E"
+	Nothing		"e"	"zl"		"E"
+	Anything	"e"	"bl"		"e"
+	Anything	"e"	"cl"		"e"
+	Anything	"e"	"dl"		"e"
+	Anything	"e"	"fl"		"e"
+	Anything	"e"	"gl"		"e"
+	Anything	"e"	"kl"		"e"
+	Anything	"e"	"ml"		"e"
+	Anything	"e"	"nl"		"e"
+	Anything	"e"	"pl"		"e"
+	Anything	"e"	"sl"		"e"
+	Anything	"e"	"tl"		"e"
+	Anything	"e"	"vl"		"e"
+	Anything	"e"	"xl"		"e"
+	Anything	"e"	"zl"		"e"
+	Anything	"e"	"nl"		"E"
+	"depr"		"e"	"s"		"E"
+	"eh"		"e"	Anything	Silent
+	Anything	"e"	"lb"		"E"
+	Anything	"e"	"lc"		"E"
+	Anything	"e"	"ld"		"E"
+	Anything	"e"	"lf"		"E"
+	Anything	"e"	"lg"		"E"
+	Anything	"e"	"lk"		"E"
+	Anything	"e"	"lm"		"E"
+	Anything	"e"	"ln"		"E"
+	Anything	"e"	"lp"		"E"
+	Anything	"e"	"ls"		"E"
+	Anything	"e"	"lt"		"E"
+	Anything	"e"	"lv"		"E"
+	Anything	"e"	"lx"		"E"
+	Anything	"e"	"lz"		"E"
+	Anything	"e"	"lt"		"E"
+	" b"		"e"	"ll"		"e"
+	" b"		"e"	"l+"		"e"
+	" b"		"e"	"l"		"E"
+	" b"		"e"	"ne"		"E"
+	" b"		"e"	"né"		"E"
+	" b"		"e"	"ni"		"e"
+	" bi"		"e"	"l"		"E"
+	"co"		"e"	"táneo"		"e"
+	"co"		"e"	Anything	"E"
+	"colm"		"e"	"n"		"e"
+	"cond"		"e"	"scend"		"e"
+	Anything	"e"	"s "		"e"
+	Anything	"e"	"b "		"E"
+	Anything	"e"	"c "		"E"
+	Anything	"e"	"d "		"E"
+	Anything	"e"	"f "		"E"
+	Anything	"e"	"g "		"E"
+	Anything	"e"	"k "		"E"
+	Anything	"e"	"m "		"E"
+	Anything	"e"	"n "		"E"
+	Anything	"e"	"p "		"E"
+	Anything	"e"	"t "		"E"
+	Anything	"e"	"v "		"E"
+	Anything	"e"	"x "		"E"
+	Anything	"e"	"z "		"E"
+	Anything	"e"	"l "		"E"
+	Anything	"e"	"r "		"E"
+	Anything	"e"	"ñ"		"E"
+	"i"		"e"	"r"		"E"
+	"i"		"e"	"l"		"E"
+	"i"		"e"	"b"		"E"
+	"i"		"e"	"c"		"E"
+	"i"		"e"	"d"		"E"
+	"i"		"e"	"f"		"E"
+	"i"		"e"	"g"		"E"
+	"i"		"e"	"k"		"E"
+	"i"		"e"	"m"		"E"
+	"i"		"e"	"n"		"E"
+	"i"		"e"	"p"		"E"
+	"i"		"e"	"s"		"E"
+	"i"		"e"	"t"		"E"
+	"i"		"e"	"v"		"E"
+	"i"		"e"	"x"		"E"
+	"i"		"e"	"z"		"E"
+	Nothing		"e"	"ll"		"e"
+	Nothing		"e"	"l"		"E"
+	Nothing		"e"	"r"		"E"
+	Nothing		"e"	"b"		"E"
+	Nothing		"e"	"c"		"E"
+	Nothing		"e"	"d"		"E"
+	Nothing		"e"	"f"		"E"
+	Nothing		"e"	"g"		"E"
+	Nothing		"e"	"k"		"E"
+	Nothing		"e"	"m"		"E"
+	Nothing		"e"	"n"		"E"
+	Nothing		"e"	"p"		"E"
+	Nothing		"e"	"s"		"E"
+	Nothing		"e"	"t"		"E"
+	Nothing		"e"	"v"		"E"
+	Nothing		"e"	"x"		"E"
+	Nothing		"e"	"z"		"E"
+	Nothing		"e"	"j"		"E"
+	Anything	"e"	"r"		"E"
+	Anything	"e"	"cr"		"E"
+	Anything	"e"	"nr"		"E"
+	Anything	"e"	"sr"		"E"
+	Anything	"e"	"sce"		"e"
+	Anything	"e"	"sci"		"e"
+	Anything	"e"	"scé"		"e"
+	Anything	"e"	"scí"		"e"
+	"m"		"e"	"n"		"E"
+	Anything	"e"	"x"		"E"
+	"pu"		"e"	"s"		"E"
+	"absc"		"e"	"so"		"E"
+	Anything	"e"	"e"		"e"
+	"e"		"e"	Anything	"E"
+	Anything	"e"	Anything	"e"
+Rule:  é
+	Nothing		"é"	"r"		"E"
+	Nothing		"é"	"l"		"E"
+	Nothing		"é"	"b"		"E"
+	Nothing		"é"	"c"		"E"
+	Nothing		"é"	"d"		"E"
+	Nothing		"é"	"f"		"E"
+	Nothing		"é"	"g"		"E"
+	Nothing		"é"	"k"		"E"
+	Nothing		"é"	"m"		"E"
+	Nothing		"é"	"n"		"E"
+	Nothing		"é"	"p"		"E"
+	Nothing		"é"	"s"		"E"
+	Nothing		"é"	"t"		"E"
+	Nothing		"é"	"v"		"E"
+	Nothing		"é"	"x"		"E"
+	Nothing		"é"	"z"		"E"
+	"cc"		"é"	"s"		"E"
+	Anything	"é"	"br"		"e"
+	Anything	"é"	"cr"		"e"
+	Anything	"é"	"dr"		"e"
+	Anything	"é"	"fr"		"e"
+	Anything	"é"	"gr"		"e"
+	Anything	"é"	"kr"		"e"
+	Anything	"é"	"mr"		"e"
+	Anything	"é"	"nr"		"e"
+	Anything	"é"	"pr"		"e"
+	Anything	"é"	"sr"		"e"
+	Anything	"é"	"tr"		"e"
+	Anything	"é"	"vr"		"e"
+	Anything	"é"	"xr"		"e"
+	Anything	"é"	"zr"		"e"
+	Anything	"é"	"r"		"E"
+      	Anything	"é"	"x"		"E"
+	"pu"		"é"	"s"		"E"
+	" b"		"é"	"l"		"E"
+	"bio"		"é"	"tica"		"E"
+	"descort"	"é"	"s"		"E"
+	"m"		"é"	"n"		"E"
+	Anything	"é"	"s "		"e"
+	Anything	"é"	"b "		"E"
+	Anything	"é"	"c "		"E"
+	Anything	"é"	"d "		"E"
+	Anything	"é"	"f "		"E"
+	Anything	"é"	"g "		"E"
+	Anything	"é"	"k "		"E"
+	Anything	"é"	"m "		"E"
+	Anything	"é"	"n "		"E"
+	Anything	"é"	"p "		"E"
+	Anything	"é"	"t "		"E"
+	Anything	"é"	"v "		"E"
+	Anything	"é"	"x "		"E"
+	Anything	"é"	"z "		"E"
+	Anything	"é"	"l "		"E"
+	Anything	"é"	"r "		"E"
+	"i"		"é"	"r"		"E"
+	"i"		"é"	"l"		"E"
+	"i"		"é"	"b"		"E"
+	"i"		"é"	"c"		"E"
+	"i"		"é"	"d"		"E"
+	"i"		"é"	"f"		"E"
+	"i"		"é"	"g"		"E"
+	"i"		"é"	"k"		"E"
+	"i"		"é"	"m"		"E"
+	"i"		"é"	"n"		"E"
+	"i"		"é"	"p"		"E"
+	"i"		"é"	"s"		"E"
+	"i"		"é"	"t"		"E"
+	"i"		"é"	"v"		"E"
+	"i"		"é"	"x"		"E"
+	"i"		"é"	"z"		"E"
+	"acad"		"é"	"mico"		"E"
+	Anything	"é"	Anything	"e"
+Rule: f
+	Nothing		"f"	Nothing		"E f e"
+	Anything	"f"	"f"		Silent
+	Anything	"f"	Anything	"f"
+Rule: g
+	Nothing		"g"	Nothing		"h8 e"
+	"n"		"g"	Nothing		"gc gh"
+	"n"		"g"	Anything	"gc gh"
+	Nothing		"g"	"eorgia"	"(j | Z)"
+	"geor"		"g"	"ia"		"j"
+	Anything	"g"	"+"		"h8"
+	Nothing		"g"	"#"		"(gc gh | h8-v)"
+	"l"		"g"	"#"		"(h8-v | gc gh)"
+	"#"		"g"	"#"		"h8-v"
+	"#"		"g"	Nothing		"(gc [gh] |h8-v)"
+	Anything	"g"	"l"		"gc gh"
+	Anything	"g"	"r"		"gc gh"
+	Anything	"g"	"^"		"gc"
+	Anything	"g"	Anything	"gc gh"
+Rule: h
+	Nothing		"h"	Nothing		"a tS e"
+	Anything	"h"	Anything	Silent
+Rule: i
+	Anything	"i"	"a"		"(i | j)"
+	Anything	"i"	"á"		"(i | j)"
+	Anything	"i"	"e"		"(i | j)"
+	Anything	"i"	"é"		"(i | j)"
+	Anything	"i"	"o"		"(i | j)"
+	Anything	"i"	"ó"		"(i | j)"
+	"e"		"i"	Anything	"[i]"
+	Anything	"i"	"i"		"[i]"
+	Anything	"i"	"hi"		"[i]"
+	Anything	"i"	Anything	"i"
+Rule: í
+	Anything	"í"	Anything	"i:"
+Rule: j
+	Nothing		"j"	Nothing		"h8 o tc th a"
+	Anything	"j"	Anything	"h8"
+Rule: k
+	Nothing		"k"	Nothing		"kc kh a"
+	Anything	"k"	Nothing		"kc [kh]"
+	Anything	"k"	"l"		"kc kh"
+	Anything	"k"	"r"		"kc kh"
+	Anything	"k"	"^"		"kc"
+	Anything	"k"	Anything	"kc kh"
+Rule: l
+	Nothing		"l"	Nothing		"E l e"
+	"ba"		"ll"	"en"		"([l] j | Z)"
+	"a"		"ll"	"en"		"l"
+	Anything	"ll"	Anything	"([l] j | Z)"
+	Anything	"l"	Anything	"l"
+Rule: m
+	Nothing		"m"	Nothing		"E m e"
+	Anything	"m"	"m"		Silent
+	Nothing		"m"	"-19"		"E m e"
+	Anything	"m"	Anything	"m"
+Rule: ñ
+	Nothing		"ñ"	Nothing		"E n j e"
+	Anything	"ñ"	Anything	"n j"
+Rule: n
+	Nothing		"n"	Nothing		"E n e"
+	Anything	"n"	"b"		"(n | m)"
+	Anything	"n"	"m"		"(n | m)"
+	Anything	"n"	"v"		"(n | m)"
+	Anything	"n"	"f"		"(n | m)"
+	Anything	"n"	"p"		"(n | m)"
+	Anything	"n"	"n"		Silent
+	Anything	"n"	Anything	"n"
+Rule: o
+	Anything	"o"	"ho"		"[oU]"	
+	Anything	"o"	"hó"		"[oU]"
+	Anything	"o"	"o"		"[oU]"
+	Anything	"o"	Anything	"oU"
+Rule: ó
+	Anything	"ó"	Anything	"oU"
+Rule: p
+	Nothing		"p"	Nothing		"pc ph e"
+	Anything	"p"	"l"		"pc ph
+	Anything	"p"	"r"		"pc ph"
+	Anything	"p"	"^"		"pc"
+	Anything	"p"	Nothing		"pc [ph]"
+	Anything	"p"	Anything	"pc ph"
+Rule: q
+	Nothing		"q"	Nothing		"kc kh u"
+	Anything	"q"	Nothing		"kc [kh]"	# foreign words
+	Anything	"q"	Anything	"kc kh"
+Rule: r
+	Nothing		"r"	Nothing		"E r e"
+	Nothing		"rr"	Nothing		"(E r-t e | dc dh oU v l e E r e)"
+	Anything	"rr"	Anything	"r-t"
+	Nothing		"r"	Anything	"r-t"
+	Anything	"r"	"^"		"r-t"
+	Anything	"r"	Anything	"r"
+Rule: s
+	Nothing 	"s"	Nothing		"E s e"
+	Anything	"s"	"s"		Silent
+	Anything	"s"	Anything	"(s | h8)"
+Rule: t
+	Nothing		"t"	Nothing		"tc th e"
+	Anything	"t"	"t"		Silent
+	Anything	"t"	"r"		"tc th"
+	"#"		"t"	"^"		"tc"
+	Anything	"t"	Nothing		"tc [th]"
+	Anything	"t"	Anything	"tc th"
+Rule: u
+	"g"		"u"	"+"		Silent
+	"q"		"u"	"+"		Silent
+	"r"		"u"	"#"		"u"
+	"l"		"u"	"#"		"u"
+	Anything	"u"	"#"		"w"
+	Anything	"u"	Anything	"u"
+Rule: ú
+	"g"		"ú"	"+"		Silent
+	"q"		"ú"	"+"		Silent
+	Anything	"ú"	Anything	"u"	
+Rule: ü
+	Anything	"ü"	Anything	"w"
+Rule: v
+	Nothing		"v"	Nothing		"bc bh e"
+	Nothing		"v"	"#"		"(bc bh | v)"
+	Nothing		"v"	"l"		"bc bh"		# foreign words
+      	"r"		"v"	"#"		"v"
+      	"l"		"v"	"#"		"v"
+	"^"		"v"	"#"		"bc bh"
+	Anything	"v"	Anything	"v"
+Rule: w
+	Nothing		"w"	Nothing		"dc dh o bc bh l e bc bh e"
+	"o"		"w"	Anything	Silent
+      	Anything   	"w"   	Anything    	"w"
+Rule: x
+	Nothing		"x"	Nothing		"(e kc kh i: s | e kc kh i: h8)"
+	"me"		"x"	"i"		"h8"
+	"mé"		"x"	"ico"		"h8"
+      	"te"		"x"	"as"		"(h8 | kc kh s)"
+	Nothing		"x"	Anything	"(s | h8)"
+	Anything	"x"	Anything	"kc [kh] s"
+Rule: y	
+	Nothing		"y"	Nothing		"(i: | i: gc gh r i: e G a)"
+	Anything	"y"	"#"		"(j | Z)"
+	Anything	"y"	Anything	"i:"
+Rule: z
+	Nothing		"z"	Nothing		"s e tc th a"
+	Anything	"z"	"z"		Silent
+	Anything	"z"	Anything	"(s | h8)"
+
+
+
+
+

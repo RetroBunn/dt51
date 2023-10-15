@@ -1,0 +1,233 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleCH_Stub"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleCH_Stub\FonixTtsDtSimpleCH_stub.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleFR_464"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleFR_464\FonixTtsDtSimpleFR_464.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleGR_464"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleGR_464\FonixTtsDtSimpleGR_464.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleHB_Stub"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleHB_Stub\FonixTtsDtSimpleHB_Stub.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleIt_464"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleIt_464\FonixTtsDtSimpleIt_464.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleJP_Stub"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleJP_Stub\FonixTtsDtSimpleJP_Stub.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleKR"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleKR\FonixTtsDtSimpleKR.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleKR_Stub"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleKR_Stub\FonixTtsDtSimpleKR_Stub.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleLA_Stub"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleLA_Stub\FonixTtsDtSimpleLA_Stub.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleSP_464"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleSP_464\FonixTtsDtSimpleSP_464.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleUK_Stub"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleUK_Stub\FonixTtsDtSimpleUK_Stub.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleUS"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleUS\FonixTtsDtSimpleUS.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleUS_Stub"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleUS_Stub\FonixTtsDtSimpleUS_stub.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimple_464_51"="..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimple_464_51\FonixTtsDtSimple_464_51.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TestTtsDtSimple_464_51"=".\TestTtsDtSimple_464_51.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimple_464_51
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleCH_Stub
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleFR_464
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleGR_464
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleHB_Stub
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleIt_464
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleJP_Stub
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleLA_Stub
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleSP_464
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleUK_Stub
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleUS
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleKR
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

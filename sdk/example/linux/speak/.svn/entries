@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4916"
+   name=""
+   committed-date="2006-05-17T22:15:35.621823Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/linux/speak"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="bitmaps"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="demo.wav"
+   text-time="2006-03-22T15:28:06.792741Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="39274cd218732d191fe691b0c2251e06"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.308376Z"/>
+<entry
+   committed-rev="4214"
+   name="Makefile.in"
+   text-time="2006-03-22T15:28:06.823991Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="d35cd2ae5f5ad481871fd7d33b73ffe3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.402124Z"/>
+<entry
+   committed-rev="4916"
+   name="speak.c"
+   text-time="2006-05-18T14:31:39.769655Z"
+   committed-date="2006-05-17T22:15:35.621823Z"
+   checksum="81e7f5f45c3fae701d426fb2d22de460"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:39.738406Z"/>
+<entry
+   committed-rev="4214"
+   name="demo.en"
+   text-time="2006-03-22T15:28:06.855240Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="d2e5147160b3c98062c130efc6baf9f5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.464623Z"/>
+<entry
+   committed-rev="4214"
+   name="Imakefile"
+   text-time="2006-03-22T15:28:06.870865Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="cb1dc99d5970b8d5539178c0ec640ab3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.480247Z"/>
+<entry
+   committed-rev="4214"
+   name="loadgif.c"
+   text-time="2006-03-22T15:28:06.886490Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="9f82e91dc52a85bd34169322c19369dd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.558371Z"/>
+<entry
+   committed-rev="4214"
+   name="order.txt"
+   text-time="2006-03-22T15:28:06.902114Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="4d1b1a9c1130badbefdf58e93eb342b4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.558371Z"/>
+<entry
+   committed-rev="4214"
+   name="gspeak.c"
+   text-time="2006-03-22T15:28:06.917739Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="8aae1d1007e020a8186df38cdd5ef99f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.605245Z"/>
+<entry
+   committed-rev="4214"
+   name="readme.txt"
+   text-time="2006-03-22T15:28:06.933364Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="1a5ce7300d4043c733d349bc13a8f348"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.620870Z"/>
+<entry
+   committed-rev="4214"
+   name="speak.uil"
+   text-time="2006-03-22T15:28:06.948988Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="9a8489bd51367a8b4fc4807ef6879a03"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.652119Z"/>
+<entry
+   committed-rev="4214"
+   name="command.txt"
+   text-time="2006-03-22T15:28:07.058361Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="3ffaf4b5e8205cf4f2854933a1f1111f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.683369Z"/>
+<entry
+   committed-rev="4214"
+   name="Makefile"
+   text-time="2006-03-22T15:28:07.073986Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="94afb395c0d887f348a48b310990fe44"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.714618Z"/>
+<entry
+   committed-rev="4214"
+   name="speak_version.h"
+   text-time="2006-03-22T15:28:07.089611Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="b4293020103d138d9a940e00f2696936"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:06.730243Z"/>
+</wc-entries>

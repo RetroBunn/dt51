@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4215"
+   name=""
+   committed-date="2006-03-18T04:49:35.817887Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src/3rdParty/portaudio/pa_tests"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4215"
+   name="patest_longsine.c"
+   text-time="2006-03-22T15:31:45.210423Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="7306cc2335fa514dd29d049d3435fae2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:42.991715Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_sine_amp.c"
+   text-time="2006-03-22T15:31:45.304171Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="f17b3647f84abe22267d5520eef16ed3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.210461Z"/>
+<entry
+   committed-rev="4215"
+   name="paqa_devs.c"
+   text-time="2006-03-22T15:31:45.366670Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="37b52747a6cfdcfa5c1ae1fec117b08b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.382333Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_stop.c"
+   text-time="2006-03-22T15:31:45.382294Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="6078b7f7d3fbfa4a949b4111fb4b4fe8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.601079Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_maxsines.c"
+   text-time="2006-03-22T15:31:45.397919Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="067df3ecf8c4e491b33e26dedaeb8fc2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.632328Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_dither_calc.c"
+   text-time="2006-03-22T15:31:45.413544Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="524a674ebe9eef7d4b6297e40f57080c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.663577Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_leftright.c"
+   text-time="2006-03-22T15:31:45.429169Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="a8e51b76ebf99a2c47cf3468f3aa094b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.726076Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_toomanysines.c"
+   text-time="2006-03-22T15:31:45.507292Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="cdce924269deef77de3695585e8f2c67"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.819824Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_sine_formats.c"
+   text-time="2006-03-22T15:31:45.569791Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="3195efb3590e2191f23341270e9b08ea"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.851074Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_sine.c"
+   text-time="2006-03-22T15:31:45.601040Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="1cffc973d2d99bf4255f24ac0656190c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.866699Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_latency.c"
+   text-time="2006-03-22T15:31:45.647914Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="539d5a7e5c2aad25e23449e6ad532453"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.897948Z"/>
+<entry
+   committed-rev="4215"
+   name="patest1.c"
+   text-time="2006-03-22T15:31:45.694788Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="986dc4246c91950b398648acb5bb188b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.913573Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_devs.c"
+   text-time="2006-03-22T15:31:45.772912Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="ed967471fa8351db8286594cc6792c3b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:43.944822Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_many.c"
+   text-time="2006-03-22T15:31:45.788537Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="2c9e00eb6e08b52a220f2fcc634ff9a7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.007321Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_underflow.c"
+   text-time="2006-03-22T15:31:45.804161Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="b9fc344f8809a4413bf6a821416fe91e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.054195Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_multi_in.c"
+   text-time="2006-03-22T15:31:45.819786Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="c35509da20c5acd59436b3d09be6491e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.101069Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_wire.c"
+   text-time="2006-03-22T15:31:45.835411Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="14d8ff1e7ce90d08fa8d6ca751f65f1b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.163568Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_multi_out.c"
+   text-time="2006-03-22T15:31:45.882285Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="8c81ee420ad32fa1680ebb2774a3dfe2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.226067Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_record_reuse.c"
+   text-time="2006-03-22T15:31:45.897910Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="843323b9c6b117e4bfd4ba90f00708fa"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.257316Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_two_rates.c"
+   text-time="2006-03-22T15:31:45.913534Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="ab5d8d8eb62fbf4f9bc327c0a76f2578"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.304190Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_multi_sine.c"
+   text-time="2006-03-22T15:31:45.929159Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="e14c4f94260d3dd7f006f10f55dc2ba9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.335440Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_mono.c"
+   text-time="2006-03-22T15:31:45.976033Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="5b0639efeb57a4b8746f872ec3050122"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.351064Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_buffer.c"
+   text-time="2006-03-22T15:31:46.054157Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="653121ae2152f3f74cfd0950837193eb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.366689Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_dual.c"
+   text-time="2006-03-22T15:31:46.101031Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="888eaae3c45f8dbbcce1c03f3f09764b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.397938Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_sine_time.c"
+   text-time="2006-03-22T15:31:46.147905Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="ffb84ce730de5ce60fa7410455aac130"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.413563Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_sync.c"
+   text-time="2006-03-22T15:31:46.163529Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="5099ab1baa830c5b486d4665c9f4f8a6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.444812Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_hang.c"
+   text-time="2006-03-22T15:31:46.194779Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="c20ae240c5dc840ff090d61dec2d400d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.460437Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_ringmix.c"
+   text-time="2006-03-22T15:31:46.288527Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="21210a572d5db32d8d25499b8b679943"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.507311Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_record.c"
+   text-time="2006-03-22T15:31:46.335401Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="cb77dc533cd1c41508a7dcee35cde569"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.616684Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_dither.c"
+   text-time="2006-03-22T15:31:46.351026Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="8e46130548232b22577f3633f77d418f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.788556Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_sine_formats.c"
+   text-time="2006-03-22T15:31:46.366651Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="f5c5eae0c56dd1c96c58939e4a1e9abc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.819805Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_sine_getchar.c"
+   text-time="2006-03-22T15:31:46.413525Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="f2d04812a29e59dd96a693841d89b6d5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.835430Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_sine.c"
+   text-time="2006-03-22T15:31:46.476023Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="cc96814fdf25fea2f16b77fe883463b5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.866679Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_minlat.c"
+   text-time="2006-03-22T15:31:46.585396Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="ec4badd5a6a4ed719dc6442fb029c280"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.913553Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_test1.c"
+   text-time="2006-03-22T15:31:46.663520Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="32509605c6809b9a81975f65459f33df"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.913553Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_sine8.c"
+   text-time="2006-03-22T15:31:46.757268Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="313423c8a9e21ede17782831c3ca3ce3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.944803Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_clip.c"
+   text-time="2006-03-22T15:31:46.772893Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="d0ab9819e8a8e2c35eb75fb6451eafd4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.976052Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_saw.c"
+   text-time="2006-03-22T15:31:46.835392Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="cc076a9492b1d1cac7c4ed3db12c73da"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:44.991677Z"/>
+<entry
+   committed-rev="4215"
+   name="paqa_errs.c"
+   text-time="2006-03-22T15:31:46.851016Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="5ab0513c708c69afdcf942522c00ad55"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:45.022926Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_fuzz.c"
+   text-time="2006-03-22T15:31:46.866641Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="5ec771e3c5cdfe394868e2b045e04da8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:45.038551Z"/>
+<entry
+   committed-rev="4215"
+   name="patest_pink.c"
+   text-time="2006-03-22T15:31:46.929140Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="fce5518d64255d896ae93d8c35035418"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:45.054176Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_record.c"
+   text-time="2006-03-22T15:31:46.976014Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="482fc1b871040ba712de758fc3f3a89f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:45.101050Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_srate.c"
+   text-time="2006-03-22T15:31:46.991639Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="c9af94a345732de89a0b491f69c06499"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:45.132299Z"/>
+<entry
+   committed-rev="4215"
+   name="debug_convert.c"
+   text-time="2006-03-22T15:31:47.038513Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="21375273a5a88487799ee79abdf5be3c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:45.132299Z"/>
+</wc-entries>

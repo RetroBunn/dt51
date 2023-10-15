@@ -1,0 +1,141 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dtalk_it - Win32 Debug High Compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP165.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I ".\..\..\..\shared\include\\" /I "..\include" /I ".\..\..\..\shared\include" /I ".\..\..\..\shared\include\NT" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_IT_EXPORTS" /D "ITALIAN" /D "BUILD_LTS" /D "NO_INCLUDED_C_FILES" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "HLSYN" /Fo".\..\build\dectalk\common\HighCompute\debug\it/" /Fd".\..\build\dectalk\common\HighCompute\debug\it/" /FD /GZ /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\execrules.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_it_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_us_cha.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\userules.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP165.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP166.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:".\..\build\dectalk\common\HighCompute\debug/dtalk_it.pdb" /debug /machine:I386 /def:".\dtalk_it.def" /out:".\..\build\dectalk\common\HighCompute\debug/dtalk_it.dll" /implib:".\..\build\dectalk\common\HighCompute\debug/dtalk_it.lib" /pdbtype:sept 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\execrules.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\GtWalkerlinear.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\l_it_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\l_it_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\l_it_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\l_it_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\l_it_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\l_it_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\l_us_cha.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\mmalloc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\opthread.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\userules.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\common\HighCompute\debug\it\walkerit.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP166.tmp"
+<h3>Output Window</h3>
+Compiling...
+execrules.c
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(171) : error C2061: syntax error : identifier 'canditlist'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2061: syntax error : identifier 'candcollection'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2061: syntax error : identifier 'edgeinfos'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : '['
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2065: 'MAXPATHNODES' : undeclared identifier
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2057: expected constant expression
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2061: syntax error : identifier 'DIJ'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(176) : error C2059: syntax error : '}'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(181) : fatal error C1189: #error :  foo
+l_it_ad1.c
+INFO: HLSYN - High Compute compile
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(171) : error C2061: syntax error : identifier 'canditlist'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2061: syntax error : identifier 'candcollection'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2061: syntax error : identifier 'edgeinfos'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : '['
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2065: 'MAXPATHNODES' : undeclared identifier
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2057: expected constant expression
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2061: syntax error : identifier 'DIJ'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(176) : error C2059: syntax error : '}'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(181) : fatal error C1189: #error :  foo
+l_it_con.c
+INFO: HLSYN - High Compute compile
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(171) : error C2061: syntax error : identifier 'canditlist'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2061: syntax error : identifier 'candcollection'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2061: syntax error : identifier 'edgeinfos'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : '['
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2065: 'MAXPATHNODES' : undeclared identifier
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2057: expected constant expression
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2061: syntax error : identifier 'DIJ'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(176) : error C2059: syntax error : '}'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(181) : fatal error C1189: #error :  foo
+l_it_ma1.c
+INFO: HLSYN - High Compute compile
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(171) : error C2061: syntax error : identifier 'canditlist'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2061: syntax error : identifier 'candcollection'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2061: syntax error : identifier 'edgeinfos'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : '['
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2065: 'MAXPATHNODES' : undeclared identifier
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2057: expected constant expression
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2061: syntax error : identifier 'DIJ'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(176) : error C2059: syntax error : '}'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(181) : fatal error C1189: #error :  foo
+l_it_pr1.c
+INFO: HLSYN - High Compute compile
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(171) : error C2061: syntax error : identifier 'canditlist'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2061: syntax error : identifier 'candcollection'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(172) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2061: syntax error : identifier 'edgeinfos'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(173) : error C2059: syntax error : '['
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2065: 'MAXPATHNODES' : undeclared identifier
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(174) : error C2057: expected constant expression
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2061: syntax error : identifier 'DIJ'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(175) : error C2059: syntax error : ';'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(176) : error C2059: syntax error : '}'
+c:\work\ad-new\dectalk\dapicore\lts\ls_data.h(181) : fatal error C1189: #error :  foo
+l_it_ru1.c
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>

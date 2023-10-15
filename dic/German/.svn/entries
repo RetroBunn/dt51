@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4982"
+   name=""
+   committed-date="2006-05-23T17:15:15.830594Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/German"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4626"
+   name="betont.pho"
+   text-time="2006-04-24T19:10:58.375310Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="ed646c060cc1a4b303d06288f9d7ecf6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:54.937898Z"/>
+<entry
+   committed-rev="4626"
+   name="fours.pho"
+   text-time="2006-04-24T19:10:58.390935Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="f689468bbd07baf296ebce6a08c9e9a5"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:54.953523Z"/>
+<entry
+   committed-rev="4626"
+   name="loanonset.pho"
+   text-time="2006-04-24T19:10:58.390935Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="1486b2fb8635b665398f41dea3748fc2"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:54.969148Z"/>
+<entry
+   committed-rev="4626"
+   name="gshortnucleus.pho"
+   text-time="2006-04-24T19:10:58.422184Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="e663ab8fbff3eef9af5373c7d2aeb1d5"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:54.969148Z"/>
+<entry
+   committed-rev="4626"
+   name="particular.pho"
+   text-time="2006-04-24T19:10:58.437809Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="20e0eaabff4e1c4443f48bb9506bc951"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:54.984772Z"/>
+<entry
+   committed-rev="4626"
+   name="experiment.ger"
+   text-time="2006-04-24T19:10:58.469058Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="91f4cce4ba3aa11f35c2c1e5d8a375be"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.000397Z"/>
+<entry
+   committed-rev="4626"
+   name="erverbs.pho"
+   text-time="2006-04-24T19:10:58.484683Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="dd88b0ae16abaed06bda916864a9b89f"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.016021Z"/>
+<entry
+   committed-rev="4626"
+   name="trivial.pho"
+   text-time="2006-04-24T19:10:58.656553Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="2be15c5ff8afcaecf46b94fc6e015cdd"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.047271Z"/>
+<entry
+   committed-rev="4626"
+   name="onsets.pho"
+   text-time="2006-04-24T19:10:58.672178Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="2c2b1ae3727cff75f9bac47127397355"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.062895Z"/>
+<entry
+   committed-rev="4626"
+   name="rootes.pho"
+   text-time="2006-04-24T19:10:58.672178Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="8201f23cd01bbc152892d87a3b3ac80f"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.062895Z"/>
+<entry
+   committed-rev="4626"
+   name="fives.pho"
+   text-time="2006-04-24T19:10:58.687802Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="f5f97312fdf525cf8acc33e372e4242e"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.078520Z"/>
+<entry
+   committed-rev="4626"
+   name="solo.pho"
+   text-time="2006-04-24T19:10:58.703427Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="82a61998d09e2d7f5845e89c070f8282"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.094144Z"/>
+<entry
+   committed-rev="4626"
+   name="abkuerzung.pho"
+   text-time="2006-04-24T19:10:58.703427Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="5da06bbf2e66505924cf5cfc1c0a977d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.109769Z"/>
+<entry
+   committed-rev="4626"
+   name="anglizis.pho"
+   text-time="2006-04-24T19:10:58.734676Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="3f616f0384225d5fa1f21859c1483145"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.141018Z"/>
+<entry
+   committed-rev="4626"
+   name="latvowels.pho"
+   text-time="2006-04-24T19:10:58.750301Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="cf92b9a119811a4ac9aacdd387d50c1f"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.156643Z"/>
+<entry
+   committed-rev="4626"
+   name="irregVerbStemms.pho"
+   text-time="2006-04-24T19:10:58.719052Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="e90fbcf2d0ddffab465129674caf1cfc"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.141018Z"/>
+<entry
+   committed-rev="4626"
+   name="longcoda.pho"
+   text-time="2006-04-24T19:10:58.750301Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="cea7566cb8ff173d30cfb0082bcdffd5"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.172267Z"/>
+<entry
+   committed-rev="4626"
+   name="rootels.pho"
+   text-time="2006-04-24T19:10:58.765925Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="e46301d1f9d70c29aff7f3025a97e6c6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.203517Z"/>
+<entry
+   committed-rev="4626"
+   name="interfix.pho"
+   text-time="2006-04-24T19:10:58.781550Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="3e72c2d203ed434071d40ed71ddfe96a"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.219141Z"/>
+<entry
+   committed-rev="4626"
+   name="goodnuclei.pho"
+   text-time="2006-04-24T19:10:59.000294Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="eda26c59e7aa237f2d9dfcb82eb99535"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.234766Z"/>
+<entry
+   committed-rev="4626"
+   name="beverbs.pho"
+   text-time="2006-04-24T19:10:59.015919Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="55f70834cfa95f4bf9135fa4b81c5ad9"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.250390Z"/>
+<entry
+   committed-rev="4626"
+   name="truncatedfixes.pho"
+   text-time="2006-04-24T19:10:59.015919Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="26b3ee20005bac8bc3c5274efe264542"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.266015Z"/>
+<entry
+   committed-rev="4626"
+   name="diction.pho"
+   text-time="2006-04-24T19:10:59.031544Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="04c7e7d41275003910f5bcd83e6065e1"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.266015Z"/>
+<entry
+   committed-rev="4626"
+   name="rootens.pho"
+   text-time="2006-04-24T19:10:59.047168Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="4b83f9326f014e8f3d87b026c787a05d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.297264Z"/>
+<entry
+   committed-rev="4626"
+   name="threes.pho"
+   text-time="2006-04-24T19:10:59.047168Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="6267b15790e1a69206ea669d1cd9157c"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.312889Z"/>
+<entry
+   committed-rev="4626"
+   name="twos.pho"
+   text-time="2006-04-24T19:10:59.062793Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="2cfa2d863c757139d5454cc8ced86f36"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.328513Z"/>
+<entry
+   committed-rev="4626"
+   name="irgenddings.pho"
+   text-time="2006-04-24T19:10:59.078417Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="8ffc460e4413a41d3e40a499744b7066"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.344138Z"/>
+<entry
+   committed-rev="4626"
+   name="geverbs.pho"
+   text-time="2006-04-24T19:10:59.078417Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="1da00a37e36d3c0d0508470466a013a8"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.375387Z"/>
+<entry
+   committed-rev="4626"
+   name="rooters.pho"
+   text-time="2006-04-24T19:10:59.094042Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="0295a53e2f09d84dcd290c618e687466"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.391012Z"/>
+<entry
+   committed-rev="4626"
+   name="Flex.pho"
+   text-time="2006-04-24T19:10:59.125291Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="84efd1cc5c87698fd80ba33fe788029e"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.437886Z"/>
+<entry
+   committed-rev="4626"
+   name="stresspref.pho"
+   text-time="2006-04-24T19:10:59.140916Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="6083ad127101fc7c0b78db4b33b81fcf"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.453510Z"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_gr.dic"
+   text-time="2006-05-25T15:30:42.990590Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="ef395044991222c0e6e42d1c344e0540"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:42.771844Z"/>
+<entry
+   committed-rev="4626"
+   name="signature.pho"
+   text-time="2006-04-24T19:10:59.234663Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="790bae56f3d76a46f877635563118166"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.469135Z"/>
+<entry
+   committed-rev="4626"
+   name="elongatednuclei.pho"
+   text-time="2006-04-24T19:10:59.250288Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="6af3d716f68ed1dd1da7afece3c22106"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.484759Z"/>
+<entry
+   committed-rev="4626"
+   name="emverbs.pho"
+   text-time="2006-04-24T19:10:59.297162Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="26cc18a836d1d8fc09ad37864d913966"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.484759Z"/>
+<entry
+   committed-rev="4626"
+   name="Names.pho"
+   text-time="2006-04-24T19:10:59.312786Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="28ad60c8dae03cc7d9d5e72b189cb74c"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.500384Z"/>
+<entry
+   committed-rev="4626"
+   name="Fugen.pho"
+   text-time="2006-04-24T19:10:59.328411Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="53982bdb8d2935f8e58b42a0f90e522d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:55.516009Z"/>
+<entry
+   committed-rev="4626"
+   name="ones.pho"
+   text-time="2006-04-24T19:10:59.344036Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="06d58d6763f376ef3fe9ee3eb0533277"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:56.344112Z"/>
+<entry
+   committed-rev="4626"
+   name="articles.pho"
+   text-time="2006-04-24T19:10:59.359660Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="bbf2c6d20d212d8b6c7812a768f0a616"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:56.406611Z"/>
+<entry
+   committed-rev="4626"
+   name="diphthongs.pho"
+   text-time="2006-04-24T19:10:59.375285Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="e31a50208412b37a22fadc78e9d24411"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:56.422235Z"/>
+<entry
+   committed-rev="4626"
+   name="irgend.pho"
+   text-time="2006-04-24T19:10:59.390909Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="4895744f86f861a8e50780bcd2364289"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:56.437860Z"/>
+<entry
+   committed-rev="4626"
+   name="README"
+   text-time="2006-04-24T19:10:59.390909Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="4afd0df1643bc503011b4be4c300210b"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:56.453485Z"/>
+<entry
+   committed-rev="4626"
+   name="shortcodas.pho"
+   text-time="2006-04-24T19:10:59.406534Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="3f33d716379c58b20fb85a39e191cee0"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:56.453485Z"/>
+<entry
+   committed-rev="4626"
+   name="syllroots.pho"
+   text-time="2006-04-24T19:10:59.422159Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="ad94011b6bc701a9e6c4c5cd3c5bcd5a"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:57.078469Z"/>
+<entry
+   committed-rev="4626"
+   name="longsuffixes.pho"
+   text-time="2006-04-24T19:10:59.437783Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="32f4acf6fdfda7c5ed896709748544c8"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:57.203465Z"/>
+<entry
+   committed-rev="4626"
+   name="boundprefixes.pho"
+   text-time="2006-04-24T19:10:59.656528Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="a67778f92d8e165f406bbb879ad51449"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:57.203465Z"/>
+<entry
+   committed-rev="4626"
+   name="geminycoda.pho"
+   text-time="2006-04-24T19:10:59.812774Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="5502df73af10cae15283615f05df0921"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:57.219090Z"/>
+<entry
+   committed-rev="4626"
+   name="apostroph.pho"
+   text-time="2006-04-24T19:10:59.828398Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="d343af49cddc4575c09c03f0d6fe92ff"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:57.234715Z"/>
+<entry
+   committed-rev="4626"
+   name="bachusi.h"
+   text-time="2006-04-24T19:10:59.844023Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="70fbbc8e1e5b4d9ae44db20ddfb0c646"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:57.844074Z"/>
+<entry
+   committed-rev="4982"
+   name="DIC_GR.TXT"
+   text-time="2006-05-25T15:30:43.037464Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="5928058299ccfa2925ec06a15d166ff1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:42.787469Z"/>
+<entry
+   committed-rev="4626"
+   name="rulecodas.pho"
+   text-time="2006-04-24T19:10:59.844023Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="de6b0381bc79e73459c803e83ec2245c"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:57.922197Z"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_fl_gr.dic"
+   text-time="2006-05-25T15:30:43.068713Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="a8cf5bddab73298e14a9af0b5a9c7ec8"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:42.881217Z"/>
+<entry
+   committed-rev="4626"
+   name="konjugierbar.pho"
+   text-time="2006-04-24T19:10:59.859647Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="cb4fa2a9ee224d625d6f7226bb50c90f"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:57.937822Z"/>
+<entry
+   committed-rev="4626"
+   name="Mroots.pho"
+   text-time="2006-04-24T19:10:59.875272Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="20d19adbef9d385c18b40c939290e2ac"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:58.297187Z"/>
+<entry
+   committed-rev="4626"
+   name="shortsuffix.pho"
+   text-time="2006-04-24T19:10:59.890897Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="0eb6cfc7d94c37c0fb7edfd53a2c9201"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:58.297187Z"/>
+<entry
+   committed-rev="4626"
+   name="latboundpref.pho"
+   text-time="2006-04-24T19:10:59.890897Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="cef81c14957d7c1367af071fd1a8b19d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:58.312812Z"/>
+<entry
+   committed-rev="4626"
+   name="trailers.pho"
+   text-time="2006-04-24T19:10:59.922146Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="54d201089e057ff1bb6cb3811ff7c625"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:58.328437Z"/>
+<entry
+   committed-rev="4626"
+   name="freeprefixes.pho"
+   text-time="2006-04-24T19:10:59.937770Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="6e1d3d493da6fc8c09dfce1ed249929d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:58.344061Z"/>
+<entry
+   committed-rev="4626"
+   name="shortumlaut.pho"
+   text-time="2006-04-24T19:10:59.953395Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="76294426be8400a6a1fc573cbd9d83ca"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:58.344061Z"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_fl_gr.tab"
+   text-time="2006-05-25T15:30:43.084338Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="da3873d94747ea32160632717da90770"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:42.943716Z"/>
+<entry
+   committed-rev="4626"
+   name="erhyme.pho"
+   text-time="2006-04-24T19:10:59.969020Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="70f2a4349deed9c3d0956cbc1537d376"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:58.359686Z"/>
+</wc-entries>

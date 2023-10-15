@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4895"
+   name=""
+   committed-date="2006-05-16T18:35:47.650466Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/linux/dtsamples"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4214"
+   name="dtmemory.c"
+   text-time="2006-03-22T15:28:08.058342Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="64b6b53d83794248fabf84147df719fb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.448979Z"/>
+<entry
+   committed-rev="4214"
+   name="Makefile.in"
+   text-time="2006-03-22T15:28:08.073967Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="b275b708de93d6eb2a3aa0427956f4a7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.589601Z"/>
+<entry
+   committed-rev="4214"
+   name="xmsay.c"
+   text-time="2006-03-22T15:28:08.089592Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="5cf55f1770ab5f71aecfc27a5ccf8386"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.652100Z"/>
+<entry
+   committed-rev="4218"
+   name="user.tab"
+   text-time="2006-03-22T15:28:08.105216Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="b7763b090bed95105db1b7c87bbef77c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.652100Z"/>
+<entry
+   committed-rev="4214"
+   name="ImakeMME"
+   text-time="2006-03-22T15:28:08.120841Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="2465caec2bb7dea414bf8b05fa6b05f4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.683349Z"/>
+<entry
+   committed-rev="4214"
+   name="Imakefile"
+   text-time="2006-03-22T15:28:08.136466Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="6a211ff02ed28bc1ac3a80968ab4472a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.698974Z"/>
+<entry
+   committed-rev="4214"
+   name="README.txt.mme"
+   text-time="2006-03-22T15:28:08.152090Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="df4a679c02ee62625ab2955f0e4fcd72"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.698974Z"/>
+<entry
+   committed-rev="4214"
+   name="xmsay.uil"
+   text-time="2006-03-22T15:28:08.167715Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="ae2a3860aa66708c517e682106d32fd9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.745848Z"/>
+<entry
+   committed-rev="4214"
+   name="MakeMME"
+   text-time="2006-03-22T15:28:08.292713Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="726d54d16cc42edf54527f53a21bd592"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.745848Z"/>
+<entry
+   committed-rev="4218"
+   name="user.dic"
+   text-time="2006-03-22T15:28:08.308337Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="71568074f5658b0dfbe33730d30e9c29"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.761473Z"/>
+<entry
+   committed-rev="4214"
+   name="Makefile"
+   text-time="2006-03-22T15:28:08.308337Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="9918c7bcb30321eb064bb06c8a35e60e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:07.777098Z"/>
+<entry
+   committed-rev="4895"
+   name="aclock.c"
+   text-time="2006-05-18T14:31:40.019649Z"
+   committed-date="2006-05-16T18:35:47.650466Z"
+   checksum="9836f5fe06830a8323bcb9965c2626e7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:39.972775Z"/>
+<entry
+   committed-rev="4895"
+   name="say.c"
+   text-time="2006-05-18T14:31:40.066523Z"
+   committed-date="2006-05-16T18:35:47.650466Z"
+   checksum="9b46afe6dc86f37c506bd0971f614516"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:40.004024Z"/>
+</wc-entries>

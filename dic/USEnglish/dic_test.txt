@@ -1,0 +1,126 @@
+;*
+;*************************************************************************
+;*
+;*                           Copyright (c)
+;*    Copyright (c) 2002 Fonix Corporation. All rights reserved.
+;*    Copyright (c) 2000-2001 Force Computers Inc. A Solectron company. All rights reserved.
+;*    (c) Digital Equipment Corporation 1995-1998. All rights reserved.
+;*
+;*    Restricted Rights: Use, duplication, or disclosure by the U.S.
+;*    Government is subject to restrictions as set forth in subparagraph
+;*    (c) (1) (ii) of DFARS 252.227-7013, or in FAR 52.227-19, or in FAR
+;*    52.227-14 Alt. III, as applicable.
+;*
+;*    This software is proprietary to and embodies the confidential
+;*    technology of Fonix Corporation and other parties.
+;*    Possession, use, or copying of this software and media is authorized
+;*    only pursuant to a valid written license from Fonix or an
+;*    authorized sublicensor.
+;*
+;***********************************************************************
+;*    File Name:        dtpcdic.txt
+;*    Author:
+;*    Creation Date:
+;*
+;*    Functionality:
+;*         This is the english dictionary file
+;*
+;***********************************************************************
+;*    Revision History:
+;*
+;* Rev  Who     Date            Description
+;* ---  -----   -----------     ---------------------------------------
+;* 001 	mgs		01/11/1996		Added this comment to the file
+;* 002 	msg		01/17/1996		Added support to spardic for two more fields in this file
+;*								the format and meaning of the fields are as follows:
+;*								"F","100"
+;*								The first field is a True False field that denotes proper names in the dictionary
+;*								The second field is a number that gives a priority to the word in the dictionary
+;*								There are more command line parameters in pardic for the new fields
+;* 003 	gl		02/13/1996		remove "/august" etc.. homograph entries.
+;*                   			add California and Pennsylvania
+;* 004 	gl		02/22/1996		add difficult
+;* 005 	gl		04/30/1996		add "inter" formclass to "please" to pick correct homograph like "please record..."
+;* 006 	gl		05/18/1996		add list of abbr. to support the new text parser.
+;* 007  gl		07/16/1996		correct the phoneme code for "globally"
+;*								also add "schnee" and "bartels"
+;* 008  gl		07/23/1996		add new words : 
+;*								mac,earliest,illnesses,chariot,
+;*                              readme
+;*                              change phoneme code:
+;*                              Jesus, Christ,
+;*                              switch "P" and "S" for just
+;*                              fix wrong phoneme code:
+;*                              than, indifference
+;* 009  gl		08/14/1996		use "Ms." to replace "ms."
+;*                              fix "on-line", "grille", "ox"
+;* 010  gl      09/16/1996      remove upper case multi-international words.
+;*                              since the lower case word will be hit by both case.
+;* 011  gl      10/02/1996      add "assistant", remove "dr." and "st."
+;* 012  gl      11/04/1996      add "assume", remove "us.". also make "north", "south"
+;*                              "east" and "west" has the same formclass - adj and adv.
+;*                              remove the "noun".
+;* 013  gl      01/10/1997      "Prof." should have the stress at the second
+;*                              syllable
+;* 014  gl      01/22/1997      Add "Rahko", Rich Rahko's last name.
+;* 015  gl      02/28/1997      Add "activist"
+;* 016  gl      04/14/1997      For BATS#352, Fix "i.e." and "e.g."
+;* 017  gl      05/13/1997      For BATS#367, Fix add "paste" to fix "pasted"
+;* 018  gl      06/16/1997      For BATS#406, Fix the stress for "until"
+;* 019  gl      01/18/1998      For BATS#94, Fix "babysit"
+;* 020  gl      01/27/1998      For BATS#526, add "flatbed"
+;* 021  gl      02/09/1998      For BATS#594, add "pneumonia"
+;* 022  gl      03/13/1998      For BATS#621, add "oppress", "outpace"
+;* 023  gl      02/18/1998      For BATS#603, add "ce"
+;* 024  mg      05/20/1998      fix "concert", add "impact" homograph
+;* 025  gl      07/01/1998      BATS#703 fix unstress first syllable of function word
+;* 026  gl      09/03/1998      BATS#754 add presenter and "alta" for AltaVista
+;* 027  gl      11/05/1998      BATS#418 fix broken words like "accomodate"
+;*                              "shopreline" adn add "h" phoneme to human- words
+;* 028  gl      11/05/1998      BATS#483 fix broken word "pprotestation"
+;* 029  gl      12/01/1998      BATS#482 fix "repeat" homo setting and formclass
+;* 030  gl      12/04/1998      BATS#430 add "peril" and "perilous"
+;* 031  gl      12/07/1998      BATS#432 add "avatar"
+;* 032  gl      12/10/1998      BATS#431 add "delirious"
+;* 033  gl      12/11/1998      BATS#494 add "lingerie"
+;* 034  gl      12/16/1998      BATS#524 fix "our"
+;* 035  EAB		12/16/1999 		Added new priority levels for dictionary size selection
+;* 036  EAB		01/11/2000		Fixed pronunciation of job. 
+;* 037  EAB		10/19/2000		Fixed and and at
+;* 038  eab		11/07/2000		boneville and over
+;* 039  EAB 	03/22/2001   	Fixed had and and removed decXXX words
+;* 040  CAB 	04/18/2001   	Added copyright
+;* 041	MGS		09/13/2001		Checked in Corines dictioanry
+;* 042  cb		04/18/2002		Reprioritized (also added 150 = very common words,
+;*								450 = common names, 850 less common than "250 words")
+;* 043  cb		04/18/2002		Added keyboard shortcuts: 2,2day,2moro,2mrw,2nite,al,alrite,
+;* 									ave("have"),b,b4,c,cu,cul8r,cya,d8,doin,du,esp,fone,goin,
+;*									gr8,h8,hav,hows,ih8u,iluvu,im,iv,ive,l*r,l8,l8r,luv,mite,
+;*									mob,msg,ne,ne1,neva,nite,no1,oic,pls,ppl,r,re,ru,ruok,some1,
+;*									spk,thanx,thnq,thnx,thx,txt,u,uok,ure,uve,w/,w/o(1),w/o(2),w8,
+;*									w8ing,wan2,wen,wk,wknd,wont,wot,wrk,y,yr,
+;*								Added words: didnt,dont
+;*								Removed names: adolphe,adusta,agnesca,agnese,akira,akita,albina,albury,alejandro
+;*									alfie,amahl,arnfried, baybank
+;*								Removed words: d',gray,heterogeneous
+;*								Moved word: Netherlands
+;* 044	cb		08/02/2002		Error in priority values of 1500 corrected 7
+;* 045	cab		08/06/2002		Added missing proper name bit
+;*								1. Name list: LeBaron, LeMond, Merkur, angle, chevrolet,chevron,chow,christian,christianity,
+;*									christmas,chuck,cincinnati,cindy,ciro,clair,claire,claise,clara,clarence,claribel,clarissa,
+;*									clarivell,clark,clarke,cobol,daisy,concord,derrick,dolly,earl,jasper,louis,louisa,louise,
+;*									louisiana,macaw,margarita,noel,mike,plymouth,robin,rosanna,rosarie,rosario,sherlock,stein,
+;*									unicorn,violet,yang,yuan
+;*								2. Sort words out of order
+;*								Removed duplicate word: shore-line
+;*
+;"Dr.","N","dr'Av","F","F","F","F","F","F","F","F","F","F","T","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","100"
+;"St.","N","str`it","F","F","F","F","F","F","F","F","F","F","T","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","100"
+;"jesus","N","h'ezus","F","F","F","F","F","F","F","F","F","F","T","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","100"
+;"us.","N","m'Akrxs'Ekxnd","F","F","F","F","F","F","F","F","F","F","T","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","F","100"
+!,N,Eksklxm'eSxn pOnt,00000000100000000000000001000,500
+&,N,'@nd,00000000000000000000000001000,500
+$,N,d'alR,00000000000000000000000001000,500
+",N,kw'ot,00000000000000000000000001000,500
+#,N,n'^mbR sAn,00000000000000000000000001000,500
+%,N,pRs'Ent,00000000000000000000000001000,500

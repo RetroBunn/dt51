@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5582"
+   name=""
+   committed-date="2006-08-18T17:45:33.438053Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/TestTtsDtSimple_464_51/res"
+   last-author="mkauntz"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5582"
+   name="TestTtsDtSimple.rc2"
+   text-time="2006-08-18T21:20:29.395031Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="c833c7412aefd560b77303791cc8a14e"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.363781Z"/>
+<entry
+   committed-rev="5582"
+   name="TestTtsDtSimple.ico"
+   text-time="2006-08-18T21:20:29.410656Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="e3e1ed66c0a0a58bbd5da9f6343b8bf2"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.379406Z"/>
+</wc-entries>

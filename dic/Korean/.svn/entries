@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6100"
+   name=""
+   committed-date="2006-10-20T22:07:32.464316Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/Korean"
+   last-author="maryh"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="6100"
+   name="DIC_KR.xls"
+   text-time="2006-10-24T12:57:45.642302Z"
+   committed-date="2006-10-20T22:07:32.464316Z"
+   checksum="8bebfa967a37de71116bac25dd9c5e34"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-10-24T12:57:45.423557Z"/>
+<entry
+   committed-rev="4975"
+   name="KoreanHanjaReadings.utxt"
+   text-time="2006-05-25T15:29:18.414089Z"
+   committed-date="2006-05-23T16:57:12.724597Z"
+   checksum="37b67266c7da1c1eb1c34e62b4c911b1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:29:18.242217Z"/>
+<entry
+   committed-rev="5516"
+   name="korean.pdc"
+   text-time="2006-08-07T15:12:29.328125Z"
+   committed-date="2006-08-04T21:46:44.187301Z"
+   checksum="31101c5295389b4a3f9f51b97116e496"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-08-07T15:12:29.296875Z"/>
+<entry
+   committed-rev="6100"
+   name="KoreanRulesFBF.txt"
+   text-time="2006-10-24T12:57:45.720425Z"
+   committed-date="2006-10-20T22:07:32.464316Z"
+   checksum="ca63fcb344e92ee8ca06b7372dda58d7"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-10-24T12:57:45.626677Z"/>
+<entry
+   committed-rev="4982"
+   name="dtalk_kr.dic"
+   text-time="2006-05-25T15:29:18.445338Z"
+   committed-date="2006-05-23T17:15:15.830594Z"
+   checksum="ef395044991222c0e6e42d1c344e0540"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:29:18.382839Z"/>
+<entry
+   committed-rev="5897"
+   name="DIC_KR.txt"
+   text-time="2006-10-04T12:36:49.138127Z"
+   committed-date="2006-10-02T21:51:24.227242Z"
+   checksum="6b7d579abbe26fb2b56cda85bf178c25"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:36:49.060003Z"/>
+<entry
+   committed-rev="5741"
+   name="BuildKrRules.bat"
+   text-time="2006-09-13T18:50:20.824205Z"
+   committed-date="2006-09-12T22:07:33.613600Z"
+   checksum="c77c83bf730242a22a21b7c3428107de"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-13T18:50:20.714833Z"/>
+</wc-entries>

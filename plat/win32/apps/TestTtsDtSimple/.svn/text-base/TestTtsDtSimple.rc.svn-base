@@ -1,0 +1,304 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TestTtsDtSimple.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TestTtsDtSimple.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About TestTtsDtSimple"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "TestTtsDtSimple Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TESTTTSDTSIMPLE_DIALOG DIALOGEX 0, 0, 424, 251
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "TestTtsDtSimple"
+MENU IDR_MENU1
+FONT 9, "Microsoft Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Speak",IDSpeak,260,19,50,14
+    PUSHBUTTON      "Speak",IDWordListSpeak,260,82,50,14
+    EDITTEXT        IDC_TEXTINPUT,10,20,240,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_WORDLIST,11,82,240,145,LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Word List",IDC_WordListDivider,6,67,310,165
+    GROUPBOX        "Text Input",IDC_SingleEntry,5,5,310,55
+    PUSHBUTTON      "Add",IDC_ADD,260,102,50,14
+    PUSHBUTTON      "Delete",IDC_DELETE,260,122,50,14
+    COMBOBOX        IDC_VOICE,330,20,75,80,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Voice",IDC_STATIC,330,10,19,8
+    COMBOBOX        IDC_LANGUAGE,330,50,75,113,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Language",IDC_STATIC,330,40,32,8
+    PUSHBUTTON      "Speak &List",IDC_SPEAKLIST,260,142,50,14
+    PUSHBUTTON      "&Reset",IDC_RESET,345,200,50,14
+    PUSHBUTTON      "Create Wav",IDCreateWavList,260,162,50,14
+    PUSHBUTTON      "Create Wav",IDCreateWav,260,36,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "TestTtsDtSimple MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TestTtsDtSimple\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TestTtsDtSimple.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "TestTtsDtSimple Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TESTTTSDTSIMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 417
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 244
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Load Word List",              ID_MENULOADWORDLIST
+        MENUITEM "Save Word List",              ID_MENUSAVEWORDLIST
+        MENUITEM "Exit",                        ID_MENUEXIT
+    END
+    POPUP "Settings"
+    BEGIN
+        POPUP "Sample rate"
+        BEGIN
+            MENUITEM "  8 kHz",                     ID_SAMPLERATE8
+            MENUITEM "11 kHz",                      ID_SAMPLERATE11, CHECKED
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TESTTTSDTSIMPLE_DIALOG DLGINIT
+BEGIN
+    IDC_VOICE, 0x403, 5, 0
+0x6150, 0x6c75, "\000" 
+    IDC_VOICE, 0x403, 6, 0
+0x6148, 0x7272, 0x0079, 
+    IDC_VOICE, 0x403, 6, 0
+0x7246, 0x6e61, 0x006b, 
+    IDC_VOICE, 0x403, 7, 0
+0x6544, 0x6e6e, 0x7369, "\000" 
+    IDC_VOICE, 0x403, 4, 0
+0x694b, 0x0074, 
+    IDC_VOICE, 0x403, 6, 0
+0x6542, 0x7474, 0x0079, 
+    IDC_VOICE, 0x403, 7, 0
+0x7255, 0x7573, 0x616c, "\000" 
+    IDC_VOICE, 0x403, 5, 0
+0x6952, 0x6174, "\000" 
+    IDC_VOICE, 0x403, 6, 0
+0x6557, 0x646e, 0x0079, 
+    IDC_LANGUAGE, 0x403, 1, 0
+"\000" 
+    IDC_LANGUAGE, 0x403, 11, 0
+0x5355, 0x4520, 0x676e, 0x696c, 0x6873, "\000" 
+    IDC_LANGUAGE, 0x403, 7, 0
+0x7246, 0x6e65, 0x6863, "\000" 
+    IDC_LANGUAGE, 0x403, 7, 0
+0x6547, 0x6d72, 0x6e61, "\000" 
+    IDC_LANGUAGE, 0x403, 18, 0
+0x6143, 0x7473, 0x6c69, 0x6169, 0x206e, 0x7053, 0x6e61, 0x7369, 0x0068, 
+
+    IDC_LANGUAGE, 0x403, 23, 0
+0x614c, 0x6974, 0x206e, 0x6d41, 0x7265, 0x6369, 0x6e61, 0x5320, 0x6170, 
+0x696e, 0x6873, "\000" 
+    IDC_LANGUAGE, 0x403, 11, 0
+0x4b55, 0x4520, 0x676e, 0x696c, 0x6873, "\000" 
+    IDC_LANGUAGE, 0x403, 8, 0
+0x7449, 0x6c61, 0x6169, 0x006e, 
+    IDC_LANGUAGE, 0x403, 7, 0
+0x6f4b, 0x6572, 0x6e61, "\000" 
+    IDC_LANGUAGE, 0x403, 8, 0
+0x6843, 0x6e69, 0x7365, 0x0065, 
+    IDC_LANGUAGE, 0x403, 9, 0
+0x614a, 0x6170, 0x656e, 0x6573, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About TestTtsDtSimple..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\TestTtsDtSimple.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

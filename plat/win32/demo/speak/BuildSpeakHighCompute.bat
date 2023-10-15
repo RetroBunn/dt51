@@ -1,0 +1,2 @@
+BuildSpeak.bat hc
+pause

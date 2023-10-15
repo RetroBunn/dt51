@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4354"
+   name=""
+   committed-date="2006-03-30T01:25:46.828438Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Chinese/Tone%20FO%20Measurements%20March%202006"
+   last-author="reiner"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4240"
+   name="Tone Measurements_XZeng Voice.xls"
+   text-time="2006-03-22T15:23:50.874716Z"
+   committed-date="2006-03-21T19:14:22.833705Z"
+   checksum="69ee1cac6863262a656707ff1c7f3472"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-03-22T15:23:22.109275Z"/>
+<entry
+   committed-rev="4218"
+   name="Tone Measurements in Sentence.doc"
+   text-time="2006-03-22T15:23:53.062202Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d1778daaa1e43b5fbfc2b35e46ec6581"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:24.624884Z"/>
+<entry
+   committed-rev="4354"
+   name="ToneSequencesProcessed.xls"
+   text-time="2006-04-06T18:04:11.453125Z"
+   committed-date="2006-03-30T01:25:46.828438Z"
+   checksum="119aed1baac7b16bf91871770501d50a"
+   last-author="reiner"
+   kind="file"
+   prop-time="2006-04-06T18:04:11.421875Z"/>
+</wc-entries>

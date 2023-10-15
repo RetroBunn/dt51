@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6154"
+   name=""
+   committed-date="2006-10-26T20:26:22.482943Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/project"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="userdic.c"
+   text-time="2006-03-22T15:25:14.311475Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c8f278dc732adee3be57a1271a157e71"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:55.717963Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_it.dsp"
+   text-time="2006-10-18T13:27:37.159428Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="1adc0c689f612a5016cafea593071797"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:36.300075Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_gr_stub.dsp"
+   text-time="2006-01-09T21:29:17.546875Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="5d82d43a5dd9fac68967dc4dfe737b12"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:56.046084Z"/>
+<entry
+   committed-rev="4213"
+   name="Makefile.in"
+   text-time="2006-03-22T15:25:14.530223Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="6967b258ab065629351e3cdec715c682"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:56.249207Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_jp_stub.dsp"
+   text-time="2006-01-09T21:29:17.640625Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="13a5930708cef024b7a56e9155ff4f1e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:56.717951Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_fr.dsp"
+   text-time="2006-01-09T21:29:17.656250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="edf2b9bda6236d1066a18d645928febd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:56.733575Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_uk.dsp"
+   text-time="2006-10-18T13:27:37.268800Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="b2659b566d12d2be18d756f23e7169a3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:36.409447Z"/>
+<entry
+   committed-rev="4218"
+   name="Wtlkstat.dep"
+   text-time="2006-03-22T15:25:14.952092Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="bfc54c3410b469d453f8bf6e316b2b4e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:57.202319Z"/>
+<entry
+   committed-rev="4213"
+   name="d2static.mak"
+   text-time="2006-03-22T15:25:14.827094Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c0e2a1d34629a3c6adfd336452aadc36"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:57.186695Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_jp.dsp"
+   text-time="2006-01-09T21:29:17.671875Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="1c352f5bc230d6a8f7be1390c1d0a378"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:57.264819Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_kr_stub.dsp"
+   text-time="2006-01-09T21:29:17.687500Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="107067664c0c62bf3ebed77c9b6e3ca4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:57.358567Z"/>
+<entry
+   committed-rev="4218"
+   name="dtstatic.dep"
+   text-time="2006-03-22T15:25:15.389587Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1e13b526d1746e9ebc315cd1a3f713f4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:57.452316Z"/>
+<entry
+   committed-rev="4213"
+   name="demostat.mak"
+   text-time="2006-03-22T15:25:15.748957Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="e2de933a904b446f54e6ff7ef8004971"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:57.749187Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_us.dsp"
+   text-time="2006-10-18T13:27:37.284425Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="3e8649156698e817457d64a7575e1c4b"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:36.471946Z"/>
+<entry
+   committed-rev="4228"
+   name="d2static.dsp"
+   text-time="2005-05-06T20:40:33.390625Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="1c6c9c363430e0955ea7e3aac27c95c9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:57.874186Z"/>
+<entry
+   committed-rev="4228"
+   name="demostat.dsp"
+   text-time="2005-05-06T20:40:33.406250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="04e51c1ee5a0cbc40db3cabf8ebe61f4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.171057Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_la_stub.dsp"
+   text-time="2006-01-09T21:29:17.703125Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="8ad8ebde4715d4c765d4f87d37dc7da7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.233556Z"/>
+<entry
+   committed-rev="4213"
+   name="DIC.MAK"
+   text-time="2006-03-22T15:25:15.936455Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="6a11ed660dcfc7f0f29e2725c855f73c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.467928Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_ch.dsp"
+   text-time="2006-01-09T21:29:17.734375Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="d83a00479bd02db74a5a80771b7daa26"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.327305Z"/>
+<entry
+   committed-rev="4218"
+   name="dectalkvb.dep"
+   text-time="2006-03-22T15:25:15.983329Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="25f73086df60080e55040c2f34252896"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.499178Z"/>
+<entry
+   committed-rev="4218"
+   name="dic.dep"
+   text-time="2006-03-22T15:25:16.670820Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="74186522477d191b188e61527c895fa9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.561677Z"/>
+<entry
+   committed-rev="4218"
+   name="d2static.dsw"
+   text-time="2006-03-22T15:25:16.827068Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ffb4627c67e96852b65b79ae6b6d6af7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.655426Z"/>
+<entry
+   committed-rev="4218"
+   name="WTLKSTAT.DSW"
+   text-time="2006-03-22T15:25:16.842693Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9a5f01f67d0ad83779a475e8eebf2466"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.780424Z"/>
+<entry
+   committed-rev="4213"
+   name="Makefile.sub.in"
+   text-time="2006-03-22T15:25:16.858318Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="804175635d4cba1949a042501831093f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:58.858548Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_fr.dsp"
+   text-time="2006-10-18T13:27:37.315674Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="eadbd60f966d8b5eae096263d38f3069"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:36.706315Z"/>
+<entry
+   committed-rev="4218"
+   name="demostat.dsw"
+   text-time="2006-03-22T15:25:16.889567Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="78b3c6559ee0fbf4c5cf4d8ee796fac2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:59.077295Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_jp.dsp"
+   text-time="2006-10-18T13:27:37.346923Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="325091ade2518bb3e91c447c17069ef5"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:36.800062Z"/>
+<entry
+   committed-rev="4213"
+   name="Makefile"
+   text-time="2006-03-22T15:25:16.905192Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="178b4511f1da56d50535f922a46ba414"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:59.280418Z"/>
+<entry
+   committed-rev="4218"
+   name="dtdemo.dep"
+   text-time="2006-03-22T15:25:16.952067Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e1e6a067179907856d63570d0c42789d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:59.327292Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_gr.dsp"
+   text-time="2006-01-09T21:29:17.765625Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="f808cdd33ce078c8d7a9850bafcff182"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:59.499165Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_kr.dsp"
+   text-time="2006-01-09T21:29:17.781250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="6b23d0a8185427be70668fbff673a78f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:59.733537Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_it.def"
+   text-time="2006-03-22T15:25:17.467685Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="9493b56fa14035a0f9be741c4197694b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:59.983534Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_uk_stub.dsp"
+   text-time="2006-01-09T21:29:17.796875Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="e9ac6508991edf38c074c9bece7ff480"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:59.858535Z"/>
+<entry
+   committed-rev="4213"
+   name="dtdemo.txt"
+   text-time="2006-03-22T15:25:17.483310Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="de00898eb2bb78b2a0b73e48a04bae25"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:00.108532Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_uk.def"
+   text-time="2006-03-22T15:25:17.498935Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="1cf5cf9d2ff43a334c6cc4011eee8a2f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:00.249155Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_sp.dsp"
+   text-time="2006-01-09T21:29:17.812500Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="4e2bc048f688179cf1846c8f95053f23"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:00.452278Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_ch.dsp"
+   text-time="2006-10-18T13:27:37.409422Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="af0bec324cf71c108a93cda62d755cab"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:36.846936Z"/>
+<entry
+   committed-rev="4213"
+   name="devdtk43.mak"
+   text-time="2006-03-22T15:25:17.623933Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="68f775cff8ede85de957e1a61e88398b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:00.717899Z"/>
+<entry
+   committed-rev="4213"
+   name="dtarm7epson.def"
+   text-time="2006-03-22T15:25:17.670807Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2bc6245e0dea45585a8db18246ec5caf"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.155394Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_us_stub.dsp"
+   text-time="2006-01-09T21:29:17.828125Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="36f2b562d1fc8f2e67db6f00dc650231"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:00.858523Z"/>
+<entry
+   committed-rev="4213"
+   name="dtlkstat.mak"
+   text-time="2006-03-22T15:25:17.686432Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="37be2eb422dae4d1b9fa6539736fd5a5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.342891Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_hb_stub.dsp"
+   text-time="2006-01-09T21:29:17.843750Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="30e6d0ec5fb617f3b84c0633c4438c2d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.374141Z"/>
+<entry
+   committed-rev="4938"
+   name="dtalk_us.def"
+   text-time="2006-05-19T14:39:58.343545Z"
+   committed-date="2006-05-18T20:50:10.977231Z"
+   checksum="be1ac3b71ebede31970b1aa30f55ae00"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-19T14:39:57.749795Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_ch_stub.dsp"
+   text-time="2006-01-09T21:29:17.859375Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="a5c4c70980b55b5ad1834f355d76ed92"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.421015Z"/>
+<entry
+   committed-rev="4228"
+   name="dectalkstatic.dsp"
+   text-time="2006-01-09T21:29:17.906250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="d7d5ab6dcffd16fb78301aec52eaf04e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.671012Z"/>
+<entry
+   committed-rev="4218"
+   name="dtalk_us.dic"
+   text-time="2006-03-22T15:25:17.748931Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="693e9af84d3dfcc71e640e005bdc5e2e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.530389Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_hb.dsp"
+   text-time="2006-01-09T21:29:18.015625Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="251e7e99e840317600f245379f65fc83"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.749136Z"/>
+<entry
+   committed-rev="4213"
+   name="Makefile.sub"
+   text-time="2006-03-22T15:25:17.795806Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="36cfeffca5536bf7482a66a8a641f971"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.811635Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_la.dsp"
+   text-time="2006-01-09T21:29:18.046875Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="d286bddce201e61c9c4b07e520f240a3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.874135Z"/>
+<entry
+   committed-rev="4218"
+   name="dectalkstatic.dsw"
+   text-time="2006-03-22T15:25:17.889555Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9bf4a60672c6429dfe908aee93e35cf0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.874135Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_gr.dsp"
+   text-time="2006-10-18T13:27:37.425046Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="37f103caa6840362ad4fd8e4b48bf1d6"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:36.956308Z"/>
+<entry
+   committed-rev="4228"
+   name="devdtk43.dsp"
+   text-time="2005-05-06T20:40:33.640625Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="a932324377a39630b7a40bafecd237ab"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:01.999133Z"/>
+<entry
+   committed-rev="4228"
+   name="dtlkstat.dsp"
+   text-time="2005-05-06T20:40:33.656250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="2b98b9745fbbe93700f4394ca12800b9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:02.014758Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_kr.dsp"
+   text-time="2006-10-18T13:27:37.440671Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="05f647466df9d6ff5cb527e0742a7601"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:37.003182Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_fr_stub.dsp"
+   text-time="2006-01-09T21:29:18.109375Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="0dfeb5d480bf32233c24ed08d9f790fb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:02.061632Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_fr.def"
+   text-time="2006-03-22T15:25:18.030178Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="d9dcd775340358b16bbf6fb80503690f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:02.311629Z"/>
+<entry
+   committed-rev="4218"
+   name="devdtk43.dsw"
+   text-time="2006-03-22T15:25:18.498922Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f9776efe50bcdea40788393a0190643a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:02.733499Z"/>
+<entry
+   committed-rev="4213"
+   name="Wtlkstat.mak"
+   text-time="2006-03-22T15:25:18.452047Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="9d2051587d71de3972c71beb6c3a4512"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:02.670999Z"/>
+<entry
+   committed-rev="4218"
+   name="d2static.dep"
+   text-time="2006-03-22T15:25:18.108302Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="830d5ce9a18a0e6ecd23c0b82c4403fb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:02.389753Z"/>
+<entry
+   committed-rev="4938"
+   name="dtalk_jp.def"
+   text-time="2006-05-19T14:39:58.515420Z"
+   committed-date="2006-05-18T20:50:10.977231Z"
+   checksum="e67ae1a42438fe7dfbc9e616f1805f7e"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-19T14:39:58.124795Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_it_stub.dsp"
+   text-time="2006-01-09T21:29:18.125000Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="79027fe6ffdeead0cbba9b8cedc24d8e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:02.889747Z"/>
+<entry
+   committed-rev="4213"
+   name="dtstatic.mak"
+   text-time="2006-03-22T15:25:18.639545Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="35ae45c095354cbe6d7284501e8efc25"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:03.436615Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_sp.dsp"
+   text-time="2006-10-18T13:27:37.456295Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="6b418a279f888289ddf03475e2acf4e1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:37.065680Z"/>
+<entry
+   committed-rev="4218"
+   name="dtlkstat.dsw"
+   text-time="2006-03-22T15:25:18.623920Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="06e066bd1d689696cf496b0109b0d0ed"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:03.249117Z"/>
+<entry
+   committed-rev="4218"
+   name="demostat.dep"
+   text-time="2006-03-22T15:25:18.717669Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f42ef76a0c0a84ff463621414c69b697"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:03.467864Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_sp_stub.dsp"
+   text-time="2006-01-09T21:29:18.156250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="8357b1dda8cf48b346c691c9f510f8e5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:03.530363Z"/>
+<entry
+   committed-rev="5434"
+   name="dectalk.dsp"
+   text-time="2006-07-24T14:31:29.046875Z"
+   committed-date="2006-07-22T01:28:46.223441Z"
+   checksum="fbbe869b016281f805ecec45a248ebc0"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-07-24T14:31:29.031250Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_hb.dsp"
+   text-time="2006-10-18T13:27:37.487545Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="a49bc653f0090617447d16307f729d2e"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:37.112554Z"/>
+<entry
+   committed-rev="6059"
+   name="dtalk_la.dsp"
+   text-time="2006-10-18T13:27:37.550043Z"
+   committed-date="2006-10-17T22:37:25.232573Z"
+   checksum="dbd8b918a33e755bb8a2790ff6580f41"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-18T13:27:37.143803Z"/>
+<entry
+   committed-rev="4228"
+   name="Wtlkstat.dsp"
+   text-time="2005-05-06T20:40:33.875000Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="5aea1c59f90eaeb1a8992af59b85e4cc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:03.905359Z"/>
+<entry
+   committed-rev="4218"
+   name="dectalk.dsw"
+   text-time="2006-03-22T15:25:19.186413Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="95ff91f41344db77f896798304d221ff"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:03.967858Z"/>
+<entry
+   committed-rev="4228"
+   name="dtstatic.dsp"
+   text-time="2005-05-06T20:40:33.906250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="9cc20607c5f05fffcb815d8923ab3bd8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:04.045982Z"/>
+<entry
+   committed-rev="4213"
+   name="dectalkvb.mak"
+   text-time="2006-03-22T15:25:19.280162Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="5063aea4d867c1435ebb60a01edd19a4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:04.280354Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_ch.def"
+   text-time="2006-03-22T15:25:19.264537Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="96f8ae69efa6b1edd538b8b40467b9bf"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:04.186605Z"/>
+<entry
+   committed-rev="4218"
+   name="dtstatic.dsw"
+   text-time="2006-03-22T15:25:19.311411Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="fe2743d774d1180088cb93424d357e70"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:04.311603Z"/>
+<entry
+   name="sapi5"
+   kind="dir"/>
+<entry
+   committed-rev="4213"
+   name="dtdemo.mak"
+   text-time="2006-03-22T15:25:19.327036Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="08333aa5d5c5bb9c4d6a9575c02ad4eb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:07.264691Z"/>
+<entry
+   committed-rev="4228"
+   name="dectalkvb.dsp"
+   text-time="2005-05-06T20:40:33.953125Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="f1fedb6a2431b97a3e2dcaa713d09df5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:07.374064Z"/>
+<entry
+   committed-rev="4985"
+   name="dic.dsp"
+   text-time="2006-05-25T15:28:53.805186Z"
+   committed-date="2006-05-23T17:45:41.317830Z"
+   checksum="1b7fa0bc1bab290154ec73201e855bf8"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:28:53.445818Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_gr.def"
+   text-time="2006-03-22T15:25:19.358286Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c17811bcca4b5c04625eb1ca90647df3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:07.311565Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_kr.def"
+   text-time="2006-03-22T15:25:19.420785Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c8bc0bf083716a032a68deeb4a99e5bc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:07.420939Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_it.dsp"
+   text-time="2006-01-09T21:29:18.265625Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="7c4662df0b39bf2cf65151c5c91dec0b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:07.436563Z"/>
+<entry
+   name="FonixTtsDtSimpleLibs"
+   kind="dir"/>
+<entry
+   committed-rev="4627"
+   name="dic.dsw"
+   text-time="2006-04-24T19:09:44.721316Z"
+   committed-date="2006-04-21T20:49:11.544234Z"
+   checksum="6ea8c0887ed7f533a12154760ad569a1"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:09:44.549447Z"/>
+<entry
+   committed-rev="4218"
+   name="dectalkvb.dsw"
+   text-time="2006-03-22T15:25:19.530159Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9258ae2eec873528d7a570d61ff9a2d1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:13.358363Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_uk.dsp"
+   text-time="2006-01-09T21:29:18.281250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="b17b676ebf9c5ebc84abd44e2d0264dd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:13.420862Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_sp.def"
+   text-time="2006-03-22T15:25:19.561408Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="bc2126f44f17281aa78ec26c87674273"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:13.530235Z"/>
+<entry
+   committed-rev="4218"
+   name="devdtk43.dep"
+   text-time="2006-03-22T15:25:19.608283Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="6241474a1b87ab44a1fd3a12f25e08a3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:13.577110Z"/>
+<entry
+   committed-rev="4218"
+   name="dtlkstat.dep"
+   text-time="2006-03-22T15:25:19.842655Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9e86bab2f3ef0c7ee44523b64287f243"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:13.827107Z"/>
+<entry
+   committed-rev="4228"
+   name="dtdemo.dsp"
+   text-time="2005-05-06T20:40:34.031250Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="25e2184cc5ff5b1ce001d6d1d7c10a60"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:13.748983Z"/>
+<entry
+   committed-rev="4228"
+   name="dtalkstatic_us.dsp"
+   text-time="2006-01-09T21:29:18.296875Z"
+   committed-date="2006-03-21T00:07:50.972512Z"
+   checksum="e3a84c13d495aae46923dd31309d5013"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:13.858356Z"/>
+<entry
+   committed-rev="4418"
+   name="dectalk.def"
+   text-time="2006-04-06T18:04:26.421875Z"
+   committed-date="2006-04-03T18:32:24.114769Z"
+   checksum="cbd74dbb287c6b7edc5aed0d3bd92cfb"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-06T18:04:26.218750Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_hb.def"
+   text-time="2006-03-22T15:25:20.295774Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="6b0ea7d3666cfcaeaa82c3e2a2aba2e9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:14.030229Z"/>
+<entry
+   committed-rev="4218"
+   name="dtdemo.dsw"
+   text-time="2006-03-22T15:25:20.373898Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d2e2f1677a3049e63a3c30d76b477808"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:14.264601Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalk_la.def"
+   text-time="2006-03-22T15:25:20.311399Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="0e68687efca3098f165b304f431e785b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:14.186477Z"/>
+</wc-entries>

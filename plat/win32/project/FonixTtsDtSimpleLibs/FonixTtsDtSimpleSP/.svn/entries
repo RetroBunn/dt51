@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4277"
+   name=""
+   committed-date="2006-03-22T23:18:58.475816Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/project/FonixTtsDtSimpleLibs/FonixTtsDtSimpleSP"
+   last-author="mallen"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4277"
+   name="FonixTtsDtSimpleSP.dsp"
+   text-time="2006-04-06T18:04:25.484375Z"
+   committed-date="2006-03-22T23:18:58.475816Z"
+   checksum="01cf58975fb792fd58d079fa56cbebb9"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:25.421875Z"/>
+</wc-entries>

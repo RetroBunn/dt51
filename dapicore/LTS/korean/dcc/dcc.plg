@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dcc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "f:\TEMP\RSP579.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/dcc.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\wrdparse.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\ByteOrder.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\ByteOrderIO.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\error.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\fnxstdlib.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\fnxWin32Exstdlib.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\GetPron.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\Graph2Phon.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\hash.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\Huffman.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\InitCloseDcc.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\llist.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\LoadRules.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\Misc.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\names.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\network.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\pool.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\ShortenPronunciation.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\word.c"
+"D:\work\ad-new\DECtalk\dapicore\LTS\korean\DecTalkDict\ExtractPron\ExtractBrief\allocate.c"
+]
+Creating command line "cl.exe @f:\TEMP\RSP579.tmp" 
+Creating temporary file "f:\TEMP\RSP57A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/dcc.pdb" /machine:I386 /out:"Release/dcc.exe" 
+".\Release\wrdparse.obj"
+".\Release\ByteOrder.obj"
+".\Release\ByteOrderIO.obj"
+".\Release\error.obj"
+".\Release\fnxstdlib.obj"
+".\Release\fnxWin32Exstdlib.obj"
+".\Release\GetPron.obj"
+".\Release\Graph2Phon.obj"
+".\Release\hash.obj"
+".\Release\Huffman.obj"
+".\Release\InitCloseDcc.obj"
+".\Release\llist.obj"
+".\Release\LoadRules.obj"
+".\Release\Misc.obj"
+".\Release\names.obj"
+".\Release\network.obj"
+".\Release\pool.obj"
+".\Release\ShortenPronunciation.obj"
+".\Release\word.obj"
+".\Release\allocate.obj"
+]
+Creating command line "link.exe @f:\TEMP\RSP57A.tmp"
+<h3>Output Window</h3>
+Compiling...
+wrdparse.c
+ByteOrder.c
+ByteOrderIO.c
+error.c
+fnxstdlib.c
+fnxWin32Exstdlib.c
+GetPron.c
+Graph2Phon.c
+hash.c
+Huffman.c
+InitCloseDcc.c
+llist.c
+LoadRules.c
+>> Compiling G2P Version 0x20020905
+Misc.c
+names.c
+network.c
+pool.c
+ShortenPronunciation.c
+word.c
+allocate.c
+Linking...
+   Creating library Release/dcc.lib and object Release/dcc.exp
+
+
+
+<h3>Results</h3>
+dcc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/tools/SMIT/SMITGEN"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="SMITGEN.DSW"
+   text-time="2006-03-20T22:25:32.427986Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7c9ee0a1ecdb5dd8b1b9567e0e24e3af"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.271737Z"/>
+<entry
+   committed-rev="4213"
+   name="SMITGEN.C"
+   text-time="2006-03-20T22:25:32.459236Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="d9600f03f120ba5e5c090722551763c5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.302987Z"/>
+<entry
+   committed-rev="4213"
+   name="README.TXT"
+   text-time="2006-03-20T22:25:32.474861Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="35d0e770fb197baade50eaf2fd8659a0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.334236Z"/>
+<entry
+   committed-rev="4218"
+   name="SMITGEN.DSP"
+   text-time="2006-03-20T22:25:32.506110Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="c985e2d19cd053ee2eb5152f2b42d840"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.349861Z"/>
+<entry
+   committed-rev="4213"
+   name="SMIT.C"
+   text-time="2006-03-20T22:25:32.521735Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="bf70eec48fe3cfe37ef9513d3c05a546"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.381111Z"/>
+<entry
+   committed-rev="4213"
+   name="SMITGEN.MAK"
+   text-time="2006-03-20T22:25:32.537360Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="14e47f6a45143e99db7075718184c4f6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.396736Z"/>
+<entry
+   committed-rev="4218"
+   name="smitgen.dep"
+   text-time="2006-03-20T22:25:32.552985Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="48f7e9f6d3fc8d39d3597865ef427bcb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.412361Z"/>
+</wc-entries>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/English/DECTalkWaves/wouldn&apos;t%20have"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="casio.wav"
+   text-time="2006-03-22T15:02:32.025972Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="34e1622820c277ec6e9367891ca536eb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:31.760355Z"/>
+<entry
+   committed-rev="4218"
+   name="feb14.WAV"
+   text-time="2006-03-22T15:02:32.182217Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="59032bd47fc4534d4c95ed207719f5c7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:31.807229Z"/>
+<entry
+   committed-rev="4218"
+   name="feb23.WAV"
+   text-time="2006-03-22T15:02:32.369711Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8b7017116bddf3ca28a0b32b0e9b8778"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:31.838478Z"/>
+<entry
+   committed-rev="4218"
+   name="feb23_2.WAV"
+   text-time="2006-03-22T15:02:32.541580Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="a74e5ae534067a2239d51043145b017a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:31.885351Z"/>
+</wc-entries>

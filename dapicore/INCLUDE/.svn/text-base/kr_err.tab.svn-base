@@ -1,0 +1,51 @@
+/*
+ ***********************************************************************
+ *
+ *                    Coryright (c)
+ *    © Fonix Corporation 2006. All rights reserved.	
+ *    © Digital Equipment Corporation 1995. All rights reserved.
+ *
+ *    Restricted Rights: Use, duplication, or disclosure by the U.S.
+ *    Government is subject to restrictions as set forth in subparagraph
+ *    (c) (1) (ii) of DFARS 252.227-7013, or in FAR 52.227-19, or in FAR
+ *    52.227-14 Alt. III, as applicable.
+ *
+ *    This software is proprietary to and embodies the confidential
+ *    technology of Fonix Corporation and other parties.
+ *    Possession, use, or copying of this software and media is authorized
+ *    only pursuant to a valid written license from Fonix Corporation or an
+ *    authorized sublicensor.
+ *
+ ***********************************************************************
+ *    File Name:	kr_err.tab
+ *    Author:		MLH
+ *    Creation Date:	22 April 2005
+ *
+ *    Functionality:
+ *  Korean error strings ... included into kr_main.c
+ *
+ ***********************************************************************
+ *    Revision History:
+ *	001	MLH	Translated from US_English to Korean	22-Apr-05
+ *	002	M_I	Translated from US_English to Korean	20-May-05
+ */
+
+#ifdef OS_PALM
+const unsigned char * kr_error[] = {
+#else
+const unsigned char _far *const kr_error[] = {
+#endif
+	"myeongryeonggumunhaeseoggyenaeui myeongryeong oryu",	//	"Command error in command parser",
+	"munjayeolgabsnaeui myeongryeong oryu",			//	"Command error in string value",
+	"suchigabsnaeui myeongryeong oryu",			//	"Command error in numeric value",
+	"myeongryeongnaeui myeongryeong oryu",			//	"Command error in command",
+	"maegaebyeonsunaeui myeongryeong oryu",			//	"Command error in parameter",
+	"eumsonaeui myeongryeong oryu",				//	"Command error in phoneme",
+	"oryu: gieog jangchi chogwa.",				//	"Error: Out of memory. ",
+	"oryu: paileul yeolsu eobseum.",			//	"Error: Unable to open file. ",
+	"oryu: bulryangpajang pailseosig.",			//	"Error: Bad wave file format. ",
+	"oryu: bijiwon pajangseosig.",				//	"Error: Unsupported wave file format. ",
+	"oryu: bijiwon odioseosig.",				//	"Error: Unsupported audio format. ",
+	"oryu: bulryangmyeongryeong geubjeung.",		//	"Error: Bad command flush. " 
+};
+

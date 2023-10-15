@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4581"
+   name=""
+   committed-date="2006-04-18T16:32:25.758198Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Test/Casio"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="GBcode"
+   kind="dir"/>
+<entry
+   name="AsianCode"
+   kind="dir"/>
+<entry
+   committed-rev="4531"
+   name="JpCommaError.txt"
+   text-time="2006-04-24T19:09:56.345944Z"
+   committed-date="2006-04-12T15:19:59.172508Z"
+   checksum="a10357599725be047e5799fb965ccf23"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:56.299071Z"/>
+<entry
+   committed-rev="4581"
+   name="NGsentence.xls"
+   text-time="2006-04-24T19:09:56.392818Z"
+   committed-date="2006-04-18T16:32:25.758198Z"
+   checksum="b87d6baf9a44d7207dc6b4ae99927b43"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:09:56.314695Z"/>
+</wc-entries>

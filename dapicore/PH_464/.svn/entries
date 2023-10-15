@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6151"
+   name=""
+   committed-date="2006-10-26T17:30:48.806552Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/PH_464"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="6149"
+   name="uk_fem.phd"
+   text-time="2006-10-26T20:27:23.029516Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="ca299d68bb4c9e6668339481b47046e9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:44.811744Z"/>
+<entry
+   committed-rev="6149"
+   name="jid.phd"
+   text-time="2006-10-26T20:27:23.013891Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="d3181a7d369f43c8bf1150ece4a89be3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:44.655498Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_sort1.c"
+   text-time="2006-10-26T17:24:44.218913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="77cafd8301500765733476b40fd5aace"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.125163Z"/>
+<entry
+   committed-rev="6149"
+   name="sp_mal.phd"
+   text-time="2006-10-26T20:27:23.060765Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="f61082b8ab202eef84873d15f5c75ff0"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:49.155383Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_setar.c"
+   text-time="2006-10-26T17:24:44.281413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="394f1460d202776342fb7134cf34ae00"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.218913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_romref.h"
+   text-time="2006-10-26T17:24:44.312663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="232368e364e9fc927055dac0a711947d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.281413Z"/>
+<entry
+   committed-rev="6149"
+   name="us_fem.phd"
+   text-time="2006-10-26T20:27:23.076390Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="1f33f9fba1fe338826414ca0bc5d5360"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:49.561623Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_sr1.c"
+   text-time="2006-10-26T17:24:44.343913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="7d57e5a2a5e33750dba2112d6c8ef11a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.609538Z"/>
+<entry
+   committed-rev="6149"
+   name="la_mal.phd"
+   text-time="2006-10-26T20:27:23.092014Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="68df2d6232116970750840cfa89899f3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:53.717766Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_vdf_tuneint_8klowcomp.h"
+   text-time="2006-10-26T17:24:44.359538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="39e5e2986689c8842a15141b2c5b9f0e"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.625163Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_draw.c"
+   text-time="2006-10-26T20:26:42.436805Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="8e549851fc525800a698d8990a2997ed"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:18.656413Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_vdf_tuneint_8klowcomp.h"
+   text-time="2006-10-26T17:24:44.422038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="f34802d59195435bc08cb8031d2df9af"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:18.672038Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_romref.h"
+   text-time="2006-10-26T17:24:44.500163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="a69c711726a2f7596182d386edf98147"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:19.281413Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_rom.h"
+   text-time="2006-10-26T17:24:44.547038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="cccdb0f2b1e085a4b038ba7c3168aa92"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:19.375163Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_syl.c"
+   text-time="2006-10-26T17:24:44.578288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="7e5be6b9b850e4e2b1541761965c3ba6"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:19.922038Z"/>
+<entry
+   committed-rev="6148"
+   name="kdid.bat"
+   text-time="2006-10-26T20:27:23.107639Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="5f86ff275f8353e75fd321e842740e30"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:53.749015Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_vdf_tune.h"
+   text-time="2006-10-26T17:24:44.609538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="c59b9f240393f9faefb9780443c54597"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.031413Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_draw1.c"
+   text-time="2006-10-26T17:24:44.718913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="099820c78be651d12d66abd7c56c783c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.703288Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_data.h"
+   text-time="2006-10-26T17:24:44.703288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="91ae6128105a01cd48a90749b543c235"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.593913Z"/>
+<entry
+   committed-rev="6146"
+   name="Ph_drwt02it.c"
+   text-time="2006-10-26T17:24:44.750163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="5bdbe8affe9e014d5a7589c1fd2ed86b"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:21.437663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_sy1.c"
+   text-time="2006-10-26T17:24:44.765788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="f1d83f86765e329f4a630c52dce8e688"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:21.562663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_vdf_tunehl.h"
+   text-time="2006-10-26T17:24:44.859538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="eb4fb017beb86be20414c1569d1a2d12"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:22.625163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_vdf.c"
+   text-time="2006-10-26T17:24:44.843913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="2df86d50da1ea9902a946c4c7840638a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:22.609538Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_vdf2.h"
+   text-time="2006-10-26T17:24:44.890788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="fc551593323c8ed92235d36e975b5a54"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:22.797038Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_vdf2.h"
+   text-time="2006-10-26T17:24:44.922038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="f9ec9b71d8e4527eb6c84d06cfe17a2a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:23.125163Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_prot.h"
+   text-time="2006-10-26T17:24:45.015788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="500e2a8d5ad9d449fbf44a75b7cb951a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.390788Z"/>
+<entry
+   committed-rev="6146"
+   name="p_it_sr1.c"
+   text-time="2006-10-26T17:24:44.984538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="b58abf22fbe02f8f095a40ad438f3404"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.218913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_vdf1.c"
+   text-time="2006-10-26T17:24:45.031413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="d43a14d5e29395d87f2d773bf7caa3c7"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.593913Z"/>
+<entry
+   committed-rev="6149"
+   name="88_mal.phd"
+   text-time="2006-10-26T20:27:23.123263Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="626d2875219cca06fff3e0892be68cbe"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:57.936408Z"/>
+<entry
+   committed-rev="6146"
+   name="P_UK_SR1.C"
+   text-time="2006-10-26T17:24:45.062663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="d0a318e72049646d03b2fa1148c7f118"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.718913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_vdf_tuneint.h"
+   text-time="2006-10-26T17:24:45.125163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="70239cbe4732a46f7da8e83036f5d30a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.984538Z"/>
+<entry
+   committed-rev="6149"
+   name="gr_fem.phd"
+   text-time="2006-10-26T20:27:23.138888Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="39efe8d1e6f2b7ac8a9a6b92053b711c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:58.514518Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_vdf2.c"
+   text-time="2006-10-26T17:24:45.265788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="617c441a72deb15664c8810675f95ddc"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:26.484538Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_vdf_tune.h"
+   text-time="2006-10-26T17:24:45.281413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="eccac0fd17cd663647419c663d5e8c39"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:26.500163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_vdf_tunehl.h"
+   text-time="2006-10-26T17:24:45.312663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="aa8fb0ba08a6dc131dc8704f829baf76"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:26.843913Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_sort2.c"
+   text-time="2006-10-26T17:24:45.375163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="4c707b4cb02e24d573a93744e7ad5fec"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:27.828288Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_tim.c"
+   text-time="2006-10-26T17:24:45.359538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="10fc0a01287a4fd0c2e2a96e8884b440"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:27.781413Z"/>
+<entry
+   committed-rev="6149"
+   name="uk_mal.phd"
+   text-time="2006-10-26T20:27:23.154513Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="d1eeb515a0185feb1c010dd84d5821e2"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:59.358247Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_st1.c"
+   text-time="2006-10-26T17:24:45.390788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="4186cd9d1ac69f3a549080473976508e"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.172038Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_tim.c"
+   text-time="2006-10-26T17:24:45.453288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="5b266dec498d34419869fbb886a7acf5"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.500163Z"/>
+<entry
+   committed-rev="6149"
+   name="us_mal.phd"
+   text-time="2006-10-26T20:27:23.170137Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="6980a9fa620b7a0c6868269b1d005daf"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:26:59.858234Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_tim.c"
+   text-time="2006-10-26T17:24:45.515788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="b10a651b97377e0c457fb4a0091ec097"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.750163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_vdf_tuneint_8klowcomp.h"
+   text-time="2006-10-26T17:24:45.531413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="9c0e361445b463d08d8aa1aaf11d8f3b"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.765788Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_syntx.c"
+   text-time="2006-10-26T17:24:45.547038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="738dfdfc44746169d2a1f6e27f7085ea"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.765788Z"/>
+<entry
+   committed-rev="6149"
+   name="heb_fem.phd"
+   text-time="2006-10-26T20:27:23.185762Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="01a654784262f56140557ba8193506e1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:00.217600Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_tim.c"
+   text-time="2006-10-26T17:24:45.593913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="74db5d10f57d12a8b6d499470c5bb4df"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.359538Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_vdf_tunehl.h"
+   text-time="2006-10-26T17:24:45.640788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="2f2b95868d1b8739e2531f45b3df4a4d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.390788Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_vdf_tuneint_8klowcomp.h"
+   text-time="2006-10-26T17:24:45.672038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="9939f1c57a8aad932d54cd26e61ec4c8"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.500163Z"/>
+<entry
+   committed-rev="6146"
+   name="phprint.c"
+   text-time="2006-10-26T17:24:45.703288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="52a6200480fe690a8ab1ae68dd98bf20"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.781413Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_vdf_tune.h"
+   text-time="2006-10-26T17:24:45.718913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="cc7397015a62bc649e2962b7d093d9d7"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.797038Z"/>
+<entry
+   committed-rev="6148"
+   name="adid.bat"
+   text-time="2006-10-26T20:27:23.217011Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="4460fbb3852aaa1ae7a47dbdfcd0f6cc"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:00.248849Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_task.c"
+   text-time="2006-10-26T17:24:45.812663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="28bea172e2947cb5801a92fecc11f070"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:30.406413Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_vdf_tunehl.h"
+   text-time="2006-10-26T17:24:45.781413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="2557c4bd089dab003c3ca5cf11047da6"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.859538Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_romi.c"
+   text-time="2006-10-26T17:24:45.875163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="183ac619d26bb4a5bbe4397b69bb48ef"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:30.656413Z"/>
+<entry
+   committed-rev="6146"
+   name="Ph_inton2it.c"
+   text-time="2006-10-26T17:24:45.859538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="89bb3af5505bfb347d9c7d808efdf179"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:30.578288Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_tim.c"
+   text-time="2006-10-26T17:24:45.906413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="500233642bc78b168389cac44305372f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:30.812663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_vdf_tuneint_8klowcomp.h"
+   text-time="2006-10-26T17:24:45.937663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="c9e89e77928ae44a5c21b6fe801bb2d1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:31.359538Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_sttr1.c"
+   text-time="2006-10-26T17:24:45.953288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="debdec1c626cc2d136ee02455ea52af6"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:31.375163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_vdf_tunehl.h"
+   text-time="2006-10-26T17:24:46.015788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="8a633beab84eb2380d911b33f2937b65"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:32.515788Z"/>
+<entry
+   committed-rev="6146"
+   name="Ph_drwt02.c"
+   text-time="2006-10-26T17:24:46.000163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="1674636d525395f52500837d4e0348b7"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:32.422038Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_defs.h"
+   text-time="2006-10-26T17:24:46.109538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="910938df575f551fa042eedc52061129"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:33.750163Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_inton.c"
+   text-time="2006-10-26T17:24:46.156413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="874b2c94c0086422e0fe04d271b28a14"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:33.781413Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_syl1.c"
+   text-time="2006-10-26T17:24:46.312663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="e83d5ef36ff0b17194953df39006ae92"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:33.843913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_vdf2.c"
+   text-time="2006-10-26T17:24:46.422038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="09cddc0e471e02ba355e0b3829d36477"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:34.187663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_all_ph.h"
+   text-time="2006-10-26T17:24:46.437663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="c6063dc3164bbd6a600a01470d05010e"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:34.281413Z"/>
+<entry
+   committed-rev="6148"
+   name="DOIT.BAT"
+   text-time="2006-10-26T20:27:23.232636Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="dd121f563417dcb4477a310a50a33b4b"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:00.280098Z"/>
+<entry
+   committed-rev="6146"
+   name="Ph_fr_inton2.c"
+   text-time="2006-10-26T17:24:46.578288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="fdce9f3b9731f54efc2fdee70d646b24"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:34.500163Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_def.h"
+   text-time="2006-10-26T17:24:46.656413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="22774880a35321a92f33c38f3592a946"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:42.828288Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_aloph.c"
+   text-time="2006-10-26T17:24:46.593913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="52c35855da05207ea0b9c8e6c8f4ac6f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:42.812663Z"/>
+<entry
+   committed-rev="6149"
+   name="gr_mal.phd"
+   text-time="2006-10-26T20:27:23.279509Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="8d61bfc839fe765d47284f178d423f2f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:04.998727Z"/>
+<entry
+   committed-rev="6149"
+   name="it_fem.phd"
+   text-time="2006-10-26T20:27:23.295134Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="3b113041b8ea7295c41020beffc3b3db"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:06.654935Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_vdf3.c"
+   text-time="2006-10-26T17:24:46.906413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="4af75f6a2f888597aefc1984efcea78c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:44.203288Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_sr1.c"
+   text-time="2006-10-26T17:24:44.234538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="24b06f1036d070024814afc0c981670a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.140788Z"/>
+<entry
+   committed-rev="6148"
+   name="Makefile.in"
+   text-time="2006-10-26T20:27:23.310759Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="2c1d1c22a42357aa4bd75f3c58b1aa9e"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:06.686184Z"/>
+<entry
+   committed-rev="6146"
+   name="P_us_vdf1mikeC.h"
+   text-time="2006-10-26T17:24:44.281413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="1639700ed209a583fd1b5a9f0ef3b8f8"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.203288Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_vdf_tuneint_8klowcomp.h"
+   text-time="2006-10-26T17:24:44.250163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="bfc0d5e04c6ce0bdb33ed0dbbb35e0bf"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.187663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_it_tim.c"
+   text-time="2006-10-26T17:24:44.250163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="024835c16f360ec3f89c9ff44bda3754"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.156413Z"/>
+<entry
+   committed-rev="6149"
+   name="kdid.phd"
+   text-time="2006-10-26T20:27:23.326383Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="20d69b21119ba5322fe20b8f491cfe52"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:08.858004Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_rom.h"
+   text-time="2006-10-26T17:24:44.328288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="abde41883244eb3eac5181a15638f203"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.593913Z"/>
+<entry
+   committed-rev="6150"
+   name="Phc.exe"
+   text-time="2006-10-26T20:27:23.357632Z"
+   committed-date="2006-10-26T17:30:10.141497Z"
+   checksum="8c3d9ad90df85d6d6e9f80c4a0003497"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:13.311015Z"/>
+<entry
+   committed-rev="6149"
+   name="kfdid.phd"
+   text-time="2006-10-26T20:27:23.373257Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="9edc340064d6a4176bca011e6ff728a9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:13.935999Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_rom.h"
+   text-time="2006-10-26T17:24:44.375163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="c58cc65661b8ab3571f398267157c687"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.812663Z"/>
+<entry
+   committed-rev="6149"
+   name="heb_mal.phd"
+   text-time="2006-10-26T20:27:23.388882Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="11c5e5572832cdc0d4e9a08e57822348"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:14.435986Z"/>
+<entry
+   committed-rev="6148"
+   name="heb.bat"
+   text-time="2006-10-26T20:27:23.404506Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="caf72f51c3c48ed6064b6050adf2afe3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:14.451610Z"/>
+<entry
+   committed-rev="6148"
+   name="LSDOIT.BAT"
+   text-time="2006-10-26T20:27:23.420131Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="f19de9ab9ff34fc028c25f9b7b29452f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:14.482860Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_rom.h"
+   text-time="2006-10-26T17:24:44.390788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="886758e3f756fe9e7486e5f8a7d0e101"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:17.968913Z"/>
+<entry
+   committed-rev="6149"
+   name="88jfal.phd"
+   text-time="2006-10-26T20:27:23.435755Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="c8d5690fae5df8a3dd05753eb0c6085c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:15.295339Z"/>
+<entry
+   committed-rev="6148"
+   name="phcall.bat"
+   text-time="2006-10-26T20:27:23.451380Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="bab538b26331bf7a34a7c40469666710"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:15.326588Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_rom.h"
+   text-time="2006-10-26T17:24:44.468913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="3858475493f14e9e0b4e8d3b061fbc6d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:18.906413Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_vdf_tuneintmikeC.h"
+   text-time="2006-10-26T17:24:44.484538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="840b94c277baf60feb6a199b90df4bed"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:18.922038Z"/>
+<entry
+   committed-rev="6149"
+   name="88jfem.phd"
+   text-time="2006-10-26T20:27:23.467005Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="27c41580c252891c25b589fb4b1fdb07"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:15.810951Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_vdf.h"
+   text-time="2006-10-26T17:24:44.515788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="69d83a55a7b8b0ed94626996e08909df"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:19.312663Z"/>
+<entry
+   committed-rev="6148"
+   name="Makefile"
+   text-time="2006-10-26T20:27:23.498254Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="e0d36f53ae16734ec6b30057e6ada2cb"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:15.842200Z"/>
+<entry
+   committed-rev="6151"
+   name="hlsynapi.h"
+   text-time="2006-10-26T20:27:23.513878Z"
+   committed-date="2006-10-26T17:30:48.806552Z"
+   checksum="b1c15adcd5ebcd92866d6a41410fc53e"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:15.873449Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_sy1.c"
+   text-time="2006-10-26T17:24:44.531413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="946bf142d27f01bb906055a8c782c3a5"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:19.328288Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_claus.c"
+   text-time="2006-10-26T17:24:44.562663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="97e269898c0ef514d14598f55d364c74"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:19.765788Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_vdf.c"
+   text-time="2006-10-26T17:24:44.593913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="bf5557f7cbd599d9bccf43a20e3c115b"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.015788Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_vdf_tuneint.h"
+   text-time="2006-10-26T17:24:44.625163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="50597c471a019e73e23964861c4cdb35"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.078288Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_sy1.c"
+   text-time="2006-10-26T17:24:44.672038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="835910407dd394bf24e9ebaebcd36fd0"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.422038Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_vdf.h"
+   text-time="2006-10-26T17:24:44.640788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="b74d4328cf1833caf1d35cd85f25ca79"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.406413Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_sttr2.c"
+   text-time="2006-10-26T17:24:44.734538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="ef5dee7c556f883cfe5fcf471cfb4d43"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.750163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_vdf.c"
+   text-time="2006-10-26T17:24:44.687663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="34ff3cf66f5d00e172894d113d39337d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:20.437663Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_vset.c"
+   text-time="2006-10-26T17:24:44.828288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="7dbc2088cbf2029a3763bcf73d4f00c2"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:22.593913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_vdf_tuneint.h"
+   text-time="2006-10-26T17:24:44.812663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="8f38a019378d37299a46b8f9d2a69bf6"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:22.125163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_rom.h"
+   text-time="2006-10-26T17:24:44.781413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="fb050f4d1d41287332cabc77fe4e3ab9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:22.109538Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_vdf_tuneint.h"
+   text-time="2006-10-26T17:24:44.875163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="1bc39ef8053564ee6551fac63026856d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:22.640788Z"/>
+<entry
+   committed-rev="6149"
+   name="cj_fem.phd"
+   text-time="2006-10-26T20:27:23.529503Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="7adaaf249e05cdea966f3ead479dfa88"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:16.264064Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_romref.h"
+   text-time="2006-10-26T17:24:44.937663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="9071da92d7cf87db331fdb79fd7ae817"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:23.359538Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_sort.c"
+   text-time="2006-10-26T17:24:44.968913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="9ccce9508ffe6a5fe2d54cbca8dcfcad"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.203288Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_st1.c"
+   text-time="2006-10-26T17:24:44.953288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="3f2d56edd019c0a4290c4df45f4d5fb0"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:23.718913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_vdf_tuneint.h"
+   text-time="2006-10-26T17:24:45.000163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="c7b8ed7b4ff0e849f0e75522285c32b9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.281413Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_sy1.c"
+   text-time="2006-10-26T17:24:45.047038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="d0b193538ed26863c5a937c08547a4b7"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.640788Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_vdf3.c"
+   text-time="2006-10-26T17:24:45.078288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="cc92b613ac70d6d0c840dda1114faa04"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.797038Z"/>
+<entry
+   committed-rev="6148"
+   name="88.bat"
+   text-time="2006-10-26T20:27:23.545128Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="9fefe024f65439e894353b01ed7615cb"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:16.279689Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_vdefi.c"
+   text-time="2006-10-26T17:24:45.093913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="15cda572014cdf5538b82d82dacea1f3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:24.968913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_romref.h"
+   text-time="2006-10-26T17:24:45.156413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="67c288172687bd58da70ea2c592fc865"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:25.562663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_st1.c"
+   text-time="2006-10-26T17:24:45.140788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="8da32c2014c810f8b802e55b4e288306"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:25.547038Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_st1.c"
+   text-time="2006-10-26T17:24:45.187663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="99a5614eefb9c085309f8ba1e586d792"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:26.125163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_vdf.h"
+   text-time="2006-10-26T17:24:45.234538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="3aa2e7ff2f4c5f85f54f2004dbeee4c9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:26.172038Z"/>
+<entry
+   committed-rev="6149"
+   name="adid.phd"
+   text-time="2006-10-26T20:27:23.560752Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="59c7ef991ddc920d4b3a06a20794c7ef"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:16.982796Z"/>
+<entry
+   committed-rev="6148"
+   name="GDOIT.BAT"
+   text-time="2006-10-26T20:27:23.576377Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="9215bf18bd4e1506e9b962db12c43bea"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:16.998420Z"/>
+<entry
+   committed-rev="6146"
+   name="P_us_vdf1.h"
+   text-time="2006-10-26T17:24:45.250163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="0bd65ab613bfab09b9b86cc60795dcba"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:26.343913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_st1.c"
+   text-time="2006-10-26T17:24:45.297038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="9e0ee9941269585b9b7224cd41a733ab"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:26.828288Z"/>
+<entry
+   committed-rev="6149"
+   name="it_mal.phd"
+   text-time="2006-10-26T20:27:23.701374Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="8b6476dea3f02c16cc3f472f8b97b565"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:19.217113Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_inton1.c"
+   text-time="2006-10-26T17:24:45.328288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="87eee0c29e4971de449429d12e785f33"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:27.468913Z"/>
+<entry
+   committed-rev="6148"
+   name="LDOIT.BAT"
+   text-time="2006-10-26T20:27:23.716998Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="3adb4c67168fbed2c008983b024de554"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:19.232738Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_vdf_tuneint.h"
+   text-time="2006-10-26T17:24:45.343913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="7cd1e46c9b2d998fd35121d8dad01970"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:27.484538Z"/>
+<entry
+   committed-rev="6148"
+   name="it.bat"
+   text-time="2006-10-26T20:27:23.716998Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="c4a788fec94f95fd5da2b2f34b99155f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:19.263987Z"/>
+<entry
+   committed-rev="6149"
+   name="sp_fem.phd"
+   text-time="2006-10-26T20:27:23.748247Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="a09c36cd02d6f6bf17f4da177029c4ca"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:19.888971Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_romref.h"
+   text-time="2006-10-26T17:24:45.406413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="25e64eaa4ed16f7f755222168ae8149c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.281413Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_time1.c"
+   text-time="2006-10-26T17:24:45.422038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="daab1e12bb73ed717f2d343396d50cfe"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.281413Z"/>
+<entry
+   committed-rev="6148"
+   name="SDOIT.BAT"
+   text-time="2006-10-26T20:27:23.748247Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="c8281de9c373d4a70777a56c9e1f3a93"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:19.904596Z"/>
+<entry
+   committed-rev="6146"
+   name="p_it_vdf_tuneint_8klowcomp.h"
+   text-time="2006-10-26T17:24:45.484538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="263109dbd84f8b71a38823d82a53e1d8"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.531413Z"/>
+<entry
+   committed-rev="6148"
+   name="UDOIT.BAT"
+   text-time="2006-10-26T20:27:23.763872Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="f6eacea844aec22023a2ca48502bdc3d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:19.920220Z"/>
+<entry
+   committed-rev="6146"
+   name="phlog.c"
+   text-time="2006-10-26T17:24:45.500163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="4e90d7aff9e1bea1f1d8c343ed25a271"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.562663Z"/>
+<entry
+   committed-rev="6149"
+   name="la_fem.phd"
+   text-time="2006-10-26T20:27:23.795121Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="942ecf5fbbc878423c552ee5f37af1ef"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:20.451457Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_st1.c"
+   text-time="2006-10-26T17:24:45.578288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="14a200dd41d195157e98be8e6a146c41"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.062663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_it_rom.h"
+   text-time="2006-10-26T17:24:45.562663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="65fc18e8492cb1358d6f3912e14cbb5d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:28.890788Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_romref.h"
+   text-time="2006-10-26T17:24:45.625163Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="85f5c91b36762ef0abfc31bf62a4bfd9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.375163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_uk_vdf1.h"
+   text-time="2006-10-26T17:24:45.656413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="9939e9fd672b518f076fd2dbf2f60fb7"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.484538Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_tim.c"
+   text-time="2006-10-26T17:24:45.687663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="3d3fba4ed87165be572fcbc750eeec31"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.703288Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_vdf_tune.h"
+   text-time="2006-10-26T17:24:45.734538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="bcea57f18f4ea0c21f21e41cffff2111"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.812663Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_drwt0.c"
+   text-time="2006-10-26T17:24:45.765788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="da5b35464148285e159180f4047f4fbb"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.843913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_it_sy1.c"
+   text-time="2006-10-26T17:24:45.765788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="ecb5e8be43482ed810ecb2877b1b5bd1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:29.828288Z"/>
+<entry
+   committed-rev="6146"
+   name="P_UK_SY1.C"
+   text-time="2006-10-26T17:24:45.828288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="ce95cfb1f0fe6bd8d930c64f2bcfc374"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:30.422038Z"/>
+<entry
+   committed-rev="6146"
+   name="phinit.c"
+   text-time="2006-10-26T17:24:45.828288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="2b539ce0f4dc9b3c3b2073534866739d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:30.437663Z"/>
+<entry
+   committed-rev="6146"
+   name="Ph_inton2.c"
+   text-time="2006-10-26T17:24:45.922038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="da0a378b6f08b1abdeac2fad2645a1b8"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:31.343913Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_timng.c"
+   text-time="2006-10-26T17:24:45.984538Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="11a7e2abbd082c423b305c9bb079bab4"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:31.547038Z"/>
+<entry
+   committed-rev="6146"
+   name="p_it_vdf_tuneint.h"
+   text-time="2006-10-26T17:24:45.968913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="2fd5e23dfdd6528105f0b111b49f77e3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:31.406413Z"/>
+<entry
+   committed-rev="6149"
+   name="adido.phd"
+   text-time="2006-10-26T20:27:23.810746Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="841f5d8c3760db4ce3d661fb77c49955"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:20.842072Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_vdf_tune.h"
+   text-time="2006-10-26T17:24:46.031413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="78b48f1a1b1bcf9e4800adbe9b1c6205"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:32.531413Z"/>
+<entry
+   committed-rev="6146"
+   name="ph_main.c"
+   text-time="2006-10-26T17:24:46.062663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="bd6690b5a9cf05d8f22da3757c7da7c2"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:33.031413Z"/>
+<entry
+   committed-rev="6146"
+   name="p_fr_vdf1.h"
+   text-time="2006-10-26T17:24:46.047038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="6f01c7648edb95c36721da245c10911c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:32.640788Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_vdf1.h"
+   text-time="2006-10-26T17:24:46.093913Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="7df55c7121166756fd4e633d6f3484cd"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:33.250163Z"/>
+<entry
+   committed-rev="6146"
+   name="p_gr_sr1.c"
+   text-time="2006-10-26T17:24:46.078288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="5979ee7624d7b740893c29803bab7357"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:33.047038Z"/>
+<entry
+   committed-rev="6146"
+   name="p_it_vdf_tunehl.h"
+   text-time="2006-10-26T17:24:46.140788Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="8716441aa73f8c7835b82409703383d2"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:33.765788Z"/>
+<entry
+   committed-rev="6149"
+   name="cj_mal.phd"
+   text-time="2006-10-26T20:27:23.826370Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="18c301920d3f1240c756ea9d7d2c0b65"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:21.592053Z"/>
+<entry
+   committed-rev="6149"
+   name="88_fem.phd"
+   text-time="2006-10-26T20:27:23.841995Z"
+   committed-date="2006-10-26T17:28:11.358559Z"
+   checksum="64632a1e1dfb07dae2b7354fe3f59e88"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:22.982642Z"/>
+<entry
+   committed-rev="6148"
+   name="cj.bat"
+   text-time="2006-10-26T20:27:23.857620Z"
+   committed-date="2006-10-26T17:26:15.163025Z"
+   checksum="3aae45d8c7b94e78d900a843b778a9f9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T20:27:22.998267Z"/>
+<entry
+   committed-rev="6146"
+   name="p_it_st1.c"
+   text-time="2006-10-26T17:24:46.328288Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="965fc24206ce7df1bc4fa8557e0e0ee3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:34.093913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_vdf_tunehl.h"
+   text-time="2006-10-26T17:24:46.531413Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="1e48f5519c41d8f91b0b1bde77ccacf4"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:34.312663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_sp_sr1.c"
+   text-time="2006-10-26T17:24:46.547038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="b1328175a25fddf6cf0d997a5b03ffe9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:34.343913Z"/>
+<entry
+   committed-rev="6146"
+   name="p_us_sr1.c"
+   text-time="2006-10-26T17:24:46.687663Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="4101fac77123ba4731f5906f4915ba01"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:43.062663Z"/>
+<entry
+   committed-rev="6146"
+   name="p_la_vdf1.c"
+   text-time="2006-10-26T17:24:46.672038Z"
+   committed-date="2006-10-26T17:10:00.787771Z"
+   checksum="320274efeb138681d664237801d63157"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:42.984538Z"/>
+</wc-entries>

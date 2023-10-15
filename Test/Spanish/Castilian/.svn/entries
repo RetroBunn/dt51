@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6077"
+   name=""
+   committed-date="2006-10-19T17:03:26.591237Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Test/Spanish/Castilian"
+   last-author="rpierce"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5521"
+   name="SP_IntonationTestPhrases.xls"
+   text-time="2006-08-07T15:12:28.375000Z"
+   committed-date="2006-08-07T14:07:37.979770Z"
+   checksum="711a9362820de8be87ddebb2485203e6"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-08-07T15:12:28.125000Z"/>
+<entry
+   committed-rev="6076"
+   name="test words for recording.txt"
+   text-time="2006-10-20T13:51:31.245345Z"
+   committed-date="2006-10-19T17:02:03.269761Z"
+   checksum="08c59b285bfb716b80897cbd525ff589"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:31.010977Z"/>
+<entry
+   committed-rev="6076"
+   name="Demo.sp.txt"
+   text-time="2006-10-20T13:51:31.260969Z"
+   committed-date="2006-10-19T17:02:03.269761Z"
+   checksum="11cb54193642b6d2350b8f1e1f0e79ae"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:31.057851Z"/>
+<entry
+   committed-rev="6075"
+   name="BasicSounds.txt"
+   text-time="2006-10-20T13:51:31.276594Z"
+   committed-date="2006-10-19T17:01:02.652220Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:31.089100Z"/>
+<entry
+   committed-rev="6077"
+   name="SP_TestPhrases.xls"
+   text-time="2006-10-20T13:51:31.292218Z"
+   committed-date="2006-10-19T17:03:26.591237Z"
+   checksum="d924edd0d556130f2e3039f208e600b7"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:31.182847Z"/>
+<entry
+   committed-rev="6076"
+   name="LongTest.txt"
+   text-time="2006-10-20T13:51:31.307843Z"
+   committed-date="2006-10-19T17:02:03.269761Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:31.198471Z"/>
+<entry
+   committed-rev="6076"
+   name="ShortTest.txt"
+   text-time="2006-10-20T13:51:31.323467Z"
+   committed-date="2006-10-19T17:02:03.269761Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="rpierce"
+   kind="file"
+   prop-time="2006-10-20T13:51:31.214096Z"/>
+</wc-entries>

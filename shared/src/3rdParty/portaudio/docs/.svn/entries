@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src/3rdParty/portaudio/docs"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_mac.html"
+   text-time="2006-03-22T15:31:48.163491Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="10f2e8773ccbdfcb731353632c353fe6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.929121Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_open.html"
+   text-time="2006-03-22T15:31:48.194740Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="c550f609316c301fc05090a464402bb4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.929121Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_devs.html"
+   text-time="2006-03-22T15:31:48.225990Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="04d243ca5b174924657b338f86ecfcc9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.944745Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_pc.html"
+   text-time="2006-03-22T15:31:48.241615Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="b8530bdae3530b28616a6d382b5394e8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.944745Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_init.html"
+   text-time="2006-03-22T15:31:48.241615Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="32f1370d90d2b05e4bb930f895477e52"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.960370Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_oss.html"
+   text-time="2006-03-22T15:31:48.257239Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="fc90fff5a3b870a965bd835122ddb24b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.960370Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_run.html"
+   text-time="2006-03-22T15:31:48.272864Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="c2581bf17d5ea02f85d6bf4d03b542b5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.975995Z"/>
+<entry
+   committed-rev="4215"
+   name="proposals.html"
+   text-time="2006-03-22T15:31:48.288489Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="cbcd3b6b14be2a895323bae3d2ca4286"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.975995Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_term.html"
+   text-time="2006-03-22T15:31:48.304113Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="b743079990f2c2673750d44620a9b1ab"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.991619Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tutorial.html"
+   text-time="2006-03-22T15:31:48.319738Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="0f002d735d5c84997b286885b97b7e8f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.991619Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_over.html"
+   text-time="2006-03-22T15:31:48.335363Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="045eef76fa6455ae2aee1c04140fe31b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.007244Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_drivermodel.c.txt"
+   text-time="2006-03-22T15:31:48.366612Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="8a6759ab313cdfc44d519ffe53b70c70"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.007244Z"/>
+<entry
+   committed-rev="4215"
+   name="portaudio_h.txt"
+   text-time="2006-03-22T15:31:48.382237Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="383e25d35b1e569491d0859823a8b0bd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.022869Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_util.html"
+   text-time="2006-03-22T15:31:48.397862Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="c17d3fbfed204bb62801f8dd834c305e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.038493Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_explore.html"
+   text-time="2006-03-22T15:31:48.413486Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="1da121fdc011c4305e37a6be210d7c97"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.038493Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_drivermodel.h.txt"
+   text-time="2006-03-22T15:31:48.429111Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="0f197ad961193d2b4ea818252c72bcdb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.054118Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_impl_guide.html"
+   text-time="2006-03-22T15:31:48.460360Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="0228408e710bb3da3b4a06d28cefc9c1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.054118Z"/>
+<entry
+   committed-rev="4215"
+   name="latency.html"
+   text-time="2006-03-22T15:31:48.616607Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="6549a0a3f6d92cf7d51f7a2bbccbdea4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.069743Z"/>
+<entry
+   committed-rev="4215"
+   name="releases.html"
+   text-time="2006-03-22T15:31:48.679106Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="2b63a0017292cef0936d94e950e70e29"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.069743Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_impl_startstop.html"
+   text-time="2006-03-22T15:31:48.710356Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="88fa11737bf7e175b67ccf5a7002f054"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.085368Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_rw.html"
+   text-time="2006-03-22T15:31:48.757230Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="61a60f8879978d753f7d55b2ba290bec"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.085368Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_mac_osx.html"
+   text-time="2006-03-22T15:31:48.772854Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="55db7a2dd364ff11917d2d8fb489ceec"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.100992Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_asio.html"
+   text-time="2006-03-22T15:31:48.788479Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="8d9bd377472c5258a2eed05e76f94dab"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.132242Z"/>
+<entry
+   committed-rev="4215"
+   name="index.html"
+   text-time="2006-03-22T15:31:48.804104Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="d4349ef5bec3888c4986b4221de11a43"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.132242Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_tut_callback.html"
+   text-time="2006-03-22T15:31:48.835353Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="6b6046324c7253249ee09664bfba21ed"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.147866Z"/>
+<entry
+   committed-rev="4218"
+   name="portaudio_icmc2001.pdf"
+   text-time="2006-03-22T15:31:48.897852Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="c8bcf7fe53ce81125deb671ce86dc902"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.147866Z"/>
+</wc-entries>

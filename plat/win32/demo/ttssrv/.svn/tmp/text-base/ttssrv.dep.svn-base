@@ -1,0 +1,25 @@
+# Microsoft Developer Studio Generated Dependency File, included by ttssrv.mak
+
+.\ttssrv.c : \
+	"..\..\dapi\src\api\coop.h"\
+	"..\..\dapi\src\api\ttsapi.h"\
+	"..\..\dectalkf.h"\
+	".\ttssrv.h"\
+	"c:\program files\microsoft platform sdk\include\basetsd.h"\
+	"c:\program files\microsoft platform sdk\include\guiddef.h"\
+	"c:\program files\microsoft platform sdk\include\propidl.h"\
+	"c:\program files\microsoft platform sdk\include\tvout.h"\
+	"c:\program files\microsoft platform sdk\include\winefs.h"\
+	
+
+.\ttssrv.rc : \
+	".\DPAUSE.BMP"\
+	".\DSTOP.BMP"\
+	".\PAUSE.BMP"\
+	".\SPAUSE.BMP"\
+	".\SSTOP.BMP"\
+	".\STOP.BMP"\
+	".\ttssrv.dlg"\
+	".\ttssrv.h"\
+	".\ttssrv.ico"\
+	

@@ -1,0 +1,32 @@
+;-----------------------------------------------------------------------
+;  Copyright (c) 2002 Fonix Corporation. All rights reserved.
+;  Copyright (c) 2000-2001 Force Computers, Inc., a Solectron Company. All rights reserved.
+;  Copyright (c) 1999 SMART Modular Technologies, All rights reserved.
+;  Copyright (c) 1993,1998 Digital Equipment Corporation
+;-----------------------------------------------------------------------
+
+LIBRARY      dtalk_jp
+
+;DESCRIPTION  'Text-To-Speech LTS English US function library'
+
+;CODE         PRELOAD MOVEABLE DISCARDABLE	;what the hell are these for, anyway?
+;DATA         PRELOAD MOVEABLE MULTIPLE
+
+HEAPSIZE     8192
+STACKSIZE    8192
+
+EXPORTS
+    ls_main_get_lts_funcs				@1
+	
+; (c) 2002 Fonix Corporation. All rights reserved.
+; (c) 2000-2001 Force Computers Inc.
+; (c) 1999 SMART Modular Technologies, Inc. All rights reserved.
+; c 1996 Digital Equipment Corporation. All rights reserved.
+; [R] Microsoft, Windows NT and Windows 95 are registered trademarks of
+; Microsoft Corporation.
+; [R] PostScript is a registered trademark of Adobe Systems, Inc.
+; [TM]Intel is a trademark of Intel Corporation.
+; [TM]The Digital Logo, AlphaStation, DEC, and Digital are
+; trademarks of Digital Equipment Corporation.
+; [TM] DECtalk is a trademark of Fonix Corporation.
+

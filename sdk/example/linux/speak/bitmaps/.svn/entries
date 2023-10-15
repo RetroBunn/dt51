@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/linux/speak/bitmaps"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="den16a.xpm"
+   text-time="2006-03-22T15:28:05.058400Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7a068ed18a3b24482d12fea862918964"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.214666Z"/>
+<entry
+   committed-rev="4218"
+   name="den16a.gif"
+   text-time="2006-03-22T15:28:05.089649Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4aa5efe9ede4022a988bf0b68ee62c86"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.245915Z"/>
+<entry
+   committed-rev="4218"
+   name="den16b.gif"
+   text-time="2006-03-22T15:28:05.105274Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="650d42e8cf051272c409ab905307ae9e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.277165Z"/>
+<entry
+   committed-rev="4218"
+   name="bet16a.xpm"
+   text-time="2006-03-22T15:28:05.120899Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="845710bac0ba13d373cc252e28258f06"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.355288Z"/>
+<entry
+   committed-rev="4218"
+   name="dtk.xpm"
+   text-time="2006-03-22T15:28:05.136523Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="da0bf870dd3519279df194587ac40d47"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.355288Z"/>
+<entry
+   committed-rev="4218"
+   name="har16a.xpm"
+   text-time="2006-03-22T15:28:05.214647Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="5f2c5aa6290496c1eeb211fd5f704889"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.433412Z"/>
+<entry
+   committed-rev="4218"
+   name="har16b.xpm"
+   text-time="2006-03-22T15:28:05.261521Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="11572312642c657af8f1308dbb20e0cd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.449036Z"/>
+<entry
+   committed-rev="4218"
+   name="bet16a.gif"
+   text-time="2006-03-22T15:28:05.308395Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d31e0cbfc32106f66f19eabb97599624"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.464661Z"/>
+<entry
+   committed-rev="4218"
+   name="bet16b.xpm"
+   text-time="2006-03-22T15:28:05.370894Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1396da41f6d5289b08df0ff0c84e5818"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.480286Z"/>
+<entry
+   committed-rev="4218"
+   name="dtk.gif"
+   text-time="2006-03-22T15:28:05.480267Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="443e57f3224621c11386da88fefcdcc9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.558409Z"/>
+<entry
+   committed-rev="4218"
+   name="har16a.gif"
+   text-time="2006-03-22T15:28:05.620889Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9514085b805887f543542e4beca2c9f5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.574034Z"/>
+<entry
+   committed-rev="4218"
+   name="bet16b.gif"
+   text-time="2006-03-22T15:28:05.636514Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4bfa22b512544063f7a639d0a5a675a3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.574034Z"/>
+<entry
+   committed-rev="4218"
+   name="har16b.gif"
+   text-time="2006-03-22T15:28:05.683388Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f24e5b7846978627a4ee26eb2b10c930"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.589659Z"/>
+<entry
+   committed-rev="4218"
+   name="rit16a.xpm"
+   text-time="2006-03-22T15:28:05.699012Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1ba15c0817a7904a4df24780665571ae"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.605283Z"/>
+<entry
+   committed-rev="4218"
+   name="rit16a.gif"
+   text-time="2006-03-22T15:28:05.761511Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="b874937b212ea721c9be38ee79381efc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.636533Z"/>
+<entry
+   committed-rev="4218"
+   name="rit16b.xpm"
+   text-time="2006-03-22T15:28:05.730262Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e0c475c0c95361bf10fda6762c851e6f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.620908Z"/>
+<entry
+   committed-rev="4218"
+   name="rit16b.gif"
+   text-time="2006-03-22T15:28:05.777136Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="96ff790ea4357eabe6e6e8d1df6fe3d1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.636533Z"/>
+<entry
+   committed-rev="4218"
+   name="kid16a.xpm"
+   text-time="2006-03-22T15:28:05.792761Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8cfab27e5258f8c91c67c8a24e81b9af"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.652158Z"/>
+<entry
+   committed-rev="4218"
+   name="fra16a.xpm"
+   text-time="2006-03-22T15:28:05.870884Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1999025a37ab98a6cdd36b33f81550c4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.683407Z"/>
+<entry
+   committed-rev="4218"
+   name="kid16a.gif"
+   text-time="2006-03-22T15:28:05.824010Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e15ea20004305514108b58bdd1e2a440"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.667782Z"/>
+<entry
+   committed-rev="4218"
+   name="kid16b.xpm"
+   text-time="2006-03-22T15:28:05.808385Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3d3234ae17257deefa64e622a32e0610"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.652158Z"/>
+<entry
+   committed-rev="4218"
+   name="fra16b.xpm"
+   text-time="2006-03-22T15:28:05.933383Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8df692fcd5217a6d08ab7dfa989778fd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.933402Z"/>
+<entry
+   committed-rev="4218"
+   name="fra16a.gif"
+   text-time="2006-03-22T15:28:05.917758Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e9356e4f291a5e8a74ab563426d18c29"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.917777Z"/>
+<entry
+   committed-rev="4218"
+   name="kid16b.gif"
+   text-time="2006-03-22T15:28:05.902134Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4e2c4b8f27cbf98ec3285cce70edbc25"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.917777Z"/>
+<entry
+   committed-rev="4218"
+   name="urs16a.xpm"
+   text-time="2006-03-22T15:28:05.886509Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4176306c717ae41c101198a91d3cd3f8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.902153Z"/>
+<entry
+   committed-rev="4218"
+   name="urs16b.xpm"
+   text-time="2006-03-22T15:28:06.011506Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="89c113e3c74d3ae89ee0a0a75ea760a8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.949027Z"/>
+<entry
+   committed-rev="4218"
+   name="fra16b.gif"
+   text-time="2006-03-22T15:28:05.995882Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="6df993a91a651f4ded45393a83fa98de"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.949027Z"/>
+<entry
+   committed-rev="4218"
+   name="urs16a.gif"
+   text-time="2006-03-22T15:28:05.949008Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4dd9f46a2bda61d326e5a3cf7293f70a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.933402Z"/>
+<entry
+   committed-rev="4218"
+   name="urs16b.gif"
+   text-time="2006-03-22T15:28:06.027131Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1efd810631857ecc1a8a39ca19dfc428"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.964652Z"/>
+<entry
+   committed-rev="4218"
+   name="pau16a.xpm"
+   text-time="2006-03-22T15:28:06.042756Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="503d4188a51a45b235407887132620e4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.964652Z"/>
+<entry
+   committed-rev="4218"
+   name="pau16b.xpm"
+   text-time="2006-03-22T15:28:06.058381Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="18013a52f733687461ff93e91c660bb0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.980276Z"/>
+<entry
+   committed-rev="4218"
+   name="pau16a.gif"
+   text-time="2006-03-22T15:28:06.074005Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="71595302c09a489a971576cb47adf5dd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.995901Z"/>
+<entry
+   committed-rev="4218"
+   name="pau16b.gif"
+   text-time="2006-03-22T15:28:06.089630Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="89a944647c3c1fc88c889d7e833e7982"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:04.995901Z"/>
+<entry
+   committed-rev="4218"
+   name="wen16a.xpm"
+   text-time="2006-03-22T15:28:06.105255Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8b5c856b28b5356684dc0223cad371d9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:05.011526Z"/>
+<entry
+   committed-rev="4218"
+   name="wen16a.gif"
+   text-time="2006-03-22T15:28:06.120879Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d0695fc72954cec40e4258f16518ef6b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:05.011526Z"/>
+<entry
+   committed-rev="4218"
+   name="wen16b.xpm"
+   text-time="2006-03-22T15:28:06.136504Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="6afc7aec3cf33666b490d7a3831ce6e7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:05.027150Z"/>
+<entry
+   committed-rev="4218"
+   name="wen16b.gif"
+   text-time="2006-03-22T15:28:06.152129Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="b5cc64b8d070810a8a3225a54db90383"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:05.027150Z"/>
+</wc-entries>

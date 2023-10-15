@@ -1,0 +1,191 @@
+
+*****************************************************
+Debug codes in DECTalk De-mystified
+*****************************************************
+[:debug ####] where #### is one of the numbers below
+
+********************************************
+VTM debug switch description:
+********************************************
+1001 -- Overload testing      
+1002 -- LTS parsing debug
+1004 -- not used              
+1008 -- not used
+1010 -- not used              
+1020 -- not used
+1040 -- not used              
+1080 -- not used
+1100 -- not used              
+1200 -- not used
+1400 -- not used              
+1800 -- not used
+1fff -- display level 1 options
+
+********************************************
+PH debug switch description:
+********************************************
+2001 -- Incoming PH code (see notes below for specific language outputs)
+2002 -- log phonemes (display phonemes going into synthesizer) **
+2004 -- log output phonemes with language tags.
+2008 -- log output phonemes without language tags.
+2010 -- log inton commands 
+	(show inton parmeters, see ph_inton2.c for ruleand type definitions) f0 rules
+2020 -- log kl parameters (no hlsyn, display detailed parameters)
+2040 -- hlsyn parameters -in  
+2080 -- hlsyn rules
+2100 -- hlsyn parameters--out 
+2200 -- not used
+2400 -- not used              
+2800 -- no voice output
+2fff -- display level 2 options
+
+output format for:
+2001 - 	(A-B--C-DD), 
+		where 	A = # following items, 
+			B= language, 
+			C=arpabet index, 
+			D=arpabet symbols
+       	(#A[0xX]), duration
+	(#A[0xX]), f0 delta in deci-hertz
+       	(#A[0xX]), delay
+
+In Korean 2001 will output the following data
+**KR Romaji:<word with wy> Fonixbet:<i tf E s ao> -> <i - tf E - s ao >
+**KR Fonixbet:<i - tf E - s ao > Askybet:<i-re-sC>
+
+
+2002 - 	ascky<dur, df0>
+2004 -	
+2010 - 
+In Korean 2010 will output the following type of data
+**KR KrSendPhone: /i/, duration = 0
+**KR KrSendPhone: /r/, duration = 0
+**KR KrSendPhone: /e/, duration = 0
+**KR KrSendPhone: /s/, duration = 0
+**KR KrSendPhone: /C/, duration = 0
+**KR KrSendPhone: / /, duration = 0
+
+In Chinese 2010 will output the following type of data
+** Syll 1: d7 tone 3. sequence: 213 --SANDHI RULES--> 213
+** f0 Command:: (TOWARDS) dur=20, change=-15, delay=0, F0=119, cumChange=-11
+** f0 Command:: (DOWN   ) dur=40, change=-6, delay=-30, F0=104, cumChange=-17
+** f0 Command:: (UP     ) dur=100, change=22, delay=45, F0=98, cumChange=5
+** sending /d/ duration: 300
+** sending /7/ duration: 300
+
+
+********************************************
+LTS debug switch description:
+********************************************
+4001 -- Incoming data string, 
+4002 -- Dictionary HIT/MISS (0) for miss, 
+4004 -- Suffix stripping HIT  
+4008 -- Display MISS word, not speaking
+4010 -- Dict. search trace    
+4020 -- Homograph rule HIT
+4040 -- Form class array dump 
+4080 -- ACNA name type
+4100 -- log form class        
+4200 -- dump data before write_pipe
+4400 -- Spell it rule HIT     
+4800 -- drain data before write_pipe
+4fff -- displays level 4 debug choices
+
+*******************************************
+CMD debug switch description:
+*******************************************
+8001 -- Incoming data string  
+8002 -- Input to punct. rule engine
+8004 -- Punct. engine output  
+8008 -- Normal engine output
+8010 -- DTparser rule hit no  
+8020 -- DTparser dictionary HIT/MISS
+8040 -- Input to email engine 
+8080 -- Email engine output
+8100 -- Parser timing         
+8200 -- not used
+8400 -- not used              
+8800 -- drain data before write_pipe
+8fff -- display level 8 debug choices
+
+*******************************************
+DEBUG WINDOW KEY COMMANDS
+*******************************************
+HOME:		Go to the top of the display window
+END:		Go to the bottom of the display window
+DOWN:		Move down one line in the display window
+UP:		Move up one line in the display window
+PGDN:		Move down one page
+PGUP:		Move up one page
+S:		Save data in display window to a file
+P:		Print data in the display window
+C:		Clear the display window
+K:		Copy contents of display window to the clipboard
+
+
+** Notes from Ed 12 Dec 2005
+Anything before [:debug 2002] involves Grapheme to Phoneme processing.
+Anything after 2002 involves Phoneme to (maybe allophone) to acoustic.
+
+The number of allophonic changes within PH are now few and decreasing.
+For Spanish there are some allophonic rules that have been re-formulated.
+In English it is only a few words, plus flaps and glottalized T's.
+
+Tuning Acoustics
+FRICATION
+Frication is controlled by calculation of the intra-oral presure based on airflows in high compute and by estimation in low compute.  Therefore the timing and strength can be different between the two types.  The shape, controled by formants which are excited are controlled by the place of articulation - for all languages.  This replaces akk the amp table information in phedit. (24 per phoneme).  If the shape is wrong first check the place of articulation in PHEDIT and the feature bits.  The feature bits and the place in turn control the pseudo articulatory synthesis which also controls GF or the gain of frication.  To see what rules are firing you can turn on [:debug 2080] and it will show you.
+
+TRANSITIONS
+The most critical transitions for consonant identification are controled by the locus values in PHEDIT.  They at this time are symmetrical about a sonorant.
+
+Transitions between two sonorants are controled by a 25% rule which causes a linear transition between the two formant targets 25% back from the boundary.
+
+FORMANT VALUES
+The formant targets are controlled in PHEDIT.  In general the target should be three values unless theitemis a piphthong or you wish to capture offglide.  When measuring target values, find segments with the formants at a steady state.  You don't want to capture segmental affects.
+
+The formant transitions are controlled by the locus theory.  In high compute the first formant value and bandwidth is modified by the glottal opening.
+
+In low compute the bandwidth values from the tables are still used.
+
+
+******************************************************
+Other codes that can be used with DECTalk
+******************************************************
+[:phon arpa on][iy]
+[:phon arpa on][ue]
+
+[:error (ignore|text|escape|speak|tone)]
+
+[:flush (all|until|mask|after|speech)]
+
+[:lang (us|fr|gr|sp|jp|uk|la|it|kr|ch|hb)]
+
+[:loadv ]
+
+[:log (text|phonemes|types|forms|syllables|outphon|dbglog) (on|off|set)]
+
+[:mode (math|europe|spell|name|homograph|citation|latin|table|email|reading) (on|off|set)]
+
+[:name (paul|betty|harry|frank|dennis|kit|ursula|rita|wendy|ed|matt|sue|mary|lynn|tom|ivan|charline|arlene|val)]
+
+[:page ] loads a new code page
+
+[:phoneme (asky|arpabet|speak|silent) (on|off)]
+
+[:pron (alternate|name|primary|noun|verb|adjective|function|interjection) ]
+
+[:punct (none|some|all|pass) ]
+
+[:rate ]
+
+[:say (clause|word|letter|filtered_letter|line|syllable) ]
+
+[:skip (none|email|punct|rule|all|cpg|parser|off)]
+
+[:setv ]
+
+[:timeout ]
+
+[:vs ]
+
+[:vol (set|up|down|lset|lup|ldown|rset|rup|rdown|sset|att|tone) 80]

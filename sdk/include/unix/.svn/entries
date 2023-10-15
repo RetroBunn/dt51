@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4396"
+   name=""
+   committed-date="2006-03-31T20:37:45.719193Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/include/unix"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4396"
+   name="dectalktypes.h"
+   text-time="2006-04-06T18:04:40.546875Z"
+   committed-date="2006-03-31T20:37:45.719193Z"
+   checksum="941d083eaa2916f41bee217ed9114741"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-04-06T18:04:40.531250Z"/>
+<entry
+   committed-rev="4241"
+   name="dtmmedefs.h"
+   text-time="2006-03-22T15:27:13.856515Z"
+   committed-date="2006-03-21T22:17:50.991755Z"
+   checksum="0decf363968fd1cc0dc4aba024952405"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:13.825266Z"/>
+</wc-entries>

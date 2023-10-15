@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/win32/DTMEMORY"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="Dtmemory.ncb"
+   text-time="2006-03-22T15:28:08.933325Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="fbfa8241e5de50763d31534a50546731"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.573957Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtmemory.opt"
+   text-time="2006-03-22T15:28:08.964575Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e2a1d48708a69c93960dfc9583076e42"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.589582Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtmemory.plg"
+   text-time="2006-03-22T15:28:08.995824Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f758c0667490451df691a8f0edd7a3ba"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.605207Z"/>
+<entry
+   committed-rev="4214"
+   name="dtmemory.c"
+   text-time="2006-03-22T15:28:09.011449Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="d187d4f1f9b87d3de893c2d0eede4b27"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.636456Z"/>
+<entry
+   committed-rev="4218"
+   name="dtmemory.rc"
+   text-time="2006-03-22T15:28:09.058323Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="5b45364299a0d8891c993748a4692460"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.667705Z"/>
+<entry
+   committed-rev="4214"
+   name="udtmemor.mak"
+   text-time="2006-03-22T15:28:09.073948Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="86a23e629b445aeae12f748376f1107d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.714580Z"/>
+<entry
+   committed-rev="4214"
+   name="engphon.h"
+   text-time="2006-03-22T15:28:09.089572Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="281022e8620a6c6de372178de259fa4c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.745829Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtmemory.dsp"
+   text-time="2006-03-22T15:28:09.120822Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="76bd8bb366d470159fc44029dbb57d73"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.761454Z"/>
+<entry
+   committed-rev="4214"
+   name="dtmemory.h"
+   text-time="2006-03-22T15:28:09.136446Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="dbb1656f1e95a0828554e04f7f10368a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.808328Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtmemory.dep"
+   text-time="2006-03-22T15:28:09.152071Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="553bfa80e5835805123966b14852e68f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.823952Z"/>
+<entry
+   committed-rev="4214"
+   name="dtmemory.mak"
+   text-time="2006-03-22T15:28:09.480190Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="70ca3bcfe8bb39819a37ead4e1cd92b3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.870827Z"/>
+<entry
+   committed-rev="4218"
+   name="dtmemory.ico"
+   text-time="2006-03-22T15:28:09.511439Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="68dd49a1aefe1a1c8a6b7d86682a5ac2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.886451Z"/>
+<entry
+   committed-rev="4218"
+   name="Dtmemory.dsw"
+   text-time="2006-03-22T15:28:09.558313Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f5c1c03803f44ff4285db8cc17a822f3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:08.886451Z"/>
+</wc-entries>

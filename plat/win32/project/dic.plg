@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dic - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1F21.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\shared\include" /I "\api" /I "." /I "..\..\..\dapicore\include" /I "..\include" /I ".\dic" /I "..\.." /I ".\nt" /D "_DEBUG" /D "ENGLISH_US" /D "ENGLISH" /D "_CONSOLE" /D "WINDIC" /D "WIN32" /FR"..\apps\tools\dic\Debug/" /Fp"..\apps\tools\dic\Debug/dic.pch" /YX /Fo"..\apps\tools\dic\Debug/" /Fd"..\apps\tools\dic\Debug/" /FD /c 
+"C:\work\ad-new\DECtalk\plat\win32\apps\tools\dic\dic_comm.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1F21.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1F22.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"..\apps\tools\dic\Debug/dic.pdb" /debug /machine:I386 /out:"..\apps\tools\dic\Debug/dic.exe" 
+"\work\ad-new\DECtalk\plat\win32\apps\tools\dic\Debug\dic.obj"
+"\work\ad-new\DECtalk\plat\win32\apps\tools\dic\Debug\dic_comm.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1F22.tmp"
+<h3>Output Window</h3>
+Compiling...
+dic_comm.c
+C:\work\ad-new\DECtalk\plat\win32\apps\tools\dic\dic_comm.c(218) : warning C4101: 'byte_p' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+dic.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

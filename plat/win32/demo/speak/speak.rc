@@ -1,0 +1,437 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ICON_APP                ICON                    "speak.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_ABOUT DIALOGEX 10, 20, 200, 190
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About Speak"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "SPEAK.EXE",IDC_STATIC,30,5,165,8,NOT WS_GROUP
+    LTEXT           "Speaking Text Editor",IDC_STATIC,30,23,150,9,NOT WS_GROUP
+    LTEXT           "Copyright © 2000-2006 Fonix Corporation",IDC_STATIC,30,32,165,8,NOT WS_GROUP
+    LTEXT           "All Rights Reserved.",IDC_STATIC,30,42,169,8,NOT WS_GROUP
+    LTEXT           "Licensed to:",IDC_STATIC,5,85,45,8,NOT WS_GROUP
+    LTEXT           "",IDD_ABOUT_REG_INSTALLER,29,95,145,14,NOT WS_GROUP
+    LTEXT           "",IDD_ABOUT_REG_COMPANY,29,105,145,16,NOT WS_GROUP
+    LTEXT           "Environment:",IDC_STATIC,5,122,115,8,NOT WS_GROUP
+    LTEXT           "",IDD_ABOUT_VERSION_OS,29,148,145,16,NOT WS_GROUP
+    LTEXT           "Platform:",IDC_STATIC,5,140,80,8,NOT WS_GROUP
+    LTEXT           "",IDD_ABOUT_VERSION_PLATFORM,30,130,145,8,NOT WS_GROUP
+    DEFPUSHBUTTON   "OK",IDOK,80,165,35,14,WS_GROUP
+    ICON            ICON_APP,IDC_STATIC,5,5,21,20
+    LTEXT           "",IDD_ABOUT_DECTALK_VERSION,85,51,111,8,NOT WS_GROUP
+    LTEXT           "DECtalk Version",IDC_STATIC,30,51,169,10
+    LTEXT           "",IDD_ABOUT_DECTALK_VERSION_STR,60,60,115,20,NOT WS_GROUP
+    LTEXT           "DECtalk",IDC_STATIC,30,60,169,10
+    LTEXT           "Build Date: ",IDC_STATIC_BUILD_DATE,30,70,169,8
+END
+
+IDD_TYPING DIALOG  0, 0, 187, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Typing Demo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,7,173,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,68,26,50,14
+END
+
+IDD_DIALOG_PARAMETERS DIALOG  0, 0, 187, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TTS Parameters"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,42,158,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,104,158,50,14
+    CONTROL         "Slider1",IDC_SLIDER_RATE,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,7,20,130,28
+    CTEXT           "Speaking Rate",IDC_STATIC,7,7,130,8
+    CONTROL         "Slider2",IDC_SLIDER_PITCH,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,7,65,130,28
+    CONTROL         "Slider3",IDC_SLIDER_VOLUME,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,7,114,130,28
+    CTEXT           "Pitch",IDC_STATIC,7,52,130,8
+    CTEXT           "Volume",IDC_STATIC,7,102,130,8
+    EDITTEXT        IDC_EDIT_RATE,140,26,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PITCH,140,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VOLUME,140,118,40,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+SPEAK_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        IDM_FILE_NEW
+        MENUITEM "&Open...",                    IDM_FILE_OPEN
+        MENUITEM "&Save",                       IDM_SAVE
+        MENUITEM "S&ave as...",                 IDM_SAVEAS
+        MENUITEM "&Close",                      IDM_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Load User Dictionary...",    IDM_LOAD_DIC
+        MENUITEM "&Unload User Dictionary",     IDM_UNLOAD_DIC
+        POPUP "&Convert to Wave File"
+        BEGIN
+            MENUITEM "MONO 11.025kHz, 16-Bit",      IDM_WAVE1116
+            MENUITEM "MONO 11.025kHz, 8-Bit ",      IDM_WAVE1108
+            MENUITEM "MONO 8kHz, µLaw",             IDM_MULAW
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo",                       ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t",                        ID_EDIT_CUT
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Paste",                      ID_EDIT_PASTE
+        MENUITEM "De&lete",                     ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All",                 ID_EDIT_SELECT_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...",                    ID_FIND
+        MENUITEM "Parameters",                  ID_EDIT_PARAMETERS
+        MENUITEM "Show Romaji Translation",     IDM_SHOW_ROMANJI
+        MENUITEM SEPARATOR
+        MENUITEM "Reset TTS",                   ID_EDIT_RESETTTS
+        MENUITEM "Programmer Defined",          ID_EDIT_PROGRAMMERDEFINED
+    END
+    POPUP "&Language"
+    BEGIN
+        MENUITEM "English",                     IDM_ENGLISH, GRAYED
+        MENUITEM "French",                      IDM_FRENCH, GRAYED
+        MENUITEM "German",                      IDM_GERMAN, GRAYED
+        MENUITEM "Italian",                     IDM_ITALIAN, GRAYED
+        MENUITEM "Latin American Spanish",      IDM_LATIN, GRAYED
+        MENUITEM "Spanish",                     IDM_SPANISH, GRAYED
+        MENUITEM "English UK",                  IDM_ENGLISH_UK, GRAYED
+        MENUITEM "Mandarin Chinese",            IDM_CHINESE, GRAYED
+        MENUITEM "Japanese",                    IDM_JAPANESE, GRAYED
+        MENUITEM "Korean",                      IDM_KOREAN, GRAYED
+        MENUITEM "Hebrew",                      IDM_HEBREW, GRAYED
+    END
+    POPUP "&Voice"
+    BEGIN
+        MENUITEM "Paul",                        ID_VOICE_PAUL
+        MENUITEM "Betty",                       ID_VOICE_BETTY
+        MENUITEM "Harry",                       ID_VOICE_HARRY
+        MENUITEM "Frank",                       ID_VOICE_FRANK
+        MENUITEM "Dennis",                      ID_VOICE_DENNIS
+        MENUITEM "Kit",                         ID_VOICE_KIT
+        MENUITEM "Ursula",                      ID_VOICE_URSULA
+        MENUITEM "Rita",                        ID_VOICE_RITA
+        MENUITEM "Wendy",                       ID_VOICE_WENDY
+    END
+    MENUITEM "",                            65535, GRAYED
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help on DECtalk ",           IDM_HELP
+        MENUITEM "&About Speak",                IDM_ABOUT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TYPING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_DIALOG_PARAMETERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Fonix"
+            VALUE "FileDescription", "Speak"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Speak"
+            VALUE "LegalCopyright", "Copyright © 2005"
+            VALUE "OriginalFilename", "Speak.exe"
+            VALUE "ProductName", "Fonix Speak"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_SKIN         BITMAP                  "TTSDemo.bmp"
+IDB_BITMAP_PLAY         BITMAP                  "PlayButton.bmp"
+IDB_BITMAP_PAUSE        BITMAP                  "PauseButton.bmp"
+IDB_BITMAP_STOP         BITMAP                  "StopButton.bmp"
+IDB_BITMAP_PLAYDN       BITMAP                  "PlayButtonDn.bmp"
+IDB_BITMAP_PAUSEDN      BITMAP                  "PauseButtonDn.bmp"
+IDB_BITMAP_STOPDN       BITMAP                  "StopButtonDn.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    VS_PerfectPaul          "[:np]"
+    VS_BeautifulBetty       "[:nb]"
+    VS_HugeHarry            "[:nh]"
+    VS_FrailFrank           "[:nf]"
+    VS_DoctorDenis          "[:nd]"
+    VS_KitTheKid            "[:nk]"
+    VS_UpittyUrsula         "[:nu]"
+    VS_RoughRita            "[:nr]"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_WisperingWendy       "[:nw]"
+    VS_US_Paul              "Paul"
+    VS_US_Betty             "Betty"
+    VS_US_Harry             "Harry"
+    VS_US_Frank             "Frank"
+    VS_US_Dennis            "Dennis"
+    VS_US_Kit               "Kit"
+    VS_US_Ursula            "Ursula"
+    VS_US_Rita              "Rita"
+    VS_US_Wendy             "Wendy"
+    VS_SP_Paul              "Pablo"
+    VS_SP_Betty             "Berta"
+    VS_SP_Harry             "Humberto"
+    VS_SP_Frank             "Francisco"
+    VS_SP_Dennis            "Domingo"
+    VS_SP_Kit               "Juanito"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_SP_Ursula            "Úrsula"
+    VS_SP_Rita              "Rita"
+    VS_SP_Wendy             "Wendy"
+    VS_LA_Paul              "Pablo"
+    VS_LA_Betty             "Berta"
+    VS_LA_Harry             "Humberto"
+    VS_LA_Frank             "Francisco"
+    VS_LA_Dennis            "Domingo"
+    VS_LA_Kit               "Juanito"
+    VS_LA_Ursula            "Úrsula"
+    VS_LA_Rita              "Rita"
+    VS_LA_Wendy             "Wendy"
+    VS_GR_Paul              "Paul"
+    VS_GR_Betty             "Beate"
+    VS_GR_Harry             "Hans"
+    VS_GR_Frank             "Frank"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_GR_Dennis            "Dieter"
+    VS_GR_Kit               "Karsten"
+    VS_GR_Ursula            "Ursula"
+    VS_GR_Rita              "Rita"
+    VS_GR_Wendy             "Wendy"
+    VS_FR_Paul              "Olivier"
+    VS_FR_Betty             "Marjolaine"
+    VS_FR_Harry             "Michel"
+    VS_FR_Frank             "François"
+    VS_FR_Dennis            "Joël"
+    VS_FR_Kit               "Sébastien"
+    VS_FR_Ursula            "Angèle"
+    VS_FR_Rita              "Jacqueline"
+    VS_FR_Wendy             "Nadia"
+    VS_IT_Paul              "Paolo"
+    VS_IT_Betty             "Berenice"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_IT_Harry             "Ettore"
+    VS_IT_Frank             "Frederico"
+    VS_IT_Dennis            "Diana"
+    VS_IT_Kit               "Rico"
+    VS_IT_Ursula            "Orsola"
+    VS_IT_Rita              "Rosetta"
+    VS_IT_Wendy             "Viviana"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_CH_Paul              "Chang"
+    VS_CH_Betty             "Ling"
+    VS_CH_Harry             "Tai"
+    VS_CH_Frank             "Chin"
+    VS_CH_Dennis            "Ming"
+    VS_CH_Kit               "Li"
+    VS_CH_Ursula            "Bao"
+    VS_CH_Rita              "Yin"
+    VS_CH_Wendy             "Jiang"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_JP_Paul              "Kenichi"
+    VS_JP_Betty             "Saya"
+    VS_JP_Harry             "Hiroshi"
+    VS_JP_Frank             "Takayuki"
+    VS_JP_Dennis            "Yoichiro"
+    VS_JP_Kit               "Masaru"
+    VS_JP_Ursula            "Satomi"
+    VS_JP_Rita              "Kie"
+    VS_JP_Wendy             "Miyuki"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_KR_Paul              "Bon-hwa"
+    VS_KR_Betty             "Min"
+    VS_KR_Harry             "Dak-Ho"
+    VS_KR_Frank             "Chung-Hee"
+    VS_KR_Dennis            "Sun"
+    VS_KR_Kit               "Duck-hwan"
+    VS_KR_Ursula            "Hea"
+    VS_KR_Rita              "Sang-mi"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_KR_Wendy             "Yeun-ja"
+    VS_HB_Paul              "Palti"
+    VS_HB_Betty             "Bethany"
+    VS_HB_Harry             "Harrell"
+    VS_HB_Frank             "Feivel"
+END
+
+STRINGTABLE 
+BEGIN
+    VS_HB_Dennis            "Daniel"
+    VS_HB_Kit               "Kenaz"
+    VS_HB_Ursula            "Uriah"
+    VS_HB_Rita              "Rebecca"
+    VS_HB_Wendy             "Yesmina"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

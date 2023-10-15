@@ -1,0 +1,100 @@
+今日の天気は、雨です。
+きょうのてんきは、あめです。
+Kyou no tenki wa, ame desu.
+((KYO'-NO)(TE'XKIWA)),((A'MEDESU)).
+
+((KYO'-NO)(TE'XKIWA)),((A'MEDESU)).
+'kyo`:no'te`Nkiwa,'a`medesu.
+((KYO'-NOTEX)(KI'WA)),((A'MEDESU)).
+
+((KYO'-NOTEX)(KI'WA)),((A'MEDESU))."
+((KYO'-NOTEX)(KI'WA)),((A'MEDESU)).
+'kyo`:noteN'ki`wa,'a`medesu.
+
+Kyou no tenki wa, ame desu.
+
+
+鳥は、空を飛びます。
+とりは、そらをとびます。
+Tori wa, sora wo tobimasu.
+
+女の子は、ぬいぐるみが大好きです。
+おんなのこは、ぬいぐるみがだいすきです。
+Onna no ko wa, nuigurumi ga daisuki desu.
+
+山に行くと、空気がきれいになります。
+やまにいくと、くうきがきれいになります。
+Yama ni iku to, kuuki ga kirei ni narimasu.
+
+男の子は、だいたい、青色が大好きです。
+おとこのこは、だいたい、あおいろがだいすきです。
+Otoko no ko wa, daitai, aoiro ga daisuki desu.
+
+仕事のストレスがたまると、病気の原因となります。
+しごとのストレスがたまると、びょうきのげんいんになります。
+Shigoto no sutoresu ga tamaru to, byouki no genin to narimasu.
+
+家族の夏休みの計画は、遊園地に行って、あそぶことです。
+かぞくのなつやすみのけいかくは、ゆうえんちにいって、あそぶことです。
+Kazoku no natsuyasumi no keikaku wa, yuuenchi ni itte, asobu koto desu.
+
+((KA'ZOKUNO)),((NATSUYA'SUMINO)(KE-KAKUWA)),((YU-E'XCHINII$TE)),((ASOBU)(KOTO'DESU))."
+((KA'ZOKUNONATSU)),((YASUMINOKE'-KA)),((KUHA)),((YU-E'XCHINII$TE)),((ASOBU)(KOTO'DESU))."
+
+
+先日、すごい雪が降って、交通事故が多かったです。
+せんじつ、すごいゆきがふって、こうつうじこがおおかったです。
+Senjitsu, sugoi yuki ga futte, koutsuu jiko ga ookatta desu.
+
+明日の夜ご飯は、レストランに出かけようか。
+あしたのよるごはんは、レストランにでかけようか。
+Ashita no yoru gohan wa, resutoran ni dekakeyou ka.
+
+今日の日付けは、昨日の明日の日です。
+きょうのひずけは、きのうのあしたのひです。
+Kyou no hizuke wa, kinou no ashita no he desu.
+
+Speak crashes with the following words
+骸骨,	gaikotsu.
+カラス,	karasu.
+天下, 	tenka.
+き,	ki.
+汽車,	kisha.
+栗,	kuri.
+おみくじ,	omikuji.
+ご機嫌,	gokigenn. 
+く,	ku.
+港区,	minatoku.
+
+Pronunciation is wrong
+Word	Should be
+色,	iro.
+鉄,	tetsu.
+苔, 	koke.
+魚, 	sakana.
+花, 	hana.
+鼻, 	hana.
+華, 	hana.
+風船, 	fuusen.
+豆腐, 	toufu.
+車, 	kuruma.
+近道,    	chikamishi.
+雲,　　　　	kumo.
+雪,	yuki.
+
+Kanji is not pronounced the same as Romaji
+お金,	okane.
+沖縄,	okinawa.
+声,	koe.
+天下,	tenka.
+点火,	tenka.
+	toukyou.
+綺麗,	kirei.
+競馬,	keiba.
+栗,	kuri.
+苔,	koke.
+朝日,	asahi.
+検査,	kensa.
+先生,	sensei.
+音声,	onsei.
+元祖,	ganso.

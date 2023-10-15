@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/wince/vbdemo"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4214"
+   name="vbspeak.bas"
+   text-time="2006-03-22T15:28:21.886202Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="c5c134aa2d01fbae767a9eee124dc464"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:21.839328Z"/>
+<entry
+   committed-rev="4218"
+   name="dtspeak.ebp"
+   text-time="2006-03-22T15:28:21.901826Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4594eb1a09952cae1a61eefed6a9c67f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:21.854952Z"/>
+<entry
+   committed-rev="4218"
+   name="dtspeak.vb"
+   text-time="2006-03-22T15:28:21.917451Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f168ce33355e5cf183e656c170f0e02a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:21.854952Z"/>
+<entry
+   committed-rev="4218"
+   name="dtspeak.ebf"
+   text-time="2006-03-22T15:28:21.933076Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="a68b265457fa9381c15c978d54624784"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:21.870577Z"/>
+<entry
+   committed-rev="4218"
+   name="dtspeak.vbw"
+   text-time="2006-03-22T15:28:21.948700Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="0f6946e12b159658ebdede409a109f76"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:21.870577Z"/>
+</wc-entries>

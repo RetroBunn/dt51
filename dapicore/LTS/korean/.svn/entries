@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6177"
+   name=""
+   committed-date="2006-10-31T16:16:22.756595Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/LTS/korean"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5251"
+   name="phonetic.h"
+   text-time="2006-06-27T15:27:57.421875Z"
+   committed-date="2006-06-26T21:03:54.370271Z"
+   checksum="8e64ec58c9b818f07afa583b02cd15c1"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-06-27T15:27:56.953125Z"/>
+<entry
+   committed-rev="5239"
+   name="KrTextNormal.h"
+   text-time="2006-06-27T15:27:57.484375Z"
+   committed-date="2006-06-22T20:59:32.595827Z"
+   checksum="fcb12592cba6d77387b8c8186dff70d1"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-06-27T15:27:57.015625Z"/>
+<entry
+   committed-rev="4662"
+   name="KrHangulToRoman.h"
+   text-time="2006-04-26T18:52:48.546875Z"
+   committed-date="2006-04-26T18:21:39.372209Z"
+   checksum="92a3db2eebec10df7425040e0662e090"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-26T18:52:48.359375Z"/>
+<entry
+   committed-rev="6081"
+   name="KoreanIntonation.c"
+   text-time="2006-10-20T13:51:32.542178Z"
+   committed-date="2006-10-19T22:29:58.885832Z"
+   checksum="f28a00c274ba019070151af6d2f53c06"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-20T13:51:32.182815Z"/>
+<entry
+   committed-rev="6100"
+   name="FnxKrLtsRules.c"
+   text-time="2006-10-24T12:57:44.657951Z"
+   committed-date="2006-10-20T22:07:32.464316Z"
+   checksum="4ecd2230e1e1548a0927d1305b367651"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-10-24T12:57:44.642326Z"/>
+<entry
+   committed-rev="5957"
+   name="KoreanIntonation.h"
+   text-time="2006-10-09T14:52:44.685521Z"
+   committed-date="2006-10-06T20:16:54.133244Z"
+   checksum="b2d21d18f0cd3b0ff67b0b9b167a699a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-09T14:52:44.576147Z"/>
+<entry
+   committed-rev="5936"
+   name="KrTextNormal.c"
+   text-time="2006-10-05T19:26:45.708667Z"
+   committed-date="2006-10-05T19:16:49.801732Z"
+   checksum="be9e770130d090e5af8a7b84f7c3f9a3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-05T19:26:45.630546Z"/>
+<entry
+   committed-rev="6177"
+   name="KrHangulToRoman.c"
+   text-time="2006-10-26T17:59:30.094491Z"
+   committed-date="2006-10-31T16:16:22.756595Z"
+   checksum="b9d9df4b4477db0cad9be6aa807b04f3"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-08-23T18:05:14.094966Z"/>
+</wc-entries>

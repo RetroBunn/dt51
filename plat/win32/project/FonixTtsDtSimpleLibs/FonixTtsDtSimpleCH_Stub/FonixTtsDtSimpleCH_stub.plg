@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FonixTtsDtSimpleCH_Stub - Win32 NAND Debug low compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2517.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\..\ARM7TDMI\include" /I "..\..\..\..\..\sdk\include" /I "..\..\..\..\..\shared\include" /I "..\..\..\..\..\dapi" /I "..\..\..\..\..\dapicore\CMD" /I "..\..\..\..\..\dapicore\INCLUDE" /I "..\..\..\..\..\dapicore\KERNEL" /I "..\..\..\..\..\dapicore\LTS" /I "..\..\..\..\..\dapicore\LTS\japan" /I "..\..\..\..\..\dapicore\LTS\chinese" /I "..\..\..\..\..\dapicore\LTS\korean" /I "..\..\..\..\..\dic" /I "..\..\..\..\..\dapicore\NT" /I "..\..\..\..\..\dapicore\PH" /I "..\..\..\..\..\dapicore\VTM" /I "..\..\..\..\..\dic\buildfilesystemdic\win32" /I "..\..\..\..\..\dic\buildfilesystemdic" /I "..\..\..\..\..\dic\buildfilesystemtables" /I "..\..\..\..\..\dic\buildfilesystemtables\win32" /D "_DEBUG" /D "DTALK_CH_EXPORTS" /D "NEW_MULTI_LANG_ARCH" /D "BUILD_LTS" /D "CHINESE" /D "INTEGER" /D "_WINDOWS" /D "_MBCS" /D "ARM7" /D "BLD_DECTALK_DLL" /D "ARM7_NOSWI" /D "NO_INCLUDED_C_FILES" /D "MULTIPLE_LANGUAGES_LOADED" /D "EMB_INDEX_MARKS" /D "NO_ALIGN_8" /D "NO_PRINTF" /D "USE_NAND" /FR"NAND_Debug_low_compute/" /Fp"NAND_Debug_low_compute/FonixTtsDtSimpleCH_stub.pch" /YX /Fo"NAND_Debug_low_compute/" /Fd"NAND_Debug_low_compute/" /FD /GZ /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\lts_dummy_ch.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2517.tmp" 
+Creating command line "link.exe -lib /nologo /out:"NAND_Debug_low_compute\FonixTtsDtSimpleCH_stub.lib"  ".\NAND_Debug_low_compute\lts_dummy_ch.obj" "
+<h3>Output Window</h3>
+Compiling...
+lts_dummy_ch.c
+Creating library...
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2518.bat" with contents
+[
+@echo off
+xcopy NAND_Debug_low_compute\FonixTtsDtSimpleCH_Stub.lib ..\..\..\lib\ /Y
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2518.bat"
+
+NAND_Debug_low_compute\FonixTtsDtSimpleCH_stub.lib
+1 File(s) copied
+
+
+
+<h3>Results</h3>
+FonixTtsDtSimpleCH_stub.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

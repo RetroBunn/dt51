@@ -1,0 +1,349 @@
+/*
+ ***********************************************************************
+ *
+ *                           Copyright ©  
+ *	  Copyright © 2000-2001 Force Computers, a Solectron Company. All rights reserved. 
+ *    © Digital Equipment Corporation 1995. All rights reserved.
+ *
+ *    Restricted Rights: Use, duplication, or disclosure by the U.S.
+ *    Government is subject to restrictions as set forth in subparagraph
+ *    (c) (1) (ii) of DFARS 252.227-7013, or in FAR 52.227-19, or in FAR
+ *    52.227-14 Alt. III, as applicable.
+ *
+ *    This software is proprietary to and embodies the confidential
+ *    technology of Force Computers Incorporated and other parties.
+ *    Possession, use, or copying of this software and media is authorized
+ *    only pursuant to a valid written license from Force or an
+ *	  authorized sublicensor.
+ *
+ ***********************************************************************
+ *    File Name:	fr_type.tab
+ *    Author:
+ *    Creation Date:
+ *
+ *    Functionality:
+ *  iso typing table template ...
+ *
+ ***********************************************************************
+ *    Revision History:
+ * 001 	09/15/95  	gl 		modified to improve french
+ * 002 	10/19/95  	jdb 	filled in slots with French strings
+ * 003 	10/05/2000	MGS		Redhat 6.2 and linux warning removal
+ * 004 	10/16/00	CAB		Added copyright info
+ * 005  03/16/01	CAB		Added changes by michel 
+ * 006	11/29/05	MLH		Added transcription and French spelling
+ */
+#ifdef OS_PALM
+const unsigned char _far * french_type[] =	{
+#else
+const unsigned char _far *const french_type[] =	{
+#endif
+
+
+/* 0x00 */
+
+	"",				/* null */		
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",				/* bell */
+	"",				/* backspace */
+     //	"",				/* horizontal tab */
+	"",          			/* tab */
+	"",				/* line feed */
+	"",				/* vertical tab */
+	"",				/* form feed */
+     //	"",				/* carriage return */
+	"",              		/* enter */
+	"",
+	"",
+	
+
+/* 0x10 */
+
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",				/* escape */
+	"",
+	"",
+	"",
+	
+
+/* 0x20 */
+
+	"",			       	/* Space */
+	"pwèdîksklamasjë ",		/* Exclaimation point */
+	"kot",		 	        /* Quote */
+	"diîz",			        /* Number sign */
+	"dolaç ",			/* Dollar sign */
+	"puçsâ ",			/* Percent sign */
+	"î ",				/* Ampersand */
+	"apostçof",			/* Apostrophe */
+	"paçâtîzuvçât",		    	/* Left parenthesis */
+	"paçâtîzfîçmât",		/* Right parenthesis */
+	"etwal",			/* Asterisk */
+	"plys",			        /* Plus sign */
+	"viçgyl",			/* Comma */
+	"mwè ",				/* Minus sign */
+	"pwè ",			        /* Period */
+	"slaô ",			/* Forward slash */
+
+/* 0x30 */
+
+	"zeçå ",			/* Number 0 */
+	"ê ",				/* Number 1 */
+	"dí ",				/* Number 2 */
+	"tçwa",				/* Number 3 */
+	"katç ",			/* Number 4 */
+	"sèk",				/* Number 5 */
+	"sis",			        /* Number 6 */
+	"sît",			        /* Number 7 */
+	"wuit",				/* Number 8 */
+	"nìf",				/* Number 9 */
+	"dípwè ",			/* Colon */
+	"pwèviçgyl",			/* Semi colon */
+	"èfeçjìça",		        /* Less than sign */
+	"egal",			        /* Equal sign */
+	"sypeçjìça", 		  	/* Greater than sign */
+	"pwèdèteçogasjë ",    		/* Question Mark */
+
+/* 0x40 */
+
+	"âpîçsâd",	   	    	/* Commercial AT sign */
+	"a",				/* Upper case A */
+   	 "be",				/* Upper case B */
+	"se",				/* Upper case C */
+	"de",				/* Upper case D */
+	"ì ",				/* Upper case E */
+	"îf",				/* Upper case F */
+	"äe",				/* Upper case G */
+	"aô ",				/* Upper case H */
+	"i",				/* Upper case I */
+	"äi",				/* Upper case J */
+	"ka",				/* Upper case K */
+	"îl",				/* Upper case L */
+	"îm",				/* Upper case M */
+	"în",				/* Upper case N */
+	"å ",				/* Upper case O */
+
+/* 0x50 */
+	"pe",				/* Upper case P */
+	"ky",				/* Upper case Q */
+	"îç ",				/* Upper case R */
+	"îs",				/* Upper case S */
+	"te",				/* Upper case T */
+	"y",				/* Upper case U */
+	"ve",				/* Upper case V */
+	"dubléve",			/* Upper case W */
+	"iks",				/* Upper case X */
+	"igçîk",			/* Upper case Y */
+	"zîd",				/* Upper case Z */
+	"kçoôîuvçâ ",			/* Left square bracket */
+	"slaôèvîçs", 	 		/* Back slash */
+	"kçoôîfîçmâ ",			/* Right square bracket */
+	"ôapå ",			/* Caret */
+	"syliïe",			/* Underscore */
+
+/* 0x60 */
+
+	"aksâgçav",         		/* Grave */
+	"a",				/* Lower case A */
+	"be",				/* Lower case B */
+	"se",				/* Lower case C */
+	"de",				/* Lower case D */
+	"ì ",				/* Lower case E */
+	"îf",				/* Lower case F */
+	"äe",				/* Lower case G */
+	"aô ",				/* Lower case H */
+	"i",				/* Lower case I */
+	"äi",				/* Lower case J */
+	"ka",				/* Lower case K */
+	"îl",				/* Lower case L */
+	"îm",				/* Lower case M */
+	"în",				/* Lower case N */
+	"å ",				/* Lower case O */
+
+/* 0x70 */
+
+	"pe",				/* Lower case P */
+	"ky",				/* Lower case Q */
+	"îç ",				/* Lower case R */
+	"îs",				/* Lower case S */
+	"te",				/* Lower case T */
+	"y",				/* Lower case U */
+	"ve",				/* Lower case V */
+	"dubléve",			/* Lower case W */
+	"iks",				/* Lower case X */
+	"igçîk",			/* Lower case Y */
+	"zîd",				/* Lower case Z */
+	"kçoôîuvçâ ",        		/* Left curly brace */
+	"baçvîçtikal",     		/* Vertical line */
+	"kçoôîfîçmâ ",       		/* Right curly brace */
+	"tildé ",	        	/* Tilde */
+	"",
+
+/* 0x80 */
+
+	"íçå ",				/* Euro symbol */
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"oemaäyskyl",			/* ligature OE - DIGRAMME SOUDÉ MAJUSCULE LATIN OE (ligature OE) */
+	"",
+	"",
+	"",
+
+/* 0x90 */
+
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"oeminyskyl",                  /* lower case oe ligature - DIGRAMME SOUDÉ MINUSCULE LATIN OE */	
+	"",
+	"",
+	"",
+
+/* 0xa0 */
+
+	"îspasèsékabl",			/* Blank - ESPACE INSÉCABLE (espace imposé, espace sans coupure, espace liant) */
+	"pwèdeksklamasjëçâveçse",	/* Inverted exclamation mark - POINT D'EXCLAMATION RENVERSÉ (point d'exclamation inversé) */
+	"sâtim",			/* Cent - SYMBOLE CENTIME */
+	"livç",				/* Pound - SYMBOLE LIVRE*/
+	"månitîç",			/* International currency -SYMBOLE MONÉTAIRE */
+	"jîn",				/* Yen - SYMBOLE YEN*/
+	"baçvîçtikalètîççåmpy",		/* Pipe - BARRE VERTICALE INTERROMPUE */
+	"paçagçaf",			/* Section sign - PARAGRAPHE (alinéa)*/
+	"tçema",			/* Diaeresis - TRÉMA (avec chasse) */
+	"kåpiçajt",			/* Copyright - SYMBOLE COPYRIGHT */
+	"åçdinalfeminè",		/* Feminine number ordinalizer - INDICATEUR ORDINAL FÉMININ */
+	"gijmîgoô",			/* Left pointing guiellmets - GUILLEMET GAUCHE  */
+	"siãnegasjë",			/* Logical not - SIGNE NÉGATION (symbole non) */
+	"tçedynjë",			/* Hyphen - TRAIT D'UNION VIRTUEL (tiret conditionnel) */
+	"maçkdepåzî",			/* Registered sign - SYMBOLE MARQUE DÉPOSÉE */
+	"makçë",			/* Macron symbol - MACRON (avec chasse) */
+
+/* 0xb0 */
+
+	"dégçe",			/* Ring (Degree) - SYMBOLE DEGRÉ */
+	"plysumåè",			/* Plus/minus - SIGNE PLUS-OU-MOINS */
+	"ekspåsâdí",			/* Superscipt 2 - EXPOSANT DEUX*/
+	"ekspåsâtçwa",			/* Superscipt 3 - EXPOSANT TROIS*/
+	"aksâegy",			/* Accent accute - ACCENT AIGU (avec chasse)*/
+	"mikçå",			/* Micro - SYMBOLE MICRO*/
+	"pjedémåô",			/* Paragraph sign - PIED DE MOUCHE (fin de paragraphe) */
+	"pwèmedjâ",			/* Centered dot - POINT MÉDIAN (point central, point au milieu) */
+	"sedij",			/* Cedilla - CÉDILLE (avec chasse) */
+	"ekspåsâê",			/* Superscript 1  - EXPOSANT UN*/
+	"åçdinalmaskylè",		/* Superscript 0 - INDICATEUR ORDINAL MASCULIN*/
+	"gijmîdçwa",			/* Left pointing guiellmets - GUILLEMET DROIT */
+	"êkaçt",			/* Fraction one fourth - FRACTION UN QUART */
+	"êdémi",			/* Fraction one half - FRACTION UN DEMI */
+	"tçwakaçt",			/* Fraction three-fourths - FRACTION TROIS QUARTS */
+	"pwèdètîçogasjånçâveçse",	/* Inverted question mark - POINT D'INTERROGATION RENVERSÉ (point d'interrogation inversé) */
+
+/* 0xc0 */
+	
+	"aaksâgçavmaäyskyl",		/* Grave accent on capital A - LETTRE MAJUSCULE LATINE A ACCENT GRAVE */
+	"aaksâegymaäyskyl",		/* Acute accent on capital A - LETTRE MAJUSCULE LATINE A ACCENT AIGU */
+	"aaksâsiçkånflîksmaäyskyl",	/* Circumflex accent on capital A - LETTRE MAJUSCULE LATINE A ACCENT CIRCONFLEXE */
+	"atildémaäyskyl",		/* Tilde accent on capital A - LETTRE MAJUSCULE LATINE A TILDE */
+	"atçemamaäyskyl",		/* Umlaut or diaresis accent on capital A - LETTRE MAJUSCULE LATINE A TRÉMA */
+	"açånâôîfmaäyskyl",		/* Ring accent on capital A -LETTRE MAJUSCULE LATINE A ROND EN CHEF */
+	"aemaäyskyl",			/* Dipthong A-E ligature - LETTRE MAJUSCULE LATINE AE (digramme soudé ae, ash) * */
+	"sesedijmaäyskyl",		/* Cedilla accent on capital C - LETTRE MAJUSCULE LATINE C CÉDILLE */
+	"eaksâgçavmaäyskyl",		/* Grave accent on capital E - LETTRE MAJUSCULE LATINE E ACCENT GRAVE */
+	"eaksâegymaäyskyl",		/* Acute accent on capital E - LETTRE MAJUSCULE LATINE E ACCENT AIGU*/
+	"eaksâsiçkånflîksmaäysky",	/* Circumflex accent on capital E - LETTRE MAJUSCULE LATINE E ACCENT CIRCONFLEXE*/
+	"etçemamaäyskyl",		/* Umlaut or diaresis accent on capital E - LETTRE MAJUSCULE LATINE E TRÉMA*/
+	"iaksâgçavmaäyskyl",		/* Grave accent on capital I - LETTRE MAJUSCULE LATINE I ACCENT GRAVE*/
+	"iaksâegymaäyskyl",		/* Acute accent on capital I - LETTRE MAJUSCULE LATINE I ACCENT AIGU*/
+	"iaksâsiçkånflîksmaäysky",	/* Circumflex accent on capital I - LETTRE MAJUSCULE LATINE I ACCENT CIRCONFLEXE*/
+	"itçemamaäyskyl",		/* Umlaut or diaresis accent on capital I - LETTRE MAJUSCULE LATINE I TRÉMA */
+
+/* 0xd0 */
+
+	"etmaäyskyl",			/* Upper case ETH - LETTRE MAJUSCULE LATINE ETH */
+	"întildémaäyskyl",		/* Tilde accent on capital N - LETTRE MAJUSCULE LATINE N TILDE */
+	"oaksâgçavmaäyskyl",		/* Grave accent on capital O - LETTRE MAJUSCULE LATINE O ACCENT GRAVE*/
+	"oaksâegymaäyskyl",		/* Acute accent on capital O - LETTRE MAJUSCULE LATINE O ACCENT AIGU*/
+	"oaksâsiçkånflîksmaäysky",	/* Circumflex accent on capital O - LETTRE MAJUSCULE LATINE O ACCENT CIRCONFLEXE*/
+	"otildémaäyskyl",		/* Tilde accent on capital O - LETTRE MAJUSCULE LATINE O TILDE*/
+	"otçemamaäyskyl",		/* Umlaut or diaresis accent on capital O - LETTRE MAJUSCULE LATINE O TRÉMA*/
+	"myltiplikasjë",		/* Multiply - SIGNE MULTIPLICATION */
+	"obaçåblikmâmaäyskyl",		/* Upper case O oblique - LETTRE MAJUSCULE LATINE O BARRÉ OBLIQUEMENT*/
+	"uaksâgçavmaäyskyl",		/* Grave accent on capital U - LETTRE MAJUSCULE LATINE U ACCENT GRAVE */
+	"uaksâegymaäyskyl",		/* Acute accent on capital U - LETTRE MAJUSCULE LATINE U ACCENT AIGU */
+	"uaksâsiçkånflîksmaäysky",	/* Circumflex accent on capital U - LETTRE MAJUSCULE LATINE U ACCENT CIRCONFLEXE */
+	"utçemamaäyskyl",		/* Umlaut or diaresis accent on capital U - LETTRE MAJUSCULE LATINE U TRÉMA */
+	"yaksâegymaäyskyl",		/* Accute accent on capital Y - LETTRE MAJUSCULE LATINE Y ACCENT AIGU */
+	"toçnmaäyskyl",			/* Uppercase thorn - LETTRE MAJUSCULE LATINE THORN */
+	"esdyçminyskyl",		/* Lowercase es zet ligature - LETTRE MINUSCULE LATINE S DUR (S dur allemand, Szet) */
+
+/* 0xe0 */
+
+	"aaksâgçavminyskyl",		/* Grave accent on lowercase a - LETTRE MINUSCULE LATINE A ACCENT GRAVE */
+	"aaksâegyminyskyl",		/* Acute accent on lowercase a - LETTRE MINUSCULE LATINE A ACCENT AIGU */
+	"aaksâsiçkånflîksminyskyl",	/* Circumflex accent on lowercase a - LETTRE MINUSCULE LATINE A ACCENT CIRCONFLEXE */
+	"atildéminyskyl",		/* Tilde accent on lowercase a - LETTRE MINUSCULE LATINE A TILDE */
+	"atçemaminyskyl",		/* Umlaut or diaresis accent on lowercase a LETTRE MINUSCULE LATINE A TRÉMA */
+	"açånâôîfminyskyl",		/* Ring accent on lowercase a - LETTRE MINUSCULE LATINE A ROND EN CHEF */
+	"aeminyskyl",			/* Lowercase a-e ligature - LETTRE MINUSCULE LATINE AE (digramme soudé ae, ash) * */
+	"sesedijminyskyl",		/* Cedilla accent on lowercase c - LETTRE MINUSCULE LATINE C CÉDILLE */
+	"eaksâgçavminyskyl",		/* Grave accent on lowercase e - LETTRE MINUSCULE LATINE E ACCENT GRAVE*/
+	"eaksâegyminyskyl",		/* Acute accent on lowercase e - LETTRE MINUSCULE LATINE E ACCENT AIGU*/
+	"eaksâsiçkånflîksminyskyl",	/* Circumflex accent on lowercase e - LETTRE MINUSCULE LATINE E ACCENT CIRCONFLEXE */
+	"etçemaminyskyl",		/* Umlaut or diaresis accent on lowercase e - LETTRE MINUSCULE LATINE E TRÉMA*/
+	"iaksâgçavminyskyl",		/* Grave accent on lowercase i - LETTRE MINUSCULE LATINE I ACCENT GRAVE */
+	"iaksâegyminyskyl",		/* Acute accent on lowercase i - LETTRE MINUSCULE LATINE I ACCENT AIGU */
+	"iaksâsiçkånflîksminyskyl",	/* Circumflex accent on lowercase i - LETTRE MINUSCULE LATINE I ACCENT CIRCONFLEXE */
+	"itçemaminyskyl",		/* Umlaut or diaresis accent on lowercase i -LETTRE MINUSCULE LATINE I TRÉMA */
+
+/* 0xf0 */
+
+	"etminyskyl",			/* Lower case eth - LETTRE MINUSCULE LATINE ETH */
+	"întildéminyskyl",		/* Tilde accent on lowercase n - LETTRE MINUSCULE LATINE N TILDE */
+	"oaksâgçavminyskyl",		/* Grave accent on lowercase o - LETTRE MINUSCULE LATINE O ACCENT GRAVE*/
+	"oaksâgegyminyskyl",		/* Acute accent on lowercase o - LETTRE MINUSCULE LATINE O ACCENT AIGU */
+	"oaksâsiçkånflîksminyskyl",	/* Circumflex accent on lowercase o - LETTRE MINUSCULE LATINE O ACCENT CIRCONFLEXE */
+	"otildéminyskyl",		/* Tilde accent on lowercase o - LETTRE MINUSCULE LATINE O TILDE */
+	"otçemaminyskyl",		/* Umlaut or diaresis accent on lowercase o - LETTRE MINUSCULE LATINE O TRÉMA */
+	"divizjë",			/* Divide by - SIGNE DIVISION */
+	"obaçåblikmminyskyl",		/* Slash accent on lowercase o - LETTRE MINUSCULE LATINE O BARRÉ OBLIQUEMENT */
+	"uaksâgçavminysky",		/* Grave accent on lowercase u - LETTRE MINUSCULE LATINE U ACCENT GRAVE */
+	"uaksâegyeminyskyl",		/* Acute accent on lowercase u - LETTRE MINUSCULE LATINE U ACCENT AIGU*/
+	"uaksâsiçkånflîksminyskyl",	/* Circumflex accent on lowercase u - LETTRE MINUSCULE LATINE U ACCENT CIRCONFLEXE */
+	"utçemaminyskyl",		/* Umlaut or diaresis accent on lowercase u - LETTRE MINUSCULE LATINE U TRÉMA*/
+	"yaksâegyminyskyl",		/* Accute accent on lowercase y - LETTRE MINUSCULE LATINE Y ACCENT AIGU */
+	"toçnminyskyl",			/* Lower case thorn - LETTRE MINUSCULE LATINE THORN */
+	"ytçemaminyskyl"		/* Umlaut or diaresis accent on lowercase y - LETTRE MINUSCULE LATINE Y TRÉMA*/
+};

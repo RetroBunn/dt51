@@ -1,0 +1,14 @@
+EXPORTS
+	FnxTtsDtCloseSTDLIB @ 1 NONAME R3UNUSED ; (null)
+	FnxTTSDtSimpleClose @ 2 NONAME R3UNUSED ; (null)
+	FnxTTSDtSimpleGetSpeechData @ 3 NONAME R3UNUSED ; (null)
+	FnxTTSDtSimpleGetThreadData @ 4 NONAME R3UNUSED ; (null)
+	FnxTTSDtSimpleHaltSpeech @ 5 NONAME R3UNUSED ; (null)
+	FnxTTSDtSimpleOpen @ 6 NONAME R3UNUSED ; (null)
+	FnxTTSDtSimpleOpenEx @ 7 NONAME ; (null)
+	FnxTTSDtSimpleResetSpeech @ 8 NONAME R3UNUSED ; (null)
+	FnxTTSDtSimpleSetLanguage @ 9 NONAME R3UNUSED ; (null)
+	FnxTTSDtSimpleSetLanguageEx @ 10 NONAME ; (null)
+	FnxTTSDtSimpleStart @ 11 NONAME ; (null)
+	FnxTTSDtSimpleChangeVoice @ 12 NONAME R3UNUSED ; (null)
+

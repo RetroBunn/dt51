@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/kitting"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="finfo.mdp"
+   text-time="2006-03-22T15:25:35.545579Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="22684f09b1e8910731a4b758b55e5c2e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:33.623728Z"/>
+<entry
+   committed-rev="4213"
+   name="testinst.bat"
+   text-time="2006-03-22T15:25:35.842450Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="50b809a21562bd4cda89e9d2e63d323b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:33.904975Z"/>
+<entry
+   committed-rev="4213"
+   name="finfo.c"
+   text-time="2006-03-22T15:25:35.795575Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="553bc7c56ddf1128f7b1da7a318c20fa"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:33.764351Z"/>
+<entry
+   committed-rev="4213"
+   name="democopy.bat"
+   text-time="2006-03-22T15:25:36.123696Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="3fb811eac724398f0415c39180112ad5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.061223Z"/>
+<entry
+   committed-rev="4213"
+   name="CDCOPY.BAT"
+   text-time="2006-03-22T15:25:36.154946Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="ec63304a6492889dffa781081f714a98"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.154971Z"/>
+<entry
+   committed-rev="4218"
+   name="finfo.dsp"
+   text-time="2006-03-22T15:25:36.139321Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="fcec6a2e52c8b67c918b2dd8e69cf0e0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.076847Z"/>
+<entry
+   committed-rev="4213"
+   name="kitcopy.bat"
+   text-time="2006-03-22T15:25:36.233070Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="215c81cd55df9f2b9e5bb0446c1c592a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.311219Z"/>
+<entry
+   committed-rev="4213"
+   name="brillo.bat"
+   text-time="2006-03-22T15:25:36.279944Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="fe2d4dbb897aa5611865f40eb1481e0f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.373719Z"/>
+<entry
+   committed-rev="4213"
+   name="word.txt"
+   text-time="2006-03-22T15:25:36.295569Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c5fd1108be3b8f5d709a7b7259db8e1d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.404968Z"/>
+<entry
+   committed-rev="4213"
+   name="swaplang.txt"
+   text-time="2006-03-22T15:25:36.311194Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="36eca689ffc5a69230e64b0ef6f579db"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.436218Z"/>
+<entry
+   committed-rev="4218"
+   name="fonix.ico"
+   text-time="2006-03-22T15:25:36.420567Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="0dd821bd2e6c0a668ac7e13b1e4e9921"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.561216Z"/>
+<entry
+   committed-rev="4213"
+   name="cedemocopy.bat"
+   text-time="2006-03-22T15:25:36.326819Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b92a140ed5b955c74786d351caa9683c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.514342Z"/>
+<entry
+   committed-rev="4218"
+   name="finfo.dsw"
+   text-time="2006-03-22T15:25:36.436192Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3bd7ef6f343fd94e6dd29c85b6bfc2e5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.561216Z"/>
+<entry
+   committed-rev="4213"
+   name="cecdcopy.bat"
+   text-time="2006-03-22T15:25:36.451817Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b54b21dbf38b7af4184883cb11833547"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.795588Z"/>
+<entry
+   committed-rev="4213"
+   name="license.txt"
+   text-time="2006-03-22T15:25:36.545566Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="87e22226bc6a084d9db305241ed3f1ad"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:34.873712Z"/>
+<entry
+   committed-rev="4218"
+   name="readme.doc"
+   text-time="2006-03-22T15:25:36.576815Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="248347c07caefdeeff27f9e9d0ebd9c7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.092459Z"/>
+<entry
+   committed-rev="4218"
+   name="files.doc"
+   text-time="2006-03-22T15:25:36.623690Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="694b5a88c026716a3a35e63d715fe632"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.108084Z"/>
+<entry
+   committed-rev="4213"
+   name="dtalksdk.bat"
+   text-time="2006-03-22T15:25:36.623690Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="db17397737f1218179e96b505c1cb445"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.186208Z"/>
+<entry
+   committed-rev="4213"
+   name="appendix1.txt"
+   text-time="2006-03-22T15:25:36.654939Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="5c38676ffd9a8f298c900bfaaf6e26b2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.264332Z"/>
+<entry
+   committed-rev="4218"
+   name="finfo.dep"
+   text-time="2006-03-22T15:25:36.670564Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e5400a57666b762a5789208c535a5396"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.295582Z"/>
+<entry
+   committed-rev="4213"
+   name="appendix2.txt"
+   text-time="2006-03-22T15:25:36.686189Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="4556f6cbf249534e95500735eacf508c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.311207Z"/>
+<entry
+   committed-rev="4213"
+   name="finfo.mak"
+   text-time="2006-03-22T15:25:36.701814Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b2785265ec29f04cebce39cc8502fa38"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.373706Z"/>
+<entry
+   committed-rev="4213"
+   name="appendix3.txt"
+   text-time="2006-03-22T15:25:36.717439Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="127856dceb4a83e8623ceba08d8629d6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.404955Z"/>
+<entry
+   committed-rev="4213"
+   name="appendix4.txt"
+   text-time="2006-03-22T15:25:36.733063Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="3a8ffb81109d7ffa84a80ba88c8822e5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.483079Z"/>
+<entry
+   committed-rev="4213"
+   name="betacopy.bat"
+   text-time="2006-03-22T15:25:36.748688Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="0ad028f1995800506dcfe934d84a333c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.498704Z"/>
+<entry
+   committed-rev="4213"
+   name="readme.txt"
+   text-time="2006-03-22T15:25:36.998685Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="d6883e15b773e580cf7f554c32061ae0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.514329Z"/>
+<entry
+   committed-rev="4218"
+   name="License.rtf"
+   text-time="2006-03-22T15:25:37.029935Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="6a23b0b36319994058b3e8fce83a8749"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.514329Z"/>
+<entry
+   committed-rev="4213"
+   name="wtalkver.txt"
+   text-time="2006-03-22T15:25:37.045559Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="da348e4b461c948faf79ea40677161f8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:35.529954Z"/>
+</wc-entries>

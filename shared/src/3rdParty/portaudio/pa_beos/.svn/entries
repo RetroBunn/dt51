@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4215"
+   name=""
+   committed-date="2006-03-18T04:49:35.817887Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src/3rdParty/portaudio/pa_beos"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4215"
+   name="PlaybackNode.cc"
+   text-time="2006-03-22T15:31:51.054061Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="e1a04131433aa251bf2d0497b27f14d8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.991562Z"/>
+<entry
+   committed-rev="4215"
+   name="PlaybackNode.h"
+   text-time="2006-03-22T15:31:51.147809Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="1d0962cab7db3d215afffec8314308ec"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.991562Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_beos_mk.cc"
+   text-time="2006-03-22T15:31:51.163433Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="346a7eee7c0933887082623921404c17"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:51.007186Z"/>
+</wc-entries>

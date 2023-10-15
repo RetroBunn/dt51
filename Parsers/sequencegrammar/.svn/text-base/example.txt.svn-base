@@ -1,0 +1,39 @@
+// This is an example file to demonstrate the sequence/ wordgrammar parser
+// lines with DEF are defined sequences that are not called directly
+// lines with SEQ define a sequence. Each sequence is named. However, 
+// only the name of the DEF sequences has to be unique. 
+// 
+DEF :useless: NOT {A OR B OR C OR {NOT D} OR F};
+DEF :prot:  A . B . C; 
+DEF :prep = "Prepositions.eng";        // existing sequences of word combinations
+SEQ :new:   A . B . C AND D OR F AND NOT {D AND {F OR G AND D}} . NOT V;
+SEQ  A . BB . &prot . NOT V . %</my_best_prosody>% . whatsup;
+//SEQ :bull:   A . BB . &prot . NOT V . %</my_best_prosody>% . whatsup;
+SEQ :bull:   &prep . UNSPEC . &useless[1,3] . !&useless  ;
+SEQ :bull:   &prep . UNSPEC . &useless[1,2] . &useless  ;
+// 
+
+word =>   A
+         |B
+         |C
+         |D
+         |E
+         |F
+//         |G
+//	 |V 
+	 |whatsup;
+
+A=>"and" | "or";
+B=>"the" | "if";
+C=>"can" | "was";
+D=>"then" | "else";
+E=>"Hans" | "Heinz";
+F=>"Matilde" | "Mark";
+//G=>auxverbform+nix;
+//V=>article+"s";
+whatsup=>"a preposition";
+
+auxverbform=> "has" | "had" | "have" ; // etc.
+
+//trie nix="auxverbs.eng";  
+//trie article="articles.eng";

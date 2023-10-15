@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6172"
+   name=""
+   committed-date="2006-10-30T17:46:05.246324Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/TestTtsDtSimple_464_51"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5582"
+   name="StdAfx.h"
+   text-time="2006-08-18T21:20:32.723113Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="d37dd9c4f786365c14787a2de3cb5c16"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:28.785664Z"/>
+<entry
+   committed-rev="6126"
+   name="TestTtsDtSimple_464_51.rc"
+   text-time="2006-10-25T14:22:44.665300Z"
+   committed-date="2006-10-25T00:37:04.490719Z"
+   checksum="3f64c3c7a0ded7ec1272eeea539b5431"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-25T14:22:44.618427Z"/>
+<entry
+   committed-rev="5582"
+   name="Audio.c"
+   text-time="2006-08-18T21:20:32.754363Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="0ca390b7e92768e72dde97640e0b5645"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:28.848163Z"/>
+<entry
+   committed-rev="5582"
+   name="FonixAudioOut.h"
+   text-time="2006-08-18T21:20:32.769988Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="04ca6e08674765190e162313df55372f"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:28.863788Z"/>
+<entry
+   committed-rev="6139"
+   name="TestTtsDtSimpleDlg.cpp"
+   text-time="2006-10-26T17:24:48.234538Z"
+   committed-date="2006-10-25T21:35:59.825039Z"
+   checksum="f1cf1686eb0560ed37fdf6be04660c8a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:48.140788Z"/>
+<entry
+   committed-rev="5598"
+   name="build_withdicts.bat"
+   text-time="2006-08-23T18:05:40.562979Z"
+   committed-date="2006-08-18T22:26:50.106225Z"
+   checksum="5c297ee6beb734e867745cc2ed87bdb6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:05:40.516105Z"/>
+<entry
+   committed-rev="5582"
+   name="Audio.h"
+   text-time="2006-08-18T21:20:32.801237Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="ebf28ac885cb61c7205659e1fe28f847"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:28.895037Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   committed-rev="5582"
+   name="TestTtsDtSimpleDlg.h"
+   text-time="2006-08-18T21:20:32.816862Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="cb7d57755e3eb29b4d99041b83692b10"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:28.910662Z"/>
+<entry
+   committed-rev="5582"
+   name="WriteWavFile.c"
+   text-time="2006-08-18T21:20:32.816862Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="82c0a905c07dc8312ad33806e6e4acae"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:28.910662Z"/>
+<entry
+   committed-rev="5582"
+   name="COMMAND.TXT"
+   text-time="2006-08-18T21:20:32.832487Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="d284821a5bbc82287a47f74fb237ad89"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.426280Z"/>
+<entry
+   committed-rev="5582"
+   name="TestTtsDtSimple.cpp"
+   text-time="2006-08-18T21:20:32.848112Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="fc5d39eada9295ecc05b39fe2c43f25d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.441905Z"/>
+<entry
+   committed-rev="5582"
+   name="WriteWavFile.h"
+   text-time="2006-08-18T21:20:32.863736Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="24d57cac8a0c396b7d1a49c501c49b33"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.457530Z"/>
+<entry
+   committed-rev="5582"
+   name="TestTtsDtSimple.h"
+   text-time="2006-08-18T21:20:32.910611Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="d9413a0b3c438879054a066495bbc144"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.488780Z"/>
+<entry
+   committed-rev="5582"
+   name="TestTtsDtSimple_464_51.dsp"
+   text-time="2006-08-18T21:20:32.910611Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="d61358a4746645b87dd45d76d278607d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.504404Z"/>
+<entry
+   committed-rev="5582"
+   name="build.bat"
+   text-time="2006-08-18T21:20:32.926236Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="f73a357d1858ecb616218195dda4338c"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.520029Z"/>
+<entry
+   committed-rev="5582"
+   name="FonixPublic.h"
+   text-time="2006-08-18T21:20:32.957485Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="02d8aa5818c6f820283176c22a2481c9"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.551279Z"/>
+<entry
+   committed-rev="5582"
+   name="StdAfx.cpp"
+   text-time="2006-08-18T21:20:32.973110Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="99dbcc2bc49a1e0c632e0edd069cd8b5"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:29.582528Z"/>
+<entry
+   committed-rev="5582"
+   name="SpellingWords.txt"
+   text-time="2006-08-18T21:20:33.035609Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="47bb3078ecef3b5a03c7994e50c01adf"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:32.582490Z"/>
+<entry
+   committed-rev="6139"
+   name="TestTtsDtSimple_464_51.dsw"
+   text-time="2006-10-26T17:24:48.578288Z"
+   committed-date="2006-10-25T21:35:59.825039Z"
+   checksum="883a2f28b06584a047ce4d24034f842f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:48.203288Z"/>
+<entry
+   committed-rev="5582"
+   name="Speaker.c"
+   text-time="2006-08-18T21:20:33.066859Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="f48fbd500f55be3aa294952971dd5617"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:32.676239Z"/>
+<entry
+   committed-rev="5582"
+   name="ReadMe.txt"
+   text-time="2006-08-18T21:20:33.082484Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="7a43f040048a7ca5cc542ad21193baf6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:32.691864Z"/>
+<entry
+   committed-rev="5582"
+   name="resource.h"
+   text-time="2006-08-18T21:20:33.098108Z"
+   committed-date="2006-08-18T17:45:33.438053Z"
+   checksum="ff491319a0e77e03cb5fcbc53c7454e5"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:32.707488Z"/>
+</wc-entries>

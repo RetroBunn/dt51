@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4216"
+   name=""
+   committed-date="2006-03-18T04:57:47.401252Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Test/French"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="Baseline"
+   kind="dir"/>
+<entry
+   committed-rev="4216"
+   name="Demo.fr.txt"
+   text-time="2006-03-22T15:26:45.700931Z"
+   committed-date="2006-03-18T04:57:47.401252Z"
+   checksum="0e5f6cba73fa149fef7aa3e4ed2042b2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:45.560307Z"/>
+<entry
+   committed-rev="4216"
+   name="BasicSounds.txt"
+   text-time="2006-03-22T15:26:45.763430Z"
+   committed-date="2006-03-18T04:57:47.401252Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:45.638431Z"/>
+<entry
+   committed-rev="4216"
+   name="LongTest.txt"
+   text-time="2006-03-22T15:26:45.794679Z"
+   committed-date="2006-03-18T04:57:47.401252Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:45.669681Z"/>
+<entry
+   committed-rev="4216"
+   name="ShortTest.txt"
+   text-time="2006-03-22T15:26:45.810304Z"
+   committed-date="2006-03-18T04:57:47.401252Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:45.685306Z"/>
+</wc-entries>

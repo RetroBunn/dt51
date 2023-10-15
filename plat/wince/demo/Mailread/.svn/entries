@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/wince/demo/Mailread"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="StdAfx.h"
+   text-time="2006-03-22T15:26:06.779554Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c4f644e086d211b2982630a0a63b5d61"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.295185Z"/>
+<entry
+   committed-rev="4218"
+   name="Mailread.rc"
+   text-time="2006-03-22T15:26:06.795179Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d8862b06a1ca721b63a7b8bac3e2efa0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.310810Z"/>
+<entry
+   committed-rev="4213"
+   name="Mailread.mak"
+   text-time="2006-03-22T15:26:06.998301Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="7eee507f357636c2106a0e510f21ac20"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.373309Z"/>
+<entry
+   committed-rev="4218"
+   name="Mailread.dep"
+   text-time="2006-03-22T15:26:06.967051Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4a8b470833e5b48f6374d95a1f666427"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.342059Z"/>
+<entry
+   committed-rev="4213"
+   name="MailreadDlg.cpp"
+   text-time="2006-03-22T15:26:07.060800Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="0ed643ce08a543d97bd9d2474cba90cf"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.388934Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   committed-rev="4213"
+   name="MailreadDlg.h"
+   text-time="2006-03-22T15:26:07.092050Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="f2989bade047473b68eb545153de4bb9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.732679Z"/>
+<entry
+   committed-rev="4213"
+   name="Mailread.cpp"
+   text-time="2006-03-22T15:26:06.763929Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="7437b25e39d72379d665b4568e731efe"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.279560Z"/>
+<entry
+   committed-rev="4218"
+   name="Mailread.clw"
+   text-time="2006-03-22T15:26:06.810803Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4cfd2392f1b73ed88a907ac8a739e0c2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.310810Z"/>
+<entry
+   committed-rev="4218"
+   name="Mailread.vcn"
+   text-time="2006-03-22T15:26:06.935802Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="54da6cf4217c18acfedd339267df60a0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.326435Z"/>
+<entry
+   committed-rev="4213"
+   name="Mailread.h"
+   text-time="2006-03-22T15:26:06.951427Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="bdf700f283ba59e3b0cd4f56a199f3b1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.342059Z"/>
+<entry
+   committed-rev="4218"
+   name="Mailread.vcp"
+   text-time="2006-03-22T15:26:07.045175Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="093a94f048238749a0a5bcf7686dd3f6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.373309Z"/>
+<entry
+   committed-rev="4213"
+   name="StdAfx.cpp"
+   text-time="2006-03-22T15:26:07.076425Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="09047ef7c2609473a70a6a46ce529e28"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.592056Z"/>
+<entry
+   committed-rev="4218"
+   name="Mailread.vcw"
+   text-time="2006-03-22T15:26:07.138924Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="028f0396656b80c3d6fdac6ac8d978cd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.732679Z"/>
+<entry
+   committed-rev="4213"
+   name="resource.h"
+   text-time="2006-03-22T15:26:07.154549Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="984a63a3b8f016996a40b100e1601b35"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:06.748304Z"/>
+</wc-entries>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5855"
+   name=""
+   committed-date="2006-09-22T22:33:45.821735Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Korean/Feedback%20from%20Sun-Ah"
+   last-author="maryh"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5764"
+   name="KoreanCheck_reportSept11.xls"
+   text-time="2006-09-15T12:31:01.370566Z"
+   committed-date="2006-09-14T21:57:25.062705Z"
+   checksum="b4f897b705bc01a4de30a5ef2985135c"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-15T12:30:59.370630Z"/>
+<entry
+   committed-rev="5855"
+   name="KoreanCheck_reportSept20.xls"
+   text-time="2006-09-25T16:41:49.781250Z"
+   committed-date="2006-09-22T22:33:45.821735Z"
+   checksum="69500a209df45e1fe9d963d910588636"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-25T16:41:49.687500Z"/>
+<entry
+   committed-rev="5764"
+   name="KoreanCheck_reportSept12.xls"
+   text-time="2006-09-15T12:31:01.386191Z"
+   committed-date="2006-09-14T21:57:25.062705Z"
+   checksum="eb727aea830821242d01d047e8b8c5c8"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-15T12:31:01.323693Z"/>
+</wc-entries>

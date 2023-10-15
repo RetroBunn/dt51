@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5548"
+   name=""
+   committed-date="2006-08-11T18:56:37.426966Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/include/sapi5"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5548"
+   name="spddkhlp.h"
+   text-time="2001-07-24T04:11:58.000000Z"
+   committed-date="2006-08-11T18:56:37.426966Z"
+   checksum="d9260af385042b2bf3fa5eb0402ed943"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:24:26.405739Z"/>
+<entry
+   committed-rev="4213"
+   name="spdebug.h"
+   text-time="2006-03-22T15:24:29.749467Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2608f9b3f6ab1b250bd6a5e9f4094c1d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:26.436989Z"/>
+<entry
+   committed-rev="5548"
+   name="spuihelp.h"
+   text-time="2001-07-24T04:11:58.000000Z"
+   committed-date="2006-08-11T18:56:37.426966Z"
+   checksum="08b00cb7a88eb73b3c7e6752e6397000"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:24:26.468238Z"/>
+<entry
+   committed-rev="5548"
+   name="sapi.h"
+   text-time="2001-07-24T05:07:30.000000Z"
+   committed-date="2006-08-11T18:56:37.426966Z"
+   checksum="45bd86c669527928bc92f7f334b1bd10"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:24:28.436976Z"/>
+<entry
+   committed-rev="5548"
+   name="sperror.h"
+   text-time="2001-07-24T04:11:58.000000Z"
+   committed-date="2006-08-11T18:56:37.426966Z"
+   checksum="37687d868012221e2c00e952e8284456"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:24:28.561975Z"/>
+<entry
+   committed-rev="5548"
+   name="sapiddk.h"
+   text-time="2001-07-24T05:07:36.000000Z"
+   committed-date="2006-08-11T18:56:37.426966Z"
+   checksum="9a8436acd428eebb8f143f14b7e49b65"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:24:29.046347Z"/>
+<entry
+   committed-rev="5548"
+   name="sphelper.h"
+   text-time="2001-07-24T04:11:58.000000Z"
+   committed-date="2006-08-11T18:56:37.426966Z"
+   checksum="1cf2e4eab18f1c6ecc07751130450090"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:24:29.421345Z"/>
+<entry
+   committed-rev="4213"
+   name="spcollec.h"
+   text-time="2006-03-22T15:24:29.858842Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="7c661fb247b0bbff92040d1e81498de9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:29.593218Z"/>
+<entry
+   committed-rev="5548"
+   name="speventq.h"
+   text-time="2001-07-24T04:11:58.000000Z"
+   committed-date="2006-08-11T18:56:37.426966Z"
+   checksum="7ec84ae0faba97ec51294cc2714afc56"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:24:29.686968Z"/>
+<entry
+   committed-rev="4213"
+   name="shfolder.h"
+   text-time="2006-08-11T18:34:17.221873Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="aa8f068f33077e96bf62a322354a5fc4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:29.702593Z"/>
+</wc-entries>

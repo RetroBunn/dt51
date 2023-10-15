@@ -1,0 +1,310 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 576, 327
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Fonix Corporation ONSEI Dictionary Tool"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Load",IDLOAD,277,19,50,14
+    LTEXT           "Japanese dictionary",IDC_STATIC,7,7,188,11
+    EDITTEXT        IDC_EDIT1,7,19,242,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_DIR,255,19,15,12,BS_BITMAP
+    CONTROL         "EDIC",IDC_RADIO_EDIC,"Button",BS_AUTORADIOBUTTON,401,22,
+                    42,10
+    CONTROL         "IDIC",IDC_RADIO_IDIC,"Button",BS_AUTORADIOBUTTON,345,22,
+                    50,10
+    CONTROL         "TDIC",IDC_RADIO_TDIC,"Button",BS_AUTORADIOBUTTON,454,22,
+                    47,10
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
+                    WS_TABSTOP,7,54,561,206,WS_EX_STATICEDGE
+    CTEXT           "LOAD THE JAPANESE DICTIONARY TO MEMORY",
+                    IDC_STATIC_TITLE,7,42,561,11
+    PUSHBUTTON      "Exit",IDCANCEL,507,299,50,14
+    PUSHBUTTON      "Save",IDSAVE,395,299,50,14
+    PUSHBUTTON      "Reonsei",IDRECOMPILE,451,299,50,14
+    GROUPBOX        "",IDC_STATIC,386,286,182,34
+    CTEXT           "",IDC_STATIC_RED,148,266,292,11
+    LTEXT           "Graphemes:",IDC_STATIC,8,266,53,11
+    LTEXT           "0",IDC_STATIC_COUNT,67,266,36,11
+    PUSHBUTTON      "Add",IDADD,16,299,50,14
+    PUSHBUTTON      "Update",IDUPDATE,72,299,50,14
+    PUSHBUTTON      "Delete",IDDELETE,129,299,50,14
+    GROUPBOX        "",IDC_STATIC,7,286,182,34
+    GROUPBOX        "",IDC_STATIC,256,286,70,34
+    PUSHBUTTON      "Stop",IDSTOP,266,299,50,14,WS_DISABLED
+    PUSHBUTTON      "Convert",IDC_BUTTON_CONVERT,518,19,50,14,NOT WS_VISIBLE
+END
+
+IDD_EDIC DIALOG DISCARDABLE  0, 0, 215, 116
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "External dictionary"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Start",IDOK,101,95,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,158,95,50,14
+    LTEXT           "Sections except last contain 20,000 words",
+                    IDC_STATIC_TITLE,7,7,201,12
+    CONTROL         "Section 1",IDC_RADIO_SEC1,"Button",BS_AUTORADIOBUTTON,7,
+                    28,83,10
+    CONTROL         "Section 2",IDC_RADIO_SEC2,"Button",BS_AUTORADIOBUTTON,7,
+                    44,83,10
+    CONTROL         "Section 3",IDC_RADIO_SEC3,"Button",BS_AUTORADIOBUTTON,7,
+                    60,83,10
+    CONTROL         "Section 4",IDC_RADIO_SEC4,"Button",BS_AUTORADIOBUTTON,
+                    110,28,83,10
+    CONTROL         "Section 5",IDC_RADIO_SEC5,"Button",BS_AUTORADIOBUTTON,
+                    110,44,83,10
+    CONTROL         "Section 6",IDC_RADIO_SEC6,"Button",BS_AUTORADIOBUTTON,
+                    110,60,83,10
+END
+
+IDD_EDIT_IDIC DIALOGEX 0, 0, 311, 266
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit IDIC fields"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Update",IDOK,197,245,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,254,245,50,14
+    RTEXT           "Grapheme",IDC_STATIC,10,7,72,11
+    EDITTEXT        IDC_EDIT_WORD,87,7,217,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    RTEXT           "Done",IDC_STATIC,9,55,72,11
+    EDITTEXT        IDC_EDIT_DONE,87,55,54,14,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "ctl",IDC_STATIC,9,76,72,11
+    EDITTEXT        IDC_EDIT_CTL,87,76,217,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    RTEXT           "f2",IDC_STATIC,9,97,72,11
+    EDITTEXT        IDC_EDIT_F2,87,97,217,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    RTEXT           "bno",IDC_STATIC,9,118,72,11
+    EDITTEXT        IDC_EDIT_BNO,87,118,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "pno",IDC_STATIC,9,138,72,11
+    EDITTEXT        IDC_EDIT_PNO,87,138,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "mru",IDC_STATIC,9,159,72,11
+    EDITTEXT        IDC_EDIT_MRU,87,159,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Accent",IDC_STATIC,9,180,72,11
+    EDITTEXT        IDC_EDIT_ACCENT,87,180,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Pronunciation",IDC_STATIC,9,201,72,11
+    EDITTEXT        IDC_EDIT_PRONUNCIATION,87,201,217,14,ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Phonemes",IDC_STATIC,9,223,72,11
+    EDITTEXT        IDC_EDIT_PHONEMES,87,223,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Insert before selection",IDC_CHECK_INSERT_BEFORE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,249,155,10
+    CONTROL         "(mark grapheme as edited)",IDC_CHECK_DONE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,147,58,157,10
+    RTEXT           "Grapheme Code",IDC_STATIC,7,30,72,11
+    LTEXT           "Grapheme Code",IDC_GRAPHEMECODE,90,28,214,11,NOT 
+                    WS_GROUP
+END
+
+IDD_EDIT_TDIC DIALOGEX 0, 0, 311, 185
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit TDIC fields"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Update",IDOK,197,164,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,254,164,50,14
+    RTEXT           "Grapheme",IDC_STATIC,10,7,72,11
+    EDITTEXT        IDC_EDIT_WORD,87,7,217,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    RTEXT           "Done",IDC_STATIC,9,57,72,11
+    EDITTEXT        IDC_EDIT_DONE,87,57,55,14,ES_UPPERCASE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Type",IDC_STATIC,9,78,72,11
+    EDITTEXT        IDC_EDIT_TYPE,87,78,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Accent",IDC_STATIC,9,100,72,11
+    EDITTEXT        IDC_EDIT_ACCENT,87,100,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Pronunciation",IDC_STATIC,9,121,72,11
+    EDITTEXT        IDC_EDIT_PRONUNCIATION,87,121,217,14,ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Phonemes",IDC_STATIC,9,142,72,11
+    EDITTEXT        IDC_EDIT_PHONEMES,87,142,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Insert before selection",IDC_CHECK_INSERT_BEFORE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,168,155,10
+    CONTROL         "(mark grapheme as edited)",IDC_CHECK_DONE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,147,61,157,10
+    RTEXT           "Grapheme Code",IDC_STATIC,7,30,72,11,NOT WS_GROUP
+    LTEXT           "Grapheme Code",IDC_GRAPHEMECODE,87,29,217,11,NOT 
+                    WS_GROUP
+END
+
+IDD_EDIT_EDIC DIALOGEX 0, 0, 311, 227
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit EDIC fields"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Update",IDOK,197,206,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,253,206,50,14
+    RTEXT           "Grapheme",IDC_STATIC,10,7,72,11
+    EDITTEXT        IDC_EDIT_WORD,87,7,217,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    RTEXT           "Done",IDC_STATIC,9,55,72,11
+    EDITTEXT        IDC_EDIT_DONE,87,55,53,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "flag2",IDC_STATIC,9,76,72,11
+    EDITTEXT        IDC_EDIT_FLAG2,87,76,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "mru",IDC_STATIC,9,97,72,11
+    EDITTEXT        IDC_EDIT_MRU,87,97,217,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    RTEXT           "Grcd",IDC_STATIC,9,119,72,11
+    EDITTEXT        IDC_EDIT_GRCD,87,119,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Accent",IDC_STATIC,9,138,72,11
+    EDITTEXT        IDC_EDIT_ACCENT,87,138,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Pronunciation",IDC_STATIC,9,159,72,11
+    EDITTEXT        IDC_EDIT_PRONUNCIATION,87,159,217,14,ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Phonemes",IDC_STATIC,9,180,72,11
+    EDITTEXT        IDC_EDIT_PHONEMES,87,180,217,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Insert before selection",IDC_CHECK_INSERT_BEFORE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,210,155,10
+    CONTROL         "(mark grapheme as edited)",IDC_CHECK_DONE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,147,58,157,10
+    RTEXT           "Grapheme Code",IDC_STATIC,7,27,72,11
+    LTEXT           "GraphemeCode",IDC_GRAPHEMECODE,90,26,214,11,NOT 
+                    WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 568
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 320
+    END
+
+    IDD_EDIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_EDIT_IDIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_EDIT_TDIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_EDIT_EDIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_FOLDER       BITMAP  DISCARDABLE     "folder.bmp"
+IDB_BITMAP_REDBALL      BITMAP  DISCARDABLE     "REDBALL.BMP"
+IDB_BITMAP_GREENBALL    BITMAP  DISCARDABLE     "GREENBALL.BMP"
+IDB_BITMAP_GREENRED     BITMAP  DISCARDABLE     "GREENREDBALL.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

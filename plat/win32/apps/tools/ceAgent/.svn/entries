@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/tools/ceAgent"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="StdAfx.h"
+   text-time="2006-03-20T22:25:21.599930Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="61112f269461c9c1af55ecde217c80e6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:20.787435Z"/>
+<entry
+   committed-rev="4218"
+   name="ceAgent.dsw"
+   text-time="2006-03-20T22:25:21.646805Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="2da0c23b0b42f1eb5dc4c957cf305c0d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:20.803060Z"/>
+<entry
+   name="hlp"
+   kind="dir"/>
+<entry
+   committed-rev="4213"
+   name="ceAgentDlg.h"
+   text-time="2006-03-20T22:25:21.662430Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="b58475e303534a1b24bb05a81ccd351a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:20.865560Z"/>
+<entry
+   committed-rev="4213"
+   name="ceAgent.cpp"
+   text-time="2006-03-20T22:25:21.678055Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2a7715ef6016c3c62729304504f0858d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:21.068684Z"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="ceAgent.rc"
+   text-time="2006-03-20T22:25:21.693680Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="52de531963feef47482b0240c9f2df6a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:21.099933Z"/>
+<entry
+   committed-rev="4213"
+   name="StdAfx.cpp"
+   text-time="2006-03-20T22:25:21.709304Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="bd6c5c1f91b34dfeb52f552b03431b1c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:21.365557Z"/>
+<entry
+   committed-rev="4218"
+   name="ceAgent.dsp"
+   text-time="2006-03-20T22:25:21.724929Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="71b316e6bf75eac87c533406f0206a94"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:21.396806Z"/>
+<entry
+   committed-rev="4213"
+   name="ceAgent.h"
+   text-time="2006-03-20T22:25:21.740554Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="afd3164dc7ade40dbba2d34ffde3d520"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:21.428056Z"/>
+<entry
+   committed-rev="4213"
+   name="Resource.h"
+   text-time="2006-03-20T22:25:21.756179Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="4b298212f62108cf9a33e616719dd047"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:21.490556Z"/>
+<entry
+   committed-rev="4218"
+   name="ceAgent.dep"
+   text-time="2006-03-20T22:25:21.771804Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ebefbf4afcfaad414c6510e97395a4d7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:21.521806Z"/>
+<entry
+   committed-rev="4213"
+   name="ceAgentDlg.cpp"
+   text-time="2006-03-20T22:25:21.881178Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="3c098bb74d1f82ce50e5e4422cf33c31"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:21.584305Z"/>
+</wc-entries>

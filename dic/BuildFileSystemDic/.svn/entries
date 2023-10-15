@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6124"
+   name=""
+   committed-date="2006-10-24T21:07:19.053069Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/BuildFileSystemDic"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="Win32"
+   kind="dir"/>
+<entry
+   committed-rev="6042"
+   name="ReadItalianDict.c"
+   text-time="2006-10-17T17:21:26.057639Z"
+   committed-date="2006-10-16T23:26:06.083371Z"
+   checksum="9b1c3e63229e94520ecac29a7eeeecdf"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-17T17:21:12.073533Z"/>
+<entry
+   committed-rev="5908"
+   name="BuildFileSystemDic.c"
+   text-time="2006-10-04T12:37:24.044033Z"
+   committed-date="2006-10-03T22:47:11.318204Z"
+   checksum="bef6cba993bd349047098f442b8bea9c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:06.138018Z"/>
+<entry
+   committed-rev="5426"
+   name="BuildFileSystemDic.dsp"
+   text-time="2006-07-21T19:51:14.218750Z"
+   committed-date="2006-07-21T15:49:29.467000Z"
+   checksum="309b6f1d0c1c967f5ddb42ad01464066"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-07-21T19:51:14.140625Z"/>
+<entry
+   committed-rev="5908"
+   name="FileSystemDict.c"
+   text-time="2006-10-04T12:37:24.044033Z"
+   committed-date="2006-10-03T22:47:11.318204Z"
+   checksum="61124c6722a24523ee284ca515178647"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:06.153643Z"/>
+<entry
+   committed-rev="4626"
+   name="BuildFileSystemDic.h"
+   text-time="2006-04-24T19:10:54.641031Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="c7c902700564f3fadf7290e6e9c1ec1d"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:10:24.001309Z"/>
+<entry
+   committed-rev="6042"
+   name="ReadGermanDict.c"
+   text-time="2006-10-17T17:21:26.088889Z"
+   committed-date="2006-10-16T23:26:06.083371Z"
+   checksum="53e4228659ad26749914fd2406b53dcf"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-17T17:21:19.964006Z"/>
+<entry
+   committed-rev="6124"
+   name="BuildNandDicts.bat"
+   text-time="2006-10-25T14:22:43.649714Z"
+   committed-date="2006-10-24T21:07:19.053069Z"
+   checksum="61c0aeb75e126b209f217d3ea853e114"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-25T14:22:43.618465Z"/>
+<entry
+   name="Casio"
+   kind="dir"/>
+<entry
+   committed-rev="5908"
+   name="FileSystemDict.h"
+   text-time="2006-10-04T12:37:24.106530Z"
+   committed-date="2006-10-03T22:47:11.318204Z"
+   checksum="6ff62b4dd19ab2600202f53df4a24074"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:23.981535Z"/>
+</wc-entries>

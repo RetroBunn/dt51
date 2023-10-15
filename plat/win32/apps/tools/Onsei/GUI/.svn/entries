@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4892"
+   name=""
+   committed-date="2006-05-16T14:56:40.680218Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/tools/Onsei/GUI"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4751"
+   name="REDBALL.BMP"
+   text-time="2006-05-04T15:40:11.359375Z"
+   committed-date="2006-05-03T20:09:19.767258Z"
+   checksum="4e42319a69bdb3dca726ff224bbf0d86"
+   last-author="noorland"
+   kind="file"
+   prop-time="2006-05-04T15:40:11.234375Z"/>
+<entry
+   committed-rev="4751"
+   name="GREENREDBALL.bmp"
+   text-time="2006-05-04T15:40:11.421875Z"
+   committed-date="2006-05-03T20:09:19.767258Z"
+   checksum="589b3224398849148d3f7fa715f2f1e0"
+   last-author="noorland"
+   kind="file"
+   prop-time="2006-05-04T15:40:11.265625Z"/>
+<entry
+   committed-rev="4892"
+   name="gui.c"
+   text-time="2006-05-15T16:01:49.020143Z"
+   committed-date="2006-05-16T14:56:40.680218Z"
+   checksum="77177169aee192bf556dc9bc1cab1b59"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-05-03T16:59:19.328125Z"/>
+<entry
+   committed-rev="4751"
+   name="GUI_BALLS.psd"
+   text-time="2006-05-04T15:40:11.437500Z"
+   committed-date="2006-05-03T20:09:19.767258Z"
+   checksum="f95d7f7a9a75a6ab78a07f9ee10863d3"
+   last-author="noorland"
+   kind="file"
+   prop-time="2006-05-04T15:40:11.296875Z"/>
+<entry
+   committed-rev="4892"
+   name="GUI.rc"
+   text-time="2006-05-15T16:03:18.534457Z"
+   committed-date="2006-05-16T14:56:40.680218Z"
+   checksum="dc8674bc480f35c0801cc999ad9d00d8"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-05-03T16:59:19.421875Z"/>
+<entry
+   committed-rev="4536"
+   name="folder.bmp"
+   text-time="2006-04-24T19:09:45.736909Z"
+   committed-date="2006-04-12T21:06:50.115105Z"
+   checksum="200469ca2b92d57f240715c0fa397910"
+   last-author="noorland"
+   kind="file"
+   prop-time="2006-04-24T19:09:45.533790Z"/>
+<entry
+   committed-rev="4751"
+   name="GREENBALL.BMP"
+   text-time="2006-05-04T15:40:11.468750Z"
+   committed-date="2006-05-03T20:09:19.767258Z"
+   checksum="589a0b7d51eb73f9c0601b214ec27695"
+   last-author="noorland"
+   kind="file"
+   prop-time="2006-05-04T15:40:11.328125Z"/>
+<entry
+   committed-rev="4743"
+   name="GUI.dsp"
+   text-time="2006-05-03T16:59:19.812500Z"
+   committed-date="2006-05-03T14:53:24.697932Z"
+   checksum="060faa224434ee0ebe2c016e60592f26"
+   last-author="noorland"
+   kind="file"
+   prop-time="2006-05-03T16:59:19.484375Z"/>
+<entry
+   committed-rev="4826"
+   name="gui.h"
+   text-time="2006-05-09T19:18:24.687500Z"
+   committed-date="2006-05-11T14:47:31.885638Z"
+   checksum="53da404b25ea8a10fc6484bf50510788"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-05-03T16:59:19.578125Z"/>
+<entry
+   committed-rev="4743"
+   name="myreonsei.c"
+   text-time="2006-05-03T16:59:20.109375Z"
+   committed-date="2006-05-03T14:53:24.697932Z"
+   checksum="e59a638ff481fd422126f9901b705f2f"
+   last-author="noorland"
+   kind="file"
+   prop-time="2006-05-03T16:59:19.656250Z"/>
+<entry
+   committed-rev="4892"
+   name="resource.h"
+   text-time="2006-05-15T15:35:53.464033Z"
+   committed-date="2006-05-16T14:56:40.680218Z"
+   checksum="3e5b2f980fb89f321f0ae0e60c8ab68e"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-05-03T16:59:19.718750Z"/>
+</wc-entries>

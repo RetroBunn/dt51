@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/win32/ttstest"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4214"
+   name="BUFCVT.H"
+   text-time="2006-03-22T15:28:15.620697Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="c06cf0e7a97f29b91cc1b700b8ec694b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.980084Z"/>
+<entry
+   committed-rev="4214"
+   name="STDAFX.H"
+   text-time="2006-03-22T15:28:15.589448Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="55a733f2dfcc24e755e61566df1d4c0e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.948835Z"/>
+<entry
+   committed-rev="4214"
+   name="Ttsfnc.cpp"
+   text-time="2006-03-22T15:28:15.714445Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="81eb14779afc78b576a76268c7649b79"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.058208Z"/>
+<entry
+   committed-rev="4214"
+   name="Ttsdlg.cpp"
+   text-time="2006-03-22T15:28:15.667571Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="91c334764c970ac8a8f6a50b453c9047"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.026958Z"/>
+<entry
+   committed-rev="4218"
+   name="BUILDNUM.RC"
+   text-time="2006-03-22T15:28:15.651946Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f255d146acf21fe6f730a00469c2a675"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.995709Z"/>
+<entry
+   committed-rev="4214"
+   name="TABISRCE.H"
+   text-time="2006-03-22T15:28:15.636322Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="f993bc210f9937903a2fcd83486bdc87"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:14.995709Z"/>
+<entry
+   committed-rev="4214"
+   name="TTSTST.CPP"
+   text-time="2006-03-22T15:28:15.730070Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="b22e60d0bf6a9a3b71d22e0ecd7a65c9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.073832Z"/>
+<entry
+   committed-rev="4214"
+   name="TTSDLG.H"
+   text-time="2006-03-22T15:28:15.761319Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="12590a97d815d531da79aff7fa13e000"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.105082Z"/>
+<entry
+   committed-rev="4214"
+   name="TTSFNC.H"
+   text-time="2006-03-22T15:28:15.745695Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="a869def58694700c877d4c9b1d2d115f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.089457Z"/>
+<entry
+   committed-rev="4218"
+   name="Ttstst.dsp"
+   text-time="2006-03-22T15:28:16.042564Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="c6e5e265695be23b6a9dc7a3cec52352"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.120707Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSTST.RC2"
+   text-time="2006-03-22T15:28:16.026939Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4377637eeef63b805a3fc5d1193f0e5f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.120707Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSTEST.EXE"
+   text-time="2006-03-22T15:28:15.808193Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="14b5c7d039c55e82d826f75f745dbed7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.105082Z"/>
+<entry
+   committed-rev="4214"
+   name="TTSTST.H"
+   text-time="2006-03-22T15:28:16.058189Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="4ab93012f157a3d8eeae9b3f5667d4d7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.136331Z"/>
+<entry
+   committed-rev="4214"
+   name="SPEECH.H"
+   text-time="2006-03-22T15:28:16.073813Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="c0ac9da0350afeca1ebc9b51a56464df"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.136331Z"/>
+<entry
+   committed-rev="4218"
+   name="Ttstst.dsw"
+   text-time="2006-03-22T15:28:16.089438Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="00701e07aada16305c6a2d25dfd8b4ad"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.167581Z"/>
+<entry
+   committed-rev="4214"
+   name="DLGFINDM.CPP"
+   text-time="2006-03-22T15:28:16.105063Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="c3ef8ad5c201d174bf5226c2feb043ee"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.292578Z"/>
+<entry
+   committed-rev="4214"
+   name="BUILDNUM.H"
+   text-time="2006-03-22T15:28:16.120687Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="f2fa6530b1c41758b88bbf3d2bdc7295"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.386326Z"/>
+<entry
+   committed-rev="4214"
+   name="GUIDSEG.CPP"
+   text-time="2006-03-22T15:28:16.136312Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="14f59b1fa41c679390a4fb10e1a52977"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.386326Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSTST.RC"
+   text-time="2006-03-22T15:28:16.167561Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="47c8f08d99786156650e95c5ce6b790f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.401951Z"/>
+<entry
+   committed-rev="4214"
+   name="STDAFX.CPP"
+   text-time="2006-03-22T15:28:16.167561Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="7c131662f7025dff9a1ea0a255e5c39d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.417576Z"/>
+<entry
+   committed-rev="4214"
+   name="DLGFINDM.H"
+   text-time="2006-03-22T15:28:16.183186Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="6fb51705fef64f4be873865decfa045a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.433201Z"/>
+<entry
+   committed-rev="4218"
+   name="Ttstst.dep"
+   text-time="2006-03-22T15:28:16.308184Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="2dea98e89e771683136f0146d645829f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.433201Z"/>
+<entry
+   committed-rev="4214"
+   name="Ttstst.mak"
+   text-time="2006-03-22T15:28:16.386307Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="e7eb6c5b9c0286390bce8866c962c627"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.480075Z"/>
+<entry
+   committed-rev="4214"
+   name="RESOURCE.H"
+   text-time="2006-03-22T15:28:16.401932Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="181fdef5e07fc55953a0bb7b27b6173b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.511324Z"/>
+<entry
+   committed-rev="4214"
+   name="Tabisrce.cpp"
+   text-time="2006-03-22T15:28:16.417557Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="2d785f15b5e987f176791ecc3a2a516e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.573823Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSTST.ICO"
+   text-time="2006-03-22T15:28:16.448806Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f1cd1fedbf29f5ad86498f35f7975a1a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:15.573823Z"/>
+</wc-entries>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4215"
+   name=""
+   committed-date="2006-03-18T04:49:35.817887Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src/3rdParty/portaudio/pablio"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4215"
+   name="ringbuffer.h"
+   text-time="2006-03-22T15:31:50.444697Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="c39ca4f3c079643d34606a7345545146"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.350949Z"/>
+<entry
+   committed-rev="4215"
+   name="test_w_saw.c"
+   text-time="2006-03-22T15:31:50.507196Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="e2782928f6950d23eb01fad0dbb173be"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.366574Z"/>
+<entry
+   committed-rev="4215"
+   name="pablio.def"
+   text-time="2006-03-22T15:31:50.554070Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="950f186001f75fdcd537c1fad1a4e750"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.366574Z"/>
+<entry
+   committed-rev="4215"
+   name="test_rw_echo.c"
+   text-time="2006-03-22T15:31:50.569695Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="01c6d723ff062a65c153010b57b68e9f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.382198Z"/>
+<entry
+   committed-rev="4215"
+   name="pablio.c"
+   text-time="2006-03-22T15:31:50.632194Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="f60cfe7fc640735a098a5b42cb0de61c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.382198Z"/>
+<entry
+   committed-rev="4215"
+   name="test_rw.c"
+   text-time="2006-03-22T15:31:50.694692Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="acc21b03ce07407ff2996f1111dc8fb5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.397823Z"/>
+<entry
+   committed-rev="4215"
+   name="test_w_saw8.c"
+   text-time="2006-03-22T15:31:50.741567Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="59dbbb3805c4496794cb8ef443214968"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.397823Z"/>
+<entry
+   committed-rev="4215"
+   name="ringbuffer.c"
+   text-time="2006-03-22T15:31:50.772816Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="2e8a752257b5b9ec293a582510b0bd3b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.413448Z"/>
+<entry
+   committed-rev="4215"
+   name="README.txt"
+   text-time="2006-03-22T15:31:50.788441Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="8cd357b816de62750cdfee7708eba99b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.413448Z"/>
+<entry
+   committed-rev="4215"
+   name="pablio.h"
+   text-time="2006-03-22T15:31:50.804065Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="9369c0c103f11c3d2c140bb3ab28f222"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:50.429073Z"/>
+</wc-entries>

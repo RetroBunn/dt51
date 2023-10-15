@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6178"
+   name=""
+   committed-date="2006-10-31T18:13:56.883501Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic"
+   last-author="barthols"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5765"
+   name="dic.exe"
+   text-time="2006-09-15T12:30:50.105302Z"
+   committed-date="2006-09-14T23:11:10.228468Z"
+   checksum="35cb7e916ff8f270eb14104f4fa82f31"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-09-15T12:30:50.074053Z"/>
+<entry
+   name="Korean"
+   kind="dir"/>
+<entry
+   name="Italian"
+   kind="dir"/>
+<entry
+   committed-rev="3013"
+   name="USER.TAB"
+   text-time="2005-11-10T15:31:43.234375Z"
+   committed-date="2005-11-09T21:41:23.240064Z"
+   checksum="ca2ff968cb3717d5f73211397c868744"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2005-11-10T15:31:23.531250Z"/>
+<entry
+   name="BuildFileSystemDic"
+   kind="dir"/>
+<entry
+   committed-rev="4210"
+   name="build_fr_dictinmem.bat"
+   text-time="2006-03-22T15:27:04.684875Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="661b74aec9e08de47dbb8370d21ffea5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:01.278712Z"/>
+<entry
+   committed-rev="4210"
+   name="build_gr_dictinmem.bat"
+   text-time="2006-03-22T15:27:01.950570Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="7cdabfcdd7eb0a386ba89f1c401a247c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:53.372664Z"/>
+<entry
+   committed-rev="4210"
+   name="build_all_dictinmem.bat"
+   text-time="2006-03-22T15:27:05.184862Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="24919c3c69bcc8b8b3dcfafe66cec51d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:01.419333Z"/>
+<entry
+   committed-rev="5674"
+   name="FnxLtsRules2Code.exe"
+   text-time="2006-09-06T12:30:26.064835Z"
+   committed-date="2006-08-31T16:01:33.483838Z"
+   checksum="ee8e10c099120fb0120497c396021336"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-09-06T12:30:25.877336Z"/>
+<entry
+   name="Japanese"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="TTSAbbr1.tab"
+   text-time="2006-03-22T15:27:02.309936Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1e205a5352266ba8937ab857fa095c48"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:53.466412Z"/>
+<entry
+   committed-rev="4218"
+   name="dtalk_null.dic"
+   text-time="2006-03-22T15:27:06.184836Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7dea362b3fac8e00956a4952a3d4f474"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:01.434958Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSabbr2.tab"
+   text-time="2006-03-22T15:27:06.231710Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8cfe80b9e5d57a63ac279fbccd3df092"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:01.450583Z"/>
+<entry
+   name="UKEnglish"
+   kind="dir"/>
+<entry
+   committed-rev="4210"
+   name="build_uk_dictinmem.bat"
+   text-time="2006-03-22T15:27:02.309936Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="c4b0787b8460f6729411fa728cbf336e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:53.685156Z"/>
+<entry
+   committed-rev="4210"
+   name="build_sp_dictinmem.bat"
+   text-time="2006-03-22T15:27:02.528680Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="650d6f82a9062572d032adcec27a69ae"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:53.810153Z"/>
+<entry
+   name="BuildFileSystemTables"
+   kind="dir"/>
+<entry
+   name="USEnglish"
+   kind="dir"/>
+<entry
+   committed-rev="4218"
+   name="TTSAbbr1_space.tab"
+   text-time="2006-03-22T15:27:06.887943Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="caa2e4e367ad6cbccbcf66eba7070ccd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:27:01.575579Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSabbr2_space.tab"
+   text-time="2006-03-22T15:27:03.106790Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="2409ac20e4c021ddce8dcbc164d1140a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:54.153894Z"/>
+<entry
+   committed-rev="4210"
+   name="build_us_dictinmem.bat"
+   text-time="2006-03-22T15:27:03.169289Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="e6e129e26f88842db001e29e4616d996"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:54.419513Z"/>
+<entry
+   committed-rev="4988"
+   name="CopyDicsToSpeakFolder.bat"
+   text-time="2006-05-25T15:30:43.474955Z"
+   committed-date="2006-05-23T18:42:19.903384Z"
+   checksum="4b7713c39012bddad721da8e0c42ddfb"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:30:42.709345Z"/>
+<entry
+   name="French"
+   kind="dir"/>
+<entry
+   committed-rev="4210"
+   name="builddictools.bat"
+   text-time="2006-03-22T15:27:03.231787Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="6423d4e62a54bc2638c4b927f477af83"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:54.528885Z"/>
+<entry
+   name="Spanish"
+   kind="dir"/>
+<entry
+   name="German"
+   kind="dir"/>
+<entry
+   committed-rev="4210"
+   name="build_la_dictinmem.bat"
+   text-time="2006-03-22T15:27:03.263036Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="ef1701e3aa2c3731fcb0ee7bd6453c72"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:54.778878Z"/>
+<entry
+   name="Hebrew"
+   kind="dir"/>
+<entry
+   name="Chinese"
+   kind="dir"/>
+</wc-entries>

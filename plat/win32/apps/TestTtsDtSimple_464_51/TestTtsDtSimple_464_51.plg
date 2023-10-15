@@ -1,0 +1,163 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FonixTtsDtSimple_464_51 - Win32 NAND Debug low compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2584.tmp" with contents
+[
+/nologo /MLd /Gm /GX /ZI /Od /I "..\..\..\..\ARM7TDMI\include" /I "..\..\..\..\..\sdk\include" /I "..\..\..\..\..\shared\include" /I "..\..\..\..\..\dapi" /I "..\..\..\..\..\dapicore\CMD" /I "..\..\..\..\..\dapicore\INCLUDE" /I "..\..\..\..\..\dapicore\KERNEL" /I "..\..\..\..\..\dapicore\LTS" /I "..\..\..\..\..\dapicore\LTS\japan" /I "..\..\..\..\..\dapicore\LTS\chinese" /I "..\..\..\..\..\dapicore\LTS\korean" /I "..\..\..\..\..\dic" /I "..\..\..\..\..\dapicore\NT" /I "..\..\..\..\..\dapicore\PH" /I "..\..\..\..\..\dapicore\VTM" /I "..\..\..\..\..\dic\buildfilesystemdic\win32" /I "..\..\..\..\..\dic\buildfilesystemdic" /I "..\..\..\..\..\dic\buildfilesystemtables" /I "..\..\..\..\..\dic\buildfilesystemtables\win32" /D "_DEBUG" /D "INLINE_FUNC_IN_FILE_USED" /D "_WINDOWS" /D "_MBCS" /D "ARM7" /D "BLD_DECTALK_DLL" /D "ARM7_NOSWI" /D "NO_INCLUDED_C_FILES" /D "MULTIPLE_LANGUAGES_LOADED" /D "DICT_COMPLETE" /D "NO_ALIGN_8" /D "ENGLISH_US" /D "ENGLISH" /D "CASIO_SH3" /D "NO_PRINTF" /D "NEW_MULTI_LANG_ARCH" /D "USE_NAND" /D "USE_464" /D "USE_51" /D "INTEGER" /D "UNICODE" /D "_UNICODE" /Fp"NAND_Debug_low_compute/FonixTtsDtSimple_464_51.pch" /YX /Fo"NAND_Debug_low_compute/" /Fd"NAND_Debug_low_compute/" /FD /GZ /c 
+"C:\work\ad-new\DECtalk\dapicore\PH\ph_draw_464.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2584.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2585.tmp" with contents
+[
+/nologo /out:"NAND_Debug_low_compute\FonixTtsDtSimple_464_51.lib" 
+".\NAND_Debug_low_compute\FonixTTSDTSimple.obj"
+".\NAND_Debug_low_compute\simpleapi.obj"
+".\NAND_Debug_low_compute\cm_char.obj"
+".\NAND_Debug_low_compute\cm_cmd.obj"
+".\NAND_Debug_low_compute\cm_copt.obj"
+".\NAND_Debug_low_compute\cm_main.obj"
+".\NAND_Debug_low_compute\cm_pars.obj"
+".\NAND_Debug_low_compute\cm_phon.obj"
+".\NAND_Debug_low_compute\cm_text.obj"
+".\NAND_Debug_low_compute\cm_util.obj"
+".\NAND_Debug_low_compute\cmd_init.obj"
+".\NAND_Debug_low_compute\par_ambi.obj"
+".\NAND_Debug_low_compute\par_char.obj"
+".\NAND_Debug_low_compute\par_dict.obj"
+".\NAND_Debug_low_compute\par_pars1.obj"
+".\NAND_Debug_low_compute\par_rule.obj"
+".\NAND_Debug_low_compute\services.obj"
+".\NAND_Debug_low_compute\Usa_init.obj"
+".\NAND_Debug_low_compute\p_ch_sr1.obj"
+".\NAND_Debug_low_compute\p_ch_st1.obj"
+".\NAND_Debug_low_compute\p_ch_sy1.obj"
+".\NAND_Debug_low_compute\p_ch_tim.obj"
+".\NAND_Debug_low_compute\p_fr_sr1.obj"
+".\NAND_Debug_low_compute\p_fr_st1.obj"
+".\NAND_Debug_low_compute\p_fr_sy1.obj"
+".\NAND_Debug_low_compute\p_fr_tim.obj"
+".\NAND_Debug_low_compute\P_gr_inton2.obj"
+".\NAND_Debug_low_compute\p_gr_sr1.obj"
+".\NAND_Debug_low_compute\p_gr_st1.obj"
+".\NAND_Debug_low_compute\p_gr_tim.obj"
+".\NAND_Debug_low_compute\p_he_st1.obj"
+".\NAND_Debug_low_compute\p_he_tim.obj"
+".\NAND_Debug_low_compute\p_it_sr1.obj"
+".\NAND_Debug_low_compute\p_it_st1.obj"
+".\NAND_Debug_low_compute\p_it_sy1.obj"
+".\NAND_Debug_low_compute\p_it_tim.obj"
+".\NAND_Debug_low_compute\p_jp_sr1.obj"
+".\NAND_Debug_low_compute\p_jp_st1.obj"
+".\NAND_Debug_low_compute\p_jp_sy1.obj"
+".\NAND_Debug_low_compute\p_jp_tim.obj"
+".\NAND_Debug_low_compute\p_kr_sr1.obj"
+".\NAND_Debug_low_compute\p_kr_st1.obj"
+".\NAND_Debug_low_compute\p_kr_sy1.obj"
+".\NAND_Debug_low_compute\p_kr_tim.obj"
+".\NAND_Debug_low_compute\p_krnew_tim.obj"
+".\NAND_Debug_low_compute\p_sp_inton.obj"
+".\NAND_Debug_low_compute\p_sp_sr1.obj"
+".\NAND_Debug_low_compute\p_sp_st1.obj"
+".\NAND_Debug_low_compute\p_sp_sy1.obj"
+".\NAND_Debug_low_compute\p_sp_tim.obj"
+".\NAND_Debug_low_compute\p_us_sr1.obj"
+".\NAND_Debug_low_compute\p_us_st1.obj"
+".\NAND_Debug_low_compute\p_us_sy1.obj"
+".\NAND_Debug_low_compute\p_us_tim.obj"
+".\NAND_Debug_low_compute\ph_aloph.obj"
+".\NAND_Debug_low_compute\ph_claus.obj"
+".\NAND_Debug_low_compute\ph_draw.obj"
+".\NAND_Debug_low_compute\Ph_drwt02.obj"
+".\NAND_Debug_low_compute\Ph_fr_inton2.obj"
+".\NAND_Debug_low_compute\Ph_inton2.obj"
+".\NAND_Debug_low_compute\Ph_intonnew.obj"
+".\NAND_Debug_low_compute\ph_main.obj"
+".\NAND_Debug_low_compute\ph_romi.obj"
+".\NAND_Debug_low_compute\ph_setar.obj"
+".\NAND_Debug_low_compute\ph_sort.obj"
+".\NAND_Debug_low_compute\ph_sort2.obj"
+".\NAND_Debug_low_compute\ph_sttr2.obj"
+".\NAND_Debug_low_compute\ph_syl.obj"
+".\NAND_Debug_low_compute\ph_task.obj"
+".\NAND_Debug_low_compute\ph_timng.obj"
+".\NAND_Debug_low_compute\ph_vdefi.obj"
+".\NAND_Debug_low_compute\ph_vset.obj"
+".\NAND_Debug_low_compute\phinit.obj"
+".\NAND_Debug_low_compute\phlog.obj"
+".\NAND_Debug_low_compute\phprint.obj"
+".\NAND_Debug_low_compute\playtone.obj"
+".\NAND_Debug_low_compute\vtm3.obj"
+".\NAND_Debug_low_compute\vtmiont.obj"
+".\NAND_Debug_low_compute\DTfnxstdlib.obj"
+".\NAND_Debug_low_compute\spc.obj"
+".\NAND_Debug_low_compute\FileSystemDataHandler.obj"
+".\NAND_Debug_low_compute\FileSystemDict.obj"
+".\NAND_Debug_low_compute\FrenchFileSystemTable.obj"
+".\NAND_Debug_low_compute\GermanFileSystemDict.obj"
+".\NAND_Debug_low_compute\ItalianFileSystemDict.obj"
+".\NAND_Debug_low_compute\UsEnglishFileSystemTable.obj"
+".\NAND_Debug_low_compute\l_us_cha.obj"
+".\NAND_Debug_low_compute\ls_homo.obj"
+".\NAND_Debug_low_compute\lsw_main2.obj"
+".\NAND_Debug_low_compute\nocashcache.obj"
+".\NAND_Debug_low_compute\CodePageConv.obj"
+".\NAND_Debug_low_compute\DTFnxExStdlib.obj"
+".\NAND_Debug_low_compute\ph_draw_464.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2585.tmp"
+<h3>Output Window</h3>
+Compiling...
+ph_draw_464.c
+Creating library...
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2586.bat" with contents
+[
+@echo off
+xcopy NAND_Debug_low_compute\FonixTtsDtSimple_464_51.lib ..\..\..\lib\NAND_Debug_low_compute\ /Y
+]
+Creating command line "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2586.bat"
+
+NAND_Debug_low_compute\FonixTtsDtSimple_464_51.lib
+1 File(s) copied
+<h3>
+--------------------Configuration: TestTtsDtSimple_464_51 - Win32 NAND Debug low compute--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2587.tmp" with contents
+[
+winmm.lib /nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"NAND_Debug_low_compute/TestTtsDtSimple_464_51.pdb" /debug /machine:I386 /nodefaultlib:"libcd.lib" /nodefaultlib:"libcmt.lib" /out:"NAND_Debug_low_compute/TestTtsDtSimple_464_51.exe" /pdbtype:sept 
+".\NAND_Debug_low_compute\Speaker.obj"
+".\NAND_Debug_low_compute\StdAfx.obj"
+".\NAND_Debug_low_compute\TestTtsDtSimple.obj"
+".\NAND_Debug_low_compute\TestTtsDtSimpleDlg.obj"
+".\NAND_Debug_low_compute\WriteWavFile.obj"
+".\NAND_Debug_low_compute\TestTtsDtSimple_464_51.res"
+"..\..\lib\FonixCommon40.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimple_464_51\NAND_Debug_low_compute\FonixTtsDtSimple_464_51.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleCH_Stub\NAND_Debug_low_compute\FonixTtsDtSimpleCH_stub.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleFR_464\NAND_Debug_low_compute\FonixTtsDtSimpleFR_464.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleGR_464\NAND_Debug_low_compute\FonixTtsDtSimpleGR_464.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleHB_Stub\NAND_Debug_low_compute\FonixTtsDtSimpleHB_Stub.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleIt_464\NAND_Debug_low_compute\FonixTtsDtSimpleIt_464.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleJP_Stub\NAND_Debug_low_compute\FonixTtsDtSimpleJP_Stub.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleLA_Stub\NAND_Debug_low_compute\FonixTtsDtSimpleLA_Stub.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleSP_464\NAND_Debug_low_compute\FonixTtsDtSimpleSP_464.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleUK_Stub\NAND_Debug_low_compute\FonixTtsDtSimpleUK_Stub.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleUS\NAND_Debug_low_compute\FonixTtsDtSimpleUS.lib"
+"\work\ad-new\DECtalk\plat\win32\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleKR\NAND_Debug_low_compute\FonixTtsDtSimpleKR.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP2587.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+TestTtsDtSimple_464_51.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

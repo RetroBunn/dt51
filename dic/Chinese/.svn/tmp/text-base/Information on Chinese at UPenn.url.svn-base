@@ -1,0 +1,8 @@
+[DEFAULT]
+BASEURL=http://projects.ldc.upenn.edu/Chinese/
+[DOC#5#7#9]
+BASEURL=http://projects.ldc.upenn.edu/Chinese/LDC_ch.htm
+ORIGURL=bottom.htm
+[InternetShortcut]
+URL=http://projects.ldc.upenn.edu/Chinese/
+Modified=50CEC31CB62DC601A7

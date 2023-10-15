@@ -1,0 +1,46 @@
+/*
+ ***********************************************************************
+ *
+ *                           Coryright (c)
+ *    © Fonix Corporation, 2006. All rights reserved.
+ *
+ *    Restricted Rights: Use, duplication, or disclosure by the U.S.
+ *    Government is subject to restrictions as set forth in subparagraph
+ *    (c) (1) (ii) of DFARS 252.227-7013, or in FAR 52.227-19, or in FAR
+ *    52.227-14 Alt. III, as applicable.
+ *
+ *    This software is proprietary to and embodies the confidential
+ *    technology of Fonix Corporation and other parties.
+ *    Possession, use, or copying of this software and media is authorized
+ *    only pursuant to a valid written license from Fonix or an
+ *    authorized sublicensor.
+ *
+ ***********************************************************************
+ *    File Name:	jp_err.tab
+ *    Author:	sgb
+ *    Creation Date:	22 Mar 2006
+ *
+ *    Functionality:
+ *
+ ***********************************************************************
+ *    Revision History:
+ *	001	MFG	Copied from file la_err.tab 
+ *	002	sgb	English messages translated by John Shepherd	22 Mar 2006	
+ */
+
+const unsigned char _far *CONSTCONST jp_error[] = {
+	"komando pasaa ni komando eraa",		//Command error in command parser
+	"moji retsu no atai ni komando eraa",	//Command error in string value
+	"suuji no atai ni komando eraa",		//Command error in numeric value
+	"komando ni komando eraa",		//Command error in command
+	"parameetaa ni komando eraa",		//Command error in parameter
+	"onso ni komando eraa",		//Command error in phoneme
+	"eraa: memoriibusoku",			//Error: Out of memory. 
+	"eraa: fairu wo hirakenai",		//Error: Unable to open file
+	"eraa: ueebu fairu no foorumatto ga warui",	//Error: Bad wave file format
+	"eraa: ueebu fairu no foorumatto wo sapooto shiteinair",	//Error: Unsupported wave file format
+	"eraa: oodeio no foorumatto wo sapooto shiteinai",	//Error: Unsupported audio format
+	"eraa:  futou na komando wo sakujyo"	//Error: Bad command flush
+};
+
+

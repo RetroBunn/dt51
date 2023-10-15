@@ -1,0 +1,209 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "FonixTtsDtSimple"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimple\FonixTtsDtSimple.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleCH"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleCH\FonixTtsDtSimpleCH.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleFR"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleFR\FonixTtsDtSimpleFR.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleGR"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleGR\FonixTtsDtSimpleGR.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleHB"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleHB\FonixTtsDtSimpleHB.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleIt"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleIt\FonixTtsDtSimpleIt.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleJP"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleJP\FonixTtsDtSimpleJP.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleKR"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleKR\FonixTtsDtSimpleKR.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleLA"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleLA\FonixTtsDtSimpleLA.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleSP"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleSP\FonixTtsDtSimpleSP.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleUK"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleUK\FonixTtsDtSimpleUK.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FonixTtsDtSimpleUS"=..\..\project\FonixTtsDtSimpleLibs\FonixTtsDtSimpleUS\FonixTtsDtSimpleUS.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TestTtsDtSimple"=.\TestTtsDtSimple.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimple
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleFR
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleGR
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleIt
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleLA
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleSP
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleUK
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleUS
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleCH
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleHB
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleJP
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FonixTtsDtSimpleKR
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

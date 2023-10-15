@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/license/LICENINC"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="licenin7.dep"
+   text-time="2006-03-22T15:24:16.655801Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3387b4c68d1ca23667af4039a7f2a46d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:15.280810Z"/>
+<entry
+   committed-rev="4213"
+   name="licenin7.mak"
+   text-time="2006-03-22T15:24:16.812050Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2f3d1c58c7c76b927f87129e23646ee7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.296429Z"/>
+<entry
+   committed-rev="4218"
+   name="licenin3.dsw"
+   text-time="2006-03-22T15:24:16.827675Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="149b25717c97b39560405f832d17f187"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.312053Z"/>
+<entry
+   committed-rev="4218"
+   name="licenin7.dsw"
+   text-time="2006-03-22T15:24:16.843300Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="6faa9b0f00af9eb4ea96dae113d40c17"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.327678Z"/>
+<entry
+   committed-rev="4213"
+   name="liceninc.c"
+   text-time="2006-03-22T15:24:16.858925Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="925a0219a33d2f8dddc36b5246cc9122"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.421428Z"/>
+<entry
+   committed-rev="4218"
+   name="licenin1.dsp"
+   text-time="2006-03-22T15:24:16.968299Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7272a9426101305f4546d15301d1d686"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.421428Z"/>
+<entry
+   committed-rev="4218"
+   name="licenin1.dep"
+   text-time="2006-03-22T15:24:16.983924Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e6324b90bca0aeee1b784565149f8849"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.437053Z"/>
+<entry
+   committed-rev="4213"
+   name="licenin1.mak"
+   text-time="2006-03-22T15:24:17.608920Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="ad22cc4a035a3ee428237dc85ac88a59"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.468302Z"/>
+<entry
+   committed-rev="4218"
+   name="licenin3.dsp"
+   text-time="2006-03-22T15:24:17.702670Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4820d6f38176799b5a0f8b75f374d8cd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.483927Z"/>
+<entry
+   committed-rev="4218"
+   name="licenin3.dep"
+   text-time="2006-03-22T15:24:17.718294Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="1eab8cf35d35903cd22f21f82b972009"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.515177Z"/>
+<entry
+   committed-rev="4213"
+   name="licenin3.mak"
+   text-time="2006-03-22T15:24:17.827669Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="a61d96690641cb8090d615db31571f97"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.546427Z"/>
+<entry
+   committed-rev="4218"
+   name="licenin7.dsp"
+   text-time="2006-03-22T15:24:17.890168Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="928a495d3a8c158b3413f3e1d2ac749a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.562052Z"/>
+<entry
+   committed-rev="4218"
+   name="licenin1.dsw"
+   text-time="2006-03-22T15:24:17.905793Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="973ac5748db8810af1171387abbd53cc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:16.640176Z"/>
+</wc-entries>

@@ -1,0 +1,110 @@
+VERSION 5.00
+Begin VB.Form DTSpeak 
+   Appearance      =   0  'Flat
+   BackColor       =   &H80000005&
+   Caption         =   "DTSpeak"
+   ClientHeight    =   3615
+   ClientLeft      =   60
+   ClientTop       =   840
+   ClientWidth     =   3480
+   ForeColor       =   &H80000008&
+   ScaleHeight     =   3615
+   ScaleWidth      =   3480
+   ShowOK          =   -1  'True
+   Begin VBCE.CommandButton Command1 
+      Height          =   495
+      Left            =   2520
+      TabIndex        =   1
+      Top             =   600
+      Width           =   735
+      _cx             =   1296
+      _cy             =   873
+      BackColor       =   12632256
+      Caption         =   "speak"
+      Enabled         =   -1  'True
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Style           =   1
+   End
+   Begin VBCE.TextBox Text1 
+      Height          =   495
+      Left            =   360
+      TabIndex        =   0
+      Top             =   600
+      Width           =   1935
+      _cx             =   3413
+      _cy             =   873
+      BackColor       =   -2147483643
+      BorderStyle     =   1
+      Enabled         =   -1  'True
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   -2147483640
+      Text            =   "write text here"
+      Alignment       =   0
+      HideSelection   =   -1  'True
+      Locked          =   0   'False
+      MaxLength       =   0
+      MultiLine       =   0   'False
+      PasswordChar    =   ""
+      ScrollBars      =   0
+   End
+End
+Attribute VB_Name = "DTSpeak"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+ Option Explicit
+    Dim Speaker As Integer
+    Dim vStr As String
+    Dim vRate As Integer
+    Dim DTResult As Long
+    Dim phTTS As Long
+
+Private Sub Command1_Click()
+
+DTResult = TextToSpeechSpeakVB(phTTS, Text1.Text, TTS_NORMAL)
+
+DTResult = TextToSpeechSyncVB(phTTS)
+
+End Sub
+
+Private Sub Form_OKClick()
+    App.End
+End Sub
+
+
+Private Sub Form_Load()
+
+DTResult = TextToSpeechStartupVB(0, phTTS, WAVE_MAPPER, OWN_AUDIO_DEVICE)
+
+End Sub
+
+Private Sub Form_Unload(Cancel As Integer)
+
+DTResult = TextToSpeechShutdownVB(phTTS)
+
+End Sub
+
+
+
+Private Sub Text1_Change()
+
+End Sub
+
+

@@ -1,0 +1,254 @@
+/*
+ ***********************************************************************
+ *
+ *                           Copyright ©
+ *	  Fonix Corporation
+ *
+ ***********************************************************************
+ *    File Name:	jp_phon.tab
+ *    Author:	susan bartholomew
+ *    Creation Date:	28 February, 2005
+ *
+ *    Functionality:
+ *
+ ***********************************************************************
+ *    Revision History:
+ *  001	
+ */
+
+#ifndef jp_PHONTAB
+#define jp_PHONTAB 1
+
+//#include "jp_def.h"
+#define NULL_ASCKY              0xffff
+#define PJP(x)					((PFJP<<PSFONT) | (x))
+const unsigned char jp_ascky[] = {
+
+/* allophones */
+
+	'_',    'i',    'e',    'a',    'o',    'u',    '1',    '6',    
+	'4',	'3',    '7',    '8',    'A',    'O',    'h',    'm',
+	'n',	'G',    'M',	'N',	'V',    'v',    'f',    'D',
+	's',    'z',    'T',	'S',    'Z',    'x',    'r',    'p',
+	'b',    't',    'd',	'k',    'g',    'c',    '9',    'C',
+	'J',     
+
+/* place holders for null range */
+
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,
+
+/* control phones */
+
+	'~',    '=',    '`',    '\'',   '"',	'/',	'\\',	'<',	
+	'-',    '*',    '#',    ' ',    '(',    ')',    ';',    ',',
+	'.',    '?',    '!',    '+',	'^' ,	'&',	'>'
+};
+
+const unsigned int jp_ascky_rev[] = {
+
+/* 0x00 */
+
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     PJP(WBOUND),    NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+
+/* 0x10 */
+
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+
+/* 0x20 */
+
+	PJP(WBOUND),    PJP(EXCLAIM),   PJP(SEMPH),     PJP(HYPHEN),
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     PJP(S1),
+	PJP(PPSTART),   PJP(VPSTART),   PJP(MBOUND),    PJP(NEW_PARAGRAPH),
+	PJP(COMMA),     PJP(SBOUND),    PJP(PERIOD),    PJP(HAT_RISE),
+
+/* 0x30 */
+
+	NULL_ASCKY,	PJP(J_YE),	NULL_ASCKY,	PJP(J_YU),
+	PJP(J_YO),	NULL_ASCKY,	PJP(J_YA),	PJP(J_WI),
+	PJP(J_WE),	PJP(J_DZ),	PITCH_CHANGE,   PJP(RELSTART),
+	PJP(HAT_RF),   PJP(S3),       NULL_ASCKY,     PJP(QUEST),
+/* 0x40 */
+
+	NULL_ASCKY,	PJP(J_WA),	NULL_ASCKY,	PJP(J_CH),
+	PJP(J_DH),	NULL_ASCKY,	NULL_ASCKY,	PJP(J_NG),
+	NULL_ASCKY,	NULL_ASCKY,	PJP(J_JH),	NULL_ASCKY,
+	NULL_ASCKY,	PJP(J_EM),	PJP(J_EN),	PJP(J_WO),
+
+/* 0x50 */
+
+	NULL_ASCKY,	NULL_ASCKY,	NULL_ASCKY,	PJP(J_SH),
+	PJP(J_CX),	NULL_ASCKY,	PJP(J_NV),	NULL_ASCKY,
+	NULL_ASCKY,	NULL_ASCKY,	PJP(J_ZH),	NULL_ASCKY,
+	PJP(HAT_FALL),	NULL_ASCKY,	NULL_ASCKY,	PJP(SIL),
+
+/* 0x60 */
+
+	NULL_ASCKY,	PJP(J_A ),	PJP(J_B ),	PJP(J_TS),
+	PJP(J_D ),	PJP(J_E ),	PJP(J_F ),	PJP(J_G ),
+	PJP(J_H ),	PJP(J_I ),	NULL_ASCKY,	PJP(J_K ),
+	NULL_ASCKY,	PJP(J_M ),	PJP(J_N ),	PJP(J_O ),
+
+/* 0x70 */
+
+	PJP(J_P ),	NULL_ASCKY,	PJP(J_R ),	PJP(J_S ),
+	PJP(J_T ),	PJP(J_U ),	PJP(J_BH),	NULL_ASCKY,
+	PJP(J_GH),	NULL_ASCKY,	PJP(J_Z ),	NULL_ASCKY,
+	NULL_ASCKY,	NULL_ASCKY,	PJP(BLOCK_RULES),	NULL_ASCKY
+};
+
+
+const unsigned char   jp_arpa[] = {
+
+	'_',    ' ',           /* 0  =  _ */        
+	'i',    ' ',           /* 1  =  i */	// pascii 1  // 
+	'e',    ' ',           /* 2  =  e */	// pascii 7  // 
+	'a',    ' ',           /* 3  =  a */	// pascii 24 //
+	'o',    ' ',           /* 4  =  o */	// pascii 21 //
+	'u',    ' ',           /* 5  =  u */	// pascii 17 //
+	
+	'y',    'e',           /* 6  =  1 */	// pascii 82 7 //foreign words
+	'y',    'a',           /* 7  =  6 */	// pascii 82 24 //
+	'y',    'o',           /* 8  =  4 */	// pascii 82 21 //
+	'y',    'u',           /* 9  =  3 */	// pascii 82 17 //
+	'w',    'i',           /* 10 =  7 */	// pascii 85 1 //foreign words
+	'w',    'e',           /* 11 = 8 */ 	// pascii 85 7 //foreign words
+	'w',    'a',           /* 12 = A */		// pascii 85 24 //
+	'w',    'o',           /* 13 = O */		// pascii 85 21 //21 is short with glottal ending
+	
+	'h',    ' ',           /* 14 = h */		// pascii 76 //
+	'm',    ' ',           /* 15 = m */		// pascii 31 //
+	'n',    ' ',           /* 16 = n */		// pascii 33 //only consonant that can end a word
+	'n',    'g',           /* 17 = G */		// pascii 36 //
+	'e',    'm',           /* 18 = M */		// pascii 110 //not used, according to John
+	'e',    'n',           /* 19 = N */		// pascii 38 //
+	'n',    'v',           /* 20 = V */		// pascii 38 589 //lenthen a syllabic n into a longer "Generic nasalized vowel"
+
+	'b',    'h',           /* 21 = v */		// pascii 58 //labial voiced fricative as in a "v" 
+	'f',    ' ',           /* 22 = f */		// pascii 55 //teeth don't quite touch lip; a rounded /h/.  Mary says like "comfort".
+	'd',    'h',           /* 23 = D */		// pascii 60 //dental+voicd+obst+conson, "alvelar or a dental voiced fricative" 
+	's',    ' ',           /* 24 = s */		// pascii 61 //
+	'z',    ' ',           /* 25 = z */		// pascii 62 //
+	'c',    'x',           /* 26 = T */		// pascii 59 //obst+conson+palatl , "voiceless front fricative only bypass noise or an unvoiced version of dh"
+	's',    'h',           /* 27 = S */		// pascii 65 //
+	'z',    'h',           /* 28  = Z */	// pascii 66 //
+	'g',    'h',           /* 29  = x */	// pascii 48 380 //velar+voicd+obst+conson, "like a g but a fricative not a stop" 
+
+	'r',    ' ',           /* 30 = r */		// pascii 94 //more of a flip or tap
+	'p',    ' ',           /* 31 = p */		// pascii 39 //
+	'b',    ' ',           /* 32 = b */		// pascii 40 //
+	't',    ' ',           /* 33 = t */		// pascii 41 //
+	'd',    ' ',           /* 34 = d */		// pascii 42 //
+	'k',    ' ',           /* 35 = k */		// pascii 47 //
+	'g',    ' ',           /* 36 = g */		// pascii 48 //
+	't',    's',           /* 37 = c */		// pascii 796 //synchronic tie
+	'd',    'z',           /* 38 = 9 */		// pascii 42 62 //dental+voicd+obst+conson, "Dental voiced affricate"/ a guess
+	'c',    'h',           /* 39 = C */		// pascii 116 //
+	'j',    'h',           /* 40 = J */		// pascii 115 //
+
+	/* place holders for null range */
+
+	0,      0,             /* 41  = */
+	0,      0,             /* 42  = */
+	0,      0,             /* 43  = */
+	0,      0,             /* 44  = */
+	0,      0,             /* 45  = */
+	0,      0,             /* 46  = */
+	0,      0,             /* 47  = */
+	0,      0,             /* 48  = */
+	0,      0,             /* 49  = */
+	0,      0,             /* 50  = */
+	0,      0,             /* 51  = */
+	0,      0,             /* 52  = */
+	0,      0,             /* 53  = */
+	0,      0,             /* 54  = */
+	0,      0,             /* 55  = */
+	0,      0,             /* 56  = */
+	0,      0,             /* 57  = */
+	0,      0,             /* 58  = */
+	0,      0,             /* 59  = */
+	0,      0,             /* 60  = */
+	0,      0,             /* 61  = */
+	0,      0,             /* 62  = */
+	0,      0,             /* 63  = */
+	0,      0,             /* 64  = */
+	0,      0,             /* 65  = */
+	0,      0,             /* 66  = */
+	0,      0,             /* 67  = */
+	0,      0,             /* 68  = */
+	0,      0,             /* 69  = */
+	0,      0,             /* 70  = */
+	0,      0,             /* 71  = */
+	0,      0,             /* 72  = */
+	0,      0,             /* 73  = */
+	0,      0,             /* 74  = */
+	0,      0,             /* 75  = */
+	0,      0,             /* 76  = */
+	0,      0,             /* 77  = */
+	0,      0,             /* 78  = */
+	0,      0,             /* 79  = */
+	0,      0,             /* 80  = */
+	0,      0,             /* 81  = */
+	0,      0,             /* 82  = */
+	0,      0,             /* 83  = */
+	0,      0,             /* 84  = */
+	0,      0,             /* 85  = */
+	0,      0,             /* 86  = */
+	0,      0,             /* 87  = */
+	0,      0,             /* 88  = */
+	0,      0,             /* 89  = */
+	0,      0,             /* 90  = */
+	0,      0,             /* 91  = */
+	0,      0,             /* 92  = */
+	0,      0,             /* 93  = */
+	0,      0,             /* 94  = */
+	0,      0,             /* 95  = */
+	0,      0,             /* 96  = */
+	0,      0,             /* 97  = */
+	0,      0,             /* 98  = */
+	0,      0,             /* 99  = */
+	
+
+
+
+
+
+	'~',	' ',	/* BLOCK_RULES =	~	*/
+	'=',	' ',	/* S3 =  			=	*/
+	'`',	' ',	/* S2 = 			` 	*/
+	'\'',	' ',	/* S1 =				' 	*/
+	'\"',	' ',	/* SEMPH =			"   */
+	'/',	' ',	/* HAT_RISE  = 		/	*/
+	'\\',	' ',	/* HAT_FALL  = 		\	*/
+	'/',	'\\',	/* HAT_RF  = 		<	*/
+	'-',	' ',	/* SBOUND  =		-	*/
+	'*',	' ',	/* MBOUND  = 		*	*/
+	'#',	' ',	/* HYPHEN  = 		#	*/
+	' ',	' ',	/* WBOUND  = 	 		*/
+	'(',	' ',	/* PPSTART =		(	*/
+	')',	' ',	/* VPSTART = 		)	*/
+	';',	' ',	/* RELSTART  = 		;	*/
+	',',	' ',	/* COMMA  =			,	*/
+	'.',	' ',	/* PERIOD =			.	*/
+	'?',	' ',	/* QUEST  =			?	*/
+	'!',	' ',	/* EXCLAIM  = 		!	*/
+	'+',	' ',	/* NEW_PARAGRAPH =	+	*/
+	'^',	' ',	/* SPECIALWORD =	^	*/
+	'&',	' ',	/* LINKRWORD =		&	*/
+	'>',	' '		/* DOUBLCONS =		>	*/
+};			       
+
+#endif
+

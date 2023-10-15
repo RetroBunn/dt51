@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5587"
+   name=""
+   committed-date="2006-08-18T20:59:13.673264Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/LTS/chinese"
+   last-author="mkauntz"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4649"
+   name="Mandarin.h"
+   text-time="2006-04-26T14:12:41.093750Z"
+   committed-date="2006-04-25T21:27:07.182791Z"
+   checksum="a10f05bb734c98a0e337addab65d9c73"
+   last-author="reiner"
+   kind="file"
+   prop-time="2006-04-26T14:12:40.765625Z"/>
+<entry
+   committed-rev="5587"
+   name="Pinyin2Ascii.c"
+   text-time="2006-08-18T21:20:24.504468Z"
+   committed-date="2006-08-18T20:59:13.673264Z"
+   checksum="35d07fa1a98ebef320f8d7f75f28ced8"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:24.473219Z"/>
+<entry
+   committed-rev="4926"
+   name="pinyinparse.c"
+   text-time="2006-05-19T14:39:47.656045Z"
+   committed-date="2006-05-18T18:47:25.666805Z"
+   checksum="3f7494f480590fc2db3912cfa8f932e1"
+   last-author="reiner"
+   kind="file"
+   prop-time="2006-05-19T14:39:47.437295Z"/>
+<entry
+   committed-rev="4612"
+   name="mandarinprot.h"
+   text-time="2006-04-24T19:11:16.124856Z"
+   committed-date="2006-04-20T23:10:10.679619Z"
+   checksum="d0ea31293ee5f82815b11c9b1bd46f6e"
+   last-author="reiner"
+   kind="file"
+   prop-time="2006-04-24T19:11:15.827989Z"/>
+<entry
+   committed-rev="5251"
+   name="MandarinF0machine.c"
+   text-time="2006-06-27T15:28:01.718750Z"
+   committed-date="2006-06-26T21:03:54.370271Z"
+   checksum="6288f2c38ea8cfcba19ddf346dc474e8"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-06-27T15:28:01.406250Z"/>
+<entry
+   committed-rev="4597"
+   name="mandQTAmodel.c"
+   text-time="2006-04-24T19:11:16.171730Z"
+   committed-date="2006-04-20T04:18:52.389477Z"
+   checksum="10ff4d150fcb801e5ff0f712dd4faa8d"
+   last-author="reiner"
+   kind="file"
+   prop-time="2006-04-24T19:11:16.015484Z"/>
+<entry
+   committed-rev="4509"
+   name="MandQTAmodel.h"
+   text-time="2006-04-24T19:11:16.202979Z"
+   committed-date="2006-04-08T05:35:48.515516Z"
+   checksum="c2f2eb5e1340b08886d89b03dc6cc7e7"
+   last-author="reiner"
+   kind="file"
+   prop-time="2006-04-24T19:11:16.046733Z"/>
+<entry
+   committed-rev="4752"
+   name="CJK2PinyinTables.c"
+   text-time="2006-05-04T15:40:13.031250Z"
+   committed-date="2006-05-03T20:27:53.514034Z"
+   checksum="f595df3f82852dac0ce5a1e473273b49"
+   last-author="xzeng"
+   kind="file"
+   prop-time="2006-05-04T15:40:12.812500Z"/>
+<entry
+   committed-rev="4450"
+   name="chin_bachus.h"
+   text-time="2006-04-06T18:03:58.578125Z"
+   committed-date="2006-04-04T21:37:09.764985Z"
+   checksum="3dd5ded15384b3ea9bbb5d08751f1992"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:03:48.562500Z"/>
+<entry
+   committed-rev="4450"
+   name="chin_bachusdefs.h"
+   text-time="2006-04-06T18:03:58.671875Z"
+   committed-date="2006-04-04T21:37:09.764985Z"
+   checksum="0548a35e3bbf1285bb89a190e29a7eee"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:03:48.687500Z"/>
+<entry
+   committed-rev="4868"
+   name="mandarindurations.c"
+   text-time="2006-05-15T14:58:10.352613Z"
+   committed-date="2006-05-13T16:15:23.328090Z"
+   checksum="0308eb783cc85271be47dae21eb8e787"
+   last-author="reiner"
+   kind="file"
+   prop-time="2006-05-15T14:58:09.946373Z"/>
+<entry
+   committed-rev="4449"
+   name="CJK2Pinyin.h"
+   text-time="2006-04-06T18:03:58.734375Z"
+   committed-date="2006-04-04T21:31:37.254010Z"
+   checksum="d969ad1eb09a503d9ed84c3f63feccc2"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:03:49.984375Z"/>
+<entry
+   name="U2P"
+   kind="dir"/>
+<entry
+   committed-rev="4247"
+   name="CHWalkerLinear.c"
+   text-time="2006-03-22T15:29:03.776022Z"
+   committed-date="2006-03-22T00:00:58.737509Z"
+   checksum="c1966c10ffd204de3dbd131e54a1e154"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-03-22T15:29:01.838560Z"/>
+<entry
+   committed-rev="4208"
+   name="chin_bachdata.h"
+   text-time="2006-03-22T15:29:03.854146Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="0bc9800b59f803ba056fa1464d6189b0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:03.354155Z"/>
+</wc-entries>

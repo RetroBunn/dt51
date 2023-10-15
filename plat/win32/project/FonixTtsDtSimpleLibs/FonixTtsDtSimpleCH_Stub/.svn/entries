@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5595"
+   name=""
+   committed-date="2006-08-18T21:52:06.793193Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/project/FonixTtsDtSimpleLibs/FonixTtsDtSimpleCH_Stub"
+   last-author="mkauntz"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5595"
+   name="FonixTtsDtSimpleCH_stub.dsp"
+   text-time="2006-08-23T18:05:39.812998Z"
+   committed-date="2006-08-18T21:52:06.793193Z"
+   checksum="f203c2cf3f28e68505a3caa64fc8d42a"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:05:39.781749Z"/>
+</wc-entries>

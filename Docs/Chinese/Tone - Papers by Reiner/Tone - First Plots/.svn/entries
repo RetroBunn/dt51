@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Chinese/Tone%20-%20Papers%20by%20Reiner/Tone%20-%20First%20Plots"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="tone1andprev.jpg"
+   text-time="2006-03-22T15:24:00.234031Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ccffa32131457dafc8dc3eb90ed15ff9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:57.734047Z"/>
+<entry
+   committed-rev="4218"
+   name="tone2andprev.jpg"
+   text-time="2006-03-22T15:24:00.249656Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="a3c5f57f1fe05d4d412682bc16255e6a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:57.765297Z"/>
+<entry
+   committed-rev="4218"
+   name="tone3andprev.jpg"
+   text-time="2006-03-22T15:24:00.265281Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f45f9f2f5c33aeb5bebafd9d58a0c5f4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:58.437168Z"/>
+<entry
+   committed-rev="4218"
+   name="tone4andprev.jpg"
+   text-time="2006-03-22T15:24:00.280906Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="c8a0f14b2da161b89c660cb121a56a61"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:59.374662Z"/>
+<entry
+   committed-rev="4218"
+   name="tone5andprev.jpg"
+   text-time="2006-03-22T15:24:00.296531Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ab960de103ff93a962e2473f0d5a9f34"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:00.187157Z"/>
+</wc-entries>

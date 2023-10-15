@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/Chinese/BuildPolyPhoneTable"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4210"
+   name="StdAfx.h"
+   text-time="2006-03-22T15:26:56.950698Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="0a208ca16ce9108e3a1fef1eb933ba6a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:56.356963Z"/>
+<entry
+   committed-rev="4210"
+   name="comand.txt"
+   text-time="2006-03-22T15:26:57.091319Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="a0f2ec2345502137cff83d09500cfbda"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:56.356963Z"/>
+<entry
+   committed-rev="4218"
+   name="ReadPolyPhoneChar.dsw"
+   text-time="2006-03-22T15:26:57.106944Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="a97217e648cf781a190aae06059c58fe"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:56.466335Z"/>
+<entry
+   committed-rev="4210"
+   name="ReadPolyPhoneChar.cpp"
+   text-time="2006-03-22T15:26:57.153818Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="7236e3292de37ad7704c5ff9348fc5f0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:56.591332Z"/>
+<entry
+   committed-rev="4210"
+   name="StdAfx.cpp"
+   text-time="2006-03-22T15:26:57.169442Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="e40ebe610335f7035322f4f9896b73f0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:56.872575Z"/>
+<entry
+   committed-rev="4218"
+   name="ReadPolyPhoneChar.dsp"
+   text-time="2006-03-22T15:26:57.278814Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="42caf0daa1238b9027ee2282bb361eb6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:56.872575Z"/>
+<entry
+   committed-rev="4210"
+   name="Observ.txt"
+   text-time="2006-03-22T15:26:57.294439Z"
+   committed-date="2006-03-18T02:08:26.617935Z"
+   checksum="aaf87e728366cf2bf709ecf56b9e6ab4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:56.919449Z"/>
+</wc-entries>

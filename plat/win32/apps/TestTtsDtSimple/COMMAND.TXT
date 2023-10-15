@@ -1,0 +1,5 @@
+The primary function of DECtalk[R] Software is to convert ASCII text into synthesized speech output.  
+The DECtalk synthesizer includes its own set of built in rules for text processing, as  well  as  a  large integral dictionary, and application specific dictionaries can be created by the developer or user.
+In addition, a large number  of control and status functions are available. 
+These functions are  used to  modify  the  speech parameters of DECtalk Software.   
+Some of the functions include selecting the speaking voice,  rate, volume, tone generation, and pause lengths. 

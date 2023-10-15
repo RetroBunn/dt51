@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6043"
+   name=""
+   committed-date="2006-10-17T17:28:23.451780Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dic/BuildFileSystemTables"
+   last-author="sdutta"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4626"
+   name="French.list"
+   text-time="2006-04-24T19:11:12.328078Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="27edf9c02436cc66bbf133b2b2d27c1f"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:08.218808Z"/>
+<entry
+   committed-rev="6043"
+   name="BuildFileSystemTables.c"
+   text-time="2006-10-18T13:27:17.988044Z"
+   committed-date="2006-10-17T17:28:23.451780Z"
+   checksum="ba725cbe680af36ab719e75f0314dfd0"
+   last-author="sdutta"
+   kind="file"
+   prop-time="2006-10-18T13:27:16.425584Z"/>
+<entry
+   committed-rev="4626"
+   name="dectalk.list"
+   text-time="2006-04-24T19:11:12.359327Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="45ce96ad0e377faf940c2e77c3045ea8"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:08.250058Z"/>
+<entry
+   name="Win32"
+   kind="dir"/>
+<entry
+   committed-rev="4626"
+   name="German.list"
+   text-time="2006-04-24T19:11:12.359327Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="a4a5625f4b43991e7843f18bc7e320d8"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:10.078136Z"/>
+<entry
+   committed-rev="4626"
+   name="BuildFileSystemTables.bat"
+   text-time="2006-04-24T19:11:12.374952Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="3edb050a8cd17f2dea0bb634539ecb07"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:10.093760Z"/>
+<entry
+   committed-rev="4626"
+   name="BuildFileSystemTables.dsp"
+   text-time="2006-04-24T19:11:12.390577Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="c7d9421bf10c8ddefcf87fd12852bbee"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:10.109385Z"/>
+<entry
+   committed-rev="4626"
+   name="FileSystemData.h"
+   text-time="2006-04-24T19:11:12.390577Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="4c14e141e2190158c9b36bca540291cc"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:10.125010Z"/>
+<entry
+   committed-rev="4626"
+   name="UsEnglish.list"
+   text-time="2006-04-24T19:11:12.406201Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="0e87ff857a91e79c9b4f92479b228b00"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:10.125010Z"/>
+<entry
+   committed-rev="4626"
+   name="FileSystemDataHandler.c"
+   text-time="2006-04-24T19:11:12.421826Z"
+   committed-date="2006-04-21T20:47:57.754238Z"
+   checksum="91e9787b645797ba584e130d7444e652"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-24T19:11:10.171883Z"/>
+<entry
+   name="Casio"
+   kind="dir"/>
+</wc-entries>

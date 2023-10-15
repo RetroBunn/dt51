@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4213"
+   name=""
+   committed-date="2006-03-18T03:37:13.062410Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/unix/apps/udicunix/src"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="alphabet.c"
+   text-time="2006-04-06T19:16:39.593750Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="3f0eba0a74f9eec89a610fad2208469c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:56.873431Z"/>
+<entry
+   committed-rev="4213"
+   name="udic_la.c"
+   text-time="2006-03-22T15:25:57.185927Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="6ad8417398d329ea6eea561a8182202f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:56.935930Z"/>
+<entry
+   committed-rev="4213"
+   name="Makefile.in"
+   text-time="2006-03-22T15:25:57.201551Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="490001efdfd87457c465e278df437fa0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:56.951555Z"/>
+<entry
+   committed-rev="4213"
+   name="udic_com.c"
+   text-time="2006-04-06T19:16:39.515625Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="13c41c292ba675d86346b5334180201f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:56.967179Z"/>
+<entry
+   committed-rev="4213"
+   name="udic_uk.c"
+   text-time="2006-03-22T15:25:57.295300Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="3b14d2175376e5c5ad5ec3404ac2e964"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:57.045303Z"/>
+<entry
+   committed-rev="4213"
+   name="userdic.h"
+   text-time="2006-03-22T15:25:57.310925Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="4136e842cc17a84258e66b9eae574834"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:57.060928Z"/>
+<entry
+   committed-rev="4213"
+   name="cpg_850.c"
+   text-time="2006-03-22T15:25:57.310925Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="1a56951bac20a75e4b2381865dadff44"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:57.076553Z"/>
+<entry
+   committed-rev="4213"
+   name="udic_sp.c"
+   text-time="2006-03-22T15:25:57.326550Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="6d7b2b8a10f4bed70acf277afdf6ba9d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:57.092178Z"/>
+<entry
+   committed-rev="4213"
+   name="udic_com.h"
+   text-time="2006-03-22T15:25:57.342175Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="eba7fad37f3ce637e937b8386640bf90"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:57.092178Z"/>
+<entry
+   committed-rev="4213"
+   name="udic_us.c"
+   text-time="2006-03-22T15:25:57.357799Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="3017a92db7cd6031c05dc66c9255087e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:57.107803Z"/>
+<entry
+   committed-rev="4213"
+   name="udic_gr.c"
+   text-time="2006-03-22T15:25:57.373424Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="0532654f6268aabdaf356743a0175be3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:57.123427Z"/>
+</wc-entries>

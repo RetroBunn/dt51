@@ -1,0 +1,7 @@
+Two environmental variables defining a path for bison.simple and bison.hairy have to be
+defined:
+BISON_SIMPLE
+BISON_HAIRY
+(USE THE settup by means of the control panel / system / advanced
+
+

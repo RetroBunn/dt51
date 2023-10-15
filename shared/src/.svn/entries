@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6160"
+   name=""
+   committed-date="2006-10-27T15:31:47.077880Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5548"
+   name="playaud.c"
+   text-time="2006-08-11T15:10:50.517646Z"
+   committed-date="2006-08-11T18:56:37.426966Z"
+   checksum="c4b7c66c3d794ed32c64c34e2e3e3936"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-05-18T14:31:37.738457Z"/>
+<entry
+   committed-rev="4215"
+   name="ByteOrder.c"
+   text-time="2006-03-22T15:31:55.397727Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="8cce83506d8775911f905a742b1cf51e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:30.241960Z"/>
+<entry
+   committed-rev="4215"
+   name="myalloc.c"
+   text-time="2006-03-22T15:31:55.507100Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="09320fe560f341712f94c795cf1ac23d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:30.695076Z"/>
+<entry
+   committed-rev="5151"
+   name="InitCloseDcc.c"
+   text-time="2006-06-27T15:28:22.375000Z"
+   committed-date="2006-06-12T16:50:02.735684Z"
+   checksum="8e0b10f01c5817d28fc740f377d42071"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-06-27T15:28:22.093750Z"/>
+<entry
+   committed-rev="4215"
+   name="names.c"
+   text-time="2006-03-22T15:31:55.538349Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="dfacbc6e7ccda4763b0e7b0760999028"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:30.741951Z"/>
+<entry
+   committed-rev="4910"
+   name="opthread.c"
+   text-time="2006-05-18T14:31:38.097823Z"
+   committed-date="2006-05-17T18:16:57.627017Z"
+   checksum="a2f4b4fd6af1fbc7cf4b8f6963a46fcc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:37.879079Z"/>
+<entry
+   committed-rev="4215"
+   name="Graph2Phon.c"
+   text-time="2006-03-22T15:31:55.569599Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="0f3e342d0d78c70c5a51a45276b12ca6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:33.241903Z"/>
+<entry
+   committed-rev="4299"
+   name="GlobalCommon.c"
+   text-time="2006-04-06T18:04:40.968750Z"
+   committed-date="2006-03-24T00:00:54.749926Z"
+   checksum="4af7630068143320d51e54d1a5de32db"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-04-06T18:04:40.859375Z"/>
+<entry
+   committed-rev="4215"
+   name="pool.c"
+   text-time="2006-03-22T15:31:55.585224Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="1efd4d13d360eb982791e52f469b855c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:33.538772Z"/>
+<entry
+   committed-rev="4215"
+   name="word.c"
+   text-time="2006-03-22T15:31:55.600848Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="0277af2e9a37f7211c5b9acd1fcb9915"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:33.663769Z"/>
+<entry
+   committed-rev="4215"
+   name="GetPron.c"
+   text-time="2006-03-22T15:31:55.616473Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="7ada50b9c8ab42b78f3750ad84f8c6e8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:33.695019Z"/>
+<entry
+   committed-rev="5551"
+   name="SelectSinglePron.c"
+   text-time="2006-08-15T18:59:21.668827Z"
+   committed-date="2006-08-11T21:05:29.606600Z"
+   checksum="c0655ab460cebfdd715db929dc4a703d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-08-15T18:59:21.606329Z"/>
+<entry
+   committed-rev="5278"
+   name="hash.c"
+   text-time="2006-07-20T19:05:44.062500Z"
+   committed-date="2006-07-05T20:21:03.497954Z"
+   checksum="26d451b4c01b116bef0719895527d4b3"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-07-20T19:05:43.890625Z"/>
+<entry
+   committed-rev="4900"
+   name="mmalloc.c"
+   text-time="2006-05-18T14:31:38.113448Z"
+   committed-date="2006-05-16T20:50:52.125009Z"
+   checksum="74e28167193be2350902a8a813493645"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-18T14:31:37.988451Z"/>
+<entry
+   committed-rev="5247"
+   name="allocate.c"
+   text-time="2006-06-27T15:28:22.421875Z"
+   committed-date="2006-06-23T22:55:08.482516Z"
+   checksum="ad61c8212a254fc235fc76b2f72de1b6"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-06-27T15:28:22.156250Z"/>
+<entry
+   committed-rev="4215"
+   name="Huffman.c"
+   text-time="2006-03-22T15:31:55.694596Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="0156374440e625114fd3c1ef84a1aa58"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:37.444947Z"/>
+<entry
+   committed-rev="6160"
+   name="spc.c"
+   text-time="2006-10-27T15:27:24.446272Z"
+   committed-date="2006-10-27T15:31:47.077880Z"
+   checksum="5318a449cb9cc86490da625a90a88edc"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:31:37.960562Z"/>
+<entry
+   committed-rev="5601"
+   name="DTfnxstdlib.c"
+   text-time="2006-08-23T18:06:23.436882Z"
+   committed-date="2006-08-18T22:32:38.407302Z"
+   checksum="0c29301cca2f09d0060044d3552f99ad"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-23T18:06:23.280636Z"/>
+<entry
+   name="FileIO"
+   kind="dir"/>
+<entry
+   name="3rdParty"
+   kind="dir"/>
+<entry
+   committed-rev="4215"
+   name="ByteOrderIO.c"
+   text-time="2006-03-22T15:31:55.757095Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="9ff21d303cb5e4a0b2d7f7233bea041a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:41.819863Z"/>
+<entry
+   committed-rev="4215"
+   name="llist.c"
+   text-time="2006-03-22T15:31:55.772720Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="b3ff748901b820970898fa526bdeb9ba"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:54.288373Z"/>
+<entry
+   committed-rev="4215"
+   name="wrdparse.c"
+   text-time="2006-03-22T15:31:55.788345Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="c37501fc5fb45307b772459cad3a7a5d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:54.335248Z"/>
+<entry
+   committed-rev="4215"
+   name="error.c"
+   text-time="2006-03-22T15:31:55.803969Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="3a386d58b0567520c7820cd1764e3ee4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:54.397746Z"/>
+<entry
+   committed-rev="4215"
+   name="network.c"
+   text-time="2006-03-22T15:31:55.819594Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="26fe8921439985f9bd4de5b4bc8853a8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:54.428996Z"/>
+<entry
+   committed-rev="4215"
+   name="LoadRules.c"
+   text-time="2006-03-22T15:31:55.835219Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="e6ccf4c84d24c8e344c3b6b7efa9dd42"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:54.522744Z"/>
+<entry
+   committed-rev="5278"
+   name="ShortenPronunciation.c"
+   text-time="2006-07-20T19:05:44.109375Z"
+   committed-date="2006-07-05T20:21:03.497954Z"
+   checksum="68a658ac5982c0c3143dc119edbf2083"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-07-20T19:05:44.046875Z"/>
+<entry
+   committed-rev="4215"
+   name="Misc.c"
+   text-time="2006-03-22T15:31:55.866468Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="b544168bbab8ef1649e9e2f2567be381"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:54.960236Z"/>
+<entry
+   committed-rev="4873"
+   name="pipe.c"
+   text-time="2006-05-15T21:26:23.054803Z"
+   committed-date="2006-05-15T19:14:06.758826Z"
+   checksum="136646f2f894c8ef11ad2daf0887cb08"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-15T21:26:22.992305Z"/>
+</wc-entries>

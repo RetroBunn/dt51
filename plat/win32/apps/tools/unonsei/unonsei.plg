@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: unonsei - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1F2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I ".\..\..\..\..\..\dapicore\lts\korean" /I ".\..\..\..\..\..\shared\include\\" /I ".\..\..\..\..\..\dapicore\lts\japan" /I ".\..\..\..\..\..\shared\include\NT" /I ".\..\..\..\..\..\shared\include\nt" /I "..\..\..\..\..\dapicore\LTS\japan\CodePageConv" /I ".\..\..\..\..\..\dapicore\lts\chinese" /I "..\..\..\include" /I ".\..\..\..\..\..\shared\include" /I "..\..\..\..\..\dapi" /I ".\..\..\..\..\..\dapicore\cmd" /I ".\..\..\..\..\..\dapicore\lts" /I ".\..\..\..\..\..\dapicore\ph" /I ".\..\..\..\..\..\dapicore\vtm" /I ".\..\..\..\..\..\dapicore\kernel" /I ".\..\..\..\..\..\dapicore\include" /I ".\..\..\..\..\..\dapicore\hlsyn" /I "..\..\..\..\..\sdk\include" /I "..\..\..\..\..\sdk\include\win32" /D "_DEBUG" /D "JAPANESE" /D "BUILD_LTS" /D "DUSTY" /D "HLSYN" /D "NO_INCLUDED_C_FILES" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "NEW_MULTI_LANG_ARCH" /D "_WINDOWS" /D "O_TALKONLY" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "UNONSEI" /Fp"Debug/unonsei.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\work\ad-new\DECtalk\plat\win32\apps\tools\unonsei\unonsei.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1F2.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1F3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/unonsei.pdb" /debug /machine:I386 /out:"Debug/unonsei.exe" /pdbtype:sept 
+".\Debug\lib_genc.obj"
+".\Debug\unonsei.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP1F3.tmp"
+<h3>Output Window</h3>
+Compiling...
+unonsei.c
+C:\work\ad-new\DECtalk\plat\win32\apps\tools\unonsei\unonsei.c(267) : warning C4018: '<' : signed/unsigned mismatch
+C:\work\ad-new\DECtalk\plat\win32\apps\tools\unonsei\unonsei.c(340) : warning C4013: 'code_to_hardchar2' undefined; assuming extern returning int
+C:\work\ad-new\DECtalk\plat\win32\apps\tools\unonsei\unonsei.c(48) : warning C4101: 'page_no' : unreferenced local variable
+C:\work\ad-new\DECtalk\plat\win32\apps\tools\unonsei\unonsei.c(35) : warning C4101: 'table' : unreferenced local variable
+C:\work\ad-new\DECtalk\plat\win32\apps\tools\unonsei\unonsei.c(35) : warning C4101: 'table1' : unreferenced local variable
+C:\work\ad-new\DECtalk\plat\win32\apps\tools\unonsei\unonsei.c(32) : warning C4101: 'idicptr' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+unonsei.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

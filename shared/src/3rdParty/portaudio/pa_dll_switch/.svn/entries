@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4215"
+   name=""
+   committed-date="2006-03-18T04:49:35.817887Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src/3rdParty/portaudio/pa_dll_switch"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4215"
+   name="PaDllEntry.h"
+   text-time="2006-03-22T15:31:52.241538Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="280b16042aca75b948f0911326551522"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:52.147790Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_lib.c"
+   text-time="2006-03-22T15:31:52.288412Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="d7baa109a97214bbbe290d8a20f7d533"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:52.163414Z"/>
+<entry
+   committed-rev="4215"
+   name="letter_from_tim_010817.txt"
+   text-time="2006-03-22T15:31:52.335286Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="e6ad05f0b7338dff6af6cbc576f4050f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:52.163414Z"/>
+<entry
+   committed-rev="4215"
+   name="loadPA_DLL.cpp"
+   text-time="2006-03-22T15:31:52.350911Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="af1851de94d08eb497944c25a37a9159"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:52.179039Z"/>
+<entry
+   committed-rev="4215"
+   name="portaudio.h"
+   text-time="2006-03-22T15:31:52.382160Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="e6bd4645e2fdd799155b74884bf7aa7c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:52.179039Z"/>
+</wc-entries>

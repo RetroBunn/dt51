@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Chinese/Tone%20Sandhi"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="Tone change rule on bu4.doc"
+   text-time="2006-03-22T15:23:55.812185Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="bb8e2a53204fb8e87669e7ab558fe093"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:55.421562Z"/>
+<entry
+   committed-rev="4218"
+   name="TONE SANDHI.doc"
+   text-time="2006-03-22T15:23:55.921559Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8bc52a93e125cea5bffe186319b1cc51"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:55.452812Z"/>
+<entry
+   committed-rev="4218"
+   name="Tone Sandhi_Neutral tone.doc"
+   text-time="2006-03-22T15:23:56.015308Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="77e9b4abbcb19ffd2b7e8b61ba18ad0e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:55.484062Z"/>
+<entry
+   committed-rev="4218"
+   name="Tone Sandhi_More.doc"
+   text-time="2006-03-22T15:23:56.093433Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7b3c476682134c513d212801b6b343f4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:55.484062Z"/>
+<entry
+   committed-rev="4218"
+   name="Mandarin Chinese Sandhi Rules for bu  不.doc"
+   text-time="2006-03-22T15:23:56.171557Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="a038232aecb8633c4c420c401077066f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:55.530936Z"/>
+<entry
+   committed-rev="4218"
+   name="Tone change rule on yi.doc"
+   text-time="2006-03-22T15:23:56.234057Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d71d5974a5dcd218d063b2e0cf192e5f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:55.577811Z"/>
+<entry
+   committed-rev="4218"
+   name="Relation of pitch glide perception and Mandarin tone identification.doc"
+   text-time="2006-03-22T15:23:56.359056Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="3b666fc637518cbc1688688546555026"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:55.687185Z"/>
+<entry
+   committed-rev="4218"
+   name="yi1 and bu4 tone sandhi.txt"
+   text-time="2006-03-22T15:23:56.421556Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="5f880491897122931f7b888ddbb28c06"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:23:55.718435Z"/>
+</wc-entries>

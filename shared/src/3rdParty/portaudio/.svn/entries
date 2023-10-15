@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src/3rdParty/portaudio"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="pa_mac"
+   kind="dir"/>
+<entry
+   committed-rev="4215"
+   name="configure"
+   text-time="2006-03-22T15:31:52.507158Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="e9ac70e5c3b074f7e73dfe847f2feb26"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:42.304229Z"/>
+<entry
+   name="pa_tests"
+   kind="dir"/>
+<entry
+   committed-rev="4215"
+   name="Makefile.in"
+   text-time="2006-03-22T15:31:52.569656Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="f46a76208b7a7f28ef707fd414788fe0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:42.319853Z"/>
+<entry
+   committed-rev="4218"
+   name="portaudio_v18_1.zip"
+   text-time="2006-03-22T15:31:52.788402Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ce66a732d263fde2b5ad2262ef37a691"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.116636Z"/>
+<entry
+   committed-rev="4215"
+   name="configure.in"
+   text-time="2006-03-22T15:31:52.835276Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="4e1dc26b165e53b42779b7084752ce29"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:47.132261Z"/>
+<entry
+   name="pa_unix_oss"
+   kind="dir"/>
+<entry
+   committed-rev="4215"
+   name="Makefile.solaris"
+   text-time="2006-03-22T15:31:52.866526Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="187194ebb72331555820479bee3d0427"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:48.991600Z"/>
+<entry
+   name="docs"
+   kind="dir"/>
+<entry
+   name="pa_mac_core"
+   kind="dir"/>
+<entry
+   committed-rev="4215"
+   name="config.guess"
+   text-time="2006-03-22T15:31:52.975899Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="d97f53d61ddb02b3d837f322fa9b296d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:49.257220Z"/>
+<entry
+   committed-rev="4215"
+   name="fixdir.bat"
+   text-time="2006-03-22T15:31:52.882150Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="721d8ee67f09895296c09328cd5a50e2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:49.241595Z"/>
+<entry
+   committed-rev="4215"
+   name="fixfile.bat"
+   text-time="2006-03-22T15:31:52.975899Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="345405fb0154b282c505e1af95430e31"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:49.272845Z"/>
+<entry
+   committed-rev="4215"
+   name="Makefile.mingw"
+   text-time="2006-03-22T15:31:53.038397Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="297910e67be186f1533938ffbac49bc4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:49.288469Z"/>
+<entry
+   committed-rev="4215"
+   name="config.sub"
+   text-time="2006-03-22T15:31:53.022773Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="93102a6146a4b9821e0e626179b3a924"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:49.272845Z"/>
+<entry
+   committed-rev="4215"
+   name="LICENSE.txt"
+   text-time="2006-03-22T15:31:53.054022Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="84ee752a406ac891eac14f007e86f01c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:49.288469Z"/>
+<entry
+   name="pa_win_wmme"
+   kind="dir"/>
+<entry
+   name="pa_sgi"
+   kind="dir"/>
+<entry
+   name="pa_win_ds"
+   kind="dir"/>
+<entry
+   name="pablio"
+   kind="dir"/>
+<entry
+   name="pa_common"
+   kind="dir"/>
+<entry
+   name="pa_beos"
+   kind="dir"/>
+<entry
+   committed-rev="4215"
+   name="index.html"
+   text-time="2006-03-22T15:31:53.069647Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="fdf91df4d4491523ed68c1f66ec4c1b3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:51.694673Z"/>
+<entry
+   name="pa_asio"
+   kind="dir"/>
+<entry
+   committed-rev="4215"
+   name="README.txt"
+   text-time="2006-03-22T15:31:53.085272Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="5402711ee45070da2409a727ef453c86"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:52.054041Z"/>
+<entry
+   committed-rev="4215"
+   name="Makefile.linux"
+   text-time="2006-03-22T15:31:53.100896Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="a275e6dbb1d6988fee07c4dcffc144aa"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:52.085291Z"/>
+<entry
+   name="pa_dll_switch"
+   kind="dir"/>
+<entry
+   committed-rev="4215"
+   name="install-sh"
+   text-time="2006-03-22T15:31:53.147770Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="5afe8eb5573965dfb58378e4e46f3813"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:52.429034Z"/>
+</wc-entries>

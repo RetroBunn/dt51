@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/apps/tools/SMIT/SMITREAD"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="SMITREAD.MAK"
+   text-time="2006-03-20T22:25:32.865483Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2ba8b82ae8fa52386aa49f73418be495"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.771734Z"/>
+<entry
+   committed-rev="4218"
+   name="smitread.dep"
+   text-time="2006-03-20T22:25:32.896733Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="b469a89979959ffab8540ffcbc36c55a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.787359Z"/>
+<entry
+   committed-rev="4218"
+   name="SMITREAD.DSW"
+   text-time="2006-03-20T22:25:32.912358Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d1532c794deae62a4542ff50497dc907"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.802983Z"/>
+<entry
+   committed-rev="4213"
+   name="SMITREAD.C"
+   text-time="2006-03-20T22:25:32.927983Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="f9bfbd69f1b56ecfd49ed71a9482692d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.818608Z"/>
+<entry
+   committed-rev="4218"
+   name="SMITREAD.DSP"
+   text-time="2006-03-20T22:25:32.943608Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e00b4e1810ab467548b31b9ef2bbbe08"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-20T22:25:32.834233Z"/>
+</wc-entries>

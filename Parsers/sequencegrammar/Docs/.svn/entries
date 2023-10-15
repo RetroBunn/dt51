@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Parsers/sequencegrammar/Docs"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4212"
+   name="SequenceParser.tex"
+   text-time="2006-03-22T15:26:38.654146Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="7ef9f529cf80a7ad26d8cfe8eaf6ff50"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:37.982279Z"/>
+<entry
+   committed-rev="4212"
+   name="README.txt"
+   text-time="2006-03-22T15:26:38.701020Z"
+   committed-date="2006-03-18T02:35:27.007078Z"
+   checksum="09fde435ceb43a80a2d92cb77d5311f7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:38.232276Z"/>
+<entry
+   committed-rev="4218"
+   name="SequenceParser.pdf"
+   text-time="2006-03-22T15:26:38.982267Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="4a2fc0567b2e1a9a70eeedcb34e3024d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:38.622896Z"/>
+</wc-entries>

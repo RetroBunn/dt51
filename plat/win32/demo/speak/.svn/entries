@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5893"
+   name=""
+   committed-date="2006-10-02T15:44:45.401542Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/win32/demo/speak"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="BuildSpeakRebuldAll.bat"
+   text-time="2006-03-22T15:24:39.108783Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="ccdbc99fa23b49426dff2d7d0ffc30d9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:30.765086Z"/>
+<entry
+   committed-rev="4213"
+   name="BuildSpeakDectalk.bat"
+   text-time="2006-03-22T15:24:40.108776Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="86fa831da90bcdd840d08f2814a8e37b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:30.780711Z"/>
+<entry
+   committed-rev="4218"
+   name="StopButtonDn.bmp"
+   text-time="2006-03-22T15:24:40.390024Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d8d47e048926bcb45ce17c9fdf92603e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:30.905710Z"/>
+<entry
+   committed-rev="5893"
+   name="Speak.cpp"
+   text-time="2006-10-04T12:37:51.464679Z"
+   committed-date="2006-10-02T15:44:45.401542Z"
+   checksum="43f0e76a64fd3a41584a040681d3bff9"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:51.339685Z"/>
+<entry
+   name="text"
+   kind="dir"/>
+<entry
+   committed-rev="4213"
+   name="Speak.c"
+   text-time="2006-03-22T15:24:41.671266Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="981d0b265ccae42f40b831bf4eb38c31"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:32.530700Z"/>
+<entry
+   committed-rev="4213"
+   name="resrc1.h"
+   text-time="2006-03-22T15:24:41.968139Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="37c482abdef414b116cbdf089fa9c4c5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:36.233801Z"/>
+<entry
+   committed-rev="4989"
+   name="BuildSpeakHighCompute.bat"
+   text-time="2006-05-25T15:28:52.164593Z"
+   committed-date="2006-05-23T18:43:12.177387Z"
+   checksum="ccf47ed5166354a5d2e0ae4296d72dea"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:28:52.086469Z"/>
+<entry
+   committed-rev="4218"
+   name="PauseButton.bmp"
+   text-time="2006-03-22T15:24:42.061888Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e08104bd6d29b7dcdf3aa86c04ab6b4e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:36.343175Z"/>
+<entry
+   committed-rev="4213"
+   name="BuildSpeakChinese.bat"
+   text-time="2006-03-22T15:24:42.171262Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="87bed674d083e1882c87534937ad2dd9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:36.358800Z"/>
+<entry
+   committed-rev="4418"
+   name="DevFunctions.cpp"
+   text-time="2006-04-06T18:04:24.828125Z"
+   committed-date="2006-04-03T18:32:24.114769Z"
+   checksum="3052f3b0776627db148646a847dd6f6e"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-06T18:04:19.406250Z"/>
+<entry
+   committed-rev="4386"
+   name="speak.dsp"
+   text-time="2006-04-06T18:04:24.843750Z"
+   committed-date="2006-03-31T17:27:58.301624Z"
+   checksum="0251867dbceebac304de7cf48b55885c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-06T18:04:24.671875Z"/>
+<entry
+   committed-rev="4989"
+   name="BuildSpeak.bat"
+   text-time="2006-05-25T15:28:52.242716Z"
+   committed-date="2006-05-23T18:43:12.177387Z"
+   checksum="077f88bc0911f1bd8efc80da2320a617"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-05-25T15:28:52.133343Z"/>
+<entry
+   committed-rev="4213"
+   name="SPEAK.H"
+   text-time="2006-03-22T15:24:43.171249Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="840fbf31845326a388ee3d66cf25d0ab"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:36.890047Z"/>
+<entry
+   committed-rev="4213"
+   name="ParamsDlg.cpp"
+   text-time="2006-03-22T15:24:43.171249Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2de5c97c88976c3a9657048e6fa9fceb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:37.061921Z"/>
+<entry
+   committed-rev="4218"
+   name="TTSDemo.bmp"
+   text-time="2006-03-22T15:24:44.218111Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="64537723953ec351bb187ec8ae1eb55c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:37.171295Z"/>
+<entry
+   committed-rev="4213"
+   name="winres.h"
+   text-time="2006-03-22T15:24:44.249360Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="5a75d10f6c29e2dfdcfdcb564cbc99a6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:37.311919Z"/>
+<entry
+   committed-rev="4218"
+   name="StopButton.bmp"
+   text-time="2006-03-22T15:24:44.358734Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="8d68b184c223c8e297c33b79c1abe367"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:37.405668Z"/>
+<entry
+   committed-rev="4386"
+   name="speak.dsw"
+   text-time="2006-04-06T18:04:24.875000Z"
+   committed-date="2006-03-31T17:27:58.301624Z"
+   checksum="90d5f0746da4648edca3b45f5eeedb56"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-06T18:04:24.671875Z"/>
+<entry
+   committed-rev="4213"
+   name="speak.def"
+   text-time="2006-03-22T15:24:44.561856Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="8c313c2a51cf2ee043cb00de97318eb3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:37.686917Z"/>
+<entry
+   committed-rev="4218"
+   name="PlayButtonDn.bmp"
+   text-time="2006-03-22T15:24:44.561856Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="cbad388b58fd2aa298d8ccd5ced07398"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:37.640042Z"/>
+<entry
+   committed-rev="5893"
+   name="speak.rc"
+   text-time="2006-10-04T12:37:51.527176Z"
+   committed-date="2006-10-02T15:44:45.401542Z"
+   checksum="163fabf8605cf3cf848b2f93fbf2ad0d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:51.402182Z"/>
+<entry
+   committed-rev="4213"
+   name="BuildSpeakLowCompute.bat"
+   text-time="2006-03-22T15:24:44.718104Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="c919c15e11f20040f3edbac6ff59104d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:37.890040Z"/>
+<entry
+   committed-rev="4218"
+   name="PauseButtonDn.bmp"
+   text-time="2006-03-22T15:24:45.764966Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="87b9808f1b328abc33699bd11abc2540"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:38.015040Z"/>
+<entry
+   committed-rev="4218"
+   name="speak.dep"
+   text-time="2006-03-22T15:24:45.811840Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d89905822f2091af92379f84a180c428"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:38.093164Z"/>
+<entry
+   committed-rev="4218"
+   name="speak.ico"
+   text-time="2006-03-22T15:24:46.108711Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d7737feb255d80ace01e8c79ac03ccb0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:38.218163Z"/>
+<entry
+   committed-rev="4218"
+   name="DECTALK.PH"
+   text-time="2006-03-22T15:24:46.327459Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="0b7fb73aed5ab301c12606d0238532c4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:38.296288Z"/>
+<entry
+   committed-rev="5893"
+   name="resource.h"
+   text-time="2006-10-04T12:37:51.620922Z"
+   committed-date="2006-10-02T15:44:45.401542Z"
+   checksum="354f0a9568c612bb5acb09326058bb7b"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-04T12:37:51.433431Z"/>
+<entry
+   committed-rev="4218"
+   name="PlayButton.bmp"
+   text-time="2006-03-22T15:24:47.124323Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="814deb10da2e2b6c68e506e2373b4062"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:38.561911Z"/>
+<entry
+   committed-rev="4213"
+   name="afxres.h"
+   text-time="2006-03-22T15:24:47.139948Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="805a9c0ea56215eab7e36a4efe9e1976"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:24:38.952534Z"/>
+</wc-entries>

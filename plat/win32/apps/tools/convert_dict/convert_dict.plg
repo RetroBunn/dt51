@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: convert_dict - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSPE9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/convert_dict.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\work\convert_dict\convert_dict.c"
+]
+Creating command line "cl.exe @C:\TEMP\RSPE9.tmp" 
+Creating temporary file "C:\TEMP\RSPEA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/convert_dict.pdb" /debug /machine:I386 /out:"Debug/convert_dict.exe" /pdbtype:sept 
+.\Debug\convert_dict.obj
+]
+Creating command line "link.exe @C:\TEMP\RSPEA.tmp"
+<h3>Output Window</h3>
+Compiling...
+convert_dict.c
+Linking...
+
+
+
+<h3>Results</h3>
+convert_dict.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

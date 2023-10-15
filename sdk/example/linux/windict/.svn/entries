@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/linux/windict"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4214"
+   name="Makefile.in"
+   text-time="2006-03-22T15:28:03.808424Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="2eb354b61bd15ae8d848c1c35fdbe868"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:02.355327Z"/>
+<entry
+   committed-rev="4214"
+   name="windict.c"
+   text-time="2006-03-22T15:28:03.855298Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="3cfb30a739aa4f7a5be938f501c6e774"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.027189Z"/>
+<entry
+   committed-rev="4218"
+   name="windict.gif"
+   text-time="2006-03-22T15:28:03.870923Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="221d7ff093f234291099fe18c6f901ac"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.074063Z"/>
+<entry
+   committed-rev="4214"
+   name="Imakefile"
+   text-time="2006-03-22T15:28:03.870923Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="5a4a0a14bb6dc80c73a7e37315183778"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.152186Z"/>
+<entry
+   committed-rev="4218"
+   name="foo.tab"
+   text-time="2006-03-22T15:28:03.902172Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="993ac36e2773d15125fc97e6d91c5e51"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.167811Z"/>
+<entry
+   committed-rev="4214"
+   name="windict.uil"
+   text-time="2006-03-22T15:28:03.902172Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="bcb160df14d8ed265fa0d9e31b11b5b9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.386557Z"/>
+<entry
+   committed-rev="4214"
+   name="compile_dict.c"
+   text-time="2006-03-22T15:28:03.949046Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="a216dc805b67f0e10887e6dbb60395b0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.558429Z"/>
+<entry
+   committed-rev="4214"
+   name="ptab.h"
+   text-time="2006-03-22T15:28:03.964671Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="098eddbcc361ab8bac52a2b19a06704a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.667801Z"/>
+<entry
+   committed-rev="4214"
+   name="windict_version.h"
+   text-time="2006-03-22T15:28:03.980295Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="d9d5125003481fdcc427045dd2242445"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.714676Z"/>
+<entry
+   committed-rev="4214"
+   name="Makefile"
+   text-time="2006-03-22T15:28:03.995920Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="b8f1a5189d80b27d20ce3a125f736a81"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.730300Z"/>
+<entry
+   committed-rev="4214"
+   name="windic.c"
+   text-time="2006-03-22T15:28:04.011545Z"
+   committed-date="2006-03-18T04:38:33.307716Z"
+   checksum="711598486e9a5b09bf89f40e2f742418"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:03.792799Z"/>
+</wc-entries>

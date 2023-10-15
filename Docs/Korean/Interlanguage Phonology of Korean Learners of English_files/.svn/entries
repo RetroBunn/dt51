@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5422"
+   name=""
+   committed-date="2006-07-20T22:28:19.834750Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Korean/Interlanguage%20Phonology%20of%20Korean%20Learners%20of%20English_files"
+   last-author="maryh"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5422"
+   name="epen_c2.gif"
+   text-time="2006-07-21T19:51:24.171875Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="988fd100368a5c924b3b823c0a0191e2"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.343750Z"/>
+<entry
+   committed-rev="5422"
+   name="v_sub.gif"
+   text-time="2006-07-21T19:51:24.187500Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="5a35c2b00e31772c82dcc50b48e69771"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.375000Z"/>
+<entry
+   committed-rev="5422"
+   name="aa.gif"
+   text-time="2006-07-21T19:51:24.203125Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="407a488defd5c4c373b360fd80827072"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.390625Z"/>
+<entry
+   committed-rev="5422"
+   name="stop_it.gif"
+   text-time="2006-07-21T19:51:24.218750Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="2cf86fadf14d062eefc1e6afa3cac2b9"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.421875Z"/>
+<entry
+   committed-rev="5422"
+   name="zh.gif"
+   text-time="2006-07-21T19:51:24.234375Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="e1719d9ad0e8557753c224306b834d5b"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.468750Z"/>
+<entry
+   committed-rev="5422"
+   name="ae.gif"
+   text-time="2006-07-21T19:51:24.250000Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="9a9b9c650050b363463d5e64ff028b5d"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.500000Z"/>
+<entry
+   committed-rev="5422"
+   name="epen_a.gif"
+   text-time="2006-07-21T19:51:24.265625Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="1504c048c2e399c0fa64c4da09eb88f0"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.531250Z"/>
+<entry
+   committed-rev="5422"
+   name="blank.gif"
+   text-time="2006-07-21T19:51:24.281250Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="692e4c4ac8f10d5f34bb7c3cc3d70fde"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.578125Z"/>
+<entry
+   committed-rev="5422"
+   name="ah.gif"
+   text-time="2006-07-21T19:51:24.312500Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="09373ecc3eddaac86681cfc94a5e680f"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.625000Z"/>
+<entry
+   committed-rev="5422"
+   name="uu.gif"
+   text-time="2006-07-21T19:51:24.328125Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="879b6224593d66c6536bc1f8b04e4a34"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.656250Z"/>
+<entry
+   committed-rev="5422"
+   name="ch.gif"
+   text-time="2006-07-21T19:51:24.359375Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="3cb98949c7ebe8be84b613b614720bcb"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.937500Z"/>
+<entry
+   committed-rev="5422"
+   name="c_sub.gif"
+   text-time="2006-07-21T19:51:24.375000Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="4e365034f0b3275593d5f6599a72f7c3"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.968750Z"/>
+<entry
+   committed-rev="5422"
+   name="jh.gif"
+   text-time="2006-07-21T19:51:24.390625Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="85ccbe9554b1d628804364140213d61f"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.000000Z"/>
+<entry
+   committed-rev="5422"
+   name="h_high.jpg"
+   text-time="2006-07-21T19:51:24.406250Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="b68465a11ffa3f7d009fe073b855d2ab"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.015625Z"/>
+<entry
+   committed-rev="5422"
+   name="n_ins_ex.gif"
+   text-time="2006-07-21T19:51:24.421875Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="ac3f7ed8b31934a053e8432b22dd7759"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.031250Z"/>
+<entry
+   committed-rev="5422"
+   name="k_e_stop.gif"
+   text-time="2006-07-21T19:51:24.437500Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="e0d4580ce34b2eaa1ce4e2889f405521"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.046875Z"/>
+<entry
+   committed-rev="5422"
+   name="ng.gif"
+   text-time="2006-07-21T19:51:24.453125Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="7009e414796d14ab2f5010d345ab52f3"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.062500Z"/>
+<entry
+   committed-rev="5422"
+   name="epen_b1.gif"
+   text-time="2006-07-21T19:51:24.468750Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="1504c048c2e399c0fa64c4da09eb88f0"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.078125Z"/>
+<entry
+   committed-rev="5422"
+   name="epen_c1.gif"
+   text-time="2006-07-21T19:51:24.515625Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="bba68ebc5a18f785218fa0c978c36eaf"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.093750Z"/>
+<entry
+   committed-rev="5422"
+   name="epen_b2.gif"
+   text-time="2006-07-21T19:51:24.531250Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="3051db17f040f9d0853bd9e38d5ec8bd"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.125000Z"/>
+<entry
+   committed-rev="5422"
+   name="sh.gif"
+   text-time="2006-07-21T19:51:24.546875Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="3816a1edd3551d17c6baaa2bd562e23f"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.140625Z"/>
+</wc-entries>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5750"
+   name=""
+   committed-date="2006-09-13T18:53:48.451704Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/LTS/japan"
+   last-author="mschnee"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4208"
+   name="ile_rnsc.c"
+   text-time="2006-03-22T15:29:16.166409Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="4e090b530eccd5eb1e716fd7e9028c8a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:10.650890Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_accp.c"
+   text-time="2006-03-22T15:29:16.307032Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="383632e5f3c5b42a9e1d78ecc64506d0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:10.791513Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_idic.c"
+   text-time="2006-03-22T15:29:16.416405Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="1f4e357ae4eb759c1f6ce54d5e1fbc79"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:10.947760Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_edic.h"
+   text-time="2006-03-22T15:29:16.510153Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="3e95e09bae1720b4087bc207c9ca0dec"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.119631Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_data.c"
+   text-time="2006-03-22T15:29:16.494528Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="c301d54c1a9da1bc8e359380b8b2e835"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.057133Z"/>
+<entry
+   committed-rev="4208"
+   name="dustytypes.h"
+   text-time="2006-03-22T15:29:16.463279Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="fdfafad692fa60c2d565933e61c97c11"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:10.979009Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_fddh.h"
+   text-time="2006-03-22T15:29:16.635150Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="073384ca7a49219aff6b8aaaa10cba78"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.291503Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_rnsc.h"
+   text-time="2006-03-22T15:29:16.619526Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="fe6046aee4d59354af152413400eb713"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.229004Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_v5ch.h"
+   text-time="2006-03-22T15:29:16.588276Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="99f7d503be381aabbf65777b55310503"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.182130Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_idic.h"
+   text-time="2006-03-22T15:29:16.650775Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="71030a4f9c05ce464111563e57602108"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.322752Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_bufc.c"
+   text-time="2006-03-22T15:29:16.666400Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="15470adebe1393ebf5cc807e2549058f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.354002Z"/>
+<entry
+   committed-rev="4208"
+   name="pkind.h"
+   text-time="2006-03-22T15:29:16.682025Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="c849e0d7d11612d55acdbff17944d118"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.463375Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_jknc.c"
+   text-time="2006-03-22T15:29:16.713274Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="2a452c18b98961df2082d21b89e1750c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.557123Z"/>
+<entry
+   committed-rev="4454"
+   name="ile_bunc.c"
+   text-time="2006-03-22T16:22:00.204394Z"
+   committed-date="2006-04-04T21:50:23.617659Z"
+   checksum="c7c344a7c15151822e253fb9e9f5905e"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.635246Z"/>
+<entry
+   committed-rev="4208"
+   name="onsei.h"
+   text-time="2006-03-22T15:29:16.869521Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="508e21a507a663ec08d28831d12b54b0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.775869Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_stcc.c"
+   text-time="2006-03-22T15:44:57.534048Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="43707ad674bf66ca3e0be1c811572c93"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.807118Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_stzh.h"
+   text-time="2006-03-22T15:29:16.947644Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="b8a1bd7766ead90ee0f7a6d732495a1a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.900866Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_dbgc.c"
+   text-time="2006-03-22T15:29:16.963269Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="cd395e9479503308b7c4c23e4ea834e7"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.932116Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_func.h"
+   text-time="2006-03-22T15:29:16.978894Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="6b357ee60bb6a70cb4ef2b53e7653db2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:11.978990Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_sskc.c"
+   text-time="2006-03-22T15:29:16.994519Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="87714c854b2ad808740f9862e3a62589"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:12.025864Z"/>
+<entry
+   committed-rev="4880"
+   name="ile_mruc.c"
+   text-time="2006-05-16T14:46:23.508234Z"
+   committed-date="2006-05-15T21:43:37.812784Z"
+   checksum="34c95b67a9f2078b32968ed95f85aa10"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-05-16T14:46:23.101994Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_nydh.h"
+   text-time="2006-03-22T15:29:17.057017Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="411c0704010e7a52789e916cb79d6d5a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:12.088363Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_kana.c"
+   text-time="2006-03-22T15:29:17.072642Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="97c01e2288f0b293d9ba8947654f0234"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:12.135237Z"/>
+<entry
+   committed-rev="4208"
+   name="lib_shdc.c"
+   text-time="2006-03-22T15:29:17.103891Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="6733c6fbbea94fa97bfecc5f7f85f639"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:12.197736Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_hnkc.c"
+   text-time="2006-03-22T15:29:17.119516Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="81a5c5774c7883d58080f71f6f67e114"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:12.744600Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_kkhh.h"
+   text-time="2006-03-22T15:29:17.135141Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="342ab17e689eaeffe7a35afa67ef9a4e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:12.791474Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_shdh.h"
+   text-time="2006-03-22T15:29:17.182015Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="e262f6c27ed79bae992f0d12ef52e545"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:12.838348Z"/>
+<entry
+   committed-rev="4208"
+   name="acc_1000.c"
+   text-time="2006-03-22T15:29:17.197640Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="32f350ca2529efad7d690d1cfb4b1030"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:12.963346Z"/>
+<entry
+   committed-rev="5587"
+   name="stdonsei.c"
+   text-time="2006-08-18T21:20:24.973212Z"
+   committed-date="2006-08-18T20:59:13.673264Z"
+   checksum="d95c9dba75ba61a57cf9c8e796d7e57e"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-08-18T21:20:24.941963Z"/>
+<entry
+   committed-rev="5251"
+   name="mkhatu.c"
+   text-time="2006-06-27T15:28:02.734375Z"
+   committed-date="2006-06-26T21:03:54.370271Z"
+   checksum="2c50695f51e659ce80f06d67b3e4f04a"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-06-27T15:28:02.078125Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_v5cc.c"
+   text-time="2006-03-22T15:29:17.307013Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="4f79cf6282e63e3cf8690b970ad13325"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:13.322714Z"/>
+<entry
+   committed-rev="4208"
+   name="acc_5000.c"
+   text-time="2006-03-22T15:29:17.322637Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="de971bdd69a02763bb45d9b917f6e717"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:13.432087Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_numc.c"
+   text-time="2006-03-22T15:29:17.338262Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="1fcfd98e57b4b1737e259e7a257c54c2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:13.510210Z"/>
+<entry
+   committed-rev="4208"
+   name="stdonsei.h"
+   text-time="2006-03-22T15:29:17.353887Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="c16e4f148a29157bc55a91a044632b09"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:13.557085Z"/>
+<entry
+   committed-rev="5251"
+   name="ile_errh.h"
+   text-time="2006-06-27T15:28:02.750000Z"
+   committed-date="2006-06-26T21:03:54.370271Z"
+   checksum="96a6c4d80e43591f8e106dddae0e37be"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-06-27T15:28:02.156250Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_envh.h"
+   text-time="2006-03-22T15:29:17.369511Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="9e488e03612a6437ad6f89eaf21b3371"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:13.603959Z"/>
+<entry
+   committed-rev="5750"
+   name="onsei_s.h"
+   text-time="2006-08-16T17:22:18.000000Z"
+   committed-date="2006-09-13T18:53:48.451704Z"
+   checksum="7f533a2794ff6f80240f8b88f56a03d7"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-06-27T15:28:02.468750Z"/>
+<entry
+   committed-rev="4208"
+   name="dsp_roma.c"
+   text-time="2006-03-22T15:29:17.400761Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="ebc6cb0d45d75a78d1bcc8ab74448484"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:13.635208Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_mjzh.h"
+   text-time="2006-03-22T15:29:17.463260Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="18761de45618ef4383121653c168aa12"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:13.791455Z"/>
+<entry
+   committed-rev="4208"
+   name="onseiapi.h"
+   text-time="2006-03-22T15:29:17.557008Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="e20930fc9716e505b15e0c808e2e50b0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.025826Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_stzc.c"
+   text-time="2006-03-22T15:44:57.502799Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="ff74b1503e0f112758178198738386e9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:13.885203Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_nydc.c"
+   text-time="2006-03-22T15:29:17.572632Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="e2a9b1ae289e0383693bbfa87ec11be5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.103949Z"/>
+<entry
+   committed-rev="4208"
+   name="acc_2000.c"
+   text-time="2006-03-22T15:29:17.588257Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="bec1c68d842aa08c6d6d28d77e06fe9e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.322695Z"/>
+<entry
+   committed-rev="5251"
+   name="Japanese2Romanji.c"
+   text-time="2006-06-27T15:28:02.859375Z"
+   committed-date="2006-06-26T21:03:54.370271Z"
+   checksum="5d25d0f1e6ca1c69a06f198bd82de681"
+   last-author="mkauntz"
+   kind="file"
+   prop-time="2006-06-27T15:28:02.578125Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_jknh.h"
+   text-time="2006-03-22T15:29:17.650756Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="869d0e3ce077ffabe531a845f0adfff0"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.353944Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_bunh.h"
+   text-time="2006-03-22T15:29:17.682005Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="74ddf508f1446d06aa42d3037632c7e3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.713312Z"/>
+<entry
+   committed-rev="4208"
+   name="acc_000x.c"
+   text-time="2006-03-22T15:29:17.697630Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="a80aa1abcbf2a23e82db61461e346ad1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.744562Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_stch.h"
+   text-time="2006-03-22T15:29:17.713255Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="1fdbf8da01aac4958959d040b9e75503"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.775811Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_dbgh.h"
+   text-time="2006-03-22T15:29:17.807003Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="02ebdcccd5de083117d080442c2265ad"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.822685Z"/>
+<entry
+   committed-rev="4454"
+   name="lib_genc.c"
+   text-time="2006-03-23T18:32:24.907733Z"
+   committed-date="2006-04-04T21:50:23.617659Z"
+   checksum="af353e856e3ce8de4f28ff48d1d84765"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.807061Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_sskh.h"
+   text-time="2006-03-22T15:29:17.807003Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="670ee1925677322358bfeda581f922a6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.853935Z"/>
+<entry
+   committed-rev="4208"
+   name="acc_22xx.c"
+   text-time="2006-03-22T15:29:17.885126Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="1b67796cebac14c5f3d766937c84cd40"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.041431Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_kkhc.c"
+   text-time="2006-03-22T15:29:17.869502Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="0585d26dbd28df69444daf4266eebf30"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.932058Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_mruh.h"
+   text-time="2006-03-22T15:29:17.838252Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="e82418eef33383aa9b3bca687dd1244d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:14.885184Z"/>
+<entry
+   committed-rev="4208"
+   name="entrypt.h"
+   text-time="2006-03-22T15:29:17.900751Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="295a6a6e838feeaf7c3c5f16ab4c69de"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.057056Z"/>
+<entry
+   committed-rev="4208"
+   name="acc_24xx.c"
+   text-time="2006-03-22T15:29:17.916376Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="c48e78b9249021bf24f5a9123edf75fd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.182053Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_tdic.c"
+   text-time="2006-03-22T15:29:17.932001Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="4c39f76670a61c45f1715b2b93a99422"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.338300Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_tdic.h"
+   text-time="2006-03-22T15:29:17.947625Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="902575515c6da8899e9da1862ed97dc3"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.353925Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_accd.c"
+   text-time="2006-03-22T15:29:17.963250Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="75c27d20429d68b3665a7e8fe977b617"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.385174Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_errc.c"
+   text-time="2006-03-22T15:29:17.978875Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="731af70bd6a884825e2c86f0083634f6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.541421Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_envc.c"
+   text-time="2006-03-22T15:29:17.978875Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="b5fe4b6a5b418f82ede63ea1595b0735"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.478923Z"/>
+<entry
+   committed-rev="4208"
+   name="ttsja.c"
+   text-time="2006-03-22T15:29:17.994499Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="994d7e7610e16c8af287939fb0f5cc7c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.619545Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_othc.c"
+   text-time="2006-03-22T15:29:18.010124Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="7e410880277c251508ef654a2facc65b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.713293Z"/>
+<entry
+   committed-rev="4454"
+   name="ile_rtgc.c"
+   text-time="2006-03-22T15:41:56.288688Z"
+   committed-date="2006-04-04T21:50:23.617659Z"
+   checksum="a80d1968d023c92b590f7a18f329f6cb"
+   last-author="mschnee"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.760167Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_accd.h"
+   text-time="2006-03-22T15:29:18.088248Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="9fdccd1fd524afe1f8a6f381eb560188"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.838291Z"/>
+<entry
+   committed-rev="4208"
+   name="acc_3000.c"
+   text-time="2006-03-22T15:29:18.103872Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="d25c28ff3fca4b5d7db9d3e48eef98db"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.900790Z"/>
+<entry
+   committed-rev="4218"
+   name="onsei.dic"
+   text-time="2006-03-22T15:29:19.260100Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="9ad818608b26680e1e549452a425ef89"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.916414Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_suhc.c"
+   text-time="2006-03-22T15:29:19.260100Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="5769fc17eacd71379cd7f0fc29c3202e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.963288Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_rtkc.c"
+   text-time="2006-03-22T15:29:19.275725Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="0db740a04e338075e6bc7602e10c1f26"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:15.994538Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_acch.h"
+   text-time="2006-03-22T15:29:19.291349Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="3e257c80d35d9b34a14cdbb3859189f6"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:16.041412Z"/>
+<entry
+   committed-rev="4208"
+   name="ile_edic.c"
+   text-time="2006-03-22T16:21:01.595019Z"
+   committed-date="2006-03-18T01:46:35.526573Z"
+   checksum="6c945194629faa17c7ff61b8c9b999ed"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:29:16.072661Z"/>
+</wc-entries>

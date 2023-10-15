@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6147"
+   name=""
+   committed-date="2006-10-26T17:14:56.841500Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/dapicore/VTM_464"
+   last-author="bmoncur"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="6147"
+   name="vfmd2pol.h"
+   text-time="2006-10-26T17:24:16.312663Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="167f50e3ea016d711b90c8a43ddf8a2d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:07.093913Z"/>
+<entry
+   committed-rev="6147"
+   name="vfmfiltr.h"
+   text-time="2006-10-26T17:24:16.328288Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="6a3ad24dd49e6b5ca68e98ead21f1e6a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:07.109538Z"/>
+<entry
+   committed-rev="6147"
+   name="vtmiont.c"
+   text-time="2006-10-26T17:24:16.359538Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="a2210d4a5005d8438d95d899f14aa4bc"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:07.922038Z"/>
+<entry
+   committed-rev="6147"
+   name="Makefile.in"
+   text-time="2006-10-26T17:24:16.375163Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="240e35f463e6558735b6907b8e973f94"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:07.937663Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_idef.h"
+   text-time="2006-10-26T17:24:16.375163Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="b78db5c5d599ac48db11494b455404c3"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:08.031413Z"/>
+<entry
+   committed-rev="6147"
+   name="vtmtabf.h"
+   text-time="2006-10-26T17:24:16.390788Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="fe2fcc8aa63e8e41f6d7e1f418834f50"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:08.843913Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_iman.c"
+   text-time="2006-10-26T17:24:16.406413Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="6925888fdff059bea308e6da8824580f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:08.859538Z"/>
+<entry
+   committed-rev="6147"
+   name="vismprat.h"
+   text-time="2006-10-26T17:24:16.422038Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="7a34fa8b38030d47add109e2c7b7e043"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:08.890788Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_f.c"
+   text-time="2006-10-26T17:24:16.437663Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="46aadfc01d422b7fe209418e0bb15164"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:09.203288Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_i.c"
+   text-time="2006-10-26T17:24:16.453288Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="0b75ed809bf6e6a9e7f52c3cf20de3e8"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:09.375163Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_f.h"
+   text-time="2006-10-26T17:24:16.468913Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="219a7117e6b6bd520288668e18c0ad53"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:09.609538Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_i.h"
+   text-time="2006-10-26T17:24:16.484538Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="1adba0be521a2a0b9fbf47a5fa1cc7af"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:09.640788Z"/>
+<entry
+   committed-rev="6147"
+   name="vtmfunc.h"
+   text-time="2006-10-26T17:24:16.500163Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="c9a4486793aa2e1d680ab57bc08104dd"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:09.672038Z"/>
+<entry
+   committed-rev="6147"
+   name="sinetab.h"
+   text-time="2006-10-26T17:24:16.515788Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="e0d21af56dcdbf7902da1d7819d4cc12"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:09.812663Z"/>
+<entry
+   committed-rev="6147"
+   name="playtone.c"
+   text-time="2006-10-26T17:24:16.531413Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="8eeae7a437de67943e6e29d400f9dc4c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:09.859538Z"/>
+<entry
+   committed-rev="6147"
+   name="Makefile"
+   text-time="2006-10-26T17:24:16.547038Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="ea306c424af29dd827953409a4e50f6d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:09.922038Z"/>
+<entry
+   committed-rev="6147"
+   name="vtmio.c"
+   text-time="2006-10-26T17:24:16.562663Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="d89cbbb5a95afa689d395c0472ea5fef"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.203288Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_fdef.h"
+   text-time="2006-10-26T17:24:16.578288Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="2d5743fbdfcae4699b288e5afc58f9d2"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.281413Z"/>
+<entry
+   committed-rev="6147"
+   name="vtmfunci.h"
+   text-time="2006-10-26T17:24:16.593913Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="8ceead80696bc3a0219078f877af0ef7"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.375163Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm.c"
+   text-time="2006-10-26T17:24:16.609538Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="01c0d85d84197b1ff4ec54c27703269d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.390788Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_fman.c"
+   text-time="2006-10-26T17:24:16.625163Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="94dfe6980e88e6378b03c0c9a149443c"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.422038Z"/>
+<entry
+   committed-rev="6147"
+   name="decvoc_f.c"
+   text-time="2006-10-26T17:24:16.640788Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="f110496f30c53024958b8ae377d0498f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.453288Z"/>
+<entry
+   committed-rev="6147"
+   name="vtminst.h"
+   text-time="2006-10-26T17:24:16.656413Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="66e64a4616b28d53d94d8dc526d3fda2"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.484538Z"/>
+<entry
+   committed-rev="6147"
+   name="vfphdefs.h"
+   text-time="2006-10-26T17:24:16.672038Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="0c41309a3e15983097c9251c9154151a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.515788Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm.h"
+   text-time="2006-10-26T17:24:16.687663Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="411dab91bf897e6617756b790214b069"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.609538Z"/>
+<entry
+   committed-rev="6147"
+   name="decvoc_i.c"
+   text-time="2006-10-26T17:24:16.703288Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="7f2b4e69bf4d233e836999a8e76151db"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:10.687663Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm_fa.c"
+   text-time="2006-10-26T17:24:16.718913Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="d0af839b5571643cecb6f473a2268323"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:12.265788Z"/>
+<entry
+   committed-rev="6147"
+   name="sync.c"
+   text-time="2006-10-26T17:24:16.734538Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="a026e4102ffb03a0fefd6e7a84f92793"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:12.687663Z"/>
+<entry
+   committed-rev="6147"
+   name="viphdefs.h"
+   text-time="2006-10-26T17:24:16.750163Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="f491f539c716b2012eb8ecb02dadaf3f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:12.890788Z"/>
+<entry
+   committed-rev="6147"
+   name="tunecheck.h"
+   text-time="2006-10-26T17:24:16.765788Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="7b1e734304ce52be666cfa04c7c9af55"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:12.922038Z"/>
+<entry
+   committed-rev="6147"
+   name="vtmtable.c"
+   text-time="2006-10-26T17:24:16.781413Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="764187ae780f30e60fc948906fbb8c89"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:12.937663Z"/>
+<entry
+   committed-rev="6147"
+   name="vtmtable.h"
+   text-time="2006-10-26T17:24:16.797038Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="7aecd5384032af558a7380f93d248c50"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:13.281413Z"/>
+<entry
+   committed-rev="6147"
+   name="fvtmtabl.h"
+   text-time="2006-10-26T17:24:16.812663Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="153a0f89cfef6954bc596184ae668857"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:13.718913Z"/>
+<entry
+   committed-rev="6147"
+   name="vfport.h"
+   text-time="2006-10-26T17:24:16.828288Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="c99483c2ae9cd7968ec653cd3a085f5f"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:13.781413Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm1.c"
+   text-time="2006-10-26T17:24:16.843913Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="83b2f631fe341df2a572281323fc1a65"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:14.218913Z"/>
+<entry
+   committed-rev="6147"
+   name="vtmtabli.h"
+   text-time="2006-10-26T17:24:16.859538Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="fd3d37816163b38fc894222e0a315f4d"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:14.609538Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm2.c"
+   text-time="2006-10-26T17:24:16.875163Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="2f6160e27958a39d6206d83072470e0a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:15.672038Z"/>
+<entry
+   committed-rev="6147"
+   name="viport.h"
+   text-time="2006-10-26T17:24:16.890788Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="b9322597cabc4a44e799969ccf71de9a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:15.718913Z"/>
+<entry
+   committed-rev="6147"
+   name="vtm3.c"
+   text-time="2006-10-26T17:24:16.906413Z"
+   committed-date="2006-10-26T17:14:56.841500Z"
+   checksum="627206d9fcee22ba1cd474db1587ec8a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-10-26T17:24:16.297038Z"/>
+</wc-entries>

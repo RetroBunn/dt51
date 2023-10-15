@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4215"
+   name=""
+   committed-date="2006-03-18T04:49:35.817887Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/shared/src/3rdParty/portaudio/pa_common"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4215"
+   name="pa_trace.c"
+   text-time="2006-03-22T15:31:51.413429Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="8bfb23d8a92983305aa5eac8eb6129db"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:51.350930Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_convert.c"
+   text-time="2006-03-22T15:31:51.475927Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="2df2ab81672eadc88b4e427fbeb9f602"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:51.366555Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_host.h"
+   text-time="2006-03-22T15:31:51.554051Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="ceb40077837640af6cdf7a1e3799f0b5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:51.382179Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_trace.h"
+   text-time="2006-03-22T15:31:51.569676Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="29f8aec73faecd635cbd9083e8306044"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:51.382179Z"/>
+<entry
+   committed-rev="4215"
+   name="pa_lib.c"
+   text-time="2006-03-22T15:31:51.600925Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="19edc0a6fdd05f3b50552e2b5f04b3e1"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:51.397804Z"/>
+<entry
+   committed-rev="4215"
+   name="portaudio.h"
+   text-time="2006-03-22T15:31:51.663424Z"
+   committed-date="2006-03-18T04:49:35.817887Z"
+   checksum="17330902e784367971d33849b9cf7f9b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:31:51.397804Z"/>
+</wc-entries>

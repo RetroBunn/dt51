@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/sdk/example/win32/sampleML/MLDemo/res"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.rc2"
+   text-time="2006-03-22T15:28:13.870731Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="ab193d89c476e28a1e51d188c36e8c31"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.823856Z"/>
+<entry
+   committed-rev="4218"
+   name="MLDemo.ico"
+   text-time="2006-03-22T15:28:13.886355Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e3e1ed66c0a0a58bbd5da9f6343b8bf2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.839481Z"/>
+<entry
+   committed-rev="4218"
+   name="demo.rc2"
+   text-time="2006-03-22T15:28:13.917605Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="dc6c4efa595ee485dc734d59315a50fc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.839481Z"/>
+<entry
+   committed-rev="4218"
+   name="demo.ico"
+   text-time="2006-03-22T15:28:14.011353Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="e3e1ed66c0a0a58bbd5da9f6343b8bf2"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:28:13.855106Z"/>
+</wc-entries>

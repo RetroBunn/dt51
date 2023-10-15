@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6055"
+   name=""
+   committed-date="2006-10-17T22:17:05.125193Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/Docs/Korean"
+   last-author="maryh"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="5739"
+   name="Koreamonopthongs produced by male and female speakers.pdf"
+   text-time="2006-09-13T18:50:30.402085Z"
+   committed-date="2006-09-12T19:48:30.345620Z"
+   checksum="e1fb269518b6d7566c244bd33d1fd639"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-13T18:50:21.199196Z"/>
+<entry
+   name="Interlanguage Phonology of Korean Learners of English_files"
+   kind="dir"/>
+<entry
+   committed-rev="5504"
+   name="KoreanCheck_report060606-5_feedback from Sun_Ah.xls"
+   text-time="2006-08-07T15:12:40.062500Z"
+   committed-date="2006-08-03T22:40:00.378876Z"
+   checksum="ee243f4d09c62a62e8814f281ab41dc4"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-08-07T15:12:39.937500Z"/>
+<entry
+   committed-rev="5767"
+   name="Context Effects of the Vowel Spaces of Native Korean Speakers.pdf"
+   text-time="2006-09-15T12:31:04.526715Z"
+   committed-date="2006-09-15T01:51:16.983388Z"
+   checksum="150fee1f0f1778a372144fe462dc3312"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-15T12:30:51.386511Z"/>
+<entry
+   committed-rev="5159"
+   name="KrRules.doc"
+   text-time="2006-06-27T15:28:17.468750Z"
+   committed-date="2006-06-12T21:18:09.773439Z"
+   checksum="5ff12b5753dacfeb126958a9bd486a03"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-06-27T15:28:17.156250Z"/>
+<entry
+   name="TextNormalization"
+   kind="dir"/>
+<entry
+   committed-rev="5422"
+   name="Tense and Lax Stops in Korean.pdf"
+   text-time="2006-07-21T19:52:19.343750Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="2d244bacce7f4753a9c789dd046ba4d7"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:27.015625Z"/>
+<entry
+   committed-rev="5422"
+   name="Acoustic Cues for the Korean stop Contrast.pdf"
+   text-time="2006-07-21T19:52:19.375000Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="37778dbe4ff716327d171126f6793198"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:27.703125Z"/>
+<entry
+   committed-rev="4719"
+   name="Annyonghaseyo.bmp"
+   text-time="2006-05-03T17:00:07.109375Z"
+   committed-date="2006-04-28T20:48:19.041406Z"
+   checksum="931ea69b32ac0921a166094702e22c62"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-05-03T17:00:05.593750Z"/>
+<entry
+   committed-rev="4719"
+   name="annyonghaseyo-sound.wav"
+   text-time="2006-05-03T17:00:07.437500Z"
+   committed-date="2006-04-28T20:48:19.041406Z"
+   checksum="e5e9aa0012f81df1efacb671231e07e7"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-05-03T17:00:06.812500Z"/>
+<entry
+   committed-rev="4810"
+   name="Korean_test_sentences-sj.xls"
+   text-time="2006-05-09T18:18:03.703125Z"
+   committed-date="2006-05-09T17:06:08.251676Z"
+   checksum="4747d4d6f54d2bc122c6ba5262df9119"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-05-09T18:18:03.218750Z"/>
+<entry
+   committed-rev="5422"
+   name="Acoustic and aerodynamic correlates to Korean stops and fricatives.pdf"
+   text-time="2006-07-21T19:52:19.437500Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="3e9880e1ae0ac784a680c22a205e86a9"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:36.328125Z"/>
+<entry
+   committed-rev="5422"
+   name="koreanfricatives.pdf"
+   text-time="2006-07-21T19:52:19.578125Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="cb388fe60dd75662aeaac03dd1b1004b"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:52:19.140625Z"/>
+<entry
+   committed-rev="5757"
+   name="On the Nature of Korean Wh-Expressions.pdf"
+   text-time="2006-09-15T12:31:04.870454Z"
+   committed-date="2006-09-14T16:22:45.825116Z"
+   checksum="ce12995e59b9fc4ebbcb337982fbb4f0"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-15T12:30:56.511347Z"/>
+<entry
+   committed-rev="5767"
+   name="The production and perception of word-level prosody in Korean.pdf"
+   text-time="2006-09-15T12:31:04.745458Z"
+   committed-date="2006-09-15T01:51:16.983388Z"
+   checksum="580ff141cfcd0f1d002dc346fa9c05b2"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-15T12:30:52.777091Z"/>
+<entry
+   committed-rev="6055"
+   name="RevisionHistory.kr.txt"
+   text-time="2006-10-18T13:27:37.940658Z"
+   committed-date="2006-10-17T22:17:05.125193Z"
+   checksum="e8a12bfe492b854b85512fa3576f034d"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-10-18T13:27:37.925033Z"/>
+<entry
+   committed-rev="4218"
+   name="Korean symbols_Pascii_IPA_Fonixbet_Arpabet.xls"
+   text-time="2006-03-22T15:02:29.994787Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="f5df340a312f29478006830eb6f5746c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:02:29.494803Z"/>
+<entry
+   committed-rev="4697"
+   name="CASIO_KOREANCH.xls"
+   text-time="2006-04-28T13:58:14.046875Z"
+   committed-date="2006-04-27T22:46:36.968048Z"
+   checksum="1f3e3d88b842eb9eda329a3a9ce36651"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-04-28T13:58:13.984375Z"/>
+<entry
+   name="Feedback from Sun-Ah"
+   kind="dir"/>
+<entry
+   committed-rev="5422"
+   name="Ternary Scales  Extensions Speculations and Conclusions.rtf"
+   text-time="2006-07-21T19:52:19.203125Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="1547e80189f96970bd97fc6fd9e79204"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:23.078125Z"/>
+<entry
+   committed-rev="4319"
+   name="Korean Intonation_correspondance_Sun-Ah.doc"
+   text-time="2006-04-06T18:04:09.828125Z"
+   committed-date="2006-03-27T16:46:28.765082Z"
+   checksum="4a64eaa69b4dff0a9833daa9fdde5436"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-04-06T18:04:06.750000Z"/>
+<entry
+   committed-rev="5422"
+   name="Interlanguage Phonology of Korean Learners of English.htm"
+   text-time="2006-07-21T19:52:19.312500Z"
+   committed-date="2006-07-20T22:28:19.834750Z"
+   checksum="23b3c656e752098ed6e6da1b74c86498"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-07-21T19:51:24.593750Z"/>
+<entry
+   committed-rev="5226"
+   name="DECtalk 5.1 Korean Focus list.doc"
+   text-time="2006-06-27T15:28:17.453125Z"
+   committed-date="2006-06-20T21:37:28.248768Z"
+   checksum="ff5368a23bcfaa759f9aadb2cb64e1e8"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-06-27T15:28:17.109375Z"/>
+<entry
+   committed-rev="5767"
+   name="Letter-to-sound rules for Korean.pdf"
+   text-time="2006-09-15T12:31:04.901703Z"
+   committed-date="2006-09-15T01:51:16.983388Z"
+   checksum="a74b72400c2e8977fa3e921cd43be12b"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-15T12:31:01.745554Z"/>
+<entry
+   committed-rev="5760"
+   name="A New Korean Speech Synthesis System &amp; Temporal Model.pdf"
+   text-time="2006-09-15T12:31:05.229818Z"
+   committed-date="2006-09-14T18:47:54.576547Z"
+   checksum="5d5196de2df6349cf1e80b4764a90b9a"
+   last-author="barthols"
+   kind="file"
+   prop-time="2006-09-15T12:31:02.120542Z"/>
+<entry
+   committed-rev="5740"
+   name="Measurement and synthesis of the vocal tract of Korean Monophyhongs by MRI.pdf"
+   text-time="2006-09-13T18:50:30.448959Z"
+   committed-date="2006-09-12T21:46:35.504402Z"
+   checksum="5fbd70ec859680905c9b615d01f6b5ca"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-13T18:50:29.761476Z"/>
+<entry
+   committed-rev="4514"
+   name="CP949.ksc.TXT"
+   text-time="2006-04-24T19:11:36.718079Z"
+   committed-date="2006-04-10T20:01:46.238486Z"
+   checksum="928f8adb7d3220b3281b9159657ee486"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-04-24T19:11:34.796253Z"/>
+<entry
+   committed-rev="5767"
+   name="Duration Models and the Perceptual Evaluation of  Spoken Korean.pdf"
+   text-time="2006-09-15T12:31:05.417312Z"
+   committed-date="2006-09-15T01:51:16.983388Z"
+   checksum="228ea3edd7ba8f503f8c235c7666bf5f"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-15T12:31:03.667368Z"/>
+<entry
+   committed-rev="5740"
+   name="Consonantal and prosodic influences on Korean vowel duration.pdf"
+   text-time="2006-09-13T18:50:30.495833Z"
+   committed-date="2006-09-12T21:46:35.504402Z"
+   checksum="77e0234c41aac8dc142b3cd746c4832d"
+   last-author="maryh"
+   kind="file"
+   prop-time="2006-09-13T18:50:30.370836Z"/>
+<entry
+   name="DECTalkWaves"
+   kind="dir"/>
+<entry
+   committed-rev="5762"
+   name="Korean Speech Synthesis Temporal Model.pdf"
+   text-time="2006-09-15T12:31:05.432936Z"
+   committed-date="2006-09-14T21:06:28.045665Z"
+   checksum="5d5196de2df6349cf1e80b4764a90b9a"
+   last-author="bmoncur"
+   kind="file"
+   prop-time="2006-09-15T12:31:04.479842Z"/>
+</wc-entries>

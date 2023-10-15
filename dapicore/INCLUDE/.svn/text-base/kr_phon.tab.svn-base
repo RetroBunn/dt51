@@ -1,0 +1,259 @@
+/*
+ ***********************************************************************
+ *
+ *                           Copyright ©
+ *	  Copyright © 2000-2001 Force Computers Inc., a Solectron company. All rights reserved.
+ *    © Digital Equipment Corporation 1995. All rights reserved.
+ *
+ *    Restricted Rights: Use, duplication, or disclosure by the U.S.
+ *    Government is subject to restrictions as set forth in subparagraph
+ *    (c) (1) (ii) of DFARS 252.227-7013, or in FAR 52.227-19, or in FAR
+ *    52.227-14 Alt. III, as applicable.
+ *
+ *    This software is proprietary to and embodies the confidential
+ *    technology of Force Computers Incorporated and other parties.
+ *    Possession, use, or copying of this software and media is authorized
+ *    only pursuant to a valid written license from Force or an
+ *    authorized sublicensor.
+ *
+ ***********************************************************************
+ *    File Name:	kr_phon.tab
+ *    Author:		Mary Halbostad
+ *    Creation Date:	02/23/2005
+
+ *    Functionality:
+ *
+ ***********************************************************************
+ *    Revision History:
+ *  001	MLH		02/23/2005	Create Korean Ko_phon.tab file from it_phon.tab
+ */
+
+#ifndef KR_PHONTAB
+#define KR_PHONTAB 1
+
+//#include "kr_def.h"
+#define NULL_ASCKY              0xffff
+#define PKR(x)					((PFKR<<PSFONT) | (x))
+const unsigned char kr_ascky[] = {
+
+/* allophones */
+
+	'_',    'i',    'e',    'A',    'u',    'U',    'x',    'o',
+	'C',	'a',    '1',    '2',    '3',    '4',    '5',    '6',
+	'7',	'8',    '9',	'0',	'w',	'm',    'n',    'N',
+	'p',	'P',    'B',    'b',	't',    'T',    'D',    'd',
+	'k',	'K',    'G',    'g',	's',    'Z',    'S',    'h', 
+	'j',	'l',    'r',	'J', 	'H',    'c',	'W',
+
+/* place holders for null range */
+
+	        0,      0,      0,      0,		0,      0,      0,
+	0,      0,      0,      0,      0,		0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,      0,      0,
+	0,      0,      0,      0,      0,      0,     
+	      
+
+/* control phones */
+
+	'~',    '=',    '`',    '\'',   '"',	'/',	'\\',	'<',	
+	'-',    '*',    '#',    ' ',    '(',    ')',    ';',    ',',
+	'.',    '?',    '!',    '+',	'^' ,	'&',	'>'
+};
+
+const unsigned int kr_ascky_rev[] = {
+
+/* 0x00 */
+
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     PKR(WBOUND),	NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+
+/* 0x10 */
+
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+	NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,     NULL_ASCKY,
+
+/* 0x20 */
+
+	PKR(WBOUND),	PKR(EXCLAIM),	PKR(SEMPH),		PKR(HYPHEN),
+	NULL_ASCKY,		NULL_ASCKY,     NULL_ASCKY,     PKR(S1),
+	PKR(PPSTART),	PKR(VPSTART),	PKR(MBOUND),	PKR(NEW_PARAGRAPH),
+	PKR(COMMA),		PKR(SBOUND),	PKR(PERIOD),	PKR(HAT_RISE),
+
+/* 0x30 */
+
+	PKR(KR_WC),		PKR(KR_YE),		PKR(KR_YH),		PKR(KR_YU),
+	PKR(KR_YO),		PKR(KR_YC),		PKR(KR_YA),		PKR(KR_WI),
+	PKR(KR_WE),		PKR(KR_WH),		PITCH_CHANGE,   PKR(RELSTART),
+	PKR(HAT_RF),	PKR(S3),		NULL_ASCKY,     PKR(QUEST),
+/* 0x40 */
+
+	NULL_ASCKY,		PKR(KR_AE),		PKR(KR_PP),		PKR(KR_AO),
+	PKR(KR_TT),		NULL_ASCKY,		NULL_ASCKY,		PKR(KR_KK),
+	PKR(KR_CH),		NULL_ASCKY,		PKR(KR_JH),		PKR(KR_KH),
+	NULL_ASCKY,		NULL_ASCKY,		PKR(KR_NX),		NULL_ASCKY,
+
+/* 0x50 */
+
+	PKR(KR_PH),		NULL_ASCKY,		NULL_ASCKY,		PKR(KR_SH),
+	PKR(KR_TH),		PKR(KR_UH),		NULL_ASCKY,		PKR(KR_WO),
+	NULL_ASCKY,		NULL_ASCKY,		PKR(KR_SS),		NULL_ASCKY,
+	PKR(HAT_FALL),	NULL_ASCKY,		NULL_ASCKY,		PKR(SIL),
+
+/* 0x60 */
+
+	NULL_ASCKY,		PKR(KR_AA),		PKR(KR_B ),		PKR(KR_CC),
+	PKR(KR_D ),		PKR(KR_EH),		NULL_ASCKY,		PKR(KR_G ),
+	PKR(KR_HX),		PKR(KR_IY),		PKR(KR_Y ),		PKR(KR_K ),
+	PKR(KR_L ),		PKR(KR_M ),		PKR(KR_N ),		PKR(KR_OW),
+
+/* 0x70 */
+
+	PKR(KR_P ),		NULL_ASCKY,		PKR(KR_DF),		PKR(KR_S ),
+	PKR(KR_T ),		PKR(KR_UW),		NULL_ASCKY,		PKR(KR_WA),
+	PKR(KR_UI),		NULL_ASCKY,		NULL_ASCKY,		NULL_ASCKY,
+	NULL_ASCKY,		NULL_ASCKY,		PKR(BLOCK_RULES),	NULL_ASCKY
+};
+
+const unsigned char   kr_arpa[] = {
+
+	'_',    ' ',           /* 0  =  _ */        
+	'i',    'y',           /* 1  =  i */	// pascii 1  // 
+	'e',    'h',           /* 2  =  e */	// pascii 7  // 
+	'a',    'e',           /* 3  =  A */	// pascii 9 //
+	'u',    'w',           /* 4  =  u */	// pascii 17 //
+	'u',    'h',           /* 5  =  U */	// pascii 19 //
+	'u',    'i',           /* 6  =  x */	// pascii 19 1 diphthong // 
+	'o',    'w',           /* 7  =  o */	// pascii 21 //
+	'a',    'o',           /* 8  =  C */	// pascii 23 // 
+	'a',    'a',           /* 9  =  a */	// pascii 24 //	
+	'y',    'e',           /* 10  = 1 */	// pascii 82 7 diphthong //
+	'y',    'h',           /* 11  = 2 */	// pascii 82 9 diphthong //
+	'y',    'u',           /* 12  = 3 */	// pascii 82 17 diphthong //
+	'y',    'o',           /* 13  = 4 */	// pascii 82 21 diphthong //
+	'y',    'c',           /* 14  = 5 */	// pascii 82 23 diphthong //
+	'y',    'a',           /* 15  = 6 */	// pascii 82 24 diphthong //
+	'w',    'i',           /* 16  = 7 */	// pascii 85 1 diphthong //
+	'w',    'e',           /* 17  = 8 */ 	// pascii 85 7 diphthong //
+	'w',    'h',           /* 18  = 9 */	// pascii 85 9 diphthong //
+	'w',    'c',           /* 19  = 0 */	// pascii 85 23 diphthong //
+	'w',    'a',           /* 20  = w */	// pascii 85 24 diphthong //
+	'm',    ' ',           /* 21  = m */	// pascii 31 //
+	'n',    ' ',           /* 22  = n */	// pascii 33 //
+	'n',    'x',           /* 23  = N */	// pascii 36 //
+	'p',    ' ',           /* 24  = p */	// pascii 39 //
+	'p',    'h',           /* 25  = P */	// pascii 39 486 aspirated //
+	'p',    'p',           /* 26  = B */	// pascii 39 378 glottalized //
+	'b',    ' ',           /* 27  = b */	// pascii 40 //
+	't',    ' ',           /* 28  = t */	// pascii 41 //
+	't',    'h',           /* 29  = T */	// pascii 41 486 aspirated //	
+	't',    't',           /* 30  = D */	// pascii 41 378 glottalized //
+	'd',    ' ',           /* 31  = d */	// pascii 42 //
+	'k',    ' ',           /* 32  = k */	// pascii 47 //
+	'k',    'h',           /* 33  = K */	// pascii 47 486 aspirated //
+	'k',    'k',           /* 34  = G */	// pascii 47 378 glottalized //
+	'g',    ' ',           /* 35  = g */	// pascii 48 //
+	's',    ' ',           /* 36  = s */	// pascii 61 //
+	's',    's',           /* 37  = Z */	// pascii 61 378 glottalized//
+	's',    'h',           /* 38  = S */	// pascii 65 //
+	'h',    'x',           /* 39  = h */	// pascii 76 //
+	'y',    ' ',           /* 40  = j */	// pascii 82 //
+	'l',    ' ',           /* 41  = l */	// pascii 90 //
+	'd',    'f',           /* 42  = r */	// pascii 97 //
+	'j',    'h',           /* 43  = J */	// pascii 115 //
+	'c',    'h',           /* 44  = H */	// pascii 116 //
+	'c',    'c',           /* 45  = c */	// pascii 116 378 glottalized //
+	'w',    'o',           /* 46  = W */
+	0,      0,             /* 47  = */
+	0,      0,             /* 48  = */
+	0,      0,             /* 49  = */
+
+	0,      0,             /* 50  = */
+	0,      0,             /* 51  = */
+	0,      0,             /* 52  = */
+	0,      0,             /* 53  = */
+	0,      0,             /* 54  = */
+	0,      0,             /* 55  = */
+	0,      0,             /* 56  = */
+	0,      0,             /* 57  = */
+	0,      0,             /* 58  = */
+	0,      0,             /* 59  = */
+
+	0,      0,             /* 60  = */
+	0,      0,             /* 61  = */
+	0,      0,             /* 62  = */
+	0,      0,             /* 63  = */
+	0,      0,             /* 64  = */
+	0,      0,             /* 65  = */
+	0,      0,             /* 66  = */
+	0,      0,             /* 67  = */
+	0,      0,             /* 68  = */
+	0,      0,             /* 69  = */
+
+	0,      0,             /* 70  = */
+	0,      0,             /* 71  = */
+	0,      0,             /* 72  = */
+	0,      0,             /* 73  = */
+	0,      0,             /* 74  = */
+	0,      0,             /* 75  = */
+	0,      0,             /* 76  = */
+	0,      0,             /* 77  = */
+	0,      0,             /* 78  = */
+	0,      0,             /* 79  = */
+
+	0,      0,             /* 80  = */
+	0,      0,             /* 81  = */
+	0,      0,             /* 82  = */
+	0,      0,             /* 83  = */
+	0,      0,             /* 84  = */
+	0,      0,             /* 85  = */
+	0,      0,             /* 86  = */
+	0,      0,             /* 87  = */
+	0,      0,             /* 88  = */
+	0,      0,             /* 89  = */
+
+	0,      0,             /* 90  = */
+	0,      0,             /* 91  = */
+	0,      0,             /* 92  = */
+	0,      0,             /* 93  = */
+	0,      0,             /* 94  = */
+	0,      0,             /* 95  = */
+	0,      0,             /* 96  = */
+	0,      0,             /* 97  = */
+	0,      0,             /* 98  = */
+	0,      0,             /* 99  = */
+
+
+	'~',	' ',	/* BLOCK_RULES =	~	*/
+	'=',	' ',	/* S3 =  			=	*/
+	'`',	' ',	/* S2 = 			` 	*/
+	'\'',	' ',	/* S1 =				' 	*/
+	'\"',	' ',	/* SEMPH =			"   */
+	'/',	' ',	/* HAT_RISE  = 		/	*/
+	'\\',	' ',	/* HAT_FALL  = 		\	*/
+	'/',	'\\',	/* HAT_RF  = 		<	*/
+	'-',	' ',	/* SBOUND  =		-	*/
+	'*',	' ',	/* MBOUND  = 		*	*/
+	'#',	' ',	/* HYPHEN  = 		#	*/
+	' ',	' ',	/* WBOUND  = 	 		*/
+	'(',	' ',	/* PPSTART =		(	*/
+	')',	' ',	/* VPSTART = 		)	*/
+	';',	' ',	/* RELSTART  = 		;	*/
+	',',	' ',	/* COMMA  =			,	*/
+	'.',	' ',	/* PERIOD =			.	*/
+	'?',	' ',	/* QUEST  =			?	*/
+	'!',	' ',	/* EXCLAIM  = 		!	*/
+	'+',	' ',	/* NEW_PARAGRAPH =	+	*/
+	'^',	' ',	/* SPECIALWORD =	^	*/
+	'&',	' ',	/* LINKRWORD =		&	*/
+	'>',	' '		/* DOUBLCONS =		>	*/
+};			       
+
+#endif
+

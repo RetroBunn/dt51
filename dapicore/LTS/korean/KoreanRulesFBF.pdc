@@ -1,0 +1,342 @@
+**
+**
+** Korean Graph2Phon rules.
+** (C) Copyright 1999,2000,2001 All rights reserved.
+** This is an unpublished work, and is confidential and proprietary
+** technology and information of fonix corporation.  No part of this
+** file may be reproduced, used or disclosed withot written consent of
+** fonix corporation in each and every instance.
+**	Special Context Symbols:
+**
+**		=	One or more numbers
+**		#	One or more vowels
+**		:	Zero or more consonants
+**		^	One consonant
+**		$	Two or more consonants
+**		.	Voiced Consonant (b d g l m n r) 
+**		%	Ends in a suffix (er e es ed ing ely er' e' es' ed' ing' ely' ers er's ers' e's es's ed's ing's ings ely's ingly edly ) NEED SOMETHING DIFFERENT HERE
+**				(Found in right context only)
+**		<	User defined suffix
+**		+	Front Vowel (i e y) 
+**		@	? vowel
+
+
+; letters: a b c d e f g h i j k l m n o p r s t u w y ;
+; numbers: 1 2 3 4 5 6 7 8 9 0 ;
+; vowels: a e i o u y ;
+; consonants: b c d f g h j k l m n p r s t v w ;
+; consonants_voiced: b d g l m n r ;
+; endings: none ;
+; suffixes: none ;
+; vowels_front: i e y ;
+; nasals: m n ;
+; output: i i_: E E_: e-w @ u u_: U oU ao ao_: A A_: m m_: n n_: N pc pc_: ph ph_h [pc] [ph] bc bc_: bh bh_h [bh] tc tc_: th th_h [tc] [th] dc dc_: dh dh_h [dh] kc kc_: kh kh_h [kc] [kh] gc gc_: gh gh_h [gh] t6 f1 s s_: S h j w l l_: [l] tf dZ tS tS_: ;
+
+Rule: punctuation
+	Anything	"0"	Anything	"(gc gh oU N | j ao N)"
+	Anything	"1"	Anything	"(h A n A | i l)"
+	Anything	"2"	Anything	"(dc dh u l | i)"
+	Anything	"3"	Anything	"(s E tc | s A m)"
+	Anything	"4"	Anything	"(n E tc | s A)"
+	Anything	"5"	Anything	"(dc dh A s ao tc | oU)"
+	Anything	"6"	Anything	"(j ao s ao tc | j u kc)"
+	Anything	"7"	Anything	"(i l gc gh oU pc | tc tS i l)"
+	Anything	"8"	Anything	"(j ao dc dh ao l | bc bh A l)"
+	Anything	"9"	Anything	"(A h oU pc | gc gh u)"		
+	Anything	" "	Anything	Pause
+	Anything	"-"	Anything	Silent
+	Anything	"-"	Anything	Silent
+	Anything	"'"	Anything	Silent
+**	Anything	"*"	Anything    	Silent
+**     	Anything    	"("   	Anything   	" | "
+      	Anything    	"/-"   	Anything    	Silent
+      	Anything   	 ")"   	Anything    	Silent
+	Anything	"/="	Anything	Silent
+	Anything	"%"	Anything	"pc ph ao"
+Rule: a
+	Nothing		"a"	Nothing		"A"
+	" d"		"ae"	"um "		"A"	// Should be E but sounds like A in Set5Rec23
+	Anything	"aee"	Anything	"E_:"	//Set10Rec4082
+	" d"		"ae"	"um "		"A"	
+	Anything	"ae"	Anything	"E"		//changed from @ (R.W.)	
+	Anything	"aa"	Anything	"A_:"	// one example Set10Rec3351
+	Anything	"a"	Anything	"A"
+Rule: b
+	Nothing		"b"	Nothing		"pc ph i U pc ph"	//added alphabet symbol sound mlh
+	Nothing		"bb"	Nothing		"s_: A N pc ph i U pc ph"	//added alphabet symbol sound mlh
+	Anything	"bb"	"i "		"pc_: ph"	//Set5Rec38
+	Anything	"bb"	Anything	"bc_: bh"	//based on http://www.mit.edu/afs/sipb/project/gcc-3.2/share/glibc-2.3.1/localedata/locales/translit_hangul"
+	Anything	"bs"	"n"		"m"		//SPRules, item 18
+	Anything	"bs"	"m"		"m"		//SPRules, item 18
+	Anything	"bh"	Anything	"pc ph"		//SPRules, item 12
+	"l"		"b"	Nothing		Silent		//SPRules, item 10
+	"l"		"b"	"^"		Silent		//SPRules, item 10
+	Nothing		"b"	Anything	"pc ph"
+	Anything	"b"	"l"		"m"
+	Anything	"bn"	Anything	"(m | n | m n)"	//SPRules, item 18 Set6Rec19
+	Anything	"b"	"m"		"m"		//SPRules, item 18
+	Anything	"b"	"^"		"pc [ph]"	//SPRules, item 9
+	Anything	"b"	Nothing		"pc [ph]"	//SPRules, item 9  Set5Rec35
+	Anything	"b"	Anything	"(bc [bh] | pc [ph])"	//Set6Rec10
+Rule: c
+	Nothing		"ch"	Nothing		"tS i U tS"		//added alphabet symbol sound mlh
+	Nothing		"c"	Nothing		"tS i U tS"		//added alphabet symbol sound mlh
+	Anything	"ch"	"n"		"n"		//SPRules, item 18
+	Anything	"ch"	"m"		"n"		//SPRules, item 18
+	Anything	"ch"	Nothing		"tc th_h"	//SPRules, item 9
+	Anything	"ch"	"^"		"tc th_h	//SPRules, item 9
+	Anything	"ch"	Anything	"tS"
+	Anything	"c"	Anything	"tS"
+Rule: d	
+	Anything	"dh"	Anything	"tc th"		//SPRules, item 12
+	Anything	"d"	"n"		"n"		//SPRules, item 18
+	Anything	"d"	"m"		"n"		//SPRules, item 18
+	Anything	"dd"	Anything	"(dc_: dh | tc_: th)"
+	Nothing		"d"	Anything	"tc th"
+	Anything	"dd"	Anything	"(dc_: dh | tc_: th)"
+	Anything	"d"	Nothing		"tc th"
+	"a"		"d"	"gi" 		"([tc] | tc [th])"
+	Anything	"dg"	Nothing		"(gc gh | kc kh)"
+	Anything	"d"	Anything	"(dc dh | tc th)"	//Set5Rec28  one person used the tc th Korean_16_03_2005\Speechfiles\Fj_k00
+Rule: e
+	Anything	"eoeo"	Anything	"ao_:"		// Set105rec2883 holds the double vowel longer
+	Anything	"eo"	Anything	"(ao | A)"	// Set5rec16 uses both MLH	 
+	Anything	"eu"	Anything	"U"
+	"-"		"e"	Anything	"E"
+	Anything	"ee"	Anything	"i"
+	Anything	"e"	Anything	"E"
+Rule: f
+	Anything	"f"	Anything	"f1"
+Rule: g	
+	Nothing		"g"	Nothing 	"gc gh i [j] ao kc kh"
+	Nothing		"gg"	Nothing 	"s_: A N kc kh i [j] ao kc kh"
+	"il"		"gg"	Anything	"(kc_: kh | gc_: gh)"	// added MLH Set5Rec10
+	Anything	"gg"	Anything	"(gc gh | kc kh)"	// Set6Rec19
+	Anything	"gh"	Anything	"kc kh"		//SPRules, item 12
+	"me"		"gs"	"i"		"kc [kh] S"
+	"#"		"gs"	"#"		"gc gh"		//SPRules, item 15  added Mlh 
+	"#"		"gs"	Nothing		"gc gh"		//SPRules, item 15 addition added Mlh
+	"dad"		"g"	"i"		"(gc gh | kc kh)"	
+	Anything	"g"	"l"		"N"		
+	Anything	"g"	"n"		"N"		//SPRules, item 18
+	Anything	"g"	"m"		"N"		//SPRules, item 18
+	Nothing		"g"	Anything	"kc kh"
+	Anything	"g"	"#"		"(gc gh | kc kh)"
+	Anything	"g"	"y"		"gc gh"
+	Anything	"g"	"w"		"gc gh"
+	"^"		"g"	Anything	"gc gh"
+	Anything	"g"	Nothing		"([kc] | kc [kh])"	//SPRules, item 9  set5Rec12, Set5Rec17, Set5Rec42 has no /k/ sound at all MLH
+	Anything	"g"	"^"		"kc [kh]"	//SPRules, item 9
+	Anything	"g"	Anything	"gc gh"		
+Rule: h
+	Anything	"hd"	Anything	"tc th"		//SPRules, item 12
+	Anything	"hg"	Anything	"kc kh"		//SPRules, item 12
+	Anything	"hj"	Anything	"tS"		//SPRules, item 12
+//	"n"		"h"	"n"		Silent		//SPRules, item 12  Set10Rec2389
+	"l"		"h"	"n"		Silent		//SPRules, item 12
+	Anything	"h"	"-#"		Silent		//SPRules, item 12
+	Anything	"h"	"n"		"n"		//SPRules, item 18
+	Anything	"h"	"m"		"n"		//SPRules, item 18
+	"^"		"h"	"w"		"[h]"		//Set5Rec32
+	"^"		"h"	"^"		Silent
+	Anything	"h"	Nothing		"tc th_h"		
+	Anything	"h"	Anything	"h"
+Rule: i
+	Anything	"i"	"u"		"[i]"		//Set5Rec7 mlh
+	Anything	"ii"	Anything	"i_:"		//Set10Rec297
+	Anything	"i"	Anything	"i"
+Rule: j
+	Nothing		"jj"	Anything	"dZ"
+	Anything	"jj"	Nothing		"tS_:"
+	Anything	"jj"	Anything	"(dZ | tS)"
+	Anything	"jh"	Anything	"tS"		//SPRules, item 12
+	"h"		"j"	Anything	"tS"		//SPRules, item 12
+	"n"		"j"	Nothing		Silent		//SPRules, item 10
+	"n"		"j"	"^"		Silent		//SPRules, item 10
+	"n "		"j"	Anything	"dZ"
+	Nothing		"j"	Anything	"tS"
+	Anything	"j"	"n"		"n"		//SPRules, item 18
+	Anything	"j"	"m"		"n"		//SPRules, item 18
+	Anything	"j"	Nothing		"tS"		//SPRules, item 9
+	Anything	"j"	"^"		"tS"		//SPRules, item 9
+	Anything	"j"	Anything	"(dZ | tS | tc th | dc dh)"	//Set5Rec31, Set5Rec37 for the added tc th | dc dh
+Rule: k
+	Nothing		"k"	Nothing 	"gc gh i [j] ao kc kh"
+	Nothing		"gg"	Nothing 	"s_: A N gc gh i [j] ao kc kh"	
+	Anything	"kk"	"n"		"N"		//SPRules, item 18
+	Anything	"kk"	"m"		"N"		//SPRules, item 18
+	Nothing		"kk"	Anything	"kc kh"
+	Anything	"kk"	Nothing		"kc_: kh"	//SPRules, item 9
+	Anything	"kk"	"^"		"kc_: kh"	//SPRules, item 9
+	"#"		"kk"	"#"		"kc_: kh"
+	Anything	"kk"	Anything	"kc_: [kh]"
+	Anything	"ks"	"n"		"N"		//SPRules, item 18
+	Anything	"ks"	"m"		"N"		//SPRules, item 18
+	Anything	"k"	Nothing		"kc kh_h"		//SPRules, item 9
+	"h"		"k"	Anything	"kc kh"		
+	Anything	"k"	"h"		"kc kh"
+	Anything	"k"	"#"		"kc kh"
+	Anything	"k"	"w"		"kc kh"
+	Anything	"k"	"y"		"kc kh"
+	Anything	"k"	"n"		"N"		//SPRules, item 18
+	Anything	"k"	"m"		"N"		//SPRules, item 18
+	Anything	"k"	"r"		"N"
+	Anything	"k"	"^"		"kc kh_h"	//SPRules, item 9
+	"^"		"k"	Anything	"kc kh"
+	Nothing		"k"	Anything	"kc kh"
+	Anything	"k"	Anything	"kc kh"		
+Rule: l
+	"#"		"l"	"#"		"(tf | l)"
+	"m"		"l"	Anything	"n"		//SPRules, item 19
+	"ng"		"l"	Anything	"n"		//SPRules, item 19
+	"g"		"l"	Anything	"n"		//SPRules, item 19
+	"b"		"l"	Anything	"n"		//SPRules, item 19
+	Anything	"lb"	"n"		"m"		//SPRules, item 18
+	Anything	"lb"	"m"		"m"		//SPRules, item 18
+	Anything	"lp"	"n"		"m"		//SPRules, item 18
+	Anything	"lp"	"m"		"m"		//SPRules, item 18
+	Anything	"lg"	Nothing		"kc kh_h"	//SPRules, item 11
+	Anything	"lm"	Nothing		"m"		//SPRules, item 11
+	Anything	"lp"	Nothing		"pc ph_h"	//SPRules, item 11
+	Anything	"l"	"g-"		Silent		//SPRules, item 11
+	Anything	"l"	"m-"		Silent		//SPRules, item 11
+	Anything	"l"	"p-"		Silent		//SPRules, item 11
+	Anything	"l"	"g^"		"[l]"		//SPRules, item 11
+	Anything	"l"	"m^"		Silent		//SPRules, item 11
+	Anything	"l"	"p^"		Silent		//SPRules, item 11
+	"mei"		"l"	Nothing		"[l]"		//Set5Rec45	 
+	Anything	"l"	Nothing		"([l] | tf)"	//Set5Rec34	 
+	Anything	"l"	Anything	"([l] | tf)"	//Set5Rec49	 
+Rule: m
+	Anything	"mm"	Anything	"m_:"
+	Nothing		"m"	"odu "		"(m | bc bh)"	//Set5Rec51
+	Nothing		"m"	"og"		"(m | bc bh)"	//Set6Rec16
+	Anything	"m"	Anything	"m"
+Rule: n
+	Anything	"nn"	Anything	"n_:"		//Set5Rec47
+	"lh"		"n"	Anything	"l"		//SPRules, item 20
+	"lt"		"n"	Anything	"l"		//SPRules, item 20
+	"l"		"n"	Anything	"l"		//SPRules, item 20
+	Anything	"nl"	Anything	"l"		//SPRules, item 20
+	Anything	"nhn"	Anything	"n_:"		//Set10Rec2389
+	Anything	"nr"	"#"		"l_:"
+	Nothing		"ng"	Anything	Silent
+	Anything	"ng"	"u"		"n gc gh"	//Set6Rec31
+	Anything	"ng"	Anything	"N"
+	Anything	"nm"	Anything	"(n | m | n m)"
+	Anything	"n"	Anything	"n"
+Rule: o
+	Nothing		"oe"	Anything	"w E"
+	"#"		"oe"	Anything	"w E"
+	Anything	"oe"	Anything	"e-w"
+	Anything	"ou"	Anything	"oU [u]"
+	Anything	"oo"	Anything	"u"
+	Anything	"o"	Anything	"oU"
+Rule: p
+	Anything	"pp"	"n"		"m"
+	Anything	"pp"	"m"		"m"
+	Nothing		"pp"	Anything	"pc_: ph"
+	Anything	"pp"	Nothing		"pc_: ph"
+	"#"		"pp"	"#"		"pc_: ph"
+	Anything	"pp"	Anything	"pc_: [ph]"
+	"h"		"p"	Anything	"pc ph"
+	Anything	"p"	"h"		"pc ph"
+	Anything	"p"	"#"		"pc [ph]"
+	Anything	"p"	"y"		"pc ph"
+	Anything	"p"	"w"		"pc ph"
+	Anything	"p"	"n"		"m"		//SPRules, item 18
+	Anything	"p"	"m"		"m"		//SPRules, item 18
+	Anything	"p"	"r"		"m"
+	Anything	"p"	"^"		"pc ph_h"	//SPRules, item 9
+	Anything	"p"	Nothing		"pc ph_h"	//SPRules, item 9
+	Nothing		"p"	Anything	"pc ph"
+	"^"		"p"	Nothing		Silent
+	"^"		"p"	Anything	"bc bh"
+	Anything	"p"	Anything	"pc ph"	
+Rule: r
+	"n"		"r"	"#"		"l"
+	Nothing		"r"	Anything	"(tf | l)"	//Set7rec42
+	"#"		"r"	"#"		"tf"
+	"-"		"r"	"#"		"tf"
+	"^"		"r"	Anything	"[n]"		// Set5rec4 has this as an optional pronnunciation  mlh
+	Anything	"r"	"#"		"tf"
+	Anything	"r"	"y"		"tf"
+	Anything	"r"	"n"		"n"
+	Anything	"r"	"m"		"n"
+	"#"		"r"	"k^"		Silent
+	"#"		"rk"	Nothing		"kc kh_h"
+	Anything	"rr"	Anything	"l l"
+	Anything	"r"	"^"		"l"
+	Anything	"r"	Nothing		"l"
+	Anything	"r"	Anything	"tf"
+Rule: s
+	Anything	"ss"	"n"		"n"		//SPRules, item 18
+	Anything	"ss"	"m"		"n"		//SPRules, item 18
+	Anything	"ss"	Nothing		"dc dh_h"	//SPRules, item 9
+	Anything	"ss"	"^"		"dc dh_h"	//SPRules, item 9
+	Anything	"ss"	Anything	"s_:"
+	"g"		"s"	Nothing		Silent		//SPRules, item 10
+	"g"		"s"	"^"		Silent		//SPRules, item 10
+	"l"		"s"	Nothing		Silent		//SPRules, item 10
+	"l"		"s"	"^"		Silent		//SPRules, item 10
+	"b"		"s"	Nothing		Silent		//SPRules, item 10
+	"b"		"s"	"-#"		"s"
+	"b"		"s"	"^"		Silent		//SPRules, item 10
+	Anything	"s"	"n"		"n"		//SPRules, item 18
+	Anything	"s"	"m"		"n"		//SPRules, item 18
+	Anything	"s"	"i"		"S"
+	Anything	"s"	"y"		"S"
+	Anything	"s"	"wi"		"S"
+	Anything	"sh"	"#"		"tc th"
+	Anything	"s"	Nothing		"tc th_h"		//SPRules, item 9
+	Nothing		"seu"	"ta "		"(s U | s)"	
+	Anything	"s"	Anything	"s"
+Rule: t
+	Nothing		"tt"	Anything	"tc th"
+	Anything	"tt"	Nothing		"tc_: th"
+	"#"		"tt"	"#"		"tc_: th"
+	Anything	"tt"	Anything	"tc_: [th]"
+	"l"		"t"	Nothing		Silent		//SPRules, item 10
+	"l"		"t"	"^"		Silent		//SPRules, item 10
+	"h"		"t"	Anything	"tc th"
+	Anything	"t"	"h"		"tc th"
+	"#"		"t"	"i"		"tS"		//SPRules, item 17
+	Anything	"t"	"#"		"tc th"
+	Anything	"t"	"y"		"tc th"
+	Anything	"t"	"w"		"tc th"
+	Anything	"t"	"n"		"[n]"		//SPRules, item 18  Set5Rec5 has this has an  optional pronunciation mlh
+	Anything	"t"	"m"		"n"		//SPRules, item 18
+	Nothing		"t"	Anything	"tc th"
+	"^"		"t"	Anything	"tc th"
+	Anything	"t"	"^"		"tc th_h"	//SPRules, item 9
+	Anything	"t"	Nothing		"tc th_h"	//SPRules, item 9
+	Anything	"t"	Anything	"tc th"
+Rule: u
+	Nothing		"ui"	Anything	"ui"		//SPrules, item 5 changed mlh  
+	"^"		"ui"	Anything	"i"		//SPrules, item 5, exeption 3 added mlh
+	Anything	"ui"	Nothing		"(i|e)"		//SPrules, item 5, exeption 4 added mlh	
+	Anything	"uu"	Anything	"u_:"
+	Anything	"u"	Anything	"u"
+Rule: w
+	Anything	"wae"	Anything	"(w E | E | e-w)"	// added after listenining to data MLH
+	Anything	"wa"	Anything	"(w A | A)"
+	Anything	"weo"	Anything	"(w ao | ao)"		//Set6Rec0
+	Anything	"we"	Anything	"(w E | E)"
+	Anything	"wi"	Anything	"(w i | i)"
+	Anything	"wo"	Anything	"(w ao | ao)"
+	Anything	"w"	Anything	"w"
+Rule: y
+	Nothing		"yi"	Anything	"ui"		//SPrules, item 5 changed mlh  
+	"^"		"yi"	Anything	"i"		//SPrules, item 5, exeption 3 added mlh
+	Anything	"yi"	Nothing		"(i|e)"		//SPrules, item 5, exeption 4 added mlh	
+	Anything	"yae"	Anything	"j E"
+	Anything	"ya"	Anything	"(j A | [l] A)"
+	Anything	"yeoeo"	Anything	"(j ao_: | ao_:)"
+	Anything	"yeo"	Anything	"(j ao |ao)"
+	Anything	"ye"	Anything	"(j E | E)"
+	Anything	"yo"	Anything	"(j oU | oU)"
+	Nothing		"yoo"	Nothing		"j u_:"
+	Anything	"yu"	Anything	"(j u | u)"
+	Anything	"yi"	Anything	"ui"
+	Anything	"y"	"#"		"j"
+	Anything	"y"	Anything	"j"

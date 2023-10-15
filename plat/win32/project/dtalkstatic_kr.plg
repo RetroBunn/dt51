@@ -1,0 +1,150 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dtalkstatic_kr - Win32 Debug Integer--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP118.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /I ".\..\..\..\shared\include\\" /I ".\..\..\..\shared\include\NT" /I ".\..\..\..\shared\include\nt" /I ".\..\..\..\dapicore\lts\japan" /I ".\..\..\..\dapicore\lts\chinese" /I ".\..\..\..\dapicore\lts\korean" /I "..\include" /I ".\..\..\..\shared\include" /I "..\..\..\dapi" /I ".\..\..\..\dapicore\cmd" /I ".\..\..\..\dapicore\lts" /I ".\..\..\..\dapicore\ph" /I ".\..\..\..\dapicore\vtm" /I ".\..\..\..\dapicore\kernel" /I ".\..\..\..\dapicore\include" /I ".\..\..\..\dapicore\hlsyn" /I "..\..\..\sdk\include" /I "..\..\..\sdk\include\win32" /D "DTALK_KR_EXPORTS" /D "KOREAN" /D "BUILD_LTS" /D "FNX_LEAN_AND_MEAN" /D "_DEBUG" /D "INTEGER" /D "MULTIPLE_LANGUAGES_LOADED" /D "NO_INCLUDED_C_FILES" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "i386" /D "BLD_DECTALK_DLL" /D "PRINTFDEBUG" /D "NEW_MULTI_LANG_ARCH" /D "WIN32_STATIC" /Fp".\..\build\dectalk\commonint\kr\debugstatic\link/dtalkstatic_kr.pch" /YX /Fo".\..\build\dectalk\commonint\kr\debugstatic\link/" /Fd".\..\build\dectalk\commonint\kr\debugstatic\link/" /FD /GZ /c 
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\allocate.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\ByteOrder.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\ByteOrderIO.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\error.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\fnxstdlib.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\Graph2Phon.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\hash.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\Huffman.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\InitCloseDcc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\KoreanIntonation.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_ad1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_con.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_ma1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_pr1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_ru1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\l_kr_sp1.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\language.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\llist.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\loaddict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\LoadRules.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_adju.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_dict.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_homo.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_math.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_rule2.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_spel.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_suff.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\ls_util.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\lsw_main.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\Misc.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\names.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\network.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\pool.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\SelectSinglePron.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\ShortenPronunciation.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\word.c"
+"C:\work\ad-new\DECtalk\dapicore\LTS\korean\wrdparse.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP118.tmp" 
+Creating temporary file "C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP119.tmp" with contents
+[
+/nologo /out:".\..\build\dectalk\commonint\debugstatic\dtalk_kr.lib" 
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\allocate.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ByteOrder.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ByteOrderIO.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\error.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\fnxstdlib.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\Graph2Phon.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\hash.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\Huffman.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\InitCloseDcc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\KoreanIntonation.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\l_kr_ad1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\l_kr_con.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\l_kr_ma1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\l_kr_pr1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\l_kr_ru1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\l_kr_sp1.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\language.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\llist.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\loaddict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\LoadRules.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_adju.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_dict.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_homo.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_math.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_rule.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_rule2.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_spel.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_suff.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_task.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ls_util.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\lsw_main.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\Misc.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\names.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\network.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\pool.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\SelectSinglePron.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\ShortenPronunciation.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\word.obj"
+"\work\ad-new\DECtalk\plat\win32\build\dectalk\commonint\kr\debugstatic\link\wrdparse.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\mschnee\LOCALS~1\Temp\RSP119.tmp"
+<h3>Output Window</h3>
+Compiling...
+allocate.c
+ByteOrder.c
+ByteOrderIO.c
+error.c
+fnxstdlib.c
+Warning: Not using Fonix 'tolower' function. European languages not supported
+should never get to this line of code!!!
+Graph2Phon.c
+hash.c
+Huffman.c
+InitCloseDcc.c
+KoreanIntonation.c
+l_kr_ad1.c
+l_kr_con.c
+l_kr_ma1.c
+l_kr_pr1.c
+l_kr_ru1.c
+l_kr_sp1.c
+language.c
+llist.c
+loaddict.c
+LoadRules.c
+>> Compiling G2P Version 0x20020905
+ls_adju.c
+ls_dict.c
+ls_homo.c
+ls_math.c
+ls_rule.c
+ls_rule2.c
+ls_spel.c
+ls_suff.c
+ls_task.c
+C:\work\ad-new\DECtalk\dapicore\LTS\ls_task.c(521) : warning C4013: 'ls_rule_korean_lts' undefined; assuming extern returning int
+ls_util.c
+lsw_main.c
+Misc.c
+names.c
+network.c
+pool.c
+SelectSinglePron.c
+ShortenPronunciation.c
+word.c
+wrdparse.c
+Creating library...
+
+
+
+<h3>Results</h3>
+dtalk_kr.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
