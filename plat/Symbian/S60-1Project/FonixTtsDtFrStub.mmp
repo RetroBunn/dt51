@@ -1,0 +1,41 @@
+/*
+-----------------------------------------------------------------------------
+
+    FonixTtsDtFrStub.mmp - project definition file
+
+-----------------------------------------------------------------------------
+*/
+
+TARGET          FonixTtsDtFrStub.lib
+TARGETTYPE      lib
+UID             0x00000000 0x1000602d
+
+MACRO		FRENCH
+MACRO		BLD_DECTALK_DLL NO_INCLUDED_C_FILES NEW_MULTI_LANG_ARCH
+MACRO		OPTIMIZE_FILTER_CODE_BY_LOCATION NO_PRINTF MULTIPLE_LANGUAGES_LOADED
+MACRO		NO_ALIGN_8 OS_SYMBIAN ARM7 ARM7_NOSWI INTEGER
+
+USERINCLUDE     	..\Include
+USERINCLUDE     	..\..\..\SDK\Include
+USERINCLUDE     	..\..\..\Shared\Include
+USERINCLUDE     	..\..\..\DAPI
+USERINCLUDE     	..\..\..\dapicore\Include
+USERINCLUDE     	..\..\..\dapicore\CMD
+USERINCLUDE     	..\..\..\dapicore\KERNEL
+USERINCLUDE     	..\..\..\dapicore\LTS
+USERINCLUDE     	..\..\..\dapicore\LTS\chinese
+USERINCLUDE     	..\..\..\dapicore\LTS\korean
+USERINCLUDE     	..\..\..\dapicore\LTS\japan
+USERINCLUDE     	..\..\..\dapicore\PH
+USERINCLUDE     	..\..\..\dapicore\VTM
+
+SYSTEMINCLUDE	..\..\..\..\..\..\Symbian\6.1\Series60\epoc32\include\libc
+SYSTEMINCLUDE	..\..\..\..\..\..\Symbian\6.1\Series60\epoc32\include
+SYSTEMINCLUDE	..\..\..\..\..\..\Symbian\6.1\Series60\epoc32\include\libc\sys
+
+DOCUMENT	bld.inf
+
+SOURCEPATH	..\..\..\dapicore\LTS
+SOURCE  	lts_dummy_fr.c
+
+// End of file

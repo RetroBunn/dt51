@@ -1,0 +1,157 @@
+/*
+-----------------------------------------------------------------------------
+
+    FnxDtSimpleSp.mmp - project definition file
+
+-----------------------------------------------------------------------------
+*/
+
+TARGET          FnxDtSimpleSp.dll
+TARGETTYPE      dll
+UID             0x1000008d 0x101FBCA4
+
+OPTION MSVC -W1
+
+// Language Macros
+MACRO		SPANISH_SP SPANISH
+
+// Other Macros
+MACRO		BLD_DECTALK_DLL NO_INCLUDED_C_FILES
+MACRO		OPTIMIZE_FILTER_CODE_BY_LOCATION NO_PRINTF
+MACRO		NO_ALIGN_8 OS_SYMBIAN ARM7 ARM7_NOSWI INTEGER
+
+USERINCLUDE     	..\..\Include
+USERINCLUDE     	..\..\..\..\SDK\Include
+USERINCLUDE     	..\..\..\..\Shared\Include
+USERINCLUDE     	..\..\..\..\DAPI
+USERINCLUDE     	..\..\..\..\dapicore\Include
+USERINCLUDE     	..\..\..\..\dapicore\CMD
+USERINCLUDE     	..\..\..\..\dapicore\KERNEL
+USERINCLUDE     	..\..\..\..\dapicore\LTS
+USERINCLUDE     	..\..\..\..\dapicore\PH
+USERINCLUDE     	..\..\..\..\dapicore\VTM
+
+SYSTEMINCLUDE		..\..\..\..\..\..\..\Symbian\7.0s\Series60_v20\epoc32\include\libc
+SYSTEMINCLUDE		..\..\..\..\..\..\..\Symbian\7.0s\Series60_v20\epoc32\include
+SYSTEMINCLUDE		..\..\..\..\..\..\..\Symbian\7.0s\Series60_v20\epoc32\include\libc\sys
+
+DOCUMENT        bld.inf
+
+SOURCEPATH		..\..\src
+SOURCE			dllmain_fnxdtsimple.cpp
+SOURCE			DtFnxExStdlib.cpp
+
+SOURCEPATH      ..\..\..\..\dapi
+SOURCE  	    FonixTTSDTSimple.c
+SOURCE  	    simpleapi.c
+SOURCE			GlobalDT.cpp
+
+SOURCEPATH      ..\..\..\..\dapicore\CMD
+SOURCE  	    cm_char.c
+SOURCE  	    cm_cmd.c
+SOURCE  	    cm_copt.c
+SOURCE  	    cm_main.c
+SOURCE  	    cm_pars.c
+SOURCE  	    cm_phon.c
+SOURCE  	    cm_text.c
+SOURCE  	    cm_util.c
+SOURCE  	    Cmd_init.c
+SOURCE  	    par_ambi.c
+SOURCE  	    par_char.c
+SOURCE  	    par_dict.c
+SOURCE  	    par_pars1.c
+SOURCE  	    par_rule.c
+
+SOURCEPATH      ..\..\..\..\dapicore\kernel
+SOURCE  	    services.c
+SOURCE  	    Usa_init.c
+
+SOURCEPATH      ..\..\..\..\dapicore\LTS
+SOURCE 			loaddict.c
+
+SOURCEPATH      ..\..\..\..\shared\src
+SOURCE			spc.c
+
+SOURCEPATH      ..\..\..\..\dapicore\PH
+SOURCE  	    p_fr_sr1.c
+SOURCE  	    p_fr_st1.c
+SOURCE  	    p_fr_tim.c
+
+SOURCE  	    p_ch_sr1.c
+SOURCE  	    p_ch_st1.c
+SOURCE  	    p_ch_tim.c
+
+SOURCE  	    p_gr_sr1.c
+SOURCE  	    p_gr_st1.c
+SOURCE  	    p_gr_tim.c
+
+SOURCE  	    p_it_sr1.c
+SOURCE  	    p_it_st1.c
+SOURCE  	    p_it_tim.c
+
+SOURCE  	    p_jp_sr1.c
+SOURCE  	    p_jp_st1.c
+SOURCE  	    p_jp_tim.c
+
+SOURCE  	    p_kr_sr1.c
+SOURCE  	    p_kr_st1.c
+SOURCE  	    p_kr_tim.c
+
+SOURCE  	    p_la_sr1.c
+SOURCE  	    p_la_st1.c
+SOURCE  	    p_la_tim.c
+
+SOURCE  	    p_sp_sr1.c
+SOURCE  	    p_sp_st1.c
+SOURCE  	    p_sp_sy1.c
+SOURCE  	    p_sp_tim.c
+
+SOURCE  	    P_UK_SR1.C
+SOURCE  	    p_uk_st1.c
+SOURCE  	    p_uk_tim.c
+
+SOURCE  	    p_us_sr1.c
+SOURCE  	    p_us_st1.c
+SOURCE  	    p_us_tim.c
+
+SOURCE			ph_aloph.c
+SOURCE  	    ph_claus.c
+SOURCE  	    ph_draw.c
+SOURCE  	    Ph_drwt02.c
+SOURCE  	    Ph_fr_inton2.c
+SOURCE  	    ph_inton2.c
+SOURCE  	    ph_main.c
+SOURCE  	    ph_romi.c
+SOURCE  	    ph_setar.c
+SOURCE  	    ph_sort.c
+SOURCE  	    ph_sort2.c
+SOURCE  	    ph_sttr2.c
+SOURCE  	    ph_syl.c
+SOURCE  	    ph_syntx.c
+SOURCE  	    ph_task.c
+SOURCE  	    ph_timng.c
+SOURCE  	    ph_vdefi.c
+SOURCE  	    ph_vset.c
+SOURCE  	    phinit.c
+SOURCE  	    phlog.c
+
+SOURCEPATH      ..\..\..\..\dapicore\VTM
+SOURCE  	    playtone.c
+SOURCE  	    vtm3.c
+SOURCE  	    vtmiont.c
+
+#if defined(WINS)
+DEFFILE			..\..\BWINS\FnxDtSimple.def
+#else if defined(ARM)
+DEFFILE			..\..\BMARM\FnxDtSimple.def
+#endif
+
+#if !defined(WINS)
+LIBRARY     edllstub.lib
+#endif
+LIBRARY		euser.lib
+LIBRARY		estlib.lib
+
+STATICLIBRARY	FnxDtLTS_Sp.lib
+
+// End of file

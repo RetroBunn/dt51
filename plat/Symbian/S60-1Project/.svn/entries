@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4463"
+   name=""
+   committed-date="2006-04-05T15:47:20.408698Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/Symbian/S60-1Project"
+   last-author="mallen"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleUs.mmp"
+   text-time="2006-04-06T18:04:36.000000Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="0146bceef8a78a3a800a05eb8296da4a"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.640625Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleCh.mmp"
+   text-time="2006-04-06T18:04:36.015625Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="b87adb05aff3ebae72213b5fd1a6ec77"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.656250Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtFrStub.mmp"
+   text-time="2006-04-06T18:04:36.015625Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="e11c64a04f972121a81abe50d6f84b42"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.671875Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleLa.mmp"
+   text-time="2006-04-06T18:04:36.062500Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="e50dcd1102f77cafa1d92bf230e5c716"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.687500Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtGrStub.mmp"
+   text-time="2006-04-06T18:04:36.046875Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="b5853d4f145f851714bfe4bd3f81897a"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.687500Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtJpStub.mmp"
+   text-time="2006-04-06T18:04:36.062500Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="fc2667146c929d26b46ad30153ab1a27"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.703125Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtItStub.mmp"
+   text-time="2006-04-06T18:04:36.093750Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="2ec98294a8c1a4ed366d9e83411b8ca7"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.734375Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtKrStub.mmp"
+   text-time="2006-04-06T18:04:36.078125Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="97bbd05a81b5d51d0a94a90ee788e186"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.718750Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtUkStub.mmp"
+   text-time="2006-04-06T18:04:36.109375Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="68c1e114b23feb79c70d6c8d24d4d1a7"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.750000Z"/>
+<entry
+   committed-rev="4442"
+   name="buildDT.bat"
+   text-time="2006-04-06T18:04:36.125000Z"
+   committed-date="2006-04-04T19:19:26.402264Z"
+   checksum="75c24cc7e4ecdb2831d86cb84ff955c7"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.781250Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtSpStub.mmp"
+   text-time="2006-04-06T18:04:36.203125Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="fa2090eb82b7d55251300fab2152c64c"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.781250Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleFr.mmp"
+   text-time="2006-04-06T18:04:36.218750Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="93c491d5bd86bf5d52d1355240ef6600"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.796875Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleGr.mmp"
+   text-time="2006-04-06T18:04:36.234375Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="d0b6bee5badad38a43a64820d2766a6e"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.812500Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleJp.mmp"
+   text-time="2006-04-06T18:04:36.250000Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="508010b36d8541002c26b2d591b2dbad"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.828125Z"/>
+<entry
+   committed-rev="4442"
+   name="copyfiles.bat"
+   text-time="2006-04-06T18:04:36.265625Z"
+   committed-date="2006-04-04T19:19:26.402264Z"
+   checksum="fcf54fca05ea2f2666b2f73aa98a9795"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.843750Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtUsStub.mmp"
+   text-time="2006-04-06T18:04:36.375000Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="06c075bcc4a16746ef2ec7791351abbb"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.859375Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleKr.mmp"
+   text-time="2006-04-06T18:04:36.406250Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="6052f4d140a8623a1218eb7753041db1"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.875000Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleIt.mmp"
+   text-time="2006-04-06T18:04:36.421875Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="c80698ae7527eaf09c32c319b6a2355c"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.890625Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtHbStub.mmp"
+   text-time="2006-04-06T18:04:36.437500Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="510356680ef9e6c270e44424af0ea0b8"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.906250Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtChStub.mmp"
+   text-time="2006-04-06T18:04:36.437500Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="b57ae1788271db356b11a6c785ed1733"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.906250Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimple.mmp"
+   text-time="2006-04-06T18:04:36.453125Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="22f3877de4fd8005a4ff8372898cd70c"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.921875Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleUk.mmp"
+   text-time="2006-04-06T18:04:36.468750Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="d5643d59282bb007dcdb5e8084188cec"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.937500Z"/>
+<entry
+   committed-rev="4441"
+   name="FonixTtsDtLaStub.mmp"
+   text-time="2006-04-06T18:04:36.484375Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="9280e62b1c9c2c43278ef2f57a4a9821"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.953125Z"/>
+<entry
+   committed-rev="4463"
+   name="FonixTtsDtSimpleSp.mmp"
+   text-time="2006-04-06T18:04:36.500000Z"
+   committed-date="2006-04-05T15:47:20.408698Z"
+   checksum="eaf6d34796e018f004d0efcfbdd36acb"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.968750Z"/>
+<entry
+   committed-rev="4441"
+   name="Bld.inf"
+   text-time="2006-04-06T18:04:36.500000Z"
+   committed-date="2006-04-04T19:13:15.589187Z"
+   checksum="cc42bee35d2fdc6962e27d71d19828ce"
+   last-author="mallen"
+   kind="file"
+   prop-time="2006-04-06T18:04:35.984375Z"/>
+</wc-entries>

@@ -1,0 +1,30 @@
+EXPORTS
+	DeleteDTTlsValue @ 1 NONAME
+	sp_FnxTtsDtCloseSTDLIB @ 2 NONAME
+	GetDTTlsValue @ 3 NONAME
+	GetGlobalDTPtr @ 4 NONAME
+	SetGlobalData @ 5 NONAME
+	epoccalloc @ 6 NONAME
+	epocfree @ 7 NONAME
+	epocmalloc @ 8 NONAME
+	epocrealloc @ 9 NONAME
+	fgetws @ 10 NONAME
+	fnxaIsascii @ 11 NONAME
+	fnxaStrdup @ 12 NONAME
+	fnxaStricmp @ 13 NONAME
+	fnxaStrlwr @ 14 NONAME
+	fnxaStrnicmp @ 15 NONAME
+	fnxaStrupr @ 16 NONAME
+	fnxaTolower @ 17 NONAME
+	fnxaToupper @ 18 NONAME
+	fnxwIsascii @ 19 NONAME
+	fnxwStrdup @ 20 NONAME
+	sp_ls_main_get_lts_funcs @ 21 NONAME
+	sp_lts_language_loaded @ 22 NONAME
+	sp_lts_loop @ 23 NONAME
+	sp_unload_dictionary @ 24 NONAME
+	stricmp @ 25 NONAME
+	wcschr @ 26 NONAME
+	wcsstr @ 27 NONAME
+	wcstok_r @ 28 NONAME
+

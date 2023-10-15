@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4218"
+   name=""
+   committed-date="2006-03-18T06:17:45.516813Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/PalmOS5/include"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="fnxexstdlib.h"
+   text-time="2006-03-22T15:25:38.998659Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2f0047902098259fa912851a77439ea4"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.561165Z"/>
+<entry
+   committed-rev="4213"
+   name="palmconfig_dectalkus_11k.h"
+   text-time="2006-03-22T15:25:38.951785Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="f3c10e58d2b0bdd059fe87951946b1cc"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.514291Z"/>
+<entry
+   committed-rev="4218"
+   name="usgp11N5032_pni.pdb"
+   text-time="2006-03-22T15:25:39.045534Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="df122fcc873c042e4e1217b04f7278fb"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.670539Z"/>
+<entry
+   committed-rev="4218"
+   name="DotDotTwoV2.prc"
+   text-time="2006-03-22T15:25:39.014284Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="56a9564d1ab8c9b980f928e80be27030"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.639289Z"/>
+<entry
+   committed-rev="4218"
+   name="dtalk_sp_dic.pdb"
+   text-time="2006-03-22T15:25:39.061159Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7836d8196db1f42f5b86156cd0cb0cbd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.686163Z"/>
+<entry
+   committed-rev="4218"
+   name="dtalk_us_dic.pdb"
+   text-time="2006-03-22T15:25:39.108033Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="7d2f4b1cce9c90c7722b7884258e38e8"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.686163Z"/>
+<entry
+   committed-rev="4218"
+   name="usgp08FN5032_pni.pdb"
+   text-time="2006-03-22T15:25:39.186157Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="54eb022fbfeef2e11572858e0163ad89"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.701788Z"/>
+<entry
+   committed-rev="4218"
+   name="dtalk_la_dic.pdb"
+   text-time="2006-03-22T15:25:39.139283Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="d01863c896ccdf1b5db3388af7087491"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.701788Z"/>
+<entry
+   committed-rev="4213"
+   name="palmconfig_dectalksp.h"
+   text-time="2006-03-22T15:25:39.217407Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2800cc33395c6de59c9d40702f7ae3dd"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.748663Z"/>
+<entry
+   committed-rev="4218"
+   name="usdg08TN3033_pni.pdb"
+   text-time="2006-03-22T15:25:39.201782Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="808848956b8ee1e238b6f9a0378c294b"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.717413Z"/>
+<entry
+   committed-rev="4213"
+   name="palmconfig_dectalkus.h"
+   text-time="2006-03-22T15:25:39.233031Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="db4a9795d8f4dd52fc33513f57263d4d"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.764287Z"/>
+<entry
+   committed-rev="4218"
+   name="usdg11N3033_pni.pdb"
+   text-time="2006-03-22T15:25:39.279906Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="38a1803a41aff0919272130c2ac7b93a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.764287Z"/>
+<entry
+   committed-rev="4213"
+   name="FnxMachine.h"
+   text-time="2006-03-22T15:25:39.311155Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="81e00c7701be89d2c4d1df68e6ae162a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.795537Z"/>
+<entry
+   committed-rev="4218"
+   name="usdi11N5021_pni.pdb"
+   text-time="2006-03-22T15:25:39.295531Z"
+   committed-date="2006-03-18T06:17:45.516813Z"
+   checksum="5f37aff064eac42099d9f19de5f4b545"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.779912Z"/>
+<entry
+   committed-rev="4213"
+   name="dtfnxexstdlib.h"
+   text-time="2006-03-22T15:25:39.373655Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="340809bb1a42e70b9002c595b4829f70"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.873661Z"/>
+<entry
+   committed-rev="4213"
+   name="palmconfig_dectalkla.h"
+   text-time="2006-03-22T15:25:39.389279Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="d02327aacca67ea546f77c734142970c"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.904911Z"/>
+<entry
+   committed-rev="4213"
+   name="port.h"
+   text-time="2006-03-22T15:25:39.404904Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="888db77df9ad156bd58bf34aa7d52a14"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.936160Z"/>
+<entry
+   committed-rev="4213"
+   name="readme_palmos5.txt"
+   text-time="2006-03-22T15:25:39.420529Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="e69db46942d57fededece1394396ad25"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:38.936160Z"/>
+</wc-entries>

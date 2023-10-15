@@ -1,0 +1,38 @@
+Crash report for MEM_FREE (.20060919.092926A)
+
+Unhandled exception 0xc0000005 caught at 0x046d3f5c
+(The memory at address 0x046d3f5c could not be read.)
+
+IDE Version: 5.6.1.1832
+
+OS Version: Microsoft Windows 2000 Professional  (5.0.2195)
+
+Please send this crash log to <cw_bug@metrowerks.com>.
+Append the list of installed plugins saved from the dialog
+accessible through Help/About Metrowerks Codewarrior/Installed Products.
+
+Stack trace:
+	0x046d3f5c (MEM_FREE:0x08da7eb8) (EBP:0x04d5ff80)
+	0x77c3a243 (msvcrt.dll:0x77c3a243) (EBP:0x04d5ffb4)
+	0x7c80b683 (kernel32.dll:0x7c80b683) (EBP:0x04d5ffec)
+
+Module list:
+	C:\WINDOWS\system32\kernel32.dll (load: 0x7c800000, preferred: 0x7c800000)
+		version 5.1.2600.2945
+	C:\WINDOWS\system32\msvcrt.dll (load: 0x77c10000, preferred: 0x77c10000)
+		version 7.0.2600.2180
+
+Register Dump:
+	EAX:0x00000000 EDX:0x7c90eb94 ECX:0x7c8025f0 EBX:0x015fbee0
+	ESI:0x015fbf70 EDI:0x00000000 EBP:0x04d5ff80 ESP:0x04d5ff74
+	EIP:0x046d3f5c EFLAGS:0x00010202
+	CS:0x001b SS:0x0023 DS:0x0023 ES:0x0023
+	FS:0x003b GS:0x0000
+
+Stack Dump:
+04D5FF60: 00000000 C0000034 00366E68 00360178 00137A6C 00000000 00000001 000003BC 
+04D5FF80: 04D5FFB4 77C3A243 015FBED0 00000000 00000000 015FBEE0 C0000005 04D5FF8C 
+04D5FFA0: 04D5FB98 04D5FFDC 77C35C94 77C140C8 00000000 04D5FFEC 7C80B683 015FBEE0 
+04D5FFC0: 00000000 00000000 015FBEE0 7FFAB000 867C0600 04D5FFC0 85D95138 FFFFFFFF 
+04D5FFE0: 7C839AA8 7C80B690 00000000 00000000 00000000 77C3A1D7 015FBEE0 00000000 
+

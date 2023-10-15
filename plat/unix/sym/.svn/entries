@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4213"
+   name=""
+   committed-date="2006-03-18T03:37:13.062410Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/unix/sym"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="language.sym"
+   text-time="2006-03-22T15:25:58.810906Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="51717e52314451584dd5b194ccc192ef"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:58.795281Z"/>
+<entry
+   committed-rev="4213"
+   name="dectalk.sym"
+   text-time="2006-03-22T15:25:58.842155Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="61f5e22da642565430bf4155a9a11203"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:58.795281Z"/>
+</wc-entries>

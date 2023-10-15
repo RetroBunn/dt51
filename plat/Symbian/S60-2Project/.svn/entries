@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4342"
+   name=""
+   committed-date="2006-03-28T20:34:45.468037Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/Symbian/S60-2Project"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   name="FnxDtSimpleSp"
+   kind="dir"/>
+<entry
+   committed-rev="4213"
+   name="copyfiles.bat"
+   text-time="2006-03-22T15:25:55.232827Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="80bf9812a75e36a3d9ffcbb8df994f69"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:52.435987Z"/>
+<entry
+   name="FnxDtSimpleFr"
+   kind="dir"/>
+<entry
+   name="FnxDtSimpleUs"
+   kind="dir"/>
+<entry
+   name="FnxDtSimpleGr"
+   kind="dir"/>
+<entry
+   name="FnxDtSimpleJp"
+   kind="dir"/>
+<entry
+   name="FnxDtSimpleCh"
+   kind="dir"/>
+<entry
+   name="FnxDtSimpleIt"
+   kind="dir"/>
+<entry
+   name="FnxDtSimpleKr"
+   kind="dir"/>
+<entry
+   name="FnxDtSimpleLa"
+   kind="dir"/>
+<entry
+   committed-rev="4213"
+   name="buildDT.bat"
+   text-time="2006-03-22T15:25:55.310951Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="2d3430b74c9754ad1d05ef15468680f5"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:54.732833Z"/>
+<entry
+   name="FnxDtSimpleUk"
+   kind="dir"/>
+<entry
+   committed-rev="4213"
+   name="buildProjects.bat"
+   text-time="2006-03-22T15:25:55.342200Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="33fa7f13fddd9b1334218bbbaa41506f"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:25:55.232827Z"/>
+</wc-entries>

@@ -1,0 +1,52 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"5.0" 
+[WORKSPACE_DETAILS]
+"FonixTtsDtSimple" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimple.hws" "SuperH RISC engine" "Hitachi SuperH Standard" 
+[SHARED_WORKSPACE_CONTROL_STATUS]
+"" "" "" 
+"" "" "" 
+[PROJECTS]
+"FonixTtsDtSimpleJpStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleJpStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleJpStub_51\fonixttsdtsimplejpstub_51.hwp" 0 
+"FonixTtsDtSimpleGrStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleGrStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleGrStub_464\fonixttsdtsimplegrstub_464.hwp" 0 
+"FonixTtsDtSimpleItStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleItStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleItStub_464\fonixttsdtsimpleitstub_464.hwp" 0 
+"FonixTtsDtSimpleUkStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleUkStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleUkStub_464\fonixttsdtsimpleukstub_464.hwp" 0 
+"FonixTtsDtSimpleSp_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleSp_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleSp_464\fonixttsdtsimplesp_464.hwp" 0 
+"FonixTtsDtSimpleChStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleChStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleChStub_51\fonixttsdtsimplechstub_51.hwp" 0 
+"FonixTtsDtSimpleLaStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleLaStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleLaStub_464\fonixttsdtsimplelastub_464.hwp" 0 
+"FonixTtsDtSimpleKr_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleKr_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleKr_51\fonixttsdtsimplekr_51.hwp" 0 
+"FonixTtsDtSimpleUs_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleUs_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleUs_51\fonixttsdtsimpleus_51.hwp" 0 
+"FonixTtsDtSimpleKrStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleKrStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleKrStub_51\fonixttsdtsimplekrstub_51.hwp" 0 
+"FonixTtsDtSimpleFrStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleFrStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleFrStub_464\fonixttsdtsimplefrstub_464.hwp" 0 
+"FonixTtsDtSimple_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimple_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimple_51\fonixttsdtsimple_51.hwp" 0 
+"FonixTtsDtSimpleSpStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleSpStub_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleSpStub_464\fonixttsdtsimplespstub_464.hwp" 0 
+"FonixTtsDtSimpleHbStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleHbStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleHbStub_51\fonixttsdtsimplehpstub.hwp" 0 
+"FonixTtsDtSimpleIt_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleIt_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleIt_464\fonixttsdtsimpleit_464.hwp" 0 
+"FonixTtsDtSimpleUsStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleUsStub_51" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleUsStub_51\fonixttsdtsimpleusstub_51.hwp" 0 
+"FonixTtsDtSimpleFr_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleFr_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleFr_464\fonixttsdtsimplefr_464.hwp" 0 
+"FonixTtsDtSimpleGr_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleGr_464" "C:\dev\dtalk_51\plat\SH7337\projects\FonixTtsDtSimple\FonixTtsDtSimpleGr_464\fonixttsdtsimplegr_464.hwp" 0 
+[INFORMATION]
+"No information specified" 
+[SCRAP]
+[PROJECT_DEPENDENCY]
+[WORKSPACE_PROPERTIES]
+[VCS]
+"" "" "" 0 
+[VCS_PROJECT]
+[HELP_FILES]
+"c:\hew\tools\hitachi\sh\6_0_a\hew\stdlib.hlp" "C/C++ Standard Library Help" 1 
+[GENERAL_DATA_PROJECT]
+[SYSMENUTOOLS]
+[USERMENUTOOLS]
+[CUSTOMPLACEHOLDERS]
+[MAKEFILE_BUILD_INFO]
+"$(WORKSPDIR)\make\$(PROJECTNAME).mak" "" 0 0 
+[VD_CONFIGURATION_OPTIONS]
+"ACTIVE_DESKTOP" "0" 
+[VD_CONFIGURATIONS]
+"3" "Default4" "0" 
+"2" "Default3" "0" 
+"1" "Default2" "0" 
+"0" "Default1" "0" 
+[END]

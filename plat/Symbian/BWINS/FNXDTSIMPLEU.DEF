@@ -1,0 +1,13 @@
+EXPORTS
+	FnxTTSDtSimpleChangeVoice @ 1 NONAME
+	FnxTTSDtSimpleClose @ 2 NONAME
+	FnxTTSDtSimpleGetSpeechData @ 3 NONAME
+	FnxTTSDtSimpleHaltSpeech @ 4 NONAME
+	FnxTTSDtSimpleOpen @ 5 NONAME
+	FnxTTSDtSimpleResetSpeech @ 6 NONAME
+	FnxTTSDtSimpleSetDictionary @ 7 NONAME
+	FnxTTSDtSimpleSetLanguage @ 8 NONAME
+	FnxTTSDtSimpleStart @ 9 NONAME
+	FnxTtsDtCloseSTDLIB @ 10 NONAME
+	FnxTTSDtSimpleGetThreadData @ 11 NONAME
+

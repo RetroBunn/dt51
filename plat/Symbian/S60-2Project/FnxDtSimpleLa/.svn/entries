@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4342"
+   name=""
+   committed-date="2006-03-28T20:34:45.468037Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/Symbian/S60-2Project/FnxDtSimpleLa"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4342"
+   name="FnxDtSimpleLa.mmp"
+   text-time="2006-04-06T18:04:39.187500Z"
+   committed-date="2006-03-28T20:34:45.468037Z"
+   checksum="d0f0f05f11ac4e4b782d5e7667e7a219"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-04-06T18:04:39.125000Z"/>
+<entry
+   committed-rev="4342"
+   name="FnxDtLTS_La.mmp"
+   text-time="2006-04-06T18:04:39.218750Z"
+   committed-date="2006-03-28T20:34:45.468037Z"
+   checksum="1f7d3b9b4e8d22ff8dc1d3804ff5a00e"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-04-06T18:04:39.140625Z"/>
+<entry
+   committed-rev="4342"
+   name="Bld.inf"
+   text-time="2006-04-06T18:04:39.234375Z"
+   committed-date="2006-03-28T20:34:45.468037Z"
+   checksum="bafe37b69669b2ca93b62bb8ee487a68"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-04-06T18:04:39.171875Z"/>
+</wc-entries>

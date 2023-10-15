@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4213"
+   name=""
+   committed-date="2006-03-18T03:37:13.062410Z"
+   url="http://svn.fonix.com/dectalk/branches/ad-new-structure/DECtalk/plat/wince/include"
+   last-author="ldavis"
+   kind="dir"
+   uuid="8adfa2db-1bed-0310-8d00-c1158ccc3639"
+   repos="http://svn.fonix.com/dectalk"
+   revision="6191"/>
+<entry
+   committed-rev="4213"
+   name="PROCESS.H"
+   text-time="2006-03-22T15:26:04.263961Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="42d6d16f106056a81b53e8c650b24144"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:04.201462Z"/>
+<entry
+   committed-rev="4213"
+   name="TIME.H"
+   text-time="2006-03-22T15:26:04.279586Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="9f5f6bb3f1cd6e2685084a0241b0043a"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:04.217087Z"/>
+<entry
+   committed-rev="4213"
+   name="ASSERT.H"
+   text-time="2006-03-22T15:26:04.295211Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="38b9abdda4eee348c75200cc4fedba43"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:04.232711Z"/>
+<entry
+   committed-rev="4213"
+   name="STDIO.H"
+   text-time="2006-03-22T15:26:04.310835Z"
+   committed-date="2006-03-18T03:37:13.062410Z"
+   checksum="ab79c7ef6688d4f66031b7c158526fd9"
+   last-author="ldavis"
+   kind="file"
+   prop-time="2006-03-22T15:26:04.248336Z"/>
+</wc-entries>
