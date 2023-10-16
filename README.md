@@ -3,6 +3,46 @@
 The code in this repository pertains to version 5.1 of the synthesizer, which dates to about 2005-2006, which was owned by Fonix Corp. This appears to be a beta of what would later become the company's flagship FonixTalk text-to-speech product.
 ## Background
 These files were originally shared by a former Fonix Corp. developer on September 15, 2023 and preserved on a server at [datajake.braillescreen.net](https://datajake.braillescreen.net/tts/DECtalk%20source%20code%20archive/).
+## Supported Languages
+DECtalk 5.1 supported the following languages:
+* US English
+* UK English
+* Castilian Spanish
+* Latin American Spanish
+* German
+* French
+* Italian
+* Korean
+* Chinese
+* Japanese
+* Hebrew
+Each language is selected with the `[:lang xx]` command, where `xx is a two letter language code:
+* `us`: US English
+* `uk`: UK English
+* `sp`: Castilian Spanish
+* `la`: Latin American Spanish
+* `gr`: German
+* `fr`: French
+* `it`: Italian
+* `kr`: Korean
+* `ch`: Chinese
+* `jp`: Japanese
+* `hb`: Hebrew
+Note that Hebrew did not have any letter to sound (LTS) rules. This is because the language was specifically made for an application called TropeTrainer, which was a product developed by Tom Buchler that was designed to teach children how to chant the Torah. You can find [https://www.inverse.com/input/features/tropetrainer-thomas-buchler-torah-software])more info here). As such, you can only use phonemes with this language.
+## Voices
+In addition to the 9 standard DECtalk voices, DECtalk 5.1 included a set of 9 extra ones in its files.
+These can't normally be accessed via the speak window's **Voices** menu, so you must use the standard inline commands to change voices like you normally would.
+To access these hidden voices, append the letter of the voice you want to add to the `[:nx]` command (where `x` represents one of the following values):
+* `e`: Ed
+* `m`: Matt
+* `s`: Sue
+* `y`: Mary
+* `l`: Lynn
+* `t`: Tom
+* `i`: Ivan
+* `c`: Charline
+* `j`: Jackie
+Note that, on High-Compute, Jackie has a bug where only her consonants and fricative sounds are heard. Low-Compute does not have this issue.
 ## Building
 The Win32 files in this repo are designed to be built using Visual Studio 6.0.
 There is a great article on CodeProject which shows you how to install VS6.0 on modern versions of Windows. You can find it [here](https://www.codeproject.com/Articles/1191047/Install-Visual-Studio-on-Windows). If you do not want to deal with Compatibility Mode, your best bet is to use a virtual machine of a legacy version of Windows such as XP,  and install Visual Studio 6.0 from there.
