@@ -16,6 +16,7 @@ DECtalk 5.1 supported the following languages:
 * Chinese
 * Japanese
 * Hebrew
+
 Each language is selected with the `[:lang xx]` command, where `xx is a two letter language code:
 * `us`: US English
 * `uk`: UK English
@@ -28,6 +29,7 @@ Each language is selected with the `[:lang xx]` command, where `xx is a two lett
 * `ch`: Chinese
 * `jp`: Japanese
 * `hb`: Hebrew
+
 Note that Hebrew did not have any letter to sound (LTS) rules. This is because the language was specifically made for an application called TropeTrainer, which was a product developed by Tom Buchler that was designed to teach children how to chant the Torah. You can find [https://www.inverse.com/input/features/tropetrainer-thomas-buchler-torah-software])more info here). As such, you can only use phonemes with this language.
 ## Voices
 In addition to the 9 standard DECtalk voices, DECtalk 5.1 included a set of 9 extra ones in its files.
@@ -42,6 +44,7 @@ To access these hidden voices, append the letter of the voice you want to add to
 * `i`: Ivan
 * `c`: Charline
 * `j`: Jackie
+
 Note that, on High-Compute, Jackie has a bug where only her consonants and fricative sounds are heard. Low-Compute does not have this issue.
 ## Building
 The Win32 files in this repo are designed to be built using Visual Studio 6.0.
