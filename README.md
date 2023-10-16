@@ -30,7 +30,7 @@ Each language is selected with the `[:lang xx]` command, where `xx` is a two let
 * `jp`: Japanese
 * `hb`: Hebrew
 
-Note that Hebrew did not have any letter to sound (LTS) rules. This is because the language was specifically made for an application called TropeTrainer, which was a product developed by Tom Buchler that was designed to teach children how to chant the Torah. You can find [more information about that here])https://www.inverse.com/input/features/tropetrainer-thomas-buchler-torah-software). As such, you can only use phonemes with this language.
+Note that Hebrew did not have any letter to sound (LTS) rules. This is because the language was specifically made for an application called TropeTrainer, which was a product developed by Tom Buchler that was designed to teach children how to chant the Torah. You can find [more information about that here](https://www.inverse.com/input/features/tropetrainer-thomas-buchler-torah-software). As such, you can only use phonemes with this language.
 ## Voices
 In addition to the 9 standard DECtalk voices, DECtalk 5.1 included a set of 9 extra ones in its files.
 These can't normally be accessed via the speak window's **Voices** menu, so you must use the standard inline commands to change voices like you normally would.
