@@ -6,7 +6,17 @@ These files were originally shared by a former Fonix Corp. developer on Septembe
 ## Building
 The Win32 files in this repo are designed to be built using Visual Studio 6.0.
 There is a great article on CodeProject which shows you how to install VS6.0 on modern versions of Windows. You can find it [here](https://www.codeproject.com/Articles/1191047/Install-Visual-Studio-on-Windows). If you do not want to deal with Compatibility Mode, your best bet is to use a virtual machine of a legacy version of Windows such as XP,  and install Visual Studio 6.0 from there.
-Navigate to `plat/win32/project` and excecute `dectalk.dsw` to build the DLL files for DECtalk, including all languages and dictionaries.
+To build, navigate to `plat/win32/project` and excecute `dectalk.dsw` to build the DLL files for DECtalk, including all languages and dictionaries.
+Build files can be found in `plat/win32/build`.
+## Important Note for NVDA Users
+The `dectalk51.py` file expects a file called `dectalk51.dll` to be present in the `SynthDrivers` folder alongside the Python file. This was intentionally done so that you can have both DECtalk 5.1 and any other version of DECtalk installed at the same time.
+To use DECtalk 5.1 with NVDA, follow these steps:
+1. Copy the `nvda` folder in the root of this repository to your `addons` folder of your NVDA user configuration directory, which is located in AppData/Roaming/nvda. On portable installations, it can be found in userConfig.
+2. Rename the `nvda` folder you just copied to `DECtalk 5.1`.
+3. If you have not built DECtalk, follow the instructions in the **Building** section to do so. Once you're finish compiling, navigate to either the `High-Compute` or the `Low-Compute` directory (depending on which components you chose to build). Navigate to the `release` subfolder.
+4. Copy `dectalk.dll`, `dtalk_us.dll`, and `dtalk_us.dic` to the `SynthDrivers` folder of the `DECtalk 5.1` directory you just made in step 2.
+5. Rename `dectalk.dll` to `dectalk51.dll`.
+
 ## What about Linux?
 Due to the code in this repository being out of date, it's not possible to build the synthesizer under newer Linux kernels (particularly 64-bit ones), despite there being files for a Linux version internally.
 If you wish to build a version of DECtalk under newer Linux kernels, and/or build against a modern version of Visual Studio, check out the activity in [this repository](https://www.github.com/dectalk/dectalk).
