@@ -656,8 +656,8 @@ const short ursula[SPDEF] =
 	600,		/* B5 (bandwidth in Hz of cascaded 5th formant) */
 	4450,		/* F7 (frequency in Hz of parallel 4th formant = F7) */
 	4900,		/* F8 (frequency in Hz of parallel 5th formant = F8) */
-    60,         /* GF (gain of frication source in dB) */
-    55,         /* GH (gain of aspiration source in dB) */
+    59,         /* GF (gain of frication source in dB) */
+    54,         /* GH (gain of aspiration source in dB) */
 	60,			/* GV (gain of voicing source in dB ) */
 	70,			/* GN (gain of input to cascade  pole pair in dB) */
 	69,			/* G1 (gain of input to cascade 5th formant in dB) */
@@ -733,7 +733,7 @@ const short rita[SPDEF] =
 	100,		/* AS (assertiveness, degree of final f0 fall in % */
 	190,		/* AP (Average pitch in Hz) */
 	100,		/* PR (pitch range in percent of Paul's range) */
-	40,			/* BR (breathiness in dB) */
+	39,			/* BR (breathiness in dB) */
 	40,			/* RI (Richness in %, actually nopen is 100-RI % of T0) */
 	0,			/* NF (additional fixed number of samples in nopen) */
 	0,			/* LA (laryngealization, in percent) */
@@ -744,15 +744,15 @@ const short rita[SPDEF] =
 	ZAPB,		/* B5 (bandwidth in Hz of cascaded 5th formant) */
 	4040,		/* F7 (frequency in Hz of parallel 4th formant = F7) */
 	ZAPF,		/* F8 (frequency in Hz of parallel 5th formant = F8) */
-    60,         /* GF (gain of frication source in dB) */
-    45,         /* GH (gain of aspiration source in dB) */
-	50,			/* GV (gain of voicing source in dB ) */
-	40,			/* GN (gain of input to cascade nasal pole pair in dB) */
-	66,			/* G1 (gain of input to cascade 5th formant in dB) */
-	65,			/* G2 (gain of input to cascade 4th formant in dB) */
-	60,			/* G3 (gain of input to cascade 3rd formant in dB) */
-	65,			/* G4 (gain of input to cascade 2nd formant in dB) */
-	63,			/* LO (Loudness, gain input to cascade 1st formant in dB) */
+    59,         /* GF (gain of frication source in dB) */
+    44,         /* GH (gain of aspiration source in dB) */
+	49,			/* GV (gain of voicing source in dB ) */
+	39,			/* GN (gain of input to cascade nasal pole pair in dB) */
+	61,			/* G1 (gain of input to cascade 5th formant in dB) */
+	64,			/* G2 (gain of input to cascade 4th formant in dB) */
+	59,			/* G3 (gain of input to cascade 3rd formant in dB) */
+	64,			/* G4 (gain of input to cascade 2nd formant in dB) */
+	62,			/* LO (Loudness, gain input to cascade 1st formant in dB) */
 	30,			/* FT (f0-dependent spectral tilt in % of max) */
 	10,			/* BF (baseline f0 fall in Hz) */
 	60,			/* LX (lax folds adjacent to voiceless sound -> breathiness) */
@@ -820,7 +820,7 @@ const short wendy[SPDEF] =
 	50,	   			/* AS (assertiveness, degree of final f0 fall in % */
 	195,			/* AP (Average pitch in Hz) */
 	100,			/* PR (pitch range in percent of Paul's range) */
-	45,				/* BR (breathiness in dB) */
+	44,				/* BR (breathiness in dB) */
 	20,				/* RI (Richness in %, actually nopen is 100-RI % of T0) */
 	10,				/* NF (additional fixed number of samples in nopen) */
 	0,				/* LA (laryngealization, in percent) */
@@ -832,15 +832,15 @@ const short wendy[SPDEF] =
 	4200,			/* F7 (frequency in Hz of parallel 4th formant = F7) */
 	4800,			/* F8 (frequency in Hz of parallel 5th formant = F8) */
 					/* complaints that whisper voice sometimes overload-dropped source  2db for Wendy doctor and frank */
-	55,				/* GF (gain of frication source in dB) */
-	55,				/* GH (gain of aspiration source in dB) */
-	59,				/* GV (gain of voicing source in dB ) */
-	71,				/* GN (gain of input to cascade nasal pole pair in dB) */
-	69,				/* G1 (gain of input to cascade 5th formant in dB) */
-	78,				/* G2 (gain of input to cascade 4th formant in dB) */
-	56,				/* G3 (gain of input to cascade 3rd formant in dB) */
-	57,				/* G4 (gain of input to cascade 2nd formant in dB) */
-	68,				/* LO (Loudness, gain input to cascade 1st formant in dB) */
+	54,				/* GF (gain of frication source in dB) */
+	54,				/* GH (gain of aspiration source in dB) */
+	58,				/* GV (gain of voicing source in dB ) */
+	70,				/* GN (gain of input to cascade nasal pole pair in dB) */
+	68,				/* G1 (gain of input to cascade 5th formant in dB) */
+	77,				/* G2 (gain of input to cascade 4th formant in dB) */
+	55,				/* G3 (gain of input to cascade 3rd formant in dB) */
+	56,				/* G4 (gain of input to cascade 2nd formant in dB) */
+	67,				/* LO (Loudness, gain input to cascade 1st formant in dB) */
 	100,			/* FT (f0-dependent spectral tilt in % of max) */
 	10,				/* BF (baseline f0 fall in Hz) */
 	80,				/* LX (lax folds adjacent to voiceless sound -> breathiness) */
