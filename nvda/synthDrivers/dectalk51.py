@@ -148,15 +148,24 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 		synthDriverHandler.synthDoneSpeaking,
 	}
 	_voices = OrderedDict()
-	_voices["Paul"] = {"name": "Paul", "pitch": 100, "inflection": 100}
-	_voices["Betty"] = {"name": "Betty", "pitch": 180, "inflection": 100}
-	_voices["Harry"] = {"name": "Harry", "pitch": 87, "inflection": 80}
-	_voices["Frank"] = {"name": "Frank", "pitch": 110, "inflection": 100}
-	_voices["Dennis"] = {"name": "Dennis", "pitch": 110, "inflection": 100}
-	_voices["Kit"] = {"name": "Kit", "pitch": 285, "inflection": 120}
-	_voices["Ursula"] = {"name": "Ursula", "pitch": 220, "inflection": 100}
-	_voices["Rita"] = {"name": "Rita", "pitch": 190, "inflection": 100}
-	_voices["Wendy"] = {"name": "Wendy", "pitch": 195, "inflection": 100}
+	_voices["p"] = {"name": "Paul", "pitch": 100, "inflection": 100}
+	_voices["b"] = {"name": "Betty", "pitch": 180, "inflection": 100}
+	_voices["h"] = {"name": "Harry", "pitch": 87, "inflection": 80}
+	_voices["f"] = {"name": "Frank", "pitch": 110, "inflection": 100}
+	_voices["d"] = {"name": "Dennis", "pitch": 110, "inflection": 100}
+	_voices["k"] = {"name": "Kit", "pitch": 285, "inflection": 120}
+	_voices["u"] = {"name": "Ursula", "pitch": 220, "inflection": 100}
+	_voices["r"] = {"name": "Rita", "pitch": 190, "inflection": 100}
+	_voices["w"] = {"name": "Wendy", "pitch": 195, "inflection": 100}
+	_voices["e"] = {"name": "Ed", "pitch": 122, "inflection": 91}
+	_voices["m"] = {"name": "Matt", "pitch": 104, "inflection": 100}
+	_voices["s"] = {"name": "Sue", "pitch": 175, "inflection": 100}
+	_voices["y"] = {"name": "Mary", "pitch": 240, "inflection": 100}
+	_voices["l"] = {"name": "Lynn", "pitch": 125, "inflection": 100}
+	_voices["t"] = {"name": "Tom", "pitch": 200, "inflection": 80}
+	_voices["i"] = {"name": "Ivan", "pitch": 110, "inflection": 100}
+	_voices["c"] = {"name": "Charline", "pitch": 190, "inflection": 120}
+	_voices["j"] = {"name": "Jackie", "pitch": 285, "inflection": 120}
 	minInflection = 0
 	maxInflection = 250
 	minPitch = 50
@@ -181,7 +190,7 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 		buf = windll.kernel32.MapViewOfFile(self.mapping, 2, 0, 0, 0)
 		array = (c_char * 512).from_address(buf)
 		array.value = b"\0\0\0\0r250hRm2no9fmP75YwvRhnRB81Uv6vZOTb7SdKWKae8k3BXL8U6r??3B0P91"
-		self._voice = "Paul"
+		self._voice = "p"
 		self.dt_inflection = self._voices[self._voice]["inflection"]
 		self.dt_pitch = self._voices[self._voice]["pitch"]
 		self.dt_rate = 180
@@ -359,7 +368,7 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 		self.dt_pitch = self._voices[val]["pitch"]
 		self.dt_inflection = self._voices[val]["inflection"]
 		self._voice = val
-		dectalk.TextToSpeechSpeak(self.handle, f"[:name {val[0].lower()}]".encode("latin-1"), 1)
+		dectalk.TextToSpeechSpeak(self.handle, f"[:n{val[0].lower()}]".encode("latin-1"), 1)
 
 	def _get_availableVoices(self):
 		voices = OrderedDict()
