@@ -572,15 +572,15 @@ const short kit[SPDEF] =
 	ZAPB,		/* B5 (bandwidth in Hz of cascaded 5th formant) */
 	4450,		/* F7 (frequency in Hz of parallel 4th formant = F7) */
 	4800,		/* F8 (frequency in Hz of parallel 5th formant = F8) */
-	60,			/* GF (gain of frication source in dB) */
-	55,			/* GH (gain of aspiration source in dB) */
-	60,			/* GV (gain of voicing source in dB ) */
+	59,			/* GF (gain of frication source in dB) */
+	54,			/* GH (gain of aspiration source in dB) */
+	59,			/* GV (gain of voicing source in dB ) */
 	68,			/* GN (gain of input to cascade nasal pole pair in dB) */
 	65,			/* G1 (gain of input to cascade 5th formant in dB) */
-	69,			/* G2 (gain of input to cascade 4th formant in dB) */
-	60,			/* G3 (gain of input to cascade 3rd formant in dB) */
-	55,			/* G4 (gain of input to cascade 2nd formant in dB) */
-	65,			/* LO (Loudness, gain input to cascade 1st formant in dB) */
+	68,			/* G2 (gain of input to cascade 4th formant in dB) */
+	59,			/* G3 (gain of input to cascade 3rd formant in dB) */
+	54,			/* G4 (gain of input to cascade 2nd formant in dB) */
+	64,			/* LO (Loudness, gain input to cascade 1st formant in dB) */
 	75,			/* FT (f0-dependent spectral tilt in % of max) */
 	10,			/* BF (baseline f0 fall in Hz) */
 	75,			/* LX (lax folds adjacent to voiceless sound -> breathiness) */
@@ -663,8 +663,8 @@ const short ursula[SPDEF] =
 	69,			/* G1 (gain of input to cascade 5th formant in dB) */
 	73,			/* G2 (gain of input to cascade 4th formant in dB) */
     55,         /* G3 (gain of input to cascade 3rd formant in dB) */
-	59,			/* G4 (gain of input to cascade 2nd formant in dB) */
-	66,			/* LO (Loudness, gain input to cascade 1st formant in dB) */
+	58,			/* G4 (gain of input to cascade 2nd formant in dB) */
+	65,			/* LO (Loudness, gain input to cascade 1st formant in dB) */
 	60,			/* FT (f0-dependent spectral tilt in % of max) */
 	18,			/* BF (baseline f0 fall in Hz) */
 	50,			/* LX (lax folds adjacent to voiceless sound -> breathiness) */
