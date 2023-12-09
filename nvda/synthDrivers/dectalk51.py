@@ -167,9 +167,9 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 	_voices["c"] = {"name": "Charline", "pitch": 190, "inflection": 120}
 	_voices["j"] = {"name": "Jackie", "pitch": 285, "inflection": 120}
 	minInflection = 0
-	maxInflection = 250
+	maxInflection = 350
 	minPitch = 50
-	maxPitch = 300
+	maxPitch = 350
 	minRate = 75
 	maxRate = 650
 	wmIndex = 0
