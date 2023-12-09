@@ -169,7 +169,7 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 	minInflection = 0
 	maxInflection = 250
 	minPitch = 50
-	maxPitch = 350
+	maxPitch = 300
 	minRate = 75
 	maxRate = 650
 	wmIndex = 0
