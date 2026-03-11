@@ -28,10 +28,15 @@ import threading
 import config
 from logHandler import log
 from nvwave import WavePlayer
+try: from nvwave import usingWasapiWavePlayer
+except:
+	def usingWasapiWavePlayer():
+		return False
 import speech
 from speech.commands import IndexCommand, CharacterModeCommand, PitchCommand, SpeechCommand
 import synthDriverHandler
 from winUser import WNDCLASSEXW, WNDPROC
+from autoSettingsUtils.driverSetting import NumericDriverSetting, BooleanDriverSetting
 
 
 DECTALK_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "dectalk51.dll"))
@@ -137,6 +142,8 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 		synthDriverHandler.SynthDriver.RateSetting(),
 		synthDriverHandler.SynthDriver.PitchSetting(),
 		synthDriverHandler.SynthDriver.InflectionSetting(),
+		synthDriverHandler.SynthDriver.VolumeSetting(),
+		BooleanDriverSetting("pauses", _("&Shorten pauses"), True, defaultVal=True),
 	)
 	supportedCommands = {
 		IndexCommand,
@@ -158,20 +165,21 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 	_voices["r"] = {"name": "Rita", "pitch": 190, "inflection": 100}
 	_voices["w"] = {"name": "Wendy", "pitch": 195, "inflection": 100}
 	_voices["e"] = {"name": "Ed", "pitch": 122, "inflection": 91}
-	_voices["m"] = {"name": "Matt", "pitch": 104, "inflection": 100}
 	_voices["s"] = {"name": "Sue", "pitch": 175, "inflection": 100}
-	_voices["y"] = {"name": "Mary", "pitch": 240, "inflection": 100}
+	_voices["m"] = {"name": "Matt", "pitch": 104, "inflection": 100}
 	_voices["l"] = {"name": "Lynn", "pitch": 125, "inflection": 100}
+	_voices["j"] = {"name": "Jackie", "pitch": 285, "inflection": 120}
+	_voices["y"] = {"name": "Mary", "pitch": 240, "inflection": 100}
+	_voices["c"] = {"name": "Charline", "pitch": 190, "inflection": 120}
 	_voices["t"] = {"name": "Tom", "pitch": 200, "inflection": 80}
 	_voices["i"] = {"name": "Ivan", "pitch": 110, "inflection": 100}
-	_voices["c"] = {"name": "Charline", "pitch": 190, "inflection": 120}
-	_voices["j"] = {"name": "Jackie", "pitch": 285, "inflection": 120}
 	minInflection = 0
-	maxInflection = 350
+	maxInflection = 300
 	minPitch = 50
 	maxPitch = 350
 	minRate = 75
 	maxRate = 650
+	_pauses=True
 	wmIndex = 0
 	wmBuffer = 0
 	appInstance = windll.kernel32.GetModuleHandleW(None)
@@ -194,6 +202,7 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 		self.dt_inflection = self._voices[self._voice]["inflection"]
 		self.dt_pitch = self._voices[self._voice]["pitch"]
 		self.dt_rate = 180
+		self.dt_volume = 1
 		self.audioData = BytesIO()
 		self.setup_wndproc()
 		self._messageWindowClassAtom = windll.user32.RegisterClassExW(byref(self.nvdaDtSoftWndCls))
@@ -233,7 +242,7 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 		self.mem_buffer.dwMaximumNumberOfIndexMarks = INDEX_ARRAY_SIZE
 		dectalk.TextToSpeechOpenInMemory(self.handle, FORMAT)
 		dectalk.TextToSpeechAddBuffer(self.handle, byref(self.mem_buffer))
-		self.player = WavePlayer(1, 11025, 16, outputDevice=config.conf["speech"]["outputDevice"])
+		self.player = WavePlayer(1, 11025, 16, outputDevice=config.conf["audio"]["outputDevice"])
 		self.audioQueue = SimpleQueue()  # For audio and indexes.
 		self.audio_thread = BgThread(self.audioQueue)
 		self.audio_thread.start()
@@ -287,7 +296,9 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 			":punctuation some",  # NVDA will handle punctuation.
 			f":dv ap {self.dt_pitch}",
 			f":dv pr {self.dt_inflection}]",
+			"[:period 0] [:comma 0]"
 		]
+		if self._pauses: textList.append("[:period -380] [:comma -40]")
 		for item in speechSequence:
 			if isinstance(item, str):
 				# Prevent control strings from going into our text from input.
@@ -360,6 +371,21 @@ class SynthDriver(synthDriverHandler.SynthDriver):
 		val = self._percentToParam(rate, self.minRate, self.maxRate)
 		self.dt_rate = val
 		dectalk.TextToSpeechSpeak(self.handle, b"[:rate %d]" % val, 1)
+
+	def _get_volume(self):
+		return int(self.dt_volume*100)
+
+	def _set_volume(self, volume):
+		val = volume/100
+		self.dt_volume = val
+		self.player.setVolume(all=val)
+
+	def _get_pauses(self):
+		return self._pauses
+
+	def _set_pauses(self, pauses):
+		if self._pauses==pauses: return
+		self._pauses = pauses
 
 	def _get_voice(self):
 		return self._voice
