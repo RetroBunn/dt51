@@ -1,0 +1,238 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dtdemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc'
+
+Creating command line "rc.exe /l 0x409 /fo".\..\build\dtdemo\us\release\link/speak.res" /i "\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak" /i "\work\PRODUCT\samples\speak" /i "\work\rnd\samples\speak" /i "\work\ad\samples\speak" /i "\work\rnd.007\samples\speak" /i "D:\Work\rnd\samples\speak" /d "NDEBUG" /d "DEMO" /d "ENGLISH_US" /d "ENGLISH" "C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPC8C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\api" /I "..\.." /I ".\ph" /I ".\include\\" /I ".\nt\\" /D "NDEBUG" /D "ENGLISH_US" /D "WIN32" /D "_WINDOWS" /D "DEMO" /D "DTDEMO" /D "ENGLISH" /Fp".\..\build\dtdemo\us\release\link/dtdemo.pch" /YX /Fo".\..\build\dtdemo\us\release\link/" /Fd".\..\build\dtdemo\us\release\link/" /FD /c 
+"C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\Speak.c"
+]
+Creating command line "cl.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPC8C.tmp"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPC8D.tmp" with contents
+[
+.\..\build\dtstatic\us\demo\dtstatic.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\..\build\dtdemo\us\release/dtdemo.pdb" /machine:I386 /out:".\..\build\dtdemo\us\release/dtdemo.exe" 
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\us\release\link\Speak.obj"
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\us\release\link\speak.res"
+]
+Creating command line "link.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPC8D.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+dtdemo.exe - 1 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: dtdemo - Win32 Release Spanish--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc'
+
+Creating command line "rc.exe /l 0x409 /fo".\..\build\dtdemo\sp\release\link/speak.res" /i "\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak" /i "\work\PRODUCT\samples\speak" /i "\work\rnd\samples\speak" /i "\work\ad\samples\speak" /i "\work\rnd.007\samples\speak" /i "D:\Work\rnd\samples\speak" /d "NDEBUG" /d "DEMO" /d "SPANISH" "C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPD69.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\api" /I "..\.." /D "NDEBUG" /D "SPANISH" /D "SPANISH_SP" /D "WIN32" /D "_WINDOWS" /D "DEMO" /D "DTDEMO" /Fp".\..\build\dtdemo\sp\release\link/dtdemo.pch" /YX /Fo".\..\build\dtdemo\sp\release\link/" /Fd".\..\build\dtdemo\sp\release\link/" /FD /c 
+"C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\Speak.c"
+]
+Creating command line "cl.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPD69.tmp"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPD6A.tmp" with contents
+[
+.\..\build\dtstatic\sp\demo\dtstatic.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\..\build\dtdemo\sp\release/dtdemo.pdb" /machine:I386 /out:".\..\build\dtdemo\sp\release/dtdemo.exe" 
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\sp\release\link\Speak.obj"
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\sp\release\link\speak.res"
+]
+Creating command line "link.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPD6A.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+dtdemo.exe - 1 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: dtdemo - Win32 Release German--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc'
+
+Creating command line "rc.exe /l 0x409 /fo".\..\build\dtdemo\gr\release\link/speak.res" /i "\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak" /i "\work\PRODUCT\samples\speak" /i "\work\rnd\samples\speak" /i "\work\ad\samples\speak" /i "\work\rnd.007\samples\speak" /i "D:\Work\rnd\samples\speak" /d "NDEBUG" /d "DEMO" /d "GERMAN" "C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPDC9.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\api" /I "..\.." /D "NDEBUG" /D "GERMAN" /D "WIN32" /D "_WINDOWS" /D "DEMO" /D "DTDEMO" /Fp".\..\build\dtdemo\gr\release\link/dtdemo.pch" /YX /Fo".\..\build\dtdemo\gr\release\link/" /Fd".\..\build\dtdemo\gr\release\link/" /FD /c 
+"C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\Speak.c"
+]
+Creating command line "cl.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPDC9.tmp"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPDCA.tmp" with contents
+[
+.\..\build\dtstatic\gr\demo\dtstatic.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\..\build\dtdemo\gr\release/dtdemo.pdb" /machine:I386 /out:".\..\build\dtdemo\gr\release/dtdemo.exe" 
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\gr\release\link\Speak.obj"
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\gr\release\link\speak.res"
+]
+Creating command line "link.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPDCA.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+dtdemo.exe - 1 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: dtdemo - Win32 Release Latin American--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc'
+
+Creating command line "rc.exe /l 0x409 /fo".\..\build\dtdemo\la\release\link/speak.res" /i "\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak" /i "\work\PRODUCT\samples\speak" /i "\work\rnd\samples\speak" /i "\work\ad\samples\speak" /i "\work\rnd.007\samples\speak" /i "D:\Work\rnd\samples\speak" /d "NDEBUG" /d "DEMO" /d "SPANISH" /d "LATIN_AMERICAN" "C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPE28.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\api" /I "..\.." /D "NDEBUG" /D "SPANISH" /D "SPANISH_LA" /D "WIN32" /D "_WINDOWS" /D "DEMO" /D "DTDEMO" /Fp".\..\build\dtdemo\la\release\link/dtdemo.pch" /YX /Fo".\..\build\dtdemo\la\release\link/" /Fd".\..\build\dtdemo\la\release\link/" /FD /c 
+"C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\Speak.c"
+]
+Creating command line "cl.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPE28.tmp"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPE29.tmp" with contents
+[
+.\..\build\dtstatic\la\demo\dtstatic.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\..\build\dtdemo\la\release/dtdemo.pdb" /machine:I386 /out:".\..\build\dtdemo\la\release/dtdemo.exe" 
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\la\release\link\Speak.obj"
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\la\release\link\speak.res"
+]
+Creating command line "link.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPE29.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+dtdemo.exe - 1 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: dtdemo - Win32 Release United Kingdom--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc'
+
+Creating command line "rc.exe /l 0x409 /fo".\..\build\dtdemo\uk\release\link/speak.res" /i "\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak" /i "\work\PRODUCT\samples\speak" /i "\work\rnd\samples\speak" /i "\work\ad\samples\speak" /i "\work\rnd.007\samples\speak" /i "D:\Work\rnd\samples\speak" /d "NDEBUG" /d "DEMO" /d "ENGLISH_US" /d "ENGLISH" "C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPED6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\api" /I "..\.." /D "NDEBUG" /D "ENGLISH_UK" /D "WIN32" /D "_WINDOWS" /D "DEMO" /D "DTDEMO" /D "ENGLISH" /Fp".\..\build\dtdemo\uk\release\link/dtdemo.pch" /YX /Fo".\..\build\dtdemo\uk\release\link/" /Fd".\..\build\dtdemo\uk\release\link/" /FD /c 
+"C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\Speak.c"
+]
+Creating command line "cl.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPED6.tmp"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPED7.tmp" with contents
+[
+.\..\build\dtstatic\uk\demo\dtstatic.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\..\build\dtdemo\uk\release/dtdemo.pdb" /machine:I386 /out:".\..\build\dtdemo\uk\release/dtdemo.exe" 
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\uk\release\link\Speak.obj"
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\uk\release\link\speak.res"
+]
+Creating command line "link.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPED7.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+dtdemo.exe - 1 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: dtdemo - Win32 Release French--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc'
+
+Creating command line "rc.exe /l 0x409 /fo".\..\build\dtdemo\fr\release\link/speak.res" /i "\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak" /i "\work\PRODUCT\samples\speak" /i "\work\rnd\samples\speak" /i "\work\ad\samples\speak" /i "\work\rnd.007\samples\speak" /i "D:\Work\rnd\samples\speak" /d "NDEBUG" /d "DEMO" /d "ENGLISH_US" /d "ENGLISH" "C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPFD2.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\api" /I "..\.." /D "NDEBUG" /D "FRENCH" /D "WIN32" /D "_WINDOWS" /D "DEMO" /D "DTDEMO" /Fp".\..\build\dtdemo\fr\release\link/dtdemo.pch" /YX /Fo".\..\build\dtdemo\fr\release\link/" /Fd".\..\build\dtdemo\fr\release\link/" /FD /c 
+"C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\Speak.c"
+]
+Creating command line "cl.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPFD2.tmp"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPFD3.tmp" with contents
+[
+.\..\build\dtstatic\fr\demo\dtstatic.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\..\build\dtdemo\fr\release/dtdemo.pdb" /machine:I386 /out:".\..\build\dtdemo\fr\release/dtdemo.exe" 
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\fr\release\link\Speak.obj"
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\fr\release\link\speak.res"
+]
+Creating command line "link.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSPFD3.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+dtdemo.exe - 1 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: dtdemo - Win32 Release Italian--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc'
+
+Creating command line "rc.exe /l 0x409 /fo".\..\build\dtdemo\it\release\link/speak.res" /i "\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak" /i "\work\PRODUCT\samples\speak" /i "\work\rnd\samples\speak" /i "\work\ad\samples\speak" /i "\work\rnd.007\samples\speak" /i "D:\Work\rnd\samples\speak" /d "NDEBUG" /d "DEMO" /d "ENGLISH_US" /d "ENGLISH" "C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSP109F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\api" /I "..\.." /D "NDEBUG" /D "ITALIAN" /D "WIN32" /D "_WINDOWS" /D "DEMO" /D "DTDEMO" /Fp".\..\build\dtdemo\it\release\link/dtdemo.pch" /YX /Fo".\..\build\dtdemo\it\release\link/" /Fd".\..\build\dtdemo\it\release\link/" /FD /c 
+"C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\Speak.c"
+]
+Creating command line "cl.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSP109F.tmp"" 
+Creating temporary file "C:\Users\Miguel Villagomez\AppData\Local\Temp\RSP10A0.tmp" with contents
+[
+.\..\build\dtstatic\it\demo\dtstatic.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:".\..\build\dtdemo\it\release/dtdemo.pdb" /machine:I386 /out:".\..\build\dtdemo\it\release/dtdemo.exe" 
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\it\release\link\Speak.obj"
+"\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\win32\build\dtdemo\it\release\link\speak.res"
+]
+Creating command line "link.exe @"C:\Users\Miguel Villagomez\AppData\Local\Temp\RSP10A0.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+
+
+RC : fatal error RC1110 : could not open C:\Users\Miguel Villagomez\Documents\GitHub\dt51\plat\samples\speak\speak.rc
+
+
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+dtdemo.exe - 1 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
